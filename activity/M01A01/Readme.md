@@ -1,7 +1,7 @@
 # 1. Parámetros generales requeridos para el diseño y la modelación
 Keywords: `technical-parameter` `legal-parameter` `environmental-parameter` `land-zone-parameter` `m01a01`
 
-Definición de parámetros generales y criterios a tener en cuenta para el diseño del canal artificial.
+Definición de parámetros generales y establecimiento de criterios a tener en cuenta para el diseño del canal artificial.
 
 <div align="center"><img src="graph/M1A01.png" alt="R.SIGE" width="50%" border="0" /></div>
 
@@ -40,28 +40,29 @@ Revisar los parámetros actualmente reportados e investigar y registrar parámet
 * Ambientales 
 * Sociales y territoriales adicionales a los ya indicados en el libro de cálculo.
 
-> En cada hoja y sección, agregue los elementos adicionales investigados en color rojo manteniendo los ya registrados. En caso de no encontrar nuevos parámetros, en la ficha de control documental - FCD indique el detalle de las fuentes consultadas y si verificó o no las fuentes y referencias suministradas.
+> En cada hoja y sección, agregue los elementos adicionales investigados en color rojo manteniendo los ya registrados. En caso de no encontrar nuevos parámetros, en la ficha de control documental - FCD, indique el detalle de las fuentes consultadas y si verificó o no las fuentes y referencias suministradas.
 
 
 ## Actividades de proyecto :triangular_ruler:
 
-En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada grupo de proyecto en un único archivo de Adobe Acrobat .pdf. El documento debe incluir portada (indicando el caso de estudio, número de avance, nombre del módulo, fecha de presentación, nombres completos de los integrantes), numeración de páginas, tabla de contenido, lista de tablas, lista de ilustraciones, introducción, objetivo general, capítulos por cada ítem solicitado, conclusiones y referencias bibliográficas.
+En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada estudiante o grupo de proyecto.
 
-| Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|:----------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M01A01    | Crear y reportar el repositorio final de proyecto OneDrive. [Reportar aquí.](https://forms.office.com/r/gVg8DjvVFh)                                                                                                                                                                                                                                                                                                                                 | 
-| M01A01    | Descargar el archivo [R.HydroTools.DisenoCaucesParametros.xlsx](https://github.com/rcfdtools/R.HydroTools/blob/main/tool/DisenoCaucesParametros/R.HydroTools.DisenoCaucesParametros.xlsx) disponible en GitHub, e incluirlo en el repositorio.                                                                                                                                                                                                      | 
-| M01A01    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las sub-actividades realizadas por cada integrante de su grupo. Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. Utilice las siguientes columnas: Nombre del integrante, Actividades realizadas, Tiempo dedicado en horas. | 
+| Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|:----------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| M01A01    | Crear y reportar el repositorio final de proyecto OneDrive. [Reportar aquí.](https://forms.office.com/r/gVg8DjvVFh)                                                                                                                                                                                                                                                                                                                             | 
+| M01A01    | Descargar el archivo [R.HydroTools.DisenoCaucesParametros.xlsx](https://github.com/rcfdtools/R.HydroTools/blob/main/tool/DisenoCaucesParametros/R.HydroTools.DisenoCaucesParametros.xlsx) disponible en GitHub, e incluirlo en el repositorio.                                                                                                                                                                                                  | 
+| M01A01    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo. Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. Utilice las siguientes columnas: Nombre del integrante, Actividades realizadas, Tiempo dedicado en horas. | 
 
 **A tener en cuenta**
 
 * Todos los valores adoptados se deben justificar técnicamente en la columna Descripción / Justificación / Referencias del libro de Excel. En caso de que lo considere necesario, agregue en color rojo justificaciones adicionales al final de las justificaciones existentes en el libro suministrado.
 * Cargar en el repositorio de proyecto, el libro de cálculo con los diferentes parámetros solicitados.
-* Una vez el instructor realice la revisión y el estudiante presente las correcciones o ajustes solicitados, será necesario cargar una nueva versión de los archivos en el repositorio del proyecto, incluyendo o actualizando al final del nombre del archivo, la fecha de presentación en formato aaaammdd y se deben mantener las versiones anteriores presentadas. Esto mismo aplica para todas las entregas del proyecto.
+* Una vez el instructor realice la revisión y el estudiante presente las correcciones o ajustes solicitados, será necesario cargar una nueva versión de los archivos en el repositorio del proyecto, incluyendo o actualizando al final del nombre del archivo, la fecha de presentación en formato aaaammdd manteniendo las versiones anteriores presentadas. Esto mismo aplica para todas las entregas del proyecto.
+
 
 ## Referencias
 
-* 
+* Indicadas en la columna de observaciones de las diferentes hojas del libro de parámetros.
 
 
 ## Control de versiones

@@ -41,7 +41,7 @@ Construir modelos de superficies 3D, combinando la información topográfica o d
 * Antes de cada clase, los participantes investigarán los conceptos específicos a tratar y definirán de acuerdo con su criterio los valores de los parámetros requeridos. Es indispensable la asistencia permanente para el desarrollo de cada taller, los resultados de cada taller serán insumo para el siguiente.
 
 
-**Evaluación**
+**:1st_place_medal: Evaluación**
 
 | Alcance                                                            |  %  | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:-------------------------------------------------------------------|:---:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -62,3 +62,15 @@ Construir modelos de superficies 3D, combinando la información topográfica o d
 > Para entregas regulares, la calificación final para el estudiante que presenta la entrega regular y las correcciones, es el promedio de las dos calificaciones obtenidas.
 
 
+## :open_file_folder:Software requerido y estructura de directorios
+
+Para el desarrollo del curso, son requeridas las siguientes herramientas:
+
+* [:toolbox:Herramienta](https://www.office.com/): Microsoft Office 365.
+* [:toolbox:Herramienta](https://qgis.org/): QGIS 3.42 o superior.
+* [:toolbox:Herramienta](https://notepad-plus-plus.org/): Notepad++.
+* [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-hms/): HEC-HMS 4.12 o superior.
+* [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-dssvue/): HEC-DSSVue 3.2.3 o superior.
+* [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/): HEC-RAS 6.6 o superior.
+* [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d): Autodesk Civil 3D 2025 o superior.
+* [:open_file_folder:Estructura de directorios](file/Readme.md)

@@ -1,6 +1,6 @@
 # Estructura de directorios
 
-Para el desarrollo del caso de estudio y del proyecto de clase, es necesario crear la siguiente estructura en su repositorio de proyecto.
+Para el desarrollo del caso de estudio y del proyecto de clase, es necesario crear la siguiente estructura en su repositorio de proyecto. [:open_file_folder: Descargar estructura Aquí.](R.HCMC.File.Structure.zip)
 
 > Atención: no incluya archivos en la raíz del repositorio, utilice la carpeta correspondiente. En caso de que requiera de la creación de archivos temporales, utilice la carpeta `\temp`.
 
@@ -23,5 +23,3 @@ Para el desarrollo del caso de estudio y del proyecto de clase, es necesario cre
 | [:open_file_folder:table](table)                   | Carpeta para el almacenamiento tablas de datos como: archivos de texto .txt, .asc diferentes de grillas, textos separados por comas .csv, archivos de Microsoft Excel .xls o .xlsx, archivos DBase File .dbf y bases de datos no espaciales en formato de Microsoft Access .mdb , .accdb o .accde , sqlite, Oracle.                                                                                                                              |
 | [:open_file_folder:temp](temp)                     | Carpeta para el almacenamiento temporal de datos que pueden ser eliminados completamente en cualquier momento. Por ejemplo, para la realización de pruebas preliminares o revisión de archivos descargados, antes de su incorporación a las carpetas oficiales del taller o el proyecto.                                                                                                                                                         |
 | [:open_file_folder:tool](tool)                     | Carpeta para el almacenamiento de herramientas complementarias de análisis e instaladores. Por ejemplo, archivos de instalación de herramientas HEC, visores de datos externos como Panoply, instaladores de Python y otras herramientas de uso libre.                                                                                                                                                                                           |
-
-[:open_file_folder: Descargar estructura de directorios.](R.HCMC.File.Structure.zip)

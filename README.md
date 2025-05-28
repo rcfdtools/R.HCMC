@@ -3,7 +3,7 @@
 # Herramientas computacionales para el diseño y modelación 1D/2D de cauces sinuosos - HCMC
 Keywords: `hec-ras` `hec-hms` `qgis` `autodesk-civil3d` `river-design` `river-modeling`
 
-Bienvenid@, en este curso, los participantes recibirán conceptos y metodologías generales aplicables al diseño y modelación de cauces artificiales sinuosos y obtendrán habilidades en el uso de diferentes herramientas computacionales como: HEC-HMS, HEC-RAS / RAS-Mapper, QGIS y Autodesk Civil 3D. 
+Bienvenid@, en este curso los participantes recibirán conceptos y metodologías generales aplicables al diseño y modelación de cauces artificiales sinuosos y obtendrán habilidades en el uso de diferentes herramientas computacionales, tales como: HEC-HMS, HEC-RAS / RAS-Mapper, QGIS y Autodesk Civil 3D. 
 
 Globalmente, diversos proyectos de ingeniería alteran el curso natural de los cauces transformando su morfología y comportamiento hidráulico. El diseño fluvial tiene como objetivo replicar el comportamiento natural de los cauces intervenidos a través del trazado de nuevos canales artificiales que cumplan con los parámetros de diseño establecidos.
 

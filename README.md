@@ -134,7 +134,7 @@ En este módulo se trazan en planta los ejes directrices del valle y río a part
 > Es recomendable revisar y ajustar los planos de ingeniería de detalle luego de que sea ejecutada la modelación hidráulica y verificación de cumplimiento de las condiciones de diseño.
 
 
-## :globe_with_meridians:Módulo IV – Modelación hidráulica 1D
+## :globe_with_meridians:Módulo III – Modelación hidráulica 1D
 
 En este módulo se realiza el ensamble en RAS-Mapper de la topología requerida del canal y paso de vía y se realiza la modelación hidráulica 1D en HEC-RAS para verificar mediante los resultados obtenidos, que el canal diseñado cumpla con las especificaciones geométricas e hidráulicas de diseño.
 
@@ -144,7 +144,9 @@ HEC-RAS tiene la capacidad de simular Flujo No Permanente, unidimensional o bidi
 Actualmente, los cálculos hidráulicos 1D realizados para secciones transversales, puentes, alcantarillas y otras estructuras hidráulicas pueden ser realizados en flujo no permanente. Otras características especiales incluyen: análisis de rotura de presas y diques, estaciones de bombeo, operación de presas para sistemas navegables, sistemas de tuberías a presión, calibración automatizada, reglas de operación definidas por el usuario y la combinación de modelos 1D y 2D.
 
 
-## :globe_with_meridians:Módulo V – Modelación hidráulica 2D
+
+
+## :globe_with_meridians:Módulo IV – Modelación hidráulica 2D
 
 En este módulo se ejecuta la modelación bidimensional del cauce diseñado mediante la construcción de mallas semiestructuradas, así como la mapificación y análisis de resultados.
 

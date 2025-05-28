@@ -1,6 +1,6 @@
 <div align="center"><a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-hidraulicos/" target="_blank"><img src="https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/CaseUse/.icons/IconCEHBanner.jpg" alt="R.LTWB" width="100%" border="0" /></a></div>
 
-# Herramientas computacionales para el diseño y modelación de cauces sinuosos
+# Herramientas computacionales para el diseño y modelación de cauces sinuosos - HCMC
 Keywords: `hec-ras` `hec-hms` `qgis` `autodesk-civil3d` `river-design` `river-modeling`
 
 Bienvenid@, en este curso, los participantes recibirán conceptos y metodologías generales aplicables al diseño y modelación de cauces artificiales sinuosos y obtendrán habilidades en el uso de diferentes herramientas computacionales como: HEC-HMS, HEC-GeoHMS, HEC-RAS, HEC-GeoRAS, QGIS y Autodesk Civil 3D. 

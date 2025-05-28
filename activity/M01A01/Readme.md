@@ -1,7 +1,7 @@
 # 1. Parámetros generales requeridos para el diseño y la modelación
 Keywords: `technical-parameter` `legal-parameter` `environmental-parameter` `land-zone-parameter` `m01a01`
 
-Definición de parámetros generales y establecimiento de criterios a tener en cuenta para el diseño del canal artificial.
+Definición de parámetros generales y establecimiento de criterios a tener en cuenta para el diseño del canal artificial principal, cauces laterales y estructuras hidráulicas.
 
 <div align="center"><img src="graph/M1A01.png" alt="R.SIGE" width="50%" border="0" /></div>
 

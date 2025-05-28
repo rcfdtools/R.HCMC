@@ -80,15 +80,25 @@ Para el desarrollo del curso, son requeridas las siguientes herramientas:
 
 Corresponde a un caso hipotético para la implantación de un canal artificial necesario para desviar un río natural debido a que su trazado se encuentra sobre un yacimiento de minerales que serán explotados de forma intensiva y extensiva a cielo abierto. La información topográfica suministrada, así como la hidrología de la zona de estudio, drenajes naturales y otros elementos territoriales, corresponde a información real de la zona.
 
-El curso y sus diferentes actividades prácticos, se ejemplifican a través de un caso de estudio general correspondiente al **"Realineamiento del Arroyo El Zorro por implantación de actividades mineras de carbón a cielo abierto en el Departamento del Cesar - Colombia"**. Luego, a partir de los conocimientos y habilidades obtenidas, cada estudiante o grupo de estudiantes, desarrollan las mismas actividades a través de un proyecto final de clase el cual es definido a partir de diferentes nodos y ejes de realineamiento.
+El curso y sus diferentes actividades prácticos, se ejemplifican a través de un caso de estudio general correspondiente al **"Realineamiento del Arroyo El Zorro por implantación de actividades mineras de carbón a cielo abierto en el Departamento del Cesar - Colombia"**
 
-Dependiendo del número de participantes se permitirá la creación de grupos de trabajo de hasta máximo 3 integrantes.
+> A partir de los conocimientos y habilidades obtenidas, cada estudiante o grupo de estudiantes, desarrollan las mismas actividades a través de un proyecto final de clase el cual es definido a partir de diferentes nodos y ejes de realineamiento.
+>
+> Dependiendo del número de participantes se permitirá la creación de grupos de trabajo de hasta máximo 3 integrantes.
+
+<div align="center"><img src="file/graph/ZE_Departamento.png" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="file/graph/ZE_Municipio.png" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="file/graph/ZE_Eje.png" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 ## :globe_with_meridians:Módulo I – Parámetros y diseño geométrico e hidráulico
 
+En este módulo se definen los parámetros generales a utilizar en el diseño del canal artificial y se obtienen los caudales e hidrogramas requeridos para el diseño geométrico y el tránsito hidráulico de las crecientes.
+
 
 ## :globe_with_meridians:Módulo II – Trazado de ejes y construcción del modelo digital de terreno 3D
+
+
 
 
 ## :globe_with_meridians:Módulo III – Planos de ingeniería de detalle

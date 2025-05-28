@@ -17,7 +17,7 @@ Definición de parámetros generales y criterios a tener en cuenta para el dise�
 ## Requerimientos
 
 * [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz): Microsoft Excel 365.
-* [:open_file_folder:PoblacionDANE.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoCaucesParametros): Libro de cálculo para el registro de parámetros y restricciones requeridos para el diseño.
+* [:open_file_folder:R.HydroTools.DisenoCaucesParametros.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoCaucesParametros): Libro de cálculo para el registro de parámetros y restricciones requeridos para el diseño.
 
 > Para los diferentes avances de proyecto es necesario guardar y publicar las diferentes versiones generadas del libro de parámetros.
 

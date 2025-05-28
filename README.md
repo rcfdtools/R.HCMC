@@ -23,7 +23,7 @@ Construir modelos de superficies 3D, combinando la información topográfica o d
 * Generar planos de ingeniería de detalle del diseño realizado, utilizando Autodesk Civil 3D.
 
 
-## :mortar_board: Participantes
+## Participantes
 
 * Los contenidos presentados en este curso taller, están dirigidos a estudiantes de maestría, ingenieros y profesionales de diferentes disciplinas que requieran aprender y/o fortalecer sus conocimientos en el diseño y modelación de cauces.
 * Es requerido un nivel básico del idioma inglés debido a que utilizaremos las interfaces de usuario y programación en Python en este idioma.
@@ -62,7 +62,7 @@ Construir modelos de superficies 3D, combinando la información topográfica o d
 > Para entregas regulares, la calificación final para el estudiante que presenta la entrega regular y las correcciones, es el promedio de las dos calificaciones obtenidas.
 
 
-## :open_file_folder:Software requerido y estructura de directorios
+## Software requerido y estructura de directorios
 
 Para el desarrollo del curso, son requeridas las siguientes herramientas:
 
@@ -76,7 +76,7 @@ Para el desarrollo del curso, son requeridas las siguientes herramientas:
 * [:open_file_folder:Estructura de directorios](file/Readme.md)
 
 
-## :mag:Caso de estudio general y grupos de proyecto
+## Caso de estudio general y grupos de proyecto
 
 El curso y sus diferentes actividades prácticos, se ejemplifican a través de un caso de estudio general correspondiente al **"Realineamiento del Arroyo El Zorro por implantación de actividades mineras de carbón a cielo abierto en el Departamento del Cesar - Colombia (caso hipotético)"**. Luego, a partir de los conocimientos y habilidades obtenidas, cada estudiante o grupo de estudiantes, desarrollan las mismas actividades a través de un proyecto final de clase el cual es definido a partir de diferentes nodos y ejes de realineamiento.
 

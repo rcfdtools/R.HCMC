@@ -62,7 +62,11 @@ Construir modelos de superficies 3D, combinando la información topográfica o d
 > Para entregas regulares, la calificación final para el estudiante que presenta la entrega regular y las correcciones, es el promedio de las dos calificaciones obtenidas.
 
 
-## Software requerido, estructura de directorios y datos
+## Software requerido, repositorio de proyecto, estructura de directorios y datos
+
+Crear y reportar el repositorio final de proyecto OneDrive. [Reportar aquí.](https://forms.office.com/r/gVg8DjvVFh)  
+
+> :blue_heart: El repositorio de proyecto deberá mantenerse durante la duración del curso, estableciendo permisos de escritura para los integrantes de su grupo y lectura para el instructor.
 
 Para el desarrollo del curso, son requeridas las siguientes herramientas:
 

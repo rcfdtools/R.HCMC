@@ -32,7 +32,18 @@ Construir modelos de superficies 3D, combinando la información topográfica o d
 
 ## Metodología y sistema de evaluación
 
+
+**Metodología**
+
 * Mediante el desarrollo de un taller práctico y con un caso de estudio general, presentar a los participantes, parte de los conceptos y metodologías existentes en la hidráulica fluvial, para posteriormente realizar el diseño y modelación completa de un cauce artificial sinuoso empleando diferentes herramientas computacionales.
 * Se realizará el diseño y modelación completa de un río o canal artificial mediante el desarrollo de diferentes talleres prácticos y un proyecto final.
 * Al inicio de cada clase, el tutor realizará una presentación y demostración general de los conceptos y las herramientas computacionales a utilizar y luego los estudiantes desarrollarán los contenidos del taller propuesto.
 * Antes de cada clase, los participantes investigarán los conceptos específicos a tratar y definirán de acuerdo con su criterio los valores de los parámetros requeridos. Es indispensable la asistencia permanente para el desarrollo de cada taller. Los resultados de cada taller serán insumo para el siguiente.
+
+
+**Evaluación**
+
+* Asistencia (5%): La asistencia a clase es calificable y corresponde al 5% de la nota del curso.
+* [Autopresentación inicial (5%)](https://forms.office.com/r/wTVfqWc6As): El diligenciamiento completo de este formulario me permite como instructor, conocer su perfil académico y profesional, saber con qué recursos informáticos cuenta para preparar y desarrollar las pruebas técnicas asignadas, conocer sus conocimientos generales en el uso de herramientas computacionales, lenguajes de programación, métodos de estudio y habilidades. Antes del inicio, el participante con base en su propia experiencia y capacitaciones previas, autoevalúa sus conocimientos y habilidades relacionadas con el alcance propuesto en cada taller, así como su experticia en el manejo de las herramientas computacionales utilizadas, permitiendo identificar los temas que requieren mayor dedicación, investigación y atención.
+* Proyecto final y/o examen final individual (90%): El proyecto final de clase es obligatorio y se realizará individual y progresivamente a medida que se avanza con los subtemas del curso. En caso de que la nota final del proyecto sea inferior a 3.5, será necesario presentar individualmente el examen final y la nota final correspondiente al 90%, será el promedio entre la nota final de las diferentes entregas del proyecto individual y la nota del examen. En el repositorio del proyecto, cada entrega debe estar localizada dentro de la carpeta correspondiente a cada subtema. Por ejemplo: \HCMCprj\HCMC0001\. Para el nombramiento de los archivos requerido para el seguimiento de control documental, asignar al final de los archivos su código y la fecha en formato numérico aaaammdd. 
+

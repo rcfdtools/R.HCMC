@@ -24,7 +24,7 @@ Definición de parámetros generales y establecimiento de criterios a tener en c
 
 ## Procedimiento general
 
-Investigar, verificar y registrar en el libro de Excel, los parámetros requeridos descritos a continuación y presentados en el libro de cálculo suministrado:
+Avance proyecto final: investigar, verificar y registrar en el libro de Excel, los parámetros requeridos descritos a continuación y presentados en el libro de cálculo suministrado:
 
 ### A. Técnicos, hidráulicos e hidrológicos
 
@@ -87,8 +87,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |:----------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M01A01    | Crear y reportar el repositorio final de proyecto OneDrive. [Reportar aquí.](https://forms.office.com/r/gVg8DjvVFh)                                                                                                                                                                                                                                                                                                                             | 
 | M01A01    | Descargar el archivo [R.HydroTools.DisenoCaucesParametros.xlsx](https://github.com/rcfdtools/R.HydroTools/blob/main/tool/DisenoCaucesParametros/R.HydroTools.DisenoCaucesParametros.xlsx) disponible en GitHub, e incluirlo en el repositorio.                                                                                                                                                                                                  | 
+| M01A01    | Investigar, verificar y registrar en el libro de Excel los parámetros técnicos, hidráulicos e hidrológicos indicados en esta actividad.<br><br>Para el grupo de parámetros normativos, ambientales / sociales y territoriales, revisar los parámetros actualmente reportados, investigar, registrar y actualizar.                                                                                                                               | 
 | M01A01    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo. Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. Utilice las siguientes columnas: Nombre del integrante, Actividades realizadas, Tiempo dedicado en horas. | 
 
 **A tener en cuenta**

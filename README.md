@@ -10,7 +10,7 @@ Globalmente, diversos proyectos de ingeniería alteran el curso natural de los c
 
 ## Objetivos del curso
 
-* Ofrecer a los participantes conceptos generales de diseño, modelación hidrológica e hidráulica y la aplicación de diferentes herramientas computacionales como: HEC-HMS, HEC-RAS / RAS-Mapper, QGIS y Autodesk Civil 3D.
+* Ofrecer a los participantes conceptos generales de diseño, modelación hidrológica e hidráulica y la aplicación de diferentes herramientas computacionales.
 * Presentar una parte de la metodología general aplicable al diseño y modelación de cauces artificiales sinuosos. 
 * Estudiar el comportamiento hidráulico, evaluar la sinuosidad y las pendientes de equilibrio de los cauces naturales existentes en la zona en la que se realizará la implantación del cauce artificial objeto de estudio.
 * Realizar el diseño geométrico vertical, por la metodología de fuerza tractiva con evaluación de sección compuesta por flujo permanente, teniendo en cuenta criterios de borde libre.

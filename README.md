@@ -88,9 +88,9 @@ El curso y sus diferentes actividades prácticos, se ejemplifican a través de u
 >
 > Dependiendo del número de participantes se permitirá la creación de grupos de trabajo de hasta máximo 3 integrantes.
 
-<div align="center"><img src="file/graph/ZE_Departamento.png" alt="R.HCMC" width="100%" border="0" /></div>
-<div align="center"><img src="file/graph/ZE_Municipio.png" alt="R.HCMC" width="100%" border="0" /></div>
-<div align="center"><img src="file/graph/ZE_Eje.png" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="file/graph/ZE_Departamento.png" alt="R.HCMC" width="70%" border="0" /></div>
+<div align="center"><img src="file/graph/ZE_Municipio.png" alt="R.HCMC" width="70%" border="0" /></div>
+<div align="center"><img src="file/graph/ZE_Eje.png" alt="R.HCMC" width="70%" border="0" /></div>
 
 
 ## :globe_with_meridians:Módulo I – Parámetros y diseño geométrico e hidráulico

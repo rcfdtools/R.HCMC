@@ -83,6 +83,21 @@ El curso y sus diferentes actividades prácticos, se ejemplifican a través de u
 Dependiendo del número de participantes se permitirá la creación de grupos de trabajo de hasta máximo 3 integrantes.
 
 
+## :globe_with_meridians:Módulo I – Parámetros y diseño geométrico e hidráulico
+
+
+## :globe_with_meridians:Módulo II – Trazado de ejes y construcción del modelo 3D
+
+
+## :globe_with_meridians:Módulo III – Planos de ingeniería de detalle
+
+
+## :globe_with_meridians:Módulo IV – Modelación hidráulica 1D con HEC-GeoRAS y HEC-RAS
+
+
+## :globe_with_meridians:Módulo V – Modelación hidráulica 2D con HEC-RAS y RAS Mapper
+
+
 
 ##
 

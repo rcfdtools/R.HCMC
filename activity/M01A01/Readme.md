@@ -17,7 +17,7 @@ Definición de parámetros generales y establecimiento de criterios a tener en c
 ## Requerimientos
 
 * [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz): Microsoft Excel 365.
-* [:open_file_folder:R.HydroTools.DisenoCaucesParametros.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoCaucesParametros): Libro de cálculo para el registro de parámetros y restricciones requeridos para el diseño.
+* [:open_file_folder:R.HydroTools.DisenoCaucesParametros.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoCaucesParametros): libro de cálculo para el registro de parámetros requeridos y restricciones de diseño.
 
 > Para los diferentes avances de proyecto es necesario guardar y publicar las diferentes versiones generadas del libro de parámetros, agregar al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 

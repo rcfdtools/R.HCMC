@@ -74,3 +74,26 @@ Para el desarrollo del curso, son requeridas las siguientes herramientas:
 * [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/): HEC-RAS 6.6 o superior.
 * [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d): Autodesk Civil 3D 2025 o superior.
 * [:open_file_folder:Estructura de directorios](file/Readme.md)
+
+
+## :mag:Caso de estudio general y grupos de proyecto
+
+El curso y sus diferentes actividades prácticos, se ejemplifican a través de un caso de estudio general correspondiente al **"Realineamiento del Arroyo El Zorro por implantación de actividades mineras de carbón a cielo abierto en el Departamento del Cesar - Colombia (caso hipotético)"**. Luego, a partir de los conocimientos y habilidades obtenidas, cada estudiante o grupo de estudiantes, desarrollan las mismas actividades a través de un proyecto final de clase el cual es definido a partir de diferentes nodos y ejes de realineamiento.
+
+Dependiendo del número de participantes se permitirá la creación de grupos de trabajo de hasta máximo 3 integrantes.
+
+
+
+##
+
+_:beginner: Ayuda / Colabora: a través de la pestaña _[Discussions](https://github.com/rcfdtools/R.HCMC/discussions)_ localizada en la parte superior de esta ventana, podrás encontrar y participar en los [_anuncios o noticias_](https://github.com/rcfdtools/R.SIGE/discussions/categories/announcements) publicados, enviarnos tus [_ideas_](https://github.com/rcfdtools/R.SIGE/discussions/categories/ideas) para actividades complementarias, participar en preguntas, respuestas y consultas específicas [_Q&A_](https://github.com/rcfdtools/R.SIGE/discussions/categories/q-a) y realizar [_publicaciones o consultas generales_](https://github.com/rcfdtools/R.SIGE/discussions/categories/general) públicas._
+
+_R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](LICENSE.md)._
+
+_Clonación: para compatibilidad completa de las rutas utilizadas en los scripts y herramientas de R.HCMC, en Microsoft Windows clonar y/o descomprimir en _D:\R.HCMC_. Enlace para clonación https://github.com/rcfdtools/R.HCMC.git._
+
+_¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
+
+| [:sun_with_face: Iniciar curso](activity/0001/Readme.md) | [:infinity: Otros cursos y herramientas](https://github.com/rcfdtools) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/1) | [:notebook: Referencias](file/ref/Readme.md) | [:label: Abreviaturas y definiciones](Definitions.md) |
+|----------------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------|-------------------------------------------------------|
+

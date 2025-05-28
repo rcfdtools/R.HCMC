@@ -19,3 +19,4 @@ Construir modelos de superficies 3D, combinando la información topográfica o d
 * Modelar hidráulicamente, en estado permanente y no permanente, en 1D y 2D, el río artificial diseñado para evaluar su comportamiento hidráulico, realizando el análisis de llanuras de inundación, borde libre, velocidades y esfuerzos cortantes.
 * Calcular los volúmenes de corte y relleno obtenidos por la implantación del canal diseñado.
 * Generar planos de ingeniería de detalle del diseño, utilizando Autodesk Civil 3D.
+

@@ -94,13 +94,12 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 **A tener en cuenta**
 
 * Todos los valores adoptados se deben justificar técnicamente en la columna _Descripción / Justificación / Referencias_ del libro de Excel. En caso de que lo considere necesario, agregue en color rojo justificaciones adicionales al final de las justificaciones existentes en el libro suministrado.
-* Cargar en el repositorio de proyecto, el libro de cálculo con los diferentes parámetros solicitados.
-* Una vez el instructor realice la revisión y el estudiante presente las correcciones o ajustes solicitados, será necesario cargar una nueva versión de los archivos en el repositorio del proyecto, incluyendo o actualizando al final del nombre del archivo, la fecha de presentación en formato aaaammdd Y manteniendo las versiones anteriores presentadas. Esto mismo aplica para todas las entregas del proyecto.
+* Una vez el instructor realice la revisión y el estudiante presente las correcciones o ajustes solicitados, será necesario cargar una nueva versión de los archivos en el repositorio del proyecto, incluyendo o actualizando al final del nombre del archivo, la fecha de presentación en formato aaaammdd y manteniendo las versiones anteriores presentadas. Esto mismo aplica para todas las entregas del proyecto.
 
 
 ## Referencias
 
-* Indicadas en la columna de observaciones de las diferentes hojas del libro de parámetros.
+* Indicadas en la columna _Descripción / Justificación / Referencias_ de las diferentes hojas del libro de parámetros.
 
 
 ## Control de versiones
@@ -120,5 +119,3 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 
 | [:arrow_backward: Anterior](../../README.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A02)  |
 |----------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|-----------------------------------------|
-
-[^1]: 

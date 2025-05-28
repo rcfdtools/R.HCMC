@@ -32,7 +32,7 @@ Construir modelos de superficies 3D, combinando la información topográfica o d
 
 ## Metodología y sistema de evaluación
 
-* Mediante el desarrollo de un taller práctico desarrollando un caso de estudio general, presentar a los participantes, parte de los conceptos y metodologías existentes en la hidráulica fluvial, para posteriormente realizar el diseño y modelación completa de un cauce artificial sinuoso empleando diferentes herramientas computacionales.
+* Mediante el desarrollo de un taller práctico y con un caso de estudio general, presentar a los participantes, parte de los conceptos y metodologías existentes en la hidráulica fluvial, para posteriormente realizar el diseño y modelación completa de un cauce artificial sinuoso empleando diferentes herramientas computacionales.
 * Se realizará el diseño y modelación completa de un río o canal artificial mediante el desarrollo de diferentes talleres prácticos y un proyecto final.
 * Al inicio de cada clase, el tutor realizará una presentación y demostración general de los conceptos y las herramientas computacionales a utilizar y luego los estudiantes desarrollarán los contenidos del taller propuesto.
 * Antes de cada clase, los participantes investigarán los conceptos específicos a tratar y definirán de acuerdo con su criterio los valores de los parámetros requeridos. Es indispensable la asistencia permanente para el desarrollo de cada taller. Los resultados de cada taller serán insumo para el siguiente.

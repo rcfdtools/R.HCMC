@@ -22,10 +22,9 @@ Obtención en función del área de aportación hasta los puntos de inicio, entr
 * [:toolbox:Herramienta](https://notepad-plus-plus.org/): Notepad++.
 * [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-hms/): HEC-HMS 4.13 Beta 6 o superior.
 * [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-dssvue/): HEC-DSSVue 3.2.3 (versión funcional para cargue masivo de hietogramas).
-* [:open_file_folder:R.HCMC.PlantillaSoporteDesarrollo.docx](../../file/report/R.HCMC.PlantillaSoporteDesarrollo.docx): plantilla para presentación de documentos soporte de desarrollo e informes.
 * [:notebook:Lectura](https://github.com/rcfdtools/R.HydroTools/blob/main/tool/FactorAtenuacionPrecipitacionFa/R.HydroTools.FactorAtenuacionPrecipitacionFa.pdf): factor de atenuación de la precipitación por área simultánea.
 * [:open_file_folder:R.HydroTools.FactorAtenuacionPrecipitacionFa.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/FactorAtenuacionPrecipitacionFa): libro de cálculo para la estimación del Fa - Factor de atenuación de la precipitación máxima por área simultánea en una cuenca.
-* [:open_file_folder:HECHMS_v0.zip](HECHMS_v0.zip): modelo hidrológico HEC-HMS con topología de áreas de drenaje de aproximadamente 4 km² o superior, compuesto por 44 subcuencas, 41 tramos de drenaje de 151.6 km (21 corresponden a tramos con tránsito hidrológico), área total de la cuenca en estudio: 247.1 km².
+* [:open_file_folder:HECHMS_v0.zip](../../file/hec/HECHMS_v0.zip): modelo hidrológico HEC-HMS con topología de áreas de drenaje de aproximadamente 4 km² o superior, compuesto por 44 subcuencas, 41 tramos de drenaje de 151.6 km (21 corresponden a tramos con tránsito hidrológico), área total de la cuenca en estudio: 247.1 km².
 * [:open_file_folder:Hietogramas.zip](Hietogramas.zip): archivos con series de hietogramas para diferentes periodos de retorno y factores de atenuación (0.62, 0.63, 0.64, 1) en función de las áreas acumuladas hasta los puntos de inicio, entrega y cauces menores. Incluye hietogramas para periodos de retorno de 2.33, 5, 10, 25, 50 y 100 años.
 * [:open_file_folder:R.HydroTools.HidrogramaRegVal.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/HidrogramaRegVal): libro de cálculo para el registro y validación de hidrogramas obtenidos a partir de modelación hidrológica en HEC-HMS.
 

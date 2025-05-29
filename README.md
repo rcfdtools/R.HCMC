@@ -66,6 +66,8 @@ Construir modelos de superficies 3D, combinando la información topográfica o d
 
 Para el desarrollo del curso y las actividades del proyecto final, son requeridas las siguientes herramientas, estructura de directorios y reportar su repositorio de archivos:
 
+<div align="center">
+
 | Requerimiento                                                                      | Descripción                                                            |
 |:-----------------------------------------------------------------------------------|:-----------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://www.office.com/)                                    | Microsoft Office 365                                                   |
@@ -78,6 +80,8 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 | [:toolbox:Herramienta](https://www.hdfgroup.org/download-hdfview/)                 | HDFView                                                                |
 | [:open_file_folder:Repositorio de proyecto](https://forms.office.com/r/gVg8DjvVFh) | Crear y reportar el repositorio final de proyecto OneDrive             |
 | [:open_file_folder:Estructura de directorios](file/Readme.md)                      | Estructura requerida para el desarrollo del proyecto                   |
+
+</div>
 
 > :blue_heart: El repositorio de proyecto deberá mantenerse durante la duración del curso, estableciendo permisos de escritura para los integrantes de su grupo y lectura para el instructor.
 >

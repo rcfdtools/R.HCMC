@@ -18,6 +18,8 @@ Obtención en función del área de aportación hasta los puntos de inicio, entr
 
 ## Requerimientos
 
+Archivos, actividades previas, lecturas y herramientas requeridas para el desarrollo de esta actividad:
+
 | Requerimiento                                                                                                                                                    | Descripción                                                                                                                                                                                                                                                                                     |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                                               | Microsoft Excel 365                                                                                                                                                                                                                                                                             |

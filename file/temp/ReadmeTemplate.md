@@ -15,11 +15,18 @@ xxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## Requerimientos
 
-* [:notebook:Lectura](https://edu.gcfglobal.org/es/estadistica-basica/): Conocimientos básicos en estadística.
-* [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz): Microsoft Excel 365.
-* [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/word?market=bz): Microsoft Word 365.
-* [:open_file_folder:R.HCMC.PlantillaSoporteDesarrollo.docx](../../file/report/R.HCMC.PlantillaSoporteDesarrollo.docx): plantilla para presentación de documentos soporte de desarrollo e informes.
-* [:open_file_folder:R.HydroTools.DisenoCaucesParametros.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoCaucesParametros): libro de cálculo para el registro de parámetros requeridos y restricciones de diseño.
+Archivos, actividades previas, lecturas y herramientas requeridas para el desarrollo de esta actividad:
+
+| Requerimiento                                                                                           | Descripción                                                                                                                    |
+|:--------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                      | Microsoft Excel 365                                                                                                            |
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/word?market=bz)                       | Microsoft Word 365                                                                                                          |
+| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                                                  | Notepad++                                                                                                                      |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-hms/)                                | HEC-HMS 4.13 Beta 6 o superior                                                                                                 |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-dssvue/)                             | HEC-DSSVue 3.2.3 (versión funcional para cargue masivo de hietogramas)                                                         |
+| [:notebook:Lectura](R.HydroTools.FactorAtenuacionPrecipitacionFa.pdf)                                   | Factor de atenuación de la precipitación por área simultánea                                                                   |
+| [:open_file_folder:R.HydroTools.FactorAtenuacion PrecipitacionFa.xlsx](FactorAtenuacionPrecipitacionFa) | Libro de cálculo para la estimación del Fa - Factor de atenuación de la precipitación máxima por área simultánea en una cuenca |
+
 
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 

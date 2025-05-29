@@ -93,7 +93,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 > Todos los valores adoptados se deben justificar técnicamente en la columna _Descripción / Justificación / Referencias_ del libro de Excel. En caso de que lo considere necesario, agregue en color rojo justificaciones adicionales al final de las justificaciones existentes en el libro suministrado.
 >
-> blue_heart: Una vez el instructor realice la revisión y el estudiante presente las correcciones o ajustes solicitados, será necesario cargar una nueva versión de los archivos en el repositorio del proyecto, incluyendo o actualizando al final del nombre del archivo, la fecha de presentación en formato aaaammdd y manteniendo las versiones anteriores presentadas.
+> :blue_heart: Una vez el instructor realice la revisión y el estudiante presente las correcciones o ajustes solicitados, será necesario cargar una nueva versión de los archivos en el repositorio del proyecto, incluyendo o actualizando al final del nombre del archivo, la fecha de presentación en formato aaaammdd y manteniendo las versiones anteriores presentadas.
 
 
 ## Referencias

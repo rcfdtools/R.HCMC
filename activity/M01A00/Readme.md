@@ -1,4 +1,4 @@
-# 0. Investigación de casos de estudio
+# 1.0. Investigación de casos de estudio
 Keywords: `study-case` `realigment` `hydraulics` `sinuosity` `river-bend` `channel-length` `valley-length` `m01a00`
 
 Investigue y documente el realineamiento de un río en cualquier localización mundial y documente los parámetros hidráulicos y geométricos generales utilizados.     

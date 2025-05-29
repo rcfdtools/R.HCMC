@@ -1,7 +1,7 @@
 # 0. Investigación de casos de estudio
 Keywords: `study-case` `realigment` `hydraulics` `sinuosity` `river-bend` `channel-length` `valley-length` `m01a00`
 
-Investigue y documente el realineamiento de un río.     
+Investigue y documente el realineamiento de un río en cualquier localización mundial y documente los parámetros hidráulicos y geométricos generales utilizados.     
 
 <div align="center"><img src="graph/AddedValue.png" alt="R.SIGE" width="100%" border="0" /></div>
 
@@ -54,7 +54,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M01A01    | Utilizando la plantilla Microsoft Word suministrada, busque  y documente un realineamiento en cualquier parte del mundo diferente a los citados en esta actividad, incluir:<br>Resumen general del proyecto.<br>Localizador geográfico con latitud y longitud en grados decimales (dd).<br>Mapa de localización.<br>Referencias bibliográficas con links de acceso.<br>Convierta a Adobe Acrobat.                                                                                                                                                    |  
+| M01A01    | Utilizando la plantilla Microsoft Word suministrada, busque  y documente un realineamiento en cualquier parte del mundo diferente a los citados en esta actividad, incluir:<br>Resumen general del proyecto.<br>Localizador geográfico con latitud y longitud en grados decimales (dd).<br>Mapa de localización.<br>Parámetros hidráulicos.<br>Parámetros geométricos.<br>Referencias bibliográficas con links de acceso.<br>Convierta a Adobe Acrobat.                                                                                              |  
 | M01A01    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 **A tener en cuenta**

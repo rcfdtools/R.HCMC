@@ -62,7 +62,7 @@ Construir modelos de superficies 3D, combinando la información topográfica o d
 > Para entregas regulares, la calificación final para el estudiante que presenta la entrega regular y las correcciones, es el promedio de las dos calificaciones obtenidas.
 
 
-## Software requerido, repositorio de proyecto, estructura de directorios y datos
+## Software requerido, repositorio de proyecto y estructura de directorios
 
 Para el desarrollo del curso y las actividades del proyecto final, son requeridas las siguientes herramientas, estructura de directorios y reportar su repositorio de archivos:
 

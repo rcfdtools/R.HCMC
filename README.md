@@ -64,27 +64,24 @@ Construir modelos de superficies 3D, combinando la información topográfica o d
 
 ## Software requerido, repositorio de proyecto, estructura de directorios y datos
 
-Crear y reportar el repositorio final de proyecto OneDrive. [Reportar aquí.](https://forms.office.com/r/gVg8DjvVFh)  
+Para el desarrollo del curso y las actividades del proyecto final, son requeridas las siguientes herramientas, estructura de directorios y reportar su repositorio de archivos:
+
+| Requerimiento                                                                      | Descripción                                                            |
+|:-----------------------------------------------------------------------------------|:-----------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.office.com/)                                    | Microsoft Office 365                                                   |
+| [:toolbox:Herramienta](https://qgis.org/)                                          | QGIS 3.42 o superior                                                   |
+| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                             | Notepad++ (editor de texto)                                            |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-hms/)           | HEC-HMS 4.13 Beta 6 o superior                                         |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-dssvue/)        | HEC-DSSVue 3.2.3 (versión funcional para cargue masivo de hietogramas) |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)           | HEC-RAS 6.6 o superior                                                 |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                 | Autodesk Civil 3D 2025 o superior                                      |
+| [:toolbox:Herramienta](https://www.hdfgroup.org/download-hdfview/)                 | HDFView                                                                |
+| [:open_file_folder:Repositorio de proyecto](https://forms.office.com/r/gVg8DjvVFh) | Crear y reportar el repositorio final de proyecto OneDrive             |
+| [:open_file_folder:Estructura de directorios](file/Readme.md)                      | Estructura requerida para el desarrollo del proyecto                   |
 
 > :blue_heart: El repositorio de proyecto deberá mantenerse durante la duración del curso, estableciendo permisos de escritura para los integrantes de su grupo y lectura para el instructor.
-
-Para el desarrollo del curso, son requeridas las siguientes herramientas y estructura:
-
-| Requerimiento                                                               | Descripción                                                            |
-|:----------------------------------------------------------------------------|:-----------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.office.com/)                             | Microsoft Office 365                                                   |
-| [:toolbox:Herramienta](https://qgis.org/)                                   | QGIS 3.42 o superior                                                   |
-| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                      | Notepad++ (editor de texto)                                            |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-hms/)    | HEC-HMS 4.13 Beta 6 o superior                                         |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-dssvue/) | HEC-DSSVue 3.2.3 (versión funcional para cargue masivo de hietogramas) |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)    | HEC-RAS 6.6 o superior                                                 |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)          | Autodesk Civil 3D 2025 o superior                                      |
-| [:toolbox:Herramienta](https://www.hdfgroup.org/download-hdfview/)          | HDFView                                                                |
-| [:open_file_folder:Estructura de directorios](file/Readme.md)               | Estructura requerida para el desarrollo del proyecto                   |
-
-
-
-> Nota: Los datos hidro-climatológicos suministrados corresponden a información tomada y procesada a partir de datos del IDEAM y los archivos de formas vectoriales han sido descargados del IGAC y de otras fuentes alternas.
+>
+> Nota: los datos hidro-climatológicos suministrados corresponden a información tomada y procesada a partir de datos del IDEAM y los archivos de formas vectoriales han sido descargados del IGAC y de otras fuentes alternas.
 
 
 ## Caso de estudio general y grupos de proyecto

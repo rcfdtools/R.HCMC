@@ -48,6 +48,8 @@ Lib/
 *.mp4
 *.mp3
 *.mkv
+*.dss
+*.results
 
 # Video exclusions
 #Section02/FdrDEM/FdrDEM.mp4
@@ -69,6 +71,10 @@ file/grid/LC09_L2SP/*.*
 #.dem/*.7z
 file/ref/Ley388de1997.pdf
 HECRAS_v0/
+HECRAS_v1/
+HECRAS_v2/
+HECRAS_v3/
+HECRAS_v4/
 HECRAS/
 
 

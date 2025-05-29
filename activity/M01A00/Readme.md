@@ -28,7 +28,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
 
-## Recopilación de realineamiento y cauces sinuosos
+## Recopilación de realineamientos y cauces sinuosos
 
 > Se han incluído cauces naturales y artificiales con y sin sección compuesta, cauces sinuosos y realineamientos en valles curvos.
 

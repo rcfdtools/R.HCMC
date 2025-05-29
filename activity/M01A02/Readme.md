@@ -11,16 +11,21 @@ Obtención en función del área de aportación hasta los puntos de inicio, entr
 * Explorar el modelo hidrológico e Identificar los puntos de estudio.
 * Evaluar el área de aportación hasta cada punto de estudio.
 * Estimar el factor de atenuación por área simultánea para cada punto.
-* Importar a HEC-DSS, los hietogramas por subcuenca del modelo hidrológico.
+* Importar a HEC-DSS, los hietogramas por sub-cuenca del modelo hidrológico.
 * Estimar caudales pico en diferentes puntos de estudio y para diferentes periodos de retorno.
 * Obtener y analizar los hidrogramas obtenidos para el tránsito de crecientes por el tramo de cauce diseñado. 
 
 
 ## Requerimientos
 
+* [:notebook:Lectura](https://github.com/rcfdtools/R.HydroTools/blob/main/tool/FactorAtenuacionPrecipitacionFa/R.HydroTools.FactorAtenuacionPrecipitacionFa.pdf): factor de atenuación de la precipitación por área simultánea.
 * [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz): Microsoft Excel 365.
+* [:toolbox:Herramienta](https://notepad-plus-plus.org/): Notepad++.
+* [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-hms/): HEC-HMS 4.13 Beta 6 o superior.
+* [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-dssvue/): HEC-DSSVue 3.2.3 (versión funcional para cargue masivo de hiettogramas).
 * [:open_file_folder:R.HCMC.PlantillaSoporteDesarrollo.docx](file/report/R.HCMC.PlantillaSoporteDesarrollo.docx): plantilla para presentación de documentos soporte de desarrollo e informes.
-* [:open_file_folder:R.HydroTools.DisenoCaucesParametros.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoCaucesParametros): libro de cálculo para el registro de parámetros requeridos y restricciones de diseño.
+* [:open_file_folder:R.HydroTools.FactorAtenuacionPrecipitacionFa.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/FactorAtenuacionPrecipitacionFa): libro de cálculo para la estimación del Fa - Factor de atenuación de la precipitación máxima por área simultánea en una cuenca.
+* [:open_file_folder:R.HydroTools.HidrogramaRegVal.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/HidrogramaRegVal): libro de cálculo para el registro y validación de hidrogramas obtenidos a partir de modelación hidrológica en HEC-HMS
 
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 >
@@ -29,7 +34,7 @@ Obtención en función del área de aportación hasta los puntos de inicio, entr
 
 ## Procedimiento general
 
-
+> Geográficamente se muestran las subcuencas localizadas al sur del eje del valle pero para el tránsito hidrológico no se considerará la escorrentía producida por estás áreas debido a que el análisis hidrológico corresponde al transito hasta el punto de entrega del canal a diseñar y este se encuentra arriba del punto de confluencia de estos drenajes. Total área geográfica incluyendo las cuencas al sur: 262.3 km².
 
 
 ## Actividades de proyecto :triangular_ruler:

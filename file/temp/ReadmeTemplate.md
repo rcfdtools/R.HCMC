@@ -15,7 +15,9 @@ xxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## Requerimientos
 
+* [:notebook:Lectura](https://edu.gcfglobal.org/es/estadistica-basica/): Conocimientos básicos en estadística.
 * [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz): Microsoft Excel 365.
+* [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/word?market=bz): Microsoft Word 365.
 * [:open_file_folder:R.HCMC.PlantillaSoporteDesarrollo.docx](file/report/R.HCMC.PlantillaSoporteDesarrollo.docx): plantilla para presentación de documentos soporte de desarrollo e informes.
 * [:open_file_folder:R.HydroTools.DisenoCaucesParametros.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoCaucesParametros): libro de cálculo para el registro de parámetros requeridos y restricciones de diseño.
 

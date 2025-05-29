@@ -21,7 +21,6 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | Requerimiento                                                                                                         | Descripción                                                                |
 |:----------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/word?market=bz)                                     | Microsoft Word 365                                                      |
-| [:open_file_folder:Repositorio de proyecto](https://forms.office.com/r/gVg8DjvVFh)                                    | Repositorio creado y compartido para publicación de avances de proyecto    |
 | [:open_file_folder:R.HCMC.Plantilla SoporteDesarrollo.docx](../../file/report/R.HCMC.PlantillaSoporteDesarrollo.docx) | Plantilla para presentación de documentos soporte de desarrollo e informes |
 
 </div>

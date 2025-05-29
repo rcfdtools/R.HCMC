@@ -17,6 +17,8 @@ xxxxxxxxxxxxxxxxxxxxxxxxxx
 
 Archivos, actividades previas, lecturas y herramientas requeridas para el desarrollo de esta actividad:
 
+<div align="center">
+
 | Requerimiento                                                                                           | Descripción                                                                                                                    |
 |:--------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                      | Microsoft Excel 365                                                                                                            |
@@ -27,6 +29,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | [:notebook:Lectura](R.HydroTools.FactorAtenuacionPrecipitacionFa.pdf)                                   | Factor de atenuación de la precipitación por área simultánea                                                                   |
 | [:open_file_folder:R.HydroTools.FactorAtenuacion PrecipitacionFa.xlsx](FactorAtenuacionPrecipitacionFa) | Libro de cálculo para la estimación del Fa - Factor de atenuación de la precipitación máxima por área simultánea en una cuenca |
 
+</div>
 
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 

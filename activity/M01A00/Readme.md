@@ -16,12 +16,15 @@ Investigue y documente el realineamiento de un río en cualquier localización m
 
 Archivos, actividades previas, lecturas y herramientas requeridas para el desarrollo de esta actividad:
 
+<div align="center">
+
 | Requerimiento                                                                                                         | Descripción                                                                |
 |:----------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/word?market=bz)                                     | Microsoft Word 365                                                      |
 | [:open_file_folder:Repositorio de proyecto](https://forms.office.com/r/gVg8DjvVFh)                                    | Repositorio creado y compartido para publicación de avances de proyecto    |
 | [:open_file_folder:R.HCMC.Plantilla SoporteDesarrollo.docx](../../file/report/R.HCMC.PlantillaSoporteDesarrollo.docx) | Plantilla para presentación de documentos soporte de desarrollo e informes |
 
+</div>
 
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 

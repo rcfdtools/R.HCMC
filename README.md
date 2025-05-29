@@ -74,7 +74,7 @@ Para el desarrollo del curso, son requeridas las siguientes herramientas:
 * [:toolbox:Herramienta](https://qgis.org/): QGIS 3.42 o superior.
 * [:toolbox:Herramienta](https://notepad-plus-plus.org/): Notepad++.
 * [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-hms/): HEC-HMS 4.13 Beta 6 o superior.
-* [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-dssvue/): HEC-DSSVue 3.2.3 (versión funcional para cargue masivo de hiettogramas).
+* [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-dssvue/): HEC-DSSVue 3.2.3 (versión funcional para cargue masivo de hietogramas).
 * [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/): HEC-RAS 6.6 o superior.
 * [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d): Autodesk Civil 3D 2025 o superior.
 * [:toolbox:Herramienta](https://www.hdfgroup.org/download-hdfview/): HDFView.

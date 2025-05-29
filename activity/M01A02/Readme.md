@@ -22,8 +22,8 @@ Obtención en función del área de aportación hasta los puntos de inicio, entr
 * [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz): Microsoft Excel 365.
 * [:toolbox:Herramienta](https://notepad-plus-plus.org/): Notepad++.
 * [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-hms/): HEC-HMS 4.13 Beta 6 o superior.
-* [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-dssvue/): HEC-DSSVue 3.2.3 (versión funcional para cargue masivo de hiettogramas).
-* [:open_file_folder:R.HCMC.PlantillaSoporteDesarrollo.docx](file/report/R.HCMC.PlantillaSoporteDesarrollo.docx): plantilla para presentación de documentos soporte de desarrollo e informes.
+* [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-dssvue/): HEC-DSSVue 3.2.3 (versión funcional para cargue masivo de hietogramas).
+* [:open_file_folder:R.HCMC.PlantillaSoporteDesarrollo.docx](../../file/report/R.HCMC.PlantillaSoporteDesarrollo.docx): plantilla para presentación de documentos soporte de desarrollo e informes.
 * [:open_file_folder:R.HydroTools.FactorAtenuacionPrecipitacionFa.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/FactorAtenuacionPrecipitacionFa): libro de cálculo para la estimación del Fa - Factor de atenuación de la precipitación máxima por área simultánea en una cuenca.
 * [:open_file_folder:R.HydroTools.HidrogramaRegVal.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/HidrogramaRegVal): libro de cálculo para el registro y validación de hidrogramas obtenidos a partir de modelación hidrológica en HEC-HMS
 
@@ -34,7 +34,7 @@ Obtención en función del área de aportación hasta los puntos de inicio, entr
 
 ## Procedimiento general
 
-> Geográficamente se muestran las subcuencas localizadas al sur del eje del valle pero para el tránsito hidrológico no se considerará la escorrentía producida por estás áreas debido a que el análisis hidrológico corresponde al transito hasta el punto de entrega del canal a diseñar y este se encuentra arriba del punto de confluencia de estos drenajes. Total área geográfica incluyendo las cuencas al sur: 262.3 km².
+> Geográficamente, se muestran las sub-cuencas localizadas al sur del eje del valle, pero para el tránsito hidrológico no se considerará la escorrentía producida por estas áreas debido a que el análisis hidrológico corresponde al tránsito hasta el punto de entrega del canal a diseñar y este se encuentra arriba del punto de confluencia de estos drenajes. Total área geográfica incluyendo las cuencas al sur: 262.3 km².
 
 
 ## Actividades de proyecto :triangular_ruler:

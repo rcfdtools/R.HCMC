@@ -19,7 +19,7 @@ Definición de parámetros generales y establecimiento de criterios a tener en c
 * [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz): Microsoft Excel 365.
 * [:open_file_folder:R.HydroTools.DisenoCaucesParametros.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoCaucesParametros): libro de cálculo para el registro de parámetros requeridos y restricciones de diseño.
 
-> Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del libro de parámetros, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
+> Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
 
 ## Procedimiento general
@@ -117,7 +117,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../../README.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A02)  |
-|----------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|-----------------------------------------|
+| [:arrow_backward: Anterior](../M01A00/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A02/Readme.md) |
+|--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: https://www.minvivienda.gov.co/viceministerio-de-agua-y-saneamiento-basico/reglamento-tecnico-sector/reglamento-tecnico-del-sector-de-agua-potable-y-saneamiento-basico-ras

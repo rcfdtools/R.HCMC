@@ -3,7 +3,7 @@ Keywords: `study-case` `realigment` `hydraulics` `sinuosity` `river-bend` `chann
 
 Investigue y documente el realineamiento de un río en cualquier localización mundial y documente los parámetros hidráulicos y geométricos generales utilizados.     
 
-<div align="center"><img src="graph/AddedValue.png" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/M01A01.jpg" alt="R.SIGE" width="60%" border="0" /><sub><br>Tomado de: <a href="Google Maps">https://www.google.com/maps/place/9%C2%B031'14.0%22N+73%C2%B029'00.6%22W/@9.4908347,-73.5271725,2926a,35y,36h,62.01t/data=!3m1!1e3!4m4!3m3!8m2!3d9.520558!4d-73.483489?entry=ttu&g_ep=EgoyMDI1MDUyNi4wIKXMDSoASAFQAw%3D%3D</a></sub><br><br></div>
 
 
 ## Objetivos

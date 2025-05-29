@@ -8,10 +8,10 @@ Definición de parámetros generales y establecimiento de criterios a tener en c
 
 ## Objetivos
 
-* Establecer los parámetros técnicos e hidráulicos generales.
-* Revisar los parámetros normativos aplicables.
-* Identificar las restricciones ambientales y sociales.
-* identificar las restricciones territoriales.
+* Establecer parámetros técnicos e hidráulicos generales.
+* Revisar parámetros normativos aplicables.
+* Identificar restricciones ambientales y sociales.
+* identificar restricciones territoriales.
 
 
 ## Requerimientos
@@ -19,7 +19,7 @@ Definición de parámetros generales y establecimiento de criterios a tener en c
 * [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz): Microsoft Excel 365.
 * [:open_file_folder:R.HydroTools.DisenoCaucesParametros.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoCaucesParametros): libro de cálculo para el registro de parámetros requeridos y restricciones de diseño.
 
-> Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del libro de parámetros, agregar al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
+> Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del libro de parámetros, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
 
 ## Procedimiento general
@@ -119,3 +119,5 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 
 | [:arrow_backward: Anterior](../../README.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A02)  |
 |----------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|-----------------------------------------|
+
+[^1]: https://www.minvivienda.gov.co/viceministerio-de-agua-y-saneamiento-basico/reglamento-tecnico-sector/reglamento-tecnico-del-sector-de-agua-potable-y-saneamiento-basico-ras

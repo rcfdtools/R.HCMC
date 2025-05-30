@@ -144,11 +144,31 @@ En la barra de ejecución, seleccione _Run: Run 1_, consulte los resultados actu
 
 </div>
 
+Para su proyecto, cargue en QGIS la tabla de nodos [R.HCMC.NodoValle.xlsx](../../file/table/R.HCMC.NodoValle.xlsx) y convierta a una capa geográfica de puntos en formato shapefile, las localizaciones específicas de los nodos de su proyecto.
+
+Cree un proyecto nuevo en QGIS y asigne el sistema de proyección de coordenadas - CRS 3116 correspondiente a MAGNA-SIRGAS / Colombia Bogota zone.
+
+<div align="center"><img src="graph/QGIS_ProjectPropertiesCRS.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+Desde el panel _Browser_, agregue al proyecto la hoja _NodoEjeValleGIS_ del libro de Excel y visualice la tabla de atributos.
+
+<div align="center"><img src="graph/QGIS_NodoEjeValleGIS.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+Desde en panel _Layers_ y dando clic derecho en el nombre de la tabla _NodoEjeValleGIS_, seleccione la opción _Export / Save Vector Layer as..._, en formato establezca _Comma Separated Value (CSV)_ y guarde como _file/table/R.HCMC.NodoValle.csv_. Utilice el encoding _windows-1252_.
+
+<div align="center"><img src="graph/QGIS_NodoEjeValleGISConvertCSV.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+Desde el menú _Layer / Add Layer / Add Delimited Text Layer..._, agregue la tabla exportada en formato csv y conviértala a una capa geográfica de puntos, guardar como _file/shp/R.HCMC.NodoValle.shp_
+
+<div align="center"><img src="graph/QGIS_R.HCMC.NodoValle.shp.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+Simbolice los nodos por Categorías a partir del código del eje y rotule con la expresión  `"Eje"  || '-'  ||   "Nodo" `
+
+<div align="center"><img src="graph/QGIS_R.HCMC.NodoValle.shpSymbol.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
+ y filtre por el código de su eje de proyecto
 
-
-R.HCMC.NodoValle.xlsx
 
 ## Actividades de proyecto :triangular_ruler:
 

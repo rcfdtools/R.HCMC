@@ -1,0 +1,30 @@
+Eje,Nodo,Codigo,Descripcion,CXm,CYm
+0,1,Eje ejercicio clase,Nodo de inicio,1080095.9812,1573338.0615
+0,2,Eje ejercicio clase,Nodo primer cambio de dirección,1078176.4987,1572444.7917
+0,3,Eje ejercicio clase,Nodo segundo cambio de dirección,1076394.5087,1573470.9228
+0,4,Eje ejercicio clase,Nodo de entrega,1075229.3831,1573286.485
+1,1,Eje 2021-2,Nodo de inicio,1082582.2,1572993.3
+1,2,Eje 2021-2,Nodo primer cambio de dirección,1078704.5,1571891.3
+1,3,Eje 2021-2,Nodo segundo cambio de dirección,1076994.5,1573220.9
+1,4,Eje 2021-2,Nodo tercer cambio de dirección,1075229.4,1573286.5
+1,5,Eje 2021-2,Nodo de entrega,1075229.4,1573286.5
+2,1,Eje 2022-2,Nodo de inicio,1082582.2,1572993.3
+2,2,Eje 2022-2,Nodo primer cambio de dirección,1080014.241,1572387.377
+2,3,Eje 2022-2,Nodo segundo cambio de dirección,1077950.487,1572768.378
+2,4,Eje 2022-2,Nodo tercer cambio de dirección,1077019.152,1573826.714
+2,5,Eje 2022-2,Nodo de entrega,1075229.4,1573286.5
+3,1,Eje 2023-2,Nodo de inicio,1082582.2,1572993.3
+3,2,Eje 2023-2,Nodo primer cambio de dirección,1080904.336,1573187.213
+3,3,Eje 2023-2,Nodo segundo cambio de dirección,1078720.086,1572402.805
+3,4,Eje 2023-2,Nodo tercer cambio de dirección,1076935.247,1573649.656
+3,5,Eje 2023-2,Nodo de entrega,1075229.4,1573286.5
+4,1,Eje 2024-2,Nodo de inicio,1082582.2,1572993.3
+4,2,Eje 2024-2,Nodo primer cambio de dirección,1079904.336,1573037.213
+4,3,Eje 2024-2,Nodo segundo cambio de dirección,1078220.086,1572402.805
+4,4,Eje 2024-2,Nodo tercer cambio de dirección,1076935.247,1573399.656
+4,5,Eje 2024-2,Nodo de entrega,1075229.4,1573286.5
+5,1,Eje 2025-2,Nodo de inicio,1082582.2,1572993.3
+5,2,Eje 2025-2,Nodo primer cambio de dirección,1079804.336,1573137.213
+5,3,Eje 2025-2,Nodo segundo cambio de dirección,1078220.086,1572402.805
+5,4,Eje 2025-2,Nodo tercer cambio de dirección,1076735.247,1573429.656
+5,5,Eje 2025-2,Nodo de entrega,1075229.4,1573286.5

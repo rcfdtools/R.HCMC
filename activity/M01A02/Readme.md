@@ -98,9 +98,9 @@ Antes de abrir el modelo hidrológico suministrado, verifique que el sistema de 
 > Nota: recuerde que las herramientas HEC utilizan esta notación y a pesar de que se puede predefinir el sistema internacional de unidades, internamente el núcleo de cálculo realiza las operaciones en sistema inglés.
 
 
-## Procedimiento general
+## 1. Exploración del modelo
 
-1. Exploración del modelo: abra el modelo hidrológico HEC-HMS suministrado e identifique: drenajes, subcuencas, esquematización simplificada en nodos y líneas, el eje de valle del cauce a diseñar, consulte los parámetros:
+Abra el modelo hidrológico HEC-HMS suministrado e identifique: drenajes, subcuencas, esquematización simplificada en nodos y líneas, el eje de valle del cauce a diseñar, consulte los parámetros:
 
 * Área de subcuencas (km²)
 * Área total cuenca (km²)
@@ -119,7 +119,8 @@ Antes de abrir el modelo hidrológico suministrado, verifique que el sistema de 
 <div align="center"><sub>Transformación / Hidrograma unitario del SCS por subcuenca</sub><br><img src="graph/HECHMS_TransformSCSUnitHydrograph.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><sub>Tránsito hidrológico / Muskingum por drenaje</sub><br><img src="graph/HECHMS_RoutingMuskingum.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-2. Identificación de puntos y área de estudio
+
+## 2. Identificación de puntos y área de estudio
 
 Identifique los nodos correspondientes al inicio, entrega del eje de valle, cauce lateral y subcuenca lateral; verifique:
 
@@ -144,7 +145,9 @@ En la barra de ejecución, seleccione _Run: Run 1_, consulte los resultados actu
 
 </div>
 
-3. Para su proyecto, cargue en QGIS la tabla de nodos [R.HCMC.NodoValle.xlsx](../../file/table/R.HCMC.NodoValle.xlsx) y convierta a una capa geográfica de puntos en formato shapefile, las localizaciones específicas de los nodos de su proyecto.
+## Nodos de proyecto
+
+Para su proyecto, cargue en QGIS la tabla de nodos [R.HCMC.NodoValle.xlsx](../../file/table/R.HCMC.NodoValle.xlsx) y convierta a una capa geográfica de puntos en formato shapefile, las localizaciones específicas de los nodos de su proyecto.
 
 Cree un proyecto nuevo en QGIS y asigne el sistema de proyección de coordenadas - CRS 3116 correspondiente a MAGNA-SIRGAS / Colombia Bogota zone.
 

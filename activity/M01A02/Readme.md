@@ -63,16 +63,27 @@ Antes de abrir el modelo hidrológico suministrado, verifique que el sistema de 
 * Símbolo de agrupación de miles: Coma (,)
 * Separador de listas: Coma (,)
 
-<div align="center"><img src="graph/MicrosoftWindowsControlPanelCustomizeFormat.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/MicrosoftWindows_ControlPanelCustomizeFormat.jpg" alt="R.SIGE" width="30%" border="0" /></div>
 
 > Nota: recuerde que las herramientas HEC utilizan esta notación y a pesar de que se puede predefinir el sistema internacional de unidades, internamente el núcleo de cálculo realiza las operaciones en sistema inglés.
 
 
 ## Procedimiento general
 
-1. 
+1. Exploración del modelo: abra el modelo hidrológico HEC-HMS suministrado e identifique: drenajes, subcuencas, esquematización simplificada en nodos y líneas, el eje de valle del cauce a diseñar, consulte los parámetros:
+
+* Área de subcuencas (km²)
+* Área total cuenca (km²)
+* Área acumulada hasta el nodo superior más cercano al punto de inicio del eje de valle
+* Número de Curva SCS asociado a cada subcuenca.
+* Tiempo de retardo o LagTime (min) asociado a cada subcuenca.
+* Parámetros de tránsito hidrológico para Muskingum, K (hr), X, número de tramos.
+
+<div align="center"><img src="graph/HECHMS_ConvertProject.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 > Geográficamente, se muestran las sub-cuencas localizadas al sur-oeste del eje del valle, pero para el tránsito hidrológico no se considerará la escorrentía producida por estas áreas debido a que el análisis hidrológico corresponde al tránsito hasta el punto de entrega del canal a diseñar y este se encuentra arriba del punto de confluencia de estos drenajes. Total área geográfica incluyendo las cuencas al sur: 262.3 km².
+
+
 
 
 ## Actividades de proyecto :triangular_ruler:

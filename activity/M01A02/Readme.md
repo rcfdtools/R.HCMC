@@ -218,18 +218,37 @@ Los nombres o etiquetas de marcado de los hietogramas indicados en la Parte F de
 
 <div align="center">
 
-| Etiqueta - Parte F    |  Factor de atenuación -  Fa  |  Periodo de retorno - Tr  |
-|:----------------------|:----------------------------:|:-------------------------:|
-| PMAX24H_FSCALIF_1     |              1               |          PMax24h          |
-| P_TR2.33_FSCALIF_1    |              1               |           2.33            |
-| P_TR5_FSCALIF_1       |              1               |             5             |
-| P_TR10_FSCALIF_1      |              1               |            10             |
-| P_TR25_FSCALIF_1      |              1               |            25             |
-| P_TR50_FSCALIF_1      |              1               |            50             |
-| P_TR100_FSCALIF_1     |              1               |            100            |
-| PMAX24H_FSCALIF_062   |             0.62             |          PMax24h          |
-| P_TR2.33_FSCALIF_062  |             0.62             |           2.33            |
-| P_TR5_FSCALIF_062     |             0.62             |             5             |
+| Etiqueta - Parte F   | Factor de atenuación -  Fa  | Periodo de retorno - Tr  |
+|:---------------------|:---------------------------:|:------------------------:|
+| PMAX24H_FSCALIF_1    |              1              |         PMax24h          |
+| P_TR2.33_FSCALIF_1   |              1              |           2.33           |
+| P_TR5_FSCALIF_1      |              1              |            5             |
+| P_TR10_FSCALIF_1     |              1              |            10            |
+| P_TR25_FSCALIF_1     |              1              |            25            |
+| P_TR50_FSCALIF_1     |              1              |            50            |
+| P_TR100_FSCALIF_1    |              1              |           100            |
+| PMAX24H_FSCALIF_062  |            0.62             |         PMax24h          |
+| P_TR2.33_FSCALIF_062 |            0.62             |           2.33           |
+| P_TR5_FSCALIF_062    |            0.62             |            5             |
+| P_TR10_FSCALIF_062   |            0.62             |            10            |
+| P_TR25_FSCALIF_062   |            0.62             |            25            |
+| P_TR50_FSCALIF_062   |            0.62             |            50            |
+| P_TR100_FSCALIF_062  |            0.62             |           100            |
+| PMAX24H_FSCALIF_063  |            0.63             |         PMax24h          |
+| P_TR2.33_FSCALIF_063 |            0.63             |           2.33           |
+| P_TR5_FSCALIF_063    |            0.63             |            5             |
+| P_TR10_FSCALIF_063   |            0.63             |            10            |
+| P_TR25_FSCALIF_063   |            0.63             |            25            |
+| P_TR50_FSCALIF_063   |            0.63             |            50            |
+| P_TR100_FSCALIF_063  |            0.63             |           100            |
+| PMAX24H_FSCALIF_064  |            0.64             |         PMax24h          |
+| P_TR2.33_FSCALIF_064 |            0.64             |           2.33           |
+| P_TR5_FSCALIF_064    |            0.64             |            5             |
+| P_TR10_FSCALIF_064   |            0.64             |            10            |
+| P_TR25_FSCALIF_064   |            0.64             |            25            |
+| P_TR50_FSCALIF_064   |            0.64             |            50            |
+| P_TR100_FSCALIF_064  |            0.64             |           100            |
+
 
 </div>
 

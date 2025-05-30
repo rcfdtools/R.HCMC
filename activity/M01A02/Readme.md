@@ -71,13 +71,11 @@ Luego de la modelación o tránsito hidrológico, los valores de caudal pico e h
 
 Para subcuencas pequeñas (menores o iguales a 25 km²) en cauces laterales al río artificial a diseñar, puede suponer que el centro de tormenta cubre toda esta área y por consiguiente el factor multiplicador será de 1.
 
-Regresiones potenciales y = a * xb 
+**Regresiones potenciales y = a * x<sup>b</sup>** 
 
-(3H)   y = 2.7388464183x<sup>-0.2942893251</sup>
-
-(6H)   y = 2.4215269794x-0.2568171459
-
-(9H)   y = 2.1659921609x-0.2239811195
+* (3 horas)   y = 2.7388464183x<sup>-0.2942893251</sup>
+* (6 horas)   y = 2.4215269794x<sup>-0.2568171459</sup>
+* (9 horas)   y = 2.1659921609x<sup>-0.2239811195</sup>
 
 
 

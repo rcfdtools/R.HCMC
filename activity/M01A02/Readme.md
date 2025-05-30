@@ -33,6 +33,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | [:open_file_folder:HECHMS_v0.zip](../../file/hec/HECHMS_v0.zip)                                                                                                  | Modelo hidrológico HEC-HMS con topología de áreas de drenaje de aproximadamente 4 km² o superior, compuesto por 44 subcuencas, 41 tramos de drenaje de 151.6 km (21 corresponden a tramos con tránsito hidrológico), área total de la cuenca en estudio: 247.1 km².                            |
 | [:open_file_folder:Hietogramas](../../file/table/Hietogramas)                                                                                                    | Archivos con series de hietogramas para diferentes periodos de retorno y factores de atenuación (0.62, 0.63, 0.64, 1) en función de las áreas acumuladas hasta los puntos de inicio, entrega y cauces menores. Incluye hietogramas para periodos de retorno de 2.33, 5, 10, 25, 50 y 100 años. |
 | [:open_file_folder:R.HCMC.PuntoEstudio.xlsx](../../file/table/R.HCMC.PuntoEstudio.xlsx)                                                                          | Puntos de estudio y factores de atenuación aplicados                                                                                                                                                                                                                                           |
+| [:open_file_folder:R.HCMC.NodoValle.xlsx](../../file/table/R.HCMC.NodoValle.xlsx)                                                                                | Puntos de localización para el trazado del valle compuesto por tramos rectos                                                                                                                                                                                                                   |
 | [:open_file_folder:R.HydroTools.Hidrograma RegVal.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/HidrogramaRegVal)                               | Libro de cálculo para el registro y validación de hidrogramas obtenidos a partir de modelación hidrológica en HEC-HMS                                                                                                                                                                          |
 
 </div>
@@ -63,7 +64,7 @@ Antes de abrir el modelo hidrológico suministrado, verifique que el sistema de 
 * Símbolo de agrupación de miles: Coma (,)
 * Separador de listas: Coma (,)
 
-<div align="center"><img src="graph/MicrosoftWindows_ControlPanelCustomizeFormat.jpg" alt="R.SIGE" width="30%" border="0" /></div>
+<div align="center"><img src="graph/MicrosoftWindows_ControlPanelCustomizeFormat.jpg" alt="R.SIGE" width="40%" border="0" /></div>
 
 > Nota: recuerde que las herramientas HEC utilizan esta notación y a pesar de que se puede predefinir el sistema internacional de unidades, internamente el núcleo de cálculo realiza las operaciones en sistema inglés.
 
@@ -83,8 +84,9 @@ Antes de abrir el modelo hidrológico suministrado, verifique que el sistema de 
 
 > Geográficamente, se muestran las sub-cuencas localizadas al sur-oeste del eje del valle, pero para el tránsito hidrológico no se considerará la escorrentía producida por estas áreas debido a que el análisis hidrológico corresponde al tránsito hasta el punto de entrega del canal a diseñar y este se encuentra arriba del punto de confluencia de estos drenajes. Total área geográfica incluyendo las cuencas al sur: 262.3 km².
 
+<div align="center">Modelo de cuencas<br><img src="graph/HECHMS_BasinModel.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
-
+R.HCMC.NodoValle.xlsx
 
 ## Actividades de proyecto :triangular_ruler:
 

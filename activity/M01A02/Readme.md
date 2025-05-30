@@ -203,20 +203,16 @@ Seleccione uno de los registros disponibles y presione las teclas <kbd>ctrl</kbd
 
 <div align="center"><img src="graph/HECDSS_SelectDelete.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-Desde el menú _Data Entry / Import / Time Series Data_, importe el archivo de hietogramas _file/table/hietogramas/9H_ANTR_FSVarios.csv_.
+Desde el menú _Data Entry / Import / Time Series Data_, importe el archivo de hietogramas _file/table/hietogramas/9H_ANTR_FSVarios.csv_. Siga las instrucciones del tutor o consulte el manual de usuario mediante la tecla F1 (Data Entry – Import – Time Series Data).
 
-> En la importación es necesario definir la fila de unidades, las columnas de fecha y hora, los apuntadores de fila A,B,C,F y definir en tipos de datos PER-CUM correspondiente a pulsos de lluvia.
+> En la importación es necesario definir la fila de unidades, las columnas de fecha y hora, los apuntadores de fila A,B,C,F y definir en tipos de datos PER-CUM correspondiente a pulsos de lluvia no acumulados.
 
 <div align="center"><img src="graph/HECDSS_DataEntryImportTimeSeriesData.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECDSS_DataEntryImportTimeSeriesData1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+Seleccione y visualice la gráfica de algunos de los hietogramas importados.
 
-Importe las series de tiempo correspondientes a los hietogramas del factor de atenuación 0.64 (Archivo: 9H_ANTR_FS064.csv). Siga las instrucciones del tutor o consulte el manual de usuario mediante la tecla F1 (Data Entry – Import – Time Series Data).
-
-
-
-
-
-
+<div align="center"><img src="graph/HECDSS_DataEntryImportTimeSeriesData2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 

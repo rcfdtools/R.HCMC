@@ -292,7 +292,7 @@ Desde la pestaña de ejecución, seleccione Run 1 y ejecute el modelo. Verifique
 <div align="center"><img src="graph/HECHMS_Run.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
-### Análisis y registro de resultados
+### 7. Análisis y registro de resultados
 
 En HEC-HMS, seleccione el nodo J4660 correspondiente al punto de inicio del realineamiento, 
 

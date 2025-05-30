@@ -160,7 +160,7 @@ Desde en panel _Layers_ y dando clic derecho en el nombre de la tabla _NodoEjeVa
 
 Desde el menú _Layer / Add Layer / Add Delimited Text Layer..._, agregue la tabla exportada en formato csv y conviértala a una capa geográfica de puntos, guardar como _file/shp/R.HCMC.NodoValle.shp_
 
-<div align="center"><img src="graph/QGIS_R.HCMC.NodoValle.shp.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_R.HCMC.NodoValleShp.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 Simbolice los nodos por Categorías a partir del código del eje y rotule con la expresión  `"Eje"  || '-'  ||   "Nodo" `
 

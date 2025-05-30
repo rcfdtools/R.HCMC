@@ -75,9 +75,9 @@ Para subcuencas pequeñas (menores o iguales a 25 km²) en cauces laterales al r
 
 **Regresiones potenciales - California montañoso** y = a * x<sup>b</sup>
 
-(3 horas)   y = 2.7388464183 * x <sup>-0.2942893251</sup>
-(6 horas)   y = 2.4215269794 * x <sup>-0.2568171459</sup>
-(9 horas)   y = 2.1659921609 * x <sup>-0.2239811195</sup>
+(3 horas)   y = 2.7388464183 * x <sup>-0.2942893251</sup><br>
+(6 horas)   y = 2.4215269794 * x <sup>-0.2568171459</sup><br>
+(9 horas)   y = 2.1659921609 * x <sup>-0.2239811195</sup><br>
 
 </div>
 

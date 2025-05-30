@@ -84,7 +84,14 @@ Antes de abrir el modelo hidrológico suministrado, verifique que el sistema de 
 
 > Geográficamente, se muestran las sub-cuencas localizadas al sur-oeste del eje del valle, pero para el tránsito hidrológico no se considerará la escorrentía producida por estas áreas debido a que el análisis hidrológico corresponde al tránsito hasta el punto de entrega del canal a diseñar y este se encuentra arriba del punto de confluencia de estos drenajes. Total área geográfica incluyendo las cuencas al sur: 262.3 km².
 
-<div align="center"><sub>Modelo topológico de sub-cuenca</sub><br><img src="graph/HECHMS_BasinModel.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><sub>Modelo topológico de subcuenca</sub><br><img src="graph/HECHMS_BasinModel.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><sub>Área por subcuenca</sub><br><img src="graph/HECHMS_SubbasinArea.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><sub>Pérdidas / Número de curva CN del SCS por subcuenca</sub><br><img src="graph/HECHMS_LossSCSCurveNumber.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><sub>Modelo topológico de sub-cuenca</sub><br><img src="graph/HECHMS_TransformSCSUnitHydrograph.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+
+
+
 
 R.HCMC.NodoValle.xlsx
 

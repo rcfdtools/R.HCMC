@@ -307,9 +307,22 @@ Para el nodo J4660 (correspondiente al punto de inicio del realineamiento), desd
 
 <div align="center"><img src="graph/HECHMS_JunctionJ4660RunGlobalSummary.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 <div align="center"><img src="graph/HECHMS_JunctionJ4660RunGraph.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+Resultados: en el punto de inicio de realineamiento correspondiente al nodo J4660 cuya área de drenaje es de 225.36 km², se obtuvo un caudal de 130 m³/s para el periodo de retorno de 2.33 años. En total se drenaron 15.33 mm de escorrentía por toda la cuenca hasta este punto.
+
+Para el nodo J4660, consulté además la tabla de resultados con la serie de datos continua que contiene los hidrogramas. En la gráfica de hidrograma se encuentran diferentes curvas que corresponden a hietogramas convertidos en hidrogramas, hidrogramas transitados y el hidrograma total correspondiente a la suma de los anteriores.
+
 <div align="center"><img src="graph/HECHMS_JunctionJ4660RunTimeSeriesResults.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+En el libro de Microsoft Excel [:open_file_folder:R.HydroTools.Hidrograma RegVal.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/HidrogramaRegVal), registre para el punto estudiado, la columna Outflow (m³/s) correspondiente al caudal total calculado.
 
+Repita el procedimiento anterior, modificando en el archivo ARROYOELZORRO.gage, la etiqueta Parte F de los hietogramas (que contienen el periodo de retorno y el factor de atenuación) y obtenga uno a uno los hidrogramas y resultados para los demás periodos de retorno 5, 10, 25, 50 y 100 años.
+
+> Recuerde que los caudales pico y los hidrogramas serán utilizados para el diseño y modelación en flujo no permanente.
+
+Finalmente, ejecute el procedimiento anteriormente descrito para los demás puntos de estudio y cuencas laterales y almacene los resultados en el libro de hidrogramas. Grafique Tr vs Qmáx, Tr vs Volumen drenado y los hidrogramas, verifique que los datos obtenidos sean consistentes y correctos.
+
+> Tenga en cuenta que será necesario estimar el caudal pico y el hidrograma de las cuencas laterales aplicando el factor de atenuación compuesto hasta el punto de descarga en el cauce principal y el factor propio de cada cuenca. El factor compuesto será utilizado en la modelación hidráulica del cauce principal y el factor propio de la subcuenca lateral para el diseño de las estructuras hidráulicas de entrega al cauce principal de realineamiento.
 
 
 

@@ -81,8 +81,8 @@ Para subcuencas pequeñas (menores o iguales a 25 km²) en cauces laterales al r
 
 </div>
 
-<div align="center"><img src="graph/R.HydroTools.FactorAtenuacion PrecipitacionFa1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.FactorAtenuacion PrecipitacionFa2.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.FactorAtenuacion PrecipitacionFa1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.FactorAtenuacion PrecipitacionFa2.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 
 ### Configuración regional del sistema operativo

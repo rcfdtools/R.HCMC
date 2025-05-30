@@ -43,7 +43,10 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Nota: los datos hidroclimatológicos suministrados corresponden a información tomada y procesada a partir de datos del IDEAM  y los archivos de formas vectoriales han sido descargados del IGAC y de otras fuentes alternas.
 
 
-## ¿Qué es y para qué sirve un modelo hidrológico?
+## Conceptos generales y configuración preliminar
+
+
+### ¿Qué es y para qué sirve un modelo hidrológico?
 
 Es la abstracción o representación del ciclo hidrológico y sus fenómenos asociados, en un prototipo o modelo abstracto simplificado de un evento particular y/o computacional continuo (un modelo es continuo cuando se obtienen múltiples o una serie de resultados instantáneos en un intervalo de tiempo determinado) que sirve para estudiar la interacción de sus principales características y cuyo propósito general es estudiar la escorrentía y caudal producido por la lluvia de una tormenta.
 
@@ -56,7 +59,22 @@ Para el desarrollo del proyecto utilizaremos:
 * Tránsito hidrológico: Muskingum.
 
 
-## Configuración regional del sistema operativo
+### ¿Qué es y para qué sirve el factor de atenuación por área?
+
+Es un valor numérico adimensional (entre 0 y 1) que multiplica la lluvia total máxima en 24 horas, estimada para cada subcuenca o sus pulsos equivalentes (del hietograma) en función del área de aportación y solo es válido en un punto de estudio determinado. 
+
+Sirve para ajustar o atenuar el valor total de lluvia (mm) máxima, suponiendo que a mayor área acumulada existe menor probabilidad de que simultáneamente llueva sobre toda la cuenca.
+
+El factor de atenuación es inversamente proporcional al área acumulada de la cuenca hasta un determinado punto de estudio. A mayor área acumulada, menor factor y por ende menor precipitación máxima simultánea.
+
+Luego de la modelación o tránsito hidrológico, los valores de caudal pico e hietogramas, solo serán válidos para el punto en estudio.
+
+Para subcuencas pequeñas (menores o iguales a 25 km²) en cauces laterales al río artificial a diseñar, puede suponer que el centro de tormenta cubre toda esta área y por consiguiente el factor multiplicador será de 1.
+
+
+
+
+### Configuración regional del sistema operativo
 
 Antes de abrir el modelo hidrológico suministrado, verifique que el sistema de unidades de su sistema operativo esté configurado con la notación del sistema inglés. En Microsoft Windows ir a Panel de Control / Región / Configuración Adicional y establecer:
 
@@ -89,6 +107,31 @@ Antes de abrir el modelo hidrológico suministrado, verifique que el sistema de 
 <div align="center"><sub>Pérdidas / Número de curva CN del SCS por subcuenca</sub><br><img src="graph/HECHMS_LossSCSCurveNumber.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><sub>Transformación / Hidrograma unitario del SCS por subcuenca</sub><br><img src="graph/HECHMS_TransformSCSUnitHydrograph.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><sub>Tránsito hidrológico / Muskingum por drenaje</sub><br><img src="graph/HECHMS_RoutingMuskingum.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+2. Identificación de puntos y área de estudio
+
+Identifique los nodos correspondientes al inicio, entrega del eje de valle, cauce lateral y subcuenca lateral; verifique:
+
+* Código del nodo
+* Área total acumulada hasta cada punto (km²)
+* Estime el Factor de Atenuación por área correspondiente a cada área acumulada hasta los puntos de estudio. (utilizar la información correspondiente a California Montañoso para lluvias con duración igual o equivalente a 9 horas)
+* Identifique la cuenca o cuencas correspondientes al cauce lateral que drenará sus aguas al canal a diseñar y establezca el factor de atenuación. Suponga que el centro de tormenta cubre toda esta cuenca menor.
+
+En la barra de ejecución, seleccione _Run: Run 1_, consulte los resultados actuales del modelo y verifique las áreas acumuladas hasta los diferentes nodos cercanos al eje de realineamiento. Para el caso de estudio corresponden a los nodos J4660, J4682 y Sink-1.
+
+<div align="center"><sub>Tránsito hidrológico / Muskingum por drenaje</sub><br><img src="graph/HECHMS_GlobalSummaryResults.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+<div align="center">
+
+| Localización | Descripción                             |       Área acumulada (km²)        | Factor de atenuación - Fa |
+|:------------:|:----------------------------------------|:---------------------------------:|:-------------------------:|
+|    J4660     | Inicio realineamiento                   |               225.4               |           0.64            |
+|    J4682     | Entrega cauce lateral                   |               243.1               |           0.63            |
+|    Sink-1    | Fin realineamiento                      | 247.1 sin consider área sur-oeste |           0.63            |
+|    Sink-1    | Fin realineamiento                      | 263.2 considerando área sur-oeste |           0.62            |
+|    W19610    | Subcuenca lateral entrega en nodo J4682 |             15.195                |           1.00            |
+
+</div>
 
 
 

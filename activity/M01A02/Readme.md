@@ -71,7 +71,7 @@ Luego de la modelación o tránsito hidrológico, los valores de caudal pico e h
 
 Para subcuencas pequeñas (menores o iguales a 25 km²) en cauces laterales al río artificial a diseñar, puede suponer que el centro de tormenta cubre toda esta área y por consiguiente el factor multiplicador será de 1.
 
-<div>
+<div align="center">
 
 **Regresiones potenciales**
 

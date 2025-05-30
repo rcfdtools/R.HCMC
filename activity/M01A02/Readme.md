@@ -251,10 +251,8 @@ Los nombres o etiquetas de marcado de los hietogramas indicados en la Parte F de
 
 </div>
 
-> Tenga en cuenta que las especificaciones de control del modelo hidrológico en HEC-HMS, deberán corresponder a las fechas y horas de inicio y finalización de los hietogramas suministrados, correspondientes del 05Mar2016 al 08Mar2016.
 
-
-### 5. Definición de lluvias por periodo de retorno Tr y factor de atenuación en el modelo HEC-HMS
+### 5. Definición de lluvias por periodo de retorno Tr y factor de atenuación en HEC-HMS
 
 Cierre HEC-DSS y a continuación edite el archivo HEC-HMS denominado _ARROYOELZORRO.gage_ correspondiente a la identificación de los hietogramas y ruta a los datos importados en la base de datos HEC-DSS, se recomienda utilizar el editor de texto Notepad++ para no alterar la codificación de texto del archivo.
 
@@ -276,12 +274,22 @@ Una vez reemplace las etiquetas de hietograma contenidos en la Parte F, guarde y
 
 > Una vez realice la modelación para el periodo de retorno y factor de atenuación requerido, deberá repetir este procedimiento para los demás puntos de estudio a evaluar.
 
-Abra HEC-HMS y verifique desde _Time-Series Data_ que los hietogramas por subcuenca se visualicen correctamente.
+Abra HEC-HMS y verifique desde _Time-Series Data_, que los hietogramas por subcuenca se visualicen correctamente para el periodo de retorno y factor de atenuación establecido.
 
 <div align="center"><img src="graph/HECHMS_TimeSeriesData.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
+### Modelación hidrológica
 
+En HEC-HMS, verifique que las especificaciones de control son consistentes con las fechas y horas de inicio y finalización de los hietogramas suministrados. 
+
+> Tenga en cuenta que las especificaciones de control del modelo hidrológico en HEC-HMS, deberán corresponder a las fechas y horas de inicio y finalización de los hietogramas suministrados, correspondientes del 05Mar2016 al 08Mar2016.
+
+<div align="center"><img src="graph/HECHMS_ControlSpecifications.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+Desde la pestaña de ejecución, seleccione Run 1 y ejecute el modelo. Verifique las advertencias mostradas en la ventana de mensajes ubicada en la parte inferior. En caso de error consulte con el tutor o resuelva uno a uno los errores reportados.
+
+<div align="center"><img src="graph/HECHMS_Run.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 

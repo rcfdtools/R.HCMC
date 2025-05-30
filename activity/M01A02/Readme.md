@@ -83,6 +83,9 @@ y = a * x<sup>b</sup>
 
 </div>
 
+<div align="center"><img src="graph/R.HydroTools.FactorAtenuacion PrecipitacionFa1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.FactorAtenuacion PrecipitacionFa2.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+
 
 ### Configuración regional del sistema operativo
 

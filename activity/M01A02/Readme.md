@@ -298,6 +298,17 @@ En HEC-HMS, seleccione el nodo J4660 correspondiente al punto de inicio del real
 
 <div align="center"><img src="graph/HECHMS_JunctionJ4660.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+Para el nodo J4660 (correspondiente al punto de inicio del realineamiento), desde la barra de ejecución, consulte:
+
+* Resumen de cálculo: Área de drenaje (km²), Caudal pico descargado (m³/s), tiempo al pico (fecha y hora) y Volumen drenado o laminado de lluvia (mm).
+* Gráfico de Hidrograma obtenido.
+
+> :fire:Atención: Recuerde que los resultados obtenidos únicamente son válidos para este nodo debido a que los hietogramas fueron ajustados con el factor de atenuación correspondiente a 0.64.
+
+<div align="center"><img src="graph/HECHMS_JunctionJ4660RunGlobalSummary.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/HECHMS_JunctionJ4660RunGraph.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECHMS_JunctionJ4660RunTimeSeriesResults.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
 
 
 

@@ -28,7 +28,7 @@
 |  :busts_in_silhouette:   | `:busts_in_silhouette:`    | Grupo de proyecto                                                                                    |
 |    :man_technologist:    | `:man_technologist:`       | Usuario                                                                                              |
 |          :mag:           | `:mag:`                    | Caso de estudio / Case Study                                                                         |
-|          :fire:          | `:fire:`                   | Riesgo natural                                                                                       |
+|          :fire:          | `:fire:`                   | Riesgo natural / Alerta                                                                              |
 | :vertical_traffic_light: | `:vertical_traffic_light:` | Network Analyst                                                                                      |
 |       :rocket:           | `:rocket:`                 | Fotogrametría                                                                                        |
 

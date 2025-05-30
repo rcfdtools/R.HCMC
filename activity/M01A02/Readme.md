@@ -249,12 +249,38 @@ Los nombres o etiquetas de marcado de los hietogramas indicados en la Parte F de
 | P_TR50_FSCALIF_064   |            0.64             |            50            |
 | P_TR100_FSCALIF_064  |            0.64             |           100            |
 
-
 </div>
 
 > Tenga en cuenta que las especificaciones de control del modelo hidrológico en HEC-HMS, deberán corresponder a las fechas y horas de inicio y finalización de los hietogramas suministrados, correspondientes del 05Mar2016 al 08Mar2016.
 
-### 5. 
+### 5. Definición del periodo de retorno Tr en el modelo HEC-HMS
+
+Cierre HEC-DSS y a continuación edite el archivo HEC-HMS denominado _ARROYOELZORRO.gage_ correspondiente a la identificación de los hietogramas y ruta a los datos importados en la base de datos HEC-DSS, se recomienda utilizar el editor de texto Notepad++ para no alterar la codificación de texto del archivo.
+
+> Durante la modificación del archivo _ARROYOELZORRO.gage_, se recomienda mantener cerrado el HEC-HMS debido a que la codificación del archivo puede ser alterada y la posterior ejecución del modelo hidrológico podrá presentar errores.
+
+Reemplace la actual parte F de la cadena DSS Pathname por el valor P_TR2.33_FSCALIF_064, guarde y cierre el archivo. La notación general obedece a rutas o partes identificadas internamente por HEC-DSS con las letras A,B,C,D,E,F.
+
+En los archivos de hietogramas suministrados, se han identificado los diferentes periodos de retorno con los prefijos:
+
+* P_TR2.33_FSCALIF
+* P_TR5_FSCALIF
+* P_TR25_FSCALIF
+* P_TR50_FSCALIF
+* P_TR100_FSCALIF
+
+<div align="center"><img src="graph/Notepad_ArroyoElZorroGage.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+Una vez reemplace las etiquetas de hietograma contenidos en la Parte F, guarde y cierre el editor de texto Notepad++.
+
+
+
+
+
+
+
+
+
 
 
 

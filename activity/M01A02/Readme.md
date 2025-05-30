@@ -125,26 +125,26 @@ Abra el modelo hidrológico HEC-HMS suministrado e identifique: drenajes, subcue
 
 ### 2. Identificación de puntos y área de estudio
 
-Identifique los nodos correspondientes al inicio, entrega del eje de valle, cauce lateral y subcuenca lateral; verifique:
+Identifique los nodos correspondientes al inicio, entrega del eje de valle, cauce lateral y subcuenca lateral, verifique:
 
 * Código del nodo
 * Área total acumulada hasta cada punto (km²)
 * Estime el Factor de Atenuación por área correspondiente a cada área acumulada hasta los puntos de estudio. (utilizar la información correspondiente a California Montañoso para lluvias con duración igual o equivalente a 9 horas)
 * Identifique la cuenca o cuencas correspondientes al cauce lateral que drenará sus aguas al canal a diseñar y establezca el factor de atenuación. Suponga que el centro de tormenta cubre toda esta cuenca menor.
 
-En la barra de ejecución, seleccione _Run: Run 1_, consulte los resultados actuales del modelo y verifique las áreas acumuladas hasta los diferentes nodos cercanos al eje de realineamiento. Para el caso de estudio corresponden a los nodos J4660, J4682 y Sink-1.
+En la barra de ejecución, seleccione _Run: Run 1_, consulte los resultados actuales del modelo y verifique las áreas acumuladas hasta los diferentes nodos cercanos al eje de realineamiento y cuencas laterales, para el caso de estudio corresponden a los nodos J4660, J4682, Sink-1 y subcuenca W19610.
 
 <div align="center"><sub>Tránsito hidrológico / Muskingum por drenaje</sub><br><img src="graph/HECHMS_GlobalSummaryResults.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 <div align="center">
 
-| Localización | Descripción                             |       Área acumulada (km²)        | Factor de atenuación - Fa |
-|:------------:|:----------------------------------------|:---------------------------------:|:-------------------------:|
-|    J4660     | Inicio realineamiento                   |               225.4               |           0.64            |
-|    J4682     | Entrega cauce lateral                   |               243.1               |           0.63            |
-|    Sink-1    | Fin realineamiento                      | 247.1 sin consider área sur-oeste |           0.63            |
-|    Sink-1    | Fin realineamiento                      | 263.2 considerando área sur-oeste |           0.62            |
-|    W19610    | Subcuenca lateral entrega en nodo J4682 |             15.195                |           1.00            |
+| Localización | Descripción                             |         Área acumulada (km²)          | Factor de atenuación - Fa |
+|:------------:|:----------------------------------------|:-------------------------------------:|:-------------------------:|
+|    J4660     | Inicio realineamiento                   |                 225.4                 |           0.64            |
+|    J4682     | Entrega cauce lateral                   |                 243.1                 |           0.63            |
+|    Sink-1    | Fin realineamiento                      | 247.1<br>sin considar área sur-oeste  |           0.63            |
+|    Sink-1    | Fin realineamiento                      | 263.2<br>considerando área sur-oeste  |           0.62            |
+|    W19610    | Subcuenca lateral entrega en nodo J4682 |                15.195                 |           1.00            |
 
 </div>
 

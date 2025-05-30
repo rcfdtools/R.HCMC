@@ -138,13 +138,13 @@ En la barra de ejecución, seleccione _Run: Run 1_, consulte los resultados actu
 
 <div align="center">
 
-| Localización | Descripción                             |         Área acumulada (km²)          | Factor de atenuación - Fa |
-|:------------:|:----------------------------------------|:-------------------------------------:|:-------------------------:|
-|    J4660     | Inicio realineamiento                   |                 225.4                 |           0.64            |
-|    J4682     | Entrega cauce lateral                   |                 243.1                 |           0.63            |
-|    Sink-1    | Fin realineamiento                      | 247.1<br>sin considar área sur-oeste  |           0.63            |
-|    Sink-1    | Fin realineamiento                      | 263.2<br>considerando área sur-oeste  |           0.62            |
-|    W19610    | Subcuenca lateral entrega en nodo J4682 |                15.195                 |           1.00            |
+| Localización | Descripción                             |          Área acumulada (km²)          | Factor de atenuación - Fa |
+|:------------:|:----------------------------------------|:--------------------------------------:|:-------------------------:|
+|    J4660     | Inicio realineamiento                   |                 225.4                  |           0.64            |
+|    J4682     | Entrega cauce lateral                   |                 243.1                  |           0.63            |
+|    Sink-1    | Fin realineamiento                      | 247.1<br>sin considerar área sur-oeste |           0.63            |
+|    Sink-1    | Fin realineamiento                      |  263.2<br>considerando área sur-oeste  |           0.62            |
+|    W19610    | Subcuenca lateral entrega en nodo J4682 |                 15.195                 |           1.00            |
 
 </div>
 

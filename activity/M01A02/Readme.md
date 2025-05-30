@@ -253,7 +253,7 @@ Los nombres o etiquetas de marcado de los hietogramas indicados en la Parte F de
 
 > Tenga en cuenta que las especificaciones de control del modelo hidrológico en HEC-HMS, deberán corresponder a las fechas y horas de inicio y finalización de los hietogramas suministrados, correspondientes del 05Mar2016 al 08Mar2016.
 
-### 5. Definición del periodo de retorno Tr en el modelo HEC-HMS
+### 5. Definición de lluvias por periodo de retorno Tr y factor de atenuación en el modelo HEC-HMS
 
 Cierre HEC-DSS y a continuación edite el archivo HEC-HMS denominado _ARROYOELZORRO.gage_ correspondiente a la identificación de los hietogramas y ruta a los datos importados en la base de datos HEC-DSS, se recomienda utilizar el editor de texto Notepad++ para no alterar la codificación de texto del archivo.
 
@@ -273,7 +273,7 @@ En los archivos de hietogramas suministrados, se han identificado los diferentes
 
 Una vez reemplace las etiquetas de hietograma contenidos en la Parte F, guarde y cierre el editor de texto Notepad++.
 
-
+> Una vez realice la modelación para el periodo de retorno y factor de atenuación requerido, deberá repetir este procedimiento para los demás puntos de estudio a evaluar.
 
 
 

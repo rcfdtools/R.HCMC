@@ -197,7 +197,7 @@ Cierre HEC-HMS, abra HEC-DSS Vue 3.2.3 y abra el archivo denominado ARROYOELZORR
 
 <div align="center"><img src="graph/HECDSS_OpenDSSFile.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-Seleccione uno de los registros disponibles y presione las teclas <kbd>ctrl</kbd>-<kbd>a</kbd> para seleccionar todos los registros.
+Seleccione uno de los registros disponibles y presione las teclas <kbd>ctrl</kbd>-<kbd>a</kbd> para seleccionar todos los registros. Elimine todos los registros existentes utilizando la tecla <kbd>delete</kbd>.
 
 > Tenga en cuenta que antes de importar un nuevo archivo de datos, deberá eliminar todos los registros existentes en la base de datos HEC-DSS y luego purgar la base de datos mediante la opción Tools – Squeeze.
 

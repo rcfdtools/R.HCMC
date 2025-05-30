@@ -138,15 +138,16 @@ En la barra de ejecución, seleccione _Run: Run 1_, consulte los resultados actu
 
 <div align="center">
 
-| Localización | Descripción                             |          Área acumulada (km²)          | Factor de atenuación - Fa |
-|:------------:|:----------------------------------------|:--------------------------------------:|:-------------------------:|
-|    J4660     | Inicio realineamiento                   |                 225.4                  |           0.64            |
-|    J4682     | Entrega cauce lateral                   |                 243.1                  |           0.63            |
-|    Sink-1    | Fin realineamiento                      | 247.1<br>sin considerar área sur-oeste |           0.63            |
-|    Sink-1    | Fin realineamiento                      |  263.2<br>considerando área sur-oeste  |           0.62            |
-|    W19610    | Subcuenca lateral entrega en nodo J4682 |                 15.195                 |           1.00            |
+| Localización | Descripción                              |          Área acumulada (km²)          | Factor de atenuación - Fa |
+|:------------:|:-----------------------------------------|:--------------------------------------:|:-------------------------:|
+|    J4660     | Inicio realineamiento                    |                 225.4                  |           0.64            |
+|    J4682     | Entrega cauce lateral                    |                 243.1                  |           0.63            |
+|    Sink-1    | Fin realineamiento                       | 247.1<br>sin considerar área sur-oeste |           0.63            |
+|    Sink-1    | Fin realineamiento                       |  263.2<br>considerando área sur-oeste  |           0.62            |
+|    W19610    | Subcuenca lateral, entrega en nodo J4682 |                 15.195                 |           1.00            |
 
 </div>
+
 
 ### 3. Nodos de proyecto
 
@@ -184,6 +185,33 @@ En el proyecto HEC-HMS, de clic derecho en cualquier área vacía del mapa y sel
 <div align="center"><img src="graph/HECHMS_MapLayersAdd1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 > Identifique los nodos correspondientes a su eje de proyecto y los nodos y cuencas del modelo hidrológico que serán intervenidas con el trazado.
+
+
+### 4. Importación de hietogramas
+
+Para la ejecución del modelo hidrológico, se han suministrado hietogramas con duración de 9 horas de lluvia para los factores de atenuación por área: 0.62, 0.63, 0.64 y 1. Cada factor está compuesto de hietogramas para los periodos de retorno (años): 2.33, 5, 10, 25, 50 y 100.
+
+> Tenga en cuenta que para su proyecto, deberá generar los hietogramas requeridos para los demás factores de atenuación requeridos.
+
+Cierre HEC-HMS, abra HEC-DSS Vue 3.2.3 y abra el archivo denominado ARROYOELZORRO.dss
+
+<div align="center"><img src="graph/HECDSS_OpenDSSFile.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+Seleccione uno de los registros disponibles y presione las teclas <kbd>ctrl</kbd>-<kbd>a</kbd> para seleccionar todos los registros.
+
+> Tenga en cuenta que antes de importar un nuevo archivo de datos, deberá eliminar todos los registros existentes en la base de datos HEC-DSS y luego purgar la base de datos mediante la opción Tools – Squeeze.
+
+
+
+Importe las series de tiempo correspondientes a los hietogramas del factor de atenuación 0.64 (Archivo: 9H_ANTR_FS064.csv). Siga las instrucciones del tutor o consulte el manual de usuario mediante la tecla F1 (Data Entry – Import – Time Series Data).
+
+
+
+
+
+
+
+
 
 
 ## Actividades de proyecto :triangular_ruler:

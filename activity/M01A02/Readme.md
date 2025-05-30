@@ -279,7 +279,7 @@ Abra HEC-HMS y verifique desde _Time-Series Data_, que los hietogramas por subcu
 <div align="center"><img src="graph/HECHMS_TimeSeriesData.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
-### Modelación hidrológica
+### 6. Modelación hidrológica
 
 En HEC-HMS, verifique que las especificaciones de control son consistentes con las fechas y horas de inicio y finalización de los hietogramas suministrados. 
 

@@ -168,7 +168,7 @@ Simbolice los nodos por categorías a partir del código del eje y rotule con la
 
 Desde en panel _Layers_ y dando clic derecho en el nombre de la capa geográfica temporal _R.HCMC.NodoValle_, seleccione la opción _Export / Save Vector Layer as..._, en formato establezca _ESRI Shapefile_ y guarde como _file/shp/R.HCMC.NodoValle.shp_. Utilice el encoding _windows-1252_, simbolice y rotule.
 
-<div align="center"><img src="graph/QGIS_R.HCMC.NodoValle.shpExport.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_R.HCMC.NodoValle.shpExport.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 
 

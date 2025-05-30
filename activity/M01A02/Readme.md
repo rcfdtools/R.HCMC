@@ -168,11 +168,16 @@ Simbolice los nodos por categorías a partir del código del eje y rotule con la
 
 Desde en panel _Layers_ y dando clic derecho en el nombre de la capa geográfica temporal _R.HCMC.NodoValle_, seleccione la opción _Export / Save Vector Layer as..._, en formato establezca _ESRI Shapefile_ y guarde como _file/shp/R.HCMC.NodoValle.shp_. Utilice el encoding _windows-1252_, simbolice y rotule.
 
+> Para facilitar la identificación de los nodos en HEC-HMS, antes de exportar puede filtrar los nodos específicos de su proyecto.
+
 <div align="center"><img src="graph/QGIS_R.HCMC.NodoValle.shpExport.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
+En el proyecto HEC-HMS, de clic derecho en cualquier área vacía del mapa y seleccione la opción _Map Layers..._, utilizando el botón _Add..._ agregue la capa de nodos creada y rotule a partir del código del eje.
 
+<div align="center"><img src="graph/HECHMS_MapLayersAdd.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECHMS_MapLayersAdd1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
- y filtre por el código de su eje de proyecto
+> Identifique los nodos correspondientes a su eje de proyecto y los nodos y cuencas del modelo hidrológico que serán intervenidas con el trazado.
 
 
 ## Actividades de proyecto :triangular_ruler:

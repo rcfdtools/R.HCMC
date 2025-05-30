@@ -16,34 +16,6 @@ Obtener en función del área de aportación hasta los puntos de inicio, entrega
 * Obtener y analizar los hidrogramas obtenidos para el tránsito de crecientes por el tramo de cauce diseñado y para las descargas laterales. 
 
 
-## ¿Qué es y para qué sirve un modelo hidrológico?
-
-Es la abstracción o representación del ciclo hidrológico y sus fenómenos asociados, en un prototipo o modelo abstracto simplificado de un evento particular y/o computacional continuo (un modelo es continuo cuando se obtienen múltiples o una serie de resultados instantáneos en un intervalo de tiempo determinado) que sirve para estudiar la interacción de sus principales características y cuyo propósito general es estudiar la escorrentía y caudal producido por la lluvia de una tormenta.
-
-Existen diversas metodologías que dependen de diferentes parámetros y supuestos. Como mínimo se debe estimar el total de lluvia que se puede convertir en escorrentía (lluvia total menos pérdidas y abstracciones), la transformación de la lluvia en escorrentía y el tránsito hidrológico de la escorrentía a través de los cauces.
-
-Para el desarrollo del proyecto utilizaremos:
-
-* Pérdidas de lluvia: Número de curva del [Soil Conservation Service - SCS](http://www.nrcs.usda.gov/) ó CN.
-* Transformación de lluvia en escorrentía: Hidrograma unitario del SCS.
-* Tránsito hidrológico: Muskingum.
-
-
-## Configuración regional del sistema operativo
-
-Antes de abrir el modelo hidrológico suministrado, verifique que el sistema de unidades de su sistema operativo esté configurado con la notación del sistema inglés. En Microsoft Windows ir a Panel de Control / Región / Configuración Adicional y establecer:
-
-* Separador decimal: Punto (.)
-* Símbolo de agrupación de miles: Coma (,)
-* Separador de listas: Coma (,)
-
-<div align="center"><img src="graph/MicrosoftWindowsControlPanelCustomizeFormat.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-
-> Nota: recuerde que las herramientas HEC utilizan esta notación y a pesar de que se puede predefinir el sistema internacional de unidades, internamente el núcleo de cálculo realiza las operaciones en sistema inglés.
-
-
-
-
 ## Requerimientos
 
 Archivos, actividades previas, lecturas y herramientas requeridas para el desarrollo de esta actividad:
@@ -70,7 +42,35 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Nota: los datos hidroclimatológicos suministrados corresponden a información tomada y procesada a partir de datos del IDEAM  y los archivos de formas vectoriales han sido descargados del IGAC y de otras fuentes alternas.
 
 
+## ¿Qué es y para qué sirve un modelo hidrológico?
+
+Es la abstracción o representación del ciclo hidrológico y sus fenómenos asociados, en un prototipo o modelo abstracto simplificado de un evento particular y/o computacional continuo (un modelo es continuo cuando se obtienen múltiples o una serie de resultados instantáneos en un intervalo de tiempo determinado) que sirve para estudiar la interacción de sus principales características y cuyo propósito general es estudiar la escorrentía y caudal producido por la lluvia de una tormenta.
+
+Existen diversas metodologías que dependen de diferentes parámetros y supuestos. Como mínimo se debe estimar el total de lluvia que se puede convertir en escorrentía (lluvia total menos pérdidas y abstracciones), la transformación de la lluvia en escorrentía y el tránsito hidrológico de la escorrentía a través de los cauces.
+
+Para el desarrollo del proyecto utilizaremos:
+
+* Pérdidas de lluvia: Número de curva del [Soil Conservation Service - SCS](http://www.nrcs.usda.gov/) ó CN.
+* Transformación de lluvia en escorrentía: Hidrograma unitario del SCS.
+* Tránsito hidrológico: Muskingum.
+
+
+## Configuración regional del sistema operativo
+
+Antes de abrir el modelo hidrológico suministrado, verifique que el sistema de unidades de su sistema operativo esté configurado con la notación del sistema inglés. En Microsoft Windows ir a Panel de Control / Región / Configuración Adicional y establecer:
+
+* Separador decimal: Punto (.)
+* Símbolo de agrupación de miles: Coma (,)
+* Separador de listas: Coma (,)
+
+<div align="center"><img src="graph/MicrosoftWindowsControlPanelCustomizeFormat.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+
+> Nota: recuerde que las herramientas HEC utilizan esta notación y a pesar de que se puede predefinir el sistema internacional de unidades, internamente el núcleo de cálculo realiza las operaciones en sistema inglés.
+
+
 ## Procedimiento general
+
+1. 
 
 > Geográficamente, se muestran las sub-cuencas localizadas al sur-oeste del eje del valle, pero para el tránsito hidrológico no se considerará la escorrentía producida por estas áreas debido a que el análisis hidrológico corresponde al tránsito hasta el punto de entrega del canal a diseñar y este se encuentra arriba del punto de confluencia de estos drenajes. Total área geográfica incluyendo las cuencas al sur: 262.3 km².
 

@@ -88,6 +88,7 @@ Antes de abrir el modelo hidrológico suministrado, verifique que el sistema de 
 <div align="center"><sub>Área por subcuenca</sub><br><img src="graph/HECHMS_SubbasinArea.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><sub>Pérdidas / Número de curva CN del SCS por subcuenca</sub><br><img src="graph/HECHMS_LossSCSCurveNumber.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><sub>Transformación / Hidrograma unitario del SCS por subcuenca</sub><br><img src="graph/HECHMS_TransformSCSUnitHydrograph.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><sub>Tránsito hidrológico / Muskingum por drenaje</sub><br><img src="graph/HECHMS_RoutingMuskingum.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 

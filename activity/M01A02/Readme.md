@@ -214,6 +214,28 @@ Seleccione y visualice la gráfica de algunos de los hietogramas importados.
 
 <div align="center"><img src="graph/HECDSS_DataEntryImportTimeSeriesData2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+Los nombres o etiquetas de marcado de los hietogramas indicados en la Parte F de los registros de HEC-DSS, corresponden a:
+
+<div align="center">
+
+| Etiqueta - Parte F    |  Factor de atenuación -  Fa  |  Periodo de retorno - Tr  |
+|:----------------------|:----------------------------:|:-------------------------:|
+| PMAX24H_FSCALIF_1     |              1               |          PMax24h          |
+| P_TR2.33_FSCALIF_1    |              1               |           2.33            |
+| P_TR5_FSCALIF_1       |              1               |             5             |
+| P_TR10_FSCALIF_1      |              1               |            10             |
+| P_TR25_FSCALIF_1      |              1               |            25             |
+| P_TR50_FSCALIF_1      |              1               |            50             |
+| P_TR100_FSCALIF_1     |              1               |            100            |
+| PMAX24H_FSCALIF_062   |             0.62             |          PMax24h          |
+| P_TR2.33_FSCALIF_062  |             0.62             |           2.33            |
+| P_TR5_FSCALIF_062     |             0.62             |             5             |
+
+</div>
+
+> Tenga en cuenta que las especificaciones de control del modelo hidrológico en HEC-HMS, deberán corresponder a las fechas y horas de inicio y finalización de los hietogramas suministrados, correspondientes del 05Mar2016 al 08Mar2016.
+
+### 5. 
 
 
 

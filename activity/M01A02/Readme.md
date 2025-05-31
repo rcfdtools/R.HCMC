@@ -176,7 +176,7 @@ Simbolice los nodos por categorías a partir del código del eje y rotule con la
 
 Desde en panel _Layers_ y dando clic derecho en el nombre de la capa geográfica temporal _R.HCMC.NodoValle_, seleccione la opción _Export / Save Vector Layer as..._, en formato establezca _ESRI Shapefile_ y guarde como _file/shp/R.HCMC.NodoValle.shp_. Utilice el encoding _windows-1252_, simbolice y rotule.
 
-> Para facilitar la identificación de los nodos en HEC-HMS, antes de exportar puede filtrar los nodos específicos de su proyecto.
+> :bulb: Para facilitar la identificación de los nodos en HEC-HMS, antes de exportar puede filtrar los nodos específicos de su proyecto.
 
 <div align="center"><img src="graph/QGIS_R.HCMC.NodoValle.shpExport.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
@@ -263,11 +263,13 @@ Reemplace la actual parte F de la cadena DSS Pathname por el valor P_TR2.33_FSCA
 
 En los archivos de hietogramas suministrados, se han identificado los diferentes periodos de retorno con los prefijos:
 
-* P_TR2.33_FSCALIF
-* P_TR5_FSCALIF
-* P_TR25_FSCALIF
-* P_TR50_FSCALIF
-* P_TR100_FSCALIF
+* P_TR2.33_FSCALIF_###
+* P_TR5_FSCALIF_###
+* P_TR25_FSCALIF_###
+* P_TR50_FSCALIF_###
+* P_TR100_FSCALIF_###
+
+> Reemplazar ### for el valor del factor de atenuación requerido en la modelación.
 
 <div align="center"><img src="graph/Notepad_ArroyoElZorroGage.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
@@ -282,7 +284,7 @@ Abra HEC-HMS y verifique desde _Time-Series Data_, que los hietogramas por subcu
 
 ### 6. Modelación hidrológica
 
-En HEC-HMS, verifique que las especificaciones de control son consistentes con las fechas y horas de inicio y finalización de los hietogramas suministrados. 
+En HEC-HMS, verifique que las especificaciones de control sean consistentes con las fechas y horas de inicio y finalización de los hietogramas suministrados. 
 
 > Tenga en cuenta que las especificaciones de control del modelo hidrológico en HEC-HMS, deberán corresponder a las fechas y horas de inicio y finalización de los hietogramas suministrados, correspondientes del 05Mar2016 al 08Mar2016.
 
@@ -329,7 +331,11 @@ Finalmente, ejecute el procedimiento anteriormente descrito para los demás punt
 > Tenga en cuenta que es necesario estimar el caudal pico y el hidrograma de las cuencas laterales aplicando el factor de atenuación compuesto hasta el punto de descarga en el cauce principal y el factor propio de cada cuenca. El factor compuesto será utilizado en la modelación hidráulica del cauce principal y el factor propio de la subcuenca lateral para el diseño de las estructuras hidráulicas de entrega al cauce principal de realineamiento.
 
 
+### Nodo J4660
 
+<div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.J4660a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.J4660b.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.J4660c.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 
 

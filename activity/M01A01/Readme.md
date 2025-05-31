@@ -22,8 +22,8 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 | Requerimiento                                                                                                                                  | Descripción                                                                           |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                             | Microsoft Excel 365                                                                   |
-| [:open_file_folder:R.HydroTools. DisenoCaucesParametros.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoCaucesParametros) | Libro de cálculo para el registro de parámetros requeridos y restricciones de diseño  |
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                             | Microsoft Excel 365.                                                                  |
+| [:open_file_folder:R.HydroTools. DisenoCaucesParametros.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoCaucesParametros) | Libro de cálculo para el registro de parámetros requeridos y restricciones de diseño. |
 
 </div>
 

@@ -5,7 +5,7 @@ Establecer los puntos para el trazado del eje de valle y estimar los radios de c
 
 Existen diversas metodologías para estimar la curvatura de suavizado del eje recto del valle. El suavizado tiene como propósito garantizar un adecuado cambio de dirección en el río que permita el flujo o tránsito de las crecientes de forma segura y evitando en lo posible, turbulencias, oleaje y zonas susceptibles a procesos erosivos y/o de depositación de sedimentos, buscando de mantener velocidad constante en el flujo.
 
-<div align="center"><img src="graph/M01A03.png" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/M01A03.png" alt="R.SIGE" width="80%" border="0" /></div>
 
 
 ## Objetivos
@@ -24,10 +24,10 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                           | Descripción                                                                                            |
-|:--------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                      | Microsoft Excel 365.                                                                                   |
-| [:open_file_folder:R.HydroTools.RadioCurvaturaValle.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/RadioCurvaturaValle) | Libro de cálculo para la Estimación del radio de curvatura para el suavizado del valle en canales, Rc. |
+| Requerimiento                                                                                                                            | Descripción                                                                                            |
+|:-----------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                       | Microsoft Excel 365.                                                                                   |
+| [:open_file_folder:R.HydroTools. RadioCurvaturaValle.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/RadioCurvaturaValle) | Libro de cálculo para la Estimación del radio de curvatura para el suavizado del valle en canales, Rc. |
 
 </div>
 
@@ -62,12 +62,23 @@ Generalmente, el alineamiento, ancho y suavizado del valle está condicionado po
 
 ## Procedimiento general
 
-1. En los parámetros de entrada del Método 1, ingrese el caudal de diseño para la estimación del radio de curvatura del valle, tenga en cuenca que el caudal ingresado deberá corresponder al mayor valor obtenido para el periodo de retorno del valle en cada uno los puntos de estudio localizados a lo largo del valle. Para el caso de estudio, utilizaremos un caudal de diseño de 522.1 m³/s correspondiente al periodo de retorno de 100 años, obtendrá un radio estimado de 2500 metros. 
+1. En los parámetros de entrada del Método 1 correspondiente al Manual de procedimientos de pequeños sistemas de riego, ingrese el caudal de diseño para la estimación del radio de curvatura del valle, tenga en cuenca que el caudal ingresado deberá corresponder al mayor valor obtenido para el periodo de retorno del valle en cada uno los puntos de estudio localizados a lo largo del valle. Para el caso de estudio, utilizaremos un caudal de diseño de 522.1 m³/s correspondiente al periodo de retorno de 100 años, obtendrá un radio estimado de 2500 metros. 
 
 > Debido a que esta metodología es aplicable a caudales en rangos entre 5 y 100 m³/s, no se recomienda utilizar el radio estimado.
 
-<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo1a.jpg" alt="R.SIGE" width="50%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo1b.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo1a.jpg" alt="R.SIGE" width="45%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo1b.jpg" alt="R.SIGE" width="45%" border="0" /></div>
+
+2. El método 2, correspondiente al Diseño Básico de Canales de la Universidad Utah State, calcula automáticamente el radio de curvatura en función del caudal ingresado previamente, obtendra un radio estimado de 1825 metros.
+
+<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo2a.jpg" alt="R.SIGE" width="45%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo2b.jpg" alt="R.SIGE" width="25%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo2c.jpg" alt="R.SIGE" width="25%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo2d.jpg" alt="R.SIGE" width="25%" border="0" /></div>
+
+
+
+
 
 
 
@@ -119,7 +130,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A00/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A02/Readme.md) |
+| [:arrow_backward: Anterior](../M01A02/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A04/Readme.md) |
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: 

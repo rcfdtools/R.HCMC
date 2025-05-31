@@ -459,15 +459,16 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 ## Referencias
 
-* 
+* https://www.hec.usace.army.mil/software/hec-hms/documentation.aspx
+* https://www.hec.usace.army.mil/software/hec-dssvue/documentation.aspx
 
 
 ## Control de versiones
 
 | Versión    | Descripción        | Autor                                      | Horas |
 |------------|:-------------------|--------------------------------------------|:-----:|
-| 2024.02.24 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |   8   |
-| 2014.01.11 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  18   |
+| 2025.05.30 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |  12   |
+| 2014.01.13 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  18   |
 
 
 ##

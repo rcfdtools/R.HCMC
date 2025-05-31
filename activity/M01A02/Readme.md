@@ -378,6 +378,31 @@ Caudales pico e hidrogramas requeridos para modelación del cauce principal y de
 <div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.Results4.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 
+### Caudal medio de largo plazo - Qm
+
+Para la estimación de caudales medios se requiere del análisis previo de las condiciones de la precipitación media, utilizando para ello los registros de las estaciones de la zona de estudio o de una grilla interpolada con los valores medios.
+
+Elementos requeridos para el balance hidrológico
+
+* Grilla de evaporación
+* Grilla de precipitación media
+* Cuencas agregadas: hasta nodo J4660, hasta nodo J4682, cuenca lateral W19610, hasta nodo Sink-1
+
+Para la estimación de caudales medios se realiza un balance hidrológico de largo plazo en cada una de las celdas que cubre la zona de estudio. La siguiente expresión permite determinar el caudal medio en cada celda en el que, al valor estimado de precipitación por celda, se le resta la abstracción correspondiente a la evapotranspiración real.
+
+
+<div align="center"> Q = ( ( P – EVT ) * A ) / t</div>
+
+* Q: Caudal medio en m³/s
+* P: Precipitación en mm/año
+* EVT: Evapotranspiración real en mm-año
+* A: Área ejemplo de cada celda (27,7778m x 27,7778m = 771,60617284m²)
+* t: 31.536.000.000 segundos en un año (365dias x 24horas x 60minutos x 60segundos)
+
+<div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.ResultsQm.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+
+
+
 
 ## Actividades de proyecto :triangular_ruler:
 

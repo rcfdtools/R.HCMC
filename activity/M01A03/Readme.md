@@ -72,9 +72,9 @@ Generalmente, el alineamiento, ancho y suavizado del valle está condicionado po
 2. El método 2, correspondiente al Diseño Básico de Canales de la Universidad Utah State, calcula automáticamente el radio de curvatura en función del caudal ingresado previamente, obtendra un radio estimado de 1825 metros.
 
 <div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo2a.jpg" alt="R.SIGE" width="45%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo2b.jpg" alt="R.SIGE" width="25%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo2c.jpg" alt="R.SIGE" width="25%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo2d.jpg" alt="R.SIGE" width="25%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo2b.jpg" alt="R.SIGE" width="35%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo2c.jpg" alt="R.SIGE" width="45%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo2d.jpg" alt="R.SIGE" width="45%" border="0" /></div>
 
 
 

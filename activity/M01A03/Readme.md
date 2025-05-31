@@ -28,7 +28,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 |:-----------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                       | Microsoft Excel 365.                                                                                   |
 | [:open_file_folder:R.HydroTools. RadioCurvaturaValle.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/RadioCurvaturaValle) | Libro de cálculo para la Estimación del radio de curvatura para el suavizado del valle en canales, Rc. |
-| [:round_pushpin:R.HCMC.NodoValle.shp](../../file/shp/R.HCMC.NodoValle.zip)                                                               | Capa de nodos eje valle recto, creada en actividad anterior.                                           |
+| [:round_pushpin:R.HCMC.NodoValle.shp](../../file/shp/R.HCMC.NodoValle.zip)                                                               | Capa de nodos eje valle recto (creada en actividad anterior).                                          |
 
 </div>
 
@@ -91,13 +91,13 @@ Generalmente, el alineamiento, ancho y suavizado del valle está condicionado po
 
 6. En los parámetros de entrada del Método 6 en función del tipo de canal (Salzitegger), seleccione el tipo de canal a diseñar, para el caso de estudio utilizaremos _Drenaje - Colector principal_, obteniendo un radio de curvatura de 1500 metros.
 
-<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo6.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo6.jpg" alt="R.SIGE" width="55%" border="0" /></div>
 
 7. Compare los resultados obtenidos, defina y justifique textualmente el radio de curvatura a utilizar en su proyecto.
 
-<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.MetodosA.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.MetodosB.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.MetodosC.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.MetodosA.jpg" alt="R.SIGE" width="75%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.MetodosB.jpg" alt="R.SIGE" width="75%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.MetodosC.jpg" alt="R.SIGE" width="75%" border="0" /></div>
 
 
 ## 2. 

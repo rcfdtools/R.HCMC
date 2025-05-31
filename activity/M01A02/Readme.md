@@ -417,8 +417,8 @@ Donde,
 
 Para la obtención en QGIS de la precipitación y evapotranspiración media por cada cuenca agregada, ejecute la herramienta _Raster analysis / Zonal statistics_, guarde el archivo de resultados en formato .csv en la carpeta temporal como _file/temp/CuencaHastaJ4660PMed.csv_.
 
-<div align="center"><img src="graph/QGIS_ZonalStatisticCuencaHastaJ4660PMedCsv" alt="R.SIGE" width="90%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_ZonalStatisticCuencaHastaJ4660PMedCsv1" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ZonalStatisticCuencaHastaJ4660PMedCsv.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ZonalStatisticCuencaHastaJ4660PMedCsv1.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 Repita el procedimiento anterior para cada una de las cuencas agregadas de su proyecto, para el caso de estudio los valores obtenidos y los caudales medios son:
 

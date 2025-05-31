@@ -28,7 +28,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 |:-----------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                       | Microsoft Excel 365.                                                                                   |
 | [:open_file_folder:R.HydroTools. RadioCurvaturaValle.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/RadioCurvaturaValle) | Libro de cálculo para la Estimación del radio de curvatura para el suavizado del valle en canales, Rc. |
-| [:round_pushpin:R.HCMC.NodoValle.shp](../../file/shp/)                                                                                   | Capa de nodos eje valle recto, creada en actividad anterior.                                           |
+| [:round_pushpin:R.HCMC.NodoValle.shp](../../file/shp/R.HCMC.NodoValle.zip)                                                               | Capa de nodos eje valle recto, creada en actividad anterior.                                           |
 
 </div>
 

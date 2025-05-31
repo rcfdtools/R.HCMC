@@ -331,19 +331,51 @@ Finalmente, ejecute el procedimiento anteriormente descrito para los demás punt
 > Tenga en cuenta que es necesario estimar el caudal pico y el hidrograma de las cuencas laterales aplicando el factor de atenuación compuesto hasta el punto de descarga en el cauce principal y el factor propio de cada cuenca. El factor compuesto será utilizado en la modelación hidráulica del cauce principal y el factor propio de la subcuenca lateral para el diseño de las estructuras hidráulicas de entrega al cauce principal de realineamiento.
 
 
-#### Nodo J4660
+#### Nodo J4660 - Inicio realineamiento
 
 <div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.J4660a.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.J4660b.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.J4660c.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 
-#### Nodo J4682
+#### Nodo J4682 - Entrega cauce lateral 1
 
 <div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.J4682a.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.J4682b.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.J4682c.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
+
+#### Subbasin W19610 - Subcuenca lateral - Fa = 1.00
+
+Caudales pico e hidrogramas requeridos para el diseño de estructuras de entrega en cauce lateral.
+
+<div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.W19610Fa1a.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.W19610Fa1b.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.W19610Fa1c.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+
+
+#### Subbasin W19610 - Subcuenca lateral - Fa = 0.63
+
+Caudales pico e hidrogramas requeridos para modelación del cauce principal y descarga simultánea del cauce lateral.
+
+<div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.W19610Fa063a.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.W19610Fa063b.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.W19610Fa063c.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+
+
+#### Nodo Sink-1 - Entrega realineamiento
+
+<div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.Sink1a.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.Sink1b.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.Sink1c.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+
+
+#### Resumen de resultados obtenidos
+
+<div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.Results1.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.Results2.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.Results3.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.Results4.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 
 

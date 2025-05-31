@@ -422,7 +422,7 @@ Para la obtención en QGIS de la precipitación y evapotranspiración media por 
 
 Repita el procedimiento anterior para cada una de las cuencas agregadas de su proyecto, para el caso de estudio los valores obtenidos y los caudales medios son:
 
-<div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.ResultsQm.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.ResultsQm.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 
 

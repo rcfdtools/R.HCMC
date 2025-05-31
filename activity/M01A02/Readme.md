@@ -415,6 +415,13 @@ Donde,
 * A: Área ejemplo de cada celda (27,7778m x 27,7778m = 771,60617284m²)
 * t: 31.536.000.000 segundos en un año (365 dias x 24 horas x 60 minutos x 60 segundos)
 
+Para la obtención en QGIS de la precipitación y evapotranspiración media por cada cuenca agregada, ejecute la herramienta _Raster analysis / Zonal statistics_, guarde el archivo de resultados en formato .csv en la carpeta temporal como _file/temp/CuencaHastaJ4660PMed.csv_.
+
+<div align="center"><img src="graph/QGIS_ZonalStatisticCuencaHastaJ4660PMedCsv" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ZonalStatisticCuencaHastaJ4660PMedCsv1" alt="R.SIGE" width="90%" border="0" /></div>
+
+Repita el procedimiento anterior para cada una de las cuencas agregadas de su proyecto, para el caso de estudio los valores obtenidos y los caudales medios son:
+
 <div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.ResultsQm.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 

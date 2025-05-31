@@ -387,7 +387,7 @@ Entrega realineamiento.
 <div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.Sink1c.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 
-### Caudal medio de largo plazo - Qm
+### 8. Caudal medio de largo plazo - Qm
 
 Para la estimación de caudales medios de largo plazo se requiere del análisis previo de las condiciones de la precipitación media y evapotranspiración real, utilizando para ello los registros de las estaciones de la zona de estudio o las grillas interpolada con los valores medios.
 

@@ -390,9 +390,9 @@ Entrega realineamiento.
 
 ### 8. Caudal medio de largo plazo - Qm
 
-Para la estimación de caudales medios de largo plazo se requiere del análisis previo de las condiciones de la precipitación media y evapotranspiración real, utilizando para ello los registros de las estaciones de la zona de estudio o las grillas interpolada con los valores medios.
+Para la estimación de caudales medios de largo plazo, se requiere del análisis previo de la precipitación media y evapotranspiración real, utilizando para ello los registros agregados de las estaciones de la zona de estudio y su representación en grillas interpoladas de valores medios.
 
-Elementos requeridos para el balance hidrológico
+Elementos requeridos para el balance hidrológico:
 
 * [Grilla de precipitación media](../../file/grid/ETR_Turc.zip)
 * [Grilla de evapotranspiración real](../../file/grid/PMedia1981a2003.zip)

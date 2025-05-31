@@ -28,6 +28,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 |:-----------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                       | Microsoft Excel 365.                                                                                   |
 | [:open_file_folder:R.HydroTools. RadioCurvaturaValle.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/RadioCurvaturaValle) | Libro de cálculo para la Estimación del radio de curvatura para el suavizado del valle en canales, Rc. |
+| [:round_pushpin:R.HCMC.NodoValle.shp](../../file/shp/)                                                                                   | Capa de nodos eje valle recto, creada en actividad anterior.                                           |
 
 </div>
 
@@ -60,26 +61,46 @@ Generalmente, el alineamiento, ancho y suavizado del valle está condicionado po
 | 5. Por factor multiplicador en función del ancho (Urban Storm Drainage Criteria Manual )        | Estimación del radio de curvatura del valle para el diseño de canales. Ref:  Urban Drainage and Flood Control District. Urban Storm Drainage Criteria Manual Volume 1. Chapter 08 Open Channels, numeral 5.4, el radio de curvatura debe estar entre 3 o 4 veces el ancho superior del canal. Se estima en función del ancho superficial T.                   |                   
 | 6. En función del tipo de canal. Salzitegger                                                    | Salzitegger Consult GMBH, Planificación de canales, Zona Piloto Ferreñafe, Tomo II/1. Proyecto Tinajones - Chiclayo 1984. En función del ancho superficial T y el tipo de drenaje o canal.                                                                                                                                                                    |
 
-## Procedimiento general
+## 1. Estimación de radios de curvatura
 
 1. En los parámetros de entrada del Método 1 correspondiente al Manual de procedimientos de pequeños sistemas de riego, ingrese el caudal de diseño para la estimación del radio de curvatura del valle, tenga en cuenca que el caudal ingresado deberá corresponder al mayor valor obtenido para el periodo de retorno del valle en cada uno los puntos de estudio localizados a lo largo del valle. Para el caso de estudio, utilizaremos un caudal de diseño de 522.1 m³/s correspondiente al periodo de retorno de 100 años, obtendrá un radio estimado de 2500 metros. 
 
 > Debido a que esta metodología es aplicable a caudales en rangos entre 5 y 100 m³/s, no se recomienda utilizar el radio estimado.
 
-<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo1a.jpg" alt="R.SIGE" width="45%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo1b.jpg" alt="R.SIGE" width="45%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo1a.jpg" alt="R.SIGE" width="40%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo1b.jpg" alt="R.SIGE" width="40%" border="0" /></div>
 
 2. El método 2, correspondiente al Diseño Básico de Canales de la Universidad Utah State, calcula automáticamente el radio de curvatura en función del caudal ingresado previamente, obtendra un radio estimado de 1825 metros.
 
 <div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo2a.jpg" alt="R.SIGE" width="45%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo2b.jpg" alt="R.SIGE" width="35%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo2c.jpg" alt="R.SIGE" width="35%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo2d.jpg" alt="R.SIGE" width="65%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo2d.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 3. En los parámetros de entrada del Método 3 correspondiente al cálculo de curvatura en función del régimen del flujo, ingrese los valores correspondientes a la profundidad del flujo, velocidad media en el canal y ancho superficial inundable del valle. Para el caso de estudio utilizaremos como referencia un canal de sección compuesta con altura de sección de 3 metros (menos 0.4 metros de borde libre), velocidad máxima de diseño en valle de 3 m/s y ancho superficial de 300 metros en el valle, obteniendo para régimen subcrítico un radio de 900 metros y para supercrítico de 424 metros.
 
-<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo3.jpg" alt="R.SIGE" width="65%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo3.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
+4. En los parámetros de entrada del Método 4 por factor multiplicador en función del caudal y la base (Wageningen, The Netherlands. 1978), ingresar el ancho en la base de la sección del canal en valle, para el caso de estudio utilizaremos como referencia un valle de 240 metros que combinado con el caudal ingresado de diseño, permite establecer un radio de 1680 metros.
+
+<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo4.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+
+5. El método 5 por factor multiplicador en función del ancho (Urban Storm Drainage Criteria Manual ), calcula automáticamente el radio de curvatura en función del caudal ingresado previamente, obtendra un radio estimado de 1200 metros.
+
+<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo5.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+
+6. En los parámetros de entrada del Método 6 en función del tipo de canal (Salzitegger), seleccione el tipo de canal a diseñar, para el caso de estudio utilizaremos _Drenaje - Colector principal_, obteniendo un radio de curvatura de 1500 metros.
+
+<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo6.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+
+7. Compare los resultados obtenidos, defina y justifique textualmente el radio de curvatura a utilizar en su proyecto.
+
+<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.MetodosA.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.MetodosB.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.MetodosC.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+
+
+## 2. 
 
 
 

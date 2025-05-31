@@ -30,7 +30,11 @@
 |          :mag:           | `:mag:`                    | Caso de estudio / Case Study                                                                         |
 |          :fire:          | `:fire:`                   | Riesgo natural / Alerta                                                                              |
 | :vertical_traffic_light: | `:vertical_traffic_light:` | Network Analyst                                                                                      |
-|       :rocket:           | `:rocket:`                 | Fotogrametría                                                                                        |
+|         :rocket:         | `:rocket:`                 | Fotogrametría                                                                                        |
+|     :round_pushpin:      | `:round_pushpin:`          | Capa geográfica vectorial (punto, línea, polígono)                                                   |
+|     :satellite:          | `:satellite:`              | Ráster o imagen                                                                                      |
+
+Markdown emojis: https://gist.github.com/rxaviers/7360908
 
 
 ## Abreviaturas

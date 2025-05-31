@@ -76,7 +76,7 @@ Generalmente, el alineamiento, ancho y suavizado del valle está condicionado po
 <div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo2c.jpg" alt="R.SIGE" width="35%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo2d.jpg" alt="R.SIGE" width="65%" border="0" /></div>
 
-3. En los parámetros de entrada del Método 3 correspondiente al cálculo de curvatura en función del régimen del flujo, ingrese los valores correspondientes a la profundidad del flujo, velocidad media en el canal y ancho superficial inundable del valle. Para el caso de estudio utilizaremos como referencia un canal de sección compuesta con altura de sección de 3 metros (menos 0.4 metros de borde libre), velocidad máxima de diseño en valle de 3 m/s y ancho superficial de 300 metros en el valle.
+3. En los parámetros de entrada del Método 3 correspondiente al cálculo de curvatura en función del régimen del flujo, ingrese los valores correspondientes a la profundidad del flujo, velocidad media en el canal y ancho superficial inundable del valle. Para el caso de estudio utilizaremos como referencia un canal de sección compuesta con altura de sección de 3 metros (menos 0.4 metros de borde libre), velocidad máxima de diseño en valle de 3 m/s y ancho superficial de 300 metros en el valle, obteniendo para régimen subcrítico un radio de 900 metros y para supercrítico de 424 metros.
 
 <div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo3.jpg" alt="R.SIGE" width="65%" border="0" /></div>
 

@@ -465,7 +465,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://www.hec.usace.army.mil/
 * https://www.hec.usace.army.mil/software/hec-hms/documentation.aspx
 * https://www.hec.usace.army.mil/software/hec-dssvue/documentation.aspx
-* [Curso balance hidrológico de largo plazo para estimación de caudales medios usando SIG](https://github.com/rcfdtools/R.LTWB)
+* [r.cfdtools / Curso balance hidrológico de largo plazo para estimación de caudales medios usando SIG](https://github.com/rcfdtools/R.LTWB)
+* [r.cfdtools / Delimitación de cuencas hidrográficas locales](https://github.com/rcfdtools/R.SIGE/blob/main/activity/BasinLimit/Readme.md)
 
 
 ## Control de versiones

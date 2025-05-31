@@ -394,15 +394,16 @@ Para la estimación de caudales medios de largo plazo se requiere del análisis 
 
 Elementos requeridos para el balance hidrológico
 
-* Grilla de evaporación
-* Grilla de precipitación media
-* Cuencas agregada hasta nodo J4660
-* Cuencas agregada hasta nodo J4682
-* Cuencas agregada hasta nodo Sink-1
-* Cuenca lateral W19610
+* [Grilla de precipitación media](../../file/grid/ETR_Turc.zip)
+* [Grilla de evapotranspiración real](../../file/grid/PMedia1981a2003.zip)
+* [Cuenca agregada hasta nodo J4660](../../file/shp/CuencaHastaJ4660.zip)
+* [Cuenca agregada hasta nodo J4682](../../file/shp/CuencaHastaJ4682.zip)
+* [Cuenca agregada hasta nodo J4685](../../file/shp/CuencaHastaJ4685.zip)
+* [Cuenca agregada hasta nodo Sink-1](../../file/shp/CuencaHastaSink1.zip)
+* [Cuenca lateral W19610, entrega en J4682](../../file/shp/CuencaLateral2Oeste.zip)
+* [Cuenca lateral W19690 + W12820 + W19830, entrega en J4685](../../file/shp/CuencaLateral1Este.zip)
 
 Para la estimación de caudales medios se realiza un balance hidrológico de largo plazo a partir de las áreas hidrológicas agregadas hasta cada punto estudiado. La siguiente expresión permite determinar el caudal medio en el que, al valor estimado de precipitación, se le resta la abstracción correspondiente a la evapotranspiración real.
-
 
 <div align="center"> Q = ( ( P – EVT ) * A ) / t</div>
 

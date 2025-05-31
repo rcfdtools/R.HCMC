@@ -35,7 +35,8 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | [:open_file_folder:R.HCMC.PuntoEstudio.xlsx](../../file/table/R.HCMC.PuntoEstudio.xlsx)                                                                          | Puntos de estudio y factores de atenuación aplicados.                                                                                                                                                                                                                                          |
 | [:open_file_folder:R.HCMC.NodoValle.xlsx](../../file/table/R.HCMC.NodoValle.xlsx)                                                                                | Puntos de localización para el trazado del valle compuesto por tramos rectos.                                                                                                                                                                                                                  |
 | [:open_file_folder:R.HydroTools.Hidrograma RegVal.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/HidrogramaRegVal)                               | Libro de cálculo para el registro y validación de hidrogramas obtenidos a partir de modelación hidrológica en HEC-HMS.                                                                                                                                                                         |
-
+| [:open_file_folder:Grillas para balance hidrológico](../../file/grid)                                                                                            | Grillas de precipitación media y evapotranspiración real requeridas para la estimación de caudales medios de largo plazo.                                                                                                                                                                      |
+| [:open_file_folder:Cuencas agregadas balance hidrológico](../../file/shp)                                                                                        | Grillas de precipitación media y evapotranspiración real requeridas para la estimación de caudales medios de largo plazo.                                                                                                                                                                      |
 </div>
 
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
@@ -395,7 +396,10 @@ Elementos requeridos para el balance hidrológico
 
 * Grilla de evaporación
 * Grilla de precipitación media
-* Cuencas agregadas: hasta nodo J4660, hasta nodo J4682, cuenca lateral W19610, hasta nodo Sink-1
+* Cuencas agregada hasta nodo J4660
+* Cuencas agregada hasta nodo J4682
+* Cuencas agregada hasta nodo Sink-1
+* Cuenca lateral W19610
 
 Para la estimación de caudales medios se realiza un balance hidrológico de largo plazo a partir de las áreas hidrológicas agregadas hasta cada punto estudiado. La siguiente expresión permite determinar el caudal medio en el que, al valor estimado de precipitación, se le resta la abstracción correspondiente a la evapotranspiración real.
 

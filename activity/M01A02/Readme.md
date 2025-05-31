@@ -404,11 +404,11 @@ Para la estimación de caudales medios se realiza un balance hidrológico de lar
 
 Donde, 
 
-Q: Caudal medio en m³/s
-P: Precipitación en mm/año
-EVT: Evapotranspiración real en mm-año
-A: Área ejemplo de cada celda (27,7778m x 27,7778m = 771,60617284m²)
-t: 31.536.000.000 segundos en un año (365dias x 24horas x 60minutos x 60segundos)
+* Q: Caudal medio en m³/s
+* P: Precipitación en mm/año
+* EVT: Evapotranspiración real en mm-año
+* A: Área ejemplo de cada celda (27,7778m x 27,7778m = 771,60617284m²)
+* t: 31.536.000.000 segundos en un año (365 dias x 24 horas x 60 minutos x 60 segundos)
 
 <div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.ResultsQm.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 

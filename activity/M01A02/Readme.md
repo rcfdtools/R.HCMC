@@ -331,11 +331,18 @@ Finalmente, ejecute el procedimiento anteriormente descrito para los demás punt
 > Tenga en cuenta que es necesario estimar el caudal pico y el hidrograma de las cuencas laterales aplicando el factor de atenuación compuesto hasta el punto de descarga en el cauce principal y el factor propio de cada cuenca. El factor compuesto será utilizado en la modelación hidráulica del cauce principal y el factor propio de la subcuenca lateral para el diseño de las estructuras hidráulicas de entrega al cauce principal de realineamiento.
 
 
-### Nodo J4660
+#### Nodo J4660
 
 <div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.J4660a.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.J4660b.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.J4660c.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+
+
+#### Nodo J4682
+
+<div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.J4682a.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.J4682b.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.J4682c.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 
 

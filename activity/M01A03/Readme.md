@@ -27,6 +27,8 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | Requerimiento                                                                                                                            | Descripción                                                                                            |
 |:-----------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                       | Microsoft Excel 365.                                                                                   |
+| [:toolbox:Herramienta](https://qgis.org/)                                                                                                | QGIS 3.42 o superior.                                                    |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                                                                       | Autodesk Civil 3D 2025 o superior.                                       |
 | [:open_file_folder:R.HydroTools. RadioCurvaturaValle.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/RadioCurvaturaValle) | Libro de cálculo para la Estimación del radio de curvatura para el suavizado del valle en canales, Rc. |
 | [:round_pushpin:R.HCMC.NodoValle.shp](../../file/shp/R.HCMC.NodoValle.zip)                                                               | Capa de nodos eje valle recto (creada en actividad anterior).                                          |
 
@@ -100,7 +102,20 @@ Generalmente, el alineamiento, ancho y suavizado del valle está condicionado po
 <div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.MetodosC.jpg" alt="R.SIGE" width="75%" border="0" /></div>
 
 
-## 2. 
+## 2. Nodos del eje recto y trazado del alineamiento central del valle
+
+1. En QGIS, cargue los archivos shapefile _HMS_Subbasin_v0_, _HMS_River_v0_, _CGG_Vial_v0_ contenidos dentro del modelo hidrológico en la ruta _file/hec/HECHMS_v0_ y la capa de nodos [:round_pushpin:file/shp/R.HCMC.NodoValle.shp](../../file/shp/R.HCMC.NodoValle.zip) generada en la actividad anterior.
+
+<div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+2. Utilizando la herramienta _Vector creation / Points to path_, cree el eje del valle con el nombre de capa _file/shp/RD_EjeValle_v0.shp_. Rotule los nodos a partir del código del eje.
+
+<div align="center"><img src="graph/QGIS_PointsToPath.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_PointsToPath1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+> Atención: los nodos descritos a continuación, NO son los mismos nodos a utilizar en el proyecto final.
+
+
 
 
 

@@ -129,7 +129,7 @@ QGIS dispone de herramientas de digitalización básica y avanzada CAD, sin emba
 
 1. Desde el panel lateral _Browser_, cree en la carpeta _file/shp/_ una capa geográfica de líneas en formato shapefile y guarde como _RD_EjeValleSuavizado_QGIS.shp_, utilize el CRS 3116 y cree un campo de atributos numérico doble con el nombre `CurvRatio` y agregue al mapa.
 
-<div align="center"><img src="graph/QGIS_NewShapefileLayer.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_NewShapefileLayer.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 > Para facilitar la edición y visualización de la clotoide, agregue el mapa base de Google Satellite desde el conector https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}.
 

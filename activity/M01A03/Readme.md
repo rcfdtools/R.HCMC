@@ -158,9 +158,10 @@ QGIS dispone de herramientas de digitalización básica y avanzada CAD, sin emba
 
 <div align="center"><img src="graph/QGIS_Digitize6.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
-7. 
+7. Abra la tabla de atributos y verifique que solo exista una entidad, para terminar calcule la longitud de la línea suavizada del valle, podrá observar que para el caso de estudio corresponde a 5158.006 m. Realice este mismo cálculo para el alineamiento recto del valle, cuyo valor es 5353.1 m y rotule.
 
-
+<div align="center"><img src="graph/QGIS_FieldCalculator.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_FieldCalculator1.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 
 ## 4. Curva clotoide con Autodesk Autocad

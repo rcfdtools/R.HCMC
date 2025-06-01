@@ -129,7 +129,7 @@ QGIS dispone de herramientas de digitalización básica y avanzada CAD, sin emba
 
 1. Desde el panel lateral _Browser_, cree en la carpeta _file/shp/_ una capa geográfica de líneas en formato shapefile y guarde como _RD_EjeValleSuavizado_QGIS.shp_, utilize el CRS 3116 y cree un campo de atributos numérico doble con el nombre `CurvRatio` y agregue al mapa.
 
-<div align="center"><img src="graph/QGIS_NewShapefileLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_NewShapefileLayer.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 > Para facilitar la edición y visualización de la clotoide, agregue el mapa base de Google Satellite desde el conector https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}.
 
@@ -145,27 +145,32 @@ QGIS dispone de herramientas de digitalización básica y avanzada CAD, sin emba
 
 > Para terminar la creación de cada círculo tangente de clic derecho en cualquier lugar del mapa y complete el atributo _CurvRatio_.
 
-<div align="center"><img src="graph/QGIS_Digitize3.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Digitize3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 4. Utilizando la herramienta _Split_, fraccione las circunferencias creadas y conserve solo los arcos circulares próximos al eje. Primero, seleccione una de las circunferencias, luego la herramienta _Split Features_ y el nodo central o más próximo a la tangencia del valle.
 
 > Recuerde que QGIS crea subtramos rectos de dibujo y no arcos circulares.
 
-<div align="center"><img src="graph/QGIS_Digitize4.jpg" alt="R.SIGE" width="70%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_Digitize5.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Digitize4.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Digitize5.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 5. Utilizando las herramientas de dibujo y el encajado por nodos y vertices, complete la digitalización de tramos rectos y entre tangencias y combine las 5 partes en una única polilínea utilizando la herramienta _Merge Selected Features_.
 
-<div align="center"><img src="graph/QGIS_Digitize6.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Digitize6.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 7. Abra la tabla de atributos y verifique que solo exista una entidad, para terminar calcule la longitud de la línea suavizada del valle, podrá observar que para el caso de estudio corresponde a 5158.006 m. Realice este mismo cálculo para el alineamiento recto del valle, cuyo valor es 5353.1 m y rotule.
 
-<div align="center"><img src="graph/QGIS_FieldCalculator.jpg" alt="R.SIGE" width="70%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_FieldCalculator1.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_FieldCalculator.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_FieldCalculator1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 ## 4. Curva clotoide con Autodesk Autocad
 
+El procedimiento consiste en dibujar circunferencias tangentes a las líneas donde existen cambios de dirección, ingresando su radio (1.8km), cortar con Trim y luego unir los segmentos utilizando el comando Join (Command: J). 
+
+Este método a diferencia del suavizado de líneas cartográficas realizado en QGIS que traza curvas por segmenttos no circulares, utiliza un segmento circular que es empalmado con los segmentos rectos restantes. 
+
+Opcionalmente, se puede utilizar la herramienta de fileteado circular (Fillet) la cual genera líneas unidas por arcos circulares en la misma polilínea de entrada, el resultado es idéntico al trazado manual de arcos.  
 
 
 

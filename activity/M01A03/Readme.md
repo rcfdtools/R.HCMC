@@ -1,5 +1,5 @@
 # 3. Trazado del eje de valle y estimación de radios de curvatura para suavizado
-Keywords: `realigment` `curvature-ratio` `m01a03`
+Keywords: `realigment` `curvature-ratio` `clothoid` `m01a03`
 
 Establecer los puntos para el trazado del eje de valle y estimar los radios de curvatura que permitan trazar el corredor del alineamiento del valle suavizado requerido para el diseño sinuoso.
 
@@ -123,6 +123,54 @@ Para el caso de estudio, se selecciona el Método 2. Universidad Utah State / Di
 > :fire: Atención: los nodos y ejes mostrados en la ilustración no son los mismos nodos a utilizar en el proyecto final, consulte con el instructor los nodos a utilizar.
 
 
+## 3. Curva clotoide con QGIS
+
+QGIS dispone de herramientas de digitalización básica y avanzada CAD, sin embargo, la creación de curvas es generada a partir de segmentos rectos sin inclusión de nodos complementarios en intersecciones. Para el desarrollo de este ejemplo utilizaremos el procedimiento genérico de construcción de clotoides, correspondiente a la creación de arcos circulares y segmentos rectos de entre tangencia.
+
+1. Desde el panel lateral _Browser_, cree en la carpeta _file/shp/_ una capa geográfica de líneas en formato shapefile y guarde como _RD_EjeValleSuavizado_QGIS.shp_, utilize el CRS 3116 y cree un campo de atributos numérico doble con el nombre `CurvRatio` y agregue al mapa.
+
+<div align="center"><img src="graph/QGIS_NewShapefileLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+> Para facilitar la edición y visualización de la clotoide, agregue el mapa base de Google Satellite desde el conector https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}.
+
+2. En el panel Layers, seleccione la capa _RD_EjeValleSuavizado_QGIS_ y de clic en el botón de edición de capa, luego seleccione la opción _Add Line Feature_ y _Digitize Shape_; podrá observar que se han activado diferentes herramientas asociadas a formas geométricas.
+
+<div align="center"><img src="graph/QGIS_Digitize1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+3. En la barra _Shape Digitizing Toolbar_, seleccione la herramienta de creación de círculos _Circle from 2 tangents and a point_, luego en la barra de encajado o _Snapping Toolbar_, defina ajuste por segmento y tolerancias en 5 pixeles.
+
+<div align="center"><img src="graph/QGIS_Digitize2.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+
+3. Digitalice dos circunferencias tangentes con radio de curvatura 1800m entre los nodos 1-2-3 y 2-3-4.
+
+> Para terminar la creación de cada círculo tangente de clic derecho en cualquier lugar del mapa y complete el atributo _CurvRatio_.
+
+<div align="center"><img src="graph/QGIS_Digitize3.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+
+4. Utilizando la herramienta _Split_, fraccione las circunferencias creadas y conserve solo los arcos circulares próximos al eje. Primero, seleccione una de las circunferencias, luego la herramienta _Split Features_ y el nodo central o más próximo a la tangencia del valle.
+
+> Recuerde que QGIS crea subtramos rectos de dibujo y no arcos circulares.
+
+<div align="center"><img src="graph/QGIS_Digitize4.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Digitize5.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+
+5. Utilizando las herramientas de dibujo y el encajado por nodos y vertices, complete la digitalización de tramos rectos y entre tangencias y combine las 5 partes en una única polilínea utilizando la herramienta _Merge Selected Features_.
+
+<div align="center"><img src="graph/QGIS_Digitize6.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+
+7. 
+
+
+
+
+## 4. Curva clotoide con Autodesk Autocad
+
+
+
+
+
+
+## 5. Curva clotoide con Autodesk Civil 3D
 
 
 

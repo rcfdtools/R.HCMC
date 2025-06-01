@@ -179,7 +179,7 @@ Opcionalmente, se puede utilizar la herramienta de fileteado circular (Fillet) l
 
 Verificar unidades (metros), notación numérica y notación para escritura de ángulos (Comando: _Units, o en el botón Autodesk – Drawing Utilities - Units).
 
-<div align="center"><img src="graph/AutodeskCivil3D_Units.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_Units.jpg" alt="R.SIGE" width="40%" border="0" /></div>
 
 2. Ingrese a Autodesk Civil 3D Metric, para construir el eje recto del valle, copie y pegue en el _Command Bar_ la siguiente secuencia de comandos de construcción de poli-línea a partir de nodos (incluida la línea en blanco al final).
 

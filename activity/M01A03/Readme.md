@@ -29,6 +29,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                       | Microsoft Excel 365.                                                                                   |
 | [:toolbox:Herramienta](https://qgis.org/)                                                                                                | QGIS 3.42 o superior.                                                    |
 | [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                                                                       | Autodesk Civil 3D 2025 o superior.                                       |
+| [:open_file_folder:R.HCMC.NodoValle.xlsx](../../file/table/R.HCMC.NodoValle.xlsx)                                                        | Puntos de localización para el trazado del valle compuesto por tramos rectos.                                                                                                                                                                                                                  |
 | [:open_file_folder:R.HydroTools. RadioCurvaturaValle.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/RadioCurvaturaValle) | Libro de cálculo para la Estimación del radio de curvatura para el suavizado del valle en canales, Rc. |
 | [:round_pushpin:R.HCMC.NodoValle.shp](../../file/shp/R.HCMC.NodoValle.zip)                                                               | Capa de nodos eje valle recto (creada en actividad anterior).                                          |
 
@@ -137,7 +138,7 @@ QGIS dispone de herramientas de digitalización básica y avanzada CAD, sin emba
 
 <div align="center"><img src="graph/QGIS_Digitize1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-3. En la barra _Shape Digitizing Toolbar_, seleccione la herramienta de creación de círculos _Circle from 2 tangents and a point_, luego en la barra de encajado o _Snapping Toolbar_, defina ajuste por segmento y tolerancias en 5 pixeles.
+3. En la barra _Shape Digitizing Toolbar_, seleccione la herramienta de creación de círculos _Circle from 2 tangents and a point_, luego en la barra de encajado o _Snapping Toolbar_, defina ajuste por segmento y tolerancias en 5 píxeles.
 
 <div align="center"><img src="graph/QGIS_Digitize2.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
@@ -154,7 +155,7 @@ QGIS dispone de herramientas de digitalización básica y avanzada CAD, sin emba
 <div align="center"><img src="graph/QGIS_Digitize4.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_Digitize5.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-5. Utilizando las herramientas de dibujo y el encajado por nodos y vertices, complete la digitalización de tramos rectos y entre tangencias y combine las 5 partes en una única polilínea utilizando la herramienta _Merge Selected Features_.
+5. Utilizando las herramientas de dibujo y el encajado por nodos y vertices, complete la digitalización de tramos rectos y entre tangencias y combine las 5 partes en una única poli-línea utilizando la herramienta _Merge Selected Features_.
 
 <div align="center"><img src="graph/QGIS_Digitize6.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
@@ -164,13 +165,27 @@ QGIS dispone de herramientas de digitalización básica y avanzada CAD, sin emba
 <div align="center"><img src="graph/QGIS_FieldCalculator1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
-## 4. Curva clotoide con Autodesk Autocad
+## 4. Curva clotoide con Autodesk AutoCAD
 
-El procedimiento consiste en dibujar circunferencias tangentes a las líneas donde existen cambios de dirección, ingresando su radio (1.8km), cortar con Trim y luego unir los segmentos utilizando el comando Join (Command: J). 
+El procedimiento consiste en dibujar circunferencias tangentes a las líneas donde existen cambios de dirección, ingresando su radio (1.8km), cortar con Trim y luego unir los segmentos utilizando el comando Join (command: J). 
 
-Este método a diferencia del suavizado de líneas cartográficas realizado en QGIS que traza curvas por segmenttos no circulares, utiliza un segmento circular que es empalmado con los segmentos rectos restantes. 
+> Este método a diferencia del suavizado de líneas cartográficas realizado en QGIS que traza curvas por segmentos no circulares, utiliza un segmento circular que es empalmado con los segmentos rectos restantes. 
 
-Opcionalmente, se puede utilizar la herramienta de fileteado circular (Fillet) la cual genera líneas unidas por arcos circulares en la misma polilínea de entrada, el resultado es idéntico al trazado manual de arcos.  
+Opcionalmente, se puede utilizar la herramienta de fileteado circular (Fillet) la cual genera líneas unidas por arcos circulares en la misma poli-línea de entrada, el resultado es idéntico al trazado manual de arcos.  
+
+1. Copie y pegue la siguiente secuencia de comandos en AutoCAD, para construir el eje recto del valle.
+
+> Para su proyecto, las secuencias de comandos se encuentran en [:open_file_folder:R.HCMC.NodoValle.xlsx](../../file/table/R.HCMC.NodoValle.xlsx)
+
+```
+PLine
+1080095.9812,1573338.0615
+1078176.4987,1572444.7917
+1076394.5087,1573470.9228
+1075229.3831,1573286.485
+```
+ 
+
 
 
 

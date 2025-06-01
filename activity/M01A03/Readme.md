@@ -165,7 +165,7 @@ QGIS dispone de herramientas de digitalización básica y avanzada CAD, sin emba
 <div align="center"><img src="graph/QGIS_FieldCalculator1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
-## 4. Curva clotoide con Autodesk AutoCAD
+## 4. Curva clotoide por arcos circulares con Autodesk Civil 3D
 
 El procedimiento consiste en dibujar circunferencias tangentes a las líneas donde existen cambios de dirección, ingresando su radio (1.8km), cortar con Trim y luego unir los segmentos utilizando el comando Join (command: J). 
 
@@ -173,7 +173,15 @@ El procedimiento consiste en dibujar circunferencias tangentes a las líneas don
 
 Opcionalmente, se puede utilizar la herramienta de fileteado circular (Fillet) la cual genera líneas unidas por arcos circulares en la misma poli-línea de entrada, el resultado es idéntico al trazado manual de arcos.  
 
-1. Copie y pegue la siguiente secuencia de comandos en AutoCAD, para construir el eje recto del valle.
+1. Desde el botón Autodesk Civil 3D, crear un archivo nuevo en blanco (New) seleccionando la plantilla _AutoCAD Civil 3D (Metric) NCS.dwt, que le permitirá crear el proyecto en el sistema internacional de unidades.
+
+<div align="center"><img src="graph/AutodeskCivil3D_SelectTemplate.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+Verificar unidades (metros), notación numérica y notación para escritura de ángulos (Comando: _Units, o en el botón Autodesk – Drawing Utilities - Units).
+
+<div align="center"><img src="graph/AutodeskCivil3D_Units.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+2. Ingrese a Autodesk Civil 3D Metric, para construir el eje recto del valle, copie y pegue en el _Command Bar_ la siguiente secuencia de comandos de construcción de poli-línea a partir de nodos (incluida la línea en blanco al final).
 
 > Para su proyecto, las secuencias de comandos se encuentran en [:open_file_folder:R.HCMC.NodoValle.xlsx](../../file/table/R.HCMC.NodoValle.xlsx)
 
@@ -183,15 +191,36 @@ PLine
 1078176.4987,1572444.7917
 1076394.5087,1573470.9228
 1075229.3831,1573286.485
+
 ```
- 
+
+<div align="center"><img src="graph/AutodeskCivil3D_PLine.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+3. En el _Command Bar_, ingrese el comando _Fillet_, defina el radio de curvatura en 1800 metros y de clic en los dos primeros tramos localizados a partir del primer cambio de dirección del valle.
+
+<div align="center"><img src="graph/AutodeskCivil3D_Fillet.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+> Para el eje de su proyecto, es posible que en algunos cambios de dirección no pueda ser resuelta la entre tangencia debido al ángulo de giro, por lo que es necesario encontrar un radio que permita resolver la clotoide. Como estrtategia, puede buscar el mayor radio de curvatura cercano al radio de diseño en los puntos con menor deflexión (o menor ángulo de giro) y resolver con entre tangencia cercana a cero. 
+
+4. Utilizando el comando _List_, consulte las propiedades de la poli-línea, podrá observar que su longitud es de 5158.536 metrtos.
+
+<div align="center"><img src="graph/AutodeskCivil3D_List.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+5. Guarde el archivo en formato .dxf como _file/cad/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.dxf_ y luego visualice en QGIS.
+
+<div align="center"><img src="graph/AutodeskCivil3D_SaveDrawingAsDxf.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+Para la visualización en QGIS, desde el menú _Layer_ seleccione _Add Layer / Add Vector Layer_.
+
+<div align="center"><img src="graph/QGIS_AddVectorLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_AddVectorLayer1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+6. Exporte a una capa shapefile como _file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.shp_, luego calcule la longitud planar de la línea que corresponderá a 5157.964 metros debido a que los arcos circulares son convertidos a segmentos rectos.
+
+<div align="center"><img src="graph/QGIS_SaveVectorLayerAs.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
-
-
-
-
-## 5. Curva clotoide con Autodesk Civil 3D
+## 5. Curva clotoide por alineamiento con Autodesk Civil 3D
 
 
 

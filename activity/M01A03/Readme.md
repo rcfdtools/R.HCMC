@@ -87,7 +87,7 @@ Generalmente, el alineamiento, ancho y suavizado del valle está condicionado po
 
 <div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo4.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
-5. El método 5 por factor multiplicador en función del ancho (Urban Storm Drainage Criteria Manual ), calcula automáticamente el radio de curvatura en función del caudal ingresado previamente, obtendra un radio estimado de 1200 metros.
+5. El método 5 por factor multiplicador en función del ancho (Urban Storm Drainage Criteria Manual), calcula automáticamente el radio de curvatura en función del caudal ingresado previamente, obtendra un radio estimado de 1200 metros.
 
 <div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.Metodo5.jpg" alt="R.SIGE" width="45%" border="0" /></div>
 
@@ -101,8 +101,10 @@ Generalmente, el alineamiento, ancho y suavizado del valle está condicionado po
 <div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.MetodosB.jpg" alt="R.SIGE" width="95%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.RadioCurvaturaValle.MetodosC.jpg" alt="R.SIGE" width="75%" border="0" /></div>
 
+Para el caso de estudio, se selecciona el Método 2. Universidad Utah State / Diseño Básico de Canales, con un radio redondeado a 1800 metros debido a que tiene en cuenta un amplio rango de caudales que al ser ajustados a una curva logarítmica ofrecen un ajuste adecuado para su estimación.
 
-## 2. Nodos del eje recto y trazado del alineamiento central del valle
+
+## 2. Nodos del eje recto y trazado del alineamiento recto central del valle
 
 1. En QGIS, cargue los archivos shapefile _HMS_Subbasin_v0_, _HMS_River_v0_, _CGG_Vial_v0_ contenidos dentro del modelo hidrológico en la ruta _file/hec/HECHMS_v0_ y la capa de nodos [:round_pushpin:file/shp/R.HCMC.NodoValle.shp](../../file/shp/R.HCMC.NodoValle.zip) generada en la actividad anterior.
 
@@ -110,10 +112,15 @@ Generalmente, el alineamiento, ancho y suavizado del valle está condicionado po
 
 2. Utilizando la herramienta _Vector creation / Points to path_, cree el eje del valle con el nombre de capa _file/shp/RD_EjeValle_v0.shp_. Rotule los nodos a partir del código del eje.
 
-<div align="center"><img src="graph/QGIS_PointsToPath.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_PointsToPath.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_PointsToPath1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-> Atención: los nodos descritos a continuación, NO son los mismos nodos a utilizar en el proyecto final.
+3. Desde Layer _Properties / Source / Query Builder_, filtre los nodos y el eje de su proyecto.
+
+<div align="center"><img src="graph/QGIS_QueryBuilder.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_QueryBuilder1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+> :fire: Atención: los nodos y ejes mostrados en la ilustración no son los mismos nodos a utilizar en el proyecto final, consulte con el instructor los nodos a utilizar.
 
 
 

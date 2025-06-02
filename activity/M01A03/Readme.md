@@ -266,7 +266,7 @@ Cuando sea necesario modificar el alineamiento trazado, seleccionar y dar clic d
 <div align="center"><img src="graph/AutodeskCivil3D_ExportCivil3DDrawing1.jpg" alt="R.SIGE" width="40%" border="0" /></div>
 
 
-## Comparación de resultados
+## 6. Comparación de resultados
 
 A partir del trazado y conversión de los ejes suavizados se obtienen diferentes longitudes. Como referencia para futuros análisis, utilizaremos la longitud obtenida en Autodesk Civil 3D, correspondiente a 5158.536 metros.
 
@@ -283,7 +283,7 @@ A partir del trazado y conversión de los ejes suavizados se obtienen diferentes
 
 ## Actividades de proyecto :triangular_ruler:
 
-Utilizando la [plantilla suministrada](../../file/report/R.HCMC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta /activity/ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A00_20250531.pdf).
+Utilizando la [plantilla suministrada](../../file/report/R.HCMC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/activity_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A00_20250531.pdf).
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada estudiante o grupo de proyecto.
 

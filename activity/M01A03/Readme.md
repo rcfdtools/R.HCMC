@@ -247,7 +247,7 @@ Elementos que componen una clotoide [^1]
 
 4. Seleccionar la herramienta _Alignment Layout Tools / Tangent - Tangent (With curves)_ e iniciar el proceso de dibujo teniendo en cuenta la dirección del flujo y que los vértices del alineamiento recto correspondan con los vértices de las curvas, es decir, se debe dibujar el alineamiento sobre los vértices que definen la poli-línea del alineamiento recto.
 
-<div align="center"><img src="graph/AutodeskCivil3D_CreateAlignment3.jpg" alt="R.SIGE" width="20%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_CreateAlignment3.jpg" alt="R.SIGE" width="30%" border="0" /></div>
 <div align="center"><img src="graph/AutodeskCivil3D_CreateAlignment4.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 5. Para modificar el radio de curvatura, dar clic en el botón _Alignment Grid View_. Podrá modificar independientemente cada curva.
@@ -256,14 +256,14 @@ Elementos que componen una clotoide [^1]
 
 Cuando sea necesario modificar el alineamiento trazado, seleccionar y dar clic derecho sobre la línea y seleccionar la opción _Edit Alignment Layout Tools o Geometry_.
 
-<div align="center"><img src="graph/AutodeskCivil3D_CreateAlignment6.jpg" alt="R.SIGE" width="40%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_CreateAlignment6.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 5. Guarde el archivo de Autodesk Civil 3D como _file/cad/RD_EjeValleSuavizado_AutodeskCivil3DAligment.dwg_.
 
 6. Exportar el modelo Civil 3D a Autocad. En el menú _Output_ seleccionar la opción _Export Civil 3D Drawing_, nombre como _file/cad/RD_EjeValleSuavizado_AutodeskCivil3DAligmentAcad.dwg_ utilizando para ello el sufijo _Acad_, no incluya los Layouts o sheets.
 
 <div align="center"><img src="graph/AutodeskCivil3D_ExportCivil3DDrawing.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/AutodeskCivil3D_ExportCivil3DDrawing1.jpg" alt="R.SIGE" width="300%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_ExportCivil3DDrawing1.jpg" alt="R.SIGE" width="40%" border="0" /></div>
 
 
 

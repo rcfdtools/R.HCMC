@@ -124,7 +124,7 @@ Para el caso de estudio, se selecciona el Método 2. Universidad Utah State / Di
 > :fire: Atención: los nodos y ejes mostrados en la ilustración no son los mismos nodos a utilizar en el proyecto final, consulte con el instructor los nodos a utilizar.
 
 
-## 3. Curva clotoide con QGIS
+## 3. Curva clotoide en QGIS
 
 QGIS dispone de herramientas de digitalización básica y avanzada CAD, sin embargo, la creación de curvas es generada a partir de segmentos rectos sin inclusión de nodos complementarios en intersecciones. Para el desarrollo de este ejemplo utilizaremos el procedimiento genérico de construcción de clotoides, correspondiente a la creación de arcos circulares y segmentos rectos de entre tangencia.
 
@@ -165,7 +165,7 @@ QGIS dispone de herramientas de digitalización básica y avanzada CAD, sin emba
 <div align="center"><img src="graph/QGIS_FieldCalculator1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
-## 4. Curva clotoide por arcos circulares con Autodesk Civil 3D
+## 4. Curva clotoide por arcos circulares en Autodesk Civil 3D
 
 El procedimiento consiste en dibujar circunferencias tangentes a las líneas donde existen cambios de dirección, ingresando su radio (1.8km), cortar con Trim y luego unir los segmentos utilizando el comando Join (command: J). 
 
@@ -220,7 +220,7 @@ Para la visualización en QGIS, desde el menú _Layer_ seleccione _Add Layer / A
 <div align="center"><img src="graph/QGIS_SaveVectorLayerAs.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
-## 5. Curva clotoide por alineamiento con Autodesk Civil 3D
+## 5. Curva clotoide por alineamiento en Autodesk Civil 3D
 
 Elementos que componen una clotoide [^1]
 
@@ -272,7 +272,7 @@ A partir del trazado y conversión de los ejes suavizados se obtienen diferentes
 
 | Herramienta                                           | Longitud (m) | Observaciones                                                                 |
 |:------------------------------------------------------|:------------:|:------------------------------------------------------------------------------|
-| QGIS                                                  |    5353.1    | Eje recto del valle.                                                          |
+| QGIS                                                  |   5353.100   | Eje recto del valle.                                                          |
 | QGIS                                                  |   5158.006   | Eje suavizado trazado usando circunferencias tangentes, sin arcos circulares. |
 | Autodesk Civil 3D - Clotoide                          |   5158.536   | Curva clotoide por arcos circulares usando Fillet.                            |
 | Autodesk Civil 3D - Clotoide / Conversión a shapefile |   5157.964   | Eje suavizado convertido a shapefile desde QGIS                               |
@@ -289,21 +289,21 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M01A03    | Crear la línea del eje recto del valle y calcular su longitud. Formato shapefile con georeferenciación y formato CAD.                                                                                                                                                                                                                                                                                                                                                                                                                                | 
 | M01A03    | Estimar el radio de curvatura del valle y justificar técnicamente el valor a utilizar en su proyecto en la ficha de control documental.                                                                                                                                                                                                                                                                                                                                                                                                              | 
+| M01A03    | Crear la línea del eje recto del valle y calcular su longitud. Formato shapefile con georeferenciación y formato CAD.                                                                                                                                                                                                                                                                                                                                                                                                                                | 
 | M01A03    | Realizar el suavizado del valle usando arcos circulares y medir su longitud: shapefile en QGIS con georreferenciación, CAD usando Fillet y alineamiento Civil 3D. En el informe compare las longitudes obtenidas y explique las diferencias.                                                                                                                                                                                                                                                                                                         | 
 | M01A03    | A partir del eje suavizado del valle, cree un buffer de 1 km de ancho con terminaciones redondeadas y con el Atlas Geológico Colombia más reciente, realice un recorte y analice las formaciones geológicas presentes dentro del buffer e indique que consideraciones de diseño y construcción se deben tener en cuenta. Incluya mapas detallados en el documento soporte.                                                                                                                                                                           | 
 | M01A03    | A partir del eje suavizado del valle, y a través de un análisis de proximidad con el Atlas Geológico Colombia más reciente, identifique las fallas geológicas que están cerca o sobre el eje. Analice y presente recomendaciones. Incluya mapas detallados en el documento soporte.                                                                                                                                                                                                                                                                  | 
 | M01A03    | Registrar los valores obtenidos en el [libro de parámetros generales](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoCaucesParametros) requeridos para el diseño y la modelación. Guardar en la carpeta _/file/table_.                                                                                                                                                                                                                                                                                                                |
-| M01A03    | Opcional: verificar la formulación correcta de los libros de cálculo suministrados. En las notas de la ficha de control documental indicar el método de verificación y si se requieren o no ajustes.                                                                                                                                                                                                                                                                                                                                                 |
 | M01A03    | Opcional: en caso de que conozca otro método de suavizado diferente, formúlelo dentro del libro de cálculo suministrado.                                                                                                                                                                                                                                                                                                                                                                                                                             | 
+| M01A03    | Opcional: verificar la formulación correcta de los libros de cálculo suministrados. En las notas de la ficha de control documental indicar el método de verificación y si se requieren o no ajustes.                                                                                                                                                                                                                                                                                                                                                 |
 | M01A03    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >
 > Nota 2: una vez el instructor realice la revisión y el estudiante presente las correcciones o ajustes solicitados, será necesario cargar una nueva versión de los archivos en el repositorio del proyecto, incluyendo o actualizando al final del nombre del archivo, la fecha de presentación en formato aaaammdd y manteniendo las versiones anteriores presentadas.
 >
-> Nota 3: para el análisis geológico utilizar los vectores descargables de Unidades cronoestratigráficas de Colombia y Fallas geológicas de Colombia disponibles en https://www.colombiaenmapas.gov.co/ y del 2020 disponibles en https://www2.sgc.gov.co/MGC/Paginas/agc_500K2020.aspx
+> Nota 3: para el análisis geológico utilizar los vectores más recientes de Unidades cronoestratigráficas de Colombia y Fallas geológicas de Colombia disponibles en https://www.colombiaenmapas.gov.co/ y https://www2.sgc.gov.co/MGC/Paginas/agc_500K2020.aspx
 
 
 ## Referencias
@@ -323,7 +323,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Versión    | Descripción                                                                                                                                                                    | Autor                                      | Horas |
 |------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|:-----:|
-| 2024.02.31  | Migración a GitHub                                                                                                                                                             | [rcfdtools](https://github.com/rcfdtools)  |   8   |
+| 2024.02.01 | Migración a GitHub                                                                                                                                                             | [rcfdtools](https://github.com/rcfdtools)  |  12   |
 | 2022.07.25 | Actualización general de documentación.                                                                                                                                        | [rcfdtools](https://github.com/rcfdtools)  |  0.5  |
 | 2021.10.14 | Actualización general de formato.                                                                                                                                              | [rcfdtools](https://github.com/rcfdtools)  |   2   |
 | 2020.10.11 | Inclusión de Método 5. Por factor multiplicador en función del ancho (Urban Storm Drainage Criteria Manual). Inclusión de Método 6. En función del tipo de canal. Salzitegger. | [rcfdtools](https://github.com/rcfdtools)  |   2   |

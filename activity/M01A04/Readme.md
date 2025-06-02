@@ -147,10 +147,6 @@ Zona de entrega
 <div align="center"><img src="graph/AutodeskCivil3D_CheckQGISExportProjectToDXF.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
-
-
-
-
 ## Actividades de proyecto :triangular_ruler:
 
 Utilizando la [plantilla suministrada](../../file/report/R.HCMC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/activity_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A00_20250531.pdf).

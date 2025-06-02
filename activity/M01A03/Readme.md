@@ -222,6 +222,16 @@ Para la visualización en QGIS, desde el menú _Layer_ seleccione _Add Layer / A
 
 ## 5. Curva clotoide por alineamiento con Autodesk Civil 3D
 
+Elementos que componen una clotoide [^1]
+
+* BP – Punto de Inicio de alineamiento
+* PC – Punto de curvatura
+* PT – Punto de tangencia
+* EP – Punto Final del alineamiento
+* Entre-tangencia
+
+<div align="center"><img src="graph/AutodeskCivil3D_ClotoideElements.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+
 1. Siguiendo las instrucciones del numeral anterior y a partir de la plantilla métrica, cree un nuevo archivo en blanco, verifique unidades y con el comando PLine trace el eje recto del valle. Con el comando _List_, verifique las coordenadas del eje recto del valle.
 
 <div align="center"><img src="graph/AutodeskCivil3D_List1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
@@ -307,4 +317,4 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 | [:arrow_backward: Anterior](../M01A02/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A04/Readme.md) |
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
-[^1]: 
+[^1]: https://knowledge.autodesk.com/support/autocad-civil-3d/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/Civil3D-UserGuide/files/GUID-296B42FD-1E33-46D2-88C0-F3B78FF81BE6-htm.html 

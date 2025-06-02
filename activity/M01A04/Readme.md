@@ -9,11 +9,8 @@ A partir de curvas de nivel, construir un modelo de terreno triangulado - TIN (r
 ## Objetivos
 
 * Visualizar en 2D y 3D las curvas de nivel y cauces naturales de la zona.
-* Delimitar la zona de estudio del modelo de terreno.
-* Recortar las curvas de nivel hasta el límite de la zona de estudio.
 * Construir la malla triangulada del modelo de terreno TIN.
-* Delimitar y extraer el dominio del TIN.
-* Extraer y exportar a CAD las aristas del TIN.
+* Extraer y exportar a CAD las aristas del TIN (opcional).
 
 
 ## Requerimientos
@@ -176,8 +173,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Versión    | Descripción        | Autor                                      | Horas |
 |------------|:-------------------|--------------------------------------------|:-----:|
-| 2024.02.24 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |   8   |
-| 2014.01.11 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  18   |
+| 2025.06.02 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |   4   |
 
 
 ##

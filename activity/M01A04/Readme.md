@@ -57,17 +57,54 @@ Con la rueda y clic sostenido del Mouse o apuntador, ajuste la rotación y acerc
 <div align="center"><img src="graph/QGIS_3DMapView1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
-## 2. Creación de TIN
+## 2. Creación de TIN en formato vectorial
 
-A partir de las curvas de nivel, crear el modelo de terreno TIN. Abrir la tabla de atributos de la capa e identificar el campo de elevación.
+A partir de las curvas de nivel, crear el modelo de terreno triangulado TIN, primero abra la tabla de atributos de la capa de curvas de nivel e identifique el campo de elevación.
 
 1. Desde el Processing Toolbox, ejecute la herramienta _Mesh / TIN Mesh Creation_, establezca el CRS 3116 y guarde en formato 2DM como _/file/dem/TIN_TerrenoNaturalQGIS_v0.d2m_.
 
 <div align="center"><img src="graph/QGIS_TINMeshCreation.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_TINMeshCreation1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-2. 
+2. Desde las propiedades del TIN, ajuste y visualice la superficie a partir del mallado 2D.
 
+<div align="center"><img src="graph/QGIS_LayerProperies2DMesh.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+
+## 3. Creación de TIN en formato ráster
+
+1. Desde el Processing Toolbox, ejecute la herramienta _Interpolation / TIN interpolation_, establezca el método lineal y extensión espacial a partir de las curvas de nivel, guarde la grilla con resolución de 0.5 metros en formato .tif como _/file/dem/TIN_TerrenoNaturalQGIS_v0.tif_ y opcionalmente la red triangulada como _/file/shp/TIN_TerrenoNaturalQGIS_v0.shp_.
+
+> Para su proyecto no es obligatoria la generación de la red triangulada en formato vectorial shapefile.
+
+<div align="center"><img src="graph/QGIS_TINInterpolation.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_TINInterpolation1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+Visualizar en pseudo color utilizando la paleta _Spectral_.
+
+<div align="center"><img src="graph/QGIS_TINInterpolation2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+Para definir el número de columnas y filas del ráster de salida,  considerar la resolución de salida y la extensión de la capa de salida: 
+
+* Columnas = (xmax - xmin) / Resolución
+* Filas = (ymax - ymin) / Resolución
+
+
+2. Visualice como Hillshade y Z Factor = 5.
+
+<div align="center"><img src="graph/QGIS_TINInterpolationHillshade.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+Zona de inicio
+
+<div align="center"><img src="graph/QGIS_TINInterpolationHillshade1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+Zona de entrega
+
+<div align="center"><img src="graph/QGIS_TINInterpolationHillshade2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+3. Verificación del tamaño de las celdas del ráster. El proceso de interpolación TIN crea una grilla ráster cuyas celdas no son regulares (Tamaños celda x <> y). Para verificar la resolución de salida, en la pestaña de capas, dar clic derecho en la grilla ráster y seleccione Propiedades / Información.
+
+<div align="center"><img src="graph/QGIS_LayerPropertiesPixelSize.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 

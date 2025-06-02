@@ -107,11 +107,11 @@ Para el caso de estudio, se selecciona el Método 2. Universidad Utah State / Di
 
 ## 2. Nodos del eje recto y trazado del alineamiento recto central del valle
 
-1. En QGIS, cargue los archivos shapefile _HMS_Subbasin_v0_, _HMS_River_v0_, _CGG_Vial_v0_ contenidos dentro del modelo hidrológico en la ruta _file/hec/HECHMS_v0_ y la capa de nodos [:round_pushpin:file/shp/R.HCMC.NodoValle.shp](../../file/shp/R.HCMC.NodoValle.zip) generada en la actividad anterior.
+1. En QGIS, cargue los archivos shapefile _HMS_Subbasin_v0_, _HMS_River_v0_, _CGG_Vial_v0_ contenidos dentro del modelo hidrológico en la ruta _/file/hec/HECHMS_v0_ y la capa de nodos [:round_pushpin:file/shp/R.HCMC.NodoValle.shp](../../file/shp/R.HCMC.NodoValle.zip) generada en la actividad anterior.
 
 <div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-2. Utilizando la herramienta _Vector creation / Points to path_, cree el eje del valle con el nombre de capa _file/shp/RD_EjeValle_v0.shp_. Rotule los nodos a partir del código del eje.
+2. Utilizando la herramienta _Vector creation / Points to path_, cree el eje del valle con el nombre de capa _/file/shp/RD_EjeValle_v0.shp_. Rotule los nodos a partir del código del eje.
 
 <div align="center"><img src="graph/QGIS_PointsToPath.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_PointsToPath1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
@@ -128,7 +128,7 @@ Para el caso de estudio, se selecciona el Método 2. Universidad Utah State / Di
 
 QGIS dispone de herramientas de digitalización básica y avanzada CAD, sin embargo, la creación de curvas es generada a partir de segmentos rectos sin inclusión de nodos complementarios en intersecciones. Para el desarrollo de este ejemplo utilizaremos el procedimiento genérico de construcción de clotoides, correspondiente a la creación de arcos circulares y segmentos rectos de entre tangencia.
 
-1. Desde el panel lateral _Browser_, cree en la carpeta _file/shp/_ una capa geográfica de líneas en formato shapefile y guarde como _RD_EjeValleSuavizado_QGIS.shp_, utilize el CRS 3116 y cree un campo de atributos numérico doble con el nombre `CurvRatio` y agregue al mapa.
+1. Desde el panel lateral _Browser_, cree en la carpeta _/file/shp/_ una capa geográfica de líneas en formato shapefile y guarde como _RD_EjeValleSuavizado_QGIS.shp_, utilize el CRS 3116 y cree un campo de atributos numérico doble con el nombre `CurvRatio` y agregue al mapa.
 
 <div align="center"><img src="graph/QGIS_NewShapefileLayer.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
@@ -206,7 +206,7 @@ PLine
 
 <div align="center"><img src="graph/AutodeskCivil3D_List.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-5. Guarde el archivo en formato .dxf como _file/cad/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.dxf_ y luego visualice en QGIS.
+5. Guarde el archivo en formato .dxf como _/file/cad/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.dxf_ y luego visualice en QGIS.
 
 <div align="center"><img src="graph/AutodeskCivil3D_SaveDrawingAsDxf.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
@@ -215,7 +215,7 @@ Para la visualización en QGIS, desde el menú _Layer_ seleccione _Add Layer / A
 <div align="center"><img src="graph/QGIS_AddVectorLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_AddVectorLayer1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-6. Exporte a una capa shapefile como _file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.shp_, luego calcule la longitud planar de la línea que corresponderá a 5157.964 metros debido a que los arcos circulares son convertidos a segmentos rectos.
+6. Exporte a una capa shapefile como _/file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.shp_, luego calcule la longitud planar de la línea que corresponderá a 5157.964 metros debido a que los arcos circulares son convertidos a segmentos rectos.
 
 <div align="center"><img src="graph/QGIS_SaveVectorLayerAs.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
@@ -258,9 +258,9 @@ Cuando sea necesario modificar el alineamiento trazado, seleccionar y dar clic d
 
 <div align="center"><img src="graph/AutodeskCivil3D_CreateAlignment6.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
-5. Guarde el archivo de Autodesk Civil 3D como _file/cad/RD_EjeValleSuavizado_AutodeskCivil3DAligment.dwg_.
+5. Guarde el archivo de Autodesk Civil 3D como _/file/cad/RD_EjeValleSuavizado_AutodeskCivil3DAligment.dwg_.
 
-6. Exportar el modelo Civil 3D a Autocad. En el menú _Output_ seleccionar la opción _Export Civil 3D Drawing_, nombre como _file/cad/RD_EjeValleSuavizado_AutodeskCivil3DAligmentAcad.dwg_ utilizando para ello el sufijo _Acad_, no incluya los Layouts o sheets.
+6. Exportar el modelo Civil 3D a Autocad. En el menú _Output_ seleccionar la opción _Export Civil 3D Drawing_, nombre como _/file/cad/RD_EjeValleSuavizado_AutodeskCivil3DAligmentAcad.dwg_ utilizando para ello el sufijo _Acad_, no incluya los Layouts o sheets.
 
 <div align="center"><img src="graph/AutodeskCivil3D_ExportCivil3DDrawing.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/AutodeskCivil3D_ExportCivil3DDrawing1.jpg" alt="R.SIGE" width="40%" border="0" /></div>
@@ -294,7 +294,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 | M01A03    | Realizar el suavizado del valle usando arcos circulares y medir su longitud: shapefile en QGIS con georreferenciación, CAD usando Fillet y alineamiento Civil 3D. En el informe compare las longitudes obtenidas y explique las diferencias.                                                                                                                                                                                                                                                                                                         | 
 | M01A03    | A partir del eje suavizado del valle, cree un buffer de 1 km de ancho con terminaciones redondeadas y con el Atlas Geológico Colombia más reciente, realice un recorte y analice las formaciones geológicas presentes dentro del buffer e indique que consideraciones de diseño y construcción se deben tener en cuenta. Incluya mapas detallados en el documento soporte.                                                                                                                                                                           | 
 | M01A03    | A partir del eje suavizado del valle, y a través de un análisis de proximidad con el Atlas Geológico Colombia más reciente, identifique las fallas geológicas que están cerca o sobre el eje. Analice y presente recomendaciones. Incluya mapas detallados en el documento soporte.                                                                                                                                                                                                                                                                  | 
-| M01A02    | Registrar los valores obtenidos en el [libro de parámetros generales](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoCaucesParametros) requeridos para el diseño y la modelación. Guardar en la carpeta _file/table_.                                                                                                                                                                                                                                                                                                                |
+| M01A02    | Registrar los valores obtenidos en el [libro de parámetros generales](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoCaucesParametros) requeridos para el diseño y la modelación. Guardar en la carpeta _/file/table_.                                                                                                                                                                                                                                                                                                                |
 | M01A02    | Opcional: verificar la formulación correcta de los libros de cálculo suministrados. En las notas de la ficha de control documental indicar el método de verificación y si se requieren o no ajustes.                                                                                                                                                                                                                                                                                                                                                 |
 | M01A03    | Opcional: en caso de que conozca otro método de suavizado diferente, formúlelo dentro del libro de cálculo suministrado.                                                                                                                                                                                                                                                                                                                                                                                                                             | 
 | M01A03    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 

@@ -107,7 +107,7 @@ Para el caso de estudio, se selecciona el Método 2. Universidad Utah State / Di
 
 ## 2. Nodos del eje recto y trazado del alineamiento recto central del valle
 
-1. En QGIS, cargue los archivos shapefile _HMS_Subbasin_v0_, _HMS_River_v0_, _CGG_Vial_v0_ contenidos dentro del modelo hidrológico en la ruta _/file/hec/HECHMS_v0_ y la capa de nodos [:round_pushpin:file/shp/R.HCMC.NodoValle.shp](../../file/shp/R.HCMC.NodoValle.zip) generada en la actividad anterior.
+1. En QGIS, cargue los archivos shapefile _HMS_Subbasin_v0_, _HMS_River_v0_, _CGG_Vial_v0_ contenidos dentro del modelo hidrológico en la ruta _/file/hec/HECHMS_v0_ y la capa de nodos [:round_pushpin:/file/shp/R.HCMC.NodoValle.shp](../../file/shp/R.HCMC.NodoValle.zip) generada en la actividad anterior.
 
 <div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
@@ -299,7 +299,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 | M01A03    | Opcional: en caso de que conozca otro método de suavizado diferente, formúlelo dentro del libro de cálculo suministrado.                                                                                                                                                                                                                                                                                                                                                                                                                             | 
 | M01A03    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
-> Nota 1: Para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
+> Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 > 
 > Nota 2: para el análisis geológico utilizar los vectores descargables de Unidades cronoestratigráficas de Colombia y Fallas geológicas de Colombia del 2018 disponibles en https://www.colombiaenmapas.gov.co/ y del 2020 disponibles en https://www2.sgc.gov.co/MGC/Paginas/agc_500K2020.aspx 
 >

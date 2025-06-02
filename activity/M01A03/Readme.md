@@ -250,7 +250,7 @@ Elementos que componen una clotoide [^1]
 <div align="center"><img src="graph/AutodeskCivil3D_CreateAlignment3.jpg" alt="R.SIGE" width="30%" border="0" /></div>
 <div align="center"><img src="graph/AutodeskCivil3D_CreateAlignment4.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-5. Para modificar el radio de curvatura, dar clic en el botón _Alignment Grid View_. Podrá modificar independientemente cada curva.
+5. Para modificar el radio de curvatura, dar clic en el botón _Alignment Grid View_, podrá modificar independientemente cada curva y visualizar la longitud total de la clotoide correspondiente a 5158.54 metros.
 
 <div align="center"><img src="graph/AutodeskCivil3D_CreateAlignment5.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 

@@ -22,13 +22,13 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                                                      | Descripción                                                                       |
-|:-----------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                 | Microsoft Excel 365.                                                              |
-| [:open_file_folder:R.HCMC.DTM.xlsx.xlsx](R.HCMC.DTM.xlsx)                                                                          | Libro de cálculo para registro de archivos generados para el proyecto.            |
-| [:round_pushpin:RD_EjeValleSuavizado_AutodeskCivil3DClotoide.shp](../../file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.zip) | Clotoide eje valle suavizado en formato shapefile (creada en actividad anterior). |
-| [:round_pushpin:CGG_CurvaNivelLidar_v0.shp](../../file/shp/CGG_CurvaNivelLidar_v0.zip)                                             | Capa de curvas de nivel.                                                          |
-| [:round_pushpin:CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip)                                               | Capa de drenajes naturales.                                                       |
+| Requerimiento                                                                                                                       | Descripción                                                                       |
+|:------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                  | Microsoft Excel 365.                                                              |
+| [:open_file_folder:R.HCMC.DTM.xlsx.xlsx](R.HCMC.DTM.xlsx)                                                                           | Libro de cálculo para registro de archivos generados para el proyecto.            |
+| [:round_pushpin:RD_EjeValleSuavizado_ AutodeskCivil3DClotoide.shp](../../file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.zip) | Clotoide eje valle suavizado en formato shapefile (creada en actividad anterior). |
+| [:round_pushpin:CGG_CurvaNivelLidar_v0.shp](../../file/shp/CGG_CurvaNivelLidar_v0.zip)                                              | Capa de curvas de nivel.                                                          |
+| [:round_pushpin:CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip)                                                | Capa de drenajes naturales.                                                       |
 
 </div>
 
@@ -47,6 +47,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 <div align="center"><img src="graph/QGIS_XYZTileGoogleSatellite.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_XYZTileGoogleSatellite1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+3. 
 
 
 ## Actividades de proyecto :triangular_ruler:

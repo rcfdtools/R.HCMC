@@ -53,6 +53,7 @@ Lib/
 *.dwg
 *.qmd
 *.2dm
+*.bak
 
 # Video exclusions
 #Section02/FdrDEM/FdrDEM.mp4

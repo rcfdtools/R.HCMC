@@ -51,6 +51,7 @@ Lib/
 *.dss
 *.results
 *.dwg
+*.dxf
 *.qmd
 *.2dm
 *.bak

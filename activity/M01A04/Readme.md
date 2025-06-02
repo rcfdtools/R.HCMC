@@ -107,6 +107,38 @@ Zona de entrega
 <div align="center"><img src="graph/QGIS_LayerPropertiesPixelSize.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
+## 4. Visualización 3D de superficie interpolada
+
+1. En el menú _View_, seleccione la opción _3D Map Views / New 3D Map View_. En la ventana de configuración, establezca _Terrain / Type (DEM (Raster Layer)_ seleccionando el TIN creado y especifique escala de exageración vertical en 10. Con la rueda y clic sostenido del Mouse o apuntador, ajuste la rotación y acercamiento a la visualización de terreno.
+
+Zona de inicio
+
+<div align="center"><img src="graph/QGIS_3DMapView2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+Zona de entrega
+
+<div align="center"><img src="graph/QGIS_3DMapView3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+
+## Visualización de secciones transversales y perfiles
+
+1. En el menu _View_, seleccione la herramienta _Elevation Profile_, agregue el modelo de terreno en formato ráster y seleccione el eje del valle suavizado. Podrá observar el perfil, explorar las cotas de inicio y entrega y la forma de la sección del cauce lateral.
+
+<div align="center"><img src="graph/QGIS_ElevationProfile.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ElevationProfile1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+2. Acérquese al inicio del realineamiento, dibuje manualmente una sección transversal y visualice.
+
+<div align="center"><img src="graph/QGIS_ElevationProfile2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+3. Acérquese al final del realineamiento, dibuje manualmente una sección transversal y visualice.
+
+<div align="center"><img src="graph/QGIS_ElevationProfile3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+
+
+
+
 
 
 

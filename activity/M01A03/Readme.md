@@ -30,15 +30,15 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | [:toolbox:Herramienta](https://qgis.org/)                                                                                                | QGIS 3.42 o superior.                                                    |
 | [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                                                                       | Autodesk Civil 3D 2025 o superior.                                       |
 | [:open_file_folder:R.HCMC.NodoValle.xlsx](../../file/table/R.HCMC.NodoValle.xlsx)                                                        | Puntos de localización para el trazado del valle compuesto por tramos rectos.                                                                                                                                                                                                                  |
-| [:open_file_folder:R.HydroTools. RadioCurvaturaValle.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/RadioCurvaturaValle) | Libro de cálculo para la Estimación del radio de curvatura para el suavizado del valle en canales, Rc. |
 | [:round_pushpin:R.HCMC.NodoValle.shp](../../file/shp/R.HCMC.NodoValle.zip)                                                               | Capa de nodos eje valle recto (creada en actividad anterior).                                          |
+| [:open_file_folder:R.HydroTools. RadioCurvaturaValle.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/RadioCurvaturaValle) | Libro de cálculo para la Estimación del radio de curvatura para el suavizado del valle en canales, Rc. |
 
 </div>
 
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
 
-## Conceptos generales
+## 0. Conceptos generales
 
 ### Consideraciones generales para el trazado del eje de valle
 
@@ -250,7 +250,7 @@ Elementos que componen una clotoide [^1]
 <div align="center"><img src="graph/AutodeskCivil3D_CreateAlignment3.jpg" alt="R.SIGE" width="30%" border="0" /></div>
 <div align="center"><img src="graph/AutodeskCivil3D_CreateAlignment4.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-5. Para modificar el radio de curvatura, dar clic en el botón _Alignment Grid View_, podrá modificar independientemente cada curva y visualizar la longitud total de la clotoide correspondiente a 5158.54 metros.
+5. Para modificar el radio de curvatura, dar clic en el botón _Alignment Grid View_, podrá modificar independientemente cada curva y visualizar la longitud total de la clotoide correspondiente a 5158.536 metros.
 
 <div align="center"><img src="graph/AutodeskCivil3D_CreateAlignment5.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
@@ -266,6 +266,19 @@ Cuando sea necesario modificar el alineamiento trazado, seleccionar y dar clic d
 <div align="center"><img src="graph/AutodeskCivil3D_ExportCivil3DDrawing1.jpg" alt="R.SIGE" width="40%" border="0" /></div>
 
 
+## Comparación de resultados
+
+El trazado y conversión de los ejes suavizados a formato shapefile, da como resultados ejes con diferentes longitudes
+
+| Herramienta                                           | Longitud (m) | Observaciones                                                                 |
+|:------------------------------------------------------|:------------:|:------------------------------------------------------------------------------|
+| QGIS                                                  |    5353.1    | Eje recto del valle.                                                          |
+| QGIS                                                  |   5158.006   | Eje suavizado trazado usando circunferencias tangentes, sin arcos circulares. |
+| Autodesk Civil 3D - Clotoide                          |   5158.536   | Curva clotoide por arcos circulares.                                          |
+| Autodesk Civil 3D - Clotoide / Conversión a shapefile |   5157.964   | Eje suavizado convertido a shapefile desde QGIS                               |
+| Autodesk Civil 3D - Alineamiento                      |   5158.536   | Curva clotoide por alineamiento                                               |
+
+<div align="center"><img src="graph/QGIS_ClotoidesComparacion.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 ## Actividades de proyecto :triangular_ruler:

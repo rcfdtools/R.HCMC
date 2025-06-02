@@ -42,9 +42,10 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 <div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_Symbology.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+2. Desde el panel lateral Browser, agregue el mapa XYZ Tiles / Google Satellite y visualice el eje del valle en la zona de inicio y entrega.
 
-
-
+<div align="center"><img src="graph/QGIS_XYZTileGoogleSatellite.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_XYZTileGoogleSatellite1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 

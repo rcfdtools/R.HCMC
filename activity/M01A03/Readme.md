@@ -107,7 +107,7 @@ Para el caso de estudio, se selecciona el Método 2. Universidad Utah State / Di
 
 ## 2. Nodos del eje recto y trazado del alineamiento recto central del valle
 
-1. En QGIS, cargue los archivos shapefile _HMS_Subbasin_v0_, _HMS_River_v0_, _CGG_Vial_v0_ contenidos dentro del modelo hidrológico en la ruta _/file/hec/HECHMS_v0_ y la capa de nodos [:round_pushpin:/file/shp/R.HCMC.NodoValle.shp](../../file/shp/R.HCMC.NodoValle.zip) generada en la actividad anterior.
+1. En QGIS, cargue los archivos shapefile _HMS_Subbasin_v0_, _HMS_River_v0_, _CGG_Vial_v0_ contenidos dentro del modelo hidrológico en la ruta _/file/hec/HECHMS_v0_ y la capa de nodos [/file/shp/R.HCMC.NodoValle.shp](../../file/shp/R.HCMC.NodoValle.zip) generada en la actividad anterior.
 
 <div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 

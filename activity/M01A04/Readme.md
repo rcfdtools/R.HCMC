@@ -120,7 +120,7 @@ Zona de entrega
 <div align="center"><img src="graph/QGIS_3DMapView3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
-## Visualización de secciones transversales y perfiles
+## 5. Visualización de secciones transversales y perfiles
 
 1. En el menu _View_, seleccione la herramienta _Elevation Profile_, agregue el modelo de terreno en formato ráster y seleccione el eje del valle suavizado. Podrá observar el perfil, explorar las cotas de inicio y entrega y la forma de la sección del cauce lateral.
 
@@ -136,7 +136,9 @@ Zona de entrega
 <div align="center"><img src="graph/QGIS_ElevationProfile3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
+## 6. Exportación a CAD
 
+Desde el menu Proyecto, seleccionar la opción _Importar / Exportar_, Exportar Proyecto a DXF. Seleccionar las capas de drenajes, eje suavizado del valle, curvas de nivel y aristas del modelo triangulado. Abrir Autocad y verificar el archivo exportado. En caso de no disponer de Autocad, crear un nuevo mapa de QGIS e importer el DXF para verificar su contenido.
 
 
 

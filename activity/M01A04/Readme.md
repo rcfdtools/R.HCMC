@@ -25,7 +25,8 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | Requerimiento                                                                                                                       | Descripción                                                                       |
 |:------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                  | Microsoft Excel 365.                                                              |
-| [:open_file_folder:R.HCMC.DTM.xlsx.xlsx](R.HCMC.DTM.xlsx)                                                                           | Libro de cálculo para registro de archivos generados para el proyecto.            |
+| [:toolbox:Herramienta](https://qgis.org/)                                                                                           | QGIS 3.42 o superior.                                                    |
+| [:open_file_folder:R.HCMC.DTM.xlsx](R.HCMC.DTM.xlsx)                                                                                | Libro de cálculo para registro de archivos generados para el proyecto.            |
 | [:round_pushpin:RD_EjeValleSuavizado_ AutodeskCivil3DClotoide.shp](../../file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.zip) | Clotoide eje valle suavizado en formato shapefile (creada en actividad anterior). |
 | [:round_pushpin:CGG_CurvaNivelLidar_v0.shp](../../file/shp/CGG_CurvaNivelLidar_v0.zip)                                              | Capa de curvas de nivel.                                                          |
 | [:round_pushpin:CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip)                                                | Capa de drenajes naturales.                                                       |
@@ -53,14 +54,19 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 Con la rueda y clic sostenido del Mouse o apuntador, ajuste la rotación y acercamiento a la visualización de terreno.
 
-<div align="center"><img src="graph/QGIS_3DMapView.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_3DMapView1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
-## 2. 
+## 2. Creación de TIN
 
+A partir de las curvas de nivel, crear el modelo de terreno TIN. Abrir la tabla de atributos de la capa e identificar el campo de elevación.
 
+1. Desde el Processing Toolbox, ejecute la herramienta _Mesh / TIN Mesh Creation_, establezca el CRS 3116 y guarde en formato 2DM como _/file/dem/TIN_TerrenoNaturalQGIS_v0.d2m_.
 
+<div align="center"><img src="graph/QGIS_TINMeshCreation.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_TINMeshCreation1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+2. 
 
 
 

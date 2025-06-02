@@ -222,6 +222,20 @@ Para la visualización en QGIS, desde el menú _Layer_ seleccione _Add Layer / A
 
 ## 5. Curva clotoide por alineamiento con Autodesk Civil 3D
 
+1. Siguiendo las instrucciones del numeral anterior y a partir de la plantilla métrica, cree un nuevo archivo en blanco, verifique unidades y con el comando PLine trace el eje recto del valle. Con el comando _List_, verifique las coordenadas del eje recto del valle.
+
+<div align="center"><img src="graph/AutodeskCivil3D_List1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+2. Con la herramienta _Home / Create desing / Alignment / Alignment creation tools_, cree un alineamiento, nombre de eje como _RD_EjeValleSuavizado_AutodeskCivil3DAligment_.
+
+<div align="center"><img src="graph/AutodeskCivil3D_CreateAlignment.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+3. En _Alignment Layout Tools_, definir el radio de curvatura y demás propiedades según el diseño, seleccionar el tipo de curva (Clotoide) e introducir el radio de curvatura. 
+
+<div align="center"><img src="graph/AutodeskCivil3D_CreateAlignment1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_CreateAlignment2.jpg" alt="R.SIGE" width="40%" border="0" /></div>
+
+
 
 
 

@@ -35,7 +35,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
 
-## Procedimiento general
+## 1. Visualización general de capas
 
 1. En QGIS, cree un proyecto en blanco y defina el CRS 3116. Agregue las capas [CGG_CurvaNivelLidar_v0.shp](../../file/shp/CGG_CurvaNivelLidar_v0.zip), [CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip) y [RD_EjeValleSuavizado_AutodeskCivil3DClotoide.shp](../../file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.zip), ajuste la simbología de representación de cada capa de curvas de nivel a 12 clases usando la paleta _Spectral_.
 
@@ -47,7 +47,25 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 <div align="center"><img src="graph/QGIS_XYZTileGoogleSatellite.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_XYZTileGoogleSatellite1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-3. 
+3. Realice una visualización preliminar 3D. En el menú _View_, seleccione la opción _3D Map Views / New 3D Map View_. En la ventana de configuración, establezca _Terrain / Online_ con escala de exageración vertical en 10.
+
+<div align="center"><img src="graph/QGIS_3DMapView.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+Con la rueda y clic sostenido del Mouse o apuntador, ajuste la rotación y acercamiento a la visualización de terreno.
+
+<div align="center"><img src="graph/QGIS_3DMapView.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_3DMapView1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+
+## 2. 
+
+
+
+
+
+
+
+
 
 
 ## Actividades de proyecto :triangular_ruler:

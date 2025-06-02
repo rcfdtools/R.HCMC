@@ -245,7 +245,7 @@ Elementos que componen una clotoide [^1]
 <div align="center"><img src="graph/AutodeskCivil3D_CreateAlignment1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 <div align="center"><img src="graph/AutodeskCivil3D_CreateAlignment2.jpg" alt="R.SIGE" width="40%" border="0" /></div>
 
-4. Seleccionar la herramienta _Alignment Layout Tools / Tangent - Tangentt (With curves)_ e iniciar el proceso de dibujo teniendo en cuenta la dirección del flujo y que los vértices del alineamiento recto correspondan con los vértices de las curvas, es decir, se debe dibujar el alineamiento sobre los vértices que definen la poli-línea del alineamiento recto.
+4. Seleccionar la herramienta _Alignment Layout Tools / Tangent - Tangent (With curves)_ e iniciar el proceso de dibujo teniendo en cuenta la dirección del flujo y que los vértices del alineamiento recto correspondan con los vértices de las curvas, es decir, se debe dibujar el alineamiento sobre los vértices que definen la poli-línea del alineamiento recto.
 
 <div align="center"><img src="graph/AutodeskCivil3D_CreateAlignment3.jpg" alt="R.SIGE" width="20%" border="0" /></div>
 <div align="center"><img src="graph/AutodeskCivil3D_CreateAlignment4.jpg" alt="R.SIGE" width="100%" border="0" /></div>

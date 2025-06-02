@@ -77,8 +77,8 @@ A partir de las curvas de nivel, crear el modelo de terreno triangulado TIN, pri
 
 > Para su proyecto no es obligatoria la generación de la red triangulada en formato vectorial shapefile.
 
-<div align="center"><img src="graph/QGIS_TINInterpolation.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_TINInterpolation1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_TINInterpolation.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_TINInterpolation1.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 Visualizar en pseudo color utilizando la paleta _Spectral_.
 
@@ -120,7 +120,7 @@ Zona de entrega
 <div align="center"><img src="graph/QGIS_3DMapView3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
-## 5. Visualización de secciones transversales y perfiles
+## 5. Visualización de perfiles y secciones transversales
 
 1. En el menu _View_, seleccione la herramienta _Elevation Profile_, agregue el modelo de terreno en formato ráster y seleccione el eje del valle suavizado. Podrá observar el perfil, explorar las cotas de inicio y entrega y la forma de la sección del cauce lateral.
 

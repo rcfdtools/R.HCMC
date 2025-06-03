@@ -134,7 +134,7 @@ Dando clic derecho en la capa _Rivers_, seleccione la opción _Layer Properties_
 <div align="center"><img src="graph/HECRAS_RASMapperEditCrossSections.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/HECRAS_RASMapperEditCrossSections1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-9. Visualice toda la geometría y revise en detalle las diferentes localizaciones. Como referencia de visualización, en _Map Layers_ agregue desde _Reference Layers_ la capa del eje del valle suavizado [/file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.shp](../../shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.zip).
+9. Visualice toda la geometría y revise en detalle las diferentes localizaciones. Como referencia de visualización, en _Map Layers_ agregue desde _Reference Layers_ la capa del eje del valle suavizado [/file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.shp](../../file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.zip).
 
 <div align="center"><img src="graph/HECRAS_RASMapperReferenceLayers.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 

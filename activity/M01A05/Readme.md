@@ -202,10 +202,13 @@ Selecione uno de los tramos de drenaje contenidos en Rivers y desde el menú con
 
 ## 3. Topología RAS Mapper red antrópica
 
-Utilizando las capas geográficas [RASMapper_BanksAnthropic.shp](../../file/shp/RASMapper_BanksAnthropic.zip), [RASMapper_RiverAnthropic.shp](../../file/shp/RASMapper_RiverAnthropic.zip) y [RASMapper_XSCutlinesAnthropic.shp](../../file/shp/RASMapper_XSCutlinesAnthropic.zip) y siguiendo el procedimiento presentado en los numerales anteriores, cree el modelo de muestreo en estado antrópico.
+Utilizando las capas geográficas [RASMapper_BanksAnthropic.shp](../../file/shp/RASMapper_BanksAnthropic.zip), [RASMapper_RiverAnthropic.shp](../../file/shp/RASMapper_RiverAnthropic.zip) y [RASMapper_XSCutlinesAnthropic.shp](../../file/shp/RASMapper_XSCutlinesAnthropic.zip) y siguiendo el procedimiento presentado en los numerales anteriores, cree el modelo de muestreo en estado antrópico ajustando también las posiciones de las bancas. Nombre la geometría como _GeometryAnthropic_.
 
+> Para la correcta asociación de las secciones transversales es preciso unir con la herramienta _Editor / Tools / Merge_ de RAS Mapper, los dos tramos de drenaje aguas arriba del cauce lateral y luego los dos tramos aguas abajo, ajustar los nombres del río y tramos.
 
-
+<div align="center">Geometría red antrópica<br><img src="graph/HECRAS_RASMapperCrossSectionsElevationProfilesFromTerrain1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Cauce principal aguas abajo de la entrada Lateral 1<br><img src="graph/HECRAS_RASMapperEditRiversProfile2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Cauce Lateral 1<br><img src="graph/HECRAS_RASMapperEditRiversProfile3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 

@@ -165,7 +165,16 @@ Cauce Lateral 1
 
 ## 3. Visualización de geometría 1D en HEC-RAS
 
-1. Cierre RAS Mapper, 
+1. Cierre RAS Mapper, y en la ventana principal de HEC-RAS, de clic en el editor de geometría 1D.
+
+> Se recomienda mantener cerrado el editor RAS Mapper cuando esté utilizando el editor de geometría 1D de HEC-RAS, así evitará perdidas de datos geométricos o que se corrompan los archivos del proyecto.
+
+<div align="center"><img src="graph/HECRAS_GeometricData.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+2. En la ventana _Geometric Data_ y desde el menú _File_, seleccione la opción _Open Geometry Data_, seleccione el archivo _GeometryNatural_.
+
+<div align="center"><img src="graph/HECRAS_GeometricDataOpen.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
 
 
 

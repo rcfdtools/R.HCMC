@@ -155,17 +155,37 @@ Selecione uno de los tramos de drenaje contenidos en Rivers y desde el menú con
 > Para su proyecto, visualice en RAS Mapper, cada uno de los tramos de drenaje.
 
 
-## 3. Visualización de geometría 1D en HEC-RAS
+## 3. Visualización y ajuste de geometría 1D en HEC-RAS
 
 1. Cierre RAS Mapper, y en la ventana principal de HEC-RAS, de clic en el editor de geometría 1D.
 
-> Se recomienda mantener cerrado el editor RAS Mapper cuando esté utilizando el editor de geometría 1D de HEC-RAS, así evitará perdidas de datos geométricos o que se corrompan los archivos del proyecto.
+> Se recomienda mantener cerrado el editor RAS Mapper cuando esté utilizando el editor de geometría 1D de HEC-RAS, así evitará perdidas de datos o corrupción de los archivos del proyecto.
 
 <div align="center"><img src="graph/HECRAS_GeometricData.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 2. En la ventana _Geometric Data_ y desde el menú _File_, seleccione la opción _Open Geometry Data_, seleccione el archivo _GeometryNatural_.
 
 <div align="center"><img src="graph/HECRAS_GeometricDataOpen.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+3. Consulte y verifique los siguientes elementos:
+
+* Perfil de cada tramo de drenaje con abscisado correcto
+* Perfil de cada río incluyendo sus tramos
+* Secciones transversales con distancias positivas en bancas y entre secciones
+* Posición de bancas en las secciones
+
+4. Perfil del cauce natural principal y cauce lateral
+
+<div align="center">Cauce principal<br><img src="graph/HECRAS_GeometricDataProfile1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Cauce lateral<br><img src="graph/HECRAS_GeometricDataProfile2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+5. Sección de inicio y entrega realineamiento.
+
+<div align="center">Sección de inicio, abscisa 9944 m<br><img src="graph/HECRAS_GeometricDataCrossSection1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Sección de entrega, abscisa 3253 m<br><img src="graph/HECRAS_GeometricDataCrossSection2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+6. Utilizando el editor de secciones transversales, ajuste las posiciones de banca hasta la corona de confinamiento.
+
 
 
 

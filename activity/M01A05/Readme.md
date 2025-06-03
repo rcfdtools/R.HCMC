@@ -30,7 +30,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
 
-## 1. Visualización y revisión de vectores en QGIS
+## 1. Creación y verificación de vectores en QGIS
 
 1. En QGIS, cargue desde la ruta _/file/shp_ las capas _RASMapper_BanksAnthropic.shp_, _RASMapper_BanksNatural.shp_, _RASMapper_RiverAnthropic.shp_, _RASMapper_RiverNatural.shp_, _RASMapper_XSCutlinesAnthropic.shp_ y _RASMapper_XSCutlinesNatural.shp_.
 
@@ -42,9 +42,9 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 Como observa en la ilustración, la red de muestreo de cauces naturales únicamente contiene elementos próximos a la zona del futuro cauce de realineamiento y hasta el límite del modelo digital de terreno generado previamente.
 
-<div align="center"><img src="graph/QGIS_NaturalSymbology.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_NaturalSymbology1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_NaturalSymbology2.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_RASMapperNaturalSymbology.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_RASMapperNaturalSymbology1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_RASMapperNaturalSymbology2.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 Para la construcción de las líneas de muestreo de cauces naturales de su proyecto, utilice las siguientes directrices:
 

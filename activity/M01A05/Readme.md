@@ -32,7 +32,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## 1. Creación y verificación de vectores en QGIS
 
-1. En QGIS, cargue desde la ruta _/file/shp_ las capas _RASMapper_BanksAnthropic.shp_, _RASMapper_BanksNatural.shp_, _RASMapper_RiverAnthropic.shp_, _RASMapper_RiverNatural.shp_, _RASMapper_XSCutlinesAnthropic.shp_ y _RASMapper_XSCutlinesNatural.shp_.
+1. En QGIS, cargue desde la ruta _/file/shp_ las capas [RASMapper_BanksAnthropic.shp](../../file/shp/RASMapper_BanksAnthropic.zip), [RASMapper_BanksNatural.shp](../../file/shp/RASMapper_BanksNatural.zip), [RASMapper_RiverAnthropic.shp](../../file/shp/RASMapper_RiverAnthropic.zip), [RASMapper_RiverNatural.shp](../../file/shp/RASMapper_RiverNatural.zip), [RASMapper_XSCutlinesAnthropic.shp](../../file/shp/RASMapper_XSCutlinesAnthropic.zip) y [RASMapper_XSCutlinesNatural.shp](../../file/shp/RASMapper_XSCutlinesNatural.zip).
 
 <div align="center"><img src="graph/QGIS_RASMapperLayers.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
@@ -81,7 +81,7 @@ Para la construcción de las líneas de muestreo de cauces naturales de su proye
 <div align="center"><img src="graph/QGIS_RASMapperAnthropicSymbology.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
-## 2. Creación de proyecto HEC-RAS y topología RAS Mapper
+## 2. Creación de proyecto HEC-RAS y topología RAS Mapper red natural
 
 1. Abra HEC-RAS y en el menú _Options_, seleccione la opción _Units System (US Customary / SI)_ y establezca como sistema por defecto el sistema de unidades internacional.
 
@@ -155,7 +155,7 @@ Selecione uno de los tramos de drenaje contenidos en Rivers y desde el menú con
 > Para su proyecto, visualice en RAS Mapper, cada uno de los tramos de drenaje.
 
 
-## 3. Visualización y ajuste de geometría 1D en HEC-RAS
+## 3. Visualización y ajuste de geometría 1D red natural en HEC-RAS
 
 1. Cierre RAS Mapper, y en la ventana principal de HEC-RAS, de clic en el editor de geometría 1D.
 
@@ -193,7 +193,16 @@ Selecione uno de los tramos de drenaje contenidos en Rivers y desde el menú con
 <div align="center">Cauce principal con ajuste de bancas<br><img src="graph/HECRAS_GeometricDataProfile3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center">Cauce lateral con ajuste de bancas<br><img src="graph/HECRAS_GeometricDataProfile4.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+7. Imprima las secciones transversales en un archivo de Adobe Acrobat (.pdf) mostrando 9 secciones por hoja en formato horizontal. En la ventana del editor de geometría o _Geometric Data_, de clic en una de las secciones y seleccione la herramienta _Plot Cross Section_. En el menú File seleccione Print Multiple, ajuste el tamaño de hoja, número de secciones y guarde como [/file/report/M01A05_CrossSectionNatural.pdf](../../file/report/M01A05_CrossSectionNatural.pdf).
 
+<div align="center"><img src="graph/HECRAS_GeometricDataCrossSectionPrintMultiple.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometricDataCrossSectionPrintMultiple1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometricDataCrossSectionPrintMultiple2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+
+## 3. Topología RAS Mapper red antrópica
+
+Utilizando las capas geográficas [RASMapper_BanksAnthropic.shp](../../file/shp/RASMapper_BanksAnthropic.zip), [RASMapper_RiverAnthropic.shp](../../file/shp/RASMapper_RiverAnthropic.zip) y [RASMapper_XSCutlinesAnthropic.shp](../../file/shp/RASMapper_XSCutlinesAnthropic.zip) y siguiendo el procedimiento presentado en los numerales anteriores, cree el modelo de muestreo en estado antrópico.
 
 
 

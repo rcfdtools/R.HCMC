@@ -80,9 +80,24 @@ Para la construcción de las líneas de muestreo de cauces naturales de su proye
 <div align="center"><img src="graph/QGIS_RASMapperAnthropicSymbology.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
-## Creación de proyecto HEC-RAS
+## 2. Creación de proyecto HEC-RAS
 
-1. 
+1. Abra HEC-RAS y en el menú _Options_, seleccione la opción _Units System (US Customary / SI)_ y establezca como sistema por defecto el sistema de unidades internacional.
+
+<div align="center"><img src="graph/HECRAS_UnitSystem.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+2. En el menú _File_, seleccione la opción _New Project_ creando primero la carpeta de proyecto _/file/hec/HECRAS_v0/_ y nombre el proyecto como _HECRAS_v0.prj_.
+
+<div align="center"><img src="graph/HECRAS_CreateProject.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_CreateProject1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+3. 
+
+<div align="center"><img src="graph/HECRAS_CreateFolder.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+
+
+
 
 
 

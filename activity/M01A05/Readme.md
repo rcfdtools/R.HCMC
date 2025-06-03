@@ -119,8 +119,9 @@ Detenga la edición y guarde los cambios realizados en la geometría.
 
 <div align="center"><img src="graph/HECRAS_RASMapperEditRivers1.jpg" alt="R.SIGE" width="30%" border="0" /></div>
 
+Dando clic derecho en la capa _Rivers_, seleccione la opción _Layer Properties_ y en _Additional Options_ active las casillas de visualización de flechas direccionales y abscisado. Acérquese a la zona de unión del cauce lateral y verifique que exista el nodo de unión o Junction y que las flechas direccionales estén en el sentido del flujo.
 
-
+<div align="center"><img src="graph/HECRAS_RASMapperEditRivers2.jpg" alt="R.SIGE" width="30%" border="0" /></div>
 
 
 

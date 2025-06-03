@@ -41,7 +41,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > :fire: Tenga en cuenta que para la correcta asociación de las abscisas del modelo hidráulico de muestreo, los drenajes así como las líneas de banca deberán ser digitalizadas en el sentido del flujo y las secciones transversales de izquierda a derecha en el sentido del flujo.
 
 <div align="center"><img src="graph/QGIS_NaturalSymbology.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_NaturalSymbology1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_NaturalSymbology1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 Para la construcción de las líneas de muestreo de cauces naturales de su proyecto, utilice las siguientes directrices:
 

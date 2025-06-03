@@ -36,9 +36,11 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center"><img src="graph/QGIS_RASMapperLayers.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-2. Active solo los elementos de muestreo de la red natural, ajuste la simbología de representación con colores similares a los mostrados en la ilustración y rotule los drenajes con `"RiverCode"  || ' / ' ||  "ReachCode"`.
+2. Active solo los elementos de muestreo de la red natural, ajuste la simbología de representación con colores similares a los mostrados en la ilustración y rotule los drenajes con `"RiverCode"  || ' / ' ||  "ReachCode"`. Para facilitar la comprensión del modelo de muestreo, agregue desde _/file/shp_ el eje suavizado del realineamiento del valle _RD_EjeValleSuavizado_AutodeskCivil3DClotoide.shp_ y el modelo digital de elevación _/file/dem/TIN_TerrenoNaturalQGIS_v0.tif_.
 
 > :fire: Tenga en cuenta que para la correcta asociación de las abscisas del modelo hidráulico de muestreo, los drenajes así como las líneas de banca deberán ser digitalizadas en el sentido del flujo y las secciones transversales de izquierda a derecha en el sentido del flujo.
+
+Como observa en la ilustración, la red de muestreo de cauces naturales únicamente 
 
 <div align="center"><img src="graph/QGIS_NaturalSymbology.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_NaturalSymbology1.jpg" alt="R.SIGE" width="70%" border="0" /></div>

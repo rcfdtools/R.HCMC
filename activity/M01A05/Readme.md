@@ -89,7 +89,7 @@ Para la construcción de las líneas de muestreo de cauces naturales de su proye
 2. En el menú _File_, seleccione la opción _New Project_ creando primero la carpeta de proyecto _/file/hec/HECRAS_v0/_ y nombre el proyecto como _HECRAS_v0.prj_.
 
 <div align="center"><img src="graph/HECRAS_CreateProject.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_CreateProject1.jpg" alt="R.SIGE" width="40%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_CreateProject1.jpg" alt="R.SIGE" width="50%" border="0" /></div>
 
 3. En el menú _GIS Tools_, de clic en _RAS Mapper..._ o en de clic en el ícono RAS Mapper de la ventana principal de HEC-RAS. En RAS Mapper, de clic en el menú _Project_ y seleccione la opción _Set Projection_, busque y establezca el CRS [GAUSS_BTA_MAGNA.prj](../../file/projectionfile).
 
@@ -99,17 +99,17 @@ Para la construcción de las líneas de muestreo de cauces naturales de su proye
 
 > En la opción _Rounding (Precision)_ puede utilizar 1/128 de precisión con respecto a las elevaciones registradas en la grilla de terreno. 
 
-<div align="center"><img src="graph/HECRAS_RASMapperCreateNewRASTerrain.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperCreateNewRASTerrain.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 Renombre el modelo de terreno como TIN_TerrenoNaturalQGIS y ajuste las propiedades de visualización utilizando un factor de sombreado de 10 y rampa ajustada a 24 clases en escala de grises.
 
-<div align="center"><img src="graph/HECRAS_RASMapperTerrainRename.jpg" alt="R.SIGE" width="50%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_RASMapperTerrainStretched.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperTerrainRename.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperTerrainStretched.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 5. En el panel lateral izquierdo seleccione el grupo _Geometries_, de clic derecho y seleccione la opción _Create New Geometry_, nombre como _GeometryNatural_ y asocie el DTM.
 
-<div align="center"><img src="graph/HECRAS_RASMapperCreateNewGeometry.jpg" alt="R.SIGE" width="50%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_RASMapperCreateNewGeometry1.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperCreateNewGeometry.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperCreateNewGeometry1.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 6. Seleccione la nueva geometría creada y de clic en el botón de edición (lápiz amarillo), seleccione la capa _Rivers_ y dando clic derecho seleccione la opción _Import Features_. Busque y seleccione la capa [/file/shp/RASMapper_RiverNatural.shp](../../file/shp/RASMapper_RiverNatural.zip) y asocie los códigos `River = RiverCode` y `Reach = ReachCode`.
 
@@ -117,7 +117,7 @@ Renombre el modelo de terreno como TIN_TerrenoNaturalQGIS y ajuste las propiedad
 
 Detenga la edición y guarde los cambios realizados en la geometría.
 
-<div align="center"><img src="graph/HECRAS_RASMapperEditRivers1.jpg" alt="R.SIGE" width="30%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperEditRivers1.jpg" alt="R.SIGE" width="40%" border="0" /></div>
 
 Dando clic derecho en la capa _Rivers_, seleccione la opción _Layer Properties_ y en _Additional Options_ active las casillas de visualización de flechas direccionales y abscisado. Acérquese a la zona de unión del cauce lateral y verifique que exista el nodo de unión o Junction y que las flechas direccionales estén en el sentido del flujo.
 

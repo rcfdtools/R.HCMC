@@ -206,9 +206,15 @@ Utilizando las capas geográficas [RASMapper_BanksAnthropic.shp](../../file/shp/
 
 > Para la correcta asociación de las secciones transversales es preciso unir con la herramienta _Editor / Tools / Merge_ de RAS Mapper, los dos tramos de drenaje aguas arriba del cauce lateral y luego los dos tramos aguas abajo, ajustar los nombres del río y tramos.
 
-<div align="center">Geometría red antrópica<br><img src="graph/HECRAS_RASMapperCrossSectionsElevationProfilesFromTerrain1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Geometría red antrópica en RAS Mapper<br><img src="graph/HECRAS_RASMapperCrossSectionsElevationProfilesFromTerrain1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center">Cauce principal aguas abajo de la entrada Lateral 1<br><img src="graph/HECRAS_RASMapperEditRiversProfile2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center">Cauce Lateral 1<br><img src="graph/HECRAS_RASMapperEditRiversProfile3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Geometría red antrópica en Geometryc Data<br><img src="graph/HECRAS_GeometricDataOpen1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+Imprima las secciones transversales en un archivo de Adobe Acrobat (.pdf) mostrando 9 secciones por hoja en formato horizontal y guarde como [/file/report/M01A05_CrossSectionAnthropic.pdf](../../file/report/M01A05_CrossSectionAnthropic.pdf).
+
+<div align="center"><img src="graph/HECRAS_GeometricDataCrossSectionPrintMultiple3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
 
 
 

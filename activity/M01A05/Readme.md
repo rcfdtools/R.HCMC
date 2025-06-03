@@ -20,10 +20,10 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                           | Descripción                                                                                                                     |
-|:--------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                | HEC-RAS 6.6 o superior.                                                                                                         |
-| [:round_pushpin:RASMapper_SampleModelShapefile](../../file/shp/RASMapper_SampleModelShapefile.zip)      | Capas geográficas vectoriales para modelo de muestreo HEC-RAS.                                                                  |
+| Requerimiento                                                                                           | Descripción                                                    |
+|:--------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                | HEC-RAS 6.7 Beta 3 o superior.                                 |
+| [:round_pushpin:RASMapper_SampleModelShapefile](../../file/shp/RASMapper_SampleModelShapefile.zip)      | Capas geográficas vectoriales para modelo de muestreo HEC-RAS. |
 
 </div>
 
@@ -78,6 +78,16 @@ Para la construcción de las líneas de muestreo de cauces naturales de su proye
 | RASMapper_XSCutlinesAnthropic.shp | En la zona natural utilizar el mismo trazado de secciones naturales y en la zona del valle generar líneas de muestreo en intervalos cada 200 metros y anchos iniciales de 500 a 1000 metros. |
 
 <div align="center"><img src="graph/QGIS_RASMapperAnthropicSymbology.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+
+## Creación de proyecto HEC-RAS
+
+1. 
+
+
+
+
+
 
 
 

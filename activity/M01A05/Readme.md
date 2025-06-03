@@ -95,7 +95,31 @@ Para la construcción de las líneas de muestreo de cauces naturales de su proye
 
 <div align="center"><img src="graph/HECRAS_RASMapperSetProjection.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-4. 
+4. En el panel lateral izquierdo seleccione el grupo Terrains y de clic derecho y seleccione la opción _Create a New RAS Terrain_, busque el DTM [/file/dem/TIN_TerrenoNaturalQGIS_v0.tif](../../file/dem) y de clic en _Create_.
+
+> En la opción _Rounding (Precision)_ puede utilizar 1/128 de precisión con respecto a las elevaciones registradas en la grilla de terreno. 
+
+<div align="center"><img src="graph/HECRAS_RASMapperCreateNewRASTerrain.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+
+Renombre el modelo de terreno como TIN_TerrenoNaturalQGIS y ajuste las propiedades de visualización utilizando un factor de sombreado de 10 y rampa ajustada a 24 clases en escala de grises.
+
+<div align="center"><img src="graph/HECRAS_RASMapperTerrainRename.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperTerrainStretched.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+
+5. En el panel lateral izquierdo seleccione el grupo _Geometries_, de clic derecho y seleccione la opción _Create New Geometry_, nombre como _GeometryNatural_ y asocie el DTM.
+
+<div align="center"><img src="graph/HECRAS_RASMapperCreateNewGeometry.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperCreateNewGeometry1.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+
+
+
+6. 
+
+<div align="center"><img src="graph/HECRAS_RASMapperCreateNewGeometry.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+
+
+
+
 
 
 

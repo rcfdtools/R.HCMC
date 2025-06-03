@@ -184,7 +184,18 @@ Selecione uno de los tramos de drenaje contenidos en Rivers y desde el menú con
 <div align="center">Sección de inicio, abscisa 9944 m<br><img src="graph/HECRAS_GeometricDataCrossSection1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center">Sección de entrega, abscisa 3253 m<br><img src="graph/HECRAS_GeometricDataCrossSection2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-6. Utilizando el editor de secciones transversales, ajuste las posiciones de banca hasta la corona de confinamiento.
+6. Utilizando el _Graphical Cross Section Editor..._, ajuste las posiciones de banca hasta la corona de confinamiento.
+
+> Visualmente, verifique que la posición de las bancas sobre el modelo de terreno sea consistente con la localización del cauce.
+
+<div align="center">Ejemplo en sección, abscisa 10800 m<br><img src="graph/HECRAS_GeometricDataGraphicXSEditor1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+<div align="center">Cauce principal con ajuste de bancas<br><img src="graph/HECRAS_GeometricDataProfile3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Cauce lateral con ajuste de bancas<br><img src="graph/HECRAS_GeometricDataProfile4.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+
+
+
 
 
 

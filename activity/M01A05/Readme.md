@@ -85,11 +85,11 @@ Para la construcción de las líneas de muestreo de cauces naturales de su proye
 
 1. Abra HEC-RAS y en el menú _Options_, seleccione la opción _Units System (US Customary / SI)_ y establezca como sistema por defecto el sistema de unidades internacional.
 
-<div align="center"><img src="graph/HECRAS_UnitSystem.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_UnitSystem.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 2. En el menú _File_, seleccione la opción _New Project_ creando primero la carpeta de proyecto _/file/hec/HECRAS_v0/_ y nombre el proyecto como _HECRAS_v0.prj_.
 
-<div align="center"><img src="graph/HECRAS_CreateProject.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_CreateProject.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 <div align="center"><img src="graph/HECRAS_CreateProject1.jpg" alt="R.SIGE" width="50%" border="0" /></div>
 
 3. En el menú _GIS Tools_, de clic en _RAS Mapper..._ o en de clic en el ícono RAS Mapper de la ventana principal de HEC-RAS. En RAS Mapper, de clic en el menú _Project_ y seleccione la opción _Set Projection_, busque y establezca el CRS [GAUSS_BTA_MAGNA.prj](../../file/projectionfile).
@@ -109,7 +109,7 @@ Renombre el modelo de terreno como TIN_TerrenoNaturalQGIS y ajuste las propiedad
 
 5. En el panel lateral izquierdo seleccione el grupo _Geometries_, de clic derecho y seleccione la opción _Create New Geometry_, nombre como _GeometryNatural_ y asocie el DTM.
 
-<div align="center"><img src="graph/HECRAS_RASMapperCreateNewGeometry.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperCreateNewGeometry.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 <div align="center"><img src="graph/HECRAS_RASMapperCreateNewGeometry1.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 6. Seleccione la nueva geometría creada y de clic en el botón de edición (lápiz amarillo), seleccione la capa _Rivers_ y dando clic derecho seleccione la opción _Import Features_. Busque y seleccione la capa [/file/shp/RASMapper_RiverNatural.shp](../../file/shp/RASMapper_RiverNatural.zip) y asocie los códigos `River = RiverCode` y `Reach = ReachCode`.
@@ -138,27 +138,19 @@ Dando clic derecho en la capa _Rivers_, seleccione la opción _Layer Properties_
 
 <div align="center"><img src="graph/HECRAS_RASMapperReferenceLayers.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-Sección inicio realineamiento
+<div align="center">Sección inicio realineamiento<br><img src="graph/HECRAS_RASMapperReferenceLayers1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-<div align="center"><img src="graph/HECRAS_RASMapperReferenceLayers1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Sección entrega realineamiento<br><img src="graph/HECRAS_RASMapperReferenceLayers2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-Sección entrega realineamiento
-
-<div align="center"><img src="graph/HECRAS_RASMapperReferenceLayers2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-
-10. Edite la geometría de Cross Sections y en el menú contextual seleccione las opciones _Update Cross Sections / Elevation Profiles from Terrain_ y _All XS Attributes (Except Terrain)_, que calculara las elevaciones respecto al terreno en cada sección transversal y guarde. En _Cross Sections_ active la casilla de visualización _Edge Lines_.
+10. Edite la geometría de Cross Sections y en el menú contextual seleccione las opciones _Update Cross Sections / Elevation Profiles from Terrain_ y _All XS Attributes (Except Terrain)_, que calculara las elevaciones respecto al terreno en cada sección transversal y guarde las actualizaciones. En _Cross Sections_ active la casilla de visualización _Edge Lines_ que le permitirá conocer el límite externo de la envolvente que rodea las secciones transversales.
 
 <div align="center"><img src="graph/HECRAS_RASMapperCrossSectionsElevationProfilesFromTerrain.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 Selecione uno de los tramos de drenaje contenidos en Rivers y desde el menú contextual, visualice el perfil de terreno. La línea roja representa las elevaciones de la grilla del DTM y la línea verde, las elevaciones asociadas en cada sección transversal de muestreo en la intersección con el río.
 
-Cauce principal aguas abajo de la entrada Lateral 1
+<div align="center">Cauce principal aguas abajo de la entrada Lateral 1<br><img src="graph/HECRAS_RASMapperEditRiversProfile.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-<div align="center"><img src="graph/HECRAS_RASMapperEditRiversProfile.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-
-Cauce Lateral 1
-
-<div align="center"><img src="graph/HECRAS_RASMapperEditRiversProfile1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Cauce Lateral 1<br><img src="graph/HECRAS_RASMapperEditRiversProfile1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 > Para su proyecto, visualice en RAS Mapper, cada uno de los tramos de drenaje.
 

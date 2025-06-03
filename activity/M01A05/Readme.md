@@ -152,12 +152,20 @@ Sección entrega realineamiento
 
 Selecione uno de los tramos de drenaje contenidos en Rivers y desde el menú contextual, visualice el perfil de terreno. La línea roja representa las elevaciones de la grilla del DTM y la línea verde, las elevaciones asociadas en cada sección transversal de muestreo en la intersección con el río.
 
+Cauce principal aguas abajo de la entrada Lateral 1
+
 <div align="center"><img src="graph/HECRAS_RASMapperEditRiversProfile.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+Cauce Lateral 1
+
+<div align="center"><img src="graph/HECRAS_RASMapperEditRiversProfile1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+> Para su proyecto, visualice en RAS Mapper, cada uno de los tramos de drenaje.
 
 
 ## 3. Visualización de geometría 1D en HEC-RAS
 
-
+1. Cierre RAS Mapper, 
 
 
 

@@ -111,13 +111,13 @@ Renombre el modelo de terreno como TIN_TerrenoNaturalQGIS y ajuste las propiedad
 <div align="center"><img src="graph/HECRAS_RASMapperCreateNewGeometry.jpg" alt="R.SIGE" width="50%" border="0" /></div>
 <div align="center"><img src="graph/HECRAS_RASMapperCreateNewGeometry1.jpg" alt="R.SIGE" width="50%" border="0" /></div>
 
+6. Seleccione la nueva geometría creada y de clic en el botón de edición (lápiz amarillo), seleccione la capa _Rivers_ y dando clic derecho seleccione la opción _Import Features_. Busque y seleccione la capa [/file/shp/RASMapper_RiverNatural.shp](../../file/shp/RASMapper_RiverNatural.zip) y asocie los códigos `River = RiverCode` y `Reach = ReachCode`.
 
+<div align="center"><img src="graph/HECRAS_RASMapperEditRivers.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-6. 
+Detenga la edición y guarde los cambios realizados en la geometría.
 
-<div align="center"><img src="graph/HECRAS_RASMapperCreateNewGeometry.jpg" alt="R.SIGE" width="50%" border="0" /></div>
-
-
+<div align="center"><img src="graph/HECRAS_RASMapperEditRivers1.jpg" alt="R.SIGE" width="30%" border="0" /></div>
 
 
 

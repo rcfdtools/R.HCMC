@@ -81,7 +81,7 @@ Para la construcción de las líneas de muestreo de cauces naturales de su proye
 <div align="center"><img src="graph/QGIS_RASMapperAnthropicSymbology.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
-## 2. Creación de proyecto HEC-RAS
+## 2. Creación de proyecto HEC-RAS y topología RAS Mapper
 
 1. Abra HEC-RAS y en el menú _Options_, seleccione la opción _Units System (US Customary / SI)_ y establezca como sistema por defecto el sistema de unidades internacional.
 
@@ -145,6 +145,17 @@ Sección inicio realineamiento
 Sección entrega realineamiento
 
 <div align="center"><img src="graph/HECRAS_RASMapperReferenceLayers2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+10. Edite la geometría de Cross Sections y en el menú contextual seleccione las opciones _Update Cross Sections / Elevation Profiles from Terrain_ y _All XS Attributes (Except Terrain)_, que calculara las elevaciones respecto al terreno en cada sección transversal y guarde. En _Cross Sections_ active la casilla de visualización _Edge Lines_.
+
+<div align="center"><img src="graph/HECRAS_RASMapperCrossSectionsElevationProfilesFromTerrain.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+Selecione uno de los tramos de drenaje contenidos en Rivers y desde el menú contextual, visualice el perfil de terreno. La línea roja representa las elevaciones de la grilla del DTM y la línea verde, las elevaciones asociadas en cada sección transversal de muestreo en la intersección con el río.
+
+<div align="center"><img src="graph/HECRAS_RASMapperEditRiversProfile.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+
+## 3. Visualización de geometría 1D en HEC-RAS
 
 
 

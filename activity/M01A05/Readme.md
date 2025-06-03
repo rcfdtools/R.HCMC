@@ -34,7 +34,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 1. En QGIS, cargue desde la ruta _/file/shp_ las capas 
 
-<div align="center"><img src="graph/QGIS_RASMapperLayers.png" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_RASMapperLayers.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 

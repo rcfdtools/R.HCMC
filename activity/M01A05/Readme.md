@@ -89,7 +89,7 @@ Para la construcción de las líneas de muestreo de cauces naturales de su proye
 2. En el menú _File_, seleccione la opción _New Project_ creando primero la carpeta de proyecto _/file/hec/HECRAS_v0/_ y nombre el proyecto como _HECRAS_v0.prj_.
 
 <div align="center"><img src="graph/HECRAS_CreateProject.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_CreateProject1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_CreateProject1.jpg" alt="R.SIGE" width="40%" border="0" /></div>
 
 3. En el menú _GIS Tools_, de clic en _RAS Mapper..._ o en de clic en el ícono RAS Mapper de la ventana principal de HEC-RAS. En RAS Mapper, de clic en el menú _Project_ y seleccione la opción _Set Projection_, busque y establezca el CRS [GAUSS_BTA_MAGNA.prj](../../file/projectionfile).
 

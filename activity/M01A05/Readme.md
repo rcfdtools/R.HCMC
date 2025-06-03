@@ -60,12 +60,13 @@ Para la construcción de las líneas de muestreo de cauces naturales de su proye
 > 
 > Tenga en cuenta que los valores de rugosidad pueden variar discretamente en toda la sección transversal de acuerdo a las coberturas de usos actuales del suelo disponibles en la zona.
 
-3. Edite manualmente las líneas de bancas trazadas o construídas para:
+3. Edite manualmente las líneas de secciones transversales para:
 
 * Evitar que en las secciones transversales las bancas de un mismo lado crucen dos o más veces la misma sección.
 * Cada sección transversal debe ser cruzada solo una vez por la banca izquierda y solo una vez por la banca derecha.
 * Las secciones transversales siempre deben ser intersecadas por cada una de las bancas.
 * Las líneas de banca no pueden intersecar los ríos (River) o las líneas de dirección de flujo (Flowpaths).
+* La sección más aguas abajo al final del último tramo de drenaje debe localizarse en el extremo del río para garantizar que el absicado de las secciones inicie en cero.
 
 > Nota: en caso de que las secciones transversales editadas hayan sido copiadas desde un proyecto anterior, será necesario eliminar el campo de atributos de los identificadores hidráulicos denominado _HydroID_.
 
@@ -123,6 +124,15 @@ Dando clic derecho en la capa _Rivers_, seleccione la opción _Layer Properties_
 
 <div align="center"><img src="graph/HECRAS_RASMapperEditRivers2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+7. Edite la geometría e importe los _Bank Lines_ desde [/file/shp/RASMapper_BanksNatural.shp](../../file/shp/RASMapper_BanksNatural.zip), guarde, visualice y verifique las flechas direccionales.
+
+<div align="center"><img src="graph/HECRAS_RASMapperEditBankLines.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperEditBankLines1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+8. Edite la geometría e importe las _Cross Sections_ desde [/file/shp/RASMapper_XSCutlinesNatural.shp](../../file/shp/RASMapper_XSCutlinesNatural.zip), guarde, visualice y verifique las flechas direccionales.
+
+<div align="center"><img src="graph/HECRAS_RASMapperEditCrossSections.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperEditCrossSections1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 

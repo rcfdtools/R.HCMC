@@ -56,6 +56,7 @@ Lib/
 *.2dm
 *.bak
 *.qix
+*.gdr
 
 
 # Video exclusions

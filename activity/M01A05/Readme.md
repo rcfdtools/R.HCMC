@@ -200,7 +200,7 @@ Selecione uno de los tramos de drenaje contenidos en Rivers y desde el menú con
 <div align="center"><img src="graph/HECRAS_GeometricDataCrossSectionPrintMultiple2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
-## 3. Topología RAS Mapper red antrópica
+## 4. Topología RAS Mapper red antrópica
 
 Utilizando las capas geográficas [RASMapper_BanksAnthropic.shp](../../file/shp/RASMapper_BanksAnthropic.zip), [RASMapper_RiverAnthropic.shp](../../file/shp/RASMapper_RiverAnthropic.zip) y [RASMapper_XSCutlinesAnthropic.shp](../../file/shp/RASMapper_XSCutlinesAnthropic.zip) y siguiendo el procedimiento presentado en los numerales anteriores, cree el modelo de muestreo en estado antrópico ajustando también las posiciones de las bancas. Nombre la geometría como _GeometryAnthropic_.
 
@@ -216,6 +216,26 @@ Utilizando las capas geográficas [RASMapper_BanksAnthropic.shp](../../file/shp/
 Imprima las secciones transversales en un archivo de Adobe Acrobat (.pdf) mostrando 9 secciones por hoja en formato horizontal y guarde como [/file/report/M01A05_CrossSectionAnthropic.pdf](../../file/report/M01A05_CrossSectionAnthropic.pdf).
 
 <div align="center"><img src="graph/HECRAS_GeometricDataCrossSectionPrintMultiple3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+
+## 5. Ejemplo de creación Cross Sections en RAS Mapper
+
+1. Cree una nueva geometría, nombre como _CrossSectionSample_ y asocie el DTM. En Rivers importe las líneas de drenaje de la red antrópica asociando los nombres de ríos y tramos, y con la herramienta _Merge_ una los tramos de drenaje aguas abajo del cauce lateral y aguas arriba del cauce lateral, y ajuste los nombres.
+
+<div align="center"><img src="graph/HECRAS_RASMapperCreateNewGeometry2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+2. Con el modo de edición activo, seleccione, de clic derecho y ejecute la herramienta _Auto Generate Cross Section_; en espaciamiento defina 200 metros y en ancho 500 metros.
+
+<div align="center"><img src="graph/HECRAS_RASMapperAutoGenerateCrossSection.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+3. Repita el procedimiento anterior para los otros dos drenajes.
+
+<div align="center"><img src="graph/HECRAS_RASMapperAutoGenerateCrossSection1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+4. Utilizando el editor de entidades y agregando nodos (doble clic sobre la sección), ajuste las secciones no perpendiculares y/o con cruces sobre otras secciones.
+
+<div align="center"><img src="graph/HECRAS_RASMapperEditFeature.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperEditFeature1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 ## Actividades de proyecto :triangular_ruler:

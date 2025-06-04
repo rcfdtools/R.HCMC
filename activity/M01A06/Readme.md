@@ -100,7 +100,7 @@ En el libro de Excel, ingrese el valor de las cotas de fondo (topográfica y de 
 > Tenga en cuenta que la cota topográfica corresponde a la cota leida a partir del DTM y que la cota de fondo de modelación corresponde al valor que utilizará como referencia para el cálculo de la pendiente y para el diseño hidráulico de la sección de realineamiento.
 
 <div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.Properties.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.Properties1.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.Properties1a.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.Graph.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 

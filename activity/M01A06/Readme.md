@@ -74,7 +74,10 @@ Para la localización de centroides, cree y calcule en la capa de secciones tran
 <div align="center"><img src="graph/QGIS_XSCutlineStartEndCoordinate.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.Coordinates.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+4. Dando clic en el enlace _Ver Localización de Google Maps_ del libro de Excel, visualice la localización de las secciones.
 
+<div align="center"><img src="graph/GoogleChrome_GoogleMapsXSStart.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/GoogleChrome_GoogleMapsXSSEnd.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 

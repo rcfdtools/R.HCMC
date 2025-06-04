@@ -51,7 +51,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 <div align="center">Sección inicio - Abscisa 9944 m<br><img src="graph/HECRAS_GeometricDataXSStart.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center">Sección entrega - Abscisa 3253 m<br><img src="graph/HECRAS_GeometricDataXSEnd.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-2. En el libro de Microsoft Excel [R.HydroTools.SeccionTransvInicioEntrega.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/SeccionTransvInicioEntrega), registre los valores de estación y elevación copiando y pegando los valores desde el visor de secciones de HEC-RAS.
+2. En el libro de Microsoft Excel [R.HydroTools.SeccionTransvInicioEntrega.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/SeccionTransvInicioEntrega), registre los valores de estación y elevación, copiando y pegando los valores desde el visor de secciones de HEC-RAS.
 
 <div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.Values.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
@@ -82,6 +82,14 @@ Para la localización de centroides, cree y calcule en la capa de secciones tran
 
 ## 2. Estimación de anchos superficiales
 
+1. En HEC-RAS, abra el visor de secciones y manteniendo presionada la tecla <kbd>Ctrl</kbd>, mida el ancho superficial desde el punto de desbordamiento hacia el extremo opuesto de la zona del valle. Mantener presionada la tecla <kbd>Ctrl</kbd> y haga clic en los dos puntos requeridos sobre el dibujo de la sección.
+
+<div align="center"><img src="graph/HECRAS_CrossSectionMeasureLine.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_CrossSectionMeasureLine1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+2. En el libro de Excel, seleccione para cada sección, la estación de localización correspondiente al ancho superficial a izquierda y derecha, automáticamente se calculará el ancho cuyos valores están al rededor de 270 metros.
+
+<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.T.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 

@@ -37,25 +37,35 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
 
-## 1. Pendiente tramo cauce sinuoso natural a reemplazar
+## 1. Pendiente tramo cauce sinuoso natural a reemplazar a partir de sección inicio / entrega
 
-Utilizando como referencia las abscisas de inicio y entrega del [modelo hidráulico de muestreo en HEC-RAS v0](../../file/hec) evaluadas en la actividad anterior, correspondientes a 9944 m y 3253 m, la longitud del cauce natural a reemplazar o Delta X es de 6691 metros, la longitud vectorial del tramo a reemplazar corresponde a 6689.9 metros. A partir de las cotas de fondo de la sección de inicio y entrega correspondientes a 64.5 m y 70.5 m, el Delta Y del cauce natural es 6 metros. 
+Utilizando como referencia las abscisas de inicio y entrega del [modelo hidráulico de muestreo HEC-RAS v0](../../file/hec) evaluadas en la actividad anterior, correspondientes a 9944 m y 3253 m, la longitud del cauce natural a reemplazar o Delta X es de 6691 metros, la longitud vectorial del tramo a reemplazar corresponde a 6689.9 metros. A partir de las cotas de fondo de la sección de inicio y entrega correspondientes a 64.5 m y 70.5 m, el Delta Y del cauce natural es 6 metros. 
 
-<div align="center"><img src="graph/HECRAS_RASMapper_CrossSectionStartEnd.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperCrossSectionStartEnd.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-<div align="center">
+<div align="center"> S = ΔY / ΔX </div>
 
-S = ΔY / ΔX
-
-</div>
-
-En el libro de Microsoft Excel [R.HydroTools.PendienteCauceValle.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/PendienteCauceValle), registre la longitud y diferencia de nivel obtenida.
+En el libro de Microsoft Excel [R.HydroTools.PendienteCauceValle.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/PendienteCauceValle), registre la longitud y diferencia de nivel obtenida, obteniendo una pendiente de 0.0008969 m/m.
 
 <div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.S1.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 
-## 2. Pendiente valle suavizado de realineamiento
+## 2. Pendiente valle suavizado de realineamiento a partir de sección inicio / entrega
 
+En la actividad [M01A03](../M01A03), realizamos el trazado y suavizado del valle de realineamiento, obteniendo una longitud de valle suavizado correspondiente a 5158.536 metros. Para la diferencia de nivel Y entre las secciones de inicio y entrega, el valor de pendiente de diseño del valle equivale a 0.0011631 m/m. Registre los valores en el libro de Excel.
+
+<div align="center"><img src="graph/HECRAS_RASMapperCrossSectionStartEnd1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.S2.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+
+
+## 3. Pendiente promedio a partir de múltiples secciones transversales
+
+Utilizando como referencia cotas de fondo del Thalweg obtenidas a partir de la cota más baja entre bancas en cada sección del [modelo hidráulico de muestreo HEC-RAS v0](../../file/hec), estimar la pendiente ponderada.
+
+1. En HEC-RAS, abra el visor 2D de _Geometry Data_ y la geometría _GeometryNatural_.
+
+<div align="center"><img src="graph/HECRAS_RASMapperGeometryDataNatural.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 

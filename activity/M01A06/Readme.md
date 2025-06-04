@@ -3,7 +3,7 @@ Keywords: `realigment` `cross-section` `hydraulic-depth` `superficial-widtth` `r
 
 A partir de las secciones existentes en los ríos naturales a intervenir, definir las cotas de inicio y entrega del canal artificial a diseñar, la cota máxima de almacenamiento o cota de desbordamiento, la altura máxima de la sección y el ancho promedio existente del cauce dominante y/o de la llanura.
 
-<div align="center"><img src="graph/M01A06.png" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center"><img src="graph/M01A06.png" alt="R.SIGE" width="60%" border="0" /></div>
 
 
 ## Objetivos

@@ -51,7 +51,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 <div align="center">Sección inicio - Abscisa 9944 m<br><img src="graph/HECRAS_GeometricDataXSStart.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center">Sección entrega - Abscisa 3253 m<br><img src="graph/HECRAS_GeometricDataXSEnd.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-2. En el libro de Microsoft Excel [R.HydroTools.SeccionTransvInicioEntrega.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/SeccionTransvInicioEntrega), registre los valores de estación y elevación.
+2. En el libro de Microsoft Excel [R.HydroTools.SeccionTransvInicioEntrega.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/SeccionTransvInicioEntrega), registre los valores de estación y elevación copiando y pegando los valores desde el visor de secciones de HEC-RAS.
 
 <div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.Values.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
@@ -79,6 +79,8 @@ Para la localización de centroides, cree y calcule en la capa de secciones tran
 <div align="center"><img src="graph/GoogleChrome_GoogleMapsXSStart.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/GoogleChrome_GoogleMapsXSSEnd.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+
+## 2. Estimación de anchos superficiales
 
 
 

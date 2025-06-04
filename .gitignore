@@ -55,6 +55,7 @@ Lib/
 *.qmd
 *.2dm
 *.bak
+*.qix
 
 
 # Video exclusions

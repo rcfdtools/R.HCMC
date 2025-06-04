@@ -84,8 +84,15 @@ Utilizando como referencia las cotas de fondo del Thalweg obtenidas a partir de 
 
 ## 4. Revisión y pendiente de diseño
 
-> El libro de análisis 
+> El libro de análisis permite el registro de datos correspondientes a la longitud del posterior cauce sinuoso trazado en Autodesk Civil 3D, la diferencia de cotas entre las secciones de inicio y entrega del valle y la obtención y verificación de la pendiente final del corredor. Estos valores deberán ser similares a los del cauce natural a reemplazar y deberán ser registrados una vez se realice su trazado.
 
+A partir de los análisis, las pendientes a considerar en el diseño son:
+
+<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.Analysis.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.Analysis1.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.Analysis2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+Para el diseño del cauce sinuoso, utilizaremos como referencia una pendiente de 0.0008969 m/m para replicar la pendiente del cauce natural actual a reemplazar.
 
 
 ## Actividades de proyecto :triangular_ruler:

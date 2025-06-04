@@ -61,15 +61,29 @@ En la actividad [M01A03](../M01A03), realizamos el trazado y suavizado del valle
 
 ## 3. Pendiente promedio a partir de múltiples secciones transversales
 
-Utilizando como referencia cotas de fondo del Thalweg obtenidas a partir de la cota más baja entre bancas en cada sección del [modelo hidráulico de muestreo HEC-RAS v0](../../file/hec), estimar la pendiente ponderada.
+Utilizando como referencia las cotas de fondo del Thalweg obtenidas a partir de la cota más baja entre bancas en cada sección y la separación entre secciones del [modelo hidráulico de muestreo HEC-RAS v0](../../file/hec), estimar la pendiente ponderada.
 
 1. En HEC-RAS, abra el visor 2D de _Geometry Data_ y la geometría _GeometryNatural_.
 
 <div align="center"><img src="graph/HECRAS_RASMapperGeometryDataNatural.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+2. Seleccione el cauce natural y cree visualice el perfil de los dos tramos del cauce principal.
+
+<div align="center"><img src="graph/HECRAS_RASMapperProfile.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+3. En el menú _File_, seleccione la herramienta _Copy Values To Clipboard_. En un nuevo libro de Microsoft Excel, pegue estos valores. Podrá observar que las columnas Ground, LOB y ROB contienen las abscisas y las cotas del Thalweg y cota en las bancas izquierda y derecha. Elimine las filas duplicadas y vacías.
+
+<div align="center"><img src="graph/Excel_GroudValues.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+4. En el libro de Excel de análisis de pendiente, pegue los valores de terreno o ground correspondiente a las filas entre las abscicas 3253 y 9944 m. Automáticamente serán calculadas las diferencias entre abscisas, diferencias entre cotas, pendientes por pares de secciones y la pendiente promedio correpondiente a 0.0010469 m/m para una longitud de tramo de 6617.5 metros. 
+
+<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.S3.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.S3a.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 
+## 4. Revisión y pendiente de diseño
 
+> El libro de análisis 
 
 
 

@@ -82,7 +82,7 @@ Utilizando como referencia las cotas de fondo del Thalweg obtenidas a partir de 
 <div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.S3b.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 
-## 4. Revisión y pendiente de diseño
+## 4. Análisis de pendiente de diseño
 
 > El libro de análisis permite el registro de datos correspondientes a la longitud del posterior cauce sinuoso trazado en Autodesk Civil 3D, la diferencia de cotas entre las secciones de inicio y entrega del valle y la obtención y verificación de la pendiente final del corredor. Estos valores deberán ser similares a los del cauce natural a reemplazar y deberán ser registrados una vez se realice su trazado.
 

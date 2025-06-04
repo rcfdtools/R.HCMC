@@ -36,7 +36,9 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
 
-## 0. Consideraciones generales
+## 0. Consideraciones generales para el análisis
+
+Tenga en cuenta las siguientes consideraciones:
 
 * Los datos de estación / elevación son extraídos del modelo de muestreo HEC-RAS, construido a partir del modelo digital de terreno de puntos o curvas topográficas y líneas de secciones transversales.
 * Las cotas de inicio y entrega para el diseño y modelación pueden ser más altas o bajas dependiendo si se considera rellenar, dragar o rectificar el cauce natural antes de su intervención.
@@ -90,8 +92,8 @@ Para la localización de centroides, cree y calcule en la capa de secciones tran
 2. En el libro de Excel, seleccione para cada sección, la estación de localización correspondiente al ancho superficial a izquierda y derecha, automáticamente se calculará el ancho cuyos valores están al rededor de 270 metros.
 
 <div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.T.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.TStart.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.TEnd.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.TStart.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.TEnd.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 
 ## 3. Profundidad hidráulica de la sección, perímetro mojado, área hidráulica y pendiente
@@ -109,8 +111,8 @@ En el libro de Excel, ingrese el valor de las cotas de fondo (topográfica y de 
 
 Para el diseño se ha establecido que se mantengan las cotas de inicio y entrega debido a que corresponde al fondo del lecho estable, luego de los procesos erosivos y de depositación de sedimentos, propios de la dinámica fluvial de estos cauces de llanura.
 
-* Cota fondo al inicio: 70.5 m.s.n.m
-* Cota fondo en entrega: 64.5 m.s.n.m
+* Cota fondo al inicio: 70.5 m.s.n.m.
+* Cota fondo en entrega: 64.5 m.s.n.m.
 * Delta Y: 6 metros.
 * Respecto a la altura máxima de nivel para desbordamiento, se ha determinado que en la sección de inicio corresponde a 3 metros y en la sección de entrega a 2.69 metros.
 * Para el diseño geométrico vertical o de sección tipo, se debe tratar de mantener la altura de desbordamiento existente o en su defecto cuando necesariamente deba ser mayor, se deberán considerar diques de encausamiento y protección.

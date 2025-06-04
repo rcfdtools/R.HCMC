@@ -26,7 +26,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                                                               | HEC-RAS 6.7 Beta 3 o superior.                                                   |
 | [:toolbox:Herramienta](https://qgis.org/)                                                                                                              | QGIS 3.42 o superior.                                                            |
 | [:open_file_folder:R.HydroTools.Seccion TransvInicioEntrega.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/SeccionTransvInicioEntrega) | Libro de cálculo para la evaluación de secciones naturales de inicio y entrega.  |
-| [:open_file_folder:Modelo de muestreo HEC-RAS v0](../../file/hec)                                                                                      | Modelo de muestreo HEC-RAS v0 creado en actividad [M01A06](../MO1A06/Readme.md). |
+| [:open_file_folder:Modelo de muestreo HECRAS_v0](../../file/hec)                                                                                       | Modelo de muestreo HEC-RAS v0 creado en actividad [M01A06](../M01A06/Readme.md). |
 
 </div>
 

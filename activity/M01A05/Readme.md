@@ -198,8 +198,6 @@ Selecione uno de los tramos de drenaje contenidos en Rivers y desde el menú con
 <div align="center"><img src="graph/HECRAS_GeometricDataCrossSectionPrintMultiple.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/HECRAS_GeometricDataCrossSectionPrintMultiple1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/HECRAS_GeometricDataCrossSectionPrintMultiple2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center">Cauce principal con ajuste de bancas<br><img src="graph/HECRAS_GeometricDataProfile5.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center">Cauce lateral con ajuste de bancas<br><img src="graph/HECRAS_GeometricDataProfile6.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 ## 3. Topología RAS Mapper red antrópica
@@ -212,6 +210,8 @@ Utilizando las capas geográficas [RASMapper_BanksAnthropic.shp](../../file/shp/
 <div align="center">Cauce principal aguas abajo de la entrada Lateral 1<br><img src="graph/HECRAS_RASMapperEditRiversProfile2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center">Cauce Lateral 1<br><img src="graph/HECRAS_RASMapperEditRiversProfile3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center">Geometría red antrópica en Geometryc Data<br><img src="graph/HECRAS_GeometricDataOpen1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Cauce principal con ajuste de bancas<br><img src="graph/HECRAS_GeometricDataProfile5.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Cauce lateral con ajuste de bancas<br><img src="graph/HECRAS_GeometricDataProfile6.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 Imprima las secciones transversales en un archivo de Adobe Acrobat (.pdf) mostrando 9 secciones por hoja en formato horizontal y guarde como [/file/report/M01A05_CrossSectionAnthropic.pdf](../../file/report/M01A05_CrossSectionAnthropic.pdf).
 

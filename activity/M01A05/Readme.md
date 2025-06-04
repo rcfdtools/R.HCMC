@@ -237,6 +237,8 @@ Imprima las secciones transversales en un archivo de Adobe Acrobat (.pdf) mostra
 <div align="center"><img src="graph/HECRAS_RASMapperEditFeature.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/HECRAS_RASMapperEditFeature1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+Una vez finalizados los ajustes, detenga el modo de edición y guarde los cambios.
+
 
 ## Actividades de proyecto :triangular_ruler:
 

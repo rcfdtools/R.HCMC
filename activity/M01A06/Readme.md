@@ -20,16 +20,13 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                           | Descripción                                                                     |
-|:--------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                      | Microsoft Excel 365.                                                            |
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/word?market=bz)                       | Microsoft Word 365.                                                             |
-| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                                                  | Notepad++.                                                                      |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-hms/)                                | HEC-HMS 4.13 Beta 6 o superior.                                                 |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-dssvue/)                             | HEC-DSSVue 3.2.3 (versión funcional para cargue masivo de hietogramas).         |
-| [:notebook:Lectura](R.HydroTools.FactorAtenuacionPrecipitacionFa.pdf)                                   | Factor de atenuación de la precipitación por área simultánea.                   |
-| [:open_file_folder:R.HydroTools.SeccionTransvInicioEntrega.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/SeccionTransvInicioEntrega) | Libro de cálculo para la evaluación de secciones naturales de inicio y entrega. |
-| [:round_pushpin:R.HCMC.NodoValle.shp](../../file/shp/R.HCMC.NodoValle.zip)                                                               | Capa de nodos eje valle recto (creada en actividad anterior).                   |
+| Requerimiento                                                                                                                                         | Descripción                                                                      |
+|:------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                                    | Microsoft Excel 365.                                                             |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                                                              | HEC-RAS 6.7 Beta 3 o superior.                                                   |
+| [:toolbox:Herramienta](https://qgis.org/)                                                                                                             | QGIS 3.42 o superior.                                                            |
+| [:open_file_folder:R.HydroTools.SeccionTransvInicioEntrega.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/SeccionTransvInicioEntrega) | Libro de cálculo para la evaluación de secciones naturales de inicio y entrega.  |
+| [:open_file_folder:Modelo de muestreo HEC-RAS v0](../../file/hec)                                                                                     | Modelo de muestreo HEC-RAS v0 creado en actividad [M01A06](../MO1A06/Readme.md). |
 
 </div>
 

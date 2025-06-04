@@ -218,7 +218,7 @@ Imprima las secciones transversales en un archivo de Adobe Acrobat (.pdf) mostra
 <div align="center"><img src="graph/HECRAS_GeometricDataCrossSectionPrintMultiple3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
-## 5. Ejemplo de creación Cross Sections en RAS Mapper
+## 5. Generación automáticas de secciones transversales en RAS Mapper
 
 1. Cree una nueva geometría, nombre como _CrossSectionSample_ y asocie el DTM. En Rivers importe las líneas de drenaje de la red antrópica asociando los nombres de ríos y tramos, y con la herramienta _Merge_ una los tramos de drenaje aguas abajo del cauce lateral y aguas arriba del cauce lateral, y ajuste los nombres.
 

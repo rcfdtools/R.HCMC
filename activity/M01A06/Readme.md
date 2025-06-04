@@ -38,13 +38,13 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## 0. Consideraciones generales
 
-* Los datos de estación y elevación son extraídos del modelo de muestreo HEC-RAS, construido a partir del modelo de terreno de puntos topográficos y líneas de secciones transversales de la topografía.
+* Los datos de estación / elevación son extraídos del modelo de muestreo HEC-RAS, construido a partir del modelo digital de terreno de puntos o curvas topográficas y líneas de secciones transversales.
 * Las cotas de inicio y entrega para el diseño y modelación pueden ser más altas o bajas dependiendo si se considera rellenar, dragar o rectificar el cauce natural antes de su intervención.
-* Se puede considerar que el canal artificial a diseñar deberá tener una profundidad similar a la del cauce natural a reemplazar, sin embargo, cuando se plantea realizar dragado o rectificación de fondo para rehabilitación o realce de los taludes de protección, las profundidades pueden variar y será necesario realizar un nuevo levantamiento topobatimétrico de las zonas de inicio y entrega para realizar un nuevo análisis.
+* Se puede considerar que el canal artificial a diseñar deberá tener una profundidad similar a la del cauce natural a reemplazar, sin embargo, cuando se plantea realizar dragado o rectificación de fondo para rehabilitación o realce de los taludes de protección, las profundidades pueden variar y será necesario realizar un nuevo levantamiento topo-batimétrico de las zonas de inicio y entrega para realizar un nuevo análisis.
 * Para el correcto cálculo del área hidráulica y perímetro mojado, la línea que describe el ancho superficial a partir de la selección de estaciones, no debe cruzar la línea de terreno. Tenga en cuenca que cuando existen bancos de arena o sobre elevaciones por encima de la lámina de agua dentro del ancho superficial, la hoja de cálculo sobre estima o sub estima el valor del área y perímetro hidráulico calculado.
 
 
-## 1. Obtención de valores estación - elevación 
+## 1. Obtención de valores estación / elevación y localización geográfica 
 
 1. Abra el [modelo hidráulico de muestreo HEC-RAS](../../file/hec) creado en la actividad anterior, y en _Geometry Data_ cargue la geometría _GeomertyNatural_ e identifique la sección natural de inicio y entrega del eje del valle correspondientes a las abscisas 9944 m al inicio y 3253 m en la entrega.
 
@@ -53,12 +53,26 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 2. En el libro de Microsoft Excel [R.HydroTools.SeccionTransvInicioEntrega.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/SeccionTransvInicioEntrega), registre los valores de estación y elevación.
 
-<div align="center">Sección inicio - Abscisa 9944 m<img src="graph/R.HydroTools.SeccionTransvInicioEntrega.Values.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.Values.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+3. En QGIS, agregue las capas de ríos, secciones transversales naturales y eje del valle suavizado, obtenga las coordenadas de localización del centroide de las secciones de inicio y entrega, registre en el libro de Excel.
 
+Para la localización de centroides, cree y calcule en la capa de secciones transversales naturales, las siguientes propiedades geométricas:
 
+| Campo  | Tipo       | Descripción                                  | Propiedad geométrica                                                 |
+|:-------|:-----------|:---------------------------------------------|:---------------------------------------------------------------------|
+| CXm    | Real (10)  | Coordenada X de centroide en metros          | x(@geometry)                                                         |
+| CYm    | Real (10)  | Coordenada Y de centroide en metros          | y(@geometry)                                                         |
+| Latdd  | Real (10)  | Latitud de centroide en grados geodésicos    | x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))   |
+| Londd  | Real (10)  | Longitud de centroide en grados geodésicos   | y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))   |
 
+<div align="center"><img src="graph/QGIS_FieldCalculator.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+> Para el cálculo correcto del centroide geográfico se debe exportar y reproyectar la capa _RASMapper_XSCutlinesNatural.shp_ al CRS 3116, guardar como _RASMapper_XSCutlinesNatural3116.shp_
+
+<div align="center"><img src="graph/QGIS_FieldCalculator1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_XSCutlineStartEndCoordinate.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.Coordinates.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 

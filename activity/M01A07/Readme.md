@@ -79,6 +79,7 @@ Utilizando como referencia las cotas de fondo del Thalweg obtenidas a partir de 
 
 <div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.S3.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.S3a.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.S3b.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 
 ## 4. Revisión y pendiente de diseño

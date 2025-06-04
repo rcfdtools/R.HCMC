@@ -37,9 +37,11 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
 
-## 1. Pendiente cauce sinuoso natural
+## 1. Pendiente tramo cauce sinuoso natural a reemplazar
 
-Utilizando como referencia las abscisas de inicio y entrega del modelo hidráulico evaluadas en la actividad anterior, correspondientes a 9944 m y 3253 m, la longitud del cauce natural a reemplazar o Delta X es de 6691 metros, la longitud vectorial del tramo a reemplazar corresponde a 6689.9 metros. A partir de las cotas de fondo de la sección de inicio y entrega correspondientes a 64.5 m y 70.5 m, el Delta Y del cauce natural es 6 metros. 
+Utilizando como referencia las abscisas de inicio y entrega del [modelo hidráulico de muestreo en HEC-RAS v0](../../file/hec) evaluadas en la actividad anterior, correspondientes a 9944 m y 3253 m, la longitud del cauce natural a reemplazar o Delta X es de 6691 metros, la longitud vectorial del tramo a reemplazar corresponde a 6689.9 metros. A partir de las cotas de fondo de la sección de inicio y entrega correspondientes a 64.5 m y 70.5 m, el Delta Y del cauce natural es 6 metros. 
+
+<div align="center"><img src="graph/HECRAS_RASMapper_CrossSectionStartEnd.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 <div align="center">
 
@@ -50,6 +52,14 @@ S = ΔY / ΔX
 En el libro de Microsoft Excel [R.HydroTools.PendienteCauceValle.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/PendienteCauceValle), registre la longitud y diferencia de nivel obtenida.
 
 <div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.S1.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+
+
+## 2. Pendiente valle suavizado de realineamiento
+
+
+
+
+
 
 
 

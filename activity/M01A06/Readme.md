@@ -150,7 +150,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Versión    | Descripción        | Autor                                      | Horas |
 |------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.06.04 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |   6   |
+| 2025.06.04 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |   5   |
 
 
 

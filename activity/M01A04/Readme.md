@@ -3,7 +3,7 @@ Keywords: `tin`  `m01a04`
 
 A partir de curvas de nivel, construir un modelo de terreno triangulado - TIN (red irregular de triángulos) en 3 dimensiones, que permita estudiar los cauces existentes así como la implementación del corredor de diseño y cauce sinuoso para la modelación hidráulica.
 
-<div align="center"><img src="graph/M01A04.png" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center"><img src="graph/M01A04.png" alt="R.SIGE" width="60%" border="0" /></div>
 
 
 ## Objetivos
@@ -23,6 +23,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 |:------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                  | Microsoft Excel 365.                                                              |
 | [:toolbox:Herramienta](https://qgis.org/)                                                                                           | QGIS 3.42 o superior.                                                    |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                                                                  | Autodesk Civil 3D 2025 o superior.                                       |
 | [:open_file_folder:R.HCMC.DTM.xlsx](../../file/table/R.HCMC.DTM.xlsx)                                                               | Libro de cálculo para registro de archivos generados para el proyecto.            |
 | [:round_pushpin:RD_EjeValleSuavizado_ AutodeskCivil3DClotoide.shp](../../file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.zip) | Clotoide eje valle suavizado en formato shapefile (creada en actividad anterior). |
 | [:round_pushpin:CGG_CurvaNivelLidar_v0.shp](../../file/shp/CGG_CurvaNivelLidar_v0.zip)                                              | Capa de curvas de nivel.                                                          |

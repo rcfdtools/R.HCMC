@@ -3,7 +3,7 @@ Keywords: `topological-model` `sample-model` `ras-mapper`  `m01a05`
 
 A partir del modelo de terreno triangulado - TIN, la red de drenaje natural foto restituida y el eje suavizado del valle; construir un modelo HEC-RAS que permita evaluar las secciones de referencia, el canal natural actual y el perfil de terreno del eje de valle trazado.
 
-<div align="center"><img src="graph/M01A05.PNG" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center"><img src="graph/M01A05.PNG" alt="R.SIGE" width="60%" border="0" /></div>
 
 
 ## Objetivos
@@ -23,6 +23,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | Requerimiento                                                                                           | Descripción                                                    |
 |:--------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
 | [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                | HEC-RAS 6.7 Beta 3 o superior.                                 |
+| [:toolbox:Herramienta](https://qgis.org/)                                          | QGIS 3.42 o superior.                                                    |
 | [:round_pushpin:RASMapper_SampleModelShapefile](../../file/shp/RASMapper_SampleModelShapefile.zip)      | Capas geográficas vectoriales para modelo de muestreo HEC-RAS. |
 
 </div>

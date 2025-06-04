@@ -90,10 +90,32 @@ Para la localización de centroides, cree y calcule en la capa de secciones tran
 2. En el libro de Excel, seleccione para cada sección, la estación de localización correspondiente al ancho superficial a izquierda y derecha, automáticamente se calculará el ancho cuyos valores están al rededor de 270 metros.
 
 <div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.T.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.TStart.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.TEnd.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
+## 3. Profundidad hidráulica de la sección, perímetro mojado, área hidráulica y pendiente
+
+En el libro de Excel, ingrese el valor de las cotas de fondo (topográfica y de diseño) y cotas corona, automáticamente serán calculadas las profundidades, demás propiedades hidráulicas.
+
+> Tenga en cuenta que la cota topográfica corresponde a la cota leida a partir del DTM y que la cota de fondo de modelación corresponde al valor que utilizará como referencia para el cálculo de la pendiente y para el diseño hidráulico de la sección de realineamiento.
+
+<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.Properties.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.Properties1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.Graph.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
+## 4. Parámetros de diseño
+
+Para el diseño se ha establecido que se mantengan las cotas de inicio y entrega debido a que corresponde al fondo del lecho estable, luego de los procesos erosivos y de depositación de sedimentos, propios de la dinámica fluvial de estos cauces de llanura.
+
+* Cota fondo al inicio: 70.5 m.s.n.m
+* Cota fondo en entrega: 64.5 m.s.n.m
+* Delta Y: 6 metros.
+* Respecto a la altura máxima de nivel para desbordamiento, se ha determinado que en la sección de inicio corresponde a 3 metros y en la sección de entrega a 2.69 metros.
+* Para el diseño geométrico vertical o de sección tipo, se debe tratar de mantener la altura de desbordamiento existente o en su defecto cuando necesariamente deba ser mayor, se deberán considerar diques de encausamiento y protección.
+* Respecto al ancho superficial (T), para el cauce dominante se debe tratar de conservar el ancho de las secciones naturales o una transición entre ellas.
+* Para el cálculo de la pendiente de diseño se deberá utilizar el valor de referencia Delta Y, y la longitud del alineamiento natural actual desde el punto de inicio y hasta la entrega, correspondiente a 0.0008967 m/m.
 
 
 ## Actividades de proyecto :triangular_ruler:

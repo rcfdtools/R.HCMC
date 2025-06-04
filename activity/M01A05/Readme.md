@@ -198,6 +198,8 @@ Selecione uno de los tramos de drenaje contenidos en Rivers y desde el menú con
 <div align="center"><img src="graph/HECRAS_GeometricDataCrossSectionPrintMultiple.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/HECRAS_GeometricDataCrossSectionPrintMultiple1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/HECRAS_GeometricDataCrossSectionPrintMultiple2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Cauce principal con ajuste de bancas<br><img src="graph/HECRAS_GeometricDataProfile5.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Cauce lateral con ajuste de bancas<br><img src="graph/HECRAS_GeometricDataProfile6.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 ## 3. Topología RAS Mapper red antrópica

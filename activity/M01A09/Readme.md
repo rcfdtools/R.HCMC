@@ -1,4 +1,4 @@
-# 9. Evaluación de taludes de referencia para diseño a partir de secciones transversales de cauces naturales
+# 1.9. Evaluación de taludes de referencia para diseño a partir de secciones transversales de cauces naturales
 Keywords: `side-slope`  `m01a09`
 
 A partir de la información topográfica disponible y de las secciones transversales trazadas en el modelo de muestreo HEC-RAS v0 arriba del punto de inicio y abajo del punto de entrega sobre cauces naturales existentes y en cauces laterales, estudiar la inclinación actual de los taludes que será utilizada como referencia para el diseño del canal artificial compuesto, correspondiente al talud estable del cauce natural luego de todos los procesos erosivos y de sedimentación.
@@ -42,6 +42,8 @@ Para el análisis, tenga en cuenta las siguientes consideraciones:
 * Se recomienda analizar en la columna de talud izquierdo, los taludes correspondientes al cauce dominante y en la columna derecha los correspondientes al talud del valle o de creciente.
 
 <div align="center">Esquema de sección trapezoidal<br><img src="graph/R.HydroTools.TaludReferenciaCanal.Sample.jpg" alt="R.SIGE" width="30%" border="0" /></div>
+<div align="center">Taludes y tipos de recubrimiento<br><img src="graph/R.HydroTools.TaludReferenciaCanal.Sample1.jpg" alt="R.SIGE" width="30%" border="0" /></div>
+<div align="center">Taludes por inclinación<br><img src="graph/R.HydroTools.TaludReferenciaCanal.Sample2.jpg" alt="R.SIGE" width="30%" border="0" /></div>
 
 
 # 1. Identificación de secciones a utilizar
@@ -56,7 +58,7 @@ Para el análisis, tenga en cuenta las siguientes consideraciones:
 <div align="center"><img src="graph/R.HydroTools.TaludReferenciaCanal.CrossSection.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 
-## 2. Localización de líneas de referencia de ttalud
+## 2. Localización de líneas de referencia de talud
 
 1. En cada sección, defina las estaciones iniciales y finales a lado izquierdo y derecho que permiten identificar la localización de la línea de referencia de talud,
 

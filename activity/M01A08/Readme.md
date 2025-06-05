@@ -62,6 +62,10 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center"><img src="graph/R.HydroTools.PerfilValleEstCaidaCorteRelleno.Profile.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+> El libro de análisis evaluará los cortes y rellenos a partir de la elevación más baja entre la cota de terreno en el eje, la banca izquierda y la banca derecha, cuya condición corresponde a la más desfavorable en el movimiento de tierras.
+
+
+## 2. 
 
 
 

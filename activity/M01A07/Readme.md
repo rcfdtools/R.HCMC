@@ -89,7 +89,7 @@ Utilizando como referencia las cotas de fondo del Thalweg obtenidas a partir de 
 A partir de los análisis, las pendientes a considerar en el diseño son:
 
 <div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.Analysis.jpg" alt="R.SIGE" width="80%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.Analysis1.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.Analysis1.jpg" alt="R.SIGE" width="65%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.Analysis2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 Para el diseño del cauce sinuoso, utilizaremos como referencia una pendiente de 0.0008969 m/m para replicar la pendiente del cauce natural actual a reemplazar.

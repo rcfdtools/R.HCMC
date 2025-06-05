@@ -58,7 +58,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center"><img src="graph/R.HydroTools.PerfilValleEstCaidaCorteRelleno.Values.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-5. Visualice el perfil del valle, podrá observar que en el punto de inicio y entrega, las cotas 70.5 m y 64.5 m corresponden a los valores evaluados en actividades anteriores y la entrega del cauce lateral.
+5. Visualice el perfil del valle, podrá observar que en el punto de inicio y entrega, las cotas 70.5 m y 64.5 m corresponden a los valores evaluados en actividades anteriores. Observe también la entrega del cauce lateral y la localización de las bancas izquierdas y derechas.
 
 <div align="center"><img src="graph/R.HydroTools.PerfilValleEstCaidaCorteRelleno.Profile.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 

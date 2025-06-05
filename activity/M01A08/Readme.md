@@ -19,30 +19,50 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                           | Descripción                                                                                                                     |
-|:--------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                      | Microsoft Excel 365.                                                                                                            |
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/word?market=bz)                       | Microsoft Word 365.                                                                                                             |
-| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                                                  | Notepad++.                                                                                                                      |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-hms/)                                | HEC-HMS 4.13 Beta 6 o superior.                                                                                                 |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-dssvue/)                             | HEC-DSSVue 3.2.3 (versión funcional para cargue masivo de hietogramas).                                                         |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)           | HEC-RAS 6.6 o superior.                                                  |
-| [:notebook:Lectura](R.HydroTools.FactorAtenuacionPrecipitacionFa.pdf)                                   | Factor de atenuación de la precipitación por área simultánea.                                                                   |
-| [:open_file_folder:R.HydroTools.FactorAtenuacion PrecipitacionFa.xlsx](FactorAtenuacionPrecipitacionFa) | Libro de cálculo para la estimación del Fa - Factor de atenuación de la precipitación máxima por área simultánea en una cuenca. |
-| [:round_pushpin:R.HCMC.NodoValle.shp](../../file/shp/R.HCMC.NodoValle.zip)                              | Capa de nodos eje valle recto (creada en actividad anterior).                                          |
+| Requerimiento                                                                                                                                                   | Descripción                                                                                                                 |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                                              | Microsoft Excel 365.                                                                                                        |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                                                                        | HEC-RAS 6.6 o superior.                                                                                                     |
+| [:open_file_folder:R.HydroTools.PerfilValleEstCaidaCorteRelleno.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/PerfilValleEstCaidaCorteRelleno) | Libro de cálculo para el análisis del perfil del valle, evaluación de estructuras de caída y análisis de corte vs. relleno. |
+| [:open_file_folder:Modelo hidráulico HECRAS_v0](../../file/hec)                                                                                                 | Modelo hidráulico de muestreo HEC-RAS v0 creado en actividad [M01A05](../M01A05/Readme.md). |
 
 </div>
 
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
 
-## 1. Consideraciones generales para el análisis
+## 0. Consideraciones generales para el análisis
 
 * Para obtener el perfil por los puntos más bajos de cada sección correspondientes al Thalweg, previamente creamos el modelo hidráulico de muestreo en HEC-RAS v0 que contiene ejes de río, bancas y secciones transversales para el canal corredor del nuevo valle. La localización de la posición de las bancas fue ajustada manualmente para obtener los puntos más bajos en cada corredor. Para obtener en HEC-RAS las abscisas y las cotas asociadas de eje y bancas, en la ventana de visualización de perfiles ir a _File_ y seleccionar la opción _Copy Values to Clipboard_. El abscisado de secciones transversales en HEC-RAS siempre se realiza en el sentido inverso del flujo, aguas abajo en el punto de salida se encuentra la abscisa cero y aguas arriba la abscisa correspondiente al punto de inicio del realineamiento.
 * El análisis de cortes y rellenos se calcula a partir de la diferencia entre la línea proyectada del fondo continuo y la cota del terreno natural.
 * La relación de corte vs. relleno permite identificar si el alineamiento del valle requiere o no de un nuevo trazado para buscar la condición de equilibrio o garantizar que el nuevo canal se encuentre mayoritariamente en corte debido a que pueden existir restricciones de disponibilidad de material para la conformación del canal.
 * Es necesario identificar las cotas de fondo de los cauces laterales en el punto de entrega al nuevo eje suavizado de valle e identificar si se encuentran entregado a fondo o por encima. En caso de que la cota de fondo de un cauce lateral esté entregando por debajo de la línea proyectada de fondo del valle, será necesario incluir una estructura de caída para que el cauce pueda entregar a fondo o por encima.
 * Para canales prismáticos en los que no se realiza diseño sinuoso para la fracción correspondiente al cauce dominante, podrá como diseñador proponer e incluir estructuras de caída para reducir la pendiente.
+
+
+## 1. Perfil longitudinal del eje del valle suavizado
+
+1. Abra el modelo de muestreo [HECRAS_v0](../../file/hec) y desde el editor _Geometry Data_, cargue la geometría GeometryAnthropic.
+
+<div align="center"><img src="graph/HECRAS_GeometryDataOpen.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+2. Seleccione el eje correspondiente al valle suavizado y visualice el perfil completo del río.
+
+<div align="center"><img src="graph/HECRAS_GeometryDataProfile.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+3. Desde el menú _File_, copie los datos del perfil en el portapapeles con la opción _Copy Values to Clipboard_ y pegue en un libro de Excel en blanco. Localice las columnas Ground, LOB y ROB que contienen los valores XY de abscisado y cota de terreno y bancas; elimine registros duplicados y celdas en blanco. 
+
+<div align="center"><img src="graph/Excel_ProfileValues.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+4. En el libro de análisis [R.HydroTools.PerfilValleEstCaidaCorteRelleno.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/PerfilValleEstCaidaCorteRelleno), registre los valores entre las secciones 3253 m y 8412 m.
+
+<div align="center"><img src="graph/R.HydroTools.PerfilValleEstCaidaCorteRelleno.Values.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+5. Visualice el perfil del valle, podrá observar que en el punto de inicio y entrega, las cotas 70.5 m y 64.5 m corresponden a los valores evaluados en actividades anteriores y la entrega del cauce lateral.
+
+<div align="center"><img src="graph/R.HydroTools.PerfilValleEstCaidaCorteRelleno.Profile.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+
 
 
 ## Actividades de proyecto :triangular_ruler:

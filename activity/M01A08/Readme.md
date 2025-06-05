@@ -88,6 +88,20 @@ Para el caso de estudio, no son requeridas las estructuras de caída, sin embarg
 <div align="center"><img src="graph/R.HydroTools.PerfilValleEstCaidaCorteRelleno.Transicion2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
+## 3. Análisis de zonas en corte y/o relleno
+
+Para este análisis de cortes y rellenos, tener en cuenta las siguientes consideraciones:
+
+| Consideración                                                                                                                                                                             | Directriz                                                                                                                                                                                                                                                                                                                                                                              |
+|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Definir si el canal estará en corte, relleno o ambos.                                                                                                                                     | De acuerdo a lo establecido al inicio del curso y de según las condiciones topográficas existentes, se busca que el canal esté preferiblemente en zona de corte. En aquellas zonas en las que existan bajos, utilizar rellenos o diques de confinamiento en los extremos de la zona de valle.                                                                                          |
+| Utilizando las gráficas trazadas del perfil de terreno, evaluar cuál sería la máxima elevación en relleno sí se conservan las profundidades actuales del rio natural al inicio y entrega. | El canal está predominantemente en corte y en algunas zonas se requieren rellenos de aproximadamente 60cm de altura.                                                                                                                                                                                                                                                                   |
+| Requerimiento de estructuras de caída para garantizar canal en corte o para reducir la pendiente del eje de valle.                                                                        | De acuerdo a la información topográfica y al trazado propuesto, No es necesario el desarrollo de estructuras de caída por escalón debido a que solo son necesarios pequeños rellenos en las zonas laterales del valle utilizando para ello los materiales de corte. Se garantizará la pendiente de diseño del cauce dominante y valle mediante el trazado obtenido del diseño sinuoso. |
+
+El libro de análisis calculará automáticamente los valores de cortes y rellenos a partir de la localización de ejes de fondo (sin transiciones de caída) y las cotas en cada sección transversal del modelo hidráulico. Para el caso de estudio, la relación de cortes a rellenos obtenida es de +2.38, correspondiente a mayoritariamente en corte.
+
+<div align="center"><img src="graph/R.HydroTools.PerfilValleEstCaidaCorteRelleno.CorteRelleno1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.PerfilValleEstCaidaCorteRelleno.CorteRelleno2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 

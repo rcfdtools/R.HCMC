@@ -130,15 +130,16 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 ## Referencias
 
-* 
+* https://www.hec.usace.army.mil/confluence/rasdocs/rasum/6.2/viewing-results/tabular-output/profile-summary-tables
+* https://www.hec.usace.army.mil/confluence/rasdocs/rmum/6.5/geometry-data/rivers
+* https://www.hec.usace.army.mil/confluence/rasdocs/rasum/6.5/viewing-results/cross-sections-profiles-and-rating-curves/viewing-graphics-on-the-screen
 
 
 ## Control de versiones
 
 | Versión    | Descripción        | Autor                                      | Horas |
 |------------|:-------------------|--------------------------------------------|:-----:|
-| 2024.02.24 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |   8   |
-| 2014.01.11 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  18   |
+| 2025.06.05 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |   3   |
 
 
 ##

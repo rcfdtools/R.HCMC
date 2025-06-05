@@ -58,7 +58,7 @@ Para el análisis, tenga en cuenta las siguientes consideraciones:
 <div align="center"><img src="graph/R.HydroTools.TaludReferenciaCanal.CrossSection.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 
-## 2. Localización de líneas de referencia de talud
+## 2. Localización de líneas de referencia
 
 1. En cada sección, defina las estaciones iniciales y finales a lado izquierdo y derecho que permiten identificar la localización de la línea de referencia de talud,
 

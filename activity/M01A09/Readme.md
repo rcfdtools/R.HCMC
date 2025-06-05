@@ -42,8 +42,8 @@ Para el análisis, tenga en cuenta las siguientes consideraciones:
 * Se recomienda analizar en la columna de talud izquierdo, los taludes correspondientes al cauce dominante y en la columna derecha los correspondientes al talud del valle o de creciente.
 
 <div align="center">Esquema de sección trapezoidal<br><img src="graph/R.HydroTools.TaludReferenciaCanal.Sample.jpg" alt="R.SIGE" width="30%" border="0" /></div>
-<div align="center">Taludes y tipos de recubrimiento<br><img src="graph/R.HydroTools.TaludReferenciaCanal.Sample1.jpg" alt="R.SIGE" width="30%" border="0" /></div>
-<div align="center">Taludes por inclinación<br><img src="graph/R.HydroTools.TaludReferenciaCanal.Sample2.jpg" alt="R.SIGE" width="30%" border="0" /></div>
+<div align="center">Taludes y tipos de recubrimiento<br><img src="graph/R.HydroTools.TaludReferenciaCanal.Sample1.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center">Taludes por inclinación<br><img src="graph/R.HydroTools.TaludReferenciaCanal.Sample2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 ## 1. Identificación de secciones a utilizar

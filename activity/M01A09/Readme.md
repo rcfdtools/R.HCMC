@@ -42,7 +42,7 @@ Para el análisis, tenga en cuenta las siguientes consideraciones:
 * Se recomienda analizar en la columna de talud izquierdo, los taludes correspondientes al cauce dominante y en la columna derecha los correspondientes al talud del valle o de creciente.
 
 <div align="center">Esquema de sección trapezoidal<br><img src="graph/R.HydroTools.TaludReferenciaCanal.Sample.jpg" alt="R.SIGE" width="30%" border="0" /></div>
-<div align="center">Taludes y tipos de recubrimiento<br><img src="graph/R.HydroTools.TaludReferenciaCanal.Sample1.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center">Taludes y tipos de recubrimiento (prototipo)<br><img src="graph/R.HydroTools.TaludReferenciaCanal.Sample1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 <div align="center">Taludes por inclinación<br><img src="graph/R.HydroTools.TaludReferenciaCanal.Sample2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
@@ -50,29 +50,29 @@ Para el análisis, tenga en cuenta las siguientes consideraciones:
 
 1. En HEC-RAS, abra el modelo hidráulico de muestreo y en RAS Mapper, seleccione como mínimo 10 secciones transversales naturales y abra la tabla de atributos para identificar sus abscisas.
 
-<div align="center"><img src="graph/HECRAS_RASMapperCrossSection.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperCrossSection.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 2. En el libro de análisis [R.HydroTools.TaludReferenciaCanal.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/TaludReferenciaCanal), registre los valores estación / elevación de cada una de las secciones identificadas. Para ello, utilice el editor _Geometry Data_ y la ventana de edición de secciones transversales.
 
-<div align="center"><img src="graph/HECRAS_GeometryDataCrossSection.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.TaludReferenciaCanal.CrossSection.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryDataCrossSection.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.TaludReferenciaCanal.CrossSection.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 ## 2. Localización de líneas de referencia
 
 1. En cada sección, defina las estaciones iniciales y finales a lado izquierdo y derecho que permiten identificar la localización de la línea de referencia de talud,
 
-<div align="center"><img src="graph/R.HydroTools.TaludReferenciaCanal.CrossSectionSideStation.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.TaludReferenciaCanal.CrossSectionSideStation.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 2. Visualice y ajuste las líneas de referencia de taludes.
 
-<div align="center"><img src="graph/R.HydroTools.TaludReferenciaCanal.CrossSectionGraph.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.TaludReferenciaCanal.CrossSectionGraph.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 3. Revise la tabla resúmen de taludes izquierdos y derechos, defina y justifique la relación de taludes a utilizar en el diseño de la sección compuesta.
 
 <div align="center"><img src="graph/R.HydroTools.TaludReferenciaCanal.CrossSectionResume.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
-De acuerdo al análisis de taludes en secciones naturales, el talud típico en la zona del canal dominante es de aproximadamente 14:1 (por cada metro en la vertical, 14 metros en la horizontal). Para el diseño del canal dominante utilizar taludes con la misma relación.
+> De acuerdo al análisis de taludes en secciones naturales, el talud típico en la zona del canal dominante es de aproximadamente 14:1 (por cada metro en la vertical, 14 metros en la horizontal). Para el diseño del canal dominante utilizar taludes con la misma relación.
 
 
 ## Actividades de proyecto :triangular_ruler:

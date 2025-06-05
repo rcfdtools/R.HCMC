@@ -46,7 +46,7 @@ Para el análisis, tenga en cuenta las siguientes consideraciones:
 <div align="center">Taludes por inclinación<br><img src="graph/R.HydroTools.TaludReferenciaCanal.Sample2.jpg" alt="R.SIGE" width="30%" border="0" /></div>
 
 
-# 1. Identificación de secciones a utilizar
+## 1. Identificación de secciones a utilizar
 
 1. En HEC-RAS, abra el modelo hidráulico de muestreo y en RAS Mapper, seleccione como mínimo 10 secciones transversales naturales y abra la tabla de atributos para identificar sus abscisas.
 

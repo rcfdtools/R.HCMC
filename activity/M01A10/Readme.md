@@ -20,11 +20,11 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                  | Descripción                                                                                 |
-|:-----------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)             | Microsoft Excel 365.                                                                        |
-| [:toolbox:Herramienta](https://qgis.org/)                                                      | QGIS 3.42 o superior.                                                                       |
-| [:open_file_folder:R.HydroTools.SinuosidadCauceAnalisis.xlsx](FactorAtenuacionPrecipitacionFa) | Libro de cálculo para análisis de sinuosidad.                                               |
+| Requerimiento                                                                                                                                    | Descripción                                                                                 |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                               | Microsoft Excel 365.                                                                        |
+| [:toolbox:Herramienta](https://qgis.org/)                                                                                                        | QGIS 3.42 o superior.                                                                       |
+| [:open_file_folder:R.HydroTools.SinuosidadCauceAnalisis.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/SinuosidadCauceAnalisis)  | Libro de cálculo para análisis de sinuosidad.                                               |
 
 </div>
 
@@ -33,7 +33,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## Método 1: Estimación del factor de sinuosidad a partir de la longitud euclidiana del valle en cada río
 
-1. En QGIS, cargue la capa de drenajes [CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip).
+1. En QGIS, cargue la capa de drenajes [CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip), ajuste la simbología de representación y abra la tabla de atributos.
 
 <div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
@@ -47,19 +47,35 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | CXStart  | Coordenada plana X en metros del nodo inicial.                       | x(start_point(@geometry))                 |
 | CYStart  | Coordenada plana Y en metros del nodo inicial.                       | y(start_point(@geometry))                 |
 | CXEnd    | Coordenada plana X en metros del nodo final.                         | x(end_point(@geometry))                   |
-| CYEnd    | Coordenada plana Y en metros del nodo final.                         | x(end_point(@geometry))                   |
+| CYEnd    | Coordenada plana Y en metros del nodo final.                         | y(end_point(@geometry))                   |
 | LValley  | Longitud euclidiana del valle en metros usando Teorema de Pitágoras. | ((CXStart-CXEnd)^2+(CYStart+CYEnd)^2)^0.5 |
 | FS       | Factor de sinuosidad.                                                | LPm/LValley                               |
 
+> Expresión LValley = `(( "CXStart" - "CXEnd" )^2+( "CYStart" - "CYEnd" )^2)^0.5`
 
+<div align="center"><img src="graph/QGIS_FieldCalculatorLPm.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_FieldCalculatorCXStart.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_FieldCalculatorLValley.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_FieldCalculatorFS.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+3. Utilizando el complemento _DataPlot=ly_, cree una gráfica de análisis representando en las abscisas la longitud del río y en las ordenadas la longitud del valle, podrá observar que algunos nodos se encuentran dispersos indicando sinuosidades altas.
 
+<div align="center"><img src="graph/QGIS_DataPlotly.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_DataPlotly1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+Cree también una gráfica LPm vs. FS, podrá observar que existe una dispersión alta entre los datos y un patrón de agrupamiento en tramos cortos.
 
+<div align="center"><img src="graph/QGIS_DataPlotly2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+Para este análisis se recomienda incluir solo los tramos de drenaje que se encuentran en la llanura. Para ello, agregue el mapa de base XYZ de Google Terrain desde la ruta https://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z} y manualmente, seleccione solo estos drenajes. En la tabla de atributos cree un campo numérico entero con el nombre `EvalFS` y asigne 1 a los drenajes a evaluar y 0 a los excluídos.
 
+<div align="center"><img src="graph/QGIS_FieldCalculatorEvalFS.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+4. Desde las propiedades de la capa y a través del _Query Builder_, filtre los drenajes con `EvalFS = 1`. 
 
+<div align="center"><img src="graph/QGIS_QueryBuilder.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+5. En el libro de análisis [R.HydroTools.SinuosidadCauceAnalisis.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/SinuosidadCauceAnalisis), registre los valores de código de río, longitud de río y longitud de valle en la tabla del método 1.
 
 
 

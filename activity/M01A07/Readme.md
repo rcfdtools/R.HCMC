@@ -39,7 +39,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## 1. Pendiente tramo cauce sinuoso natural a reemplazar a partir de sección inicio / entrega
 
-Utilizando como referencia las abscisas de inicio y entrega del [modelo hidráulico de muestreo HEC-RAS v0](../../file/hec) evaluadas en la actividad anterior, correspondientes a 9944 m y 3253 m, la longitud del cauce natural a reemplazar o Delta X es de 6691 metros, la longitud vectorial del tramo a reemplazar corresponde a 6689.9 metros. A partir de las cotas de fondo de la sección de inicio y entrega correspondientes a 64.5 m y 70.5 m, el Delta Y del cauce natural es 6 metros. 
+Utilizando como referencia las abscisas de inicio y entrega del [modelo hidráulico de muestreo HEC-RAS v0](../../file/hec) evaluadas en la actividad anterior, correspondientes a 9944 m y 3253 m, la longitud del cauce natural a reemplazar o Delta X es de 6691 metros y la longitud vectorial del [tramo natural a reemplazar](../../file/shp/TramoNaturalReemplazarProyecto.zip) corresponde a 6689.9 metros. A partir de las cotas de fondo de la sección de inicio y entrega correspondientes a 64.5 m y 70.5 m, el Delta Y del cauce natural es 6 metros. 
 
 <div align="center"><img src="graph/HECRAS_RASMapperCrossSectionStartEnd.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 

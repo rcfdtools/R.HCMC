@@ -8,7 +8,10 @@ A partir de las líneas de drenaje restituidas y las líneas esquemáticas que r
 
 ## Objetivos
 
-* 
+* Visualizar la red de drenaje natural.
+* Estimar el factor de sinuosidad a partir de la longitud euclidiana del valle.
+* Estimar el factor de sinuosidad a partir de la línea suavizada del valle.
+* Estimar la sinuosidad a partir del tramo natural a reemplazar.
 
 
 ## Requerimientos
@@ -20,18 +23,45 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | Requerimiento                                                                                  | Descripción                                                                                 |
 |:-----------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)             | Microsoft Excel 365.                                                                        |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                       | HEC-RAS 6.6 o superior.                                                                     |
 | [:toolbox:Herramienta](https://qgis.org/)                                                      | QGIS 3.42 o superior.                                                                       |
 | [:open_file_folder:R.HydroTools.SinuosidadCauceAnalisis.xlsx](FactorAtenuacionPrecipitacionFa) | Libro de cálculo para análisis de sinuosidad.                                               |
-| [:round_pushpin:R.HCMC.NodoValle.shp](../../file/shp/R.HCMC.NodoValle.zip)                     | Capa de nodos eje valle recto (creada en actividad anterior).                               |
-| [:open_file_folder:Modelo hidráulico HECRAS_v0](../../file/hec)                                | Modelo hidráulico de muestreo HEC-RAS v0 creado en actividad [M01A05](../M01A05/Readme.md). |
 
 </div>
 
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
 
-## Procedimiento general
+## Método 1: Estimación del factor de sinuosidad a partir de la longitud euclidiana del valle en cada río
+
+1. En QGIS, cargue la capa de drenajes [CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip).
+
+<div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+> Para proyectos en los que no se dispone de la red de drenaje: crear una capa de drenajes 2D digitalizando los cauces sobre una ortofoto o sobre un modelo de terreno lidar. La digitalización se debe realizar por tramos de río entre afluentes detallando las líneas meandriformes y en el sentido del flujo.
+
+2. En la tabla de atributos de la capa geográfica de drenajes, crear y poblar los siguientes atributos numéricos reales con 10 dígitos de precisión:
+
+| Atributo | Descripción                                                          | Cálculo geométrico                        |
+|----------|----------------------------------------------------------------------|-------------------------------------------|
+| LPm      | Longitud planar del tramo en metros.                                 | length(@geometry)                         |
+| CXStart  | Coordenada plana X en metros del nodo inicial.                       | x(start_point(@geometry))                 |
+| CYStart  | Coordenada plana Y en metros del nodo inicial.                       | y(start_point(@geometry))                 |
+| CXEnd    | Coordenada plana X en metros del nodo final.                         | x(end_point(@geometry))                   |
+| CYEnd    | Coordenada plana Y en metros del nodo final.                         | x(end_point(@geometry))                   |
+| LValley  | Longitud euclidiana del valle en metros usando Teorema de Pitágoras. | ((CXStart-CXEnd)^2+(CYStart+CYEnd)^2)^0.5 |
+| FS       | Factor de sinuosidad.                                                | LPm/LValley                               |
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

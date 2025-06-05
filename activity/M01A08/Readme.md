@@ -71,7 +71,7 @@ Para el análisis general del perfil, estructuras de caída y estimación de cor
 
 1. Para el trazado de ejes, defina primero la altura de diseño de la sección prismática.
 
-<div align="center"><img src="graph/R.HydroTools.PerfilValleEstCaidaCorteRelleno.AlturaSeccion.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.PerfilValleEstCaidaCorteRelleno.AlturaSeccion.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 2. Ingrese los valores de cota de fondo y cota de corona de los diques, automáticamente serám calculados los altos de sección, alto promedio, diferencia de nivel y pendiente del valle.
 
@@ -149,7 +149,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A00/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A02/Readme.md) |
+| [:arrow_backward: Anterior](../M01A07/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A09/Readme.md) |
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: 

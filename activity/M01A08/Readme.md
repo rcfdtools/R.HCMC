@@ -36,7 +36,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 Para el análisis general del perfil, estructuras de caída y estimación de cortes y rellenos, tenga en cuenta las siguientes consideraciones:
 
 * Para obtener el perfil por los puntos más bajos de cada sección correspondientes al Thalweg, previamente creamos el modelo hidráulico de muestreo en [HEC-RAS v0](../../file/hec) que contiene ejes de río, bancas y secciones transversales para el canal corredor del nuevo valle. La localización de la posición de las bancas fue ajustada manualmente para obtener los puntos más bajos en cada corredor. Para obtener en HEC-RAS las abscisas y las cotas asociadas de eje y bancas, en la ventana de visualización de perfiles ir a _File_ y seleccionar la opción _Copy Values to Clipboard_. El abscisado de secciones transversales en HEC-RAS siempre se realiza en el sentido inverso del flujo, aguas abajo en el punto de salida se encuentra la abscisa cero y aguas arriba la abscisa correspondiente al punto de inicio del realineamiento.
-* El análisis de cortes y rellenos se calcula a partir de la diferencia entre la línea proyectada del fondo continuo y la cota del terreno natural.
+* El análisis de cortes y rellenos se calcula a partir de la diferencia entre la línea proyectada del fondo continuo y la cota del terreno natural más baja entre el fondo del eje y la localización de bancas.
 * La relación de corte vs. relleno permite identificar si el alineamiento del valle requiere o no de un nuevo trazado para buscar la condición de equilibrio o garantizar que el nuevo canal se encuentre mayoritariamente en corte debido a que pueden existir restricciones de disponibilidad de material para la conformación del canal.
 * Es necesario identificar las cotas de fondo de los cauces laterales en el punto de entrega al nuevo eje suavizado de valle e identificar si se encuentran entregado a fondo o por encima. En caso de que la cota de fondo de un cauce lateral esté entregando por debajo de la línea proyectada de fondo del valle, será necesario incluir una estructura de caída para que el cauce pueda entregar a fondo o por encima.
 * Para canales prismáticos en los que no se realiza diseño sinuoso para la fracción correspondiente al cauce dominante, podrá como diseñador proponer e incluir estructuras de caída para reducir la pendiente.
@@ -67,7 +67,29 @@ Para el análisis general del perfil, estructuras de caída y estimación de cor
 > El libro de análisis evaluará los cortes y rellenos a partir de la elevación más baja entre la cota de terreno en el eje, la banca izquierda y la banca derecha, cuya condición corresponde a la más desfavorable en el movimiento de tierras.
 
 
-## 2. 
+## 2. Trazado de ejes de fondo, corona y estructuras de caída
+
+1. Para el trazado de ejes, defina primero la altura de diseño de la sección prismática.
+
+<div align="center"><img src="graph/R.HydroTools.PerfilValleEstCaidaCorteRelleno.AlturaSeccion.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+2. Ingrese los valores de cota de fondo y cota de corona de los diques, automáticamente serám calculados los altos de sección, alto promedio, diferencia de nivel y pendiente del valle.
+
+<div align="center"><img src="graph/R.HydroTools.PerfilValleEstCaidaCorteRelleno.CotasRef.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+3. Revise los ejes trazados y evalúe si la línea de eje de fondo del valle permite la entrega del cauce lateral a fondos o en una cota por encima del eje del fondo del valle. En el evento de que el fondo del cauce lateral entregue por debajo del fondo del valle, proponga la localización de estructuras de caída en el fondo del valle para garantizar el empalme.
+
+> El libro de diseño permite incluir la localización de dos estructuras de caída en el fondo del valle.
+
+Para el caso de estudio, no son requeridas las estructuras de caída, sin embargo, se presenta un ejemplo de su localización, para lo cual se deben seleccionar las abscisas de localización de inicio / fin en cada transición de fondo.
+
+<div align="center"><img src="graph/R.HydroTools.PerfilValleEstCaidaCorteRelleno.AjusteFondo.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.PerfilValleEstCaidaCorteRelleno.Transicion1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.PerfilValleEstCaidaCorteRelleno.Transicion2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+
+
+
 
 
 

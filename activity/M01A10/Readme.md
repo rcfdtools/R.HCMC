@@ -34,7 +34,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 ## Método 1: Estimación del factor de sinuosidad a partir de la longitud euclidiana del valle en cada río
 
 
-<div align="center"><img src="graph/SinuosityFactorSample.jpg" alt="R.SIGE" width="40%" border="0" /><sub><br>Tomado de: <a href="https://www.autodesk.com/blogs/water/2023/09/05/can-you-really-calculate-a-rivers-path-using-pi/">www.autodesk.com/blogs/</a></sub><br><br></div>
+<div align="center"><img src="graph/SinuosityFactorSample.jpg" alt="R.SIGE" width="50%" border="0" /><sub><br>Tomado de: <a href="https://www.autodesk.com/blogs/water/2023/09/05/can-you-really-calculate-a-rivers-path-using-pi/">www.autodesk.com/blogs/</a></sub><br><br></div>
 
 
 

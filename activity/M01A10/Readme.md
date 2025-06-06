@@ -134,15 +134,38 @@ Gráficos de comparación Método 1 y Método 2.
 <div align="center"><img src="graph/QGIS_ExportLayer.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_ExportLayer1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-3. Abra la tabla de atributos de la capa exportada y verifique cuantos registros o líneas de drenaje contiene la capa, seleccione todos los registros y desde el editor de entidades, una los dos tramos.
+3. Abra la tabla de atributos de la capa exportada y verifique cuantos registros o líneas de drenaje contiene la capa, seleccione todos los registros y desde el editor de entidades, con la herramienta Merge, una los dos tramos.
 
 <div align="center"><img src="graph/QGIS_Merge.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-4. De la tabla de atributos, recalcule todas las propiedades correspondientes a identificador, longitudes, factores y coordenadas. Obtendrá un factor de sinuosidad de 1.375 a partir de la longitud del río y la longitud Euclidiana del valle.
+4. En la tabla de atributos, recalcule todas las propiedades correspondientes a identificador, longitudes, factores y coordenadas. Obtendrá un factor de sinuosidad de 1.3746 a partir de la longitud del río y la longitud Euclidiana del valle.
 
 <div align="center"><img src="graph/QGIS_FieldCalculatorLValley3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+5. Para obtener todos los nodos que componen la polí-línea del tramo natural a reemplazar, ejecute la herramienta _Vector geometry / Extract vertices_, nombre la capa resultante como [TramoNaturalReemplazarVertices.shp](../../file/shp/TramoNaturalReemplazarVertices.zip).
 
+<div align="center"><img src="graph/QGIS_ExtractVertices.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+6. Rotule a partir del campo `vertex_ind` o campo de ordenamiento de nodos en el sentido del dibujo, luego, abra la tabla de atributos, active el editor y elimine todos los campos excepto el campo de numeración de nodos.
+
+<div align="center"><img src="graph/QGIS_DeleteFields.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+7. Cree dos campos de atributos numéricos reales (precisión 10) con los nombres CXm y CYm, y desde el calculador de campo obtenga las coordenadas proyectadas en metros usando las funciones `x(@geometry)` y `y(@geometry)`.
+
+<div align="center"><img src="graph/QGIS_FieldCalculatorCoordinates.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+8. Ordene los registros por el número de vertice, 6 y en el libro de análisis [R.HydroTools.SinuosidadCauceAnalisis.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/SinuosidadCauceAnalisis), registre los valores obtenidos en QGIS de coordenadas en la tabla del Método 3, visualice la gráfica de análisis.
+
+<div align="center"><img src="graph/QGIS_Table2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo3.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+
+
+## Comparación y análisis de resultados
+
+Para el diseño del cauce sinuoso hemos obtenido diferentes valores de referencia, sin embargo, consideraremos que según el trazado del valle suavizado correspondiente a una longitud de Lv = 5158.536 metros y la longitud del cauce natural a reemplazar correspondiente a Lr = 6689.90475528285 metros, el factor de sinuosidad es 1.29686.
+
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Comparacion.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.ComparacionGraph.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 
 

@@ -48,7 +48,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | CYStart  | Coordenada plana Y en metros del nodo inicial.                       | y(start_point(@geometry))                 |
 | CXEnd    | Coordenada plana X en metros del nodo final.                         | x(end_point(@geometry))                   |
 | CYEnd    | Coordenada plana Y en metros del nodo final.                         | y(end_point(@geometry))                   |
-| LValley  | Longitud euclidiana del valle en metros usando Teorema de Pitágoras. | ((CXStart-CXEnd)^2+(CYStart+CYEnd)^2)^0.5 |
+| LValley  | Longitud euclidiana del valle en metros usando Teorema de Pitágoras. | ((CXStart-CXEnd)^2+(CYStart-CYEnd)^2)^0.5 |
 | FS       | Factor de sinuosidad.                                                | LPm/LValley                               |
 
 
@@ -123,7 +123,7 @@ Gráficos de comparación Método 1 y Método 2.
 
 ## Método 3: Factor de sinuosidad a partir de la longitud euclidiana del tramo a reemplazar
 
-1. En QGIS, cargue al mapa la capa [RD_EjeValleSuavizado_AutodeskCivil3DClotoide.shp](../../file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.zip) correspondiente al eje del valle suavizado.
+1. En QGIS, cargue al mapa la capa [RD_EjeValleSuavizado_AutodeskCivil3DClotoide.shp](../../file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.zip) correspondiente al eje del valle suavizado. Utilice este eje como guía para la extracción del drenaje natural que será reemplazado.
 
 <div align="center"><img src="graph/QGIS_AddLayer1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
@@ -131,16 +131,16 @@ Gráficos de comparación Método 1 y Método 2.
 
 > Asegúrese de que el tramo exportado cubre la longitud completa desde el inicio y hasta el fin del valle, en caso de ser necesario, exporte los tramos naturales inmediatos aguar arriba y aguas abajo y luego con ayuda el editor de geometría, corte los extremos restantes usando la herramienta _Split_.
 
-<div align="center"><img src="graph/QGIS_ExportLayer.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ExportLayer.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_ExportLayer1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+3. Abra la tabla de atributos de la capa exportada y verifique cuantos registros o líneas de drenaje contiene la capa, seleccione todos los registros y desde el editor de entidades, una los dos tramos.
 
+<div align="center"><img src="graph/QGIS_Merge.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
+4. De la tabla de atributos, recalcule todas las propiedades correspondientes a identificador, longitudes, factores y coordenadas. Obtendrá un factor de sinuosidad de 1.375 a partir de la longitud del río y la longitud Euclidiana del valle.
 
-
-
-
-
+<div align="center"><img src="graph/QGIS_FieldCalculatorLValley3.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 
 

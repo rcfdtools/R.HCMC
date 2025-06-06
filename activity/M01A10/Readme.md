@@ -156,13 +156,13 @@ Gráficos de comparación Método 1 y Método 2.
 
 8. Ordene los registros por el número de vertice, 6 y en el libro de análisis [R.HydroTools.SinuosidadCauceAnalisis.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/SinuosidadCauceAnalisis), registre los valores obtenidos en QGIS de coordenadas en la tabla del Método 3, visualice la gráfica de análisis.
 
-<div align="center"><img src="graph/QGIS_Table2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo3.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Table2.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 ## Comparación y análisis de resultados
 
-Para el diseño del cauce sinuoso hemos obtenido diferentes valores de referencia, sin embargo, consideraremos que según el trazado del valle suavizado correspondiente a una longitud de Lv = 5158.536 metros y la longitud del cauce natural a reemplazar correspondiente a Lr = 6689.90475 metros, el factor de sinuosidad es 1.29686 (nombrado como Método 4).
+Para el diseño del cauce sinuoso hemos obtenido diferentes valores de referencia, sin embargo, consideraremos que según el trazado del valle suavizado correspondiente a una longitud de Lv = 5158.536 metros y la longitud del cauce natural a reemplazar correspondiente a Lr = 6689.90475 metros, el factor de sinuosidad aplicable es 1.29686 (nombrado como Método 4).
 
 <div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Comparacion.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.ComparacionGraph.jpg" alt="R.SIGE" width="80%" border="0" /></div>

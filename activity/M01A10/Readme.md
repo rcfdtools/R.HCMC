@@ -109,7 +109,7 @@ A diferencia del método anterior en el que utilizamos la longitud euclidiana de
 <div align="center"><img src="graph/QGIS_Table1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo2.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo2a.jpg" alt="R.SIGE" width="70%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo2Graph.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo2Graph.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 > :fire: Para la correcta obtención de los parámetros de la regresión, ajustar en la función de estimación lineal de Microsoft Excel, el rango de selección de las celdas correspondientes a la tabla de registros.
 
@@ -117,9 +117,11 @@ A diferencia del método anterior en el que utilizamos la longitud euclidiana de
 
 Gráficos de comparación Método 1 y Método 2.
 
-<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo1y2Graph.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo1y2Graph1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo1y2Graph.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo1y2Graph1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+
+## Método 3: Factor de sinuosidad a partir de la longitud euclidiana del tramo a reemplazar
 
 
 

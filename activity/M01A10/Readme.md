@@ -51,33 +51,37 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | LValley  | Longitud euclidiana del valle en metros usando Teorema de Pitágoras. | ((CXStart-CXEnd)^2+(CYStart+CYEnd)^2)^0.5 |
 | FS       | Factor de sinuosidad.                                                | LPm/LValley                               |
 
-> Expresión LValley = `(( "CXStart" - "CXEnd" )^2+( "CYStart" - "CYEnd" )^2)^0.5`
 
 <div align="center"><img src="graph/QGIS_FieldCalculatorLPm.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_FieldCalculatorCXStart.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+> Expresión LValley = `(( "CXStart" - "CXEnd" )^2+( "CYStart" - "CYEnd" )^2)^0.5`
+
 <div align="center"><img src="graph/QGIS_FieldCalculatorLValley.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_FieldCalculatorFS.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-3. Utilizando el complemento _DataPlot=ly_, cree una gráfica de análisis representando en las abscisas la longitud del río y en las ordenadas la longitud del valle, podrá observar que algunos nodos se encuentran dispersos indicando sinuosidades altas.
+3. Utilizando el complemento _DataPlotly_, cree una gráfica de análisis representando en las abscisas la longitud del río y en las ordenadas la longitud del valle, podrá observar que algunos nodos se encuentran dispersos indicando sinuosidades altas.
 
 <div align="center"><img src="graph/QGIS_DataPlotly.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_DataPlotly1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-Cree también una gráfica LPm vs. FS, podrá observar que existe una dispersión alta entre los datos y un patrón de agrupamiento en tramos cortos.
+Cree también una gráfica LPm vs. FS, podrá observar que existe una dispersión alta entre los datos y un patrón de agrupamiento en ríos cortos.
 
 <div align="center"><img src="graph/QGIS_DataPlotly2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-Para este análisis se recomienda incluir solo los tramos de drenaje que se encuentran en la llanura. Para ello, agregue el mapa de base XYZ de Google Terrain desde la ruta https://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z} y manualmente, seleccione solo estos drenajes. En la tabla de atributos cree un campo numérico entero con el nombre `EvalFS` y asigne 1 a los drenajes a evaluar y 0 a los excluídos.
+4. Para este análisis se recomienda incluir solo los tramos de drenaje que se encuentran en la llanura. Para ello, agregue el mapa de base XYZ de Google Terrain desde la ruta https://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z} y manualmente, seleccione solo estos drenajes. En la tabla de atributos cree un campo numérico entero con el nombre `EvalFS` y asigne 1 a los drenajes a evaluar y 0 a los excluídos.
 
 <div align="center"><img src="graph/QGIS_FieldCalculatorEvalFS.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-4. Desde las propiedades de la capa y a través del _Query Builder_, filtre los drenajes con `EvalFS = 1`. 
+5. Cree un campo numérico entero con le nombre _FeatureID_ y desde el calculador de campo asigne la propiedad _@id_, luego desde las propiedades de la capa y para todos los drenajes y a través del _Query Builder_, filtre los drenajes con `EvalFS = 1`. 
 
 <div align="center"><img src="graph/QGIS_QueryBuilder.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-5. En el libro de análisis [R.HydroTools.SinuosidadCauceAnalisis.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/SinuosidadCauceAnalisis), registre los valores de código de río, longitud de río y longitud de valle en la tabla del método 1.
+6. En el libro de análisis [R.HydroTools.SinuosidadCauceAnalisis.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/SinuosidadCauceAnalisis), registre los valores obtenidos en QGIS de código de río o `FeatureID`, longitud de río y longitud de valle en la tabla del Método 1, visualice la gráfica de análisis.
 
-
+<div align="center"><img src="graph/QGIS_Table.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo1.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo1Graph.jpg" alt="R.SIGE" width="50%" border="0" /></div>
 
 
 

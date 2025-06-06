@@ -115,6 +115,10 @@ A diferencia del método anterior en el que utilizamos la longitud euclidiana de
 
 **Resultados**: el factor de sinuosidad promedio corresponde a un valor de 1.13 y para la longitud del cauce natural a reemplazar correspondiente a 6689.9 m y utilizando la regresión obtenida, el factor es 1.1733.
 
+Gráficos de comparación Método 1 y Método 2.
+
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo1y2Graph.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo1y2Graph1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 
 

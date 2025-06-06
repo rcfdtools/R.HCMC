@@ -84,14 +84,36 @@ Cree también una gráfica LPm vs. FS, podrá observar que existe una dispersió
 <div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo1a.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo1Graph.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
-**Resultados**: el factor de sinuosidad promedio corresponde a un valor de 1.26 y para la longitud del cauce natural a reemplazar y utilizando la regresión obtenida, el factor es 1.3639.
+> :fire: Para la correcta obtención de los parámetros de la regresión, ajustar en la función de estimación lineal de Microsoft Excel, el rango de selección de las celdas correspondientes a la tabla de registros.
+
+**Resultados**: el factor de sinuosidad promedio corresponde a un valor de 1.26 y para la longitud del cauce natural a reemplazar correspondiente a 6689.9 m y utilizando la regresión obtenida, el factor es 1.3639.
 
 
-## Método 2: Factor de sinuosidad a partir de la longitud suavizada del valle. Radio 2 Km.
+## Método 2: Factor de sinuosidad a partir de la longitud simplificada del valle. Radio 2 Km.
 
-1. En QGIS
+A diferencia del método anterior en el que utilizamos la longitud euclidiana del valle, en este método utilizaremos una simplificación del alineamiento que domina el recorrido del flujo en el valle por eventos de creciente, suponiendo que estos flujos mantienen la direccionalidad del corredor o ronda geo-morfométrica del cauce.
 
+1. En QGIS, ejecute la herramienta _Processing Toolbox / Vector geometry / Simplify_ para simplificar la trayectoria de cada tramo de drenaje utilizando como tolerancia 1/10 del radio de curvatura para el suavizado del valle obtenido en la actividad [M01A03](../M01A03/Readme.md). Nombre la capa resultante como [/file/shp/CGG_DrenajeNaturalSimplify180m_v0.shp](../../file/shp/CGG_DrenajeNaturalSimplify180m_v0.zip).
 
+> Recuerde que previamente realizamos un filtro excluyendo los drenajes de montaña cuyas sinuosidades pueden ser inferiores a las de los cauces de llanura,
+
+<div align="center"><img src="graph/QGIS_Simplify.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Simplify1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+2. En la tabla de atributos de la capa de líneas simplificadas, calcule en un campo numérico real (precisión 10) con el nombre `LValleySim`, la longitud geométrica planar de cada línea. 
+
+<div align="center"><img src="graph/QGIS_FieldCalculatorLValley1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+6. En el libro de análisis [R.HydroTools.SinuosidadCauceAnalisis.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/SinuosidadCauceAnalisis), registre los valores obtenidos en QGIS de código de río o `FeatureID`, longitud de río y longitud de valle simplificado en la tabla del Método 2, visualice la gráfica de análisis.
+
+<div align="center"><img src="graph/QGIS_Table1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo2.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo2a.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo2Graph.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+
+> :fire: Para la correcta obtención de los parámetros de la regresión, ajustar en la función de estimación lineal de Microsoft Excel, el rango de selección de las celdas correspondientes a la tabla de registros.
+
+**Resultados**: el factor de sinuosidad promedio corresponde a un valor de 1.13 y para la longitud del cauce natural a reemplazar correspondiente a 6689.9 m y utilizando la regresión obtenida, el factor es 1.1733.
 
 
 

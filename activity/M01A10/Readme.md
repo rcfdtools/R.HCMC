@@ -131,8 +131,8 @@ Gráficos de comparación Método 1 y Método 2.
 
 > Asegúrese de que el tramo exportado cubre la longitud completa desde el inicio y hasta el fin del valle, en caso de ser necesario, exporte los tramos naturales inmediatos aguar arriba y aguas abajo y luego con ayuda el editor de geometría, corte los extremos restantes usando la herramienta _Split_.
 
-<div align="center"><img src="graph/QGIS_ExportLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_ExportLayer1.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ExportLayer.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ExportLayer1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 

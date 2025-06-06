@@ -33,6 +33,11 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## Método 1: Estimación del factor de sinuosidad a partir de la longitud euclidiana del valle en cada río
 
+
+<div align="center"><img src="graph/SinuosityFactorSample.jpg" alt="R.SIGE" width="40%" border="0" /><sub><br>Tomado de: <a href="https://www.autodesk.com/blogs/water/2023/09/05/can-you-really-calculate-a-rivers-path-using-pi/">www.autodesk.com/blogs/</a></sub><br><br></div>
+
+
+
 1. En QGIS, cargue la capa de drenajes [CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip), ajuste la simbología de representación y abra la tabla de atributos.
 
 <div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
@@ -156,7 +161,7 @@ Gráficos de comparación Método 1 y Método 2.
 
 8. Ordene los registros por el número de vertice, 6 y en el libro de análisis [R.HydroTools.SinuosidadCauceAnalisis.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/SinuosidadCauceAnalisis), registre los valores obtenidos en QGIS de coordenadas en la tabla del Método 3, visualice la gráfica de análisis.
 
-<div align="center"><img src="graph/QGIS_Table2.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Table2.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
@@ -176,8 +181,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M01A00    | Descargar el archivo [R.HydroTools.DisenoCaucesParametros.xlsx](https://github.com/rcfdtools/R.HydroTools/blob/main/tool/DisenoCaucesParametros/R.HydroTools.DisenoCaucesParametros.xlsx) disponible en GitHub, e incluirlo en el repositorio.                                                                                                                                                                                                                                                                                                       | 
-| M01A00    | Investigar, verificar y registrar en el libro de Excel, los parámetros técnicos, hidráulicos e hidrológicos indicados en esta actividad.<br><br>Para el grupo de parámetros normativos, ambientales / sociales y territoriales, revisar los parámetros actualmente reportados, investigar, registrar y actualizar.                                                                                                                                                                                                                                   | 
+| M01A00    | Realice los análisis de estimación de factores de sinuosidad a partir de los diferentes métodos presentados, indique y justifique el valor a utilizar para el diseño geométrico horizontal del cauce sinuoso de su proyecto.                                                                                                                                                                                                                                                                                                                         | 
 | M01A00    | Registrar los valores obtenidos en el [libro de parámetros generales](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoCaucesParametros) requeridos para el diseño y la modelación. Guardar en la carpeta _file/table_.                                                                                                                                                                                                                                                                                                                |
 | M01A00    | Opcional: verificar la formulación correcta de los libros de cálculo suministrados. En las notas de la ficha de control documental indicar el método de verificación y si se requieren o no ajustes.                                                                                                                                                                                                                                                                                                                                                 |
 | M01A00    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
@@ -186,11 +190,12 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 >
 > Nota 2: una vez el instructor realice la revisión y el estudiante presente las correcciones o ajustes solicitados, será necesario cargar una nueva versión de los archivos en el repositorio del proyecto, incluyendo o actualizando al final del nombre del archivo, la fecha de presentación en formato aaaammdd y manteniendo las versiones anteriores presentadas.
 >
+> Nota 3: las funciones de estimación lineal para obtener los parámetros de las regresiones potenciales de los métodos 1 y 2, requieren de la actualización del rango de la matriz de análisis. Sin este ajuste, la regresión únicamente evaluará las primeras filas del ejemplo y no obtendrán los valores correctos.
 
 
 ## Referencias
 
-* 
+* https://www.autodesk.com/blogs/water/2023/09/05/can-you-really-calculate-a-rivers-path-using-pi/
 
 
 ## Control de versiones

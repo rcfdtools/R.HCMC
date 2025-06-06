@@ -136,11 +136,11 @@ Gráficos de comparación Método 1 y Método 2.
 
 3. Abra la tabla de atributos de la capa exportada y verifique cuantos registros o líneas de drenaje contiene la capa, seleccione todos los registros y desde el editor de entidades, una los dos tramos.
 
-<div align="center"><img src="graph/QGIS_Merge.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Merge.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 4. De la tabla de atributos, recalcule todas las propiedades correspondientes a identificador, longitudes, factores y coordenadas. Obtendrá un factor de sinuosidad de 1.375 a partir de la longitud del río y la longitud Euclidiana del valle.
 
-<div align="center"><img src="graph/QGIS_FieldCalculatorLValley3.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_FieldCalculatorLValley3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 

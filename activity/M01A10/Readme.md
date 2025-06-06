@@ -33,10 +33,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## Método 1: Estimación del factor de sinuosidad a partir de la longitud euclidiana del valle en cada río
 
-
 <div align="center"><img src="graph/SinuosityFactorSample.jpg" alt="R.SIGE" width="50%" border="0" /><sub><br>Tomado de: <a href="https://www.autodesk.com/blogs/water/2023/09/05/can-you-really-calculate-a-rivers-path-using-pi/">www.autodesk.com/blogs/</a></sub><br><br></div>
-
-
 
 1. En QGIS, cargue la capa de drenajes [CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip), ajuste la simbología de representación y abra la tabla de atributos.
 

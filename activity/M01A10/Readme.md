@@ -82,7 +82,7 @@ Cree también una gráfica LPm vs. FS, podrá observar que existe una dispersió
 <div align="center"><img src="graph/QGIS_Table.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo1.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo1a.jpg" alt="R.SIGE" width="70%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo1Graph.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo1Graph.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 **Resultados**: el factor de sinuosidad promedio corresponde a un valor de 1.26 y para la longitud del cauce natural a reemplazar y utilizando la regresión obtenida, el factor es 1.3639.
 

@@ -162,10 +162,10 @@ Gráficos de comparación Método 1 y Método 2.
 
 ## Comparación y análisis de resultados
 
-Para el diseño del cauce sinuoso hemos obtenido diferentes valores de referencia, sin embargo, consideraremos que según el trazado del valle suavizado correspondiente a una longitud de Lv = 5158.536 metros y la longitud del cauce natural a reemplazar correspondiente a Lr = 6689.90475528285 metros, el factor de sinuosidad es 1.29686 (nombrado como Método 4).
+Para el diseño del cauce sinuoso hemos obtenido diferentes valores de referencia, sin embargo, consideraremos que según el trazado del valle suavizado correspondiente a una longitud de Lv = 5158.536 metros y la longitud del cauce natural a reemplazar correspondiente a Lr = 6689.90475 metros, el factor de sinuosidad es 1.29686 (nombrado como Método 4).
 
-<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Comparacion.jpg" alt="R.SIGE" width="80%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.ComparacionGraph.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Comparacion.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.ComparacionGraph.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 
 ## Actividades de proyecto :triangular_ruler:

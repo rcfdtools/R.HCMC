@@ -123,6 +123,28 @@ Gráficos de comparación Método 1 y Método 2.
 
 ## Método 3: Factor de sinuosidad a partir de la longitud euclidiana del tramo a reemplazar
 
+1. En QGIS, cargue al mapa la capa [RD_EjeValleSuavizado_AutodeskCivil3DClotoide.shp](../../shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.zip) correspondiente al eje del valle suavizado.
+
+<div align="center"><img src="graph/QGIS_AddLayer1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+2. Seleccione los tramos de drenaje natural a reemplazar y exporte a una nueva capa con el nombre [TramoNaturalReemplazar.shp](../../shp/TramoNaturalReemplazar.zip).
+
+> Asegúrese de que el tramo exportado cubre la longitud completa desde el inicio y hasta el fin del valle, en caso de ser necesario, exporte los tramos naturales inmediatos aguar arriba y aguas abajo y luego con ayuda el editor de geometría, corte los extremos restantes usando la herramienta _Split_.
+
+<div align="center"><img src="graph/QGIS_ExportLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ExportLayer1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

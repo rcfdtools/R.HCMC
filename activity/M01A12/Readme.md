@@ -223,11 +223,34 @@ Realice en análisis para los demás valores.
 
 Resumen de tamaños característicos obtenidos
 <div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion4.jpg" alt="R.SIGE" width="40%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion5.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion5.jpg" alt="R.SIGE" width="40%" border="0" /></div>
 
 
-## 2. Rugosidades de diseño
+## 2. Rugosidades de diseño - Método 1: en función del material característico del lecho
 
+1. En la hoja de análisis de rugosidad, automáticamente se han calculado los valores de rugosidad en función de diferentes ecuaciones empíricas y tamaños de material.
+
+> :bulb: Los valores promedio presentados únicamente deben ser utilizados como referencia general de diseño. Para la elección de la rugosidad de diseño, se deben considerar aquellas ecuaciones que sean aplicables a lechos con características similares a los del corredor de diseño.
+
+Para ecuaciones basadas en d50, hemos obtenido las siguientes rugosidades:
+
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd50.jpg" alt="R.SIGE" width="40%" border="0" /></div>
+
+Para ecuaciones basadas en d65, hemos obtenido las siguientes rugosidades:
+
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd65.jpg" alt="R.SIGE" width="40%" border="0" /></div>
+
+Para la ecuación basada en d75, hemos obtenido la siguiente rugosidad:
+
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd75.jpg" alt="R.SIGE" width="40%" border="0" /></div>
+
+Para ecuaciones basadas en d90, hemos obtenido las siguientes rugosidades:
+
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd90.jpg" alt="R.SIGE" width="40%" border="0" /></div>
+
+En resumen, los valores promedio de referencia son:
+
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.ndResumen.jpg" alt="R.SIGE" width="40%" border="0" /></div>
 
 
 

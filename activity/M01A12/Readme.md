@@ -22,14 +22,14 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | Requerimiento                                                                                                                          | Descripción                                                                            |
 |:---------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                     | Microsoft Excel 365.                                                                   |
-| [:open_file_folder:R.HydroTools.GradacionRugosidad.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/GradacionRugosidad)  | Libro de cálculo para el análisis de los materiales del lecho y rugosidades de diseño. |
+| [:open_file_folder:R.HydroTools. GradacionRugosidad.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/GradacionRugosidad) | Libro de cálculo para el análisis de los materiales del lecho y rugosidades de diseño. |
 
 </div>
 
 Complementariamente es necesario realizar:
 
 * Muestreo de suelos en la zona de estudio.
-* Evaluar las características generales de las coberturas existentes o proyectadas de suelos localizadas en la zona de trazado del canal artificial a diseñar.
+* Evaluar características generales de las coberturas existentes o proyectadas de suelos localizadas en la zona de trazado del canal artificial a diseñar.
 
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
@@ -39,7 +39,7 @@ Complementariamente es necesario realizar:
 Para el análisis de los materiales del lecho y la definición de las rugosidades de diseño, utilizaremos las siguientes ecuaciones y valores de referencia.
 
 
-### 0.1. Ecuaciones empíricas para estimar el valor característico de la rugosidad de Manning
+### 1. Ecuaciones empíricas para estimar el valor característico de la rugosidad de Manning
 
 #### Basados en d50
 | Autor                                                                     | Ecuación empírica                         | Descripción o referencia                                                                                                                                                                                          |
@@ -78,7 +78,7 @@ Para el análisis de los materiales del lecho y la definición de las rugosidade
 | Yen, 1992                    | 𝑛=0.0384(𝐷<sub>90</sub>)<sup>0.16<sup> | Universidad Nacional de Colombia, sede Medellín. Escuela de Geociencias y Medio Ambiente, Ramiro Marbello Pérez                  |                  
 
 
-### 0.2. Valores de referencia para las rugosidades n de Manning [^1]
+### 2. Valores de referencia para las rugosidades n de Manning [^1]
 
 La selección de un valor apropiado de la Rugosidad n de Manning es muy significativo al momento de calcular la elevación de la lámina de agua en un canal. El n de Manning es altamente variable y depende de múltiples factores, tales como: 
 
@@ -227,8 +227,8 @@ Realice en análisis para los demás valores.
 <div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.d90Graph.jpg" alt="R.SIGE" width="85%" border="0" /></div>
 
 Resumen de tamaños característicos obtenidos
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion4.jpg" alt="R.SIGE" width="40%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion5.jpg" alt="R.SIGE" width="40%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion4.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion5.jpg" alt="R.SIGE" width="50%" border="0" /></div>
 
 
 ## 2. Rugosidades de diseño - Método 1: en función del material característico del lecho
@@ -239,23 +239,23 @@ Resumen de tamaños característicos obtenidos
 
 Para ecuaciones basadas en d50, hemos obtenido las siguientes rugosidades:
 
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd50.jpg" alt="R.SIGE" width="40%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd50.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 Para ecuaciones basadas en d65, hemos obtenido las siguientes rugosidades:
 
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd65.jpg" alt="R.SIGE" width="40%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd65.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 Para la ecuación basada en d75, hemos obtenido la siguiente rugosidad:
 
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd75.jpg" alt="R.SIGE" width="40%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd75.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 Para ecuaciones basadas en d90, hemos obtenido las siguientes rugosidades:
 
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd90.jpg" alt="R.SIGE" width="40%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd90.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 En resumen, los valores promedio de referencia son:
 
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.ndResumen.jpg" alt="R.SIGE" width="40%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.ndResumen.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 
 ## 3. Rugosidades de diseño - Método 2: Rugosidad de Manning en sección dominante y llanura usando valores de referencia
@@ -264,7 +264,7 @@ Utilizando como referencia las tablas de referencia del Cuerpo de Ingenieros de 
 
 > Para el fondo del canal dominante se recomienda tamizar los materiales de corte y utilizar los gruesos como protección de fondo.
 
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nrnv.jpg" alt="R.SIGE" width="40%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nrnv.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 
 ## Actividades de proyecto :triangular_ruler:

@@ -18,17 +18,14 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                                                   | Descripción                                                                                 |
-|:--------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                              | Microsoft Excel 365.                                                                        |
-| [:open_file_folder:R.HydroTools.BordeLibreCanal.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/BordeLibreCanal) | Libro de cálculo para la estimación del borde libre.                                        |
+| Requerimiento                                                                                                                   | Descripción                                                                                                                                                                                                                                                                                              |
+|:--------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                              | Microsoft Excel 365.                                                                                                                                                                                                                                                                                     |
+| [:open_file_folder:R.HydroTools.BordeLibreCanal.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/BordeLibreCanal) | Libro de cálculo para la estimación del borde libre.                                                                                                                                                                                                                                                     |
+| [M01A02](../M01A02)                                                                                                             | Caudal de diseño obtenido de la modelación hidrológica para el periodo de retorno (Tr) de 100 años.                                                                                                                                                                                                      |
+| [M01A01](../M01A01), [M01A03](../M01A03), [M01A06](../M01A06)                                                                   | Parámetros de diseño: velocidad máxima admisible de flujo (V), máxima profundidad normal (Yn) admisible sin borde libre de acuerdo a la altura máxima disponible para el diseño de la sección (Y), ancho superficial disponible (T) y radio de curvatura (Rc) estimado para el eje suavizado del valle.  |
 
 </div>
-
-Adicionalmente son requeridos:
-
-* [M01A02](../M01A02) >> Caudal de diseño obtenido de la modelación hidrológica para el periodo de retorno (Tr) de 100 años.
-* [M01A01](../M01A01), [M01A03](../M01A03) >> Parámetros de diseño: velocidad máxima admisible de flujo (V), máxima profundidad normal (Yn) admisible sin borde libre de acuerdo a la altura máxima disponible para el diseño de la sección (Y), ancho superficial disponible (T) y radio de curvatura (Rc) estimado para el eje suavizado del valle.
 
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 

@@ -42,7 +42,7 @@ Adicionalmente son requeridos:
 > Profundidad normal sin borde libre: se ha tomado como referencia la sección de inicio del canal de realineamiento cuya profundidad máxima es de 3 metros y se ha previsto un borde libre de 0.4 metros. La profundidad normal de la lámina de agua deberá estar alrededor de 2.6 metros.
 
 
-<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Parametros.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Parametros.jpg" alt="R.SIGE" width="85%" border="0" /></div>
 
 Para análisis en función del caudal y el tipo de superficie, utilizaremos las siguientes curvas características de Bolinaga.
 

@@ -38,6 +38,9 @@ Adicionalmente son requeridos:
 1. En el libro de análisis [R.HydroTools.BordeLibreCanal.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/BordeLibreCanal), ingrese los parámetros correspondientes al caudal de diseño de la sección compuesta para el periodo de retorno de diseño, profundidad normal del flujo, velocidad máxima admisible, ancho superficial máximo y radio de curvatura del valle suavizado.
 
 > Del ancho máximo del corredor de realineamiento, correspondiente a 300 metros, reservaremos como mínimo 10 metros a cada costado de la sección compuesta para la conformación de la corona, por lo cual, el ancho superficial máximo T será de 280 metros.
+> 
+> Profundidad normal sin borde libre: se ha tomado como referencia la sección de inicio del canal de realineamiento cuya profundidad máxima es de 3 metros y se ha previsto un borde libre de 0.4 metros. La profundidad normal de la lámina de agua deberá estar alrededor de 2.6 metros.
+
 
 <div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Parametros.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
@@ -57,7 +60,6 @@ Para análisis en función del ancho libre utilizaremos los siguientes valores d
 
 
 
-Profundidad normal sin borde libre: se ha tomado como referencia la sección de inicio del canal de realineamiento cuya profundidad máxima es de 3 metros y se ha previsto un borde libre de 0.4 metros. La profundidad normal de la lámina de agua deberá estar alrededor de 2.6 metros.
 
 
 

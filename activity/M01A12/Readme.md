@@ -196,9 +196,17 @@ En la parte inferior de la tabla podrá observar el peso total de la muestra y e
 
 <div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion1.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
-2. 
+2. En la hoja _Gradación_, registre los valores de peso retenido y peso sucio y seco. Automáticamente serán calculados los porcentajes acumulados y los porcentajes que pasan y se generará la gráfica de la curva granulométrica.
 
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion2.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion3.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
+3. Para la determinación del tamaño característico de los materiales y dependiendo de la metodología de diseño de la sección hidráulica del canal, utilizaremos como referencia los siguientes porcentajes: d16, d50, d65, d75, d84 y d90.
+
+En la hoja de análisis, ingrese el primer valor de análisis y verifique la posición en la curva granulométrica.
+
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.d16.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.d16Graph.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 
 

@@ -239,23 +239,23 @@ Resumen de tamaños característicos obtenidos
 
 Para ecuaciones basadas en d50, hemos obtenido las siguientes rugosidades:
 
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd50.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd50.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 Para ecuaciones basadas en d65, hemos obtenido las siguientes rugosidades:
 
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd65.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd65.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 Para la ecuación basada en d75, hemos obtenido la siguiente rugosidad:
 
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd75.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd75.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 Para ecuaciones basadas en d90, hemos obtenido las siguientes rugosidades:
 
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd90.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd90.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 En resumen, los valores promedio de referencia son:
 
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.ndResumen.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.ndResumen.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 
 ## 3. Rugosidades de diseño - Método 2: Rugosidad de Manning en sección dominante y llanura usando valores de referencia
@@ -264,7 +264,7 @@ Utilizando como referencia las tablas de referencia del Cuerpo de Ingenieros de 
 
 > Para el fondo del canal dominante se recomienda tamizar los materiales de corte y utilizar los gruesos como protección de fondo.
 
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nrnv.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nrnv.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 
 ## Actividades de proyecto :triangular_ruler:

@@ -190,7 +190,7 @@ Manning's n Values from www.hec.usace.army.mil
 
 1. En el libro de análisis [R.HydroTools.GradacionRugosidad.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/GradacionRugosidad), identifique los valores de la tabla de gradación del caso de estudio y proyecto.
 
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion.jpg" alt="R.SIGE" width="85%" border="0" /></div>
 
 En la parte inferior de la tabla podrá observar el peso total de la muestra y el peso sucio y seco requerido para realizar la corrección de la curva granulométrica.
 
@@ -199,7 +199,7 @@ En la parte inferior de la tabla podrá observar el peso total de la muestra y e
 2. En la hoja _Gradación_, registre los valores de peso retenido y peso sucio y seco. Automáticamente serán calculados los porcentajes acumulados y los porcentajes que pasan y se generará la gráfica de la curva granulométrica.
 
 <div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion3.jpg" alt="R.SIGE" width="800%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion3.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 3. Para la determinación del tamaño característico de los materiales y dependiendo de la metodología de diseño de la sección hidráulica del canal, utilizaremos como referencia los siguientes porcentajes: d16, d50, d65, d75, d84 y d90.
 

@@ -186,9 +186,17 @@ Manning's n Values from www.hec.usace.army.mil
 | d. Dense brush, high stage                                                                                      |   0.08    |   0.1    |   0.14    |
 
 
-
-
 ## Procedimiento general
+
+1. En el libro de análisis [R.HydroTools.GradacionRugosidad.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/GradacionRugosidad), identifique los valores de la tabla de gradación del caso de estudio y proyecto.
+
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+
+En la parte inferior de la tabla podrá observar el peso total de la muestra y el peso sucio y seco requerido para realizar la corrección de la curva granulométrica.
+
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion1.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+
+2. 
 
 
 

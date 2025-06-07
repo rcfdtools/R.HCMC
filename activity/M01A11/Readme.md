@@ -46,7 +46,7 @@ Adicionalmente son requeridos:
 
 Para análisis en función del caudal y el tipo de superficie, utilizaremos las siguientes curvas características de Bolinaga.
 
-<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga.jpg" alt="R.SIGE" width="75%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga1.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga2.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga4.jpg" alt="R.SIGE" width="100%" border="0" /></div>
@@ -56,12 +56,12 @@ Para análisis en función del ancho libre utilizaremos los siguientes valores d
 <div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.BordeLibre.jpg" alt="R.SIGE" width="45%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.BordeLibre1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
-2. 
+2. Una vez ingresados los parámetros de entrada, automáticamente serán estimados diferentes valores de borde libre, para el canal de realineamiento se utilizan como referencia, todos aquellos métodos relacionados con canales erosionables y en régimen subcrítico. Para las estructuras hidráulicas de inicio, entrega, cauces laterales y controles de fondo, podrá considerar todos los valores de referencia dependiendo del tipo de recubrimiento y el régimen del flujo.
 
+<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.BordeLibre2.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.BordeLibre3.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
-
-
-
+**Valor de referencia para diseño**: debido a que se trata de un canal compuesto por sección trapezoidal dominante y sección trapezoidal de creciente, valle confinado de gran ancho y pendiente similar a la del cauce natural original, se ha establecido que 0.4 metros es suficiente para evitar desbordamiento por causa de oleaje y sobreelevación en curvas y transiciones.
 
 
 ## Actividades de proyecto :triangular_ruler:

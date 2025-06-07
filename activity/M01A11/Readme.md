@@ -46,7 +46,7 @@ Adicionalmente son requeridos:
 
 Para análisis en función del caudal y el tipo de superficie, utilizaremos las siguientes curvas características de Bolinaga.
 
-<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga.jpg" alt="R.SIGE" width="75%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga1.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga2.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga4.jpg" alt="R.SIGE" width="100%" border="0" /></div>

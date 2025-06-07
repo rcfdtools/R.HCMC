@@ -39,18 +39,18 @@ Adicionalmente son requeridos:
 
 > Del ancho máximo del corredor de realineamiento, correspondiente a 300 metros, reservaremos como mínimo 10 metros a cada costado de la sección compuesta para la conformación de la corona, por lo cual, el ancho superficial máximo T será de 280 metros.
 
-<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Parametros.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Parametros.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 Para análisis en función del caudal y el tipo de superficie, utilizaremos las siguientes curvas características de Bolinaga.
 
-<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga2.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga4.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga1.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga2.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga4.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 Para análisis en función del ancho libre utilizaremos los siguientes valores de referencia.
 
-<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.BordeLibre.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.BordeLibre.jpg" alt="R.SIGE" width="45%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.BordeLibre1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 2. 

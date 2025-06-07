@@ -3,7 +3,7 @@ Keywords: `freeboard`  `m01a11`
 
 Sobreelevación requerida o borde libre en la sección de un canal, capaz de contener el flujo sin desbordamiento, producto del oleaje o de la sobreelevación de la lámina de agua en tramos curvos y transiciones.
 
-<div align="center"><img src="graph/M01A00.png" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A11.png" alt="R.SIGE" width="60%" border="0" /></div>
 
 
 ## Objetivos

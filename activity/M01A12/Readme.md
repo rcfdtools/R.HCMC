@@ -186,7 +186,7 @@ Manning's n Values from www.hec.usace.army.mil
 | d. Dense brush, high stage                                                                                      |   0.08    |   0.1    |   0.14    |
 
 
-## Procedimiento general
+## 1. Curva granulométrica y tamaño característico del material (% pasa)
 
 1. En el libro de análisis [R.HydroTools.GradacionRugosidad.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/GradacionRugosidad), identifique los valores de la tabla de gradación del caso de estudio y proyecto.
 
@@ -203,13 +203,26 @@ En la parte inferior de la tabla podrá observar el peso total de la muestra y e
 
 3. Para la determinación del tamaño característico de los materiales y dependiendo de la metodología de diseño de la sección hidráulica del canal, utilizaremos como referencia los siguientes porcentajes: d16, d50, d65, d75, d84 y d90.
 
-En la hoja de análisis, ingrese el primer valor de análisis y verifique la posición en la curva granulométrica.
+En la hoja de análisis, ingrese el primer valor de análisis correspondiente a d16 y verifique la posición en la curva granulométrica.
 
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.d16.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center">d16<br><img src="graph/R.HydroTools.GradacionRugosidad.d16.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.d16Graph.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
+Realice en análisis para los demás valores.
+
+<div align="center">d50<br><img src="graph/R.HydroTools.GradacionRugosidad.d50.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.d50Graph.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center">d65<br><img src="graph/R.HydroTools.GradacionRugosidad.d65.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.d65Graph.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center">d75<br><img src="graph/R.HydroTools.GradacionRugosidad.d75.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.d75Graph.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center">d84<br><img src="graph/R.HydroTools.GradacionRugosidad.d84.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.d84Graph.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center">d90<br><img src="graph/R.HydroTools.GradacionRugosidad.d90.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.d90Graph.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 
+## 2. Rugosidades de diseño
 
 
 

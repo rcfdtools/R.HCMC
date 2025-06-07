@@ -226,7 +226,6 @@ Resumen de tamaños característicos obtenidos
 <div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion5.jpg" alt="R.SIGE" width="50%" border="0" /></div>
 
 
-
 ## 2. Rugosidades de diseño
 
 

@@ -31,7 +31,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## Procedimiento general
 
-<div align="center"><img src="graph/BordeLibre.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center"><img src="graph/BordeLibre.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 1. En el libro de análisis [R.HydroTools.BordeLibreCanal.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/BordeLibreCanal), ingrese los parámetros correspondientes al caudal de diseño de la sección compuesta para el periodo de retorno de diseño, profundidad normal del flujo, velocidad máxima admisible, ancho superficial máximo y radio de curvatura del valle suavizado.
 

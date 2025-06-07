@@ -221,6 +221,11 @@ Realice en análisis para los demás valores.
 <div align="center">d90<br><img src="graph/R.HydroTools.GradacionRugosidad.d90.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.d90Graph.jpg" alt="R.SIGE" width="85%" border="0" /></div>
 
+Resumen de tamaños característicos obtenidos
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion4.jpg" alt="R.SIGE" width="40%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion5.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+
+
 
 ## 2. Rugosidades de diseño
 

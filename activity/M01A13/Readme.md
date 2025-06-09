@@ -96,6 +96,7 @@ div align="center"><img src="graph/HECRAS_HDRiverCopeland3.jpg" alt="R.SIGE" wid
 Por tratarse de una sección ancha (28.96 m) el lecho podría sufrir algún nivel de degradación y para la altura seleccionada de 1.5 metros. Entonces, el canal diseñado podrá presentar algunos fenómenos de erosión de sedimentos provenientes de su propio lecho cuando esté recién excavado y sin vegetación acuática o hierbas en las zonas de talud.
 
 div align="center"><img src="graph/HECRAS_HDRiverCopeland4.jpg" alt="R.SIGE" width="20%" border="0" /></div>
+div align="center"><img src="graph/HECRAS_HDRiverCopeland6.jpg" alt="R.SIGE" width="20%" border="0" /></div>
 
 4. En _File / Save Hydraulic Design Data_, guarde el diseño como _RiverCopeland_.
 

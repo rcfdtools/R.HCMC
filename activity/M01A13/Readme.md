@@ -26,9 +26,6 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | Requerimiento                                                                                                                                                            | Descripción                                                                                     |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                                                       | Microsoft Excel 365.                                                                            |
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/word?market=bz)                                                                                        | Microsoft Word 365.                                                                             |
-| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                                                                                                                   | Notepad++.                                                                                      |
-| [:toolbox:Herramienta](https://qgis.org/)                                                                                                                                | QGIS 3.42 o superior.                                                                           |
 | [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                                                                                 | HEC-RAS 6.6 o superior.                                                                         |
 | [:round_pushpin:R.HCMC.NodoValle.shp](../../file/shp/R.HCMC.NodoValle.zip)                                                                                               | Capa de nodos eje valle recto (creada en actividad anterior).                                   |
 | [:open_file_folder:R.HydroTools.DisenoGeometricoHidraulicoVertical.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoGeometricoHidraulicoVertical)    | Libro de cálculo para el diseño geométrico e hidráulico vertical de canales a superficie libre. |
@@ -41,7 +38,16 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## 1. Diseño hidráulico para el cauce dominante principal
 
+1. En HEC-RAS cree un proyecto nuevo y nombre como HECRAS_v0a. Ingrese al Módulo de Diseño, menú _Run / Hydraulic Design Functions…_ ó clic en el botón _Perform Hydraulic Design Computations_.  
 
+
+
+
+En la ventana de diseño hidráulico y en _Type / Stable Channel Design…_, observará que HEC-RAS dispone de 3 métodos diferentes para el diseño de sección estable (secciones que hidráulicamente se encuentran en el límite entre la agradación o degradación del lecho).
+
+1. [x] Copeland
+2. [x] Regime
+3. [x] Tractive Force
 
 <div align="center"><img src="graph/SeccionCompuesta.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 

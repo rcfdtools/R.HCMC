@@ -288,7 +288,7 @@ Geometría ajustada de la Sección a utilizar en el caso de estudio: al corredor
 
 > Atención: los datos de este esquema se utilizarán para el diseño sinuoso
 
-<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShields.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShields1.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 > Para regularizar el diseño y facilitar el replanteo en terreno se recomienda ajustar los anchos calculados a valores enteros por encima del valor obtenido.
 

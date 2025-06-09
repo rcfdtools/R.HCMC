@@ -55,7 +55,7 @@ En la ventana de diseño hidráulico y en _Type / Stable Channel Design…_, obs
 <div align="center"><img src="graph/HECRAS_HD.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 
-## 2. Diseño hidráulico para el método de Copeland
+## 2. Diseño hidráulico para el Método de Copeland
 
 
 ### 2.1. Sección dominante (river)
@@ -96,7 +96,7 @@ La sección seleccionada de 1.5 m de altura además de cumplir con los criterios
 Por tratarse de una sección ancha (28.96 m) el lecho podría sufrir algún nivel de degradación y para la altura seleccionada de 1.5 metros. Entonces, el canal diseñado podrá presentar algunos fenómenos de erosión de sedimentos provenientes de su propio lecho cuando esté recién excavado y sin vegetación acuática o hierbas en las zonas de talud.
 
 <div align="center"><img src="graph/HECRAS_HDRiverCopeland4.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_HDRiverCopeland6.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDRiverCopeland6.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 4. En _File / Save Hydraulic Design Data_, guarde el diseño como _RiverCopeland_.
 
@@ -127,7 +127,7 @@ Para la selección de la sección de diseño, es necesario tener en cuenta que e
 
 La sección seleccionada de 1.39 m de altura además de cumplir con los criterios de sección estable, cumple con los criterios de velocidad (1.72 m/s < 3 m/s) y cortante (11.93 N/m² ≈ 20 N/m²). Tener en cuenta que el borde libre disponible para este diseño es de 0.11 m (3 m – 1.5 m – 1.39 m) inferior al estimado de 0.4 m. 
 
-<div align="center"><img src="graph/HECRAS_HDValleyCopeland2.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDValleyCopeland2.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 
 ### 2.3. Sección compuesta (composite)
@@ -137,7 +137,7 @@ La sección seleccionada de 1.39 m de altura además de cumplir con los criterio
 * Corona Valle 186.56 m = 2 * (14 * 1.5) + 144.56
 * Huella para mecanización = (300 – 186.56) / 2 = 56.72 m
 
-<div align="center"><img src="graph/HECRAS_HDCompositeCopeland.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDCompositeCopeland.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 
 

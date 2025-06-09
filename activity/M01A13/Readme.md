@@ -310,7 +310,13 @@ Luego del diseño hidráulico, es necesario comprobar que la sección compuesta 
 
 2. En el módulo de diseño ir al menú _Type / Uniform Flow…._ e ingresar en la pestaña _Width_ los parámetros y geometría obtenida del diseño hidráulico:
 
+> Para la elevación inversa o cota de fondo, puede utilizar 0 cómo valor de referencia o la cota real del fondo en el inicio del nuevo realineamiento, correspondiente a 70.5 metros.
+> 
+> Cota máxima lámina de agua = 2.6 m, considerando el borde libre de diseño definido en actividades anteriores.
+
 <div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShieldsUniformFlow1.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+
+
 
 3. 
 

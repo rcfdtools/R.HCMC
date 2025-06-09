@@ -137,7 +137,7 @@ La sección seleccionada de 1.39 m de altura además de cumplir con los criterio
 * Corona Valle 186.56 m = 2 * (14 * 1.5) + 144.56
 * Huella para mecanización = (300 – 186.56) / 2 = 56.72 m
 
-<div align="center"><img src="graph/HECRAS_HDCompositeCopeland.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDCompositeCopeland.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 > Posteriormente, verificaremos por flujo uniforme la altura del borde libre de la sección compuesta.
 
@@ -222,7 +222,7 @@ La diferencia en los resultados con respecto al Método de Shields corresponde a
 
 Geometría ajustada de la Sección a utilizar en el caso de estudio: al corredor disponible de 300 metros se le descontó una huella de mecanización de 24.4 metros. A la base del valle se le sumó aproximadamente 4.5 metros a cada lado para prevenir co-alineación de taludes.
 
-div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceLane.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceLane.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 > Para regularizar el diseño y facilitar el replanteo en terreno se recomienda ajustar los anchos calculados a valores enteros por encima del valor obtenido.
 

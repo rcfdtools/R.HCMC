@@ -64,7 +64,7 @@ Parámetros requeridos y registrados en el libro global de diseño en Excel:
 
 * Caudal de diseño Tr 2.33yr (m³/s) = 130.
 * Temperatura Agua (ºC) = 15.
-* Gradación de los materiales del lecho D84 = 0.18mm, D50 = 0.146mm, D16 = 0.032mm.
+* Gradación de los materiales del lecho: D84 = 0.18 mm, D50 = 0.146 mm, D16 = 0.032 mm.
 * Taludes = 14H : 1V.
 * Rugosidad canal dominante = 0.018.
 
@@ -104,6 +104,52 @@ Por tratarse de una sección ancha (28.96 m) el lecho podría sufrir algún nive
 
 
 ### 2.2. Sección creciente (valley)
+
+Parámetros requeridos y registrados en el libro global de diseño en Excel:
+
+* Caudal de diseño Tr 100yr (m³/s) = 392 (Tr 100yr = 522 – Tr 2.33yr = 130).
+* Temperatura Agua (ºC) = 15.
+* Gradación de los materiales del lecho: D84 = 0.18 mm, D50 = 0.146 mm, D16 = 0.032 mm.
+* Taludes = 14H : 1V.
+* Rugosidad canal dominante = 0.035.
+
+> Concentración de sedimentos = Calculados por HEC-RAS en función de la geometría de la sección suponiendo que el cauce natural tiene un ancho de llanura en la base de 230 m, altura máxima de 3 m y la pendiente de la línea de energía es paralela a la del fondo del cauce sinuoso S = 0.000897. Sedimentos totales = 4414.83 ppm.
+
+1. En el menú _File / New Hydraulic Design Data_, guarde como _ValleyCopeland_ e ingrese los parámetros requeridos.
+
+<div align="center"><img src="graph/HECRAS_HDValleyCopeland.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+
+2. Clic en _Apply_ y _Compute_, aparecerá entonces una ventana con diferentes geometrías propuestas que cumplen con el diseño de sección estable para los parámetros ingresados.
+
+Para la selección de la sección de diseño, es necesario tener en cuenta que existe una restricción preestablecida respecto al alto máximo de 3 m disponible la sección natural compuesta, el borde libre de 0.4 m y la altura de sección seleccionada de 1.5 m para la zona del cauce dominante. (para el ejercicio de clase seleccionar la sección con menor elevación)
+
+<div align="center"><img src="graph/HECRAS_HDValleyCopeland1.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+
+La sección seleccionada de 1.39 m de altura además de cumplir con los criterios de sección estable, cumple con los criterios de velocidad (1.72 m/s < 3 m/s) y cortante (11.93 N/m² ≈ 20 N/m²). Tener en cuenta que el borde libre disponible para este diseño es de 0.11 m (3 m – 1.5 m – 1.39 m) inferior al estimado de 0.4 m. 
+
+<div align="center"><img src="graph/HECRAS_HDValleyCopeland2.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+
+
+### 2.3. Geometría de la sección compuesta
+
+* Corona cauce dominante 70.96 m = 2 * (14 * 1.5 ) + 28.96
+* T Ancho Superficial 183.48 m = 2 * (14 * 1.39) + 144.56
+* Corona Valle 186.56 m = 2 * (14 * 1.5) + 144.56
+* Huella para mecanización = (300 – 186.56) / 2 = 56.72 m
+
+<div align="center"><img src="graph/HECRAS_HDCompositeCopeland.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

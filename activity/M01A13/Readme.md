@@ -182,7 +182,7 @@ Parámetros requeridos y registrados en el libro global de diseño en Excel:
 
 > Para establecer las variables a resolver (texto en **negrilla**), usar doble clic. Resolver **d50** zona central y ancho de base en la sección **W**.
 
-<div align="center"><img src="graph/HECRAS_HDCRiverTractiveForceShields.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDRiverTractiveForceShields.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 Resultados:
 
@@ -192,6 +192,32 @@ Resultados:
 
 
 ### 3.2. Sección creciente (valley)
+
+Parámetros requeridos y registrados en el libro global de diseño en Excel:
+
+* Caudal de diseño Tr 100yr (m³/s) = 392 (Tr 100yr = 522 – Tr 2.33yr = 130).
+* Temperatura Agua (ºC) = 15.
+* Gradación de los materiales del lecho D50 = 0.146 mm.
+* Ángulo de reposo de los materiales (º): 35
+* Talud lateral = 14H:1V.
+* n rugosidad de Manning: 0.035 en bancas y 0.018 en el lecho central
+* Pendiente de diseño del cauce sinuoso (m/m): 0.000897.
+* Altura estimada = 1.1 m.
+
+> La altura total de la sección deberá ser máximo de 3 metros correspondientes a 1.5m para el caudal dominante, 1.1m para crecientes y 0.4m para borde libre.
+
+1. En el menú _File / New Hydraulic Design Data_, guarde como _ValleyTractiveForceShields_ e ingrese los parámetros requeridos.
+
+> Para establecer las variables a resolver (texto en **negrilla**), usar doble clic. Resolver **d50** zona central y ancho de base en la sección **W**.
+
+<div align="center"><img src="graph/HECRAS_HDValleyTractiveForceShields.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+
+Resultados:
+
+* Ancho en la base = 200.24 metros.
+* Ancho en la corona = 231.04 metros.
+* Tamaño de partículas requeridas para lecho estable = 10.8 mm.
+
 
 
 

@@ -36,7 +36,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
 
-## 1. Creación de proyecto
+## 1. Creación de proyecto HEC-RAS
 
 1. En HEC-RAS cree un proyecto nuevo y nombre como _/file/hec/HECRAS_v0_HD/HECRAS_v0_HD.prj_. 
 
@@ -55,7 +55,7 @@ En la ventana de diseño hidráulico y en _Type / Stable Channel Design…_, obs
 <div align="center"><img src="graph/HECRAS_HD.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 
-## 2. Diseño hidráulico - Método de Copeland
+## 2. Diseño hidráulico HEC-RAS - Método de Copeland
 
 
 ### 2.1. Sección dominante (river)
@@ -143,7 +143,7 @@ La sección seleccionada de 1.39 m de altura además de cumplir con los criterio
 
 
 
-## 2. Diseño hidráulico - Método del Régimen de Flujo
+## 2. Diseño hidráulico HEC-RAS - Método del Régimen de Flujo
 
 Parámetros requeridos y registrados en el libro global de diseño en Excel:
 
@@ -162,7 +162,7 @@ La sección obtenida es de 892.49 metros de ancho, altura de lámina de agua en 
 > Como observa, en este método no se ingresan las inclinaciones de los taludes laterales y pendiente, la sección es resuelta en función de la estabilidad.
 
 
-## 3. Diseño hidráulico - Método de la Fuerza Tractiva (Shields)
+## 3. Diseño hidráulico HEC-RAS - Método de la Fuerza Tractiva (Shields)
 
 
 ### 3.1. Sección dominante (river)

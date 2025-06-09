@@ -38,18 +38,21 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## 1. Diseño hidráulico para el cauce dominante principal
 
-1. En HEC-RAS cree un proyecto nuevo y nombre como HECRAS_v0a. Ingrese al Módulo de Diseño, menú _Run / Hydraulic Design Functions…_ ó clic en el botón _Perform Hydraulic Design Computations_.  
+1. En HEC-RAS cree un proyecto nuevo y nombre como _/file/hec/HECRAS_v0_HD/HECRAS_v0_HD.prj_. 
 
+> En actividades anteriores, establecimos por defecto el sistema internacional de unidades, sin embargo, es indispensable verificar que el proyecto sea creadoo en este sistema. 
 
+<div align="center"><img src="graph/SeccionCompuesta.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
+2. Ingrese al Módulo de Diseño, menú _Run / Hydraulic Design Functions…_ o clic en el botón _Perform Hydraulic Design Computations_.  
 
 En la ventana de diseño hidráulico y en _Type / Stable Channel Design…_, observará que HEC-RAS dispone de 3 métodos diferentes para el diseño de sección estable (secciones que hidráulicamente se encuentran en el límite entre la agradación o degradación del lecho).
 
-1. [x] Copeland
-2. [x] Regime
-3. [x] Tractive Force
+* Copeland
+* Regime
+* Tractive Force
 
-<div align="center"><img src="graph/SeccionCompuesta.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_NewProject.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 
 

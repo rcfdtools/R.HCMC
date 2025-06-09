@@ -35,6 +35,8 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
+Plantilla presentación de esquemas sección compuesta: [M01A13.pptx](M01A13.pptx)
+
 
 ## 0. Creación de proyecto HEC-RAS
 
@@ -361,6 +363,46 @@ Resultados:
 * Ancho en la base = 7.24 metros.
 * Ancho en la corona = 67.24 metros.
 * Tamaño de partículas requeridas para lecho estable = 19.1 mm.
+
+
+## 7. Diseño cauce lateral por Método de la Fuerza Tractiva (Shields) en R.HydroTools
+
+Utilizando el libro de diseño y análisis [R.HydroTools.DisenoGeometricoHidraulicoVertical.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoGeometricoHidraulicoVertical), realice el diseño de la sección estable por el Método de Shields, considerando la curvatura del valle suavizado.
+
+> Previamente, realizamos en la actividad [M01A10](../M01A10), el análisis de la sinuosidad, obteniendo como referencia un factor de 1.29686 para el nuevo cauce sinuoso.
+> 
+> Considerando que el [eje del valle recto](../../file/table/R.HCMC.NodoValle.xlsx) (entre el nodo inicial y final) tiene una longitud de 4866.87 metros y que el valle suavizado es de 5158.536 metros, el factor de sinuosidad aplicable solo al valle es de 1.0599.
+
+
+### 7.1. Sección dominante (river)
+
+1. En el libro de Excel, ingrese los parámetros de diseño.
+
+> Para establecer el tipo de sinuosidad y el porcentaje de reducción aplicable a la fuerza tractiva permisible, utilizaremos el factor de sinuosidad 1.29686, con lo que podemos definir 25% de reducción para el cauce dominante, correspondiente a un canal moderadamente sinuoso.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaRio.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+
+2. Para los parámetros establecidos, encuentre el ancho en la base del canal usando la ecuación de Manning.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaRio1.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+
+3. Estime el factor de reducción del esfuerzo cortante crítico.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaRio2.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+
+4. Estime la fuerza tractiva por unidad de área mojada, τo, el tamaño mínimo de partículas requeridas en el lecho para conformar sección estable. Ingrese valores d50 hasta encontrar porcentajes positivos de estabilidad.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaRio3.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaRio4.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+
+Para la sección del cauce dominante, el tamaño de partículas de recubrimiento a utilizar es de 12 mm en los costados o bancas y 15.5 mm en el fondo y la sección hidráulica tiene un ancho de 71.23 metros con profundidad de 1.5 metros.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaRio5.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+
+
+
+
+
 
 
 

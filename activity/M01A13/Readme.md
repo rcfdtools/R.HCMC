@@ -36,7 +36,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
 
-## 1. Creación de proyecto HEC-RAS
+## 0. Creación de proyecto HEC-RAS
 
 1. En HEC-RAS cree un proyecto nuevo y nombre como _/file/hec/HECRAS_v0_HD/HECRAS_v0_HD.prj_. 
 
@@ -55,12 +55,12 @@ En la ventana de diseño hidráulico y en _Type / Stable Channel Design…_, obs
 <div align="center"><img src="graph/HECRAS_HD.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 
-## 2. Diseño hidráulico HEC-RAS - Método de Copeland
+## 1. Diseño por Método de Copeland en HEC-RAS
 
 
-### 2.1. Sección dominante (river)
+### 1.1. Sección dominante (river)
 
-Parámetros requeridos y registrados en el libro global de diseño en Excel:
+Para el diseño geométrico e hidráulico vertical utilizaremos los siguientes parámetros registrados en el libro global de diseño en Excel:
 
 * Caudal de diseño Tr 2.33yr (m³/s) = 130.
 * Temperatura Agua (ºC) = 15.
@@ -103,9 +103,9 @@ Por tratarse de una sección ancha (28.96 m) el lecho podría sufrir algún nive
 <div align="center"><img src="graph/HECRAS_HDRiverCopeland5.jpg" alt="R.SIGE" width="65%" border="0" /></div>
 
 
-### 2.2. Sección creciente (valley)
+### 1.2. Sección creciente (valley)
 
-Parámetros requeridos y registrados en el libro global de diseño en Excel:
+Para el diseño geométrico e hidráulico vertical utilizaremos los siguientes parámetros registrados en el libro global de diseño en Excel:
 
 * Caudal de diseño Tr 100yr (m³/s) = 392 (Tr 100yr = 522 – Tr 2.33yr = 130).
 * Temperatura Agua (ºC) = 15.
@@ -130,7 +130,7 @@ La sección seleccionada de 1.39 m de altura además de cumplir con los criterio
 <div align="center"><img src="graph/HECRAS_HDValleyCopeland2.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 
-### 2.3. Sección compuesta (composite)
+### 1.3. Sección compuesta (composite)
 
 * Corona cauce dominante 70.96 m = 2 * (14 * 1.5 ) + 28.96
 * T Ancho Superficial 183.48 m = 2 * (14 * 1.39) + 144.56
@@ -142,9 +142,9 @@ La sección seleccionada de 1.39 m de altura además de cumplir con los criterio
 > Posteriormente, verificaremos por flujo uniforme la altura del borde libre de la sección compuesta.
 
 
-## 2. Diseño hidráulico HEC-RAS - Método del Régimen de Flujo
+## 2. Diseño por Método del Régimen de Flujo en HEC-RAS
 
-Parámetros requeridos y registrados en el libro global de diseño en Excel:
+Para el diseño geométrico e hidráulico vertical utilizaremos los siguientes parámetros registrados en el libro global de diseño en Excel:
 
 * Caudal de diseño Tr 100yr (m³/s) = 392 (Tr 100yr = 522 – Tr 2.33yr = 130).
 * Gradación de los materiales del lecho D50 = 0.146 mm.
@@ -161,12 +161,12 @@ La sección obtenida es de 892.49 metros de ancho, altura de lámina de agua en 
 > Como observa, en este método no se ingresan las inclinaciones de los taludes laterales y pendiente, la sección es resuelta en función de la estabilidad.
 
 
-## 3. Diseño hidráulico HEC-RAS - Método de la Fuerza Tractiva (Lane)
+## 3. Diseño por Método de la Fuerza Tractiva (Lane) en HEC-RAS
 
 
 ### 3.1. Sección dominante (river)
 
-Parámetros requeridos y registrados en el libro global de diseño en Excel:
+Para el diseño geométrico e hidráulico vertical utilizaremos los siguientes parámetros registrados en el libro global de diseño en Excel:
 
 * Caudal de diseño Tr 2.33yr (m³/s) = 130
 * Temperatura Agua (ºC) = 15
@@ -192,7 +192,7 @@ Resultados:
 
 ### 3.2. Sección creciente (valley)
 
-Parámetros requeridos y registrados en el libro global de diseño en Excel:
+Para el diseño geométrico e hidráulico vertical utilizaremos los siguientes parámetros registrados en el libro global de diseño en Excel:
 
 * Caudal de diseño Tr 100yr (m³/s) = 392 (Tr 100yr = 522 – Tr 2.33yr = 130).
 * Temperatura Agua (ºC) = 15.
@@ -227,12 +227,12 @@ div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceLane.jpg" alt=
 > Para regularizar el diseño y facilitar el replanteo en terreno se recomienda ajustar los anchos calculados a valores enteros por encima del valor obtenido.
 
 
-## 4. Diseño hidráulico HEC-RAS - Método de la Fuerza Tractiva (Shields)
+## 4. Diseño por Método de la Fuerza Tractiva (Shields) en HEC-RAS
 
 
 ### 4.1. Sección dominante (river)
 
-Parámetros requeridos y registrados en el libro global de diseño en Excel:
+Para el diseño geométrico e hidráulico vertical utilizaremos los siguientes parámetros registrados en el libro global de diseño en Excel:
 
 * Caudal de diseño Tr 2.33yr (m³/s) = 130
 * Temperatura Agua (ºC) = 15
@@ -258,7 +258,7 @@ Resultados:
 
 ### 4.2. Sección creciente (valley)
 
-Parámetros requeridos y registrados en el libro global de diseño en Excel:
+Para el diseño geométrico e hidráulico vertical utilizaremos los siguientes parámetros registrados en el libro global de diseño en Excel:
 
 * Caudal de diseño Tr 100yr (m³/s) = 392 (Tr 100yr = 522 – Tr 2.33yr = 130).
 * Temperatura Agua (ºC) = 15.

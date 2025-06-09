@@ -130,7 +130,7 @@ La sección seleccionada de 1.39 m de altura además de cumplir con los criterio
 <div align="center"><img src="graph/HECRAS_HDValleyCopeland2.jpg" alt="R.SIGE" width="50%" border="0" /></div>
 
 
-### 2.3. Geometría de la sección compuesta
+### 2.3. Sección compuesta (composite)
 
 * Corona cauce dominante 70.96 m = 2 * (14 * 1.5 ) + 28.96
 * T Ancho Superficial 183.48 m = 2 * (14 * 1.39) + 144.56

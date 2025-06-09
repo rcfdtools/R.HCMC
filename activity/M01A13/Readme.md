@@ -142,7 +142,6 @@ La sección seleccionada de 1.39 m de altura además de cumplir con los criterio
 > Posteriormente, verificaremos por flujo uniforme la altura del borde libre de la sección compuesta.
 
 
-
 ## 2. Diseño hidráulico HEC-RAS - Método del Régimen de Flujo
 
 Parámetros requeridos y registrados en el libro global de diseño en Excel:
@@ -208,8 +207,6 @@ Parámetros requeridos y registrados en el libro global de diseño en Excel:
 
 1. En el menú _File / New Hydraulic Design Data_, guarde como _ValleyTractiveForceShields_ e ingrese los parámetros requeridos.
 
-> Para establecer las variables a resolver (texto en **negrilla**), usar doble clic. Resolver **d50** zona central y ancho de base en la sección **W**.
-
 <div align="center"><img src="graph/HECRAS_HDValleyTractiveForceShields.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 Resultados:
@@ -219,14 +216,13 @@ Resultados:
 * Tamaño de partículas requeridas para lecho estable = 10.8 mm.
 
 
-
-
 ### 3.3. Sección compuesta (composite)
 
+Geometría ajustada de la Sección a utilizar en el caso de estudio: al corredor disponible de 300 metros se le descontó una huella de mecanización de 24.4 metros. A la base del valle se le sumó aproximadamente 4.5 metros a cada lado para prevenir co-alineación de taludes.
 
+div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShields.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
-
-
+> Para regularizar el diseño y facilitar el replanteo en terreo se recomienda ajustar los anchos calculados a valores enteros por encima del valor obtenido.
 
 
 

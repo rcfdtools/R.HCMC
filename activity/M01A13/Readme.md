@@ -154,7 +154,7 @@ Para el diseño geométrico e hidráulico vertical utilizaremos los siguientes p
 
 En el menú _File / New Hydraulic Design Data_, guarde como _ValleyRegime_ e ingrese los parámetros requeridos.
 
-<div align="center"><img src="graph/HECRAS_HDCValleyRegime.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDValleyRegime.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 La sección obtenida es de 892.49 metros de ancho, altura de lámina de agua en 0.22 metros, pendiente de 0.000663 y rugosidad del lecho de 0.0046.
 

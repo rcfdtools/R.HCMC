@@ -1,5 +1,5 @@
 # 1.13. Diseño geométrico e hidráulico vertical del cauce principal de desviación y cauces laterales menores
-Keywords: `hydraulic-desgn` `tractive-force`  `m01a13`
+Keywords: `hydraulic-desgn` `tractive-force` `river` `valley` `confined-valley` `m01a13`
 
 Dimensionar la sección hidráulica dominante (1) y de creciente (2) del cauce principal y de los cauces laterales menores, verificando a flujo uniforme la capacidad hidráulica de la sección compuesta (3) y el borde libre requerido.
 
@@ -11,7 +11,7 @@ Dimensionar la sección hidráulica dominante (1) y de creciente (2) del cauce p
 * Diseñar la sección dominante por los métodos Copeland, Régimen de Flujo y Fuerza tractiva.
 * Diseñar la sección de creciente por los métodos Copeland, Régimen de Flujo y Fuerza tractiva.
 * Verificar la sección compuesta por flujo uniforme.
-* Diseñar la geometría de los pasos de vía usando alcantarillas por área equivalente a descarga libre.
+~~* Diseñar la geometría de los pasos de vía usando alcantarillas por área equivalente a descarga libre.~~
 * Crear un prototipo digital del diseño realizado y modelar a flujo permanente y no permanente.
 
 <div align="center"><img src="graph/SeccionCompuesta.jpg" alt="R.SIGE" width="60%" border="0" /></div>
@@ -36,13 +36,13 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
 
-## 1. Diseño hidráulico para el cauce dominante principal
+## 1. Creación de proyecto
 
 1. En HEC-RAS cree un proyecto nuevo y nombre como _/file/hec/HECRAS_v0_HD/HECRAS_v0_HD.prj_. 
 
 > En actividades anteriores, establecimos por defecto el sistema internacional de unidades, sin embargo, es indispensable verificar que el proyecto sea creadoo en este sistema. 
 
-<div align="center"><img src="graph/SeccionCompuesta.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_NewProject.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 2. Ingrese al Módulo de Diseño, menú _Run / Hydraulic Design Functions…_ o clic en el botón _Perform Hydraulic Design Computations_.  
 
@@ -52,24 +52,57 @@ En la ventana de diseño hidráulico y en _Type / Stable Channel Design…_, obs
 * Regime
 * Tractive Force
 
-<div align="center"><img src="graph/HECRAS_NewProject.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HD.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 
+## 2. Diseño hidráulico para el método de Copeland
 
 
+### 2.1. Sección dominante (river)
+
+Parámetros requeridos y registrados en el libro global de diseño en Excel:
+
+* Caudal de diseño Tr 2.33yr (m³/s) = 130.
+* Temperatura Agua (ºC) = 15.
+* Gradación de los materiales del lecho D84 = 0.18mm, D50 = 0.146mm, D16 = 0.032mm.
+* Taludes = 14H : 1V.
+* Rugosidad canal dominante = 0.018.
+
+1. En la ventana del módulo de diseño, ingrese los parámetros de la sección dominante en la pestaña del método de Copelad.
+
+> Concentración de sedimentos: calculados por HEC-RAS en función de la geometría de la sección suponiendo que el cauce natural tiene un ancho en la base del canal dominante de 20 m, altura máxima de 3 m y la pendiente de la línea de energía es paralela a la del fondo del cauce sinuoso S = 0.000897, sedimentos totales = 2605.57 ppm.
+
+<div align="center"><img src="graph/HECRAS_HDRiverCopeland.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDRiverCopeland1.jpg" alt="R.SIGE" width="20%" border="0" /></div>
+
+Una vez ingresados los valores, de clic en el botón _Apply_.
+
+2. De clic en el botón _Compute_, aparecerá entonces una ventana con diferentes geometrías propuestas que cumplen con el diseño de sección estable para los parámetros ingresados.
+
+<div align="center"><img src="graph/HECRAS_HDRiverCopeland2.jpg" alt="R.SIGE" width="20%" border="0" /></div>
+
+Para la selección de la sección de diseño, es necesario tener en cuenta que existe una restricción preestablecida respecto al alto máximo de 3 metros disponible la sección natural compuesta y al borde libre de 0.4 metros, por tanto, seleccionar por ejemplo la sección diseñada que utiliza 1.5 metros de la altura total para el tránsito del caudal dominante.
+
+La sección seleccionada de 1.5 m de altura además de cumplir con los criterios de sección estable, cumple con los criterios de velocidad (1.7 m/s < 2 m/s) y cortante (11.44 N/m² ≈ 10 N/m²).
+
+> Para la sección correspondiente al tránsito del caudal dominante, NO es necesario disponer de borde libre debido a que se considera válido que la llanura de inundación confinada pueda ser parcialmente inundada.
+
+3. Verifique las curvas de estabilidad 1 y 2 trazadas para la sección diseñada a partir de los parámetros ingresados.
+
+> Atención: las gráficas presentan una inconsistencia en las unidades refiriéndose al Sistema Inglés, los valores mostrados corresponden a las unidades del Sistema Internacional. El caudal utilizado es 130 m³/s.
+
+div align="center"><img src="graph/HECRAS_HDRiverCopeland3.jpg" alt="R.SIGE" width="20%" border="0" /></div>
+
+Por tratarse de una sección ancha (28.96 m) el lecho podría sufrir algún nivel de degradación y para la altura seleccionada de 1.5 metros. Entonces, el canal diseñado podrá presentar algunos fenómenos de erosión de sedimentos provenientes de su propio lecho cuando esté recién excavado y sin vegetación acuática o hierbas en las zonas de talud.
+
+div align="center"><img src="graph/HECRAS_HDRiverCopeland4.jpg" alt="R.SIGE" width="20%" border="0" /></div>
+
+4. En _File / Save Hydraulic Design Data_, guarde el diseño como _RiverCopeland_.
+
+div align="center"><img src="graph/HECRAS_HDRiverCopeland5.jpg" alt="R.SIGE" width="20%" border="0" /></div>
 
 
-
-
-
-
-
-
-
-
-
-
-
+### 2.2. Sección creciente (valley)
 
 
 

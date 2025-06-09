@@ -288,15 +288,31 @@ Geometría ajustada de la Sección a utilizar en el caso de estudio: al corredor
 
 > Atención: los datos de este esquema se utilizarán para el diseño sinuoso
 
-div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShields.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShields.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 > Para regularizar el diseño y facilitar el replanteo en terreno se recomienda ajustar los anchos calculados a valores enteros por encima del valor obtenido.
 
 
-## 5. Verificación de sección compuesta por Flujo Uniforme
+## 5. Verificación sección compuesta por Flujo Uniforme en HEC-RAS
 
+Luego del diseño hidráulico, es necesario comprobar que la sección compuesta es capaz de drenar el caudal de la creciente de diseño de acuerdo a los parámetros y restricciones establecidas:
 
+* Ancho base canal dominante desde el eje (m) = 20. (40 m / 2)
+* Ancho base canal creciente desde el eje (m) = 104.6. (209.2 m / 2)
+* Taludes = 14H:1V.
+* Altura sección dominante (m) = 1.5.
+* Altura sección creciente (m) = 1.5. (1.1 m + 0.4 m). Sumar el alto estimado más el borde libre.
+* s pendiente (m/m) = 0.000897.
 
+1. En el módulo de diseño ir al menú _Type / NewHydraulic Design Data…._ y nombrar como _CompositeTractiveForceShieldUniformFlow_.
+
+<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShieldsUniformFlow.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+
+2. En el módulo de diseño ir al menú _Type / Uniform Flow…._ e ingresar en la pestaña _Width_ los parámetros y geometría obtenida del diseño hidráulico:
+
+<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShieldsUniformFlow1.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+
+3. 
 
 
 

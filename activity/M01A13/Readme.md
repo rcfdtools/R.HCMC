@@ -402,7 +402,7 @@ Para la sección del cauce dominante, el tamaño de partículas de recubrimiento
 > Con respecto a los valores obtenidos en el módulo de diseño de HEC-RAS cuyo tamaño de partículas de recubrimiento del lecho fue de 13.8 mm, el tamaño considerando la sinuosidad del cauce es mayor y corresponde a 15.5 mm.
 
 
-### 7.1. Sección creciente (valley)
+### 7.2. Sección creciente (valley)
 
 1. En el libro de Excel, ingrese los parámetros de diseño.
 

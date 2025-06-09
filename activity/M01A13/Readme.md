@@ -161,72 +161,6 @@ La sección obtenida es de 892.49 metros de ancho, altura de lámina de agua en 
 > Como observa, en este método no se ingresan las inclinaciones de los taludes laterales y pendiente, la sección es resuelta en función de la estabilidad.
 
 
-## 3. Diseño hidráulico HEC-RAS - Método de la Fuerza Tractiva (Shields)
-
-
-### 3.1. Sección dominante (river)
-
-Parámetros requeridos y registrados en el libro global de diseño en Excel:
-
-* Caudal de diseño Tr 2.33yr (m³/s) = 130
-* Temperatura Agua (ºC) = 15
-* Gradación de los materiales del lecho d50 = 0.146 mm.
-* Ángulo de reposo de los materiales (º): 35
-* Talud lateral = 14H:1V.
-* n rugosidad de Manning : 0.018
-* Pendiente de diseño del cauce sinuoso (m/m): 0.000897.
-* Altura estimada = 1.5m.
-
-1. En el menú _File / New Hydraulic Design Data_, guarde como _RiverTractiveForceShields_ e ingrese los parámetros requeridos.
-
-> Para establecer las variables a resolver (texto en **negrilla**), usar doble clic. Resolver **d50** zona central y ancho de base en la sección **W**.
-
-<div align="center"><img src="graph/HECRAS_HDRiverTractiveForceShields.jpg" alt="R.SIGE" width="90%" border="0" /></div>
-
-Resultados:
-
-* Ancho en la base = 38.68 metros.
-* Ancho en la corona = 80.68 metros.
-* Tamaño de partículas requeridas para lecho estable = 13.8 mm.
-
-
-### 3.2. Sección creciente (valley)
-
-Parámetros requeridos y registrados en el libro global de diseño en Excel:
-
-* Caudal de diseño Tr 100yr (m³/s) = 392 (Tr 100yr = 522 – Tr 2.33yr = 130).
-* Temperatura Agua (ºC) = 15.
-* Gradación de los materiales del lecho D50 = 0.146 mm.
-* Ángulo de reposo de los materiales (º): 35
-* Talud lateral = 14H:1V.
-* n rugosidad de Manning: 0.035 en bancas y 0.018 en el lecho central
-* Pendiente de diseño del cauce sinuoso (m/m): 0.000897.
-* Altura estimada = 1.1 m.
-
-> La altura total de la sección deberá ser máximo de 3 metros correspondientes a 1.5m para el caudal dominante, 1.1m para crecientes y 0.4m para borde libre.
-
-1. En el menú _File / New Hydraulic Design Data_, guarde como _ValleyTractiveForceShields_ e ingrese los parámetros requeridos.
-
-<div align="center"><img src="graph/HECRAS_HDValleyTractiveForceShields.jpg" alt="R.SIGE" width="90%" border="0" /></div>
-
-Resultados:
-
-* Ancho en la base = 200.24 metros.
-* Ancho en la corona = 231.04 metros.
-* Tamaño de partículas requeridas para lecho estable = 10.8 mm.
-
-
-### 3.3. Sección compuesta (composite)
-
-Geometría ajustada de la Sección a utilizar en el caso de estudio: al corredor disponible de 300 metros se le descontó una huella de mecanización de 24.4 metros. A la base del valle se le sumó aproximadamente 4.5 metros a cada lado para prevenir co-alineación de taludes.
-
-> Atención: los datos de este esquema se utilizarán para el diseño sinuoso
-
-div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShields.jpg" alt="R.SIGE" width="80%" border="0" /></div>
-
-> Para regularizar el diseño y facilitar el replanteo en terreno se recomienda ajustar los anchos calculados a valores enteros por encima del valor obtenido.
-
-
 ## 3. Diseño hidráulico HEC-RAS - Método de la Fuerza Tractiva (Lane)
 
 
@@ -293,7 +227,73 @@ div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceLane.jpg" alt=
 > Para regularizar el diseño y facilitar el replanteo en terreno se recomienda ajustar los anchos calculados a valores enteros por encima del valor obtenido.
 
 
-## 4. Verificación de sección compuesta por Flujo Uniforme
+## 4. Diseño hidráulico HEC-RAS - Método de la Fuerza Tractiva (Shields)
+
+
+### 4.1. Sección dominante (river)
+
+Parámetros requeridos y registrados en el libro global de diseño en Excel:
+
+* Caudal de diseño Tr 2.33yr (m³/s) = 130
+* Temperatura Agua (ºC) = 15
+* Gradación de los materiales del lecho d50 = 0.146 mm.
+* Ángulo de reposo de los materiales (º): 35
+* Talud lateral = 14H:1V.
+* n rugosidad de Manning : 0.018
+* Pendiente de diseño del cauce sinuoso (m/m): 0.000897.
+* Altura estimada = 1.5m.
+
+1. En el menú _File / New Hydraulic Design Data_, guarde como _RiverTractiveForceShields_ e ingrese los parámetros requeridos.
+
+> Para establecer las variables a resolver (texto en **negrilla**), usar doble clic. Resolver **d50** zona central y ancho de base en la sección **W**.
+
+<div align="center"><img src="graph/HECRAS_HDRiverTractiveForceShields.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+
+Resultados:
+
+* Ancho en la base = 38.68 metros.
+* Ancho en la corona = 80.68 metros.
+* Tamaño de partículas requeridas para lecho estable = 13.8 mm.
+
+
+### 4.2. Sección creciente (valley)
+
+Parámetros requeridos y registrados en el libro global de diseño en Excel:
+
+* Caudal de diseño Tr 100yr (m³/s) = 392 (Tr 100yr = 522 – Tr 2.33yr = 130).
+* Temperatura Agua (ºC) = 15.
+* Gradación de los materiales del lecho D50 = 0.146 mm.
+* Ángulo de reposo de los materiales (º): 35
+* Talud lateral = 14H:1V.
+* n rugosidad de Manning: 0.035 en bancas y 0.018 en el lecho central
+* Pendiente de diseño del cauce sinuoso (m/m): 0.000897.
+* Altura estimada = 1.1 m.
+
+> La altura total de la sección deberá ser máximo de 3 metros correspondientes a 1.5m para el caudal dominante, 1.1m para crecientes y 0.4m para borde libre.
+
+1. En el menú _File / New Hydraulic Design Data_, guarde como _ValleyTractiveForceShields_ e ingrese los parámetros requeridos.
+
+<div align="center"><img src="graph/HECRAS_HDValleyTractiveForceShields.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+
+Resultados:
+
+* Ancho en la base = 200.24 metros.
+* Ancho en la corona = 231.04 metros.
+* Tamaño de partículas requeridas para lecho estable = 10.8 mm.
+
+
+### 4.3. Sección compuesta (composite)
+
+Geometría ajustada de la Sección a utilizar en el caso de estudio: al corredor disponible de 300 metros se le descontó una huella de mecanización de 24.4 metros. A la base del valle se le sumó aproximadamente 4.5 metros a cada lado para prevenir co-alineación de taludes.
+
+> Atención: los datos de este esquema se utilizarán para el diseño sinuoso
+
+div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShields.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+
+> Para regularizar el diseño y facilitar el replanteo en terreno se recomienda ajustar los anchos calculados a valores enteros por encima del valor obtenido.
+
+
+## 5. Verificación de sección compuesta por Flujo Uniforme
 
 
 

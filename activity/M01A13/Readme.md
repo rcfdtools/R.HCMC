@@ -55,7 +55,7 @@ En la ventana de diseño hidráulico y en _Type / Stable Channel Design…_, obs
 <div align="center"><img src="graph/HECRAS_HD.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 
-## 2. Diseño hidráulico para el Método de Copeland
+## 2. Diseño hidráulico - Método de Copeland
 
 
 ### 2.1. Sección dominante (river)
@@ -137,8 +137,65 @@ La sección seleccionada de 1.39 m de altura además de cumplir con los criterio
 * Corona Valle 186.56 m = 2 * (14 * 1.5) + 144.56
 * Huella para mecanización = (300 – 186.56) / 2 = 56.72 m
 
-<div align="center"><img src="graph/HECRAS_HDCompositeCopeland.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDCompositeCopeland.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
+> Posteriormente, verificaremos por flujo uniforme la altura del borde libre de la sección compuesta.
+
+
+
+## 2. Diseño hidráulico - Método del Régimen de Flujo
+
+Parámetros requeridos y registrados en el libro global de diseño en Excel:
+
+* Caudal de diseño Tr 100yr (m³/s) = 392 (Tr 100yr = 522 – Tr 2.33yr = 130).
+* Gradación de los materiales del lecho D50 = 0.146 mm.
+* Concentración de sedimentos: 2605.57 ppm + 4414.83 ppm = 7020.4 ppm. Corresponde a los sedimentos calculados por el método de Copeland para la sección de dominante y de creciente
+* Temperatura Agua (ºC) = 15.
+* Factor lateral = 0.1 suponiendo que las bancas son desmoronables.
+
+En el menú _File / New Hydraulic Design Data_, guarde como _ValleyRegime_ e ingrese los parámetros requeridos.
+
+<div align="center"><img src="graph/HECRAS_HDCValleyRegime.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+
+La sección obtenida es de 892.49 metros de ancho, altura de lámina de agua en 0.22 metros, pendiente de 0.000663 y rugosidad del lecho de 0.0046.
+
+> Como observa, en este método no se ingresan las inclinaciones de los taludes laterales y pendiente, la sección es resuelta en función de la estabilidad.
+
+
+## 3. Diseño hidráulico - Método de la Fuerza Tractiva (Shields)
+
+
+### 3.1. Sección dominante (river)
+
+Parámetros requeridos y registrados en el libro global de diseño en Excel:
+
+* Caudal de diseño Tr 2.33yr (m³/s) = 130
+* Temperatura Agua (ºC) = 15
+* Gradación de los materiales del lecho d50 = 0.146mm.
+* Ángulo de reposo de los materiales (º): 35
+* Talud lateral = 14H:1V.
+* n rugosidad de Manning : 0.018
+* Pendiente de diseño del cauce sinuoso (m/m): 0.000897.
+* Altura estimada = 1.5m.
+
+1. En el menú _File / New Hydraulic Design Data_, guarde como _RiverTractiveForceShields_ e ingrese los parámetros requeridos.
+
+> Para establecer las variables a resolver (texto en **negrilla**), usar doble clic. Resolver **d50** zona central y ancho de base en la sección **W**.
+
+<div align="center"><img src="graph/HECRAS_HDCRiverTractiveForceShields.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+
+Resultados:
+
+* Ancho en la base = 38.68 metros.
+* Ancho en la corona = 80.68 metros.
+* Tamaño de partículas requeridas para lecho estable = 13.8 mm.
+
+
+### 3.2. Sección creciente (valley)
+
+
+
+### 3.3. Sección compuesta (composite)
 
 
 

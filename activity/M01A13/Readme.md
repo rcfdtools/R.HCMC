@@ -79,7 +79,7 @@ Una vez ingresados los valores, de clic en el botón _Apply_.
 
 2. De clic en el botón _Compute_, aparecerá entonces una ventana con diferentes geometrías propuestas que cumplen con el diseño de sección estable para los parámetros ingresados.
 
-<div align="center"><img src="graph/HECRAS_HDRiverCopeland2.jpg" alt="R.SIGE" width="20%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDRiverCopeland2.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 Para la selección de la sección de diseño, es necesario tener en cuenta que existe una restricción preestablecida respecto al alto máximo de 3 metros disponible la sección natural compuesta y al borde libre de 0.4 metros, por tanto, seleccionar por ejemplo la sección diseñada que utiliza 1.5 metros de la altura total para el tránsito del caudal dominante.
 
@@ -91,16 +91,16 @@ La sección seleccionada de 1.5 m de altura además de cumplir con los criterios
 
 > Atención: las gráficas presentan una inconsistencia en las unidades refiriéndose al Sistema Inglés, los valores mostrados corresponden a las unidades del Sistema Internacional. El caudal utilizado es 130 m³/s.
 
-div align="center"><img src="graph/HECRAS_HDRiverCopeland3.jpg" alt="R.SIGE" width="20%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDRiverCopeland3.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 Por tratarse de una sección ancha (28.96 m) el lecho podría sufrir algún nivel de degradación y para la altura seleccionada de 1.5 metros. Entonces, el canal diseñado podrá presentar algunos fenómenos de erosión de sedimentos provenientes de su propio lecho cuando esté recién excavado y sin vegetación acuática o hierbas en las zonas de talud.
 
-div align="center"><img src="graph/HECRAS_HDRiverCopeland4.jpg" alt="R.SIGE" width="20%" border="0" /></div>
-div align="center"><img src="graph/HECRAS_HDRiverCopeland6.jpg" alt="R.SIGE" width="20%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDRiverCopeland4.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDRiverCopeland6.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 4. En _File / Save Hydraulic Design Data_, guarde el diseño como _RiverCopeland_.
 
-div align="center"><img src="graph/HECRAS_HDRiverCopeland5.jpg" alt="R.SIGE" width="20%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDRiverCopeland5.jpg" alt="R.SIGE" width="50%" border="0" /></div>
 
 
 ### 2.2. Sección creciente (valley)

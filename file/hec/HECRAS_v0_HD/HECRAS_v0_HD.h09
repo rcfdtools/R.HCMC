@@ -1,11 +1,11 @@
-HDes Title=CompositeTractiveForceShieldUniformFlow
+HDes Title=LateralRiverTractiveForceShields
 Version=HEC-RAS 6.7 Beta 3 Development
-Default HD Type=Uniform Flow
+Default HD Type=Stable Channel
 
 Uniform Flow Gradation=,,
 Uniform Flow Data for Depth, Slope, Discharge, and Roughness Solutions
-Temperature=10
-Specific Gravity=2.65
+Temperature=
+Specific Gravity=
 Uniform Flow d84=
 Uniform Flow d50=
 Uniform Flow d16=
@@ -15,48 +15,40 @@ Uniform Flow Discharge=
 Selected River Station=
 X, Y, Roughness Eq, Roughness Value, Equivalent Mannings #.  Number of Nodes= 0 
 Uniform Flow Data for Bottom Width Solutions
-Temperature (Width)=10
-Specific Gravity (Width)=2.65
-Uniform Flow Depth (Width)=2.8
-Uniform Flow Slope (Width)=0.000897
-Uniform Flow Discharge (Width)=522
-Overbank Left Side Slope=14
-Overbank Right Side Slope=14
-Overbank Left Width=98.6
-Overbank Right Width=98.6
-Overbank Height=1.5
-Overbank Invert=1.5
-Main Channel Left Side Slope=14
-Main Channel Right Side Slope=14
-Main Channel Left Width=20
-Main Channel Right Width=20
-Main Channel Height=1.5
-Main Channel Invert=0
+Temperature (Width)=
+Specific Gravity (Width)=
+Uniform Flow Depth (Width)=
+Uniform Flow Slope (Width)=
+Uniform Flow Discharge (Width)=
+Overbank Left Side Slope=
+Overbank Right Side Slope=
+Overbank Left Width=
+Overbank Right Width=
+Overbank Height=
+Overbank Invert=
+Main Channel Left Side Slope=
+Main Channel Right Side Slope=
+Main Channel Left Width=
+Main Channel Right Width=
+Main Channel Height=
+Main Channel Invert=
 Low Flow Channel Left Side Slope=
 Low Flow Channel Right Side Slope=
 Low Flow Channel Left Width=
 Low Flow Channel Right Width=
 Low Flow Channel Height=
 Low Flow Channel Invert=
-Solve for bottom width in the Overbank Channel, cbobox index value=1
+Solve for bottom width in the Main Channel, cbobox index value=0
 Solve for bottom width equally on the left and right side of centerline, cbobox index value=0
-X, Y, Roughness Eq, Roughness Value, Equivalent Mannings # (for width).  Number of nodes= 8 
--119.62,3,Manning,0.035, 0.035 
--98.62,1.5,,, 0 
--41,1.5,Manning,0.018, 0.018 
--20,0,,, 0 
-20,0,,, 0 
-41,1.5,Manning,0.035, 0.035 
-98.62,1.5,,, 0 
-119.62,3,,, 0 
+X, Y, Roughness Eq, Roughness Value, Equivalent Mannings # (for width).  Number of nodes= 0 
 
 Stable Channel Design-Copeland Method
 Stable Design Discharge=
-Stable Specific Gravity=
+Stable Specific Gravity=2.65
 Stable d84=
 Stable d50=
 Stable d16=
-Stable Temperature=
+Stable Temperature=10
 Stable Valley Slope (optional)=
 Stable Median Channel Width (optional)=
 Stable Design Left Side Slope=
@@ -80,38 +72,38 @@ Lower Regime is selected as default for transitional conditions.  Opt Value=0
 
 Stable Channel Design-Regime Method
 Regime d50=
-Regime Discharge=
+Regime Discharge=130
 Regime Sediment Concentration=
-Regime Side Factor=
-Regime Temperature=
+Regime Side Factor=0.2
+Regime Temperature=10
 
 Stable Channel Design-Tractive Force Method
-Tractive Force d Left=
+Tractive Force d Left=0.146
 Tractive Force d Bed=
-Tractive Force d Right=
-Tractive Force Depth=
-Tractive Force Discharge=
-Tractive Force Angle of Repose Bed=
-Tractive Force Angle of Repose Left=
-Tractive Force Angle of Repose Right=
-Tractive Force Roughness Bed=
-Tractive Force Roughness Left=
-Tractive Force Roughness Right=
-Tractive Force Slope=
-Tractive Force Specific Gravity Bed=
-Tractive Force Specific Gravity Left=
-Tractive Force Specific Gravity Right=
-Tractive Force Side Slope Left=
-Tractive Force Side Slope Right=
-Tractive Force Shield's Parameter Bed=
-Tractive Force Shield's Parameter Left=
-Tractive Force Shield's Parameter Right=
-Tractive Force Temperature=
+Tractive Force d Right=0.146
+Tractive Force Depth=3
+Tractive Force Discharge=93.3
+Tractive Force Angle of Repose Bed=35
+Tractive Force Angle of Repose Left=35
+Tractive Force Angle of Repose Right=35
+Tractive Force Roughness Bed=0.018
+Tractive Force Roughness Left=0.035
+Tractive Force Roughness Right=0.035
+Tractive Force Slope=0.00129
+Tractive Force Specific Gravity Bed=2.65
+Tractive Force Specific Gravity Left=2.65
+Tractive Force Specific Gravity Right=2.65
+Tractive Force Side Slope Left=10
+Tractive Force Side Slope Right=10
+Tractive Force Shield's Parameter Bed=0.055
+Tractive Force Shield's Parameter Left=0.055
+Tractive Force Shield's Parameter Right=0.055
+Tractive Force Temperature=15
 Tractive Force Width=
 Tractive Force Bed Equation=Mannings
 Tractive Force Left Side Slope Equation=Mannings
 Tractive Force Right Side Slope Equation=Mannings
-Solution Method=Lane
+Solution Method=Shields
 
 Sediment Transport Potential
 Number of Sediment Reaches=0
@@ -131,6 +123,23 @@ Number Duration Curves= 0
 Number Sediment Property Groups= 0 
 Number Sediment Sources= 0 
 Number Sediment Source Groups= 0 
+
+Uniform Flow Gradation=,,
+Uniform Flow Data for Depth, Slope, Discharge, and Roughness Solutions
+Uniform Flow Data for Bottom Width Solutions
+X, Y, Roughness Eq, Roughness Value, Equivalent Mannings # (for width).  Number of nodes= 0 
+
+Stable Channel Design-Copeland Method
+RAS calculates inflowing sediment concentration.  Opt Value=0
+
+Stable Channel Design-Regime Method
+
+Stable Channel Design-Tractive Force Method
+
+Sediment Transport Potential
+
+Sediment Impact Assessment Module
+
 
 Uniform Flow Gradation=,,
 Uniform Flow Data for Depth, Slope, Discharge, and Roughness Solutions

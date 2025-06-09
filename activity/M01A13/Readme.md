@@ -316,12 +316,51 @@ Luego del diseño hidráulico, es necesario comprobar que la sección compuesta 
 
 <div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShieldsUniformFlow1.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
+3. Seleccionar _Compute Widths_ usando _OverBank_, oprimir en _Apply_ y _Compute_.
+
+<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShieldsUniformFlow2.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+
+4. Modificar los valores de rugosidad mostrados por los valores de diseño y volver a ejecutar _Apply_ y _Compute_.
+
+> Observará que el canal diseñado requiere de una sección mucho más amplia para poder conservar el borde libre de 0.4m. Aproximadamente de 308m en la base de la sección de creciente.
+
+<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShieldsUniformFlow3.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+
+5. Debido a que la verificación de la sección por flujo uniforme no tiene en cuenta la amortiguación por el tránsito del hidrograma de entrada, se puede considerar que la altura máxima lámina de agua puede estar mucho más elevada y cercana a 2.8 metros, dejando un borde libre de 0.2 m.
+
+Modificar la altura máxima de la lámina de agua a 2.8 m y volver a calcular la sección. Observará que el ancho de la sección estimada para el valle de creciente es de 98.6m x 2 = 197.2 m de ancho con borde libre de 0.2 m.
+
+El ancho estimado de la sección para la verificación por flujo uniforme es menor al ancho estimado de 200.24 m calculado por el método de la fuerza tractiva.
+
+> Posteriormente, cuando se realice la modelación por flujo no uniforme, observará que el borde libre podrá estar cercano a 0.4 m debido al tránsito y amortiguación de la creciente de diseño (dependiendo del tipo de condición de frontera empleado aguas abajo).
+
+<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShieldsUniformFlow4.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 
-3. 
+## 6. Diseño cauce lateral por Método de la Fuerza Tractiva (Shields) en HEC-RAS
 
+Para el diseño del cauce lateral utilizar los parámetros estimados y registrados para la cuenca W19610:
 
+* Periodo de retorno: Tr 25 años para factor de atenuación 1.00 (o el periodo definido para su proyecto).
+* Diseño de sección: trapezoidal simple.
+* Caudal de diseño Tr 25yr (m³/s) = 93.3
+* Temperatura Agua (ºC) = 15.
+* Gradación de los materiales del lecho D50 = 0.146 mm.
+* Ángulo de reposo de los materiales (º): 35
+* Talud lateral = 10H:1V (estimado a partir de las secciones naturales existentes del cauce lateral).
+* n rugosidad de Manning : lecho 0.018, valle 0.035.
+* Pendiente de diseño del cauce sinuoso (m/m):  0.00129 (estimado a partir del perfil del cauce lateral).*
+* Altura total estimada = 3 m.
 
+1. En el menú _File / New Hydraulic Design Data_, guarde como _LateralRiverTractiveForceShields_ e ingrese los parámetros requeridos.
+
+<div align="center"><img src="graph/HECRAS_HDLateralRiverTractiveForceShields.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+
+Resultados:
+
+* Ancho en la base = 7.24 metros.
+* Ancho en la corona = 67.24 metros.
+* Tamaño de partículas requeridas para lecho estable = 19.1 mm.
 
 
 
@@ -349,6 +388,9 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 * Book: Julian Aguirre
 * Ven Te Chow. Hidráulica de canales (Ejemplo 7.4 Ven Te Chow)
+* US Army Corps of Engineers. HEC-RAS River Analysis System, Hydraulic Reference Manual, Versión 5.0. CPD-69. 2016.2
+* http://fluidos.eia.edu.co/hidraulica/libre/yn.html
+
 
 
 ## Control de versiones

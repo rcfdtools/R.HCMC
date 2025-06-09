@@ -100,7 +100,7 @@ Por tratarse de una sección ancha (28.96 m) el lecho podría sufrir algún nive
 
 4. En _File / Save Hydraulic Design Data_, guarde el diseño como _RiverCopeland_.
 
-<div align="center"><img src="graph/HECRAS_HDRiverCopeland5.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDRiverCopeland5.jpg" alt="R.SIGE" width="65%" border="0" /></div>
 
 
 ### 2.2. Sección creciente (valley)
@@ -117,7 +117,7 @@ Parámetros requeridos y registrados en el libro global de diseño en Excel:
 
 1. En el menú _File / New Hydraulic Design Data_, guarde como _ValleyCopeland_ e ingrese los parámetros requeridos.
 
-<div align="center"><img src="graph/HECRAS_HDValleyCopeland.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDValleyCopeland.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 2. Clic en _Apply_ y _Compute_, aparecerá entonces una ventana con diferentes geometrías propuestas que cumplen con el diseño de sección estable para los parámetros ingresados.
 

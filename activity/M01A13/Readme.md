@@ -436,7 +436,7 @@ Para la sección del cauce dominante, el tamaño de partículas de recubrimiento
 
 ## 8. Memoria de diseño, geometría de secciones, Yn, Yc
 
-En el libro de diseño y análisis [R.HydroTools.DisenoGeometricoHidraulicoVertical.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoGeometricoHidraulicoVertical), registre los valores de las geometrías de diseño a aplicar en el cauce principal (sección compuesta) y en cauces laterales.
+En el libro de diseño y análisis [R.HydroTools.DisenoGeometricoHidraulicoVertical.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoGeometricoHidraulicoVertical), registre los valores de las geometrías de diseño a aplicar en el cauce principal (sección compuesta) y en cauces laterales, verifique la secuencia de comandos CAD y calcule la profundidad normal - Yn y la profundidad crítica del flujo Yc.
 
 > La hoja de memoria de diseño hoja no realiza ningún cálculo de diseño, solo es utilizada para registrar los parámetros de entrada y geometría obtenida de diseño en HEC-RAS. A través de los datos geométricos de entrada se ensambla la tabla de valores de estación y elevación requeridos para modelación hidráulica de canales prototipo en HEC-RAS.
 
@@ -447,12 +447,30 @@ En el libro de diseño y análisis [R.HydroTools.DisenoGeometricoHidraulicoVerti
 <div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannel1.jpg" alt="R.SIGE" width="85%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannel2.jpg" alt="R.SIGE" width="85%" border="0" /></div>
 
+Para el cálculo de la profundidad hidráulica normal y crítica del cauce sinuoso, utilizaremos los mismos parámetros de entrada utilizados en el módulo HD de HEC-RAS, obtendremos que Yn = 1.328 metros y Yc = 0.916 metros, cuyos valores indican que el perfil del flujo en el canal es M2. 
+
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelRiverYnYc.jpg" alt="R.SIGE" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelRiverYnYc1.jpg" alt="R.SIGE" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelRiverYnYc2.jpg" alt="R.SIGE" width="85%" border="0" /></div>
+
+Con respecto al valle suavizado, utilizaremos como entrada la pendiente del valle correspondiente a 0.0011631 m/m y con función objetivo, buscaremos el valor de la rugosidad equivalente que permite obtener una profundidad normal de 1.3 metros (considerando solo un borde libre de 0.2 metros). La rugosidad obtenida es dee 0.029 con profundidad crítica en 0.699 metros para un perfil tipo M2.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelValleyYnYc.jpg" alt="R.SIGE" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelValleyYnYc1.jpg" alt="R.SIGE" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelValleyYnYc2.jpg" alt="R.SIGE" width="85%" border="0" /></div>
+
+Para futuros análisis, es conveniente estudiar el comportamiento del factor de corrección de la energía cinética o alpha - α, en función de las propiedades geométricas de la sección y las profundidades críticas obtenidas. Para obtener la gráfica de análisis, realice calculos de Yc para factores entre 0.5 y 1.5, podrá observar que su comportamiento no es lineal. Por ejemplo, para la sección correspondiente al cauce dominante, obtendremos:
+
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelRiverAlpha.jpg" alt="R.SIGE" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelRiverAlpha1.jpg" alt="R.SIGE" width="85%" border="0" /></div>
+
 
 ### 8.2 Cauce lateral
 
 <div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.LateralChannel.jpg" alt="R.SIGE" width="85%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.LateralChannel1.jpg" alt="R.SIGE" width="85%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.LateralChannel2.jpg" alt="R.SIGE" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.LateralChannelRiverYnYc.jpg" alt="R.SIGE" width="85%" border="0" /></div>
 
 
 ### 8.3 Geometría CAD
@@ -464,7 +482,7 @@ Instrucciones:
 
 > Notación numérica requerida: separador decimal usando punto (.), separador de miles usando coma (,) y separador de listas usando coma (,).
 
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.CAD.jpg" alt="R.SIGE" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.CAD.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 Sección inicio cauce principal
 

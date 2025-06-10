@@ -470,7 +470,6 @@ Para futuros análisis, es conveniente estudiar el comportamiento del factor de 
 <div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.LateralChannel.jpg" alt="R.SIGE" width="85%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.LateralChannel1.jpg" alt="R.SIGE" width="85%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.LateralChannel2.jpg" alt="R.SIGE" width="85%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.LateralChannelRiverYnYc.jpg" alt="R.SIGE" width="85%" border="0" /></div>
 
 
 ### 8.3 Geometría CAD

@@ -583,7 +583,7 @@ Como referencia para las coronas del canal, utilizar las siguientes especificaci
 * Radio de giro: 65 ft, 19.8 m.
 * Referencias: Caterpillar 797 / 797F / 793D, BelAZ 75710, XCMG Xda40.
 
-<div align="center"><img src="graph/MinningTruckCat785.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/MinningTruckCat785.jpg" alt="R.SIGE" width="60%" border="0" /><sub><br>Tomado de: <a href="https://www.cat.com/en_US/products/new/equipment/off-highway-trucks/mining-trucks.html">www.cat.com</a></sub><br><br></div>
 
 
 ## Referencias
@@ -592,7 +592,7 @@ Como referencia para las coronas del canal, utilizar las siguientes especificaci
 * Ven Te Chow. Hidráulica de canales (Ejemplo 7.4 Ven Te Chow)
 * US Army Corps of Engineers. HEC-RAS River Analysis System, Hydraulic Reference Manual, Versión 5.0. CPD-69. 2016.2
 * http://fluidos.eia.edu.co/hidraulica/libre/yn.html
-* https://www.cat.com/en_US/products/new/equipment/off-highway-trucks/mining-trucks/18093014.html
+* https://www.cat.com/en_US/products/new/equipment/off-highway-trucks/mining-trucks.html
 
 
 

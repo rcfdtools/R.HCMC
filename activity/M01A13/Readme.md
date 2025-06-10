@@ -434,7 +434,7 @@ Para la sección del cauce dominante, el tamaño de partículas de recubrimiento
 > Con respecto a los valores obtenidos en el módulo de diseño de HEC-RAS cuyo tamaño de partículas de recubrimiento del lecho fue de 10.8 mm, el tamaño considerando la sinuosidad del cauce y la pendiente del valle suavizado es mayor y corresponde a 18.2 mm.
 
 
-## 8. Memoria de diseño y geometría de secciones
+## 8. Memoria de diseño, geometría de secciones, Yn, Yc
 
 En el libro de diseño y análisis [R.HydroTools.DisenoGeometricoHidraulicoVertical.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoGeometricoHidraulicoVertical), registre los valores de las geometrías de diseño a aplicar en el cauce principal (sección compuesta) y en cauces laterales.
 

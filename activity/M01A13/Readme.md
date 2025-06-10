@@ -28,12 +28,11 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                                                                               | HEC-RAS 6.6 o superior.                                                                         |
 | [:open_file_folder:R.HydroTools.Diseno GeometricoHidraulicoVertical.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoGeometricoHidraulicoVertical) | Libro de cálculo para el diseño geométrico e hidráulico vertical de canales a superficie libre. |
 | [:open_file_folder:Modelo hidráulico HECRAS_v0](../../file/hec)                                                                                                        | Modelo hidráulico de muestreo HEC-RAS v0 creado en actividad [M01A05](../M01A05/Readme.md).     |
+| [:chart_with_upwards_trend:M01A13.pptx](M01A13.pptx)                                                                                                                   | Plantilla para presentación de esquemas sección compuesta.                                      |
 
 </div>
 
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
-
-Plantilla presentación de esquemas sección compuesta: [M01A13.pptx](M01A13.pptx)
 
 
 ## 0. Creación de proyecto HEC-RAS

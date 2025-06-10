@@ -11,7 +11,6 @@ Dimensionar la sección hidráulica dominante (1) y de creciente (2) del cauce p
 * Diseñar la sección dominante por los métodos Copeland, Régimen de Flujo y Fuerza tractiva.
 * Diseñar la sección de creciente por los métodos Copeland, Régimen de Flujo y Fuerza tractiva.
 * Verificar la sección compuesta por flujo uniforme.
-~~* Diseñar la geometría de los pasos de vía usando alcantarillas por área equivalente a descarga libre.~~
 * Crear un prototipo digital del diseño realizado y modelar a flujo permanente y no permanente.
 
 <div align="center"><img src="graph/SeccionCompuesta.jpg" alt="R.SIGE" width="60%" border="0" /></div>

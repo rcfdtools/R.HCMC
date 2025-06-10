@@ -462,7 +462,7 @@ Con respecto al valle suavizado, utilizaremos como entrada la pendiente del vall
 Para futuros análisis, es conveniente estudiar el comportamiento del factor de corrección de la energía cinética o alpha - α, en función de las propiedades geométricas de la sección y las profundidades críticas obtenidas. Para obtener la gráfica de análisis, realice calculos de Yc para factores entre 0.5 y 1.5, podrá observar que su comportamiento no es lineal. Por ejemplo, para la sección correspondiente al cauce dominante, obtendremos:
 
 <div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelRiverAlpha.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelRiverAlpha1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelRiverAlpha1.jpg" alt="R.SIGE" width="40%" border="0" /></div>
 
 
 ### 8.2 Cauce lateral

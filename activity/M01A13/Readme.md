@@ -445,7 +445,7 @@ En el libro de diseño y análisis [R.HydroTools.DisenoGeometricoHidraulicoVerti
 
 <div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannel.jpg" alt="R.SIGE" width="85%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannel1.jpg" alt="R.SIGE" width="85%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannel2.jpg" alt="R.SIGE" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannel2.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 Para el cálculo de la profundidad hidráulica normal y crítica del cauce sinuoso, utilizaremos los mismos parámetros de entrada utilizados en el módulo HD de HEC-RAS, obtendremos que Yn = 1.328 metros y Yc = 0.916 metros, cuyos valores indican que el perfil del flujo en el canal es M2. 
 

@@ -1,5 +1,5 @@
 # 1.13. Diseño geométrico e hidráulico vertical del cauce principal de desviación y cauces laterales menores
-Keywords: `hydraulic-desgn` `tractive-force` `river` `valley` `confined-valley` `m01a13`
+Keywords: `hydraulics` `hydraulic-design` `critical-depth` `normal-depth` `yn` `yc` `hec-ras-hydraulic-design` `trapezoidal` `circular` `rectangular` `triangular` `tractive-force` `river` `valley` `confined-valley` `m01a13`
 
 Dimensionar la sección hidráulica dominante (1) y de creciente (2) del cauce principal y de los cauces laterales menores, verificando a flujo uniforme la capacidad hidráulica de la sección compuesta (3) y el borde libre requerido.
 

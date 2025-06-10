@@ -434,22 +434,97 @@ Para la sección del cauce dominante, el tamaño de partículas de recubrimiento
 > Con respecto a los valores obtenidos en el módulo de diseño de HEC-RAS cuyo tamaño de partículas de recubrimiento del lecho fue de 10.8 mm, el tamaño considerando la sinuosidad del cauce y la pendiente del valle suavizado es mayor y corresponde a 18.2 mm.
 
 
-## 8. Memoria de diseño y geometrtía de secciones
+## 8. Memoria de diseño y geometría de secciones
 
 En el libro de diseño y análisis [R.HydroTools.DisenoGeometricoHidraulicoVertical.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoGeometricoHidraulicoVertical), registre los valores de las geometrías de diseño a aplicar en el cauce principal (sección compuesta) y en cauces laterales.
 
-> La hoja de memoria de diseño solo es utilizada para el registro de datos y no para diseño hidráulico o geométrico, sin embargo, contiene genera los valores de estación vs. elevación de los nodos que componen la sección, requeridos para la construcción de prototipos.
+> La hoja de memoria de diseño hoja no realiza ningún cálculo de diseño, solo es utilizada para registrar los parámetros de entrada y geometría obtenida de diseño en HEC-RAS. A través de los datos geométricos de entrada se ensambla la tabla de valores de estación y elevación requeridos para modelación hidráulica de canales prototipo en HEC-RAS.
 
 
 ### 8.1 Cauce principal
 
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannel.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannel.jpg" alt="R.SIGE" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannel1.jpg" alt="R.SIGE" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannel2.jpg" alt="R.SIGE" width="85%" border="0" /></div>
 
 
+### 8.2 Cauce lateral
+
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.LateralChannel.jpg" alt="R.SIGE" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.LateralChannel1.jpg" alt="R.SIGE" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.LateralChannel2.jpg" alt="R.SIGE" width="85%" border="0" /></div>
 
 
+### 8.3 Geometría CAD
 
+Instrucciones:
 
+* Para crear en CAD la región correspondiente a la sección, seleccione las celdas en cursiva, copie y pegue en el _Command_ de Autocad o Civil3D. 
+* Para crear solo la poli-línea de la base, excluir la letra "C" correspondiente al cierre de la poli-línea.
+
+> Notación numérica requerida: separador decimal usando punto (.), separador de miles usando coma (,) y separador de listas usando coma (,).
+
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.CAD.jpg" alt="R.SIGE" width="85%" border="0" /></div>
+
+Sección inicio cauce principal
+
+```
+PLine
+0,103
+21,101.5
+84.6,101.5
+105.6,100
+145.6,100
+166.6,101.5
+230.2,101.5
+251.2,103
+C
+```
+
+Sección entrega cauce principal
+
+```
+PLine
+0,102.103
+21,100.603
+84.6,100.603
+105.6,99.103
+145.6,99.103
+166.6,100.603
+230.2,100.603
+251.2,102.103
+C
+```
+
+Sección inicio cauce lateral
+
+```
+PLine
+0,103
+0,103
+-33.62,103
+-3.62,100
+3.62,100
+33.62,103
+0,103
+0,103
+C
+```
+
+Sección entrega cauce lateral
+
+```
+PLine
+0,101.71
+0,101.71
+-33.62,101.71
+-3.62,98.71
+3.62,98.71
+33.62,101.71
+0,101.71
+0,101.71
+C
+```
 
 
 

@@ -220,23 +220,13 @@ Resultados obtenidos y atributos para el dibujo en Autodesk® Civil 3D o en Auto
 
 ## 4. Comparación de resultados
 
-| Díseño | Detalle                                                                                    | Lr (m) | Fs | n ondas | Entre-tangencia |
-|--------|--------------------------------------------------------------------------------------------|--------|----|---------|-----------------|
-| 1      | Longitud río equivalente al cauce natural.                                                 |        |    |         |                 |
-| 2      | Longitud río usando factor de sinuosidad característico de la zona de valle.               |        |    |         |                 |
-| 3      | Usando Fs de 1.5 para obtener un río completamente sinuoso, más largo y de menor pendiente |        |    |         |                 |
+|  Díseño  | Detalle                                                                                     |  Lr (m)  |  Fs   | n ondas | Entre tangencia (m) | Pendiente (m/m) |
+|:--------:|---------------------------------------------------------------------------------------------|:--------:|:-----:|:-------:|:-------------------:|:---------------:|
+|    1     | Longitud río equivalente al cauce natural.                                                  |  6689.9  | 1.297 |   16    |         49          |    0.0008969    |
+|    2     | Longitud río usando factor de sinuosidad característico de la zona de valle.                | 6052.47  | 1.173 |  11.5   |         15          |    0.0009913    |
+|    3     | Usando Fs de 1.5 para obtener un río completamente sinuoso, más largo y de menor pendiente. | 7737.75  | 1.500 |  22.5   |         100         |    0.0007754    |
 
-
-
-
-
-
-
-
-
-
-
-
+**Diseño sinuoso a aplicar**: para el desarrollo de este taller se utilizará el Diseño Sinuoso 1 conservando la longitud del río natural a reemplazar.
 
 
 ## Actividades de proyecto :triangular_ruler:

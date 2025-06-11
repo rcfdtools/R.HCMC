@@ -151,7 +151,7 @@ Para la solución con Solver, utilizaremos las siguientes restricciones y config
 8. Verifique los parámetros de dibujo geométrico obtenidos para las ondas sinuosas y verifique que la pendiente del cauce sinuoso corresponde a la pendiente de diseño.
 
 <div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.DrawResults.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.DrawResults1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.DrawResults1.jpg" alt="R.SIGE" width="800%" border="0" /></div>
 
 
 

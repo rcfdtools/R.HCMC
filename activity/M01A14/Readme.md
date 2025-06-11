@@ -100,6 +100,8 @@ Desde el menú _Options_, cambiar el nombre de los perfiles para cada Tr.
 
 2. Establecer las condiciones de frontera para flujo subcrítico, utilice profundidad normal e introduzca la pendiente de diseño del río correspondiente a 0.0008969 m/m.
 
+> Modelar a descarga libre.
+
 <div align="center"><img src="graph/HECRAS_GeometryData13.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 <div align="center"><img src="graph/HECRAS_GeometryData14.jpg" alt="R.SIGE" width="20%" border="0" /></div>
 
@@ -117,13 +119,42 @@ En la ventana Unsteady Flow Data, ingresar el hidrograma de flujo correspondient
 <div align="center"><img src="graph/HECRAS_GeometryData16a.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 <div align="center"><img src="graph/HECRAS_GeometryData16.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
-Aguas abajo definir profundidad normal y establecer en condiciones iniciales un flujo inicial o flujo de precalentamiento del moodelo de 0.0001 m³/s. 
+2. Aguas abajo definir profundidad normal e ingresar la pendiente de diseño del canal.
 
 <div align="center"><img src="graph/HECRAS_GeometryData17.jpg" alt="R.SIGE" width="50%" border="0" /></div>
 
 Visualice el hidrograma.
 
 <div align="center"><img src="graph/HECRAS_GeometryData18.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+
+3. Establecer en condiciones iniciales, un flujo inicial o flujo de precalentamiento del modelo de 0.0001 m³/s. 
+
+<div align="center"><img src="graph/HECRAS_GeometryData19.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+
+4. Guarde el hidrograma y condiciones de frontera como _Unsteady_.4.
+
+<div align="center"><img src="graph/HECRAS_GeometryData20.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+
+
+## 6. Modelación en flujo permanente
+
+1. En la ventana principal del proyecto HEC-RAS, ir al menú _Run_ y seleccionar _Steady Flow Analysis_ o dar clic en el botón _Perform a steady flow simulation_.
+
+<div align="center"><img src="graph/HECRAS_GeometryData21.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+
+2. En _Options_, seleccionar _Critical Depth Output Option_ y marcar la casilla _Critical Always Calculated_.
+
+<div align="center"><img src="graph/HECRAS_GeometryData22.jpg" alt="R.SIGE" width="20%" border="0" /></div>
+
+3. Guardar como _Steady_.
+
+<div align="center"><img src="graph/HECRAS_GeometryData23.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+
+4. Ejecutar en condiciones de flujo subcrítico y revisar el Log oo registro de resultados.
+
+<div align="center"><img src="graph/HECRAS_GeometryData24.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+
+
 
 
 

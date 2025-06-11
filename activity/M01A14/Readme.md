@@ -144,37 +144,37 @@ Visualice el hidrograma.
 
 2. En _Options_, seleccionar _Critical Depth Output Option_ y marcar la casilla _Critical Always Calculated_.
 
-<div align="center"><img src="graph/HECRAS_GeometryData22.jpg" alt="R.SIGE" width="20%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData22.jpg" alt="R.SIGE" width="30%" border="0" /></div>
 
 3. Guardar como _Steady_.
 
-<div align="center"><img src="graph/HECRAS_GeometryData23.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData23.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 4. Ejecutar en condiciones de flujo subcrítico y revisar el Log oo registro de resultados.
 
-<div align="center"><img src="graph/HECRAS_GeometryData24.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData24.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 5. Visualice los resultados obtenidos en las secciones transversales y el perfil de flujo.
 
-<div align="center"><img src="graph/HECRAS_GeometryData25.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_GeometryData26.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData25.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData26.jpg" alt="R.SIGE" width="7%" border="0" /></div>
 
 6. Visualice los resultados obtenidos y verifique que las velocidades obtenidas sean < 2 m/s en la sección del cauce dominante o río (river) y < 3 m/s en el valle (valley).
 
-<div align="center"><img src="graph/HECRAS_GeometryData27.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData27.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 7. Visualice los resultados obtenidos y verifique que los cortantes sean < 10 N/m² en la sección del cauce dominante o río (river) y < 20 N/m² en el valle (valley).
 
-<div align="center"><img src="graph/HECRAS_GeometryData28.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData28.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 8. Visualice la representación 3D.
 
-<div align="center"><img src="graph/HECRAS_GeometryData29.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData29.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 9. Revise las tablas de resultados.
 
-<div align="center"><img src="graph/HECRAS_GeometryData30.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_GeometryData31.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData30.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData31.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 
 ## 7. Modelación para flujo no permanente

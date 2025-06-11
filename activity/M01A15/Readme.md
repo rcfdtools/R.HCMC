@@ -54,7 +54,7 @@ Geometría y solución trigonométrica de una onda sinuosa.
 * ϴ: Radio de apertura.
 * Lc: Longitud del valle suavizado.
 
-<div align="center"><img src="graph/TrigonometriaOndaSinuosa.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/TrigonometriaOndaSinuosa.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 <div align="center"><img src="graph/TrigonometriaOndaSinuosa1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 Procedimiento general:

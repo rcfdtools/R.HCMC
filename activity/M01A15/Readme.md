@@ -93,7 +93,29 @@ Al ancho de la base del valle disponible se le debe descontar un ancho de separa
 <div align="center"><img src="graph/PrevencionCoalineacion.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 
-## 1. 
+## 1. Diseño sinuoso 1 - Conservando la longitud del río natural a reemplazar
+
+Parámetros:
+
+* B: ancho superior corona dominante: 82 m.
+* b llanura: Ancho inferior creciente: 199.2 m = (209.2 m valle – 10 m para prevenir co-alineación de los taludes, 5 m restados a cada lado).
+* Lc: longitud valle suavizado: 5158.5 m.
+* Lr: longitud cauce natural actual: 6689.9 m.
+
+1. En el libro de diseño [R.HydroTools.DisenoSinuosoCanal.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoSinuosoCanal), ingrese la longitud de la llanura o valle suavizado `Lc` y con la herramienta _Data / What-if Analysis / Goal seek_ (Buscar objetivo), busque la longitud del cauce cambiando el factor o índice de sinuosidad. Obtendrá un factor de 1.297, mismo valor obtenido en la actividad [M01A10](../M01A10).
+
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.GoalSeekFs.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 

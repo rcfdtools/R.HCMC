@@ -220,6 +220,8 @@ Resultados obtenidos y atributos para el dibujo en Autodesk® Civil 3D o en Auto
 
 ## 4. Comparación de resultados
 
+Para los 3 diseños realizados, hemos obtenido como referencia los siguientes valores:
+
 |  Díseño  | Detalle                                                                                     |  Lr (m)  |  Fs   | n ondas | Entre tangencia (m) | Pendiente (m/m) |
 |:--------:|---------------------------------------------------------------------------------------------|:--------:|:-----:|:-------:|:-------------------:|:---------------:|
 |    1     | Longitud río equivalente al cauce natural.                                                  |  6689.9  | 1.297 |   16    |         49          |    0.0008969    |

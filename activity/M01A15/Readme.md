@@ -156,18 +156,49 @@ Resultados obtenidos y atributos para el dibujo en Autodesk® Civil 3D o en Auto
 * Lr - Longitud sinuosa del río: 6689.9 m.
 * Número de ondas sinuosas: 16.
 * Lb - Longitud hidráulica de cada onda: 427.4 m.
-* La - Longitud de aproximación entre ondas: 50 m.
+* La - Longitud de aproximación entre ondas o entre-tangencia: 50 m.
 * Número de subdivisiones en el eje del valle suavizado (número de ondas x 4): 64.
-* Pendiente del Río: (6m / 6689.9) = 0.0008969m/m (pendiente idéntica a la del cauce natural a reemplazar).
-* B’: 256.522m.
-* B’/2: 128.261m.
-* Lm: 329.566m.
+* Pendiente del Río: (6 m / 6689.9 m) = 0.0008969 m/m (pendiente idéntica a la del cauce natural a reemplazar).
+* B’: 256.522 m.
+* B’/2: 128.261 m.
+* Lm: 329.566 m.
 * S – Factor de sinuosidad Equivalente: 1.297.
 
 Para el cálculo de la pendiente, la diferencia de nivel respecto a las cotas de inicio y fondo entre las secciones de inicio y entrega es de 6 metros.
 
 <div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.DrawResults.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.DrawResults1.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+
+
+## Diseño sinuoso 2 - Determinando la longitud del río natural aplicando el factor de sinuosidad característico estimado para la cuenca a intervenir
+
+Utilizando el factor de sinuosidad característico obtenido en la actividad [M01A10](../M01A10), correspondiente al análisis a partir de la simplificación del valle utilizando un radio de 180 metros, a través del cual se pudo determinar un valor de 1.1733 a partir de la ecuación de regresión **y = 0.8629 * x<sup>0.0349</sup>**, donde x corresponde a un cauce con longitud de 6689.9 m, estime los parámetros de diseño del cauce sinuoso.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design2a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design2b.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design2c.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+Resultados obtenidos y atributos para el dibujo en Autodesk® Civil 3D o en Autocad.
+
+* α - Angulo de deflexión de la onda : 75.38º.
+* Lr - Longitud sinuosa del río: 6052.47 m.
+* Número de ondas sinuosas: 11.5.
+* Lb - Longitud hidráulica de cada onda: 525.7258 m.
+* La - Longitud de aproximación entre ondas o entre-tangencia: 15 m.
+* Número de subdivisiones en el eje del valle suavizado (número de ondas x 4): 46.
+* Pendiente del Río: (6 m / 6052.47 m) = 0.0009913 m/m (pendiente idéntica a la del cauce natural a reemplazar).
+* B’: 289.978 m.
+* B’/2: 144.989  m.
+* Lm: 448.074 m.
+* S – Factor de sinuosidad Equivalente: 1.173.
+
+> La pendiente obtenida es mayor a la natural del cauce a reemplazar.
+
+
+
+
+
 
 
 

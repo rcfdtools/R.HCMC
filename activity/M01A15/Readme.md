@@ -127,7 +127,7 @@ Parámetros:
 
 <div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Rc.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-5. De clic en el botón `(2A). Estimar α y Rc máximo. Solver`, automáticamente será calculado el valor de `Rc` y el ángulo _α_ de deflexión de la onda en radianes. Obtendrá un valor de 81.9 m.
+5. De clic en el botón `(2A). Estimar α y Rc máximo. Solver`, automáticamente será calculado el valor de `Rc` y el ángulo _α_ de deflexión de la onda en radianes. Obtendrá un Rc de 81.9 m y alpha en 1.139 radianes o 65.24 grados.
 
 Para la solución con Solver, utilizaremos las siguientes restricciones y configuración:
 

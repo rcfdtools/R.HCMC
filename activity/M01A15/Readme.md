@@ -127,7 +127,7 @@ Parámetros:
 
 <div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Rc.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-5. De clic en el botón `(2A). Estimar α y Rc máximo. Solver`, automáticamente será calculado el valor de `Rc` y el ángulo _α_ de deflexión de la onda en radianes. Obtendrá un Rc de 81.9 m y alpha en 1.139 radianes o 65.24 grados.
+5. De clic en el botón `(2A). Estimar α y Rc máximo. Solver`, automáticamente será calculado el valor de `Rc` y el ángulo _α_ de deflexión de la onda en radianes. Obtendrá un Rc de 81.9 m y alpha en 1.139 radianes o 65.25 grados.
 
 Para la solución con Solver, utilizaremos las siguientes restricciones y configuración:
 
@@ -137,13 +137,16 @@ Para la solución con Solver, utilizaremos las siguientes restricciones y config
 * Solving method: GRG Nonlinear (constraint precisión = 0.0001, convergence = 0.0001)
 
 <div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.SolverRc.jpg" alt="R.SIGE" width="70%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.SolverRc1.jpg" alt="R.SIGE" width="30%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.SolverRc1.jpg" alt="R.SIGE" width="40%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.SolverRc2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-6. Ajuste manualmente el Rc de diseño a 82 m y de clic en el botón `(2D). Calcular α para Rc de diseño. Goal seek`
+6. Ajuste manualmente el Rc de diseño a 82 m y de clic en el botón `(2D). Calcular α para Rc de diseño. Goal seek` para recalcular el ángulo de deflexión, obtendrá un  alpha en 1.139 radianes o 65.24 grados.
 
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.SolverRc3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+7. En la parte inferior del libro de diseño, ingrese el ancho superior de la corona `b` del cauce dominante, correspondiente a 82 metros, el ancho en la base de la llanura descontando los anchos de prevención de coalineación, correspondiente a 199.2 m, el valor de coalineación lateral correspondiente a 5 metros y la diferencia de nivel Δy entre los fondos de las sección de inicio y entrega correspondiente a 6 m.
 
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.DrawAttributes.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 

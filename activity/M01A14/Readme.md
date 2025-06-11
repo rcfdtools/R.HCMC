@@ -187,7 +187,7 @@ Visualice el hidrograma.
 
 > Para este análisis utilizaremos un intervalo de cálculo de 1 minuto sin evaluar la condición de Courant.
 
-<div align="center"><img src="graph/HECRAS_GeometryData33.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData33.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 3. Visualice los resultados obtenidos en las secciones transversales y el perfil de flujo.
 

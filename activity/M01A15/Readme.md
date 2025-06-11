@@ -144,11 +144,28 @@ Para la solución con Solver, utilizaremos las siguientes restricciones y config
 
 <div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.SolverRc3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-7. En la parte inferior del libro de diseño, ingrese el ancho superior de la corona `b` del cauce dominante, correspondiente a 82 metros, el ancho en la base de la llanura descontando los anchos de prevención de coalineación, correspondiente a 199.2 m, el valor de coalineación lateral correspondiente a 5 metros y la diferencia de nivel Δy entre los fondos de las sección de inicio y entrega correspondiente a 6 m.
+7. En la parte inferior del libro de diseño, ingrese el ancho superior de la corona `b` del cauce dominante, correspondiente a 82 metros, el ancho en la base de la llanura descontando los anchos de prevención de coalineación, correspondiente a 199.2 m, el valor de coalineación lateral correspondiente a 5 metros y la diferencia de nivel Δy entre los fondos de la sección de inicio y entrega correspondiente a 6 m.
 
 <div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.DrawAttributes.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-8. Verifique los parámetros de dibujo geométrico obtenidos para las ondas sinuosas y verifique que la pendiente del cauce sinuoso corresponde a la pendiente de diseño.
+8. Verifique los parámetros de dibujo geométrico obtenidos para las ondas sinuosas y verifique que las pendientes del cauce sinuoso y valle suavizado corresponde a las pendientes de diseño.
+
+Resultados obtenidos y atributos para el dibujo en Autodesk® Civil 3D o en Autocad.
+
+* α - Angulo de deflexión de la onda : 65.4º.
+* Lr - Longitud sinuosa del río: 6689.9 m.
+* Número de ondas sinuosas: 16.
+* Lb - Longitud hidráulica de cada onda: 427.4 m.
+* La - Longitud de aproximación entre ondas: 50 m.
+* Número de subdivisiones en el eje del valle suavizado (número de ondas x 4): 64.
+* Pendiente del Río: (6m / 6689.9) = 0.0008969m/m (pendiente idéntica a la del cauce natural a reemplazar).
+* B’: 256.522m.
+* B’/2: 128.261m.
+* Lm: 329.566m.
+* S – Factor de sinuosidad Equivalente: 1.297.
+
+Para el cálculo de la pendiente, la diferencia de nivel respecto a las cotas de inicio y fondo entre las secciones de inicio y entrega es de 6 metros.
+
 
 <div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.DrawResults.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.DrawResults1.jpg" alt="R.SIGE" width="800%" border="0" /></div>

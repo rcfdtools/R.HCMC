@@ -30,7 +30,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## 0. Conceptos generales
 
-Para el diseño sinuoso son requeridos los parámetros geométricos obtenidos en las actividades anteriores, a partir de estos valores obtendremos con el libro de diseño los siguientes valores:
+Para el diseño sinuoso son requeridos los parámetros geométricos obtenidos en las actividades anteriores, a partir de estos valores y con el libro de diseño, obtendremos los siguientes valores:
 
 * Ángulo de deflexión de la onda, α.
 * Longitud sinuosa del río, Lr.
@@ -41,9 +41,9 @@ Para el diseño sinuoso son requeridos los parámetros geométricos obtenidos en
 
 > Estos valores serán utilizados para el trazado de ejes en Autodesk Civil 3D.
 
-<div align="center"><img src="graph/SeccionCompuestaDiseño.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/SeccionCompuestaDiseño.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
-Geometría de las ondas sinuosas
+Geometría y solución trigonométrica de una onda sinuosa.
 
 * Lm: Longitud de onda.
 * Lb: Longitud hidráulica de la onda. Incluida la longitud de aproximación.
@@ -53,8 +53,6 @@ Geometría de las ondas sinuosas
 * B’: Amplitud de onda para el trazado.
 * ϴ: Radio de apertura.
 * Lc: Longitud del valle suavizado.
-
-Solución trigonométrica de una onda sinuosa.
 
 <div align="center"><img src="graph/TrigonometriaOndaSinuosa.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 <div align="center"><img src="graph/TrigonometriaOndaSinuosa1.jpg" alt="R.SIGE" width="60%" border="0" /></div>

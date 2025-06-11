@@ -107,7 +107,7 @@ Desde el menú _Options_, cambiar el nombre de los perfiles para cada Tr.
 
 3. Guarde los caudales y condiciones de frontera como _Steady_.
 
-<div align="center"><img src="graph/HECRAS_GeometryData15.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData15.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 
 ## 5. Datos de flujo y condiciones de frontera para flujo no permanente

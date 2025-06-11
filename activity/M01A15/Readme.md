@@ -43,7 +43,8 @@ Para el diseño sinuoso son requeridos los parámetros geométricos obtenidos en
 
 <div align="center"><img src="graph/SeccionCompuestaDiseño.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
-Geometría y solución trigonométrica de una onda sinuosa.
+
+### Geometría y solución trigonométrica de una onda sinuosa
 
 * Lm: Longitud de onda.
 * Lb: Longitud hidráulica de la onda. Incluida la longitud de aproximación.
@@ -54,10 +55,13 @@ Geometría y solución trigonométrica de una onda sinuosa.
 * ϴ: Radio de apertura.
 * Lc: Longitud del valle suavizado.
 
-<div align="center"><img src="graph/TrigonometriaOndaSinuosa.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/TrigonometriaOndaSinuosa.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 <div align="center"><img src="graph/TrigonometriaOndaSinuosa1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
-Procedimiento general:
+> El parámetro _n_ corresponde al número de ondas sinuosas requeridas.
+
+
+### Procedimiento general de aplicación
 
 * (1): Decidir el factor de sinuosidad a aplicar para: a. Mantener la pendiente original del cauce natural, b. Disminuir la pendiente del cauce con un factor de sinuosidad mayor ó c. Aumentar la pendiente del cauce con un factor de sinuosidad menor.
 * (2A, 2B, 2C, 2D): Ingresar un radio de curvatura Rc (m) menor o igual al medido. Puede ingresar un valor de 10 m para que solver estime el máximo permisible para que la Longitud de Aproximación La (m) sea cero, o para que una onda se empalme con otra sin aproximación. Para Solver establecer una _alphasemilla_ cercana a cero y positiva, o ingresar 1. Nota: Este valor no puede ser una raíz negativa obtenida por Solver.
@@ -65,6 +69,31 @@ Procedimiento general:
 * (4): Para trazar el eje de la clotoide en CIVIL3D, se toma la longitud hidraulica de cada onda y se divide en 4 partes (Lm/4), se multiplica por el número de ondas requeridas y se divide el eje del valle en este numero. Luego se traza con una línea espiral o una clotoide de radio Rc característico calculado por el eje sinuoso por los puntos extremos de intersección de cada subtramo con el borde externo de la onda. Para las sample lines dividir B' entre 2 y utilizar este valor para su construcción.
 
 
+### Longitud sinuosa del río (lr) 
+
+Esta longitud se obtiene multiplicando la longitud del valle suavizado por el factor de sinuosidad. Generalmente, se puede optar por aplicar cualquiera de las siguientes directrices:
+
+| Directriz                                                                                                                                       | Notas                                                                                                                                                                   |
+|:------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| A. Conservar la longitud del río natural a reemplazar                                                                                           | Se obtiene calculando el factor de sinuosidad equivalente respecto a la longitud del valle suavizado trazado. (Se mantiene la pendiente del cauce natural a reemplazar) |
+| B. Determinar la longitud del río natural aplicando el factor de sinuosidad característico estimado para la cuenca a intervenir.                | La longitud del río puede no ser igual a la longitud a reemplazar, obteniendo una mayor o menor pendiente.                                                              |
+| C. Aumentar la longitud del río sinuoso aplicando un factor de sinuosidad mayor que permita obtener una pendiente menor a la del cauce natural. | La longitud del río es mayor a la longitud a reemplazar, obteniendo una menor pendiente.                                                                                |
+
+> Nota: los cauces sinuosos tienen un factor de sinuosidad inferior a 1.5. Cauces con factores superiores a 1.5, se consideran meandriformes.
+
+
+### Prevención de co-alineación de taludes en zonas de curva
+
+Al ancho de la base del valle disponible se le debe descontar un ancho de separación entre la curva externa de cada onda al borde de talud de la base del valle para evitar que el talud del cauce dominante y del valle sea continuo y así prevenir la erosión del talud. Se recomiendan 5 m a cada lado. 
+
+> Este criterio fue aplicado previamente en el diseño de la sección hidráulica compuesta.
+> 
+> Ejemplo: si el ancho disponible en la base del valle es de 160 m, se debe realizar el diseño sinuoso para un ancho máximo de 150 m. En el trazado de ejes usando Autodesk Civil 3D se dibuja el corredor de 160 m, un offset de 5 m a cada lado y las curvas externas se trazan dentro del corredor efectivo libre para garantizar la separación y no co-alineación de taludes.
+
+<div align="center"><img src="graph/PrevencionCoalineacion.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+
+
+## 1. 
 
 
 

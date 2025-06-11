@@ -1,0 +1,170 @@
+Geom Title=CanalPrincipalCompuesto
+Program Version=5.07
+Viewing Rectangle= 999800 , 1001200 , 1000301.17 , 999659.99 
+
+River Reach=CanalPrincipal  ,CanalPrincipal  
+Reach XY= 2 
+        1001000.        1000000.        1000000.        1000000.
+Rch Text X Y=1000250,1000000
+Reverse River Text=-1 
+
+Type RM Length L Ch R = 1 ,1000    ,100,100,100
+BEGIN DESCRIPTION:
+Sección de inicio aguas arriba.
+END DESCRIPTION:
+Node Last Edited Time=sept/11/2020 15:51:11
+#Sta/Elev= 8 
+       0     103      21   101.5    84.6   101.5   105.6     100   145.6     100
+   166.6   101.5   230.2   101.5   251.2     103
+#Mann= 3 , 0 , 0 
+       0    .035       0    84.6    .018       0   166.6    .035       0
+Bank Sta=84.6,166.6
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=100.15,0.14, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,900.00* ,100,100,100
+Node Last Edited Time=sept/11/2020 15:51:54
+#Sta/Elev= 8 
+       0  102.91      21  101.41    84.6  101.41   105.6   99.91   145.6   99.91
+   166.6  101.41   230.2  101.41   251.2  102.91
+#Mann= 3 , 0 , 0 
+       0    .035       0    84.6    .018       0   166.6    .035       0
+Bank Sta=84.6,166.6
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=100.06,0.14, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,800.00* ,100,100,100
+Node Last Edited Time=sept/11/2020 15:51:54
+#Sta/Elev= 8 
+       0  102.82      21  101.32    84.6  101.32   105.6   99.82   145.6   99.82
+   166.6  101.32   230.2  101.32   251.2  102.82
+#Mann= 3 , 0 , 0 
+       0    .035       0    84.6    .018       0   166.6    .035       0
+Bank Sta=84.6,166.6
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=99.97,0.14, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,700.00* ,100,100,100
+Node Last Edited Time=sept/11/2020 15:51:54
+#Sta/Elev= 8 
+       0  102.73      21  101.23    84.6  101.23   105.6   99.73   145.6   99.73
+   166.6  101.23   230.2  101.23   251.2  102.73
+#Mann= 3 , 0 , 0 
+       0    .035       0    84.6    .018       0   166.6    .035       0
+Bank Sta=84.6,166.6
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=99.88,0.14, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,600.00* ,100,100,100
+Node Last Edited Time=sept/11/2020 15:51:54
+#Sta/Elev= 8 
+       0  102.64      21  101.14    84.6  101.14   105.6   99.64   145.6   99.64
+   166.6  101.14   230.2  101.14   251.2  102.64
+#Mann= 3 , 0 , 0 
+       0    .035       0    84.6    .018       0   166.6    .035       0
+Bank Sta=84.6,166.6
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=99.79,0.14, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,500.00* ,100,100,100
+Node Last Edited Time=sept/11/2020 15:51:54
+#Sta/Elev= 8 
+       0  102.55      21  101.05    84.6  101.05   105.6   99.55   145.6   99.55
+   166.6  101.05   230.2  101.05   251.2  102.55
+#Mann= 3 , 0 , 0 
+       0    .035       0    84.6    .018       0   166.6    .035       0
+Bank Sta=84.6,166.6
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=99.7,0.14, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,400.00* ,100,100,100
+Node Last Edited Time=sept/11/2020 15:51:54
+#Sta/Elev= 8 
+       0  102.46      21  100.96    84.6  100.96   105.6   99.46   145.6   99.46
+   166.6  100.96   230.2  100.96   251.2  102.46
+#Mann= 3 , 0 , 0 
+       0    .035       0    84.6    .018       0   166.6    .035       0
+Bank Sta=84.6,166.6
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=99.61,0.14, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,300.00* ,100,100,100
+Node Last Edited Time=sept/11/2020 15:51:54
+#Sta/Elev= 8 
+       0  102.37      21  100.87    84.6  100.87   105.6   99.37   145.6   99.37
+   166.6  100.87   230.2  100.87   251.2  102.37
+#Mann= 3 , 0 , 0 
+       0    .035       0    84.6    .018       0   166.6    .035       0
+Bank Sta=84.6,166.6
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=99.52,0.14, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,200.00* ,100,100,100
+Node Last Edited Time=sept/11/2020 15:51:54
+#Sta/Elev= 8 
+       0  102.28      21  100.78    84.6  100.78   105.6   99.28   145.6   99.28
+   166.6  100.78   230.2  100.78   251.2  102.28
+#Mann= 3 , 0 , 0 
+       0    .035       0    84.6    .018       0   166.6    .035       0
+Bank Sta=84.6,166.6
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=99.43,0.14, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,100.00* ,100,100,100
+Node Last Edited Time=sept/11/2020 15:51:54
+#Sta/Elev= 8 
+       0  102.19      21  100.69    84.6  100.69   105.6   99.19   145.6   99.19
+   166.6  100.69   230.2  100.69   251.2  102.19
+#Mann= 3 , 0 , 0 
+       0    .035       0    84.6    .018       0   166.6    .035       0
+Bank Sta=84.6,166.6
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=99.34,0.14, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,0       ,1000,1000,1000
+BEGIN DESCRIPTION:
+Sección de entrega aguas abajo.
+END DESCRIPTION:
+Node Last Edited Time=sept/11/2020 15:49:55
+#Sta/Elev= 8 
+       0   102.1      21   100.6    84.6   100.6   105.6    99.1   145.6    99.1
+   166.6   100.6   230.2   100.6   251.2   102.1
+#Mann= 3 , 0 , 0 
+       0    .035       0    84.6    .018       0   166.6    .035       0
+Bank Sta=84.6,166.6
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=99.25,0.14, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+LCMann Time=dic/30/1899 00:00:00
+LCMann Region Time=dic/30/1899 00:00:00
+LCMann Table=0
+Chan Stop Cuts=-1 
+
+
+
+Use User Specified Reach Order=0
+GIS Ratio Cuts To Invert=-1
+GIS Limit At Bridges=0
+Composite Channel Slope=5

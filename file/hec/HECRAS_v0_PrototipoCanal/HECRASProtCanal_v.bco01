@@ -1,0 +1,58 @@
+ 
+                                              HEC-RAS - River Analysis System
+ 
+ 
+Project File:  C:\HCMC\HECRASPrototipoCanal_v0\HECRASProtCanal_v.prj
+ 
+Project Name:  CanalPrincipalCompuestoPrototipo
+ 
+ 
+Plan Name:     Unsteady
+ 
+Short ID:      Unsteady
+ 
+
+Starting Time:   01sept2008 001
+
+Ending Time:     02sept2008 001
+
+
+                ################################################
+                #                                              #
+                #                                              #
+                #       1D and 2D Unsteady Flow Module         #
+                #                                              #
+                #                                              #
+                #          HEC-RAS 5.0.7 March 2019            #
+                #                                              #
+                #             12SEP20 at 07:21:20              #
+                #                                              #
+                ################################################
+ 
+ 
+ 
+
+
+
+                 Volume Accounting in 1000 m^3
+
+                           External Boundary Flux of Water
+
+         US Inflow       Lat Hydro      DS Outflow        SA Hydro     Groundwater       2D Inflow      2D Outflow      Diversions
+         *********       *********      **********        ********     ***********       *********      **********      **********
+            13288.                          13286.                                                                                
+
+                      River Reaches, Storage Areas, and 2D Areas
+
+    Start 1D Reach   Starting SA's     Starting 2D  Final 1D Reach      Final SA's  Final 2D Areas
+    **************   *************     ***********  **************      **********  **************
+            0.2516                                           2.421                                
+
+                             Error   Percent Error
+
+                             *****   *************
+                            0.8288        0.006237
+
+
+
+

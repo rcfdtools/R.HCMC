@@ -1,0 +1,71 @@
+<RASMapper>
+  <Version>2.0.0</Version>
+  <Features />
+  <Geometries Checked="True" Expanded="True">
+    <Layer Name="CanalPrincipalCompuesto" Type="RASGeometry" Checked="True" Expanded="True" Filename=".\HECRASProtCanal_v.g01.hdf">
+      <Layer Type="RASRiver" Checked="True" />
+      <Layer Type="RASXS" Checked="True" />
+    </Layer>
+  </Geometries>
+  <Results>
+    <Layer Name="Steady" Type="RASResults" Filename=".\HECRASProtCanal_v.p02.hdf">
+      <Layer Type="RASGeometry" Filename=".\HECRASProtCanal_v.p02.hdf" />
+      <Layer Name="depth" Type="RASResultsMap">
+        <MapParameters MapType="depth" ProfileIndex="0" ProfileName="Tr2.33yr" />
+      </Layer>
+      <Layer Name="velocity" Type="RASResultsMap">
+        <MapParameters MapType="velocity" ProfileIndex="0" ProfileName="Tr2.33yr" />
+      </Layer>
+      <Layer Name="elevation" Type="RASResultsMap">
+        <MapParameters MapType="elevation" ProfileIndex="0" ProfileName="Tr2.33yr" />
+      </Layer>
+    </Layer>
+    <Layer Name="Unsteady" Type="RASResults" Expanded="True" Filename=".\HECRASProtCanal_v.p01.hdf">
+      <Layer Type="RASGeometry" Filename=".\HECRASProtCanal_v.p01.hdf" />
+      <Layer Name="depth" Type="RASResultsMap">
+        <MapParameters MapType="depth" ProfileIndex="2147483647" ProfileName="Max" />
+      </Layer>
+      <Layer Name="velocity" Type="RASResultsMap">
+        <MapParameters MapType="velocity" ProfileIndex="2147483647" ProfileName="Max" />
+      </Layer>
+      <Layer Name="elevation" Type="RASResultsMap">
+        <MapParameters MapType="elevation" ProfileIndex="2147483647" ProfileName="Max" />
+      </Layer>
+    </Layer>
+  </Results>
+  <MapLayers />
+  <Terrains />
+  <CurrentView>
+    <MaxX>1001181.56183353</MaxX>
+    <MinX>999946.993932294</MinX>
+    <MaxY>1000331.83892782</MaxY>
+    <MinY>999605.666689075</MinY>
+  </CurrentView>
+  <VelocitySettings>
+    <Density>1.5</Density>
+    <Lifetime>100</Lifetime>
+    <Radius>0.75</Radius>
+    <Method>2</Method>
+    <Timestep>1</Timestep>
+    <StaticColor>Black</StaticColor>
+  </VelocitySettings>
+  <AnimationSettings>
+    <DelayTimer>0</DelayTimer>
+  </AnimationSettings>
+  <Units>SI Units</Units>
+  <RenderMode>hybrid</RenderMode>
+  <MarksWarpMethod>False</MarksWarpMethod>
+  <CurrentSettings>
+    <ProjectSettings>
+      <RiverStationUnits>Feet</RiverStationUnits>
+      <RiverStationDecimalPlaces>0</RiverStationDecimalPlaces>
+      <HorizontalDecimalPlaces>1</HorizontalDecimalPlaces>
+      <VerticalDecimalPlaces>2</VerticalDecimalPlaces>
+      <XSMaxPoints>450</XSMaxPoints>
+      <LSMaxPoints>1000</LSMaxPoints>
+      <MeshTolerance_MinFaceLength>0.05</MeshTolerance_MinFaceLength>
+      <MeshTolerance_EnsureCellPoint>False</MeshTolerance_EnsureCellPoint>
+    </ProjectSettings>
+    <Folders />
+  </CurrentSettings>
+</RASMapper>

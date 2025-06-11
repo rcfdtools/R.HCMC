@@ -1,0 +1,18 @@
+Flow Title=Steady
+Program Version=5.07
+Number of Profiles= 7 
+Profile Names=Tr2.33yr,Tr5yr,Tr10yr,Tr25yr,Tr50yr,Tr100yr,Qm
+River Rch & RM=CanalPrincipal,CanalPrincipal  ,1000    
+     130   205.9   275.3   369.9     445   522.1    1.92
+Boundary for River Rch & Prof#=CanalPrincipal,CanalPrincipal  , 1 
+Up Type= 0 
+Dn Type= 3 
+Dn Slope=0.000897
+DSS Import StartDate=
+DSS Import StartTime=
+DSS Import EndDate=
+DSS Import EndTime=
+DSS Import GetInterval= 0 
+DSS Import Interval=
+DSS Import GetPeak= 0 
+DSS Import FillOption= 0 

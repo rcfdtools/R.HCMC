@@ -43,7 +43,7 @@ Para la creación del prototipo, utilizaremos las especificaciones de la secció
 
 ## 2. Creación de geometría
 
-1. En la ventana principal de HEC-RAS, ir al menú _Edit_ y clic en _Geometric Data_ o clic en el ícono de _View / Edit geometric data_. En el editor de geometría, clic en _Add New River Reach_. Dibujar manualmente una línea horizontal de derecha a izquierda y n ombrar como _CanalPrincipal_.
+1. En la ventana principal de HEC-RAS, ir al menú _Edit_ y seleccionar _Geometric Data_, o clic en el ícono de _View / Edit geometric data_. En el editor de geometría, clic en _Add New River Reach_. Dibujar manualmente una línea horizontal de derecha a izquierda y n ombrar como _CanalPrincipal_.
 
 <div align="center"><img src="graph/HECRAS_GeometryData.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
@@ -57,13 +57,13 @@ Para la creación del prototipo, utilizaremos las especificaciones de la secció
 
 4. Para la creación de las secciones transversales, de clic en el ícono _Cross Section_. En la ventana _Cross Section Data_, ir al menú _Options_ y dar clic en _Add a new Cross Section_. Ingresar los parámetros registrados en el libro de diseño [R.HydroTools.Diseno GeometricoHidraulicoVertical.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoGeometricoHidraulicoVertical) correspondientes a la sección de inicio en la abscisa 1000 m del prototipo, dar clic en _Apply Data_. Verificar la posición de las bancas en la corona del talud del cauce dominante.
 
-<div align="center"><img src="graph/HECRAS_GeometryData3a.jpg" alt="R.SIGE" width="40%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData3a.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 <div align="center"><img src="graph/HECRAS_GeometryData3.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
-4. Repita el procedimiento anterior para la sección de descarga localizada en la abscisa cero.
+5. Repita el procedimiento anterior para la sección de descarga localizada en la abscisa cero.
 
-<div align="center"><img src="graph/HECRAS_GeometryData4a.jpg" alt="R.SIGE" width="25%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_GeometryData4.jpg" alt="R.SIGE" width="40%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData4a.jpg" alt="R.SIGE" width="20%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData4.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 
 

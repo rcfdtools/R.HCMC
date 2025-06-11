@@ -129,7 +129,7 @@ Visualice el hidrograma.
 
 3. Establecer en condiciones iniciales, un flujo inicial o flujo de precalentamiento del modelo de 0.0001 m³/s. 
 
-<div align="center"><img src="graph/HECRAS_GeometryData19.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData19.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 4. Guarde el hidrograma y condiciones de frontera como _Unsteady_.4.
 

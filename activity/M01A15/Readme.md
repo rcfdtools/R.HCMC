@@ -21,7 +21,9 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | Requerimiento                                                                                                                          | Descripción                                                                |
 |:---------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                     | Microsoft Excel 365.                                                       |
+| [:toolbox:Herramienta](https://qgis.org/)                                                               | QGIS 3.42 o superior.                                                    |
 | [:open_file_folder:R.HydroTools.DisenoSinuosoCanal.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoSinuosoCanal)  | Libro de cálculo para el diseño geométrico horizontal sinuoso de canales.  |
+
 
 </div>
 
@@ -106,8 +108,9 @@ Parámetros:
 
 <div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.GoalSeekFs.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
+> En versiones antiguas de Microsoft Excel, ir al menú _Datos / Pruebas de Hipótesis / Función Objetivo_. 
 
-
+2. En QGIS, mida el radio aproximado de curvatura de las ondas de los cauces usando la capa de la red de drenaje natural. Obtendrá un valor de referencia de aproximadamente 90 metros, registre este valor en el campo `Rc`.
 
 
 

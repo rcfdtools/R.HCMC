@@ -251,15 +251,14 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 ## Referencias
 
-* 
+* La metodología presentada para la estimación de los parámetros geométricos requeridos para el trazado del eje sinuoso fue desarrollada [rcfdtools](https://github.com/rcfdtools) y [frankv13](https://github.com/frankv13).
 
 
 ## Control de versiones
 
 | Versión    | Descripción        | Autor                                      | Horas |
 |------------|:-------------------|--------------------------------------------|:-----:|
-| 2024.02.24 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |   8   |
-| 2014.01.11 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  18   |
+| 2025.06.11 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |   5   |
 
 
 ##

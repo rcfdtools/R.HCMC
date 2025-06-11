@@ -144,7 +144,7 @@ Visualice el hidrograma.
 
 2. En _Options_, seleccionar _Critical Depth Output Option_ y marcar la casilla _Critical Always Calculated_.
 
-<div align="center"><img src="graph/HECRAS_GeometryData22.jpg" alt="R.SIGE" width="30%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData22.jpg" alt="R.SIGE" width="35%" border="0" /></div>
 
 3. Guardar como _Steady_.
 
@@ -179,12 +179,33 @@ Visualice el hidrograma.
 
 ## 7. Modelación para flujo no permanente
 
-1. 
+1. En la ventana principal del proyecto HEC-RAS, ir al menú _Run_ y seleccionar _Unsteady Flow Analysis_ o dar clic en el botón _Perform a usteady flow simulation_. Guardar como _Unsteady_.
 
+<div align="center"><img src="graph/HECRAS_GeometryData32.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
+2. Ejecutar y revisar registro de salida.
 
+> Para este análisis utilizaremos un intervalo de cálculo de 1 minuto sin evaluar la condición de Courant.
 
+<div align="center"><img src="graph/HECRAS_GeometryData33.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
+3. Visualice los resultados obtenidos en las secciones transversales y el perfil de flujo.
+
+<div align="center"><img src="graph/HECRAS_GeometryData34.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData35.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+
+4. Visualice los resultados obtenidos y verifique que las velocidades sean < 3 m/s en valle.
+
+<div align="center"><img src="graph/HECRAS_GeometryData36.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+
+5. Visualice los resultados obtenidos y verifique los cortantes sean < 20 N/m² en valle.
+
+<div align="center"><img src="graph/HECRAS_GeometryData37.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+
+6. Revise las tablas de resultados.
+
+<div align="center"><img src="graph/HECRAS_GeometryData38.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData39.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -209,15 +230,14 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 ## Referencias
 
-* 
+* US Army Corps of Engineers. HEC-RAS River Analysis System, Hydraulic Reference Manual, Version 5.0. CPD-69. 2016.2
 
 
 ## Control de versiones
 
 | Versión    | Descripción        | Autor                                      | Horas |
 |------------|:-------------------|--------------------------------------------|:-----:|
-| 2024.02.24 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |   8   |
-| 2014.01.11 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  18   |
+| 2025.06.11 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |   3   |
 
 
 ##

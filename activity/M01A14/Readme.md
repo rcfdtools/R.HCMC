@@ -157,7 +157,7 @@ Visualice el hidrograma.
 5. Visualice los resultados obtenidos en las secciones transversales y el perfil de flujo.
 
 <div align="center"><img src="graph/HECRAS_GeometryData25.jpg" alt="R.SIGE" width="70%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_GeometryData26.jpg" alt="R.SIGE" width="7%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData26.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 6. Visualice los resultados obtenidos y verifique que las velocidades obtenidas sean < 2 m/s en la sección del cauce dominante o río (river) y < 3 m/s en el valle (valley).
 

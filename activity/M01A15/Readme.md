@@ -170,7 +170,7 @@ Para el cálculo de la pendiente, la diferencia de nivel respecto a las cotas de
 <div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.DrawResults1.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 
-## Diseño sinuoso 2 - Determinando la longitud del río natural aplicando el factor de sinuosidad característico estimado para la cuenca a intervenir
+## 2. Diseño sinuoso 2 - Determinando la longitud del río natural aplicando el factor de sinuosidad característico estimado para la cuenca a intervenir
 
 Utilizando el factor de sinuosidad característico obtenido en la actividad [M01A10](../M01A10), correspondiente al análisis a partir de la simplificación del valle utilizando un radio de 180 metros, a través del cual se pudo determinar un valor de 1.1733 a partir de la ecuación de regresión **y = 0.8629 * x<sup>0.0349</sup>**, donde x corresponde a un cauce con longitud de 6689.9 m, estime los parámetros de diseño del cauce sinuoso.
 

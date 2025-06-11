@@ -189,11 +189,42 @@ Resultados obtenidos y atributos para el dibujo en Autodesk® Civil 3D o en Auto
 * Número de subdivisiones en el eje del valle suavizado (número de ondas x 4): 46.
 * Pendiente del Río: (6 m / 6052.47 m) = 0.0009913 m/m (pendiente mayor a la del cauce natural a reemplazar).
 * B’: 289.978 m.
-* B’/2: 144.989  m.
+* B’/2: 144.989 m.
 * Lm: 448.074 m.
 * S – Factor de sinuosidad Equivalente: 1.173.
 
 
+## 3. Diseño sinuoso 3 - Aumentando la longitud del río sinuoso aplicando un factor de sinuosidad mayor que permita obtener una pendiente menor a la del cauce natural
+
+Utilizando el valor límite entre cauce sinuoso y meandriforme, correspondiente a 1.5, estime los parámetros de diseño del cauce sinuoso.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design3a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design3b.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design3c.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+
+Resultados obtenidos y atributos para el dibujo en Autodesk® Civil 3D o en Autocad.
+
+* α - Ángulo de deflexión de la onda : 65.47º.
+* Lr - Longitud sinuosa del río: 7737.75 m.
+* Número de ondas sinuosas: 22.5.
+* Lb - Longitud hidráulica de cada onda: 343.9656 m.
+* La - Longitud de aproximación entre ondas o entre-tangencia: 100 m.
+* Número de subdivisiones en el eje del valle suavizado (número de ondas x 4): 90.
+* Pendiente del Río: (6 m / 7737.75 m) = 0.0007754 m/m (pendiente menor a la del cauce natural a reemplazar).
+* B’: 178.340 m.
+* B’/2: 89.170 m.
+* Lm - Longitud geométrica de onda: 229.310 m.
+* S – Factor de sinuosidad Equivalente: 1.5.
+
+
+## 4. Comparación de resultados
+
+| Díseño | Detalle                                                                                    | Lr (m) | Fs | n ondas | Entre-tangencia |
+|--------|--------------------------------------------------------------------------------------------|--------|----|---------|-----------------|
+| 1      | Longitud río equivalente al cauce natural.                                                 |        |    |         |                 |
+| 2      | Longitud río usando factor de sinuosidad característico de la zona de valle.               |        |    |         |                 |
+| 3      | Usando Fs de 1.5 para obtener un río completamente sinuoso, más largo y de menor pendiente |        |    |         |                 |
 
 
 

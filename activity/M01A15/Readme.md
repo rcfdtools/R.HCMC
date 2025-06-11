@@ -177,7 +177,7 @@ Utilizando el factor de sinuosidad característico obtenido en la actividad [M01
 <div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design2a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design2b.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design2c.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design2c.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 Resultados obtenidos y atributos para el dibujo en Autodesk® Civil 3D o en Autocad.
 

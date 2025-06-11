@@ -187,13 +187,12 @@ Resultados obtenidos y atributos para el dibujo en Autodesk® Civil 3D o en Auto
 * Lb - Longitud hidráulica de cada onda: 525.7258 m.
 * La - Longitud de aproximación entre ondas o entre-tangencia: 15 m.
 * Número de subdivisiones en el eje del valle suavizado (número de ondas x 4): 46.
-* Pendiente del Río: (6 m / 6052.47 m) = 0.0009913 m/m (pendiente idéntica a la del cauce natural a reemplazar).
+* Pendiente del Río: (6 m / 6052.47 m) = 0.0009913 m/m (pendiente mayor a la del cauce natural a reemplazar).
 * B’: 289.978 m.
 * B’/2: 144.989  m.
 * Lm: 448.074 m.
 * S – Factor de sinuosidad Equivalente: 1.173.
 
-> La pendiente obtenida es mayor a la natural del cauce a reemplazar.
 
 
 

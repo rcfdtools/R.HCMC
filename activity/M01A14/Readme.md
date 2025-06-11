@@ -1,4 +1,4 @@
-# 1. 14. Prototipo digital del canal diseñado
+# 1. 14. Prototipo digital del canal prismático diseñado
 Keywords: `hydraulic-prototipe`  `m01a14`
 
 A partir del diseño geométrico e hidráulico de la sección y la pendiente del cauce, crear un prototipo del canal principal (sección compuesta por cauce dominante y valle) y realice la modelación en flujo Permanente (todos los periodos de retorno y caudal medio) y No Permanente del canal (periodo de retorno 2.33 y 100 años).

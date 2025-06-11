@@ -41,7 +41,7 @@ Para el diseño sinuoso son requeridos los parámetros geométricos obtenidos en
 
 > Estos valores serán utilizados para el trazado de ejes en Autodesk Civil 3D.
 
-<div align="center"><img src="graph/SeccionCompuestaDiseño.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/SeccionCompuestaDiseño.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 
 ### Geometría y solución trigonométrica de una onda sinuosa

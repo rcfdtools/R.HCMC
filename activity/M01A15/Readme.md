@@ -119,19 +119,26 @@ Parámetros:
 
 3. En _Excel / File / Options / Add-ins_, active el complemento Solver.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.AddInSolver.jpg" alt="R.SIGE" width="40%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.AddInSolver.jpg" alt="R.SIGE" width="30%" border="0" /></div>
 
-4. En el tercer valor del campor _Rc_, ingrese un 1 como valor de entrada del radio de curvatura a resolver y en _αSem_ también ingrese 1. 
+4. En el tercer valor del campo _Rc_, ingrese un 1 como valor de entrada del radio de curvatura a resolver y en _αSem_ también ingrese 1. 
 
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Rc.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+> Tenga en cuenta que los métodos numéricos de Solver, podrá encontrar múltiples soluciones o raíces de las ecuaciones para los parámetros de entrada, utilice la primer solución para los valores de referencia ingresados.
 
-5. De clic en el botón _(2A). Estimar α y Rc máximo. Solver_, automáticamente será calculado el valor de `Rc` y el ángulo _α_ de deflexión de la onda en radianes.
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Rc.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-Para la solución con Solver, se utilizan las siguientes restricciones:
+5. De clic en el botón `(2A). Estimar α y Rc máximo. Solver`, automáticamente será calculado el valor de `Rc` y el ángulo _α_ de deflexión de la onda en radianes. Obtendrá un valor de 81.9 m.
 
+Para la solución con Solver, utilizaremos las siguientes restricciones y configuración:
 
+* La = 0, entre-tangencia mínima.
+* alpha α >=0, cualquier deflexión que permita generar un cauce sinuoso.
+* tetta <= 179, máxima deflexión o curvatura que que permita generar un cauce sinuoso.
+* Solving method: GRG Nonlinear (constraint precisión = 0.0001, convergence = 0.0001)
 
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.SolverRc.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+6. Ajuste manualmente el Rc de diseño a 82 m y de clic en el botón `(2D). Calcular α para Rc de diseño. Goal seek`
 
 
 

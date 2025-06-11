@@ -77,6 +77,37 @@ Para la creación del prototipo, utilizaremos las especificaciones de la secció
 
 ## 3. Interpolación de secciones transversales
 
+1. En la ventana del editor de geometría, ir al menú _Tools / XS Interpolation / Between 2 XS’ sections_. Interpolar cada 100 metros. Obtendrá 11 secciones transversales espaciadas cada 100 metros. 
+
+> Estas secciones son requeridas para el correcto tránsito del caudal o los hidrogramas de entrada establecidos en las condiciones de frontera. Las secciones interpoladas se identifican por un * al final de la abscisa. Guardar la geometría obtenida. Visualizar el perfil activando las marcas de terreno del abscisado.
+
+<div align="center"><img src="graph/HECRAS_GeometryData8.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData9.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData10.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+
+
+## 4. Datos de flujo y condiciones de frontera para flujo permanente
+
+1. En la ventana principal del proyecto HEC-RAS, ir al menú _Edit_ y seleccionar _Steady Flow Data_ o dar clic en el botón _View / Edit steady flow data_. En la ventana _Steady Flow Data_, agregar 7 perfiles de flujo, uno para cada caudal pico obtenido para los diferentes periodos de retorno y para el caudal medio.
+
+Ingresar los caudales pico obtenidos para cada periodo de retorno - Tr, que se encuentran registrados en el libro [R.HydroTools.HidrogramaRegVal.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/HidrogramaRegVal), correspondientes al punto de inicio o del nodo intermedio con mayor caudal pico obtenido, que para el caso de estudio corresponde al nodo J4660.
+
+<div align="center"><img src="graph/HECRAS_GeometryData11.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+
+Desde el menú _Options_, cambiar el nombre de los perfiles para cada Tr.
+
+<div align="center"><img src="graph/HECRAS_GeometryData12.jpg" alt="R.SIGE" width="30%" border="0" /></div>
+
+2. Establecer las condiciones de frontera para flujo subcrítico, utilice profundidad normal e introduzca la pendiente de diseño del río correspondiente a 0.0008969 m/m.
+
+<div align="center"><img src="graph/HECRAS_GeometryData13.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData14.jpg" alt="R.SIGE" width="20%" border="0" /></div>
+
+
+
+
+
+
 
 
 

@@ -152,7 +152,7 @@ Para la solución con Solver, utilizaremos las siguientes restricciones y config
 
 Resultados obtenidos y atributos para el dibujo en Autodesk® Civil 3D o en Autocad.
 
-* α - Angulo de deflexión de la onda : 65.4º.
+* α - Angulo de deflexión de la onda : 65.24º.
 * Lr - Longitud sinuosa del río: 6689.9 m.
 * Número de ondas sinuosas: 16.
 * Lb - Longitud hidráulica de cada onda: 427.4 m.
@@ -166,9 +166,8 @@ Resultados obtenidos y atributos para el dibujo en Autodesk® Civil 3D o en Auto
 
 Para el cálculo de la pendiente, la diferencia de nivel respecto a las cotas de inicio y fondo entre las secciones de inicio y entrega es de 6 metros.
 
-
 <div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.DrawResults.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.DrawResults1.jpg" alt="R.SIGE" width="800%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.DrawResults1.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 
 

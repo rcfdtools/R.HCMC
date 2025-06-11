@@ -65,10 +65,17 @@ Para la creación del prototipo, utilizaremos las especificaciones de la secció
 <div align="center"><img src="graph/HECRAS_GeometryData4a.jpg" alt="R.SIGE" width="20%" border="0" /></div>
 <div align="center"><img src="graph/HECRAS_GeometryData4.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
+6. Cierre el editor de secciones y en la ventana principal del editor de geometría de clic en el menú _File / Save Geometry Data_, nombrar como _CanalPrincipalCompuesto_. Visualice la planta del eje y las dos secciones principales.
+
+<div align="center"><img src="graph/HECRAS_GeometryData5.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData6.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+
+7. Seleccione el eje del canal prototipo y visualice el perfil, observará que las bancas se encuentran 1.5 m sobre el fondo.
+
+<div align="center"><img src="graph/HECRAS_GeometryData7.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 
-
-
+## 3. Interpolación de secciones transversales
 
 
 

@@ -136,7 +136,7 @@ Para la solución con Solver, utilizaremos las siguientes restricciones y config
 * tetta <= 179, máxima deflexión o curvatura que que permita generar un cauce sinuoso.
 * Solving method: GRG Nonlinear (constraint precisión = 0.0001, convergence = 0.0001)
 
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.SolverRc.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.SolverRc.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.SolverRc1.jpg" alt="R.SIGE" width="30%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.SolverRc2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 

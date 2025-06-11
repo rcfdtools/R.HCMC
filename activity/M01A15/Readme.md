@@ -106,16 +106,14 @@ Parámetros:
 
 1. En el libro de diseño [R.HydroTools.DisenoSinuosoCanal.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoSinuosoCanal), ingrese la longitud de la llanura o valle suavizado `Lc` y con la herramienta _Data / What-if Analysis / Goal seek_ (Buscar objetivo), busque la longitud del cauce cambiando el factor o índice de sinuosidad. Obtendrá un factor de 1.297, mismo valor obtenido en la actividad [M01A10](../M01A10).
 
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.GoalSeekFs.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.GoalSeekFs.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 > En versiones antiguas de Microsoft Excel, ir al menú _Datos / Pruebas de Hipótesis / Función Objetivo_. 
 
-2. En QGIS, mida el radio aproximado de curvatura de las ondas de los cauces usando la capa de la red de drenaje natural. Obtendrá un valor de referencia de aproximadamente 90 metros.
+2. En QGIS, mida el radio aproximado de curvatura de las ondas de los cauces usando la capa de la red de drenaje natural. Obtendrá un valor de referencia de aproximadamente 90 metros. Registre este valor en el campo `Rc` del libro de diseño.
 
 <div align="center"><img src="graph/QGIS_Rc.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_Rc1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-
-Registre este valor en el campo `Rc` del libro de diseño.
 
 > El tercer valor `Rc` registrado, corresponde al radio a utilizar en el diseño geométrico. Un valor aproximado será resuelto para la geometría de entrada usando _Solver_ de Excel.
 
@@ -123,9 +121,14 @@ Registre este valor en el campo `Rc` del libro de diseño.
 
 <div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.AddInSolver.jpg" alt="R.SIGE" width="40%" border="0" /></div>
 
-4. 
+4. En el tercer valor del campor _Rc_, ingrese un 1 como valor de entrada del radio de curvatura a resolver y en _αSem_ también ingrese 1. 
 
 <div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Rc.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+
+5. De clic en el botón _(2A). Estimar α y Rc máximo. Solver_, automáticamente será calculado el valor de `Rc` y el ángulo _α_ de deflexión de la onda en radianes.
+
+Para la solución con Solver, se utilizan las siguientes restricciones:
+
 
 
 

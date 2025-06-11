@@ -68,11 +68,11 @@ Para la creación del prototipo, utilizaremos las especificaciones de la secció
 6. Cierre el editor de secciones y en la ventana principal del editor de geometría de clic en el menú _File / Save Geometry Data_, nombrar como _CanalPrincipalCompuesto_. Visualice la planta del eje y las dos secciones principales.
 
 <div align="center"><img src="graph/HECRAS_GeometryData5.jpg" alt="R.SIGE" width="80%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_GeometryData6.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData6.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 7. Seleccione el eje del canal prototipo y visualice el perfil, observará que las bancas se encuentran 1.5 m sobre el fondo.
 
-<div align="center"><img src="graph/HECRAS_GeometryData7.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData7.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 
 ## 3. Interpolación de secciones transversales
@@ -81,9 +81,9 @@ Para la creación del prototipo, utilizaremos las especificaciones de la secció
 
 > Estas secciones son requeridas para el correcto tránsito del caudal o los hidrogramas de entrada establecidos en las condiciones de frontera. Las secciones interpoladas se identifican por un * al final de la abscisa. Guardar la geometría obtenida. Visualizar el perfil activando las marcas de terreno del abscisado.
 
-<div align="center"><img src="graph/HECRAS_GeometryData8.jpg" alt="R.SIGE" width="80%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_GeometryData9.jpg" alt="R.SIGE" width="80%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_GeometryData10.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData8.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData9.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData10.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 
 ## 4. Datos de flujo y condiciones de frontera para flujo permanente

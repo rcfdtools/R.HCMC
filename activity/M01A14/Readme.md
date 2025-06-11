@@ -112,18 +112,18 @@ Desde el menú _Options_, cambiar el nombre de los perfiles para cada Tr.
 
 1. En la ventana principal del proyecto HEC-RAS, ir al menú _Edit_ y seleccionar _Unsteady Flow Data_ o dar clic en el botón _View / Edit unsteady flow data_.
  
-En la ventana Unsteady Flow Data, ingresar el hidrograma de flujo correspondiente al periodo de retorno de 100 años en las condiciones de frontera aguas arriba localizadas en la abscisa 1000 m utilizando 4321 pulsos.
+En la ventana Unsteady Flow Data, ingresar el hidrograma de flujo correspondiente al periodo de retorno de 100 años en las condiciones de frontera aguas arriba localizadas en la abscisa 1000 m utilizando 4321 pulsos (cada 1 minuto).
 
 <div align="center"><img src="graph/HECRAS_GeometryData16a.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 <div align="center"><img src="graph/HECRAS_GeometryData16.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 Aguas abajo definir profundidad normal y establecer en condiciones iniciales un flujo inicial o flujo de precalentamiento del moodelo de 0.0001 m³/s. 
 
-<div align="center"><img src="graph/HECRAS_GeometryData17.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData17.jpg" alt="R.SIGE" width="50%" border="0" /></div>
 
 Visualice el hidrograma.
 
-<div align="center"><img src="graph/HECRAS_GeometryData18.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData18.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 
 

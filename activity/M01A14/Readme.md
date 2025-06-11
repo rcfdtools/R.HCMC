@@ -148,11 +148,11 @@ Visualice el hidrograma.
 
 3. Guardar como _Steady_.
 
-<div align="center"><img src="graph/HECRAS_GeometryData23.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData23.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 4. Ejecutar en condiciones de flujo subcrítico y revisar el Log oo registro de resultados.
 
-<div align="center"><img src="graph/HECRAS_GeometryData24.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData24.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 5. Visualice los resultados obtenidos en las secciones transversales y el perfil de flujo.
 

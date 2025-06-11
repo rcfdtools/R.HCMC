@@ -37,23 +37,23 @@ Para la creación del prototipo, utilizaremos las especificaciones de la secció
 
 > En el menú _Options_, clic en _Unit System_, establecer unidades en el sistema internacional.
 
-<div align="center"><img src="graph/HECRAS_NewProject.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_NewProject1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_NewProject.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_NewProject1.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 
 ## 2. Creación de geometría
 
 1. En la ventana principal de HEC-RAS, ir al menú _Edit_ y clic en _Geometric Data_ o clic en el ícono de _View / Edit geometric data_. En el editor de geometría, clic en _Add New River Reach_. Dibujar manualmente una línea horizontal de derecha a izquierda y n ombrar como _CanalPrincipal_.
 
-<div align="center"><img src="graph/HECRAS_GeometryData.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 2. En el menú _GIS Tools_, seleccionar la opción _Reach Invert Lines Table_ y modificar las coordenadas por las mostradas. El nodo 1 corresponde al inicio de línea al este y el nodo 2 al fin de la línea al oeste. El prototipo creado tendrá una longitud de 1000 metros. Luego de dar clic en Ok, observará que no es visible la línea, para lo cual deberá ajustar el tamaño visible del espacio de trabajo
 
-<div align="center"><img src="graph/HECRAS_GeometryData1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData1.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 3. En el menú _View_, seleccionar la opción Set _Schematic Plot Extents_ e ingresar los valores mostrados. Verifique la dirección vectorial de la línea de este a oeste.
 
-<div align="center"><img src="graph/HECRAS_GeometryData2.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData2.jpg" alt="R.SIGE" width="40%" border="0" /></div>
 
 
 

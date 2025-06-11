@@ -49,16 +49,21 @@ Para la creación del prototipo, utilizaremos las especificaciones de la secció
 
 2. En el menú _GIS Tools_, seleccionar la opción _Reach Invert Lines Table_ y modificar las coordenadas por las mostradas. El nodo 1 corresponde al inicio de línea al este y el nodo 2 al fin de la línea al oeste. El prototipo creado tendrá una longitud de 1000 metros. Luego de dar clic en Ok, observará que no es visible la línea, para lo cual deberá ajustar el tamaño visible del espacio de trabajo
 
-<div align="center"><img src="graph/HECRAS_GeometryData1.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData1.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 3. En el menú _View_, seleccionar la opción Set _Schematic Plot Extents_ e ingresar los valores mostrados. Verifique la dirección vectorial de la línea de este a oeste.
 
 <div align="center"><img src="graph/HECRAS_GeometryData2.jpg" alt="R.SIGE" width="40%" border="0" /></div>
 
+4. Para la creación de las secciones transversales, de clic en el ícono _Cross Section_. En la ventana _Cross Section Data_, ir al menú _Options_ y dar clic en _Add a new Cross Section_. Ingresar los parámetros registrados en el libro de diseño [R.HydroTools.Diseno GeometricoHidraulicoVertical.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoGeometricoHidraulicoVertical) correspondientes a la sección de inicio en la abscisa 1000 m del prototipo, dar clic en _Apply Data_. Verificar la posición de las bancas en la corona del talud del cauce dominante.
 
+<div align="center"><img src="graph/HECRAS_GeometryData3a.jpg" alt="R.SIGE" width="40%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData3.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
+4. Repita el procedimiento anterior para la sección de descarga localizada en la abscisa cero.
 
-
+<div align="center"><img src="graph/HECRAS_GeometryData4a.jpg" alt="R.SIGE" width="25%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData4.jpg" alt="R.SIGE" width="40%" border="0" /></div>
 
 
 

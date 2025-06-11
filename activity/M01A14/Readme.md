@@ -191,20 +191,20 @@ Visualice el hidrograma.
 
 3. Visualice los resultados obtenidos en las secciones transversales y el perfil de flujo.
 
-<div align="center"><img src="graph/HECRAS_GeometryData34.jpg" alt="R.SIGE" width="70%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_GeometryData35.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData34.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData35.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 4. Visualice los resultados obtenidos y verifique que las velocidades sean < 3 m/s en valle.
 
-<div align="center"><img src="graph/HECRAS_GeometryData36.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData36.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 5. Visualice los resultados obtenidos y verifique los cortantes sean < 20 N/m² en valle.
 
-<div align="center"><img src="graph/HECRAS_GeometryData37.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData37.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 6. Revise las tablas de resultados.
 
-<div align="center"><img src="graph/HECRAS_GeometryData38.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryData38.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 <div align="center"><img src="graph/HECRAS_GeometryData39.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 
@@ -217,6 +217,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | M01A14    | A partir del diseño geométrico e hidráulico de su proyecto, crear un prototipo del canal principal (sección compuesta por cauce dominante y valle) y realizar la modelación en flujo Permanente (todos los periodos de retorno definidos y caudal medio) y No Permanente del canal (periodo de retorno 2.33 y 100 años o los definidos para el diseño). Comprima y cargue el modelo en la carpeta /file/hec/.                                                                                                                                        | 
+| M01A14    | Cree una copia de la geometría y agregue y modele los cauces laterales de su proyecto, requerirá de dos nodos o junctions e ingresar caudales en flujo permanente al inicio de cada tramo y en las intersecciones, en no permanente no es requerido el ingreso de hidrogramas en nodos. Tenga en cuenta que la geometría debe incluir la pendiente de diseño delos cauces laterales y la geometría de la sección tipo obtenida. Modelar solo para periodo de retorno 2.33 y 100 años o los definidos para el diseño.                                 | 
 | M01A14    | Opcional: verificar la formulación correcta de los libros de cálculo suministrados. En las notas de la ficha de control documental indicar el método de verificación y si se requieren o no ajustes.                                                                                                                                                                                                                                                                                                                                                 |
 | M01A14    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 

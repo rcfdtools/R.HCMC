@@ -110,16 +110,22 @@ Parámetros:
 
 > En versiones antiguas de Microsoft Excel, ir al menú _Datos / Pruebas de Hipótesis / Función Objetivo_. 
 
-2. En QGIS, mida el radio aproximado de curvatura de las ondas de los cauces usando la capa de la red de drenaje natural. Obtendrá un valor de referencia de aproximadamente 90 metros, registre este valor en el campo `Rc`.
+2. En QGIS, mida el radio aproximado de curvatura de las ondas de los cauces usando la capa de la red de drenaje natural. Obtendrá un valor de referencia de aproximadamente 90 metros.
 
+<div align="center"><img src="graph/QGIS_Rc.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Rc1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+Registre este valor en el campo `Rc` del libro de diseño.
 
+> El tercer valor `Rc` registrado, corresponde al radio a utilizar en el diseño geométrico. Un valor aproximado será resuelto para la geometría de entrada usando _Solver_ de Excel.
 
+3. En _Excel / File / Options / Add-ins_, active el complemento Solver.
 
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.AddInSolver.jpg" alt="R.SIGE" width="40%" border="0" /></div>
 
+4. 
 
-
-
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Rc.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 
 

@@ -145,7 +145,34 @@ Para conocer la localización de las coordenadas del eje del paso de vía, en QG
 
 1. En Autodesk Civil o en AutoCAD, abra el archivo _/file/cad/R.HydroTools.DisenoPasoViaLineaCAD.dxf_ y guarde como _/file/cad/R.HydroTools.DisenoPasoViaLineaCAD3D.dwg_.
 
-<div align="center"><img src="graph/Civil3D_SaveAs.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Civil3D_OpenDXF.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Civil3D_SaveAsDWG.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+2. Desde el _Workspace Switching_ ubicado en la parte inferior de la pantalla (ícono _Setup_ o piñon), seleccionar _3D Basic_ o _3D Modeling_.
+
+<div align="center"><img src="graph/Civil3D_3DBasic.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+3. Active la vista de navegación con el comando _NAVBAR_ y desde el Orbit rote la vista 3D.
+
+<div align="center"><img src="graph/Civil3D_3DOrbit.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+4. Para las tuberías principales cree en cualquier localización del espacio de trabajo CAD, circunferencias con diámetro igual al definido en el diseño del paso de vía, p.ej., 2 metros. Comando: _Circle_ y radius 2. Selecciones la circunferencia y con el comando _List_, asegúrese de que el radio es de 2 metros.
+
+<div align="center"><img src="graph/Civil3D_Circle.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+5. Con el comando _Sweep_, seleccione la circunferencia, de enter y luego el eje del tubo. Podrá observar que se ha creado el sólido de la tubería.
+
+<div align="center"><img src="graph/Civil3D_Sweep.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+6. Desde el menú _Visualize_, active la Vista Conceptual.
+
+<div align="center"><img src="graph/Civil3D_ConceptualView.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+
+
+
+
+
 
 
 

@@ -156,7 +156,7 @@ Para conocer la localización de las coordenadas del eje del paso de vía, en QG
 
 <div align="center"><img src="graph/Civil3D_3DOrbit.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-4. Para las tuberías principales cree en cualquier localización del espacio de trabajo CAD, circunferencias con diámetro igual al definido en el diseño del paso de vía, p.ej., 2 metros. Comando: _Circle_ y radius 2. Selecciones la circunferencia y con el comando _List_, asegúrese de que el radio es de 2 metros.
+4. Para las tuberías principales cree en cualquier localización del espacio de trabajo CAD, circunferencias con diámetro igual al definido en el diseño del paso de vía, p.ej., 2 metros. Comando: _Circle_ y radius 2. Selecciones la circunferencia y con el comando _List_, asegúrese de que el diámetro es de 2 metros o radio de 1 metro.
 
 <div align="center"><img src="graph/Civil3D_Circle.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
@@ -168,11 +168,13 @@ Para conocer la localización de las coordenadas del eje del paso de vía, en QG
 
 <div align="center"><img src="graph/Civil3D_ConceptualView.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+7. Ejecute el comando _SolidEdit_, seleccione _Body_, _Shell_, seleccione el sólido desde la parte exterior del tubo, luego la cara frontal, luego la cara posterior y de Enter, ingrese el espesor de la tubería, p.ej., 0.1 m y de Enter.
 
+<div align="center"><img src="graph/Civil3D_SolidEdit.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+8. Utilizando el comando _Copy_, replique varias veces las tuberías sobre los ejes 3D.
 
-
-
+9. Repita el mismo procedimiento para las tuberías secundarias cuyo radio es 
 
 
 

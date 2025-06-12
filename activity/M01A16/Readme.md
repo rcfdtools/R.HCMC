@@ -114,7 +114,7 @@ Para conocer la localización de las coordenadas del eje del paso de vía, en QG
 
 1. Desde el libro de diseño, exporte la hoja _GISCulvertPoint_ un archivo de texto separado por comas como _/file/table/R.HCMC.GISCulvertPoint.csv_ y cierre Excel.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.14.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.14.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 2. En QGIS cree una capa temporal de nodos a partir de las localizaciones exportadas, _Layer / Add Delimited Text Layer_.
 
@@ -124,7 +124,7 @@ Para conocer la localización de las coordenadas del eje del paso de vía, en QG
 
 3. Exporte la capa a un archivo de formas con el nombre _/file/table/PasoViaAlcantarillaPuntoEje.shp_ y remueva la capa temporal.
 
-<div align="center"><img src="graph/QGIS_ExportLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ExportLayer.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 4. Ajuste la simbología y rotule a partir del campo `LineField`.
 
@@ -132,12 +132,12 @@ Para conocer la localización de las coordenadas del eje del paso de vía, en QG
 
 5. Para crear las líneas conectoras, utilice la herramienta _Processing Toolbox / Vector creation / Points to path_, guarde como /file/shp/PasoViaAlcantarillaLineaEje.shp
 
-<div align="center"><img src="graph/QGIS_PointsToPath.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_PointsToPath.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_PointsToPath1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 6. Exporte la capa de ejes a formato AutoCAD DXF como _/file/cad/R.HydroTools.DisenoPasoViaLineaCAD.dxf_, incluya los valores de la dimensión Z.
 
-<div align="center"><img src="graph/QGIS_ExportLayerDXF.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ExportLayerDXF.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_ExportLayerDXF1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
@@ -172,15 +172,11 @@ Para conocer la localización de las coordenadas del eje del paso de vía, en QG
 
 <div align="center"><img src="graph/Civil3D_SolidEdit.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-8. Utilizando el comando _Copy_, replique varias veces las tuberías sobre los ejes 3D.
+8. Utilizando el comando _Copy_, replique varias veces las tuberías sobre los ejes 3D. Como observa, las tuberías no se traslapan y tienen la separación de diseño.
 
-9. Repita el mismo procedimiento para las tuberías secundarias cuyo radio es 
+<div align="center"><img src="graph/Civil3D_Copy.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-
-
-
-
-
+9. Repita el mismo procedimiento para las tuberías secundarias cuyo diámetro es 0.9144 metros y asegúrese de que no existen translapos. 
 
 
 ## Actividades de proyecto :triangular_ruler:

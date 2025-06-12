@@ -36,12 +36,32 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 > Asegúrese de que la geometría ingresada corresponde a la utilizada en el diseño sinuoso.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+2. Defina los siguientes parámetros hidráulicos del paso de vía:
 
+* y, elevación lámina (m): corresponde a la altura máxima de la lámina de agua en las alcantarillas. Para mantener el mismo ancho la sección del canal diseñado, con función objetivo defina para la celda `H6` un valor igual al ancho en la base del valle (209.2 m para el caso de estudio) cambiando la altura `y`, obtendrá una altura de lámina de 1.08 metros.
+* Tr, periodo retorno (años): periodo de retorno máximo que será transportado. Al inicio del curso se definió el periodo de retorno para el diseño de las estructuras hidráulicas y pasos de vía, correspondiente a 25 años, sin embargo, este valor puede ser ajustado para mantener el ancho de la sección compuesta de diseño.
 
+> :bulb: No es recomendable diseñar el paso de vía para transportar todo el flujo máximo del periodo de diseño de la sección compuesta correspondiente a 100 años. Considere que las tuberías podrán trabajar a presión y evite sobreanchos que requerirán el diseño de expansiones y contracciones.
 
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.2.jpg" alt="R.SIGE" width="15%" border="0" /></div>
 
+Para el diseño utilizaremos una altura de lámina de 1 metro y un periodo de 25 años, sin embargo, el periodo de retorno para esta altura de lámina podrá ser diferente si consideramos el flujo a superficie libre o el flujo en carga o a presión por las alcantarillas. Una vez ingresados los valores serán realizados diferentes cálculos hidráulicos.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.3.jpg" alt="R.SIGE" width="15%" border="0" /></div>
+
+3. Defina el diámetro de las alcantarillas principales y secundarias, para el caso de estudio utilizaremos tuberías de 2 metros (118") y 0.9144 metros (36"). Luego de clic en el botón `Resolver` que le permitirá calcular el número de tuberías requeridas. Inicialmente, obtendrá que son requeridas 7.333 tuberías principales y 48 secundarias, ajuste el valor a 7 tubos principales, así obtendrá que necesita 50 secundarias.
+
+> Para la óptima distribución de las tuberías en la sección, es necesario definir la separación entre las alcantarillas principales y las secundarías e ingresar la pendiente que tendrán las tuberías. La separación dependerá del tipo de material y la estructura portante de los conductos a emplear, para el caso de estudio utilizaremos tubos principales en lámina corrugada de acero que requieren de material de confinamiento lateral para garantizar su estabilidad, y tuberías secundarias en concreto que requieren una separación menor.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.4.jpg" alt="R.SIGE" width="15%" border="0" /></div>
+
+Verifique el gráfico de sección, si en el diseño decidió que el ancho del paso de vía debe ser igual al ancho de la sección, las secciones compuestas deben ser similares.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.5.jpg" alt="R.SIGE" width="15%" border="0" /></div>
+
+> El gráfico de sección permite además conocer la localización de las tuberías, sus coronas y bateas, además de la línea que representa la altura de lámina de agua a superficie libre. Asegúrese de que las cotas clave de las tuberías se encuentran bajo la altura máxima de la sección.
 
 
 

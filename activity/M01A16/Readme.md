@@ -49,9 +49,11 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 > :bulb: No es recomendable diseñar el paso de vía para transportar todo el flujo máximo del periodo de diseño de la sección compuesta correspondiente a 100 años. Considere que las tuberías podrán trabajar a presión y evite sobreanchos que requerirán el diseño de expansiones y contracciones.
 
-Para el diseño utilizaremos una altura de lámina de 1 metro y un periodo de 100 años, una vez ingresados los valores serán realizados diferentes cálculos hidráulicos.
+Para el diseño utilizaremos una altura de lámina de 1 metro y como referencia de diseño de la sección compuesta un periodo de 100 años, una vez ingresados los valores serán realizados diferentes cálculos hidráulicos.
 
 <div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.3.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+
+> Al inicio del curso se definió el periodo de retorno para el diseño de las estructuras hidráulicas y pasos de vía, correspondiente a 25 años, sin embargo, este valor puede ser ajustado para mantener el ancho de la sección compuesta de diseño.
 
 3. Defina el diámetro de las alcantarillas principales y secundarias, para el caso de estudio utilizaremos tuberías de 2 metros (118") y 0.9144 metros (36"). Luego de clic en el botón `Resolver` que le permitirá calcular el número de tuberías requeridas. Inicialmente, obtendrá que son requeridas 7.333 tuberías principales y 48 secundarias, ajuste el valor a 7 tubos principales, así obtendrá que necesita 50 secundarias que equivalen a un área hidráulica de 54.83 m². 
 
@@ -59,8 +61,7 @@ Para el diseño utilizaremos una altura de lámina de 1 metro y un periodo de 10
 
 <div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.4.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-
-
+> El periodo de retorno equivalente obtenido, correspondiente a 16.2 años para la altura de lámina definida podrá ser diferente si consideramos el flujo a superficie libre o el flujo en carga o a presión por las alcantarillas.
 
 4. Verifique el gráfico de sección, si en el diseño decidió que el ancho del paso de vía debe ser igual al ancho de la sección, las secciones compuestas deben ser similares.
 
@@ -68,7 +69,9 @@ Para el diseño utilizaremos una altura de lámina de 1 metro y un periodo de 10
 
 > El gráfico de sección permite además conocer la localización de las tuberías, sus coronas y bateas, además de la línea que representa la altura de lámina de agua a superficie libre. Asegúrese de que las cotas clave de las tuberías se encuentran bajo la altura máxima de la sección.
 
-En caso de que haya decidido diseñar la sección 
+En caso de que haya decidido diseñar la sección del paso de vía con sobre ancho para un periodo de retorno igual a 25 años, obtendrá una sección como la mostrada en la siguiente ilustración.
+
+
 
 
 

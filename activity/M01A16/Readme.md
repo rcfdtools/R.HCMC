@@ -110,9 +110,47 @@ Para conocer la localización de las coordenadas del eje del paso de vía, en QG
 <div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.13.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
-## 3. Dibujo de ejes
+## 3. Dibujo de ejes geográficos en QGIS
 
-1. 
+1. Desde el libro de diseño, exporte la hoja _GISCulvertPoint_ un archivo de texto separado por comas como _/file/table/R.HCMC.GISCulvertPoint.csv_ y cierre Excel.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.14.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+2. En QGIS cree una capa temporal de nodos a partir de las localizaciones exportadas, _Layer / Add Delimited Text Layer_.
+
+> Asegúrese de que el campo _SoftField_ sea importado como valor numérico entero y en _Z field_ asigne el valor Z correspodiente al eje de cada alcantarilla.
+
+<div align="center"><img src="graph/QGIS_AddDelimitedTextLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+3. Exporte la capa a un archivo de formas con el nombre _/file/table/PasoViaAlcantarillaPuntoEje.shp_ y remueva la capa temporal.
+
+<div align="center"><img src="graph/QGIS_ExportLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+4. Ajuste la simbología y rotule a partir del campo `LineField`.
+
+<div align="center"><img src="graph/QGIS_Label.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+5. Para crear las líneas conectoras, utilice la herramienta _Processing Toolbox / Vector creation / Points to path_, guarde como /file/shp/PasoViaAlcantarillaLineaEje.shp
+
+<div align="center"><img src="graph/QGIS_PointsToPath.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_PointsToPath1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+6. Exporte la capa de ejes a formato AutoCAD DXF como _/file/cad/R.HydroTools.DisenoPasoViaLineaCAD.dxf_, incluya los valores de la dimensión Z.
+
+<div align="center"><img src="graph/QGIS_ExportLayerDXF.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ExportLayerDXF1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+
+## 4. Dibujo de tuberías 3D en Autodesk Civil 3D o en AutoCAD
+
+1. En Autodesk Civil o en AutoCAD, abra el archivo _/file/cad/R.HydroTools.DisenoPasoViaLineaCAD.dxf_ y guarde como _/file/cad/R.HydroTools.DisenoPasoViaLineaCAD3D.dwg_.
+
+<div align="center"><img src="graph/Civil3D_SaveAs.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+
+
+
+
 
 
 
@@ -139,7 +177,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 ## Referencias
 
-* 
+* Metodología de diseño desarrollada por [rcfdtools](https://github.com/rcfdtools).
 
 
 ## Control de versiones

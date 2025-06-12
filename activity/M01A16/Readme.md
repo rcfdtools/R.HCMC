@@ -30,9 +30,9 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
 
-## Procedimiento general
+## 1. Diseño de paso de vía
 
-1. En el libro de diseño [R.HydroTools.DisenoPasoViaCanal.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoPasoViaCanal), registre los parámetros de diseño de la sección dominante (river) y creciente (valley) obtenidas previamente en la actividad [M01A13](../M01A13). Automáticamente, será calculada el área hidráulica, el perímetro mojado y el ancho superficial de la sección. 
+1. En el libro de diseño [R.HydroTools.DisenoPasoViaCanal.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoPasoViaCanal) y en la hoja _SeccionCompuesta_, registre los parámetros de diseño de la sección dominante (river) y creciente (valley) obtenidas previamente en la actividad [M01A13](../M01A13). Automáticamente, será calculada el área hidráulica, el perímetro mojado y el ancho superficial de la sección. 
 
 > Asegúrese de que la geometría ingresada corresponde a la utilizada en el diseño sinuoso.
 
@@ -57,19 +57,27 @@ Para el diseño utilizaremos una altura de lámina de 1 metro y como referencia 
 
 3. Defina el diámetro de las alcantarillas principales y secundarias, para el caso de estudio utilizaremos tuberías de 2 metros (118") y 0.9144 metros (36"). Luego de clic en el botón `Resolver` que le permitirá calcular el número de tuberías requeridas. Inicialmente, obtendrá que son requeridas 7.333 tuberías principales y 48 secundarias, ajuste el valor a 7 tubos principales, así obtendrá que necesita 50 secundarias que equivalen a un área hidráulica de 54.83 m². 
 
-> Para la óptima distribución de las tuberías en la sección, es necesario definir la separación entre las alcantarillas principales y las secundarías e ingresar la pendiente que tendrán las tuberías. La separación dependerá del tipo de material y la estructura portante de los conductos a emplear, para el caso de estudio utilizaremos tubos principales en lámina corrugada de acero que requieren de material de confinamiento lateral para garantizar su estabilidad, y tuberías secundarias en concreto que requieren una separación menor.
+> Para la óptima distribución de las tuberías en la sección, es necesario definir la separación entre las alcantarillas principales y las secundarías e ingresar la pendiente que tendrán las tuberías (similar a la pendiente del río o del valle). La separación dependerá del tipo de material y la estructura portante de los conductos a emplear, para el caso de estudio utilizaremos tubos principales en lámina corrugada de acero que requieren de material de confinamiento lateral para garantizar su estabilidad, y tuberías secundarias en concreto que requieren una separación menor.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.4.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.4.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
-> El periodo de retorno equivalente obtenido, correspondiente a 16.2 años para la altura de lámina definida podrá ser diferente si consideramos el flujo a superficie libre o el flujo en carga o a presión por las alcantarillas.
+> El periodo de retorno equivalente obtenido, correspondiente a 16.2 años para la altura de lámina definida, podrá ser diferente si consideramos el flujo a superficie libre o el flujo en carga o a presión por las alcantarillas.
 
 4. Verifique el gráfico de sección, si en el diseño decidió que el ancho del paso de vía debe ser igual al ancho de la sección, las secciones compuestas deben ser similares.
 
 <div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.5.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-> El gráfico de sección permite además conocer la localización de las tuberías, sus coronas y bateas, además de la línea que representa la altura de lámina de agua a superficie libre. Asegúrese de que las cotas clave de las tuberías se encuentran bajo la altura máxima de la sección.
+> El gráfico de sección permite conocer la localización de las tuberías, sus coronas y bateas, además de la línea que representa la altura de lámina de agua a superficie libre. Asegúrese de que las cotas clave de las tuberías se encuentran bajo la altura máxima de la corona de la sección en valle.
 
-En caso de que haya decidido diseñar la sección del paso de vía con sobre ancho para un periodo de retorno igual a 25 años, obtendrá una sección como la mostrada en la siguiente ilustración.
+En caso de que haya decidido diseñar la sección del paso de vía con sobre ancho para un periodo de retorno igual a 25 años, requerirá de una altura de lámina de 1.4036 metros y 96 tuberías secundarias, obtendrá una sección como la mostrada en la siguiente ilustración que requerirá el diseño de una expansión y una contracción.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.6.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.7.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+
+## 2. Localización geográfica de alcantarillas
+
+1. 
 
 
 

@@ -79,18 +79,35 @@ En caso de que haya decidido diseñar la sección del paso de vía con sobre anc
 
 1. En la hoja _GISSetup_, ingrese las coordenadas de localización de los nodos iniciales y finales del eje central de la sección dominante en el paso de vía, automáticamente será calculada la longitud de la alcantarilla y su rotación en radianes.
 
-Para conocer la localización de las coordenadas del eje del paso de vía, en QGIS defina manualmente sobre el alineamiento del valle dos puntos de paso correspondientes a donde inicia y termina el ancho del paso de vía. Para la separación se recomienda al menos definir un ancho de 60 metros.
+Para conocer la localización de las coordenadas del eje del paso de vía, en QGIS defina manualmente sobre el alineamiento del valle dos puntos de paso correspondientes a donde inicia y termina el ancho del paso de vía.
 
+> Para la separación se recomienda al menos definir un ancho de 60 metros.
+>
 > Esta localización deberá ser ajustada una vez se realice el trazado del valle suavizado y del eje sinuoso en Autodesk Civil 3D.
 
 <div align="center"><img src="graph/QGIS_NodosEjePasoVia.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+2. Revise los parámetros adicionales para localización de alcantarillas principales y secundarias a partir de las propiedades geométricas de la sección compuesta del canal principal.
 
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.8.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+3. Defina los atributos de las secciones de referencia a utilizar en el modelo HEC-RAS 1D, tales como, nombre del río, nombre del tramo, abscisa central del alineamiento del paso de vía, distancia del eje del paso de vía a la sección más cercana aguas arriba, estación del nodo central de la sección aguas arriba y aguas abajo del paso de vía y cota base de la sección aguas abajo del paso de vía.
 
-5. Visualice las tablas de localización de los ejes centrales 
+> Para su proyecto, defina valores similares a los utilizados en el caso de estudio. Posteriormente, estos valores serán ajustados utilizando las localizaciones de su modelo hidráulico.
 
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.9.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+4. De clic en el botón `Crear tabla GIS HEC-RAS 2D` que generará el contenido de la hoja _GISCulvertPoint_. Revise el contenido de la tabla y la gráfica en planta.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.10.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.11.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+5. En la hoja _SeccionCompuesta_, Visualice las tablas de localización de los ejes centrales de las estaciones de localización de alcantarillas en cada sección.
+
+> Los valores de las tablas son utilizados en el modelo HEC-RAS 1D.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.12.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.13.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 

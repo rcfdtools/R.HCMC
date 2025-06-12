@@ -51,7 +51,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 Para el diseño utilizaremos una altura de lámina de 1 metro y un periodo de 25 años, sin embargo, el periodo de retorno para esta altura de lámina podrá ser diferente si consideramos el flujo a superficie libre o el flujo en carga o a presión por las alcantarillas. Una vez ingresados los valores serán realizados diferentes cálculos hidráulicos.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.3.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 3. Defina el diámetro de las alcantarillas principales y secundarias, para el caso de estudio utilizaremos tuberías de 2 metros (118") y 0.9144 metros (36"). Luego de clic en el botón `Resolver` que le permitirá calcular el número de tuberías requeridas. Inicialmente, obtendrá que son requeridas 7.333 tuberías principales y 48 secundarias, ajuste el valor a 7 tubos principales, así obtendrá que necesita 50 secundarias que equivalen a un área hidráulica de 54.83 m². 
 

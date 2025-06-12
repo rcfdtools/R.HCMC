@@ -40,8 +40,12 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 2. Defina los siguientes parámetros hidráulicos del paso de vía:
 
-* y, elevación lámina (m): corresponde a la altura máxima de la lámina de agua en las alcantarillas. Para mantener el mismo ancho la sección del canal diseñado, con función objetivo defina para la celda `H6` un valor igual al ancho en la base del valle (209.2 m para el caso de estudio) cambiando la altura `y`, obtendrá una altura de lámina de 1.08 metros.
-* Tr, periodo retorno (años): periodo de retorno máximo que será transportado. Al inicio del curso se definió el periodo de retorno para el diseño de las estructuras hidráulicas y pasos de vía, correspondiente a 25 años, sin embargo, este valor puede ser ajustado para mantener el ancho de la sección compuesta de diseño.
+| Parámetro                  | Alcance                                                                                                                                                                                                                                                                                                                                    |
+|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| y, elevación lámina (m)    | Corresponde a la altura máxima de la lámina de agua en las alcantarillas. Para mantener el mismo ancho la sección del canal diseñado, con función objetivo defina para la celda `H6` un valor igual al ancho en la base del valle (209.2 m para el caso de estudio) cambiando la altura `y`, obtendrá una altura de lámina de 1.08 metros. |
+| Tr, periodo retorno (años) | Periodo de retorno máximo que será transportado. Al inicio del curso se definió el periodo de retorno para el diseño de las estructuras hidráulicas y pasos de vía, correspondiente a 25 años, sin embargo, este valor puede ser ajustado para mantener el ancho de la sección compuesta de diseño.                                        |
+
+
 
 > :bulb: No es recomendable diseñar el paso de vía para transportar todo el flujo máximo del periodo de diseño de la sección compuesta correspondiente a 100 años. Considere que las tuberías podrán trabajar a presión y evite sobreanchos que requerirán el diseño de expansiones y contracciones.
 

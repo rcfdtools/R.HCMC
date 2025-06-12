@@ -69,7 +69,7 @@ Para el diseño utilizaremos una altura de lámina de 1 metro y como referencia 
 
 > El gráfico de sección permite conocer la localización de las tuberías, sus coronas y bateas, además de la línea que representa la altura de lámina de agua a superficie libre. Asegúrese de que las cotas clave de las tuberías se encuentran bajo la altura máxima de la corona de la sección en valle.
 
-En caso de que haya decidido diseñar la sección del paso de vía con sobre ancho para un periodo de retorno igual a 25 años, requerirá de una altura de lámina de 1.4036 metros y 96 tuberías secundarias, obtendrá una sección como la mostrada en la siguiente ilustración que requerirá el diseño de una expansión y una contracción.
+En caso de que haya decidido diseñar la sección del paso de vía con sobre ancho para un periodo de retorno igual a 25 años, requerirá de una altura de lámina de 1.4036 metros y 96 tuberías secundarias, obtendrá una sección como la mostrada en las dos siguientes ilustraciones que requerirá el diseño de una expansión y una contracción.
 
 <div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.6.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.7.jpg" alt="R.SIGE" width="100%" border="0" /></div>
@@ -77,12 +77,18 @@ En caso de que haya decidido diseñar la sección del paso de vía con sobre anc
 
 ## 2. Localización geográfica de alcantarillas
 
-1. 
+1. En la hoja _GISSetup_, ingrese las coordenadas de localización de los nodos iniciales y finales del eje central de la sección dominante en el paso de vía, automáticamente será calculada la longitud de la alcantarilla y su rotación en radianes.
+
+Para conocer la localización de las coordenadas del eje del paso de vía, en QGIS defina manualmente sobre el alineamiento del valle dos puntos de paso correspondientes a donde inicia y termina el ancho del paso de vía. Para la separación se recomienda al menos definir un ancho de 60 metros.
+
+> Esta localización deberá ser ajustada una vez se realice el trazado del valle suavizado y del eje sinuoso en Autodesk Civil 3D.
+
+<div align="center"><img src="graph/QGIS_NodosEjePasoVia.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 
 
-
+5. Visualice las tablas de localización de los ejes centrales 
 
 
 

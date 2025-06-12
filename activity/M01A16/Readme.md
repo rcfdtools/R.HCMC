@@ -40,16 +40,16 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 2. Defina los siguientes parámetros hidráulicos del paso de vía:
 
-| Parámetro                                    | Alcance                                                                                                                                                                                                                                                                                                                                    |
-|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| y, elevación lámina (m)                      | Corresponde a la altura máxima de la lámina de agua en las alcantarillas. Para mantener el mismo ancho la sección del canal diseñado, con función objetivo defina para la celda `H6` un valor igual al ancho en la base del valle (209.2 m para el caso de estudio) cambiando la altura `y`, obtendrá una altura de lámina de 1.08 metros. |
-| Tr, periodo retorno sección compuesta (años) | Periodo de retorno utilizado para el diseño de la sección compuesta. Al inicio del curso se definió el periodo de retorno para el diseño de la sección, correspondiente a 100 años. A partir de este valor se calcula el periodo de retorno que podrá ser transportado por las alcantarillas a partir del área hidráulica equivalente.     |
-
-> :bulb: No es recomendable diseñar el paso de vía para transportar todo el flujo máximo del periodo de diseño de la sección compuesta correspondiente a 100 años. Considere que las tuberías podrán trabajar a presión y evite sobreanchos que requerirán el diseño de expansiones y contracciones.
+| Parámetro                                    | Alcance                                                                                                                                                                                                                                                                                                                                                                     |
+|----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| y, elevación lámina (m)                      | Corresponde a la altura máxima de la lámina de agua en las alcantarillas. Para mantener el mismo ancho la sección del canal diseñado, con función objetivo defina para la celda `H6` un valor igual al ancho en la base del valle (209.2 m para el caso de estudio) cambiando la altura `y`, obtendrá una altura de lámina de 1.08 metros.                                  |
+| Tr, periodo retorno sección compuesta (años) | Periodo de retorno utilizado para el diseño de la sección compuesta. Al inicio del curso se definió el periodo de retorno para el diseño de la sección, correspondiente a 100 años. A partir de este valor se calcula el periodo de retorno que podrá ser transportado por las alcantarillas a partir del área hidráulica equivalente para la elevación de lámina definida. |
 
 <div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.2.jpg" alt="R.SIGE" width="25%" border="0" /></div>
 
-Para el diseño utilizaremos una altura de lámina de 1 metro y un periodo de 25 años, sin embargo, el periodo de retorno para esta altura de lámina podrá ser diferente si consideramos el flujo a superficie libre o el flujo en carga o a presión por las alcantarillas. Una vez ingresados los valores serán realizados diferentes cálculos hidráulicos.
+> :bulb: No es recomendable diseñar el paso de vía para transportar todo el flujo máximo del periodo de diseño de la sección compuesta correspondiente a 100 años. Considere que las tuberías podrán trabajar a presión y evite sobreanchos que requerirán el diseño de expansiones y contracciones.
+
+Para el diseño utilizaremos una altura de lámina de 1 metro y un periodo de 100 años, una vez ingresados los valores serán realizados diferentes cálculos hidráulicos.
 
 <div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.3.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
@@ -59,7 +59,10 @@ Para el diseño utilizaremos una altura de lámina de 1 metro y un periodo de 25
 
 <div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.4.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-Verifique el gráfico de sección, si en el diseño decidió que el ancho del paso de vía debe ser igual al ancho de la sección, las secciones compuestas deben ser similares.
+
+
+
+4. Verifique el gráfico de sección, si en el diseño decidió que el ancho del paso de vía debe ser igual al ancho de la sección, las secciones compuestas deben ser similares.
 
 <div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.5.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 

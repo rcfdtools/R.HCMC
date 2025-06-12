@@ -1,16 +1,15 @@
-# Plantilla para actividades
-Keywords: `realigment`  `m01a00`
+# 1.16. Obras y estructuras hidráulicas - Paso de vía
+Keywords: `realigment` _hydraulic-sewer_ `m01a16`
 
-xxxxxxxxxxxxxxxxxxxxxxxxxx
+Diseño geométrico de pasos de vía en canales usando alcantarillas por área equivalente a descarga libre para modelos hidráulicos en HEC-RAS. Es recomendable ubicar los pasos de vía en zonas de corte, en la que se disponga de una profundidad a la base del canal dominante mayor a la profundidad hidráulica de diseño, de este modo se podrán utilizar tuberías de diámetros superiores garantizando el tránsito hidráulico a descarga libre.
 
-<div align="center"><img src="graph/M01A00.png" alt="R.SIGE" width="60%" border="0" /></div>
-
-<div align="center"><img src="graph/Gravity_anomalies_on_Earth.png" alt="R.SIGE" width="60%" border="0" /><sub><br>Tomado de: <a href="Public Domain, https://commons.wikimedia.org/w/index.php?curid=479365">https://commons.wikimedia.org</a></sub><br><br></div>
+<div align="center"><img src="graph/M01A13.png" alt="R.SIGE" width="60%" border="0" /></div>
 
 
 ## Objetivos
 
-* 
+* Dimensionar la geometría de sección requerida para transportar el caudal de diseño de creciente bajo pasos de vía usando área equivalente.
+* Verificar la posición y alineamiento de las alcantarillas.
 
 
 ## Requerimientos
@@ -19,19 +18,12 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                           | Descripción                                                                                                                     |
-|:--------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                      | Microsoft Excel 365.                                                                                                            |
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/word?market=bz)                       | Microsoft Word 365.                                                                                                             |
-| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                                                  | Notepad++.                                                                                                                      |
-| [:toolbox:Herramienta](https://qgis.org/)                                                               | QGIS 3.42 o superior.                                                    |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-hms/)                                | HEC-HMS 4.13 Beta 6 o superior.                                                                                                 |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-dssvue/)                             | HEC-DSSVue 3.2.3 (versión funcional para cargue masivo de hietogramas).                                                         |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                | HEC-RAS 6.6 o superior.                                                  |
-| [:notebook:Lectura](R.HydroTools.FactorAtenuacionPrecipitacionFa.pdf)                                   | Factor de atenuación de la precipitación por área simultánea.                                                                   |
-| [:open_file_folder:R.HydroTools.FactorAtenuacion PrecipitacionFa.xlsx](FactorAtenuacionPrecipitacionFa) | Libro de cálculo para la estimación del Fa - Factor de atenuación de la precipitación máxima por área simultánea en una cuenca. |
-| [:round_pushpin:R.HCMC.NodoValle.shp](../../file/shp/R.HCMC.NodoValle.zip)                              | Capa de nodos eje valle recto (creada en actividad anterior).                                          |
-| [:open_file_folder:Modelo hidráulico HECRAS_v0](../../file/hec)                                         | Modelo hidráulico de muestreo HEC-RAS v0 creado en actividad [M01A05](../M01A05/Readme.md).                                                  |
+| Requerimiento                                                                                                                           | Descripción                                                                                                                                                         |
+|:----------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                      | Microsoft Excel 365.                                                                                                                                                |
+| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                                                                                  | Notepad++.                                                                                                                                                          |
+| [:toolbox:Herramienta](https://qgis.org/)                                                                                               | QGIS 3.42 o superior.                                                                                                                                               |
+| [:open_file_folder:R.HydroTools.DisenoPasoViaCanal.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoPasoViaCanal)   | Libro de cálculo para Diseño geométrico de pasos de vía en canales usando alcantarillas por área equivalente a descarga libre para modelos hidráulicos en HEC-RAS.  |
 
 </div>
 
@@ -39,6 +31,26 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 
 ## Procedimiento general
+
+1. En el libro de diseño [R.HydroTools.DisenoPasoViaCanal.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoPasoViaCanal), registre los parámetros de diseño de la sección dominante (river) y creciente (valley) obtenidas previamente en la actividad [M01A13](../M01A13). Automáticamente, será calculada el área hidráulica, el perímetro mojado y el ancho superficial de la sección. 
+
+> Asegúrese de que la geometría ingresada corresponde a la utilizada en el diseño sinuoso.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -73,7 +85,6 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 | Versión    | Descripción        | Autor                                      | Horas |
 |------------|:-------------------|--------------------------------------------|:-----:|
 | 2025.06.12 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |   8   |
-| 2014.01.11 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  18   |
 
 
 ##
@@ -83,7 +94,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A00/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A02/Readme.md) |
+| [:arrow_backward: Anterior](../M01A15/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A17/Readme.md) |
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: 

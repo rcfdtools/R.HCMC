@@ -3,7 +3,7 @@ Keywords: `realigment` _hydraulic-sewer_ `m01a16`
 
 Diseño geométrico de pasos de vía en canales usando alcantarillas por área equivalente a descarga libre para modelos hidráulicos en HEC-RAS. Es recomendable ubicar los pasos de vía en zonas de corte, en la que se disponga de una profundidad a la base del canal dominante mayor a la profundidad hidráulica de diseño, de este modo se podrán utilizar tuberías de diámetros superiores garantizando el tránsito hidráulico a descarga libre.
 
-<div align="center"><img src="graph/M01A13.png" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A16.png" alt="R.SIGE" width="60%" border="0" /></div>
 
 
 ## Objetivos

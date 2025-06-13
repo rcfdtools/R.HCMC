@@ -8,7 +8,8 @@ Diseño de estructura de caída con y sin contra-escalón en sección rectangula
 
 ## Objetivos
 
-* 
+* Evaluar el requerimiento de estructuras de caída en el cauce principal o en cauces laterales.
+* Obtener las especificaciones de desarrollo de la estructura para la protección del fondo.
 
 
 ## Requerimientos
@@ -17,11 +18,11 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                                                                                               | Descripción                                                                                        |
-|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                                                          | Microsoft Excel 365.                                                                               |
-| [:open_file_folder:R.HydroTools.DisenoEstructuraCaidaSinContraescalon.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraCaidaSinContraescalon) | Libro de cálculo para el diseño de estructuras de caída sin contra-escalón en sección rectangular. |
-| [:open_file_folder:R.HydroTools.DisenoEstructuraCaidaSinContraescalon.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraCaidaConContraescalon) | Libro de cálculo para el diseño de estructuras de caída con contra-escalón en sección rectangular. |
+| Requerimiento                                                                                                                                                                | Descripción                                                                                        |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                                                           | Microsoft Excel 365.                                                                               |
+| [:open_file_folder:R.HydroTools.DisenoEstructura CaidaSinContraescalon.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraCaidaSinContraescalon) | Libro de cálculo para el diseño de estructuras de caída sin contra-escalón en sección rectangular. |
+| [:open_file_folder:R.HydroTools.DisenoEstructura CaidaSinContraescalon.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraCaidaConContraescalon) | Libro de cálculo para el diseño de estructuras de caída con contra-escalón en sección rectangular. |
 
 </div>
 
@@ -37,6 +38,8 @@ El diseño y construcción de canales hidráulicos requiere frecuentemente del d
 * Cuando debido a procesos erosivos, el fondo del canal se degrada y es necesario que este se agrade para recuperar su condición inicial y restablecer su pendiente.
 
 En la actividad [M01A08](../M01A08), realizamos el análisis del perfil de terreno del valle y evaluamos o no el requerimiento de estructuras de caída para el empalme o entrega de cauces laterales por encima o a fondo del nuevo valle de realineamiento, encontrando que por las condiciones geo-morfométricas, no es necesario ajustar el fondo Sin embargo, realizaremos el diseño suponiendo que en algún tramo del cauce dominante, podrán ser requeridas estas estructuras.
+
+> Tenga en cuenta que la sección dominante diseña para el canal es trapezoidal y que los libros de diseño de estructuras de caída son aplicable a geometría en canales rectangulares.
 
 
 ## 1. Estructura de caída sin contra-escalón
@@ -101,11 +104,10 @@ PLine
 
 <div align="center"><img src="graph/Civil3D_CaidaSinContraEscalon.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
+> Esta misma metodología puede ser aplicada a entrega de cauces laterales cuando no existe una gran diferencia en la altura de la caída.
 
 
-
-
-
+## 2. Estructura de caída con contra-escalón
 
 
 

@@ -22,7 +22,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                                                           | Microsoft Excel 365.                                                                               |
 | [:open_file_folder:R.HydroTools.DisenoEstructura CaidaSinContraescalon.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraCaidaSinContraescalon) | Libro de cálculo para el diseño de estructuras de caída sin contra-escalón en sección rectangular. |
-| [:open_file_folder:R.HydroTools.DisenoEstructura CaidaSinContraescalon.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraCaidaConContraescalon) | Libro de cálculo para el diseño de estructuras de caída con contra-escalón en sección rectangular. |
+| [:open_file_folder:R.HydroTools.DisenoEstructura CaidaConContraescalon.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraCaidaConContraescalon) | Libro de cálculo para el diseño de estructuras de caída con contra-escalón en sección rectangular. |
 
 </div>
 
@@ -63,7 +63,7 @@ Tabla de análisis actividad [M01A08](../M01A08).
 
 <div align="center">
 Parámetros de entrada en hoja de diseño de caída sin contra-escalón y resultados obtenidos.<br>
-<img src="graph/R.HydroTools.DisenoEstructuraCaidaSinContraescalon.1.jpg" alt="R.SIGE" width="50%" border="0" />
+<img src="graph/R.HydroTools.DisenoEstructuraCaidaSinContraescalon.1.jpg" alt="R.SIGE" width="60%" border="0" />
 </div>
 
 2. Para los parámetros de entrada, el análisis indica que la profundidad crítica Yc es igual a 1.025 metros, con profundidades hidráulicas en piscina de 0.619 metros, antes del resalto en 0.832 metros y después del resalto en 1.284 metros, requiriendo protección de fondo de 6.04 metros, como se muestra en la figura.
@@ -118,7 +118,76 @@ PLine
 
 ## 2. Estructura de caída con contra-escalón
 
+1. En el libro de diseño [R.HydroTools.DisenoEstructuraCaidaConContraescalon.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraCaidaConContraescalon), ingrese los parámetros de diseño correspondientes a la sección del cauce dominante y la configuración del escalón.
 
+Para este ejemplo, utilizaremos:
+
+* Altura de escalón de 0.233 metros, que de acuerdo a los análisis previos realizados en la actividad [M01A08](../M01A08), corresponde a 6 caídas a lo largo del canal.
+* Ancho superficial de la estructura de 40 metros, correspondiente al ancho del canal en la base del cauce dominante.
+* Altura lámina en caída de 1.5 metros, suponiendo que el canal dominante se encuentra a flujo máximo para el periodo de diseño de 2.33 años.
+* Pendiente del río correspondiente a 0.0008969 m/m.
+
+<div align="center">
+
+Tabla de análisis actividad [M01A08](../M01A08).
+
+<img src="graph/R.HydroTools.PerfilValleEstCaidaCorteRelleno.1.jpg" alt="R.SIGE" width="90%" border="0" />
+
+</div>
+
+<div align="center">
+Parámetros de entrada en hoja de diseño de caída sin contra-escalón y resultados obtenidos.<br>
+<img src="graph/R.HydroTools.DisenoEstructuraCaidaSinContraescalon.1.jpg" alt="R.SIGE" width="60%" border="0" />
+</div>
+
+2. Para los parámetros de entrada, el análisis indica que la profundidad crítica Yc es igual a 1.025 metros, con profundidades hidráulicas en piscina de 0.619 metros, antes del resalto en 0.832 metros y después del resalto en 1.284 metros, requiriendo protección de fondo de 6.04 metros, como se muestra en la figura.
+
+> Se recomienda obra de protección de fondo hasta la profundidad Y2 debido a que dependiendo del periodo de retorno y el caudal de entrada, el resalto podra desplazarse hacia la caída.
+> 
+> Aplicable para canales con pendiente baja y flujo subcrítico en sección rectangular.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraCaidaSinContraescalon.2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+3. Para crear en CAD las líneas correspondientes al perfil de fondo y lámina, seleccione las celdas en cursiva, copie y pegue en el Command de AutoCAD o Civil3D, primero lámina y luego fondo. En la selección incluir los espacios en blanco entre comandos y el espacio final. 
+
+> Notación numérica requerida: separador decimal usando punto (.), separador de miles usando coma (,) y separador de listas usando coma (,).
+
+Perfil de lámina esquemático
+
+```
+PLine
+0,3.34812705803005
+0.271338349198634,3.44837042139544
+0.542676698397269,3.2841623060909
+2.98472184118498,2.83193172409318
+6.3111663690108,3.733
+9.02454986099714,3.96043363365396
+
+Pedit
+M
+All
+
+Spline
+
+```
+
+Perfil de fondo
+
+```
+PLine
+0,1.9997566366346
+0.271338349198634,2
+0.542676698397269,2
+2.98472184118498,2
+6.3111663690108,2
+6.3111663690108,2.233
+9.02454986099714,2.23543363365396
+
+```
+
+<div align="center"><img src="graph/Civil3D_CaidaSinContraEscalon.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+> Esta misma metodología puede ser aplicada a entrega de cauces laterales cuando no existe una gran diferencia en la altura de la caída.
 
 
 

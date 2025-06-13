@@ -40,6 +40,11 @@ Casos en los que se requiere del uso de contracciones y/o expansiones:
 * Contracción o expansión de canales laterales a estructuras de caída escalonadas y/o a rápidas.
 * Contracción y expansión en tramos de aproximación a Canaletas Parshall ubicadas en canales.
 
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.TipoTransicion.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.CoefPerdida.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.TipoContraccion.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.TipoExpansion.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+
 
 ## 1. Diseño de contracción de inicio
 
@@ -61,27 +66,27 @@ Casos en los que se requiere del uso de contracciones y/o expansiones:
 
 <div align="center"><img src="graph/QGIS_Measure.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-5. En el libro de diseño [R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraContraccionExpansionSubcritico), registre en la sección A los parámetros geométricos de diseño ingresando los anchos de referencia de la base del valle y ancho en la cota de confinamiento de la contracción, ingrese además la pendiente del valle suavizado, la altura de lámina y el borde libre. 
+5. En el libro de diseño [R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraContraccionExpansionSubcritico), registre en la sección A los parámetros geométricos de diseño ingresando los anchos de referencia de la base del valle y ancho en la cota de confinamiento de la contracción, ingrese además la pendiente del valle suavizado, la altura de lámina y el borde libre. 
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.1.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.1.jpg" alt="R.SIGE" width="55%" border="0" /></div>
 
 6. En la sección B, ingrese el caudal máximo que será transportado por el nuevo cauce (para el periodo de retorno 100 años), la rugosidad del valle (o la rugosidad equivalente de la sección compuesta), defina el tipo de transición y su forma.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.2.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.2.jpg" alt="R.SIGE" width="55%" border="0" /></div>
 
 Una vez ingresados los parámetros, automáticamente obtendrá el cálculo de los parámetros hidráulicos de inicio y salida de la contracción.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.3.jpg" alt="R.SIGE" width="55%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.4.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.3.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.4.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 7. Para optimizar el funcionamiento hidráulico de la transición y para evitar ondulaciones en la lámina de agua, la hoja de diseño calcula la compensación por desnivel, que para el caso de estudio corresponde a un valor de -0.210 metros.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.5.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.5.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 Para la implantación de la transición, puede decidir usar el fondo contínuo (o compensado) o el fondo recto en la zona de la transición.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.6.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.7.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.6.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.7.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center">Gráfico de comparación de fondos y perfiles<br><img src="graph/R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.8.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 

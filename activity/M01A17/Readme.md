@@ -53,13 +53,15 @@ Para este ejemplo, utilizaremos:
 * Altura lámina en caída de 1.5 metros, suponiendo que el canal dominante se encuentra a flujo máximo para el periodo de diseño de 2.33 años.
 * Pendiente del río correspondiente a 0.0008969 m/m.
 
+<div align="center">
 Tabla de análisis actividad [M01A08](../M01A08).
+<img src="graph/R.HydroTools.PerfilValleEstCaidaCorteRelleno.1.jpg" alt="R.SIGE" width="60%" border="0" />
+</div>
 
-<div align="center"><img src="graph/R.HydroTools.PerfilValleEstCaidaCorteRelleno.1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-
+<div align="center">
 Parámetros de entrada en hoja de diseño de caída sin contra-escalón y resultados obtenidos.
-
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraCaidaSinContraescalon.1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<img src="graph/R.HydroTools.DisenoEstructuraCaidaSinContraescalon.1.jpg" alt="R.SIGE" width="60%" border="0" />
+</div>
 
 2. Para los parámetros de entrada, el análisis indica que la profundidad crítica Yc es igual a 1.025 metros, con profundidades hidráulicas en piscina de 0.619 metros, antes del resalto en 0.832 metros y después del resalto en 1.284 metros, requiriendo protección de fondo de 6.04 metros, como se muestra en la figura.
 

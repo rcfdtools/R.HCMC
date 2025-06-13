@@ -42,8 +42,8 @@ Casos en los que se requiere del uso de contracciones y/o expansiones:
 
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.TipoTransicion.jpg" alt="R.SIGE" width="55%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.CoefPerdida.jpg" alt="R.SIGE" width="55%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.TipoContraccion.jpg" alt="R.SIGE" width="55%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.TipoExpansion.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.TipoContraccion.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.TipoExpansion.jpg" alt="R.SIGE" width="50%" border="0" /></div>
 
 
 ## 1. Diseño de contracción de inicio
@@ -81,7 +81,7 @@ Una vez ingresados los parámetros, automáticamente obtendrá el cálculo de lo
 
 7. Para optimizar el funcionamiento hidráulico de la transición y para evitar ondulaciones en la lámina de agua, la hoja de diseño calcula la compensación por desnivel, que para el caso de estudio corresponde a un valor de -0.210 metros.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.5.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.5.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 Para la implantación de la transición, puede decidir usar el fondo contínuo (o compensado) o el fondo recto en la zona de la transición.
 

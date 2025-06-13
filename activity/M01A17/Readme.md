@@ -68,10 +68,6 @@ Parámetros de entrada en hoja de diseño de caída sin contra-escalón y result
 
 2. Para los parámetros de entrada, el análisis indica que la profundidad crítica Yc es igual a 1.025 metros, con profundidades hidráulicas en piscina de 0.619 metros, antes del resalto en 0.832 metros y después del resalto en 1.284 metros, requiriendo protección de fondo de 6.04 metros, como se muestra en la figura.
 
-> Se recomienda obra de protección de fondo hasta la profundidad Y2 debido a que dependiendo del periodo de retorno y el caudal de entrada, el resalto podra desplazarse hacia la caída.
-> 
-> Aplicable para canales con pendiente baja y flujo subcrítico en sección rectangular.
-
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraCaidaSinContraescalon.2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 3. Para crear en CAD las líneas correspondientes al perfil de fondo y lámina, seleccione las celdas en cursiva, copie y pegue en el Command de AutoCAD o Civil3D, primero lámina y luego fondo. En la selección incluir los espacios en blanco entre comandos y el espacio final. 
@@ -126,25 +122,14 @@ Para este ejemplo, utilizaremos:
 * Ancho superficial de la estructura de 40 metros, correspondiente al ancho del canal en la base del cauce dominante.
 * Altura lámina en caída de 1.5 metros, suponiendo que el canal dominante se encuentra a flujo máximo para el periodo de diseño de 2.33 años.
 * Pendiente del río correspondiente a 0.0008969 m/m.
+* Velocidad en la caída de 2 m/s, correspondiente a la velocidad máxima de diseño de la sección dominante.
 
 <div align="center">
-
-Tabla de análisis actividad [M01A08](../M01A08).
-
-<img src="graph/R.HydroTools.PerfilValleEstCaidaCorteRelleno.1.jpg" alt="R.SIGE" width="90%" border="0" />
-
+Parámetros de entrada en hoja de diseño de caída con contra-escalón y resultados obtenidos.<br>
+<img src="graph/R.HydroTools.DisenoEstructuraCaidaConContraescalon.1.jpg" alt="R.SIGE" width="60%" border="0" />
 </div>
 
-<div align="center">
-Parámetros de entrada en hoja de diseño de caída sin contra-escalón y resultados obtenidos.<br>
-<img src="graph/R.HydroTools.DisenoEstructuraCaidaSinContraescalon.1.jpg" alt="R.SIGE" width="60%" border="0" />
-</div>
-
-2. Para los parámetros de entrada, el análisis indica que la profundidad crítica Yc es igual a 1.025 metros, con profundidades hidráulicas en piscina de 0.619 metros, antes del resalto en 0.832 metros y después del resalto en 1.284 metros, requiriendo protección de fondo de 6.04 metros, como se muestra en la figura.
-
-> Se recomienda obra de protección de fondo hasta la profundidad Y2 debido a que dependiendo del periodo de retorno y el caudal de entrada, el resalto podra desplazarse hacia la caída.
-> 
-> Aplicable para canales con pendiente baja y flujo subcrítico en sección rectangular.
+2. Para los parámetros de entrada, el análisis indica que la profundidad crítica Yc es igual a 1.025 metros, con profundidades hidráulicas en piscina de 0.619 metros, antes del resalto en 0.832 metros y después del resalto en 1.246 metros, requiriendo protección de fondo de 5.81 metros y obstáculo de 0.040 metros, como se muestra en la figura.
 
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraCaidaSinContraescalon.2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
@@ -156,12 +141,12 @@ Perfil de lámina esquemático
 
 ```
 PLine
-0,3.34812705803005
-0.271338349198634,3.44837042139544
-0.542676698397269,3.2841623060909
-2.98472184118498,2.83193172409318
-6.3111663690108,3.733
-9.02454986099714,3.96043363365396
+0,3.30757312373799
+0.871451722150918,3.24580399406767
+1.74290344430184,3.1212235946609
+4.2261370641488,2.83193172409318
+7.55258159197462,3.733
+11.0383884805783,3.96112642019839
 
 Pedit
 M
@@ -169,58 +154,60 @@ All
 
 Spline
 
+
 ```
 
 Perfil de fondo
 
 ```
 PLine
-0,1.9997566366346
-0.271338349198634,2
-0.542676698397269,2
-2.98472184118498,2
-6.3111663690108,2
-6.3111663690108,2.233
-9.02454986099714,2.23543363365396
+0,2.05930440875276
+0.580967814767278,2.05982547878582
+0.580967814767278,2
+1.74290344430184,2
+4.2261370641488,2
+7.55258159197462,2
+7.55258159197462,2.233
+11.0383884805783,2.23612642019839
+
 
 ```
 
-<div align="center"><img src="graph/Civil3D_CaidaSinContraEscalon.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Civil3D_CaidaConContraEscalon.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+
+> Se recomienda obra de protección de fondo hasta la profundidad Y2 debido a que dependiendo del periodo de retorno y el caudal de entrada, el resalto podra desplazarse hacia la caída.
+> 
+> Aplicable para canales con pendiente baja y flujo subcrítico en sección rectangular.
+> 
 > Esta misma metodología puede ser aplicada a entrega de cauces laterales cuando no existe una gran diferencia en la altura de la caída.
-
-
-
-
-
-
-
-
 
 
 ## Actividades de proyecto :triangular_ruler:
 
-Utilizando la [plantilla suministrada](../../file/report/R.HCMC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/activity_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A00_20250531.pdf).
+Utilizando la [plantilla suministrada](../../file/report/R.HCMC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/activity_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A17_20250531.pdf).
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada estudiante o grupo de proyecto.
 
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M01A00    | Descargar el archivo [R.HydroTools.DisenoCaucesParametros.xlsx](https://github.com/rcfdtools/R.HydroTools/blob/main/tool/DisenoCaucesParametros/R.HydroTools.DisenoCaucesParametros.xlsx) disponible en GitHub, e incluirlo en el repositorio.                                                                                                                                                                                                                                                                                                       | 
-| M01A00    | Investigar, verificar y registrar en el libro de Excel, los parámetros técnicos, hidráulicos e hidrológicos indicados en esta actividad.<br><br>Para el grupo de parámetros normativos, ambientales / sociales y territoriales, revisar los parámetros actualmente reportados, investigar, registrar y actualizar.                                                                                                                                                                                                                                   | 
-| M01A00    | Registrar los valores obtenidos en el [libro de parámetros generales](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoCaucesParametros) requeridos para el diseño y la modelación. Guardar en la carpeta _/file/table_.                                                                                                                                                                                                                                                                                                               |
-| M01A00    | Opcional: verificar la formulación correcta de los libros de cálculo suministrados. En las notas de la ficha de control documental indicar el método de verificación y si se requieren o no ajustes.                                                                                                                                                                                                                                                                                                                                                 |
-| M01A00    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
+| M01A17    | Diseñar y modelar unidimensionalmente en un prototipo digital de HEC-RAS, las estructuras de caída con y sin contra-escalon. (aplica también para canales principales que se hayan definido sin control de fondo o con fondo continuo en la entrega [M01A08](../M01A08)). Analizar con flujo no uniforme si el resalto hidráulico se encuentra en una posición fija. Guardar el comprimido del modelo hidráulico como /file/hec/HECRAS_v0_EstructuraCaidaSinContraescalon.zip y /file/hec/HECRAS_v0_EstructuraCaidaConContraescalon.zip.             | 
+| M01A17    | Para cada prototipo digital funcional, crear un vídeo animando las láminas de agua obtenidas en la sección, el perfil y un gráfico animado con las variaciones en velocidad y cortante. Guardar en formato .mp4 como /file/report/M01A17_EstructuraCaidaSinContraescalon.mp4 y /file/report/M01A17_EstructuraCaidaConContraescalon.mp4	                                                                                                                                                                                                              | 
+| M01A17    | En el informe incluir capturas de pantalla detalladas de las secciones transversales, perfiles, condiciones de control, planta, ventana de ejecución, tablas de resultados y vista 3D. Incluir notas descriptivas del funcionamiento del modelo y su relación con el diseño realizado.                                                                                                                                                                                                                                                               | 
+| M01A17    | Opcional: verificar la formulación correcta de los libros de cálculo suministrados. En las notas de la ficha de control documental indicar el método de verificación y si se requieren o no ajustes.                                                                                                                                                                                                                                                                                                                                                 |
+| M01A17    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >
 > Nota 2: una vez el instructor realice la revisión y el estudiante presente las correcciones o ajustes solicitados, será necesario cargar una nueva versión de los archivos en el repositorio del proyecto, incluyendo o actualizando al final del nombre del archivo, la fecha de presentación en formato aaaammdd y manteniendo las versiones anteriores presentadas.
 >
+> Nota 3: en los modelos unidimensionales solo se tiene en cuenta el componente del vector direccional de la velocidad que es paralelo al sentido del flujo y se asume que el flujo es gradualmente variado a excepción de las estructuras hidráulicas propias que el programa puede modelar, tales como puentes, culverts y vertederos, en donde se resuelve mediante rápidamente variado o por la ecuación de momentum y otras ecuaciones empíricas. Para modelar con precisión este tipo de estructuras que estamos diseñando, se debería utilizar un modelo 3D (Como ANSYS FLUENT, Delft3D, OpenFoam) en el que se puede hacer la descomposición de los vectores en en sentido de cambio de dirección entre celdas y en la vertical. HEC-RAS 2D permite realizar el análisis de descomposición de transferencia entre celdas pero solo en planos horizontales correspondientes a la superficie de la lámina de agua. El objetivo de los prototipos es evaluar el alcance de los perfiles y líneas de energía que se obtienen usando modelos 1D para luego entender la necesidad de su modelación en 2D o 3D, por otra parte, para el diseño de ríos como el del ejercicio de clase, se busca obtener una abstracción y representación del tránsito hidráulico en grandes extensiones y superficies de inundación para evaluar las trazas en el plano XS y las zonas de flujo muerto, los circulantes y el cumplimiento de las condiciones de diseño.
 
 
 ## Referencias
 
 * Ven Te Chow, Hidráulica de canales abiertos, pág. 414 (pdf pág. 212) Vertedero de caída recta.
+* Libro de diseño desarrollado por [rcfdtools](https://github.com/rcfdtools), [frankv13](https://github.com/frankv13) y JAG.
 
 
 ## Control de versiones
@@ -237,7 +224,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A00/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A02/Readme.md) |
+| [:arrow_backward: Anterior](../M01A16/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A18/Readme.md) |
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: 

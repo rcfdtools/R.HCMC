@@ -254,7 +254,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 ## Referencias
 
-* La metodología presentada para la estimación de los parámetros geométricos requeridos para el trazado del eje sinuoso fue desarrollada [rcfdtools](https://github.com/rcfdtools) y [frankv13](https://github.com/frankv13).
+* La metodología presentada para la estimación de los parámetros geométricos requeridos para el trazado del eje sinuoso fue desarrollada por [rcfdtools](https://github.com/rcfdtools) y [frankv13](https://github.com/frankv13).
 
 
 ## Control de versiones

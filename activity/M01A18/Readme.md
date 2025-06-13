@@ -45,7 +45,7 @@ Casos en los que se requiere del uso de contracciones y/o expansiones:
 
 1. En QGIS, cree un proyecto nuevo en blanco y cargue la capa de drenajes naturales _/file/shp/CGG_DrenajeNatural_v0.shp_, el eje del valle suavizado _/file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.shp_ creado en la actividad [M01A03](../M01A03), la capa del límite de la concesión minera _/file/shp/ConcesionMineraVirtual.shp_ y el modelo digital de terreno _/file/dem/TIN_TerrenoNaturalQGIS_v0.tif_ simbolizando por sombreado multidireccional.
 
-<div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 2. Acérquese a la zona de inicio del valle suavizado y seleccione este eje. Con la herramienta _Processing Toolbox / Vector geometry / Offset lines_, cree líneas paralelas temporales a este eje a distancias de 150 metros y 104.6 metros (correspondiente al ancho de la llanura en la base 209.2 metros / 2).
 

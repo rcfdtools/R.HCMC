@@ -137,7 +137,7 @@ En este módulo se definen los parámetros generales a utilizar en el diseño de
 | 20. Obras y estructuras hidráulicas - Rápida                                                                                            | El diseño y construcción del canal principal, la descarga de los cauces laterales, los pasos de vía, requieren de diferentes obras hidráulicas.                                                                                                                                                                                                                                                                                                                                                                            |
 
 
-## :globe_with_meridians:Módulo II – Diseño Civil 3D para trazado de ejes, construcción del modelo digital de terreno 3D y planos de ingeniería de detalle
+## :globe_with_meridians:Módulo II – Diseño geométrico Civil 3D para trazado de ejes, construcción del modelo digital de terreno 3D y generación de planos de ingeniería de detalle
 
 En este módulo se trazan en planta los ejes directrices del valle y río a partir del diseño geométrico realizado, para la posterior construcción e integración del modelo tridimensional triangulado requerido. Luego de realizar el diseño, se presentarán algunas indicaciones para la elaboración de planos de ingeniería de detalle, usando para ello las herramientas Autodesk Autocad y Autodesk Civil 3D.
 

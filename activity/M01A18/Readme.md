@@ -3,7 +3,7 @@ Keywords: `realigment`  `m01a18`
 
 La construcción del canal prismático de sección compuesta del cauce principal, requiere de la implantación de contracción de inicio y expansión en entrega, debido a que el flujo de diseño debe ser conducido y transportado por un valle confinado.
 
-<div align="center"><img src="graph/M01A19.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A18.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 
 ## Objetivos

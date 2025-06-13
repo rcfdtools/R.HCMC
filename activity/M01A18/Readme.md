@@ -116,7 +116,13 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 ## Referencias
 
-* 
+* Ven Te Chow, Hidráulica de canales abiertos, Capítulo 11 página 304.
+* Elementos de diseño para acueductos y alcantarillados. Ricardo López Cualla. 1a edición. Capítulo 16 Alcantarillado pluvial, página 343.
+* Open Channels Hydraulics, Osman Akan, 1a edición. Capítulo 6.
+* Bases para el diseño hidráulico de transiciones en flujo subcrítico y supercrítico, Mónica Jarrín Coral, Universidad Central del Ecuador.
+* https://ponce.sdsu.edu/canalenlinea05.php
+* UNAM, Obras Hidráulicas I.
+* http://www.fsl.orst.edu/geowater/FX3/help/8_Hydraulic_Reference/Froude_Number_and_Flow_States.htm
 
 
 ## Control de versiones

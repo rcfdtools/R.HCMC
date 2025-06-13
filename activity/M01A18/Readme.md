@@ -19,12 +19,12 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                                          | Descripción                                                                                                                     |
-|:-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                     | Microsoft Excel 365.                                                                                                            |
-| [:toolbox:Herramienta](https://qgis.org/)                                                                              | QGIS 3.42 o superior.                                                    |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                               | HEC-RAS 6.6 o superior.                                                  |
-| [:open_file_folder:R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.xlsm](FactorAtenuacionPrecipitacionFa) | Libro de cálculo para la estimación del Fa - Factor de atenuación de la precipitación máxima por área simultánea en una cuenca. |
+| Requerimiento                                                                                                          | Descripción                                                                |
+|:-----------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                     | Microsoft Excel 365.                                                       |
+| [:toolbox:Herramienta](https://qgis.org/)                                                                              | QGIS 3.42 o superior.                                                      |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                               | HEC-RAS 6.6 o superior.                                                    |
+| [:open_file_folder:R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraContraccionExpansionSubcritico) | Libro de cálculo para el análisis y diseño de contracciones y expansiones. |
 
 </div>
 
@@ -50,6 +50,40 @@ Casos en los que se requiere del uso de contracciones y/o expansiones:
 2. Acérquese a la zona de inicio del valle suavizado y seleccione este eje. Con la herramienta _Processing Toolbox / Vector geometry / Offset lines_, cree líneas paralelas temporales a este eje a distancias de 150 metros y 104.6 metros (correspondiente al ancho de la llanura en la base 209.2 metros / 2).
 
 <div align="center"><img src="graph/QGIS_OffsetLines.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+
+3. Con la herramienta _Processing Toolbox / Vector general / Merge vector layers_, integre los 4 ejes paralelos (offset) y el eje del valle suavizado en una única capa, nombre como _/file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoideOffset.shp_ y remueva los ejes temporales del proyecto,
+
+<div align="center"><img src="graph/QGIS_MergeVectorLayers.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_MergeVectorLayers1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_MergeVectorLayers2.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+
+4. Agregue al mapa la capa _/file/shp/CGG_CurvaNivelLidar_v0.shp_ y verifique la curva de confinamiento hidráulico, correspondiente a 73.5 metros en la corona del canal diseñado (70.5 m en el fondo de la sección de inicio + 3 m correspondientes a la altura de la sección compuesta del realineamiento). Con la herramienta de medición, mida el ancho del corredor desde la cota de confinamiento izquierda hasta la derecha, obtendrá una longitud aproximada a 375 metros.
+
+<div align="center"><img src="graph/QGIS_Measure.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+
+5. En el libro de diseño [R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraContraccionExpansionSubcritico), registre en la sección A los parámetros geométricos de diseño ingresando los anchos de referencia de la base del valle y ancho en la cota de confinamiento de la contracción, ingrese además la pendiente del valle suavizado, la altura de lámina y el borde libre. 
+
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+
+6. En la sección B, ingrese el caudal máximo que será transportado por el nuevo cauce (para el periodo de retorno 100 años), la rugosidad del valle (o la rugosidad equivalente de la sección compuesta), defina el tipo de transición y su forma.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.2.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+
+Una vez ingresados los parámetros, automáticamente obtendrá el cálculo de los parámetros hidráulicos de inicio y salida de la contracción.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.2.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.3.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+
+7. Para optimizar el funcionamiento hidráulico de la transición y para evitar ondulaciones en la lámina de agua, la hoja de diseño calcula la compensación por desnivel, que para el caso de estudio corresponde a un valor de -0.210 metros.
+
+> Para la implantación de la transición, puede decidir usar el fondo contínuo o un fondo compensado.
+
+
+
+
+
+
+
 
 
 

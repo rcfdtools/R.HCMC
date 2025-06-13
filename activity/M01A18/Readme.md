@@ -72,7 +72,7 @@ Casos en los que se requiere del uso de contracciones y/o expansiones:
 Una vez ingresados los parámetros, automáticamente obtendrá el cálculo de los parámetros hidráulicos de inicio y salida de la contracción.
 
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.3.jpg" alt="R.SIGE" width="55%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.4.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.4.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 7. Para optimizar el funcionamiento hidráulico de la transición y para evitar ondulaciones en la lámina de agua, la hoja de diseño calcula la compensación por desnivel, que para el caso de estudio corresponde a un valor de -0.210 metros.
 

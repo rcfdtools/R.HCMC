@@ -85,9 +85,9 @@ Una vez ingresados los parámetros, automáticamente obtendrá el cálculo de lo
 
 Para la implantación de la transición, puede decidir usar el fondo contínuo (o compensado) o el fondo recto en la zona de la transición.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.6.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.7.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center">Gráfico de comparación de fondos y perfiles<br><img src="graph/R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.8.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.6.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.7.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center">Gráfico de comparación de fondos y perfiles<br><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.8.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 

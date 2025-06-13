@@ -1,0 +1,23 @@
+Actividades pendientes
+	Estructuras - Bifurcación
+	Estructuras - Derivación
+	Estructuras - Unión
+	Incluir fotos en actividades
+
+
+
+El diseño y construcción del canal principal, la descarga de los cauces laterales, los pasos de vía, requieren de diferentes obras hidráulicas.                                                                      
+
+
+
+Dentro del libro de diseño, cree una tabla formulada de valores X/Y/Z, con la localización de los nodos para la construcción geométrica de la estructura. En QGIS cree la capa geográfica de localización de los nodos y cree un modelo de terreno triangulado TIN y una grilla ráster de las estructura. En la actividad [M01A18](../M01A18)) encontrará un ejemplo de este tipo de tablas.   
+
+Diseñar y modelar unidimensionalmente en un prototipo digital de HEC-RAS, las estructuras de caída con y sin contra-escalon. (aplica también para canales principales que se hayan definido sin control de fondo o con fondo continuo en la entrega C). Analizar con flujo no permanente si el resalto hidráulico se encuentra en una posición fija. Guardar el comprimido del modelo hidráulico como /file/hec/HECRAS_v0_EstructuraCaidaSinContraescalon.zip y /file/hec/HECRAS_v0_EstructuraCaidaConContraescalon.zip.
+
+Para cada prototipo digital funcional, crear un vídeo animando las láminas de agua obtenidas en la sección, el perfil y un gráfico animado con las variaciones en velocidad y cortante. Guardar en formato .mp4 como /file/report/M01A17_EstructuraCaidaSinContraescalon.mp4 y /file/report/M01A17_EstructuraCaidaConContraescalon.mp4	
+
+En el informe incluir capturas de pantalla detalladas de las secciones transversales, perfiles, condiciones de control, planta, ventana de ejecución, tablas de resultados y vista 3D. Incluir notas descriptivas del funcionamiento del modelo y su relación con el diseño realizado.
+
+
+> Nota 3: en los modelos unidimensionales HEC-RAS solo se tiene en cuenta el componente del vector direccional de la velocidad que es paralelo al sentido del flujo y se asume que el flujo es gradualmente variado a excepción de las estructuras hidráulicas propias que el programa puede modelar, tales como puentes, culverts y vertederos, en donde se resuelve mediante rápidamente variado o por la ecuación de momentum y otras ecuaciones empíricas. Para modelar con precisión este tipo de estructuras que estamos diseñando, se debería utilizar un modelo 3D (Como ANSYS FLUENT, Delft3D, OpenFoam) en el que se puede hacer la descomposición de los vectores en en sentido de cambio de dirección entre celdas y en la vertical. HEC-RAS 2D permite realizar el análisis de descomposición de transferencia entre celdas pero solo en planos horizontales correspondientes a la superficie de la lámina de agua. El objetivo de los prototipos es evaluar el alcance de los perfiles y líneas de energía que se obtienen usando modelos 1D para luego entender la necesidad de su modelación en 2D o 3D, por otra parte, para el diseño de ríos como el del ejercicio de clase, se busca obtener una abstracción y representación del tránsito hidráulico en grandes extensiones y superficies de inundación para evaluar las trazas en el plano XS y las zonas de flujo muerto, los circulantes y el cumplimiento de las condiciones de diseño.
+

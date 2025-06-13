@@ -10,6 +10,7 @@ Diseño de estructura de caída con y sin contra-escalón en sección rectangula
 
 * Evaluar el requerimiento de estructuras de caída en el cauce principal o en cauces laterales.
 * Obtener las especificaciones de desarrollo de la estructura para la protección del fondo.
+* Modelar y validar el funcionamiento de la estructura para las condiciones de diseño.
 
 
 ## Requerimientos
@@ -21,6 +22,8 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | Requerimiento                                                                                                                                                                | Descripción                                                                                        |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                                                           | Microsoft Excel 365.                                                                               |
+| [:toolbox:Herramienta](https://qgis.org/)                                                                                                                                    | QGIS 3.42 o superior.                                                    |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                                                                                     | HEC-RAS 6.6 o superior.                                                  |
 | [:open_file_folder:R.HydroTools.DisenoEstructura CaidaSinContraescalon.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraCaidaSinContraescalon) | Libro de cálculo para el diseño de estructuras de caída sin contra-escalón en sección rectangular. |
 | [:open_file_folder:R.HydroTools.DisenoEstructura CaidaConContraescalon.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraCaidaConContraescalon) | Libro de cálculo para el diseño de estructuras de caída con contra-escalón en sección rectangular. |
 

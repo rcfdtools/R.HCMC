@@ -68,7 +68,7 @@ Parámetros de entrada en hoja de diseño de caída sin contra-escalón y result
 
 2. Para los parámetros de entrada, el análisis indica que la profundidad crítica Yc es igual a 1.025 metros, con profundidades hidráulicas en piscina de 0.619 metros, antes del resalto en 0.832 metros y después del resalto en 1.284 metros, requiriendo protección de fondo de 6.04 metros, como se muestra en la figura.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraCaidaSinContraescalon.2.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraCaidaSinContraescalon.2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 3. Para crear en CAD las líneas correspondientes al perfil de fondo y lámina, seleccione las celdas en cursiva, copie y pegue en el Command de AutoCAD o Civil3D, primero lámina y luego fondo. En la selección incluir los espacios en blanco entre comandos y el espacio final. 
 
@@ -107,7 +107,7 @@ PLine
 
 ```
 
-<div align="center"><img src="graph/Civil3D_CaidaSinContraEscalon.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/Civil3D_CaidaSinContraEscalon.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 > Esta misma metodología puede ser aplicada a entrega de cauces laterales cuando no existe una gran diferencia en la altura de la caída.
 

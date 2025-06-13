@@ -19,19 +19,38 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                           | Descripción                                                                                                                     |
-|:--------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                      | Microsoft Excel 365.                                                                                                            |
-| [:toolbox:Herramienta](https://qgis.org/)                                                               | QGIS 3.42 o superior.                                                    |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                | HEC-RAS 6.6 o superior.                                                  |
-| [:open_file_folder:R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.xlsm](FactorAtenuacionPrecipitacionFa) | Libro de cálculo para la estimación del Fa - Factor de atenuación de la precipitación máxima por área simultánea en una cuenca. |
+| Requerimiento                                                                                                          | Descripción                                                                                                                     |
+|:-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                     | Microsoft Excel 365.                                                                                                            |
+| [:toolbox:Herramienta](https://qgis.org/)                                                                              | QGIS 3.42 o superior.                                                    |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                               | HEC-RAS 6.6 o superior.                                                  |
+| [:open_file_folder:R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.xlsm](FactorAtenuacionPrecipitacionFa) | Libro de cálculo para la estimación del Fa - Factor de atenuación de la precipitación máxima por área simultánea en una cuenca. |
 
 </div>
 
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
 
-## Procedimiento general
+## 0. Conceptos generales
+
+Casos en los que se requiere del uso de contracciones y/o expansiones:
+
+* Contracción o expansión de canales naturales a canales artificiales en zonas de inicio y/o entrega.
+* Contracción y expansión en pasos de vía.
+* Contracción o expansión de canales laterales a estructuras de caída escalonadas y/o a rápidas.
+* Contracción y expansión en tramos de aproximación a Canaletas Parshall ubicadas en canales.
+
+
+## 1. Diseño de contracción de inicio
+
+1. En QGIS, cree un proyecto nuevo en blanco y cargue la capa de drenajes naturales _/file/shp/CGG_DrenajeNatural_v0.shp_, el eje del valle suavizado _/file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.shp_ creado en la actividad [M01A03](../M01A03), la capa del límite de la concesión minera _/file/shp/ConcesionMineraVirtual.shp_ y el modelo digital de terreno _/file/dem/TIN_TerrenoNaturalQGIS_v0.tif_ simbolizando por sombreado multidireccional.
+
+<div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+
+2. Acérquese a la zona de inicio del valle suavizado y seleccione este eje. Con la herramienta _Processing Toolbox / Vector geometry / Offset lines_, cree líneas paralelas temporales a este eje a distancias de 150 metros y 104.6 metros (correspondiente al ancho de la llanura en la base 209.2 metros / 2).
+
+<div align="center"><img src="graph/QGIS_OffsetLines.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+
 
 
 

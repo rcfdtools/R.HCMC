@@ -76,8 +76,13 @@ Una vez ingresados los parámetros, automáticamente obtendrá el cálculo de lo
 
 7. Para optimizar el funcionamiento hidráulico de la transición y para evitar ondulaciones en la lámina de agua, la hoja de diseño calcula la compensación por desnivel, que para el caso de estudio corresponde a un valor de -0.210 metros.
 
-> Para la implantación de la transición, puede decidir usar el fondo contínuo o un fondo compensado.
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.5.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+Para la implantación de la transición, puede decidir usar el fondo contínuo (o compensado) o el fondo recto en la zona de la transición.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.6.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.7.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Gráfico de comparación de fondos y perfiles<br><img src="graph/R.HydroTools.DisenoEstructura ContraccionExpansionSubcritico.8.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 

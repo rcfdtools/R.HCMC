@@ -54,12 +54,12 @@ Para este ejemplo, utilizaremos:
 * Pendiente del río correspondiente a 0.0008969 m/m.
 
 <div align="center">
-Tabla de análisis actividad [M01A08](../M01A08).
+Tabla de análisis actividad [M01A08](../M01A08).<br>
 <img src="graph/R.HydroTools.PerfilValleEstCaidaCorteRelleno.1.jpg" alt="R.SIGE" width="60%" border="0" />
 </div>
 
 <div align="center">
-Parámetros de entrada en hoja de diseño de caída sin contra-escalón y resultados obtenidos.
+Parámetros de entrada en hoja de diseño de caída sin contra-escalón y resultados obtenidos.<br>
 <img src="graph/R.HydroTools.DisenoEstructuraCaidaSinContraescalon.1.jpg" alt="R.SIGE" width="60%" border="0" />
 </div>
 

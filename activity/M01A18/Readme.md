@@ -68,6 +68,8 @@ Casos en los que se requiere del uso de contracciones y/o expansiones:
 
 5. En el libro de diseño [R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraContraccionExpansionSubcritico), registre en la sección A los parámetros geométricos de diseño ingresando los anchos de referencia de la base del valle y ancho en la cota de confinamiento de la contracción, ingrese además la pendiente del valle suavizado, la altura de lámina y el borde libre. 
 
+> Considere que el dique del talud de la expansión podrá tener una mayor inclinación, para el caso de estudio utilizaremos talues 5:1.
+
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.1.jpg" alt="R.SIGE" width="55%" border="0" /></div>
 
 6. En la sección B, ingrese el caudal máximo que será transportado por el nuevo cauce (para el periodo de retorno 100 años), la rugosidad del valle (o la rugosidad equivalente de la sección compuesta), defina el tipo de transición y su forma.
@@ -83,7 +85,7 @@ Una vez ingresados los parámetros, automáticamente obtendrá el cálculo de lo
 
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.5.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
-Para la implantación de la transición, puede decidir usar el fondo contínuo (o compensado) o el fondo recto en la zona de la transición.
+> Para la implantación de la transición, puede decidir usar el fondo contínuo (o compensado) o el fondo recto en la zona de la transición.
 
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.6.jpg" alt="R.SIGE" width="55%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.7.jpg" alt="R.SIGE" width="55%" border="0" /></div>
@@ -92,47 +94,42 @@ Para la implantación de la transición, puede decidir usar el fondo contínuo (
 
 ## 2. Diseño de expansión de entrega
 
-1. En QGIS, acérquese a la zona de entrega del valle suavizado 
+1. En QGIS, acérquese a la zona de entrega del valle suavizado, podrá observar que por al costado izquierdo existe una zona de confinamiento natural y que por el costado derecho el canal descargará a una amplia llanura de inundación que podrá incluso llegar al borde de la explotación minera o PIT.
 
-<div align="center"><img src="graph/QGIS_OffsetLines.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+> Para facilitar la representación del modelo digital de terreno, cree una copia del TIN y simbolice por preudo-color con transparencia del 50%.
 
-3. Con la herramienta _Processing Toolbox / Vector general / Merge vector layers_, integre los 4 ejes paralelos (offset) y el eje del valle suavizado en una única capa, nombre como _/file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoideOffset.shp_ y remueva los ejes temporales del proyecto,
+<div align="center"><img src="graph/QGIS_DTMColor.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-<div align="center"><img src="graph/QGIS_MergeVectorLayers.jpg" alt="R.SIGE" width="80%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_MergeVectorLayers1.jpg" alt="R.SIGE" width="80%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_MergeVectorLayers2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+2. Con la herramienta de medición, mida el ancho del corredor desde la cota de confinamiento izquierda hasta la derecha, obtendrá una longitud aproximada a 700 metros.
 
-4. Agregue al mapa la capa _/file/shp/CGG_CurvaNivelLidar_v0.shp_ y verifique la curva de confinamiento hidráulico, correspondiente a 73.5 metros en la corona del canal diseñado (70.5 m en el fondo de la sección de inicio + 3 m correspondientes a la altura de la sección compuesta del realineamiento). Con la herramienta de medición, mida el ancho del corredor desde la cota de confinamiento izquierda hasta la derecha, obtendrá una longitud aproximada a 375 metros.
+> Debido a que en el costado derecho no existe una barrera de confinamiento general, inicialmente realizaremos el diseño para el ancho medido.
 
-<div align="center"><img src="graph/QGIS_Measure.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Measure1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-5. En el libro de diseño [R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraContraccionExpansionSubcritico), registre en la sección A los parámetros geométricos de diseño ingresando los anchos de referencia de la base del valle y ancho en la cota de confinamiento de la contracción, ingrese además la pendiente del valle suavizado, la altura de lámina y el borde libre. 
+3. En el libro de diseño [R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraContraccionExpansionSubcritico), registre en la sección A los parámetros geométricos de diseño ingresando los anchos de referencia de la base del valle y ancho en la cota de confinamiento de la expansión, ingrese además la pendiente del valle suavizado, la altura de lámina y el borde libre. 
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.1.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+> Considere que el dique del talud de la expansión podrá tener una mayor inclinación, para el caso de estudio utilizaremos talues 5:1.
 
-6. En la sección B, ingrese el caudal máximo que será transportado por el nuevo cauce (para el periodo de retorno 100 años), la rugosidad del valle (o la rugosidad equivalente de la sección compuesta), defina el tipo de transición y su forma.
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.1a.jpg" alt="R.SIGE" width="55%" border="0" /></div>
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.2.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+4. En la sección B, ingrese el caudal máximo que será transportado por el nuevo cauce (para el periodo de retorno 100 años), la rugosidad del valle (o la rugosidad equivalente de la sección compuesta), defina el tipo de transición y su forma.
 
-Una vez ingresados los parámetros, automáticamente obtendrá el cálculo de los parámetros hidráulicos de inicio y salida de la contracción. Podrá observar además que la longitud de la estructura es de 159.2 metros con un ángulo de deflexión de las paredes laterales de 27.5°, correspondiente a contracción brusca.
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.2a.jpg" alt="R.SIGE" width="55%" border="0" /></div>
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.3.jpg" alt="R.SIGE" width="55%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.4.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+Una vez ingresados los parámetros, automáticamente obtendrá el cálculo de los parámetros hidráulicos de inicio y salida de la expansión. Podrá observar además que la longitud de la estructura es de 592.4 metros con un ángulo de deflexión de las paredes laterales de 22.5°, correspondiente a contracción brusca.
 
-7. Para optimizar el funcionamiento hidráulico de la transición y para evitar ondulaciones en la lámina de agua, la hoja de diseño calcula la compensación por desnivel, que para el caso de estudio corresponde a un valor de -0.210 metros.
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.3a.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.4a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.5.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+5. Para optimizar el funcionamiento hidráulico de la transición y para evitar ondulaciones en la lámina de agua, la hoja de diseño calcula la compensación por desnivel, que para el caso de estudio corresponde a un valor de -0.668 metros.
 
-Para la implantación de la transición, puede decidir usar el fondo contínuo (o compensado) o el fondo recto en la zona de la transición.
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.5a.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.6.jpg" alt="R.SIGE" width="55%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.7.jpg" alt="R.SIGE" width="55%" border="0" /></div>
-<div align="center">Gráfico de comparación de fondos y perfiles<br><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.8.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+> Para la implantación de la transición, puede decidir usar el fondo contínuo (o compensado) o el fondo recto en la zona de la transición.
 
-
-
-
-
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.6a.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.7a.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center">Gráfico de comparación de fondos y perfiles<br><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.8a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 ## Actividades de proyecto :triangular_ruler:

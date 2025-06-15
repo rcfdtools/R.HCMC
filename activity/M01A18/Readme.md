@@ -46,7 +46,7 @@ Casos en los que se requiere del uso de contracciones y/o expansiones:
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.TipoExpansion.jpg" alt="R.SIGE" width="50%" border="0" /></div>
 
 
-## 1. Diseño de contracción de inicio
+## 1. Diseño de contracción de inicio canal principal
 
 1. En QGIS, cree un proyecto nuevo en blanco y cargue la capa de drenajes naturales _/file/shp/CGG_DrenajeNatural_v0.shp_, el eje del valle suavizado _/file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.shp_ creado en la actividad [M01A03](../M01A03), la capa del límite de la concesión minera _/file/shp/ConcesionMineraVirtual.shp_ y el modelo digital de terreno _/file/dem/TIN_TerrenoNaturalQGIS_v0.tif_ simbolizando por sombreado multidireccional.
 
@@ -92,7 +92,7 @@ Una vez ingresados los parámetros, automáticamente obtendrá el cálculo de lo
 <div align="center">Gráfico de comparación de fondos y perfiles<br><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.8.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
-## 2. Diseño de expansión de entrega
+## 2. Diseño de expansión de entrega canal principal
 
 1. En QGIS, acérquese a la zona de entrega del valle suavizado, podrá observar que por al costado izquierdo existe una zona de confinamiento natural y que por el costado derecho el canal descargará a una amplia llanura de inundación que podrá incluso llegar al borde de la explotación minera o PIT.
 

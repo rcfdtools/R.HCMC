@@ -159,7 +159,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 >
 > Nota 2: una vez el instructor realice la revisión y el estudiante presente las correcciones o ajustes solicitados, será necesario cargar una nueva versión de los archivos en el repositorio del proyecto, incluyendo o actualizando al final del nombre del archivo, la fecha de presentación en formato aaaammdd y manteniendo las versiones anteriores presentadas.
 >
-> Nota 3: diseñar expansión y contracción en el paso de vía solo sí en la entrega [M01A13](../M01A13) diseñó el paso de vía para un área hidráulica superior al máximo que  puede transportar el canal con lo que se modifica su ancho.
+> Nota 3: diseñar expansión y contracción en el paso de vía solo sí en la entrega [M01A13](../M01A13) diseñó alcantarillas para un área hidráulica superior al máximo que puede transportar el canal, con lo que se modifica su ancho.
 
 
 ## Referencias

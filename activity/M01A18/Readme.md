@@ -134,10 +134,48 @@ Una vez ingresados los parámetros, automáticamente obtendrá el cálculo de lo
 
 ## 3. Creación de modelo digital de terreno
 
-1. 
+Para la construcción del prototipo digital, es necesaria la creación de un modelo digital de elevación o el ingreso de los valores de estación-elevación de las coordenadas de cada sección de muestreo. Para el caso de estudio, construiremos el DTM correspondiente a la estructura de expansión en la entrega del canal principal.
 
+1. En el libro de diseño, ingrese las coordenadas de referencia de orígen de la estructura registradas en la entrega [M01A06](../M01A06) y la cota de fondo de entrega, correspondiente a 65 m.s.n.m.
 
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.9.jpg" alt="R.SIGE" width="55%" border="0" /></div>
 
+2. Copie la tabla que contiene las especificaciones de los nodos de la estructura (incluídas las cabeceras), y pegue en Notepad++ dentro de un nuevo archivo.
+
+Ajuste en la cabecera los rótulos de las columnas `CZ no compensado` a `CZNoComp` y `CZ compensado` a `CZComp`, verifique que la separación entre datos y cabeceras corresponde a tabuladores.
+
+> No modifique estas cabeceras directamente en el libro de Excel debido a que estos nombres son utilizados por cajas de herramientas geográficas.
+
+<div align="center"><img src="graph/NotepadPlus_TablaNodos.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+
+3. Guarde como archivo de texto con el nombre _/file/table/R.HCMC.DisenoEstructuraExpansionSubcriticoGIS.CanalPpal.txt_
+
+<div align="center"><img src="graph/NotepadPlus_TablaNodos1.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+
+4. En QGIS, desde el menú _Layer / Add Layer / Add Delimited Text Layer..._ agregue la tabla de nodos y visualice como una capa temporal, utilice el archivo de texto, la coordenada Z para fondo no compensado y asigne el CRS 3116.
+
+<div align="center"><img src="graph/QGIS_AddDelimitedTextLayer.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+
+5. Ajuste la simbología de representación y rotule los nodos a partir de su cota. Podrá observar que con respecto a los ejes se encuentra en sentido de izquierda a derecha.
+
+<div align="center"><img src="graph/QGIS_Label.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+
+6. Guarde la capa temporal como un archivo shapefile en _/file/shp/DisenoEstructuraExpansionSubcriticoGISCanalPpal.shp_
+
+<div align="center"><img src="graph/QGIS_SaveVectorLayerAs.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+
+7. Desde el modo de edición, rote y desplace los nodos a localización correcta al final del realineamiento del valle. Guarde los cambios realizados y detenga el Editor.
+
+<div align="center"><img src="graph/QGIS_Edit.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+
+8. Utilizando la herramienta _Processing Toolbox / Interpolation / TIN Interpolation_, cree la grilla del modelo digital de terreno de la estructura. Defina el tamaño de pixel en 0.1 metros y guarde como _/file/dem/DisenoEstructuraExpansionSubcriticoGISCanalPpal.tif_
+
+<div align="center"><img src="graph/QGIS_TINInterpolation.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_TINInterpolation1.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+
+Visualice y verifique la superficie creada y en caso de ser necesario, ajuste la tabla de valores.
+
+<div align="center"><img src="graph/QGIS_TINInterpolation2.jpg" alt="R.SIGE" width="55%" border="0" /></div>
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -148,7 +186,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M01A18    | Diseñar y modelar unidimensionalmente en HEC-RAS en flujo permanente y no permanente, las estructuras de expansión y contracción de inicio, entrega del canal principal y de pasos de vía (ver Nota 3). Nombrar y comprimir los modelos como HECRAS_v0_CanalPpalExpansion.zip, HECRAS_v0_CanalPpalContraccion.zip, HECRAS_v0_PasoViaExpansion.zip, HECRAS_v0_PasoViaContraccion.zip y guardar en la carpeta _/file/hec/_ del repositorio de datos en formato.                                                                                        | 
+| M01A18    | Diseñar y modelar unidimensionalmente en HEC-RAS en flujo permanente y no permanente, las estructuras de expansión y contracción de inicio, entrega del canal principal y de pasos de vía (ver Nota 3 y Nota 4). Nombrar y comprimir los modelos como HECRAS_v0_CanalPpalExpansion.zip, HECRAS_v0_CanalPpalContraccion.zip, HECRAS_v0_PasoViaExpansion.zip, HECRAS_v0_PasoViaContraccion.zip y guardar en la carpeta _/file/hec/_ del repositorio de datos en formato.                                                                               | 
 | M01A18    | Utilizando la tabla de valores X/Y/Z que contiene las localización de los nodos para la construcción geométrica de la estructura, en QGIS cree la capa geográfica de localización de los nodos,  modelo de terreno triangulado TIN y las grillas ráster de las estructura.                                                                                                                                                                                                                                                                           | 
 | M01A18    | Para cada prototipo digital funcional, crear un vídeo animando las láminas de agua obtenidas en la sección, el perfil y un gráfico animado con las variaciones en velocidad y cortante. Guardar en formato .mp4 como /file/report/M01A18_CanalPpalExpansion.mp4,  /file/report/M01A18_CanalPpalContraccion.mp4,  /file/report/M01A18_PasoViaExpansion.mp4,  /file/report/M01A18_PasoViaContraccion.mp4.	                                                                                                                                             | 
 | M01A18    | En el informe incluir capturas de pantalla detalladas de las secciones transversales, perfiles, condiciones de control, planta, ventana de ejecución, tablas de resultados y vista 3D. Incluir notas descriptivas del funcionamiento del modelo y su relación con el diseño realizado.                                                                                                                                                                                                                                                               |
@@ -160,6 +198,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 > Nota 2: una vez el instructor realice la revisión y el estudiante presente las correcciones o ajustes solicitados, será necesario cargar una nueva versión de los archivos en el repositorio del proyecto, incluyendo o actualizando al final del nombre del archivo, la fecha de presentación en formato aaaammdd y manteniendo las versiones anteriores presentadas.
 >
 > Nota 3: diseñar expansión y contracción en el paso de vía solo sí en la entrega [M01A13](../M01A13) diseñó alcantarillas para un área hidráulica superior al máximo que puede transportar el canal, con lo que se modifica su ancho.
+> 
+> Nota 4: para la creación del prototipo digital, puede decidir su construcción usando fondo horizontal o fondo compensado, justifique técnicamente en el informe.
 
 
 ## Referencias

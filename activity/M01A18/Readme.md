@@ -74,7 +74,7 @@ Casos en los que se requiere del uso de contracciones y/o expansiones:
 
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.2.jpg" alt="R.SIGE" width="55%" border="0" /></div>
 
-Una vez ingresados los parámetros, automáticamente obtendrá el cálculo de los parámetros hidráulicos de inicio y salida de la contracción.
+Una vez ingresados los parámetros, automáticamente obtendrá el cálculo de los parámetros hidráulicos de inicio y salida de la contracción. Podrá observar además que la longitud de la estructura es de 159.2 metros con un ángulo de deflexión de las paredes laterales de 27.5°, correspondiente a contracción brusca.
 
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.3.jpg" alt="R.SIGE" width="55%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.4.jpg" alt="R.SIGE" width="100%" border="0" /></div>

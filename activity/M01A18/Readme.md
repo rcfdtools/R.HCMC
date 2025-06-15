@@ -138,7 +138,7 @@ Para la construcción del prototipo digital, es necesaria la creación de un mod
 
 1. En el libro de diseño, ingrese las coordenadas de referencia de orígen de la estructura registradas en la entrega [M01A06](../M01A06) y la cota de fondo de entrega, correspondiente a 65 m.s.n.m.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.9.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.9.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 2. Copie la tabla que contiene las especificaciones de los nodos de la estructura (incluídas las cabeceras), y pegue en Notepad++ dentro de un nuevo archivo.
 
@@ -146,36 +146,36 @@ Ajuste en la cabecera los rótulos de las columnas `CZ no compensado` a `CZNoCom
 
 > No modifique estas cabeceras directamente en el libro de Excel debido a que estos nombres son utilizados por cajas de herramientas geográficas.
 
-<div align="center"><img src="graph/NotepadPlus_TablaNodos.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/NotepadPlus_TablaNodos.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 3. Guarde como archivo de texto con el nombre _/file/table/R.HCMC.DisenoEstructuraExpansionSubcriticoGIS.CanalPpal.txt_
 
-<div align="center"><img src="graph/NotepadPlus_TablaNodos1.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/NotepadPlus_TablaNodos1.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
 4. En QGIS, desde el menú _Layer / Add Layer / Add Delimited Text Layer..._ agregue la tabla de nodos y visualice como una capa temporal, utilice el archivo de texto, la coordenada Z para fondo no compensado y asigne el CRS 3116.
 
-<div align="center"><img src="graph/QGIS_AddDelimitedTextLayer.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_AddDelimitedTextLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 5. Ajuste la simbología de representación y rotule los nodos a partir de su cota. Podrá observar que con respecto a los ejes se encuentra en sentido de izquierda a derecha.
 
-<div align="center"><img src="graph/QGIS_Label.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Label.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 6. Guarde la capa temporal como un archivo shapefile en _/file/shp/DisenoEstructuraExpansionSubcriticoGISCanalPpal.shp_
 
-<div align="center"><img src="graph/QGIS_SaveVectorLayerAs.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_SaveVectorLayerAs.jpg" alt="R.SIGE" width="65%" border="0" /></div>
 
 7. Desde el modo de edición, rote y desplace los nodos a localización correcta al final del realineamiento del valle. Guarde los cambios realizados y detenga el Editor.
 
-<div align="center"><img src="graph/QGIS_Edit.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Edit.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 8. Utilizando la herramienta _Processing Toolbox / Interpolation / TIN Interpolation_, cree la grilla del modelo digital de terreno de la estructura. Defina el tamaño de pixel en 0.1 metros y guarde como _/file/dem/DisenoEstructuraExpansionSubcriticoGISCanalPpal.tif_
 
-<div align="center"><img src="graph/QGIS_TINInterpolation.jpg" alt="R.SIGE" width="55%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_TINInterpolation1.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_TINInterpolation.jpg" alt="R.SIGE" width="65%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_TINInterpolation1.jpg" alt="R.SIGE" width="65%" border="0" /></div>
 
 Visualice y verifique la superficie creada y en caso de ser necesario, ajuste la tabla de valores.
 
-<div align="center"><img src="graph/QGIS_TINInterpolation2.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_TINInterpolation2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 ## Actividades de proyecto :triangular_ruler:

@@ -116,7 +116,7 @@ Para la ilustración del DTM, realizaremos un ajuste en el ancho de la sección 
 
 4. Guarde la capa temporal como un archivo shapefile en _/file/shp/DisenoEstructuraEscalonadaFlujoRasanteGIS.shp_
 
-<div align="center"><img src="graph/QGIS_SaveVectorLayerAs.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_SaveVectorLayerAs.jpg" alt="R.SIGE" width="65%" border="0" /></div>
 
 5. Utilizando la herramienta _Processing Toolbox / Vector general / Delete duplícate geometries_, elimine los nodos duplicados y guarde como _/file/shp/DisenoEstructuraEscalonadaFlujoRasanteGISClean.shp_. De los 1812 puntos obtenidos, solo 144 son únicos.
 
@@ -125,7 +125,7 @@ Para la ilustración del DTM, realizaremos un ajuste en el ancho de la sección 
 
 6. Utilizando la herramienta _Processing Toolbox / Mesh / TIN Mesh Creation_, cree la malla del modelo digital de terreno de la estructura. Guarde como _/file/dem/DisenoEstructuraEscalonadaFlujoRasanteGIS.d2m_
 
-<div align="center"><img src="graph/QGIS_TINMeshCreation.jpg" alt="R.SIGE" width="65%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_TINMeshCreation.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 > :fire: Debido a la proximidad y extensión alargada de algunas caras trianguladas de la superficie del TIN, este procedimiento no se ejecuta correctamente en QGIS. En la ventana de ejecución podrá observar que el procedimiento no avanza más allá del 1% y que luego de unos segundo QGIS se cierra completamente.
 
@@ -133,20 +133,20 @@ Para la ilustración del DTM, realizaremos un ajuste en el ancho de la sección 
 
 7. Vuelva a abrir QGIS y exporte a formato DXF los 144 nodos que componen la estructura, guarde como _/file/cad/DisenoEstructuraEscalonadaFlujoRasanteGIS.dxf_.
 
-<div align="center"><img src="graph/QGIS_SaveVectorLayerAsDxf.jpg" alt="R.SIGE" width="65%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_SaveVectorLayerAsDxf.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 Agregue las entidades DXF al mapa y verifique su localización.
 
 <div align="center"><img src="graph/QGIS_AddLayerDxf.jpg" alt="R.SIGE" width="65%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_AddLayerDxf1.jpg" alt="R.SIGE" width="65%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_AddLayerDxf1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 8. En Autodesk Civil 3D, abra el archivo DXF exportado, acérquese a la capa con el comando _Z E_ y con el comando _PTYPE_, cambie la representación de los nodos a círculos de 0.2 m de diámetro.
 
-<div align="center"><img src="graph/Civil3D_OpenDxf.jpg" alt="R.SIGE" width="65%" border="0" /></div>
+<div align="center"><img src="graph/Civil3D_OpenDxf.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 9. Guarde el archivo DXF como un archivo de AutoCAD como /file/cad/DisenoEstructuraEscalonadaFlujoRasanteGIS.dwg.
 
-<div align="center"><img src="graph/Civil3D_SaveAsDwg.jpg" alt="R.SIGE" width="65%" border="0" /></div>
+<div align="center"><img src="graph/Civil3D_SaveAsDwg.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 
 

@@ -164,16 +164,13 @@ Podrá observar un polígono de contorno que indica que la superficie ha sido cr
 
 <div align="center"><img src="graph/Civil3D_CreateSurfaceDefinitionAdd1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+13. En el menú _View_, active la vista _Conceptual_ y con el comando _3DORBIT_, rote la visualización 3D.
 
+<div align="center"><img src="graph/Civil3D_3DOrbit.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+Acérquese y visualice los escalones de la estructura.
 
-
-
-Visualice y verifique la superficie creada y en caso de ser necesario, ajuste la tabla de valores.
-
-<div align="center"><img src="graph/QGIS_TINInterpolation2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-
-
+<div align="center"><img src="graph/Civil3D_3DOrbit1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 

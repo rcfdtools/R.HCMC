@@ -129,7 +129,7 @@ Para la ilustración del DTM, realizaremos un ajuste en el ancho de la sección 
 
 > :fire: Debido a la proximidad y extensión alargada de algunas caras trianguladas de la superficie del TIN, este procedimiento no se ejecuta correctamente en QGIS. En la ventana de ejecución podrá observar que el procedimiento no avanza más allá del 1% y que luego de unos segundo QGIS se cierra completamente.
 
-<div align="center"><img src="graph/QGIS_TINMeshCreation1.jpg" alt="R.SIGE" width="65%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_TINMeshCreation1.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 7. Vuelva a abrir QGIS y exporte a formato DXF los 144 nodos que componen la estructura, guarde como _/file/cad/DisenoEstructuraEscalonadaFlujoRasanteGIS.dxf_.
 
@@ -147,6 +147,24 @@ Agregue las entidades DXF al mapa y verifique su localización.
 9. Guarde el archivo DXF como un archivo de AutoCAD como /file/cad/DisenoEstructuraEscalonadaFlujoRasanteGIS.dwg.
 
 <div align="center"><img src="graph/Civil3D_SaveAsDwg.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+
+10. En el panel lateral _TOOLSPACE_, de clic derecho en _Surfaces_ y seleccione _Create Surface_. 
+
+<div align="center"><img src="graph/Civil3D_CreateSurface.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+11. En _Definition_, seleccione la opción _Drawing Object_, de clic derecho y seleccione _Add..._.
+
+<div align="center"><img src="graph/Civil3D_CreateSurfaceDefinition.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+12. En el _Command_ observará que se están solicitando seleccionar los nodos, ingrese el comando _All_ y presione dos veces la tecla <kbd>Enter</kbd>.
+
+<div align="center"><img src="graph/Civil3D_CreateSurfaceDefinitionAdd.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+Podrá observar un polígono de contorno que indica que la superficie ha sido creada.
+
+<div align="center"><img src="graph/Civil3D_CreateSurfaceDefinitionAdd1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+
 
 
 

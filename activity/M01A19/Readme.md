@@ -61,7 +61,7 @@ Una vez ingresados estos parámetros, de clic en los botones `0. Resolver θ < 1
 
 > El ancho superficial de la estructura podrá ser menor teniendo en cuenta que la geometría del canal es trapezoidal y la geometría de la estructura es rectangular. Este valor es utilizado para calcular las profundidades secuentes del resalto hidráulico en la zona inferior de la estrtuctura.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.1.jpg" alt="R.SIGE" width="75%" border="0" /></div>
 
 3. Verifique la altura de caída y que se cumplan los criterios de selección de altura de contrahuella.
 

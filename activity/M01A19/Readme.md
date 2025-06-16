@@ -100,8 +100,6 @@ Una vez ingresados estos parámetros, de clic en los botones `0. Resolver θ < 1
 
 Para la ilustración del DTM, realizaremos un ajuste en el ancho de la sección de la estructura a 15 metros con factor de aproximación de 0.5 para obtener un corredor más largo.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.8a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-
 1. En el libro de diseño [R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraEscalonadaFlujoRasante), exporte el contenido de la hoja _GIS_ a un archivo de texto separado por comas como _/file/table/R.HCMC.DisenoEstructuraEscalonadaFlujoRasanteGIS.csv_.
 
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.9.jpg" alt="R.SIGE" width="100%" border="0" /></div>

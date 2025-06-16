@@ -79,13 +79,37 @@ Una vez ingresados estos parámetros, de clic en los botones `0. Resolver θ < 1
 
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.5.jpg" alt="R.SIGE" width="75%" border="0" /></div>
 
-7. Revise y calcule la profundidad de flujo para una concentración de aire de 0.9 en zona de flujo quasi-uniforme, la altura de los muros del canal en zona de flujo quasi-uniforme y la profundidad de flujo y2 (profundidad secuente del salto hidráulico) en zona inferior estructura, de clic en los botones `3. Resolver y2 con q-u` y `4. Resolver y2 sin q-u`.
+7. Revise y calcule la profundidad de flujo para una concentración de aire de 0.9 en zona de flujo quasi-uniforme, la altura de los muros del canal en zona de flujo quasi-uniforme y la profundidad de flujo y2 (profundidad secuente del resalto hidráulico) en zona inferior estructura, de clic en los botones `3. Resolver y2 con q-u` y `4. Resolver y2 sin q-u`.
 
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.6.jpg" alt="R.SIGE" width="75%" border="0" /></div>
 
-> Como observa, los resultados presentan valores si se alcanza o no la condición de flujo quasi-uniforme. Para este ejemplo utilizaremos los resultados cuando no se alcanza la condicón q-u.
+> Como observa, los resultados presentan valores si se alcanza o no la condición de flujo quasi-uniforme. Para este ejemplo utilizaremos los resultados cuando no se alcanza la condición q-u, suponiendo que la descarga no está controlada.
 
-8. 
+8. Para la construcción de los esquemas geométricos, ingrese el valor de desplazamiento por coalineación que permitirá crear nodos con un pequeño desplazamiento lateral en las paredes, y la pendiente del cauce lateral evaluado en la entrega [M01A13](../M01A13).
+
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.7.jpg" alt="R.SIGE" width="75%" border="0" /></div>
+
+> Para cambiar la longitud de los tramos de aproximación antes y después de la estructura, necesarios para desarrollar el flujo por la estructura, ajuste el valor del factor multiplicador que se encuentra en la tabla de parámetros de entrada.
+
+9. Visualice el esquema del perfil de la estructura.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.8.jpg" alt="R.SIGE" width="75%" border="0" /></div>
+
+
+## 2. Creación de modelo digital de terreno
+
+1. 
+
+
+
+
+
+
+
+
+
+
+
 
 
 

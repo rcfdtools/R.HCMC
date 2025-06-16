@@ -104,7 +104,7 @@ Para la ilustración del DTM, realizaremos un ajuste en el ancho de la sección 
 
 > :bulb: En GIS y CAD, es obligatoria la definición de un valor de coalineación debido a que al crear las superficies TIN, estas requieren de un pequeño desplazamiento en la vertical para nodos en la misma localización. Se recomienda usar 0.01 metros para CAD en Civil 3D y 0.1 metros en GIS definiendo pixeles de 0.1 metros en la exportación inicial del ráster.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.9.jpg" alt="R.SIGE" width="65%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.9.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 2. En QGIS, desde el menú _Layer / Add Layer / Add Delimited Text Layer..._ agregue la tabla de nodos y visualice como una capa temporal, utilice el archivo csv, la coordenada Z y asigne el CRS 3116.
 
@@ -116,14 +116,14 @@ Para la ilustración del DTM, realizaremos un ajuste en el ancho de la sección 
 
 4. Guarde la capa temporal como un archivo shapefile en _/file/shp/DisenoEstructuraEscalonadaFlujoRasanteGIS.shp_
 
-<div align="center"><img src="graph/QGIS_SaveVectorLayerAs.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_SaveVectorLayerAs.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 5. Utilizando la herramienta _Processing Toolbox / Vector general / Delete duplícate geometries_, elimine los nodos duplicados y guarde como _/file/shp/DisenoEstructuraEscalonadaFlujoRasanteGISClean.shp_. De los 1812 puntos obtenidos, solo 144 son únicos.
 
-<div align="center"><img src="graph/QGIS_DeleteDuplícateGeometries.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_DeleteDuplícateGeometries.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_DeleteDuplícateGeometries1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-5. Utilizando la herramienta _Processing Toolbox / Mesh / TIN Mesh Creation_, cree la malla del modelo digital de terreno de la estructura. Guarde como _/file/dem/DisenoEstructuraEscalonadaFlujoRasanteGIS.d2m_
+6. Utilizando la herramienta _Processing Toolbox / Mesh / TIN Mesh Creation_, cree la malla del modelo digital de terreno de la estructura. Guarde como _/file/dem/DisenoEstructuraEscalonadaFlujoRasanteGIS.d2m_
 
 <div align="center"><img src="graph/QGIS_TINMeshCreation.jpg" alt="R.SIGE" width="65%" border="0" /></div>
 
@@ -131,7 +131,7 @@ Para la ilustración del DTM, realizaremos un ajuste en el ancho de la sección 
 
 <div align="center"><img src="graph/QGIS_TINMeshCreation1.jpg" alt="R.SIGE" width="65%" border="0" /></div>
 
-6. Vuelva a abrir QGIS y exporte a formato DXF los 144 nodos que componen la estructura, guarde como _/file/cad/DisenoEstructuraEscalonadaFlujoRasanteGIS.dxf_.
+7. Vuelva a abrir QGIS y exporte a formato DXF los 144 nodos que componen la estructura, guarde como _/file/cad/DisenoEstructuraEscalonadaFlujoRasanteGIS.dxf_.
 
 <div align="center"><img src="graph/QGIS_SaveVectorLayerAsDxf.jpg" alt="R.SIGE" width="65%" border="0" /></div>
 
@@ -140,11 +140,11 @@ Agregue las entidades DXF al mapa y verifique su localización.
 <div align="center"><img src="graph/QGIS_AddLayerDxf.jpg" alt="R.SIGE" width="65%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_AddLayerDxf1.jpg" alt="R.SIGE" width="65%" border="0" /></div>
 
-7. En Autodesk Civil 3D, abra el archivo DXF exportado, acérquese a la capa con el comando _Z E_ y con el comando _PTYPE_, cambie la representación de los nodos a círculos de 0.2 m de diámetro.
+8. En Autodesk Civil 3D, abra el archivo DXF exportado, acérquese a la capa con el comando _Z E_ y con el comando _PTYPE_, cambie la representación de los nodos a círculos de 0.2 m de diámetro.
 
 <div align="center"><img src="graph/Civil3D_OpenDxf.jpg" alt="R.SIGE" width="65%" border="0" /></div>
 
-8. Guarde el archivo DXF como un archivo de AutoCAD como /file/cad/DisenoEstructuraEscalonadaFlujoRasanteGIS.dwg.
+9. Guarde el archivo DXF como un archivo de AutoCAD como /file/cad/DisenoEstructuraEscalonadaFlujoRasanteGIS.dwg.
 
 <div align="center"><img src="graph/Civil3D_SaveAsDwg.jpg" alt="R.SIGE" width="65%" border="0" /></div>
 

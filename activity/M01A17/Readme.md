@@ -211,7 +211,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 ## Referencias
 
 * Ven Te Chow, Hidráulica de canales abiertos, pág. 414 (pdf pág. 212) Vertedero de caída recta.
-* Libro de diseño desarrollado por [rcfdtools](https://github.com/rcfdtools), [frankv13](https://github.com/frankv13) y JAG.
+* Libro de diseño desarrollado por [rcfdtools](https://github.com/rcfdtools) y [frankv13](https://github.com/frankv13).
 
 
 ## Control de versiones

@@ -98,7 +98,7 @@ Una vez ingresados estos parámetros, de clic en los botones `0. Resolver θ < 1
 
 ## 2. Creación de modelo digital de terreno
 
-Para ilustración del DTM, realizaremos un ajuste en el ancho de la sección de la estructura a 15 metros con factor de aproximación de 0.5 para crear un corredor mas largo.
+Para la ilustración del DTM, realizaremos un ajuste en el ancho de la sección de la estructura a 15 metros con factor de aproximación de 0.5 para obtener un corredor más largo.
 
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.8a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 

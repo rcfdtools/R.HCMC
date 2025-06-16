@@ -172,12 +172,15 @@ Acérquese y visualice los escalones de la estructura.
 
 <div align="center"><img src="graph/Civil3D_3DOrbit1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+14. Dando clic derecho en el panel izquierdo en _Surfaces / Surface1_, seleccione la superficie. Observará que en la parte superior derecha se activa un panel específico para la superficie seleccionada.
 
+<div align="center"><img src="graph/Civil3D_SurfaceSelect.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+15. En el panel _Tin Surface Surface1_, seleccione la herramienta _Extract from Surface / Extract Objects_ y marque la casilla _Triangles_.
 
+<div align="center"><img src="graph/Civil3D_ExtractObjects.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-
-
+16. 
 
 
 

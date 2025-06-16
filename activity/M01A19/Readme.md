@@ -98,11 +98,13 @@ Una vez ingresados estos parámetros, de clic en los botones `0. Resolver θ < 1
 
 ## 2. Creación de modelo digital de terreno
 
-Para la ilustración del DTM, realizaremos un ajuste en el ancho de la sección de la estructura a 15 metros con factor de aproximación de 0.5 para obtener un corredor más largo.
+Para la ilustración del DTM, realizaremos un ajuste en el ancho de la sección de la estructura a 15 metros con factor de aproximación de 2.5 para obtener un corredor más largo y prevención de coalineación de nodos de 0.01 metros.
 
 1. En el libro de diseño [R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraEscalonadaFlujoRasante), exporte el contenido de la hoja _GIS_ a un archivo de texto separado por comas como _/file/table/R.HCMC.DisenoEstructuraEscalonadaFlujoRasanteGIS.csv_.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.9.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+> :bulb: En GIS y CAD, es obligatoria la definición de un valor de coalineación debido a que al crear las superficies TIN, estas requieren de un pequeño desplazamiento en la vertical para nodos en la misma localización. Se recomienda usar 0.01 metros para CAD en Civil 3D y 0.1 metros en GIS definiendo pixeles de 0.1 metros en la exportación a ráster.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.9.jpg" alt="R.SIGE" width="55%" border="0" /></div>
 
 2. En QGIS, desde el menú _Layer / Add Layer / Add Delimited Text Layer..._ agregue la tabla de nodos y visualice como una capa temporal, utilice el archivo csv, la coordenada Z y asigne el CRS 3116.
 
@@ -112,15 +114,11 @@ Para la ilustración del DTM, realizaremos un ajuste en el ancho de la sección 
 
 <div align="center"><img src="graph/QGIS_Label.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-6. Guarde la capa temporal como un archivo shapefile en _/file/shp/DisenoEstructuraExpansionSubcriticoGISCanalPpal.shp_
+4. Guarde la capa temporal como un archivo shapefile en _/file/shp/DisenoEstructuraEscalonadaFlujoRasanteGIS.shp_
 
-<div align="center"><img src="graph/QGIS_SaveVectorLayerAs.jpg" alt="R.SIGE" width="65%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_SaveVectorLayerAs.jpg" alt="R.SIGE" width="55%" border="0" /></div>
 
-7. Desde el modo de edición, rote y desplace los nodos a localización correcta al final del realineamiento del valle. Guarde los cambios realizados y detenga el Editor.
-
-<div align="center"><img src="graph/QGIS_Edit.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-
-8. Utilizando la herramienta _Processing Toolbox / Interpolation / TIN Interpolation_, cree la grilla del modelo digital de terreno de la estructura. Defina el tamaño de pixel en 0.1 metros y guarde como _/file/dem/DisenoEstructuraExpansionSubcriticoGISCanalPpal.tif_
+5. Utilizando la herramienta _Processing Toolbox / Interpolation / TIN Interpolation_, cree la grilla del modelo digital de terreno de la estructura. Defina el tamaño de pixel en 0.1 metros y guarde como _/file/dem/DisenoEstructuraEscalonadaFlujoRasanteGIS.tif_
 
 <div align="center"><img src="graph/QGIS_TINInterpolation.jpg" alt="R.SIGE" width="65%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_TINInterpolation1.jpg" alt="R.SIGE" width="65%" border="0" /></div>

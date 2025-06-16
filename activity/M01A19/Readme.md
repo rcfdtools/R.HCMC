@@ -8,7 +8,9 @@ El diseño y construcción de canales hidráulicos, requiere frecuentemente del 
 
 ## Objetivos
 
-* 
+* Evaluar la diferencia entre la cota de fondo del cauce lateral y el fondo del realineamiento.
+* Diseñar una estructura escalonada para la entrega de un cauce lateral.
+* Modelar y validar el funcionamiento de la estructura para las condiciones de diseño.
 
 
 ## Requerimientos

@@ -48,19 +48,44 @@ Casos en los que se requiere del uso de estructuras escalonadas:
 
 Para el caso de estudio, esta diferencia es tan solo de 0.25 metros, lo que indica que la entrega lateral podrá ser realizada por empalme de fondos y sin una estructura escalonada.
 
+> Para el desarrollo de este ejercicio, realizaremos el diseño de una estructura escalonada con diferencia de caída de 1.5 metros.
 
+2. En la hoja de diseño, registre los siguientes parámetros de diseño de la estructura:
 
+* Caudal de diseño, Qd: caudal del cauce lateral obtenido en la entrega [M01A02](../M01A02) para la cuenca W19610 del modelo hidrológico con factor de atenuación 1.0. 
+* Altura del escalón o contrahuella, s: altura definida por el diseñador.
+* Ancho superficial estructura, B: correspondiente al ancho geométrico de la sección obtenido en la entrega [M01A13](../M01A13).
+* Diferencia de caída, Dh: diferencia entre el fondo del cauce lateral y el fondo del valle.
 
+Una vez ingresados estos parámetros, de clic en los botones `0. Resolver θ < 19°, L huella` y `1. Resolver y1`, así obtendrá la longitud de la huella para un angulo tetta inferior a 19 grados y la profundidad hidráulica _y1_ al inicio de la estructura.
 
+> El ancho superficial de la estructura podrá ser menor teniendo en cuenta que la geometría del canal es trapezoidal y la geometría de la estructura es rectangular. Este valor es utilizado para calcular las profundidades secuentes del resalto hidráulico en la zona inferior de la estrtuctura.
 
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+3. Verifique la altura de caída y que se cumplan los criterios de selección de altura de contrahuella.
 
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+4. Verifique el cumplimiento del tipo de flujo rasante en la estructura y la altura de caída necesaria para alcanzar esta condición.
 
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+5. Revise el cálculo de la profundidad y la velocidad de flujo, si se alcanza la condición de flujo quasi-uniforme.
 
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.4.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+6. Revise el cálculo de la profundidad y la velocidad de flujo cuando no se alcanza la condición de flujo quasi-uniforme (de clic en el botón `2. Resolver dw`), la energía residual y la concentración media del aire.
 
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.5.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+7. Revise y calcule la profundidad de flujo para una concentración de aire de 0.9 en zona de flujo quasi-uniforme, la altura de los muros del canal en zona de flujo quasi-uniforme y la profundidad de flujo y2 (profundidad secuente del salto hidráulico) en zona inferior estructura, de clic en los botones `3. Resolver y2 con q-u` y `4. Resolver y2 sin q-u`.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.6.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+> Como observa, los resultados presentan valores si se alcanza o no la condición de flujo quasi-uniforme. Para este ejemplo utilizaremos los resultados cuando no se alcanza la condicón q-u.
+
+8. 
 
 
 

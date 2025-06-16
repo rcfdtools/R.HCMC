@@ -362,7 +362,7 @@ Resultados:
 * Tamaño de partículas requeridas para lecho estable = 19.1 mm.
 
 
-## 7. Diseño cauce lateral por Método de la Fuerza Tractiva (Shields) en R.HydroTools
+## 7. Diseño cauce principal por Método de la Fuerza Tractiva (Shields) en R.HydroTools
 
 Utilizando el libro de diseño y análisis [R.HydroTools.DisenoGeometricoHidraulicoVertical.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoGeometricoHidraulicoVertical), realice el diseño de la sección estable por el Método de Shields, considerando la curvatura del valle suavizado.
 

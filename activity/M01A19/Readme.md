@@ -50,7 +50,7 @@ Para el caso de estudio, esta diferencia es tan solo de 0.25 metros, lo que indi
 
 > Para el desarrollo de este ejercicio, realizaremos el diseño de una estructura escalonada con diferencia de caída de 1.5 metros.
 
-2. En la hoja de diseño, registre los siguientes parámetros de diseño de la estructura:
+2. En la hoja de diseño [R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraEscalonadaFlujoRasante), registre los siguientes parámetros de diseño de la estructura:
 
 * Caudal de diseño, Qd: caudal del cauce lateral obtenido en la entrega [M01A02](../M01A02) para la cuenca W19610 del modelo hidrológico con factor de atenuación 1.0. 
 * Altura del escalón o contrahuella, s: altura definida por el diseñador.
@@ -83,7 +83,7 @@ Una vez ingresados estos parámetros, de clic en los botones `0. Resolver θ < 1
 
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.6.jpg" alt="R.SIGE" width="75%" border="0" /></div>
 
-> Como observa, los resultados presentan valores si se alcanza o no la condición de flujo quasi-uniforme. Para este ejemplo utilizaremos los resultados cuando no se alcanza la condición q-u, suponiendo que la descarga no está controlada.
+> Como observa, los resultados presentan valores si se alcanza o no la condición de flujo quasi-uniforme. Para este ejemplo utilizaremos los resultados cuando no se alcanza la condición q-u, suponiendo que la descarga no está controlada y que la estructura en su entrega está localizada dentro del valle del cauce principal de realineamiento garantizando el confinamiento del flujo.
 
 8. Para la construcción de los esquemas geométricos, ingrese el valor de desplazamiento por coalineación que permitirá crear nodos con un pequeño desplazamiento lateral en las paredes, y la pendiente del cauce lateral evaluado en la entrega [M01A13](../M01A13).
 
@@ -98,8 +98,38 @@ Una vez ingresados estos parámetros, de clic en los botones `0. Resolver θ < 1
 
 ## 2. Creación de modelo digital de terreno
 
-1. 
+Para ilustración del DTM, realizaremos un ajuste en el ancho de la sección de la estructura a 15 metros con factor de aproximación de 0.5 para crear un corredor mas largo.
 
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.8a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+1. En el libro de diseño [R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraEscalonadaFlujoRasante), exporte el contenido de la hoja _GIS_ a un archivo de texto separado por comas como _/file/table/R.HCMC.DisenoEstructuraEscalonadaFlujoRasanteGIS.csv_.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.9.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+2. En QGIS, desde el menú _Layer / Add Layer / Add Delimited Text Layer..._ agregue la tabla de nodos y visualice como una capa temporal, utilice el archivo csv, la coordenada Z y asigne el CRS 3116.
+
+<div align="center"><img src="graph/QGIS_AddDelimitedTextLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+3. Ajuste la simbología de representación y rotule los nodos a partir de su cota. 
+
+<div align="center"><img src="graph/QGIS_Label.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+6. Guarde la capa temporal como un archivo shapefile en _/file/shp/DisenoEstructuraExpansionSubcriticoGISCanalPpal.shp_
+
+<div align="center"><img src="graph/QGIS_SaveVectorLayerAs.jpg" alt="R.SIGE" width="65%" border="0" /></div>
+
+7. Desde el modo de edición, rote y desplace los nodos a localización correcta al final del realineamiento del valle. Guarde los cambios realizados y detenga el Editor.
+
+<div align="center"><img src="graph/QGIS_Edit.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+8. Utilizando la herramienta _Processing Toolbox / Interpolation / TIN Interpolation_, cree la grilla del modelo digital de terreno de la estructura. Defina el tamaño de pixel en 0.1 metros y guarde como _/file/dem/DisenoEstructuraExpansionSubcriticoGISCanalPpal.tif_
+
+<div align="center"><img src="graph/QGIS_TINInterpolation.jpg" alt="R.SIGE" width="65%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_TINInterpolation1.jpg" alt="R.SIGE" width="65%" border="0" /></div>
+
+Visualice y verifique la superficie creada y en caso de ser necesario, ajuste la tabla de valores.
+
+<div align="center"><img src="graph/QGIS_TINInterpolation2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 

@@ -198,11 +198,18 @@ Acérquese y visualice los escalones de la estructura.
 
 19. Utilizando la herramienta _Processing Toolbox / Mesh / Rasterize mesh dataset_, cree la grilla TIFF del modelo digital de terreno a partir de la malla d2m. Guarde como _/file/dem/DisenoEstructuraEscalonadaFlujoRasanteGISCivil3D.tif_. En la entrada _Pixel size_ ingrese como resolución la mitad del valor utilizado en la coalineación (0.01 / 2) correspondiente a 0.05 metros.
 
-> La definición del tamaño de pixel a partir de la mitad del valor de coalineación, permitirá generar la grilla de la estructura con la precisión requerida para su posterior modelación
+> La definición del tamaño de pixel a partir de la mitad del valor de co-alineación, permitirá generar la grilla de la estructura con la precisión requerida para su posterior modelación
 
-<div align="center"><img src="graph/QGIS_RasterizeMeshDataset.jpg" alt="R.SIGE" width="70%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_RasterizeMeshDataset1.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_RasterizeMeshDataset.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_RasterizeMeshDataset1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+20. Para verificar la correcta representación de la estructura, visualice el perfil longitudinal y algunas secciones transversales. En el menú _View_, seleccione la opción _Elevation Profile_, agregue las superficies y manualmente trace ejes de muestreo.
+
+<div align="center"><img src="graph/QGIS_ElevationProfile.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ElevationProfile1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ElevationProfile2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ElevationProfile3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ElevationProfile4.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 

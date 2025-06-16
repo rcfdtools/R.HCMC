@@ -91,9 +91,9 @@ Una vez ingresados estos parámetros, de clic en los botones `0. Resolver θ < 1
 
 > Para cambiar la longitud de los tramos de aproximación antes y después de la estructura, necesarios para desarrollar el flujo por la estructura, ajuste el valor del factor multiplicador que se encuentra en la tabla de parámetros de entrada.
 
-9. Visualice el esquema del perfil de la estructura.
+9. Visualice y revise el esquema del perfil de la estructura.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.8.jpg" alt="R.SIGE" width="75%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.8.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 ## 2. Creación de modelo digital de terreno

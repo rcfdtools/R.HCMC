@@ -59,29 +59,29 @@ Para el caso de estudio, esta diferencia es tan solo de 0.25 metros, lo que indi
 
 Una vez ingresados estos parámetros, de clic en los botones `0. Resolver θ < 19°, L huella` y `1. Resolver y1`, así obtendrá la longitud de la huella para un angulo tetta inferior a 19 grados y la profundidad hidráulica _y1_ al inicio de la estructura.
 
-> El ancho superficial de la estructura podrá ser menor teniendo en cuenta que la geometría del canal es trapezoidal y la geometría de la estructura es rectangular. Este valor es utilizado para calcular las profundidades secuentes del resalto hidráulico en la zona inferior de la estrtuctura.
+> El ancho superficial de la estructura podrá ser menor teniendo en cuenta que la geometría del canal es trapezoidal y la geometría de la estructura es rectangular. Este valor es utilizado para calcular las profundidades secuentes del resalto hidráulico en la zona inferior de la estructura.
 
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.1.jpg" alt="R.SIGE" width="75%" border="0" /></div>
 
 3. Verifique la altura de caída y que se cumplan los criterios de selección de altura de contrahuella.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.2.jpg" alt="R.SIGE" width="75%" border="0" /></div>
 
 4. Verifique el cumplimiento del tipo de flujo rasante en la estructura y la altura de caída necesaria para alcanzar esta condición.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.3.jpg" alt="R.SIGE" width="75%" border="0" /></div>
 
 5. Revise el cálculo de la profundidad y la velocidad de flujo, si se alcanza la condición de flujo quasi-uniforme.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.4.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.4.jpg" alt="R.SIGE" width="75%" border="0" /></div>
 
 6. Revise el cálculo de la profundidad y la velocidad de flujo cuando no se alcanza la condición de flujo quasi-uniforme (de clic en el botón `2. Resolver dw`), la energía residual y la concentración media del aire.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.5.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.5.jpg" alt="R.SIGE" width="75%" border="0" /></div>
 
 7. Revise y calcule la profundidad de flujo para una concentración de aire de 0.9 en zona de flujo quasi-uniforme, la altura de los muros del canal en zona de flujo quasi-uniforme y la profundidad de flujo y2 (profundidad secuente del salto hidráulico) en zona inferior estructura, de clic en los botones `3. Resolver y2 con q-u` y `4. Resolver y2 sin q-u`.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.6.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.6.jpg" alt="R.SIGE" width="75%" border="0" /></div>
 
 > Como observa, los resultados presentan valores si se alcanza o no la condición de flujo quasi-uniforme. Para este ejemplo utilizaremos los resultados cuando no se alcanza la condicón q-u.
 

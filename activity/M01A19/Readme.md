@@ -176,13 +176,32 @@ Acérquese y visualice los escalones de la estructura.
 
 <div align="center"><img src="graph/Civil3D_SurfaceSelect.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-15. En el panel _Tin Surface Surface1_, seleccione la herramienta _Extract from Surface / Extract Objects_ y marque la casilla _Triangles_.
+15. En el panel _Tin Surface Surface1_, seleccione la herramienta _Extract from Surface / Extract Objects_ y marque la casilla _Triangles_. Guarde los cambios realizados.
 
 <div align="center"><img src="graph/Civil3D_ExtractObjects.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-16. 
+16. Desde el botón de menú Civil 3D, guarde el archivo en formato DXF versión 2007 como _/file/cad/DisenoEstructuraEscalonadaFlujoRasanteGISTriangle.dxf_
 
+<div align="center"><img src="graph/Civil3D_SaveDrawingAsDxf.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+17. En QGIS, cargue solo las entidades del archivo de la superficie triangulada generada en Civil 3D.
+
+<div align="center"><img src="graph/QGIS_AddLayerCivil3DEntities.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+18. Utilizando la herramienta _Processing Toolbox / Mesh / TIN Mesh Creation_, cree la malla del modelo digital de terreno _d2m_ de la estructura a partir de los triángulos de la superficie Civil 3D (entities). Guarde como _/file/dem/DisenoEstructuraEscalonadaFlujoRasanteGISCivil3D.d2m_
+
+<div align="center"><img src="graph/QGIS_TINMeshCreation2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+> Este procedimiento se ejecutará correctamente en QGIS, debido a que crearemos la superficie desde triangulos 3D.
+
+<div align="center"><img src="graph/QGIS_TINMeshCreation3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+19. Utilizando la herramienta _Processing Toolbox / Mesh / Rasterize mesh dataset_, cree la grilla TIFF del modelo digital de terreno a partir de la malla d2m. Guarde como _/file/dem/DisenoEstructuraEscalonadaFlujoRasanteGISCivil3D.tif_. En la entrada _Pixel size_ ingrese como resolución la mitad del valor utilizado en la coalineación (0.01 / 2) correspondiente a 0.05 metros.
+
+> La definición del tamaño de pixel a partir de la mitad del valor de coalineación, permitirá generar la grilla de la estructura con la precisión requerida para su posterior modelación
+
+<div align="center"><img src="graph/QGIS_RasterizeMeshDataset.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_RasterizeMeshDataset1.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 
 

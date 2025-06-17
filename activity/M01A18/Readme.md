@@ -183,7 +183,6 @@ Ajuste en la cabecera los rótulos de las columnas `CZ no compensado` a `CZNoCom
 <div align="center"><img src="graph/QGIS_RasterizeMeshDataset.jpg" alt="R.SIGE" width="65%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_RasterizeMeshDataset1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-> Visualice y verifique la superficie creada y en caso de ser necesario, ajuste la tabla de valores o el diseño de la estructura.
 
 12. Para verificar la correcta representación de la estructura, visualice el perfil longitudinal y algunas secciones transversales. En el menú _View_, seleccione la opción _Elevation Profile_, agregue las superficies y manualmente trace ejes de muestreo.
 
@@ -191,6 +190,12 @@ Ajuste en la cabecera los rótulos de las columnas `CZ no compensado` a `CZNoCom
 <div align="center"><img src="graph/QGIS_ElevationProfile1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_ElevationProfile2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_ElevationProfile3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+13. Utilizando la herramienta _View / 3D Map Views_, cree una representación 3D de la estructura.
+
+<div align="center"><img src="graph/QGIS_3DMapViews.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+> Visualice y verifique la superficie creada y en caso de ser necesario, ajuste la tabla de valores o el diseño de la estructura.
 
 
 ## Actividades de proyecto :triangular_ruler:

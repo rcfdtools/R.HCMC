@@ -168,14 +168,29 @@ Ajuste en la cabecera los rótulos de las columnas `CZ no compensado` a `CZNoCom
 
 <div align="center"><img src="graph/QGIS_Edit.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-8. Utilizando la herramienta _Processing Toolbox / Interpolation / TIN Interpolation_, cree la grilla del modelo digital de terreno de la estructura. Defina el tamaño de pixel en 0.1 metros y guarde como _/file/dem/DisenoEstructuraExpansionSubcriticoGISCanalPpal.tif_
+8. Utilizando la herramienta _Processing Toolbox / Vector creation / Points to path_, genere las líneas constructivas 3D de la estructura y guarde como _/file/shp/DisenoEstructuraExpansionSubcriticoGISCanalPpalLine.shp_
 
-<div align="center"><img src="graph/QGIS_TINInterpolation.jpg" alt="R.SIGE" width="65%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_TINInterpolation1.jpg" alt="R.SIGE" width="65%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_PointToPath.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_PointToPath1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-Visualice y verifique la superficie creada y en caso de ser necesario, ajuste la tabla de valores.
+9. Utilizando la herramienta _Processing Toolbox / Mesh / TIN Mesh Creation_, cree la malla de la superficie 3D y guarde como _/file/dem/DisenoEstructuraExpansionSubcriticoGISCanalPpal.d2m_
 
-<div align="center"><img src="graph/QGIS_TINInterpolation2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_TINMeshCreation.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_TINMeshCreation1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+10. Utilizando la herramienta _Processing Toolbox / Mesh / Rasterize mesh dataset_, convierta la malla 3D a la grilla del modelo digital de terreno de la estructura. Defina el tamaño de pixel en 0.1 metros y guarde como _/file/dem/DisenoEstructuraExpansionSubcriticoGISCanalPpal.tif_
+
+<div align="center"><img src="graph/QGIS_RasterizeMeshDataset.jpg" alt="R.SIGE" width="65%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_RasterizeMeshDataset1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+> Visualice y verifique la superficie creada y en caso de ser necesario, ajuste la tabla de valores o el diseño de la estructura.
+
+12. Para verificar la correcta representación de la estructura, visualice el perfil longitudinal y algunas secciones transversales. En el menú _View_, seleccione la opción _Elevation Profile_, agregue las superficies y manualmente trace ejes de muestreo.
+
+<div align="center"><img src="graph/QGIS_ElevationProfile.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ElevationProfile1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ElevationProfile2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ElevationProfile3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 ## Actividades de proyecto :triangular_ruler:

@@ -145,6 +145,8 @@ Para la construcción del prototipo digital, es necesaria la creación de un mod
 Ajuste en la cabecera los rótulos de las columnas `CZ no compensado` a `CZNoComp` y `CZ compensado` a `CZComp`, verifique que la separación entre datos y cabeceras corresponde a tabuladores.
 
 > No modifique estas cabeceras directamente en el libro de Excel debido a que estos nombres son utilizados por cajas de herramientas geográficas.
+> 
+> Opcionalmente, puede crear un libro en blanco en Excel, pegar los valores de la tabla y exportar a formato de texto separado por comas .csv.
 
 <div align="center"><img src="graph/NotepadPlus_TablaNodos.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 

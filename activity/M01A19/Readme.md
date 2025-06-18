@@ -19,11 +19,11 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                                          | Descripción                                                                                                                    |
-|:-----------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                     | Microsoft Excel 365.                                                                                                           |
-| [:toolbox:Herramienta](https://qgis.org/)                                                                              | QGIS 3.42 o superior.                                                                                                          |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                               | HEC-RAS 6.6 o superior.                                                                                                        |
+| Requerimiento                                                                                                                                                                 | Descripción                                                                                                                    |
+|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                                                            | Microsoft Excel 365.                                                                                                           |
+| [:toolbox:Herramienta](https://qgis.org/)                                                                                                                                     | QGIS 3.42 o superior.                                                                                                          |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                                                                                                            | Autodesk Civil 3D 2025 o superior.                                       |
 | [:open_file_folder:R.HydroTools.DisenoEstructuraEscalonadaFlujoRasante.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraEscalonadaFlujoRasante) | Libro de cálculo para el análisis y diseño de estructura escalonada en sección rectangular a flujo rasante, método Iwao Ohtsu. |
 
 </div>

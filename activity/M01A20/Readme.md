@@ -8,7 +8,9 @@ Las rápidas pueden ser utilizadas para realizar conexión de cauces laterales a
 
 ## Objetivos
 
-* 
+* Estudiar las zonas que componen una rápida.
+* Diseñar una estructura rápida para la entrega de un cauce lateral.
+* Modelar y validar el funcionamiento de la estructura para las condiciones de diseño.
 
 
 ## Requerimientos

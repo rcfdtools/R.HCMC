@@ -89,15 +89,16 @@ Automáticamente, serán calculadas las propiedades hidráulicas de la sección 
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.1a2b.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 
-## 3. Longitud y perfil hidráulico rápida (2 - 3)
+## 4. Longitud y perfil hidráulico rápida (2 - 3)
 
-Automáticamente, serán calculadas las propiedades hidráulicas esta zona a partir de los parámetros resueltos en las zonas anteriores.
+Automáticamente, serán calculadas las propiedades hidráulicas para esta zona, a partir de los parámetros resueltos en las zonas anteriores.
+
+> Para resolver el perfil hidráulico en esta zona, se ha utilizado el método de tramo a tramo basado en la aplicación de la Fórmula de Bernulli. El desarrollo del perfil para alcanzar la profundidad normal, puede requerir de un canal muy largo, por lo que para su modelación y construcción, puede considerar una longitud más corta donde considere como diseñador que ya se ha desarrollado completamente el perfil.
 
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.2a3.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.2a3a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.2a3b.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
-> Para resolver el perfil hidráulico en esta zona, se ha utilizado el método de tramo a tramo basado en la aplicación de la Fórmula de Bernulli. El desarrollo del perfil para alcanzar la profundidad normal, puede requerir de un canal muy largo, por lo que para su modelación y construcción, puede considerar una longitud más corta donde considere como diseñador que ya se ha desarrollado completamente el perfil. 
 
 
 

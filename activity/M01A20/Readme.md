@@ -93,16 +93,31 @@ Automáticamente, serán calculadas las propiedades hidráulicas de la sección 
 
 Automáticamente, serán calculadas las propiedades hidráulicas para esta zona, a partir de los parámetros resueltos en las zonas anteriores.
 
-> Para resolver el perfil hidráulico en esta zona, se ha utilizado el método de tramo a tramo basado en la aplicación de la Fórmula de Bernulli. El desarrollo del perfil para alcanzar la profundidad normal, puede requerir de un canal muy largo, por lo que para su modelación y construcción, puede considerar una longitud más corta donde considere como diseñador que ya se ha desarrollado completamente el perfil.
+> Para resolver el perfil hidráulico en esta zona, se ha utilizado el método de tramo a tramo basado en la aplicación de la Fórmula de Bernulli. El desarrollo del perfil para alcanzar la profundidad normal, puede requerir de un canal muy largo, por lo que para su modelación y construcción, puede considerar una longitud más corta (donde considere como diseñador que ya se ha desarrollado completamente el perfil).
 
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.2a3.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.2a3a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.2a3b.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 
+## 5. Diseño y perfil trayectoria de caída (3 - 4)
+
+Para el diseño de esta zona, ingrese 1 como semilla de relación de caída, ingrese el factor de aceleración y de clic en el botón `B. Resolver altura total requerida en la estructura rápida cambiando relación de caída en 3-4`. Automáticamente obtendrá la inclinación y longitud de la trayectoria curva.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.3a4.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.3a4a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.3a4b.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 
+## 6. Transición caída trayectoria a tanque disipador (4 - 5)
 
+Para el diseño de esta zona, utilizaremos el mismo ángulo de transición empleado en la sección de control 1-2, obteniendo su longitud y altura de caída.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.4a5.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.4a5a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+
+## 7. 
 
 
 

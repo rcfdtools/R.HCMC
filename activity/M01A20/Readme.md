@@ -114,7 +114,7 @@ Para el diseño de esta zona, ingrese 1 como semilla de relación de caída, ing
 Para el diseño de esta zona, utilizaremos el mismo ángulo de transición empleado en la sección de control 1-2, obteniendo su longitud y altura de caída.
 
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.4a5.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.4a5a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.4a5a.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 
 ## 7. Tanque disipador (5 - 6 - 7 - 8)
@@ -124,7 +124,7 @@ Para el diseño de las zonas 5 a 8, ingrese la relación de inclinación de la r
 > Si decide ajustar automáticamente el ancho, deberá verificar y ajustar el diseño de las zonas 1 a 5.
 
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.5a8.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.5a8a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.5a8a.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 Para finalizar, verifique el gráfico de perfil de la rápida y el cumplimiento de longitud y altura definidos.
 

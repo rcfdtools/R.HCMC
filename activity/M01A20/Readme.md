@@ -117,10 +117,18 @@ Para el diseño de esta zona, utilizaremos el mismo ángulo de transición emple
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.4a5a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
-## 7. 
+## 7. Tanque disipador (5 - 6 - 7 - 8)
 
+Para el diseño de las zonas 5 a 8, ingrese la relación de inclinación de la rampa de salida. Automáticamente, serán calculadas las propiedades. En el evento que la profundidad del colchón amortiguador de agua sea muy pequeño (mínimo en el tanque colchón de 0.2 m usando bolsacretos de 0.5 m anclados 0.3 m), de clic en el botón `C. Resolver profundidad válida colchón "e" cambiando ancho en rápida` que le permitirá ajustar el ancho en la rápida definido para en la zona 1-2.
 
+> Si decide ajustar automáticamente el ancho, deberá verificar y ajustar el diseño de las zonas 1 a 5.
 
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.5a8.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.5a8a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+
+Para finalizar, verifique el gráfico de perfil de la rápida y el cumplimiento de longitud y altura definidos.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.Graph.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 ## Actividades de proyecto :triangular_ruler:

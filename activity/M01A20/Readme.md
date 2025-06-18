@@ -65,7 +65,7 @@ En el libro de diseño [R.HydroTools.DisenoEstructuraRapida.xlsm](https://github
 Automáticamente, serán calculadas las propiedades hidráulicas de la sección y se generará el gráfico de sección y perfil para esta zona.
 
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.0a1a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.0a1b.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.0a1b.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 
 ## 2. Resolver requeridos
@@ -79,14 +79,27 @@ Para facilitar la solución geométrica e hidráulica de la rápida, en la parte
 
 Ingrese los parámetros de la sección de control donde se establecerá el control de flujo crítico. Ingrese un ancho de diseño, una pendiente semilla (recomendable ingresar la pendiente del canal natural de la zona 0.1) y el ángulo de la transición (por ejemplo 45 grados para una transición muy brusca). Una vez ingresados estos valores, de clic en el botón `A. Resolver pendiente tramo 1-2 para obtener L2-3 requerido`.
 
-> Es recomendable diseñar este tramo con geometría rectangular con revestimiento en concreto, para lo cual, los taludes laterales deben ser establecidos en cero y la rugosidad en 0.018.
+> Es recomendable diseñar este tramo con geometría rectangular con revestimiento en concreto rugoso, para lo cual, los taludes laterales deben ser establecidos en cero y la rugosidad en 0.018.
 
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.1a2.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 Automáticamente, serán calculadas las propiedades hidráulicas de la sección y se generará el gráfico de sección y perfil para esta zona.
 
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.1a2a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.1a2b.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.1a2b.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+
+
+## 3. Longitud y perfil hidráulico rápida (2 - 3)
+
+Automáticamente, serán calculadas las propiedades hidráulicas esta zona a partir de los parámetros resueltos en las zonas anteriores.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.2a3.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.2a3a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.2a3b.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+
+> Para resolver el perfil hidráulico en esta zona, se ha utilizado el método de tramo a tramo basado en la aplicación de la Fórmula de Bernulli. El desarrollo del perfil para alcanzar la profundidad normal, puede requerir de un canal muy largo, por lo que para su modelación y construcción, puede considerar una longitud más corta donde considere como diseñador que ya se ha desarrollado completamente el perfil. 
+
+
 
 
 

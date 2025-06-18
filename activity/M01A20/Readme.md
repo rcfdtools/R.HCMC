@@ -54,7 +54,7 @@ Una rápida es un canal de gran pendiente que conecta dos tramos de un canal con
 
 
 
-## 1. Procedimiento general
+## 1. Sección transversal canal aguas arriba de rápida (0 - 1)
 
 1. En el libro de diseño [R.HydroTools.DisenoEstructuraRapida.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraRapida), ingrese en la _Sección transversal canal aguas arriba de rápida (0 - 1)_, las propiedades geométricas del cauce lateral. Para el prototipo del caso de estudio, utilizaremos la geometría de la sección del cauce lateral obtenida en la actividad [M01A13](../M01A13) y el caudal obtenido en la entrega [M01A02](../M01A02) para la cuenca W19610 del modelo hidrológico con factor de atenuación 1.0.
 
@@ -68,7 +68,7 @@ Automáticamente, serán calculadas las propiedades hidráulicas del perfil y se
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.0a1b.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 
-
+## 
 
 
 

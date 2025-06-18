@@ -81,11 +81,11 @@ Ingrese los parámetros de la sección de control donde se establecerá el contr
 
 > Es recomendable diseñar este tramo con geometría rectangular con revestimiento en concreto, para lo cual, los taludes laterales deben ser establecidos en cero y la rugosidad en 0.018.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.1a2.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.1a2.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 Automáticamente, serán calculadas las propiedades hidráulicas de la sección y se generará el gráfico de sección y perfil para esta zona.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.1a2a.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.1a2a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.1a2b.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 

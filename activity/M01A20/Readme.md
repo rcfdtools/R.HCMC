@@ -60,17 +60,19 @@ Una rápida es un canal de gran pendiente que conecta dos tramos de un canal con
 
 <div align="center">M01A02 - Geometría del diseño hidráulico de la sección<br><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.1.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
-<div align="center">Parámetros geométricos canal natural<br><img src="graph/R.HydroTools.DisenoEstructuraRapida.0a1.jpg" alt="R.SIGE" width="65%" border="0" /></div>
+<div align="center">Parámetros geométricos canal natural<br><img src="graph/R.HydroTools.DisenoEstructuraRapida.0a1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
-Automáticamente, serán calculadas las propiedades hidráulicas del perfil y se generará el gráfico de sección y perfil en la zona 0-1.
+Automáticamente, serán calculadas las propiedades hidráulicas de la sección y se generará el gráfico de sección y perfil en la zona 0-1.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.0a1a.jpg" alt="R.SIGE" width="90%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.0a1b.jpg" alt="R.SIGE" width="90%" border="0" /></div>
-
-
-## 
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.0a1a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.0a1b.jpg" alt="R.SIGE" width="80%" border="0" /></div>
 
 
+## 2. Resolver requeridos
+
+Para facilitar la solución geométrica e hidráulica de la rápida, en la parte inferior de la hoja de diseño, encontrará una tabla en donde puede ingresar la longitud requerida en la rápida para la zona 2-3, la altura total de la estructura (correspondiente a la diferencia de nivel entre el fondo del cauce lateral y el fondo del canal de realineamiento donde se realizará la entrega) y la longitud de la transición ajustada en la zona 4-5.
+
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.ResolverRequeridos.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 

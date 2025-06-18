@@ -7,8 +7,9 @@ Bienvenid@, en este curso los participantes recibirán conceptos y metodologías
 
 Globalmente, diversos proyectos de ingeniería alteran el curso natural de los cauces transformando su morfología y comportamiento hidráulico. El diseño fluvial tiene como objetivo replicar el comportamiento natural de los cauces intervenidos a través del trazado de nuevos canales artificiales que cumplan con los parámetros de diseño establecidos.
 
-<div align="center"><img src="file/graph/Gemini_Generated_Image_wujtfuwujtfuwujt.png" alt="R.SIGE" width="80%" border="0" /><sub><br> Generado con: <a href="https://gemini.google.com/app/da5e04ff83f70704">https://gemini.google.com</a></sub>[^1]<br><br></div> 
+<div align="center"><img src="file/graph/Gemini_Generated_Image_wujtfuwujtfuwujt.png" alt="R.SIGE" width="80%" border="0" /><sub><br> Generado con: <a href="https://gemini.google.com/app/da5e04ff83f70704">https://gemini.google.com</a></sub><br><br></div> 
 
+Gemini prompt[^1]
 
 ## Objetivos del curso
 
@@ -210,4 +211,4 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 | [:sun_with_face: Iniciar curso](activity/M01A00/Readme.md) | [:infinity: Otros cursos y herramientas](https://github.com/rcfdtools) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/1) | [:notebook: Referencias](file/ref/Readme.md) | [:label: Abreviaturas y definiciones](Definitions.md) |
 |------------------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------|-------------------------------------------------------|
 
-[^1]: Gemini prompt: Create a wide image of a realistic sinusoidal river side to a coal mining powerplant.
+[^1]: Gemini prompt: Create a wide image of a realistic sinusoidal river side to a coal mining powerplant. https://gemini.google.com/app/da5e04ff83f70704

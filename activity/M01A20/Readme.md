@@ -60,7 +60,7 @@ Una rápida es un canal de gran pendiente que conecta dos tramos de un canal con
 
 <div align="center">M01A02 - Geometría del diseño hidráulico de la sección<br><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.1.jpg" alt="R.SIGE" width="90%" border="0" /></div>
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.0a1.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center">Parámetros geométricos canal natural<br><img src="graph/R.HydroTools.DisenoEstructuraRapida.0a1.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
 Automáticamente, serán calculadas las propiedades hidráulicas del perfil y se generará el gráfico de sección y perfil en la zona 0-1.
 

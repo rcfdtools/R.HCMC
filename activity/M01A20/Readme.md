@@ -32,7 +32,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 Una rápida es un canal de gran pendiente que conecta dos tramos de un canal con pendiente suave entre los que existe un desnivel considerable en una longitud corta. Obliga a conducir el agua en ese tramo sobre pendientes pronunciadas y con altas velocidades. Cuando la longitud de la rápida es corta, se la denomina caída inclinada y su diseño hidráulico es el mismo que el de la rápida.
 
-Casos en los que se requiere del uso de rápidas
+**Casos en los que se requiere del uso de rápidas**
 
 * Entrega de cauces o drenajes laterales a cauces o a canales principales en los que existe una diferencia importante de nivel.
 * Canales realineados en los que existe una diferencia considerable de altura entre el fondo de inicio realineado y el fondo del canal de entrega.

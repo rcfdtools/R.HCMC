@@ -72,7 +72,7 @@ Automáticamente, serán calculadas las propiedades hidráulicas de la sección 
 
 Para facilitar la solución geométrica e hidráulica de la rápida, en la parte inferior de la hoja de diseño, encontrará una tabla en donde puede ingresar la longitud requerida en la rápida para la zona 2-3, la altura total de la estructura (correspondiente a la diferencia de nivel entre el fondo del cauce lateral y el fondo del canal de realineamiento donde se realizará la entrega) y la longitud de la transición ajustada en la zona 4-5.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.ResolverRequeridos.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.ResolverRequeridos.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
 
 ## 3. Sección transversal de control y transición (1 - 2)

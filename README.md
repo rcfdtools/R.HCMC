@@ -78,7 +78,7 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 | [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-hms/)           | HEC-HMS 4.13 Beta 6 o superior.                                          |
 | [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-dssvue/)        | HEC-DSSVue 3.2.3 (versión funcional para cargue masivo de hietogramas).  |
 | [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)           | HEC-RAS 6.6 o superior.                                                  |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                 | Autodesk Civil 3D 2025 o superior.                                       |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                 | Autodesk Civil 3D 2026 o superior.                                       |
 | [:toolbox:Herramienta](https://www.hdfgroup.org/download-hdfview/)                 | HDFView.                                                                 |
 | [:open_file_folder:Repositorio de proyecto](https://forms.office.com/r/gVg8DjvVFh) | Repositorio creado y compartido para publicación de avances de proyecto. |
 | [:open_file_folder:Estructura de directorios](file/Readme.md)                      | Estructura requerida para el desarrollo del proyecto.                    |

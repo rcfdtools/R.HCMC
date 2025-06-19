@@ -9,6 +9,7 @@ Globalmente, diversos proyectos de ingeniería alteran el curso natural de los c
 
 <div align="center"><img src="file/graph/Gemini_Generated_Image_wujtfuwujtfuwujt.png" alt="R.SIGE" width="80%" border="0" /><sub><br> Generado con: <a href="https://gemini.google.com/app/da5e04ff83f70704">https://gemini.google.com</a></sub><br><br></div>
 
+
 ## Objetivos del curso
 
 * Ofrecer a los participantes conceptos generales de diseño, modelación hidrológica e hidráulica y la aplicación de diferentes herramientas computacionales.

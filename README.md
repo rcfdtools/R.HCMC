@@ -208,5 +208,3 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 
 | [:sun_with_face: Iniciar curso](activity/M01A00/Readme.md) | [:infinity: Otros cursos y herramientas](https://github.com/rcfdtools) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/1) | [:notebook: Referencias](file/ref/Readme.md) | [:label: Abreviaturas y definiciones](Definitions.md) |
 |------------------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------|-------------------------------------------------------|
-
-Gemini prompt: Create a wide image of a realistic sinusoidal river side to a coal mining powerplant. https://gemini.google.com/app/da5e04ff83f70704

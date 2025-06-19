@@ -1,4 +1,4 @@
-# Data  source
+# Data source
 
 `\data`: carpeta para el almacenamiento de los datos base suministrados o descargados para cada taller o para el proyecto.
 

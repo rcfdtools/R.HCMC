@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../R.DAPC/.idea/R.DAPC.iml" filepath="$PROJECT_DIR$/../R.DAPC/.idea/R.DAPC.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/R.HCMC.iml" filepath="$PROJECT_DIR$/.idea/R.HCMC.iml" />
       <module fileurl="file://$PROJECT_DIR$/../R.HydroTools/.idea/R.HydroTools.iml" filepath="$PROJECT_DIR$/../R.HydroTools/.idea/R.HydroTools.iml" />
     </modules>

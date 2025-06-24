@@ -34,6 +34,7 @@
 |       :round_pushpin:       | `:round_pushpin:`                | Capa geográfica vectorial (punto, línea, polígono)                                                   |
 |         :satellite:         | `:satellite:`                    | Ráster o imagen                                                                                      |
 | :chart_with_upwards_trend:  | `:chart_with_upwards_trend:`     | Gráfica o chart                                                                                      |
+|           :date:           | `:date:`                     | Libro de Microsoft Excel                                                                             |
 
 Markdown emojis: https://gist.github.com/rxaviers/7360908
 

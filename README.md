@@ -72,7 +72,7 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 
 | Requerimiento                                                                      | Descripción                                                              |
 |:-----------------------------------------------------------------------------------|:-------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.office.com/)                                    | Microsoft Office 365.                                                    |
+| [:toolbox:Herramienta](https://www.office.com/)                                    | Microsoft 365 (Word, Excel, OneDrive, Teams).                                                    |
 | [:toolbox:Herramienta](https://qgis.org/)                                          | QGIS 3.42 o superior.                                                    |
 | [:toolbox:Herramienta](https://notepad-plus-plus.org/)                             | Notepad++ (editor de texto).                                             |
 | [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-hms/)           | HEC-HMS 4.13 Beta 6 o superior.                                          |

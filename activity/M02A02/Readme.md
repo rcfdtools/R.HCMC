@@ -33,7 +33,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## Procedimiento general
 
-R.HCMC se encuentra en proceso de actualización, consulte la versión anterior dando [Clic aquí](M02A01.pdf).
+R.HCMC se encuentra en proceso de actualización, consulte la versión anterior dando [Clic aquí](M02A02.pdf).
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -63,7 +63,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Versión    | Descripción        | Autor                                      | Horas |
 |------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.07.29 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |   3   |
+| 2025.07.29 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |   2   |
 | 2014.01.12 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  18   |
 
 
@@ -74,7 +74,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A20/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M02A02/Readme.md) |
+| [:arrow_backward: Anterior](../M02A01/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M02A03/Readme.md) |
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: 

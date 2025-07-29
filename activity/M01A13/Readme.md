@@ -544,7 +544,7 @@ C
 
 ## Actividades de proyecto :triangular_ruler:
 
-Utilizando la [plantilla suministrada](../../file/report/R.HCMC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/activity_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A13_20250531.pdf).
+Utilizando la [plantilla suministrada](../../file/report/R.HCMC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A13_20250531.pdf).
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada estudiante o grupo de proyecto.
 
@@ -566,7 +566,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 >
 > Nota 4: para el dimensionamiento del ancho de corona en valle correspondiente a la huella de mecanización, considerar el paso de vehículos de carga para explotaciones mineras en dos sentidos y sus dimensiones.
 
-Como referencia para las coronas del canal, utilizar las siguientes especificaciones:
+Como referencia para las coronas del canal, utilizar las siguientes especificaciones de maquinaria:
 
 * Largo: 42-4 ft, 12.8-14.94 m (mas largo: 67.59 feet, 20.6 m).
 * Alto: 18-24 ft, 5.5-7.31 (vacío).
@@ -603,7 +603,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A12/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A0214/Readme.md) |
-|--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|----------------------------------------------------|
+| [:arrow_backward: Anterior](../M01A12/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A14/Readme.md) |
+|--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: 

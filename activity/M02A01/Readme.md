@@ -1,11 +1,9 @@
 # 2.1. Modelo de terreno Civil 3D en estado natural (planicie)
-Keywords: `realigment`  `M02A01`
+Keywords: `contour` `dtm` `autodesk-civil-3d` `autodesk-autocad` `surface` `M02A01`
 
 Generar a partir del modelo TIN o de curvas de nivel, un modelo de terreno en Civil 3D de la planicie natural como base para el trazado de perfiles, ejes, secciones, cálculo de volúmenes y trazado del modelo de terreno del canal sinuoso compuesto.
 
 <div align="center"><img src="graph/M02A01.png" alt="R.SIGE" width="60%" border="0" /></div>
-
-<div align="center"><img src="graph/Gravity_anomalies_on_Earth.png" alt="R.SIGE" width="60%" border="0" /><sub><br>Tomado de: <a href="Public Domain, https://commons.wikimedia.org/w/index.php?curid=479365">https://commons.wikimedia.org</a></sub><br><br></div>
 
 
 ## Objetivos

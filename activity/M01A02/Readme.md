@@ -166,7 +166,7 @@ Desde el panel _Browser_, agregue al proyecto la hoja _NodoEjeValleGIS_ del libr
 
 <div align="center"><img src="graph/QGIS_NodoEjeValleGIS.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-Desde en panel _Layers_ y dando clic derecho en el nombre de la tabla _NodoEjeValleGIS_, seleccione la opción _Export / Save Vector Layer as..._, en formato establezca _Comma Separated Value (CSV)_ y guarde como _/file/table/R.HCMC.NodoValle.csv_. Utilice el encoding _windows-1252_.
+Desde el panel _Layers_ y dando clic derecho en el nombre de la tabla _NodoEjeValleGIS_, seleccione la opción _Export / Save Vector Layer as..._, en formato establezca _Comma Separated Value (CSV)_ y guarde como _/file/table/R.HCMC.NodoValle.csv_. Utilice el encoding _windows-1252_.
 
 <div align="center"><img src="graph/QGIS_NodoEjeValleGISConvertCSV.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
@@ -178,7 +178,7 @@ Simbolice los nodos por categorías a partir del código del eje y rotule con la
 
 <div align="center"><img src="graph/QGIS_R.HCMC.NodoValle.shpSymbol.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-Desde en panel _Layers_ y dando clic derecho en el nombre de la capa geográfica temporal _R.HCMC.NodoValle_, seleccione la opción _Export / Save Vector Layer as..._, en formato establezca _ESRI Shapefile_ y guarde como _/file/shp/R.HCMC.NodoValle.shp_. Utilice el encoding _windows-1252_, simbolice y rotule.
+Desde el panel _Layers_ y dando clic derecho en el nombre de la capa geográfica temporal _R.HCMC.NodoValle_, seleccione la opción _Export / Save Vector Layer as..._, en formato establezca _ESRI Shapefile_ y guarde como _/file/shp/R.HCMC.NodoValle.shp_. Utilice el encoding _windows-1252_, simbolice y rotule.
 
 > :bulb: Para facilitar la identificación de los nodos en HEC-HMS, antes de exportar puede filtrar los nodos específicos de su proyecto.
 
@@ -288,13 +288,13 @@ Abra HEC-HMS y verifique desde _Time-Series Data_, que los hietogramas por subcu
 
 ### 6. Modelación hidrológica
 
-En HEC-HMS, verifique que las especificaciones de control sean consistentes con las fechas y horas de inicio y finalización de los hietogramas suministrados. 
+En HEC-HMS, verifique que las Especificaciones de Control sean consistentes con las fechas y horas de inicio y finalización de los hietogramas suministrados. 
 
-> Tenga en cuenta que las especificaciones de control del modelo hidrológico en HEC-HMS, deberán corresponder a las fechas y horas de inicio y finalización de los hietogramas suministrados, correspondientes del 05Mar2016 al 08Mar2016.
+> Tenga en cuenta que las Especificaciones de Control del modelo hidrológico en HEC-HMS, deberán corresponder a las fechas y horas de inicio y finalización de los hietogramas suministrados, correspondientes del 05Mar2016 al 08Mar2016.
 
 <div align="center"><img src="graph/HECHMS_ControlSpecifications.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-Desde la pestaña de ejecución, seleccione Run 1 y ejecute el modelo. Verifique las advertencias mostradas en la ventana de mensajes ubicada en la parte inferior. En caso de error consulte con el tutor o resuelva uno a uno los errores reportados.
+Desde la pestaña de ejecución, seleccione Run 1 y ejecute el modelo. Verifique las advertencias mostradas en la ventana de mensajes ubicada en la parte inferior. En caso de error consulte con el instructor o resuelva uno a uno los errores reportados.
 
 <div align="center"><img src="graph/HECHMS_Run.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
@@ -430,7 +430,7 @@ Repita el procedimiento anterior para cada una de las cuencas agregadas de su pr
 
 ## Actividades de proyecto :triangular_ruler:
 
-Utilizando la [plantilla suministrada](../../file/report/R.HCMC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/activity_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A00_20250531.pdf).
+Utilizando la [plantilla suministrada](../../file/report/R.HCMC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A00_20250531.pdf).
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada estudiante o grupo de proyecto.
 

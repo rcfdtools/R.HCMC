@@ -55,7 +55,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 ## Referencias
 
-* 
+* https://www.autodesk.com/education/free-software/autocad
+* https://www.autodesk.com/education/free-software/civil-3d
 
 
 ## Control de versiones

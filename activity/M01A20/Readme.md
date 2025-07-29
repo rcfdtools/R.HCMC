@@ -19,11 +19,11 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                           | Descripción                                                         |
-|:--------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                      | Microsoft Excel 365.                                                |
-| [:toolbox:Herramienta](https://qgis.org/)                                                               | QGIS 3.42 o superior.                                               |
-| [:open_file_folder:R.HydroTools.DisenoEstructuraRapida.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraRapida) | Libro de cálculo para el diseño hidráulico y geométrico de rápidas. |
+| Requerimiento                                                                                                                                   | Descripción                                                         |
+|:------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                              | Microsoft Excel 365.                                                |
+| [:toolbox:Herramienta](https://qgis.org/)                                                                                                       | QGIS 3.42 o superior.                                               |
+| [:open_file_folder:R.HydroTools.DisenoEstructuraRapida.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraRapida)   | Libro de cálculo para el diseño hidráulico y geométrico de rápidas. |
 
 </div>
 
@@ -133,7 +133,7 @@ Para finalizar, verifique el gráfico de perfil de la rápida y el cumplimiento 
 
 ## Actividades de proyecto :triangular_ruler:
 
-Utilizando la [plantilla suministrada](../../file/report/R.HCMC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/activity_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A20_20250531.pdf).
+Utilizando la [plantilla suministrada](../../file/report/R.HCMC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A20_20250531.pdf).
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada estudiante o grupo de proyecto.
 

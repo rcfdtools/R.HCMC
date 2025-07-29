@@ -8,7 +8,7 @@ Trazar los alineamientos correspondientes para el eje del valle y taludes para e
 
 ## Objetivos
 
-* Exportar los drenajes naturales de ArcMap a Autocad.
+* Exportar los drenajes naturales de ArcMap a AutoCAD.
 * Trazar el eje del valle usando Civil 3D.
 * Trazar los Offsets.
 
@@ -21,8 +21,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 | Requerimiento                                                                           | Descripción                        |
 |:----------------------------------------------------------------------------------------|:-----------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                               | QGIS 3.42 o superior.              |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                       | Autodesk Autocad 2026 o superior.  |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                       | Autodesk AutoCAD 2026 o superior.  |
 | [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                      | Autodesk Civil 3D 2026 o superior. |
 | [:round_pushpin:CGG_CurvaNivelLidar_v0.shp](../../file/shp/CGG_CurvaNivelLidar_v0.zip)  | Capa de curvas de nivel.           |
 

@@ -34,6 +34,13 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 R.HCMC se encuentra en proceso de actualización, consulte la versión anterior dando [Clic aquí](M02A02.pdf).
 
+<iframe
+  src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://github.com/rcfdtools/R.HCMC/blob/main/activity/M02A02/M02A02.pdf"
+  width="100%"
+  height="600px"
+  style="border: none;">
+</iframe>
+
 
 ## Actividades de proyecto :triangular_ruler:
 

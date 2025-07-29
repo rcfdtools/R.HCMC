@@ -21,6 +21,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 | Requerimiento                                                                           | Descripción                        |
 |:----------------------------------------------------------------------------------------|:-----------------------------------|
+| [:toolbox:Herramienta](https://qgis.org/)                                               | QGIS 3.42 o superior.              |
 | [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                       | Autodesk AutoCAD 2026 o superior.  |
 | [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                      | Autodesk Civil 3D 2026 o superior. |
 | [:round_pushpin:CGG_CurvaNivelLidar_v0.shp](../../file/shp/CGG_CurvaNivelLidar_v0.zip)  | Capa de curvas de nivel.           |
@@ -32,7 +33,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## Procedimiento general
 
-R.HCMC se encuentra en proceso de actualización, consulte la versión anterior dando [Clic aquí](M02A02.pdf).
+R.HCMC se encuentra en proceso de actualización, consulte la versión anterior en el enlace [M02A02.pdf](M02A02.pdf).
 
 
 ## Actividades de proyecto :triangular_ruler:

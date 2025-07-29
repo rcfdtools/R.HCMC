@@ -14,6 +14,3 @@ Gemini prompts:
 	Create a wide image of a realistic sinusoidal river side to a coal mining powerplant.
 	https://gemini.google.com/app/da5e04ff83f70704
 
-
-
-

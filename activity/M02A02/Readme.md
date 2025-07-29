@@ -1,16 +1,16 @@
-# 2.1. Modelo de terreno Civil 3D en estado natural (planicie)
+# 2.2. Trazado de los alineamientos para el valle (eje de valle, taludes y cauces laterales)
 Keywords: `contour` `dtm` `autodesk-civil-3d` `autodesk-autocad` `surface` `M02A01`
 
-Generar a partir del modelo TIN o de curvas de nivel, un modelo de terreno en Civil 3D de la planicie natural como base para el trazado de perfiles, ejes, secciones, cálculo de volúmenes y trazado del modelo de terreno del canal sinuoso compuesto.
+Trazar los alineamientos correspondientes para el eje del valle y taludes para el cauce de realineamiento y cauces menores.
 
-<div align="center"><img src="graph/M02A01.png" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M02A02.png" alt="R.SIGE" width="60%" border="0" /></div>
 
 
 ## Objetivos
 
-* Importar información topográfica a Civil 3D.
-* Depurar y generar la superficie en Civil 3D usando objetos independientes (líneas).
-* Reconocer aspectos importantes en la generación de Modelos de Terreno en Civil 3D del tipo Surface (TIN) a partir de Objetos simples (Líneas). 
+* Exportar los drenajes naturales de ArcMap a Autocad.
+* Trazar el eje del valle usando Civil 3D.
+* Trazar los Offsets.
 
 
 ## Requerimientos
@@ -63,8 +63,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Versión    | Descripción        | Autor                                      | Horas |
 |------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.07.29 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |   1   |
-| 2014.01.12 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |   6   |
+| 2025.07.29 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |   3   |
+| 2014.01.12 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  18   |
 
 
 ##

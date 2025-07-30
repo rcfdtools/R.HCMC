@@ -1,0 +1,16 @@
+Actividades pendientes:
+	Check cad files path.
+	Estructuras - Bifurcación.
+	Estructuras - Unión.
+	Estructuras - Derivación.
+	Estructuras - Unión.
+	Incluir fotos y videos en actividades.
+	Create Discussion for each activity.
+	Project activities: load reports into discussions.
+
+Gemini prompts: 
+	Create a wide image of a realistic sinusoidal river side to a coal mining town.
+	https://gemini.google.com/app/da5e04ff83f70704
+	Create a wide image of a realistic sinusoidal river side to a coal mining powerplant.
+	https://gemini.google.com/app/da5e04ff83f70704
+

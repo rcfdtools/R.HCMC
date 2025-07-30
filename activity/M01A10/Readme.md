@@ -3,7 +3,7 @@ Keywords: `sinuosity`  `m01a10`
 
 A partir de las líneas de drenaje restituidas y las líneas esquemáticas que representan tránsito hidrológico del modelo HEC-HMS, determinar el factor de sinuosidad por diferentes métodos geográficos.
 
-<div align="center"><img src="graph/M01A10.png" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A10.png" alt="R.HCMC" width="60%" border="0" /></div>
 
 
 ## Objetivos
@@ -33,11 +33,11 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## Método 1: Estimación del factor de sinuosidad a partir de la longitud euclidiana del valle en cada río
 
-<div align="center"><img src="graph/SinuosityFactorSample.jpg" alt="R.SIGE" width="50%" border="0" /><sub><br>Tomado de: <a href="https://www.autodesk.com/blogs/water/2023/09/05/can-you-really-calculate-a-rivers-path-using-pi/">www.autodesk.com/blogs/</a></sub><br><br></div>
+<div align="center"><img src="graph/SinuosityFactorSample.jpg" alt="R.HCMC" width="50%" border="0" /><sub><br>Tomado de: <a href="https://www.autodesk.com/blogs/water/2023/09/05/can-you-really-calculate-a-rivers-path-using-pi/">www.autodesk.com/blogs/</a></sub><br><br></div>
 
 1. En QGIS, cargue la capa de drenajes [CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip), ajuste la simbología de representación y abra la tabla de atributos.
 
-<div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 > Para proyectos en los que no se dispone de la red de drenaje: crear una capa de drenajes 2D digitalizando los cauces sobre una ortofoto o sobre un modelo de terreno lidar. La digitalización se debe realizar por tramos de río entre afluentes detallando las líneas meandriformes y en el sentido del flujo.
 
@@ -54,37 +54,37 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | FS       | Factor de sinuosidad.                                                | LPm/LValley                               |
 
 
-<div align="center"><img src="graph/QGIS_FieldCalculatorLPm.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_FieldCalculatorCXStart.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_FieldCalculatorLPm.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_FieldCalculatorCXStart.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 > Expresión LValley = `(( "CXStart" - "CXEnd" )^2+( "CYStart" - "CYEnd" )^2)^0.5`
 
-<div align="center"><img src="graph/QGIS_FieldCalculatorLValley.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_FieldCalculatorFS.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_FieldCalculatorLValley.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_FieldCalculatorFS.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 3. Utilizando el complemento _DataPlotly_, cree una gráfica de análisis representando en las abscisas la longitud del río y en las ordenadas la longitud del valle, podrá observar que algunos nodos se encuentran dispersos indicando sinuosidades altas.
 
-<div align="center"><img src="graph/QGIS_DataPlotly.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_DataPlotly1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_DataPlotly.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_DataPlotly1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 Cree también una gráfica LPm vs. FS, podrá observar que existe una dispersión alta entre los datos y un patrón de agrupamiento en ríos cortos.
 
-<div align="center"><img src="graph/QGIS_DataPlotly2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_DataPlotly2.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 4. Para este análisis se recomienda incluir solo los tramos de drenaje que se encuentran en la llanura. Para ello, agregue el mapa de base XYZ de Google Terrain desde la ruta https://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z} y manualmente, seleccione solo estos drenajes. En la tabla de atributos cree un campo numérico entero con el nombre `EvalFS` y asigne 1 a los drenajes a evaluar y 0 a los excluídos.
 
-<div align="center"><img src="graph/QGIS_FieldCalculatorEvalFS.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_FieldCalculatorEvalFS.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 5. Cree un campo numérico entero con le nombre _FeatureID_ y desde el calculador de campo asigne la propiedad _@id_, luego desde las propiedades de la capa y para todos los drenajes y a través del _Query Builder_, filtre los drenajes con `EvalFS = 1`. 
 
-<div align="center"><img src="graph/QGIS_QueryBuilder.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_QueryBuilder.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 6. En el libro de análisis [R.HydroTools.SinuosidadCauceAnalisis.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/SinuosidadCauceAnalisis), registre los valores obtenidos en QGIS de código de río o `FeatureID`, longitud de río y longitud de valle en la tabla del Método 1, visualice la gráfica de análisis.
 
-<div align="center"><img src="graph/QGIS_Table.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo1.jpg" alt="R.SIGE" width="70%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo1a.jpg" alt="R.SIGE" width="70%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo1Graph.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Table.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo1.jpg" alt="R.HCMC" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo1a.jpg" alt="R.HCMC" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo1Graph.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 
 > :fire: Para la correcta obtención de los parámetros de la regresión, ajustar en la función de estimación lineal de Microsoft Excel, el rango de selección de las celdas correspondientes a la tabla de registros.
 
@@ -99,19 +99,19 @@ A diferencia del método anterior en el que utilizamos la longitud euclidiana de
 
 > Recuerde que previamente realizamos un filtro excluyendo los drenajes de montaña cuyas sinuosidades pueden ser inferiores a las de los cauces de llanura,
 
-<div align="center"><img src="graph/QGIS_Simplify.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_Simplify1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Simplify.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Simplify1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 2. En la tabla de atributos de la capa de líneas simplificadas, calcule en un campo numérico real (precisión 10) con el nombre `LValleySim`, la longitud geométrica planar de cada línea. 
 
-<div align="center"><img src="graph/QGIS_FieldCalculatorLValley1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_FieldCalculatorLValley1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 6. En el libro de análisis [R.HydroTools.SinuosidadCauceAnalisis.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/SinuosidadCauceAnalisis), registre los valores obtenidos en QGIS de código de río o `FeatureID`, longitud de río y longitud de valle simplificado en la tabla del Método 2, visualice la gráfica de análisis.
 
-<div align="center"><img src="graph/QGIS_Table1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo2.jpg" alt="R.SIGE" width="70%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo2a.jpg" alt="R.SIGE" width="70%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo2Graph.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Table1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo2.jpg" alt="R.HCMC" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo2a.jpg" alt="R.HCMC" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo2Graph.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 > :fire: Para la correcta obtención de los parámetros de la regresión, ajustar en la función de estimación lineal de Microsoft Excel, el rango de selección de las celdas correspondientes a la tabla de registros.
 
@@ -119,55 +119,55 @@ A diferencia del método anterior en el que utilizamos la longitud euclidiana de
 
 Gráficos de comparación Método 1 y Método 2.
 
-<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo1y2Graph.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo1y2Graph1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo1y2Graph.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo1y2Graph1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 ## Método 3: Factor de sinuosidad a partir de la longitud euclidiana del tramo a reemplazar
 
 1. En QGIS, cargue al mapa la capa [RD_EjeValleSuavizado_AutodeskCivil3DClotoide.shp](../../file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.zip) correspondiente al eje del valle suavizado. Utilice este eje como guía para la extracción del drenaje natural que será reemplazado.
 
-<div align="center"><img src="graph/QGIS_AddLayer1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_AddLayer1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 2. Seleccione los tramos de drenaje natural a reemplazar y exporte a una nueva capa con el nombre [TramoNaturalReemplazar.shp](../../file/shp/TramoNaturalReemplazar.zip).
 
 > Asegúrese de que el tramo exportado cubre la longitud completa desde el inicio y hasta el fin del valle, en caso de ser necesario, exporte los tramos naturales inmediatos aguar arriba y aguas abajo y luego con ayuda el editor de geometría, corte los extremos restantes usando la herramienta _Split_.
 
-<div align="center"><img src="graph/QGIS_ExportLayer.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_ExportLayer1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ExportLayer.jpg" alt="R.HCMC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ExportLayer1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 3. Abra la tabla de atributos de la capa exportada y verifique cuantos registros o líneas de drenaje contiene la capa, seleccione todos los registros y desde el editor de entidades, con la herramienta Merge, una los dos tramos.
 
-<div align="center"><img src="graph/QGIS_Merge.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Merge.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 4. En la tabla de atributos, recalcule todas las propiedades correspondientes a identificador, longitudes, factores y coordenadas. Obtendrá un factor de sinuosidad de 1.3746 a partir de la longitud del río y la longitud Euclidiana del valle.
 
-<div align="center"><img src="graph/QGIS_FieldCalculatorLValley3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_FieldCalculatorLValley3.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 5. Para obtener todos los nodos que componen la polí-línea del tramo natural a reemplazar, ejecute la herramienta _Vector geometry / Extract vertices_, nombre la capa resultante como [TramoNaturalReemplazarVertices.shp](../../file/shp/TramoNaturalReemplazarVertices.zip).
 
-<div align="center"><img src="graph/QGIS_ExtractVertices.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ExtractVertices.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 6. Rotule a partir del campo `vertex_ind` o campo de ordenamiento de nodos en el sentido del dibujo, luego, abra la tabla de atributos, active el editor y elimine todos los campos excepto el campo de numeración de nodos.
 
-<div align="center"><img src="graph/QGIS_DeleteFields.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_DeleteFields.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 7. Cree dos campos de atributos numéricos reales (precisión 10) con los nombres CXm y CYm, y desde el calculador de campo obtenga las coordenadas proyectadas en metros usando las funciones `x(@geometry)` y `y(@geometry)`.
 
-<div align="center"><img src="graph/QGIS_FieldCalculatorCoordinates.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_FieldCalculatorCoordinates.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 8. Ordene los registros por el número de vertice, 6 y en el libro de análisis [R.HydroTools.SinuosidadCauceAnalisis.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/SinuosidadCauceAnalisis), registre los valores obtenidos en QGIS de coordenadas en la tabla del Método 3, visualice la gráfica de análisis.
 
-<div align="center"><img src="graph/QGIS_Table2.jpg" alt="R.SIGE" width="80%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Table2.jpg" alt="R.HCMC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Metodo3.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 ## Comparación y análisis de resultados
 
 Para el diseño del cauce sinuoso hemos obtenido diferentes valores de referencia, sin embargo, consideraremos que según el trazado del valle suavizado correspondiente a una longitud de Lv = 5158.536 metros y la longitud del cauce natural a reemplazar correspondiente a Lr = 6689.90475 metros, el factor de sinuosidad aplicable es 1.29686 (nombrado como Método 4).
 
-<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Comparacion.jpg" alt="R.SIGE" width="90%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.ComparacionGraph.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.Comparacion.jpg" alt="R.HCMC" width="90%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SinuosidadCauceAnalisis.ComparacionGraph.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -211,7 +211,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A09/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A11/Readme.md) |
+| [:arrow_backward: Anterior](../M01A09/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/99999) | [Siguiente :arrow_forward:](../M01A11/Readme.md) |
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: 

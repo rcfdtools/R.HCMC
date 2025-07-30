@@ -3,7 +3,7 @@ Keywords: `topological-model` `sample-model` `ras-mapper`  `m01a05`
 
 A partir del modelo de terreno triangulado - TIN, la red de drenaje natural foto restituida y el eje suavizado del valle; construir un modelo HEC-RAS que permita evaluar las secciones de referencia, el canal natural actual y el perfil de terreno del eje de valle trazado.
 
-<div align="center"><img src="graph/M01A05.PNG" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A05.PNG" alt="R.HCMC" width="60%" border="0" /></div>
 
 
 ## Objetivos
@@ -35,7 +35,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 1. En QGIS, cargue desde la ruta _/file/shp_ las capas [RASMapper_BanksAnthropic.shp](../../file/shp/RASMapper_BanksAnthropic.zip), [RASMapper_BanksNatural.shp](../../file/shp/RASMapper_BanksNatural.zip), [RASMapper_RiverAnthropic.shp](../../file/shp/RASMapper_RiverAnthropic.zip), [RASMapper_RiverNatural.shp](../../file/shp/RASMapper_RiverNatural.zip), [RASMapper_XSCutlinesAnthropic.shp](../../file/shp/RASMapper_XSCutlinesAnthropic.zip) y [RASMapper_XSCutlinesNatural.shp](../../file/shp/RASMapper_XSCutlinesNatural.zip).
 
-<div align="center"><img src="graph/QGIS_RASMapperLayers.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_RASMapperLayers.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 2. Active solo los elementos de muestreo de la red natural, ajuste la simbología de representación con colores similares a los mostrados en la ilustración y rotule los drenajes con `"RiverCode"  || ' / ' ||  "ReachCode"`. Para facilitar la comprensión del modelo de muestreo, agregue desde _/file/shp_ el eje suavizado del realineamiento del valle _RD_EjeValleSuavizado_AutodeskCivil3DClotoide.shp_ y el modelo digital de elevación _/file/dem/TIN_TerrenoNaturalQGIS_v0.tif_.
 
@@ -43,9 +43,9 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 Como observa en la ilustración, la red de muestreo de cauces naturales únicamente contiene elementos próximos a la zona del futuro cauce de realineamiento y hasta el límite del modelo digital de terreno generado previamente.
 
-<div align="center"><img src="graph/QGIS_RASMapperNaturalSymbology.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_RASMapperNaturalSymbology1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_RASMapperNaturalSymbology2.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_RASMapperNaturalSymbology.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_RASMapperNaturalSymbology1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_RASMapperNaturalSymbology2.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 Para la construcción de las líneas de muestreo de cauces naturales de su proyecto, utilice las siguientes directrices:
 
@@ -55,7 +55,7 @@ Para la construcción de las líneas de muestreo de cauces naturales de su proye
 | RASMapper_BanksNatural.shp      | A partir de la red de drenaje, generar paralelas de 30 metros a cada lado. Herramienta _QGIS / Processing Toolbox / Vector geometry / Offset lines_.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | RASMapper_XSCutlinesNatural.shp | En RAS Mapper, generar líneas de muestreo en intervalos cada 200 metros y anchos iniciales de 500 metros, luego editar y ajustar manualmente la localización muestreando ondas sinuosas, meandros, pasos de vía, cambios de pendiente y resuelva secciones generadas entre cruzadas o por fuera del límite del DTM. Agregue secciones transversales complementarias en zonas de inicio y entrega del realineamiento proyectado de valle (a no más de 10 cm del nodo) y en localizaciones estratégicas del modelo como nodos de unión, zonas con bajos y estructuras existentes.                                                                      |
 
-<div align="center"><sub>Ejemplo de creación de líneas paralelas de bancas usando QGIS.</sub><br><img src="graph/QGIS_OffsetLines.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><sub>Ejemplo de creación de líneas paralelas de bancas usando QGIS.</sub><br><img src="graph/QGIS_OffsetLines.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 > Las bancas definen la localización de la zona central del canal o zona de cauce dominante en la que se asume constante el valor de la rugosidad, de las bancas hacia afuera se considera la zona de llanura. 
 > 
@@ -79,79 +79,79 @@ Para la construcción de las líneas de muestreo de cauces naturales de su proye
 | RASMapper_BanksAnthropic.shp      | En la zona del eje del valle suavizado de realineamiento, generar paralelas de 150 metros a cada lado para el muestreo completo del corredor de confinamiento hidráulico.                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | RASMapper_XSCutlinesAnthropic.shp | En la zona natural utilizar el mismo trazado de secciones naturales y en la zona del valle generar líneas de muestreo en intervalos cada 200 metros y anchos iniciales de 500 a 1000 metros. |
 
-<div align="center"><img src="graph/QGIS_RASMapperAnthropicSymbology.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_RASMapperAnthropicSymbology.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 ## 2. Creación de proyecto HEC-RAS y topología RAS Mapper red natural
 
 1. Abra HEC-RAS y en el menú _Options_, seleccione la opción _Units System (US Customary / SI)_ y establezca como sistema por defecto el sistema de unidades internacional.
 
-<div align="center"><img src="graph/HECRAS_UnitSystem.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_UnitSystem.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 2. En el menú _File_, seleccione la opción _New Project_ creando primero la carpeta de proyecto _/file/hec/HECRAS_v0/_ y nombre el proyecto como _HECRAS_v0.prj_.
 
-<div align="center"><img src="graph/HECRAS_CreateProject.jpg" alt="R.SIGE" width="80%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_CreateProject1.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_CreateProject.jpg" alt="R.HCMC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_CreateProject1.jpg" alt="R.HCMC" width="50%" border="0" /></div>
 
 3. En el menú _GIS Tools_, de clic en _RAS Mapper..._ o en de clic en el ícono RAS Mapper de la ventana principal de HEC-RAS. En RAS Mapper, de clic en el menú _Project_ y seleccione la opción _Set Projection_, busque y establezca el CRS [GAUSS_BTA_MAGNA.prj](../../file/projectionfile).
 
-<div align="center"><img src="graph/HECRAS_RASMapperSetProjection.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperSetProjection.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 4. En el panel lateral izquierdo seleccione el grupo Terrains y de clic derecho y seleccione la opción _Create a New RAS Terrain_, busque el DTM [/file/dem/TIN_TerrenoNaturalQGIS_v0.tif](../../file/dem) y de clic en _Create_.
 
 > En la opción _Rounding (Precision)_ puede utilizar 1/128 de precisión con respecto a las elevaciones registradas en la grilla de terreno. 
 
-<div align="center"><img src="graph/HECRAS_RASMapperCreateNewRASTerrain.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperCreateNewRASTerrain.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 Renombre el modelo de terreno como TIN_TerrenoNaturalQGIS y ajuste las propiedades de visualización utilizando un factor de sombreado de 10 y rampa ajustada a 24 clases en escala de grises.
 
-<div align="center"><img src="graph/HECRAS_RASMapperTerrainRename.jpg" alt="R.SIGE" width="90%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_RASMapperTerrainStretched.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperTerrainRename.jpg" alt="R.HCMC" width="90%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperTerrainStretched.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 5. En el panel lateral izquierdo seleccione el grupo _Geometries_, de clic derecho y seleccione la opción _Create New Geometry_, nombre como _GeometryNatural_ y asocie el DTM.
 
-<div align="center"><img src="graph/HECRAS_RASMapperCreateNewGeometry.jpg" alt="R.SIGE" width="70%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_RASMapperCreateNewGeometry1.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperCreateNewGeometry.jpg" alt="R.HCMC" width="70%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperCreateNewGeometry1.jpg" alt="R.HCMC" width="90%" border="0" /></div>
 
 6. Seleccione la nueva geometría creada y de clic en el botón de edición (lápiz amarillo), seleccione la capa _Rivers_ y dando clic derecho seleccione la opción _Import Features_. Busque y seleccione la capa [/file/shp/RASMapper_RiverNatural.shp](../../file/shp/RASMapper_RiverNatural.zip) y asocie los códigos `River = RiverCode` y `Reach = ReachCode`.
 
-<div align="center"><img src="graph/HECRAS_RASMapperEditRivers.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperEditRivers.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 Detenga la edición y guarde los cambios realizados en la geometría.
 
-<div align="center"><img src="graph/HECRAS_RASMapperEditRivers1.jpg" alt="R.SIGE" width="35%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperEditRivers1.jpg" alt="R.HCMC" width="35%" border="0" /></div>
 
 Dando clic derecho en la capa _Rivers_, seleccione la opción _Layer Properties_ y en _Additional Options_ active las casillas de visualización de flechas direccionales y abscisado. Acérquese a la zona de unión del cauce lateral y verifique que exista el nodo de unión o Junction y que las flechas direccionales estén en el sentido del flujo.
 
-<div align="center"><img src="graph/HECRAS_RASMapperEditRivers2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperEditRivers2.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 7. Edite la geometría e importe los _Bank Lines_ desde [/file/shp/RASMapper_BanksNatural.shp](../../file/shp/RASMapper_BanksNatural.zip), guarde, visualice y verifique las flechas direccionales.
 
-<div align="center"><img src="graph/HECRAS_RASMapperEditBankLines.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_RASMapperEditBankLines1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperEditBankLines.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperEditBankLines1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 8. Edite la geometría e importe las _Cross Sections_ desde [/file/shp/RASMapper_XSCutlinesNatural.shp](../../file/shp/RASMapper_XSCutlinesNatural.zip), guarde, visualice y verifique las flechas direccionales y los nodos de posición de banca.
 
-<div align="center"><img src="graph/HECRAS_RASMapperEditCrossSections.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_RASMapperEditCrossSections1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperEditCrossSections.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperEditCrossSections1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 9. Visualice toda la geometría y revise en detalle las diferentes localizaciones. Como referencia de visualización, en _Map Layers_ agregue desde _Reference Layers_ la capa del eje del valle suavizado [/file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.shp](../../file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.zip).
 
-<div align="center"><img src="graph/HECRAS_RASMapperReferenceLayers.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperReferenceLayers.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
-<div align="center">Sección inicio realineamiento<br><img src="graph/HECRAS_RASMapperReferenceLayers1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Sección inicio realineamiento<br><img src="graph/HECRAS_RASMapperReferenceLayers1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
-<div align="center">Sección entrega realineamiento<br><img src="graph/HECRAS_RASMapperReferenceLayers2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Sección entrega realineamiento<br><img src="graph/HECRAS_RASMapperReferenceLayers2.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 10. Edite la geometría de Cross Sections y en el menú contextual seleccione las opciones _Update Cross Sections / Elevation Profiles from Terrain_ y _All XS Attributes (Except Terrain)_, que calculara las elevaciones respecto al terreno en cada sección transversal y guarde las actualizaciones. En _Cross Sections_ active la casilla de visualización _Edge Lines_ que le permitirá conocer el límite externo de la envolvente que rodea las secciones transversales.
 
-<div align="center"><img src="graph/HECRAS_RASMapperCrossSectionsElevationProfilesFromTerrain.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperCrossSectionsElevationProfilesFromTerrain.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 Selecione uno de los tramos de drenaje contenidos en Rivers y desde el menú contextual, visualice el perfil de terreno. La línea roja representa las elevaciones de la grilla del DTM y la línea verde, las elevaciones asociadas en cada sección transversal de muestreo en la intersección con el río.
 
-<div align="center">Cauce principal aguas abajo de la entrada Lateral 1<br><img src="graph/HECRAS_RASMapperEditRiversProfile.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Cauce principal aguas abajo de la entrada Lateral 1<br><img src="graph/HECRAS_RASMapperEditRiversProfile.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
-<div align="center">Cauce Lateral 1<br><img src="graph/HECRAS_RASMapperEditRiversProfile1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Cauce Lateral 1<br><img src="graph/HECRAS_RASMapperEditRiversProfile1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 > Para su proyecto, visualice en RAS Mapper, cada uno de los tramos de drenaje.
 
@@ -162,11 +162,11 @@ Selecione uno de los tramos de drenaje contenidos en Rivers y desde el menú con
 
 > Se recomienda mantener cerrado el editor RAS Mapper cuando esté utilizando el editor de geometría 1D de HEC-RAS, así evitará perdidas de datos o corrupción de los archivos del proyecto.
 
-<div align="center"><img src="graph/HECRAS_GeometricData.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometricData.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 2. En la ventana _Geometric Data_ y desde el menú _File_, seleccione la opción _Open Geometry Data_, seleccione el archivo _GeometryNatural_.
 
-<div align="center"><img src="graph/HECRAS_GeometricDataOpen.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometricDataOpen.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 3. Consulte y verifique los siguientes elementos:
 
@@ -177,28 +177,28 @@ Selecione uno de los tramos de drenaje contenidos en Rivers y desde el menú con
 
 4. Perfil del cauce natural principal y cauce lateral
 
-<div align="center">Cauce principal<br><img src="graph/HECRAS_GeometricDataProfile1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center">Cauce lateral<br><img src="graph/HECRAS_GeometricDataProfile2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Cauce principal<br><img src="graph/HECRAS_GeometricDataProfile1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center">Cauce lateral<br><img src="graph/HECRAS_GeometricDataProfile2.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 5. Sección de inicio y entrega realineamiento.
 
-<div align="center">Sección de inicio, abscisa 9944 m<br><img src="graph/HECRAS_GeometricDataCrossSection1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center">Sección de entrega, abscisa 3253 m<br><img src="graph/HECRAS_GeometricDataCrossSection2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Sección de inicio, abscisa 9944 m<br><img src="graph/HECRAS_GeometricDataCrossSection1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center">Sección de entrega, abscisa 3253 m<br><img src="graph/HECRAS_GeometricDataCrossSection2.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 6. Utilizando el _Graphical Cross Section Editor..._, ajuste las posiciones de banca hasta la corona de confinamiento.
 
 > Visualmente, verifique que la posición de las bancas sobre el modelo de terreno sea consistente con la localización del cauce.
 
-<div align="center">Ejemplo en sección, abscisa 10800 m<br><img src="graph/HECRAS_GeometricDataGraphicXSEditor1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Ejemplo en sección, abscisa 10800 m<br><img src="graph/HECRAS_GeometricDataGraphicXSEditor1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
-<div align="center">Cauce principal con ajuste de bancas<br><img src="graph/HECRAS_GeometricDataProfile3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center">Cauce lateral con ajuste de bancas<br><img src="graph/HECRAS_GeometricDataProfile4.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Cauce principal con ajuste de bancas<br><img src="graph/HECRAS_GeometricDataProfile3.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center">Cauce lateral con ajuste de bancas<br><img src="graph/HECRAS_GeometricDataProfile4.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 7. Imprima las secciones transversales en un archivo de Adobe Acrobat (.pdf) mostrando 9 secciones por hoja en formato horizontal. En la ventana del editor de geometría o _Geometric Data_, de clic en una de las secciones y seleccione la herramienta _Plot Cross Section_. En el menú File seleccione Print Multiple, ajuste el tamaño de hoja, número de secciones y guarde como [/file/report/M01A05_CrossSectionNatural.pdf](../../file/report/M01A05_CrossSectionNatural.pdf).
 
-<div align="center"><img src="graph/HECRAS_GeometricDataCrossSectionPrintMultiple.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_GeometricDataCrossSectionPrintMultiple1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_GeometricDataCrossSectionPrintMultiple2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometricDataCrossSectionPrintMultiple.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometricDataCrossSectionPrintMultiple1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometricDataCrossSectionPrintMultiple2.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 ## 4. Topología RAS Mapper red antrópica
@@ -207,36 +207,36 @@ Utilizando las capas geográficas [RASMapper_BanksAnthropic.shp](../../file/shp/
 
 > Para la correcta asociación de las secciones transversales es preciso unir con la herramienta _Editor / Tools / Merge_ de RAS Mapper, los dos tramos de drenaje aguas arriba del cauce lateral y luego los dos tramos aguas abajo, ajustar los nombres del río y tramos.
 
-<div align="center">Geometría red antrópica en RAS Mapper<br><img src="graph/HECRAS_RASMapperCrossSectionsElevationProfilesFromTerrain1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center">Cauce principal aguas abajo de la entrada Lateral 1<br><img src="graph/HECRAS_RASMapperEditRiversProfile2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center">Cauce Lateral 1<br><img src="graph/HECRAS_RASMapperEditRiversProfile3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center">Geometría red antrópica en Geometryc Data<br><img src="graph/HECRAS_GeometricDataOpen1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center">Cauce principal con ajuste de bancas<br><img src="graph/HECRAS_GeometricDataProfile5.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center">Cauce lateral con ajuste de bancas<br><img src="graph/HECRAS_GeometricDataProfile6.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Geometría red antrópica en RAS Mapper<br><img src="graph/HECRAS_RASMapperCrossSectionsElevationProfilesFromTerrain1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center">Cauce principal aguas abajo de la entrada Lateral 1<br><img src="graph/HECRAS_RASMapperEditRiversProfile2.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center">Cauce Lateral 1<br><img src="graph/HECRAS_RASMapperEditRiversProfile3.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center">Geometría red antrópica en Geometryc Data<br><img src="graph/HECRAS_GeometricDataOpen1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center">Cauce principal con ajuste de bancas<br><img src="graph/HECRAS_GeometricDataProfile5.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center">Cauce lateral con ajuste de bancas<br><img src="graph/HECRAS_GeometricDataProfile6.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 Imprima las secciones transversales en un archivo de Adobe Acrobat (.pdf) mostrando 9 secciones por hoja en formato horizontal y guarde como [/file/report/M01A05_CrossSectionAnthropic.pdf](../../file/report/M01A05_CrossSectionAnthropic.pdf).
 
-<div align="center"><img src="graph/HECRAS_GeometricDataCrossSectionPrintMultiple3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometricDataCrossSectionPrintMultiple3.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 ## 5. Generación automáticas de secciones transversales en RAS Mapper
 
 1. Cree una nueva geometría, nombre como _CrossSectionSample_ y asocie el DTM. En Rivers importe las líneas de drenaje de la red antrópica asociando los nombres de ríos y tramos, y con la herramienta _Merge_ una los tramos de drenaje aguas abajo del cauce lateral y aguas arriba del cauce lateral, y ajuste los nombres.
 
-<div align="center"><img src="graph/HECRAS_RASMapperCreateNewGeometry2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperCreateNewGeometry2.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 2. Con el modo de edición activo, seleccione, de clic derecho y ejecute la herramienta _Auto Generate Cross Section_; en espaciamiento defina 200 metros y en ancho 500 metros.
 
-<div align="center"><img src="graph/HECRAS_RASMapperAutoGenerateCrossSection.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperAutoGenerateCrossSection.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 3. Repita el procedimiento anterior para los otros dos drenajes.
 
-<div align="center"><img src="graph/HECRAS_RASMapperAutoGenerateCrossSection1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperAutoGenerateCrossSection1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 4. Utilizando el editor de entidades y agregando nodos (doble clic sobre la sección), ajuste las secciones no perpendiculares y/o con cruces sobre otras secciones.
 
-<div align="center"><img src="graph/HECRAS_RASMapperEditFeature.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_RASMapperEditFeature1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperEditFeature.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperEditFeature1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 Una vez finalizados los ajustes, detenga el modo de edición y guarde los cambios.
 
@@ -293,7 +293,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A04/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A06/Readme.md) |
+| [:arrow_backward: Anterior](../M01A04/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/99999) | [Siguiente :arrow_forward:](../M01A06/Readme.md) |
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: 

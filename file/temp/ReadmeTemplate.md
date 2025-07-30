@@ -3,9 +3,9 @@ Keywords: `realigment`  `m01a00`
 
 xxxxxxxxxxxxxxxxxxxxxxxxxx
 
-<div align="center"><img src="graph/M01A00.png" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A00.png" alt="R.HCMC" width="60%" border="0" /></div>
 
-<div align="center"><img src="graph/Gravity_anomalies_on_Earth.png" alt="R.SIGE" width="60%" border="0" /><sub><br>Tomado de: <a href="Public Domain, https://commons.wikimedia.org/w/index.php?curid=479365">https://commons.wikimedia.org</a></sub><br><br></div>
+<div align="center"><img src="graph/Gravity_anomalies_on_Earth.png" alt="R.HCMC" width="60%" border="0" /><sub><br>Tomado de: <a href="Public Domain, https://commons.wikimedia.org/w/index.php?curid=479365">https://commons.wikimedia.org</a></sub><br><br></div>
 
 
 ## Objetivos
@@ -83,7 +83,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A00/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A02/Readme.md) |
+| [:arrow_backward: Anterior](../M01A00/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/99999) | [Siguiente :arrow_forward:](../M01A02/Readme.md) |
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: 

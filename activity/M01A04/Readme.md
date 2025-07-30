@@ -3,7 +3,7 @@ Keywords: `tin`  `m01a04`
 
 A partir de curvas de nivel, construir un modelo de terreno triangulado - TIN (red irregular de triángulos) en 3 dimensiones, que permita estudiar los cauces existentes así como la implementación del corredor de diseño y cauce sinuoso para la modelación hidráulica.
 
-<div align="center"><img src="graph/M01A04.png" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A04.png" alt="R.HCMC" width="60%" border="0" /></div>
 
 
 ## Objetivos
@@ -38,21 +38,21 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 1. En QGIS, cree un proyecto en blanco y defina el CRS 3116. Agregue las capas [CGG_CurvaNivelLidar_v0.shp](../../file/shp/CGG_CurvaNivelLidar_v0.zip), [CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip) y [RD_EjeValleSuavizado_AutodeskCivil3DClotoide.shp](../../file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.zip), ajuste la simbología de representación de cada capa de curvas de nivel a 12 clases usando la paleta _Spectral_.
 
-<div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_Symbology.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Symbology.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 2. Desde el panel lateral Browser, agregue el mapa XYZ Tiles / Google Satellite y visualice el eje del valle en la zona de inicio y entrega.
 
-<div align="center"><img src="graph/QGIS_XYZTileGoogleSatellite.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_XYZTileGoogleSatellite1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_XYZTileGoogleSatellite.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_XYZTileGoogleSatellite1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 3. Realice una visualización preliminar 3D. En el menú _View_, seleccione la opción _3D Map Views / New 3D Map View_. En la ventana de configuración, establezca _Terrain / Online_ con escala de exageración vertical en 10.
 
-<div align="center"><img src="graph/QGIS_3DMapView.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_3DMapView.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 Con la rueda y clic sostenido del Mouse o apuntador, ajuste la rotación y acercamiento a la visualización de terreno.
 
-<div align="center"><img src="graph/QGIS_3DMapView1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_3DMapView1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 ## 2. Creación de TIN en formato vectorial
@@ -61,12 +61,12 @@ A partir de las curvas de nivel, crear el modelo de terreno triangulado TIN, pri
 
 1. Desde el Processing Toolbox, ejecute la herramienta _Mesh / TIN Mesh Creation_, establezca el CRS 3116 y guarde en formato 2DM como _/file/dem/TIN_TerrenoNaturalQGIS_v0.d2m_.
 
-<div align="center"><img src="graph/QGIS_TINMeshCreation.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_TINMeshCreation1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_TINMeshCreation.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_TINMeshCreation1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 2. Desde las propiedades del TIN, ajuste y visualice la superficie a partir del mallado 2D.
 
-<div align="center"><img src="graph/QGIS_LayerProperies2DMesh.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_LayerProperies2DMesh.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 ## 3. Creación de TIN en formato ráster
@@ -75,12 +75,12 @@ A partir de las curvas de nivel, crear el modelo de terreno triangulado TIN, pri
 
 > Para su proyecto no es obligatoria la generación de la red triangulada en formato vectorial shapefile.
 
-<div align="center"><img src="graph/QGIS_TINInterpolation.jpg" alt="R.SIGE" width="70%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_TINInterpolation1.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_TINInterpolation.jpg" alt="R.HCMC" width="70%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_TINInterpolation1.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 Visualizar en pseudo color utilizando la paleta _Spectral_.
 
-<div align="center"><img src="graph/QGIS_TINInterpolation2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_TINInterpolation2.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 Para definir el número de columnas y filas del ráster de salida,  considerar la resolución de salida y la extensión de la capa de salida: 
 
@@ -90,19 +90,19 @@ Para definir el número de columnas y filas del ráster de salida,  considerar l
 
 2. Visualice como Hillshade y Z Factor = 5.
 
-<div align="center"><img src="graph/QGIS_TINInterpolationHillshade.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_TINInterpolationHillshade.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 Zona de inicio
 
-<div align="center"><img src="graph/QGIS_TINInterpolationHillshade1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_TINInterpolationHillshade1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 Zona de entrega
 
-<div align="center"><img src="graph/QGIS_TINInterpolationHillshade2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_TINInterpolationHillshade2.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 3. Verificación del tamaño de las celdas del ráster. El proceso de interpolación TIN crea una grilla ráster cuyas celdas no son regulares (Tamaños celda x <> y). Para verificar la resolución de salida, en la pestaña de capas, dar clic derecho en la grilla ráster y seleccione Propiedades / Información.
 
-<div align="center"><img src="graph/QGIS_LayerPropertiesPixelSize.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_LayerPropertiesPixelSize.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 ## 4. Visualización 3D de superficie interpolada
@@ -111,38 +111,38 @@ Zona de entrega
 
 Zona de inicio
 
-<div align="center"><img src="graph/QGIS_3DMapView2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_3DMapView2.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 Zona de entrega
 
-<div align="center"><img src="graph/QGIS_3DMapView3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_3DMapView3.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 ## 5. Visualización de perfiles y secciones transversales
 
 1. En el menu _View_, seleccione la herramienta _Elevation Profile_, agregue el modelo de terreno en formato ráster y seleccione el eje del valle suavizado. Podrá observar el perfil, explorar las cotas de inicio y entrega y la forma de la sección del cauce lateral.
 
-<div align="center"><img src="graph/QGIS_ElevationProfile.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_ElevationProfile1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ElevationProfile.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ElevationProfile1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 2. Acérquese al inicio del realineamiento, dibuje manualmente una sección transversal y visualice.
 
-<div align="center"><img src="graph/QGIS_ElevationProfile2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ElevationProfile2.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 3. Acérquese al final del realineamiento, dibuje manualmente una sección transversal y visualice.
 
-<div align="center"><img src="graph/QGIS_ElevationProfile3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ElevationProfile3.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 ## 6. Exportación de vectores a CAD
 
 1. Desde el menu _Project_, seleccionar la opción _Importar / Exportar / Export Project to DXF_, seleccionar las capas de drenajes, eje suavizado del valle, curvas de nivel y opcionalmente las aristas del modelo triangulado. Guardar como _/file/cad/acad/DTM_QGISVectoresTerrenoNatural_v0.dxf_
 
-<div align="center"><img src="graph/QGIS_ExportProjectToDXF.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ExportProjectToDXF.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 2. Abrir Autodesk Civil 3D y verificar el archivo exportado. En caso de no disponer de Autocad, crear un nuevo mapa de QGIS e importer el DXF para verificar su contenido.
 
-<div align="center"><img src="graph/AutodeskCivil3D_CheckQGISExportProjectToDXF.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_CheckQGISExportProjectToDXF.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -189,7 +189,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A03/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A05/Readme.md) |
+| [:arrow_backward: Anterior](../M01A03/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/99999) | [Siguiente :arrow_forward:](../M01A05/Readme.md) |
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: 

@@ -3,7 +3,7 @@ Keywords: `gradation` `roughness-coefficient`  `m01a12`
 
 Estudiar el tamaño característico del material que compone el lecho o la zona de corte del canal de realineamiento y establecer los valores de rugosidad a utilizar en el diseño hidráulico de la sección compuesta para la aplicación de diferentes métodos de diseño (Shields, Lane).
 
-<div align="center"><img src="graph/M01A12.png" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A12.png" alt="R.HCMC" width="60%" border="0" /></div>
 
 
 ## Objetivos
@@ -195,40 +195,40 @@ Manning's n Values from www.hec.usace.army.mil
 
 1. En el libro de análisis [R.HydroTools.GradacionRugosidad.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/GradacionRugosidad), identifique los valores de la tabla de gradación del caso de estudio y proyecto.
 
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion.jpg" alt="R.SIGE" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion.jpg" alt="R.HCMC" width="85%" border="0" /></div>
 
 En la parte inferior de la tabla podrá observar el peso total de la muestra y el peso sucio y seco requerido para realizar la corrección de la curva granulométrica.
 
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion1.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion1.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 2. En la hoja _Gradación_, registre los valores de peso retenido y peso sucio y seco. Automáticamente serán calculados los porcentajes acumulados y los porcentajes que pasan y se generará la gráfica de la curva granulométrica.
 
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion3.jpg" alt="R.SIGE" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion2.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion3.jpg" alt="R.HCMC" width="85%" border="0" /></div>
 
 3. Para la determinación del tamaño característico de los materiales y dependiendo de la metodología de diseño de la sección hidráulica del canal, utilizaremos como referencia los siguientes porcentajes: d16, d50, d65, d75, d84 y d90.
 
 En la hoja de análisis, ingrese el primer valor de análisis correspondiente a d16 y verifique la posición en la curva granulométrica.
 
-<div align="center">d16<br><img src="graph/R.HydroTools.GradacionRugosidad.d16.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.d16Graph.jpg" alt="R.SIGE" width="85%" border="0" /></div>
+<div align="center">d16<br><img src="graph/R.HydroTools.GradacionRugosidad.d16.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.d16Graph.jpg" alt="R.HCMC" width="85%" border="0" /></div>
 
 Realice en análisis para los demás valores.
 
-<div align="center">d50<br><img src="graph/R.HydroTools.GradacionRugosidad.d50.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.d50Graph.jpg" alt="R.SIGE" width="85%" border="0" /></div>
-<div align="center">d65<br><img src="graph/R.HydroTools.GradacionRugosidad.d65.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.d65Graph.jpg" alt="R.SIGE" width="85%" border="0" /></div>
-<div align="center">d75<br><img src="graph/R.HydroTools.GradacionRugosidad.d75.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.d75Graph.jpg" alt="R.SIGE" width="85%" border="0" /></div>
-<div align="center">d84<br><img src="graph/R.HydroTools.GradacionRugosidad.d84.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.d84Graph.jpg" alt="R.SIGE" width="85%" border="0" /></div>
-<div align="center">d90<br><img src="graph/R.HydroTools.GradacionRugosidad.d90.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.d90Graph.jpg" alt="R.SIGE" width="85%" border="0" /></div>
+<div align="center">d50<br><img src="graph/R.HydroTools.GradacionRugosidad.d50.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.d50Graph.jpg" alt="R.HCMC" width="85%" border="0" /></div>
+<div align="center">d65<br><img src="graph/R.HydroTools.GradacionRugosidad.d65.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.d65Graph.jpg" alt="R.HCMC" width="85%" border="0" /></div>
+<div align="center">d75<br><img src="graph/R.HydroTools.GradacionRugosidad.d75.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.d75Graph.jpg" alt="R.HCMC" width="85%" border="0" /></div>
+<div align="center">d84<br><img src="graph/R.HydroTools.GradacionRugosidad.d84.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.d84Graph.jpg" alt="R.HCMC" width="85%" border="0" /></div>
+<div align="center">d90<br><img src="graph/R.HydroTools.GradacionRugosidad.d90.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.d90Graph.jpg" alt="R.HCMC" width="85%" border="0" /></div>
 
 Resumen de tamaños característicos obtenidos
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion4.jpg" alt="R.SIGE" width="50%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion5.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion4.jpg" alt="R.HCMC" width="50%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.Gradacion5.jpg" alt="R.HCMC" width="50%" border="0" /></div>
 
 
 ## 2. Rugosidades de diseño - Método 1: en función del material característico del lecho
@@ -239,23 +239,23 @@ Resumen de tamaños característicos obtenidos
 
 Para ecuaciones basadas en d50, hemos obtenido las siguientes rugosidades:
 
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd50.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd50.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 Para ecuaciones basadas en d65, hemos obtenido las siguientes rugosidades:
 
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd65.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd65.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 Para la ecuación basada en d75, hemos obtenido la siguiente rugosidad:
 
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd75.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd75.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 Para ecuaciones basadas en d90, hemos obtenido las siguientes rugosidades:
 
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd90.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nd90.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 En resumen, los valores promedio de referencia son:
 
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.ndResumen.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.ndResumen.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 
 ## 3. Rugosidades de diseño - Método 2: Rugosidad de Manning en sección dominante y llanura usando valores de referencia
@@ -264,7 +264,7 @@ Utilizando como referencia las tablas de referencia del Cuerpo de Ingenieros de 
 
 > Para el fondo del canal dominante se recomienda tamizar los materiales de corte y utilizar los gruesos como protección de fondo.
 
-<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nrnv.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.GradacionRugosidad.nrnv.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -315,7 +315,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A11/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A13/Readme.md) |
+| [:arrow_backward: Anterior](../M01A11/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/99999) | [Siguiente :arrow_forward:](../M01A13/Readme.md) |
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/latest/basic-data-requirements/geometric-data/energy-loss-coefficients

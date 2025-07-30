@@ -3,7 +3,7 @@ Keywords: `freeboard`  `m01a11`
 
 Sobreelevación requerida o borde libre en la sección de un canal, capaz de contener el flujo sin desbordamiento, producto del oleaje o de la sobreelevación de la lámina de agua en tramos curvos y transiciones.
 
-<div align="center"><img src="graph/M01A11.png" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A11.png" alt="R.HCMC" width="60%" border="0" /></div>
 
 
 ## Objetivos
@@ -31,7 +31,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## Procedimiento general
 
-<div align="center"><img src="graph/BordeLibre.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/BordeLibre.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 
 1. En el libro de análisis [R.HydroTools.BordeLibreCanal.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/BordeLibreCanal), ingrese los parámetros correspondientes al caudal de diseño de la sección compuesta para el periodo de retorno de diseño, profundidad normal del flujo, velocidad máxima admisible, ancho superficial máximo y radio de curvatura del valle suavizado.
 
@@ -39,24 +39,24 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > 
 > Profundidad normal sin borde libre: se ha tomado como referencia la sección de inicio del canal de realineamiento cuya profundidad máxima es de 3 metros y se ha previsto un borde libre de 0.4 metros. La profundidad normal de la lámina de agua deberá estar alrededor de 2.6 metros.
 
-<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Parametros.jpg" alt="R.SIGE" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Parametros.jpg" alt="R.HCMC" width="85%" border="0" /></div>
 
 Para análisis en función del caudal y el tipo de superficie, utilizaremos las siguientes curvas características de Bolinaga.
 
-<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga.jpg" alt="R.SIGE" width="80%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga1.jpg" alt="R.SIGE" width="70%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga2.jpg" alt="R.SIGE" width="90%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga4.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga.jpg" alt="R.HCMC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga1.jpg" alt="R.HCMC" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga2.jpg" alt="R.HCMC" width="90%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.Bolinaga4.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 Para análisis en función del ancho libre utilizaremos los siguientes valores de referencia.
 
-<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.BordeLibre.jpg" alt="R.SIGE" width="45%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.BordeLibre1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.BordeLibre.jpg" alt="R.HCMC" width="45%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.BordeLibre1.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 
 2. Una vez ingresados los parámetros de entrada, automáticamente serán estimados diferentes valores de borde libre, para el canal de realineamiento se utilizan como referencia, todos aquellos métodos relacionados con canales erosionables y en régimen subcrítico. Para las estructuras hidráulicas de inicio, entrega, cauces laterales y controles de fondo, podrá considerar todos los valores de referencia dependiendo del tipo de recubrimiento y el régimen del flujo.
 
-<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.BordeLibre2.jpg" alt="R.SIGE" width="80%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.BordeLibre3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.BordeLibre2.jpg" alt="R.HCMC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.BordeLibreCanal.BordeLibre3.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 **Valor de referencia para diseño**: debido a que se trata de un canal compuesto por sección trapezoidal dominante y sección trapezoidal de creciente, valle confinado de gran ancho y pendiente similar a la del cauce natural original, se ha establecido que 0.4 metros es suficiente para evitar desbordamiento por causa de oleaje y sobreelevación en curvas y transiciones.
 
@@ -104,7 +104,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A10/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A12/Readme.md) |
+| [:arrow_backward: Anterior](../M01A10/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/99999) | [Siguiente :arrow_forward:](../M01A12/Readme.md) |
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: 

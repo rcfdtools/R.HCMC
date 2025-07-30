@@ -3,7 +3,7 @@ Keywords: `hydraulics` `hydraulic-design` `critical-depth` `normal-depth` `yn` `
 
 Dimensionar la sección hidráulica dominante (1) y de creciente (2) del cauce principal y de los cauces laterales menores, verificando a flujo uniforme la capacidad hidráulica de la sección compuesta (3) y el borde libre requerido.
 
-<div align="center"><img src="graph/M01A13.png" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A13.png" alt="R.HCMC" width="60%" border="0" /></div>
 
 
 ## Objetivos
@@ -13,7 +13,7 @@ Dimensionar la sección hidráulica dominante (1) y de creciente (2) del cauce p
 * Verificar la sección compuesta por flujo uniforme.
 * Crear un prototipo digital del diseño realizado y modelar a flujo permanente y no permanente.
 
-<div align="center"><img src="graph/SeccionCompuesta.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/SeccionCompuesta.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 
 
 ## Requerimientos
@@ -41,7 +41,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 > En actividades anteriores, establecimos por defecto el sistema internacional de unidades, sin embargo, es indispensable verificar que el proyecto sea creadoo en este sistema. 
 
-<div align="center"><img src="graph/HECRAS_NewProject.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_NewProject.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 2. Ingrese al Módulo de Diseño, menú _Run / Hydraulic Design Functions…_ o clic en el botón _Perform Hydraulic Design Computations_.  
 
@@ -51,7 +51,7 @@ En la ventana de diseño hidráulico y en _Type / Stable Channel Design…_, obs
 * Regime
 * Tractive Force
 
-<div align="center"><img src="graph/HECRAS_HD.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HD.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 
 ## 1. Diseño por Método de Copeland en HEC-RAS
@@ -71,14 +71,14 @@ Para el diseño geométrico e hidráulico vertical utilizaremos los siguientes p
 
 > Concentración de sedimentos: calculados por HEC-RAS en función de la geometría de la sección suponiendo que el cauce natural tiene un ancho en la base del canal dominante de 20 m, altura máxima de 3 m y la pendiente de la línea de energía es paralela a la del fondo del cauce sinuoso S = 0.000897, sedimentos totales = 2605.57 ppm.
 
-<div align="center"><img src="graph/HECRAS_HDRiverCopeland.jpg" alt="R.SIGE" width="90%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_HDRiverCopeland1.jpg" alt="R.SIGE" width="20%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDRiverCopeland.jpg" alt="R.HCMC" width="90%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDRiverCopeland1.jpg" alt="R.HCMC" width="20%" border="0" /></div>
 
 Una vez ingresados los valores, de clic en el botón _Apply_.
 
 2. De clic en el botón _Compute_, aparecerá entonces una ventana con diferentes geometrías propuestas que cumplen con el diseño de sección estable para los parámetros ingresados.
 
-<div align="center"><img src="graph/HECRAS_HDRiverCopeland2.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDRiverCopeland2.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 Para la selección de la sección de diseño, es necesario tener en cuenta que existe una restricción preestablecida respecto al alto máximo de 3 metros disponible la sección natural compuesta y al borde libre de 0.4 metros, por tanto, seleccionar por ejemplo la sección diseñada que utiliza 1.5 metros de la altura total para el tránsito del caudal dominante.
 
@@ -90,16 +90,16 @@ La sección seleccionada de 1.5 m de altura además de cumplir con los criterios
 
 > Atención: las gráficas presentan una inconsistencia en las unidades refiriéndose al Sistema Inglés, los valores mostrados corresponden a las unidades del Sistema Internacional. El caudal utilizado es 130 m³/s.
 
-<div align="center"><img src="graph/HECRAS_HDRiverCopeland3.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDRiverCopeland3.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 
 Por tratarse de una sección ancha (28.96 m) el lecho podría sufrir algún nivel de degradación y para la altura seleccionada de 1.5 metros. Entonces, el canal diseñado podrá presentar algunos fenómenos de erosión de sedimentos provenientes de su propio lecho cuando esté recién excavado y sin vegetación acuática o hierbas en las zonas de talud.
 
-<div align="center"><img src="graph/HECRAS_HDRiverCopeland4.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_HDRiverCopeland6.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDRiverCopeland4.jpg" alt="R.HCMC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDRiverCopeland6.jpg" alt="R.HCMC" width="90%" border="0" /></div>
 
 4. En _File / Save Hydraulic Design Data_, guarde el diseño como _RiverCopeland_.
 
-<div align="center"><img src="graph/HECRAS_HDRiverCopeland5.jpg" alt="R.SIGE" width="65%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDRiverCopeland5.jpg" alt="R.HCMC" width="65%" border="0" /></div>
 
 
 ### 1.2. Sección creciente (valley)
@@ -116,17 +116,17 @@ Para el diseño geométrico e hidráulico vertical utilizaremos los siguientes p
 
 1. En el menú _File / New Hydraulic Design Data_, guarde como _ValleyCopeland_ e ingrese los parámetros requeridos.
 
-<div align="center"><img src="graph/HECRAS_HDValleyCopeland.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDValleyCopeland.jpg" alt="R.HCMC" width="90%" border="0" /></div>
 
 2. Clic en _Apply_ y _Compute_, aparecerá entonces una ventana con diferentes geometrías propuestas que cumplen con el diseño de sección estable para los parámetros ingresados.
 
 Para la selección de la sección de diseño, es necesario tener en cuenta que existe una restricción preestablecida respecto al alto máximo de 3 m disponible la sección natural compuesta, el borde libre de 0.4 m y la altura de sección seleccionada de 1.5 m para la zona del cauce dominante. (para el ejercicio de clase seleccionar la sección con menor elevación)
 
-<div align="center"><img src="graph/HECRAS_HDValleyCopeland1.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDValleyCopeland1.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 La sección seleccionada de 1.39 m de altura además de cumplir con los criterios de sección estable, cumple con los criterios de velocidad (1.72 m/s < 3 m/s) y cortante (11.93 N/m² ≈ 20 N/m²). Tener en cuenta que el borde libre disponible para este diseño es de 0.11 m (3 m – 1.5 m – 1.39 m) inferior al estimado de 0.4 m. 
 
-<div align="center"><img src="graph/HECRAS_HDValleyCopeland2.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDValleyCopeland2.jpg" alt="R.HCMC" width="90%" border="0" /></div>
 
 
 ### 1.3. Sección compuesta (composite)
@@ -136,7 +136,7 @@ La sección seleccionada de 1.39 m de altura además de cumplir con los criterio
 * Corona Valle 186.56 m = 2 * (14 * 1.5) + 144.56
 * Huella para mecanización = (300 – 186.56) / 2 = 56.72 m
 
-<div align="center"><img src="graph/HECRAS_HDCompositeCopeland.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDCompositeCopeland.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 > Posteriormente, verificaremos por flujo uniforme la altura del borde libre de la sección compuesta.
 
@@ -153,7 +153,7 @@ Para el diseño geométrico e hidráulico vertical utilizaremos los siguientes p
 
 En el menú _File / New Hydraulic Design Data_, guarde como _ValleyRegime_ e ingrese los parámetros requeridos.
 
-<div align="center"><img src="graph/HECRAS_HDValleyRegime.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDValleyRegime.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 La sección obtenida es de 892.49 metros de ancho, altura de lámina de agua en 0.22 metros, pendiente de 0.000663 y rugosidad del lecho de 0.0046.
 
@@ -180,7 +180,7 @@ Para el diseño geométrico e hidráulico vertical utilizaremos los siguientes p
 
 > Para establecer las variables a resolver (texto en **negrilla**), usar doble clic. Resolver **d50** zona central y ancho de base en la sección **W**.
 
-<div align="center"><img src="graph/HECRAS_HDRiverTractiveForceLane.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDRiverTractiveForceLane.jpg" alt="R.HCMC" width="90%" border="0" /></div>
 
 Resultados:
 
@@ -206,7 +206,7 @@ Para el diseño geométrico e hidráulico vertical utilizaremos los siguientes p
 
 1. En el menú _File / New Hydraulic Design Data_, guarde como _ValleyTractiveForceLane_ e ingrese los parámetros requeridos.
 
-<div align="center"><img src="graph/HECRAS_HDValleyTractiveForceLane.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDValleyTractiveForceLane.jpg" alt="R.HCMC" width="90%" border="0" /></div>
 
 Resultados:
 
@@ -221,7 +221,7 @@ La diferencia en los resultados con respecto al Método de Shields corresponde a
 
 Geometría ajustada de la Sección a utilizar en el caso de estudio: al corredor disponible de 300 metros se le descontó una huella de mecanización de 24.4 metros. A la base del valle se le sumó aproximadamente 4.5 metros a cada lado para prevenir co-alineación de taludes.
 
-div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceLane.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceLane.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 > Para regularizar el diseño y facilitar el replanteo en terreno se recomienda ajustar los anchos calculados a valores enteros por encima del valor obtenido.
 
@@ -246,7 +246,7 @@ Para el diseño geométrico e hidráulico vertical utilizaremos los siguientes p
 
 > Para establecer las variables a resolver (texto en **negrilla**), usar doble clic. Resolver **d50** zona central y ancho de base en la sección **W**.
 
-<div align="center"><img src="graph/HECRAS_HDRiverTractiveForceShields.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDRiverTractiveForceShields.jpg" alt="R.HCMC" width="90%" border="0" /></div>
 
 Resultados:
 
@@ -272,7 +272,7 @@ Para el diseño geométrico e hidráulico vertical utilizaremos los siguientes p
 
 1. En el menú _File / New Hydraulic Design Data_, guarde como _ValleyTractiveForceShields_ e ingrese los parámetros requeridos.
 
-<div align="center"><img src="graph/HECRAS_HDValleyTractiveForceShields.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDValleyTractiveForceShields.jpg" alt="R.HCMC" width="90%" border="0" /></div>
 
 Resultados:
 
@@ -287,7 +287,7 @@ Geometría ajustada de la Sección a utilizar en el caso de estudio: al corredor
 
 > Atención: los datos de este esquema se utilizarán para el diseño sinuoso
 
-<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShields1.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShields1.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 > Para regularizar el diseño y facilitar el replanteo en terreno se recomienda ajustar los anchos calculados a valores enteros por encima del valor obtenido.
 
@@ -305,7 +305,7 @@ Luego del diseño hidráulico, es necesario comprobar que la sección compuesta 
 
 1. En el módulo de diseño ir al menú _Type / NewHydraulic Design Data…._ y nombrar como _CompositeTractiveForceShieldUniformFlow_.
 
-<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShieldsUniformFlow.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShieldsUniformFlow.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 2. En el módulo de diseño ir al menú _Type / Uniform Flow…._ e ingresar en la pestaña _Width_ los parámetros y geometría obtenida del diseño hidráulico:
 
@@ -313,17 +313,17 @@ Luego del diseño hidráulico, es necesario comprobar que la sección compuesta 
 > 
 > Cota máxima lámina de agua = 2.6 m, considerando el borde libre de diseño definido en actividades anteriores.
 
-<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShieldsUniformFlow1.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShieldsUniformFlow1.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 3. Seleccionar _Compute Widths_ usando _OverBank_, oprimir en _Apply_ y _Compute_.
 
-<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShieldsUniformFlow2.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShieldsUniformFlow2.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 4. Modificar los valores de rugosidad mostrados por los valores de diseño y volver a ejecutar _Apply_ y _Compute_.
 
 > Observará que el canal diseñado requiere de una sección mucho más amplia para poder conservar el borde libre de 0.4m. Aproximadamente de 308m en la base de la sección de creciente.
 
-<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShieldsUniformFlow3.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShieldsUniformFlow3.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 5. Debido a que la verificación de la sección por flujo uniforme no tiene en cuenta la amortiguación por el tránsito del hidrograma de entrada, se puede considerar que la altura máxima lámina de agua puede estar mucho más elevada y cercana a 2.8 metros, dejando un borde libre de 0.2 m.
 
@@ -333,7 +333,7 @@ El ancho estimado de la sección para la verificación por flujo uniforme es men
 
 > Posteriormente, cuando se realice la modelación por flujo no uniforme, observará que el borde libre podrá estar cercano a 0.4 m debido al tránsito y amortiguación de la creciente de diseño (dependiendo del tipo de condición de frontera empleado aguas abajo).
 
-<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShieldsUniformFlow4.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShieldsUniformFlow4.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 
 ## 6. Diseño cauce lateral por Método de la Fuerza Tractiva (Shields) en HEC-RAS
@@ -353,7 +353,7 @@ Para el diseño del cauce lateral utilizar los parámetros estimados y registrad
 
 1. En el menú _File / New Hydraulic Design Data_, guarde como _LateralRiverTractiveForceShields_ e ingrese los parámetros requeridos.
 
-<div align="center"><img src="graph/HECRAS_HDLateralRiverTractiveForceShields.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDLateralRiverTractiveForceShields.jpg" alt="R.HCMC" width="90%" border="0" /></div>
 
 Resultados:
 
@@ -377,24 +377,24 @@ Utilizando el libro de diseño y análisis [R.HydroTools.DisenoGeometricoHidraul
 
 > Para establecer el tipo de sinuosidad y el porcentaje de reducción aplicable a la fuerza tractiva permisible, utilizaremos el factor de sinuosidad 1.29686, con lo que podemos definir 25% de reducción para el cauce dominante, correspondiente a un canal moderadamente sinuoso.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaRio.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaRio.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 2. Para los parámetros establecidos, encuentre el ancho en la base del canal usando la ecuación de Manning.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaRio1.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaRio1.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 3. Estime el factor de reducción del esfuerzo cortante crítico.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaRio2.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaRio2.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 4. Estime la fuerza tractiva por unidad de área mojada, τo, el tamaño mínimo de partículas requeridas en el lecho para conformar sección estable. Ingrese valores d50 hasta encontrar porcentajes positivos de estabilidad.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaRio3.jpg" alt="R.SIGE" width="70%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaRio4.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaRio3.jpg" alt="R.HCMC" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaRio4.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 Para la sección del cauce dominante, el tamaño de partículas de recubrimiento a utilizar es de 12 mm en los costados o bancas y 15.5 mm en el fondo, la sección hidráulica tiene un ancho de 71.23 metros con profundidad de 1.5 metros.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaRio5.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaRio5.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 > Con respecto a los valores obtenidos en el módulo de diseño de HEC-RAS cuyo tamaño de partículas de recubrimiento del lecho fue de 13.8 mm, el tamaño considerando la sinuosidad del cauce es mayor y corresponde a 15.5 mm.
 
@@ -409,24 +409,24 @@ Para la sección del cauce dominante, el tamaño de partículas de recubrimiento
 > 
 > Con respecto al borde libre, utilizaremos como referencia un valor de 0.2 metros, siguiendo las mismas directrices de la verificación realizada por flujo uniforme, por lo que la altura de diseño del valle será de 1.3 metros.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaValle.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaValle.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 2. Para los parámetros establecidos, encuentre el ancho en la base del canal usando la ecuación de Manning.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaValle1.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaValle1.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 3. Estime el factor de reducción del esfuerzo cortante crítico.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaValle2.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaValle2.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 4. Estime la fuerza tractiva por unidad de área mojada, τo, el tamaño mínimo de partículas requeridas en el lecho para conformar sección estable. Ingrese valores d50 hasta encontrar porcentajes positivos de estabilidad.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaValle3.jpg" alt="R.SIGE" width="70%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaValle4.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaValle3.jpg" alt="R.HCMC" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaValle4.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 Para la sección del cauce dominante, el tamaño de partículas de recubrimiento a utilizar es de 14 mm en los costados o bancas y 18.2 mm en el fondo, la sección hidráulica tiene un ancho de 162.85 metros con profundidad de 1.3 metros.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaValle5.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.FuerzaTractivaValle5.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 > Con respecto a los valores obtenidos en el módulo de diseño de HEC-RAS cuyo tamaño de partículas de recubrimiento del lecho fue de 10.8 mm, el tamaño considerando la sinuosidad del cauce y la pendiente del valle suavizado es mayor y corresponde a 18.2 mm.
 
@@ -440,33 +440,33 @@ En el libro de diseño y análisis [R.HydroTools.DisenoGeometricoHidraulicoVerti
 
 ### 8.1 Cauce principal
 
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannel.jpg" alt="R.SIGE" width="85%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannel1.jpg" alt="R.SIGE" width="85%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannel2.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannel.jpg" alt="R.HCMC" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannel1.jpg" alt="R.HCMC" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannel2.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 Para el cálculo de la profundidad hidráulica normal y crítica del cauce sinuoso, utilizaremos los mismos parámetros de entrada utilizados en el módulo HD de HEC-RAS, obtendremos que Yn = 1.328 metros y Yc = 0.916 metros, cuyos valores indican que el perfil del flujo en el canal es M2. 
 
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelRiverYnYc.jpg" alt="R.SIGE" width="85%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelRiverYnYc1.jpg" alt="R.SIGE" width="85%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelRiverYnYc2.jpg" alt="R.SIGE" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelRiverYnYc.jpg" alt="R.HCMC" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelRiverYnYc1.jpg" alt="R.HCMC" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelRiverYnYc2.jpg" alt="R.HCMC" width="85%" border="0" /></div>
 
 Con respecto al valle suavizado, utilizaremos como entrada la pendiente del valle correspondiente a 0.0011631 m/m y con función objetivo, buscaremos el valor de la rugosidad equivalente que permite obtener una profundidad normal de 1.3 metros (considerando solo un borde libre de 0.2 metros). La rugosidad obtenida es dee 0.029 con profundidad crítica en 0.699 metros para un perfil tipo M2.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelValleyYnYc.jpg" alt="R.SIGE" width="85%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelValleyYnYc1.jpg" alt="R.SIGE" width="85%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelValleyYnYc2.jpg" alt="R.SIGE" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelValleyYnYc.jpg" alt="R.HCMC" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelValleyYnYc1.jpg" alt="R.HCMC" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelValleyYnYc2.jpg" alt="R.HCMC" width="85%" border="0" /></div>
 
 Para futuros análisis, es conveniente estudiar el comportamiento del factor de corrección de la energía cinética o alpha - α, en función de las propiedades geométricas de la sección y las profundidades críticas obtenidas. Para obtener la gráfica de análisis, realice calculos de Yc para factores entre 0.5 y 1.5, podrá observar que su comportamiento no es lineal. Por ejemplo, para la sección correspondiente al cauce dominante, obtendremos:
 
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelRiverAlpha.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelRiverAlpha1.jpg" alt="R.SIGE" width="40%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelRiverAlpha.jpg" alt="R.HCMC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.MainChannelRiverAlpha1.jpg" alt="R.HCMC" width="40%" border="0" /></div>
 
 
 ### 8.2 Cauce lateral
 
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.LateralChannel.jpg" alt="R.SIGE" width="85%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.LateralChannel1.jpg" alt="R.SIGE" width="85%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.LateralChannel2.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.LateralChannel.jpg" alt="R.HCMC" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.LateralChannel1.jpg" alt="R.HCMC" width="85%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.LateralChannel2.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 
 ### 8.3 Geometría CAD
@@ -478,7 +478,7 @@ Instrucciones:
 
 > Notación numérica requerida: separador decimal usando punto (.), separador de miles usando coma (,) y separador de listas usando coma (,).
 
-<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.CAD.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.CAD.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 Sección inicio cauce principal
 
@@ -575,7 +575,7 @@ Como referencia para las coronas del canal, utilizar las siguientes especificaci
 * Radio de giro: 65 ft, 19.8 m.
 * Referencias: Caterpillar 797 / 797F / 793D, BelAZ 75710, XCMG Xda40.
 
-<div align="center"><img src="graph/MinningTruckCat785.jpg" alt="R.SIGE" width="60%" border="0" /><sub><br>Tomado de: <a href="https://www.cat.com/en_US/products/new/equipment/off-highway-trucks/mining-trucks.html">www.cat.com</a></sub><br><br></div>
+<div align="center"><img src="graph/MinningTruckCat785.jpg" alt="R.HCMC" width="60%" border="0" /><sub><br>Tomado de: <a href="https://www.cat.com/en_US/products/new/equipment/off-highway-trucks/mining-trucks.html">www.cat.com</a></sub><br><br></div>
 
 
 ## Referencias
@@ -603,7 +603,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A12/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A14/Readme.md) |
+| [:arrow_backward: Anterior](../M01A12/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/99999) | [Siguiente :arrow_forward:](../M01A14/Readme.md) |
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: 

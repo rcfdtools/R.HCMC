@@ -3,7 +3,7 @@ Keywords: `side-slope`  `m01a09`
 
 A partir de la información topográfica disponible y de las secciones transversales trazadas en el modelo de muestreo HEC-RAS v0 arriba del punto de inicio y abajo del punto de entrega sobre cauces naturales existentes y en cauces laterales, estudiar la inclinación actual de los taludes que será utilizada como referencia para el diseño del canal artificial compuesto, correspondiente al talud estable del cauce natural luego de todos los procesos erosivos y de sedimentación.
 
-<div align="center"><img src="graph/M01A09.png" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A09.png" alt="R.HCMC" width="60%" border="0" /></div>
 
 
 ## Objetivos
@@ -41,36 +41,36 @@ Para el análisis, tenga en cuenta las siguientes consideraciones:
 * En el análisis puede incluir secciones transversales representativas en cauces laterales o en la zona del canal natural a reemplazar.
 * Se recomienda analizar en la columna de talud izquierdo, los taludes correspondientes al cauce dominante y en la columna derecha los correspondientes al talud del valle o de creciente.
 
-<div align="center">Esquema de sección trapezoidal<br><img src="graph/R.HydroTools.TaludReferenciaCanal.Sample.jpg" alt="R.SIGE" width="30%" border="0" /></div>
-<div align="center">Taludes y tipos de recubrimiento (prototipo)<br><img src="graph/R.HydroTools.TaludReferenciaCanal.Sample1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-<div align="center">Taludes por inclinación<br><img src="graph/R.HydroTools.TaludReferenciaCanal.Sample2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Esquema de sección trapezoidal<br><img src="graph/R.HydroTools.TaludReferenciaCanal.Sample.jpg" alt="R.HCMC" width="30%" border="0" /></div>
+<div align="center">Taludes y tipos de recubrimiento (prototipo)<br><img src="graph/R.HydroTools.TaludReferenciaCanal.Sample1.jpg" alt="R.HCMC" width="60%" border="0" /></div>
+<div align="center">Taludes por inclinación<br><img src="graph/R.HydroTools.TaludReferenciaCanal.Sample2.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 ## 1. Identificación de secciones a utilizar
 
 1. En HEC-RAS, abra el modelo hidráulico de muestreo y en RAS Mapper, seleccione como mínimo 10 secciones transversales naturales y abra la tabla de atributos para identificar sus abscisas.
 
-<div align="center"><img src="graph/HECRAS_RASMapperCrossSection.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperCrossSection.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 2. En el libro de análisis [R.HydroTools.TaludReferenciaCanal.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/TaludReferenciaCanal), registre los valores estación / elevación de cada una de las secciones identificadas. Para ello, utilice el editor _Geometry Data_ y la ventana de edición de secciones transversales.
 
-<div align="center"><img src="graph/HECRAS_GeometryDataCrossSection.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.TaludReferenciaCanal.CrossSection.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_GeometryDataCrossSection.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.TaludReferenciaCanal.CrossSection.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 ## 2. Localización de líneas de referencia
 
 1. En cada sección, defina las estaciones iniciales y finales a lado izquierdo y derecho que permiten identificar la localización de la línea de referencia de talud,
 
-<div align="center"><img src="graph/R.HydroTools.TaludReferenciaCanal.CrossSectionSideStation.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.TaludReferenciaCanal.CrossSectionSideStation.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 2. Visualice y ajuste las líneas de referencia de taludes.
 
-<div align="center"><img src="graph/R.HydroTools.TaludReferenciaCanal.CrossSectionGraph.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.TaludReferenciaCanal.CrossSectionGraph.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 3. Revise la tabla resúmen de taludes izquierdos y derechos, defina y justifique la relación de taludes a utilizar en el diseño de la sección compuesta.
 
-<div align="center"><img src="graph/R.HydroTools.TaludReferenciaCanal.CrossSectionResume.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.TaludReferenciaCanal.CrossSectionResume.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 
 > De acuerdo al análisis de taludes en secciones naturales, el talud típico en la zona del canal dominante es de aproximadamente 14:1 (por cada metro en la vertical, 14 metros en la horizontal). Para el diseño del canal dominante utilizar taludes con la misma relación.
 
@@ -118,7 +118,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A08/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A10/Readme.md) |
+| [:arrow_backward: Anterior](../M01A08/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/99999) | [Siguiente :arrow_forward:](../M01A10/Readme.md) |
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: 

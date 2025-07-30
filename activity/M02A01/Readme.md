@@ -3,7 +3,7 @@ Keywords: `contour` `dtm` `autodesk-civil-3d` `autodesk-autocad` `surface` `M02A
 
 Generar a partir del modelo TIN o de curvas de nivel, un modelo de terreno en Civil 3D de la planicie natural como base para el trazado de perfiles, ejes, secciones, cálculo de volúmenes y trazado del modelo de terreno del canal sinuoso compuesto.
 
-<div align="center"><img src="graph/M02A01.png" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M02A01.png" alt="R.HCMC" width="60%" border="0" /></div>
 
 
 ## Objetivos
@@ -76,7 +76,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A20/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M02A02/Readme.md) |
+| [:arrow_backward: Anterior](../M01A20/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/99999) | [Siguiente :arrow_forward:](../M02A02/Readme.md) |
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: 

@@ -3,7 +3,7 @@ Keywords: `hydraulics` `hydraulic-structure` `hydraulic-jump` `hydraulic-fall`
 
 Las rápidas pueden ser utilizadas para realizar conexión de cauces laterales a canales principales de desviación, ya que es posible ajustar la pendiente natural del terreno y por tal razón, el movimiento de tierras es menor al de una entrega usando estructuras escalonadas a flujo rasante. Una desventaja en su implementación es la erosión generada por las altas velocidades del canal de la rápida.
 
-<div align="center"><img src="graph/M01A20.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A20.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 
 
 ## Objetivos
@@ -58,21 +58,21 @@ Una rápida es un canal de gran pendiente que conecta dos tramos de un canal con
 
 En el libro de diseño [R.HydroTools.DisenoEstructuraRapida.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraRapida), ingrese en la _Sección transversal canal aguas arriba de rápida (0 - 1)_, las propiedades geométricas del cauce lateral. Para el prototipo del caso de estudio, utilizaremos la geometría de la sección del cauce lateral obtenida en la actividad [M01A13](../M01A13) y el caudal obtenido en la entrega [M01A02](../M01A02) para la cuenca W19610 del modelo hidrológico con factor de atenuación 1.0.
 
-<div align="center">M01A02 - Geometría del diseño hidráulico de la sección<br><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.1.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center">M01A02 - Geometría del diseño hidráulico de la sección<br><img src="graph/R.HydroTools.DisenoGeometricoHidraulicoVertical.1.jpg" alt="R.HCMC" width="90%" border="0" /></div>
 
-<div align="center">Parámetros geométricos canal natural<br><img src="graph/R.HydroTools.DisenoEstructuraRapida.0a1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center">Parámetros geométricos canal natural<br><img src="graph/R.HydroTools.DisenoEstructuraRapida.0a1.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 
 Automáticamente, serán calculadas las propiedades hidráulicas de la sección y se generará el gráfico de sección y perfil para esta zona.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.0a1a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.0a1b.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.0a1a.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.0a1b.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 
 ## 2. Resolver requeridos
 
 Para facilitar la solución geométrica e hidráulica de la rápida, en la parte inferior de la hoja de diseño, encontrará una tabla en donde puede ingresar la longitud requerida en la rápida para la zona 2-3, la altura total de la estructura (correspondiente a la diferencia de nivel entre el fondo del cauce lateral y el fondo del canal de realineamiento donde se realizará la entrega) y la longitud de la transición ajustada en la zona 4-5.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.ResolverRequeridos.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.ResolverRequeridos.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 
 
 ## 3. Sección transversal de control y transición (1 - 2)
@@ -81,12 +81,12 @@ Ingrese los parámetros de la sección de control donde se establecerá el contr
 
 > Es recomendable diseñar este tramo con geometría rectangular con revestimiento en concreto rugoso, para lo cual, los taludes laterales deben ser establecidos en cero y la rugosidad en 0.018.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.1a2.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.1a2.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 
 Automáticamente, serán calculadas las propiedades hidráulicas de la sección y se generará el gráfico de sección y perfil para esta zona.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.1a2a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.1a2b.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.1a2a.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.1a2b.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 
 ## 4. Longitud y perfil hidráulico rápida (2 - 3)
@@ -95,26 +95,26 @@ Automáticamente, serán calculadas las propiedades hidráulicas para esta zona,
 
 > Para resolver el perfil hidráulico en esta zona, se ha utilizado el método de tramo a tramo basado en la aplicación de la Fórmula de Bernulli. El desarrollo del perfil para alcanzar la profundidad normal, puede requerir de un canal muy largo, por lo que para su modelación y construcción, puede considerar una longitud más corta (donde considere como diseñador que ya se ha desarrollado completamente el perfil).
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.2a3.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.2a3a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.2a3b.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.2a3.jpg" alt="R.HCMC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.2a3a.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.2a3b.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 
 ## 5. Diseño y perfil trayectoria de caída (3 - 4)
 
 Para el diseño de esta zona, ingrese 1 como semilla de relación de caída, ingrese el factor de aceleración y de clic en el botón `B. Resolver altura total requerida en la estructura rápida cambiando relación de caída en 3-4`. Automáticamente obtendrá la inclinación y longitud de la trayectoria curva.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.3a4.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.3a4a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.3a4b.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.3a4.jpg" alt="R.HCMC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.3a4a.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.3a4b.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 
 ## 6. Transición caída trayectoria a tanque disipador (4 - 5)
 
 Para el diseño de esta zona, utilizaremos el mismo ángulo de transición empleado en la sección de control 1-2, obteniendo su longitud y altura de caída.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.4a5.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.4a5a.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.4a5.jpg" alt="R.HCMC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.4a5a.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 
 ## 7. Tanque disipador (5 - 6 - 7 - 8)
@@ -123,12 +123,12 @@ Para el diseño de las zonas 5 a 8, ingrese la relación de inclinación de la r
 
 > Si decide ajustar automáticamente el ancho, deberá verificar y ajustar el diseño de las zonas 1 a 5.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.5a8.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.5a8a.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.5a8.jpg" alt="R.HCMC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.5a8a.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 Para finalizar, verifique el gráfico de perfil de la rápida y el cumplimiento de longitud y altura definidos.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.Graph.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraRapida.Graph.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -181,7 +181,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A19/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M02A01/Readme.md) |
+| [:arrow_backward: Anterior](../M01A19/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/99999) | [Siguiente :arrow_forward:](../M02A01/Readme.md) |
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: 

@@ -3,7 +3,7 @@ Keywords: `realigment` `hydraulics` `hydraulic-structure` `hydraulic-transition`
 
 La construcción del canal prismático de sección compuesta del cauce principal, requiere de la implantación de contracción de inicio y expansión en entrega, debido a que el flujo de diseño debe ser conducido y transportado por un valle confinado.
 
-<div align="center"><img src="graph/M01A18.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A18.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 
 
 ## Objetivos
@@ -40,56 +40,56 @@ Casos en los que se requiere del uso de contracciones y/o expansiones:
 * Contracción o expansión de canales laterales a estructuras de caída escalonadas y/o a rápidas.
 * Contracción y expansión en tramos de aproximación a Canaletas Parshall ubicadas en canales.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.TipoTransicion.jpg" alt="R.SIGE" width="55%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.CoefPerdida.jpg" alt="R.SIGE" width="55%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.TipoContraccion.jpg" alt="R.SIGE" width="50%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.TipoExpansion.jpg" alt="R.SIGE" width="50%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.TipoTransicion.jpg" alt="R.HCMC" width="55%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.CoefPerdida.jpg" alt="R.HCMC" width="55%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.TipoContraccion.jpg" alt="R.HCMC" width="50%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.TipoExpansion.jpg" alt="R.HCMC" width="50%" border="0" /></div>
 
 
 ## 1. Diseño de contracción de inicio canal principal
 
 1. En QGIS, cree un proyecto nuevo en blanco y cargue la capa de drenajes naturales _/file/shp/CGG_DrenajeNatural_v0.shp_, el eje del valle suavizado _/file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.shp_ creado en la actividad [M01A03](../M01A03), la capa del límite de la concesión minera _/file/shp/ConcesionMineraVirtual.shp_ y el modelo digital de terreno _/file/dem/TIN_TerrenoNaturalQGIS_v0.tif_ simbolizando por sombreado multidireccional.
 
-<div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 2. Acérquese a la zona de inicio del valle suavizado y seleccione este eje. Con la herramienta _Processing Toolbox / Vector geometry / Offset lines_, cree líneas paralelas temporales a este eje a distancias de 150 metros y 104.6 metros (correspondiente al ancho de la llanura en la base 209.2 metros / 2).
 
-<div align="center"><img src="graph/QGIS_OffsetLines.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_OffsetLines.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 3. Con la herramienta _Processing Toolbox / Vector general / Merge vector layers_, integre los 4 ejes paralelos (offset) y el eje del valle suavizado en una única capa, nombre como _/file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoideOffset.shp_ y remueva los ejes temporales del proyecto,
 
-<div align="center"><img src="graph/QGIS_MergeVectorLayers.jpg" alt="R.SIGE" width="80%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_MergeVectorLayers1.jpg" alt="R.SIGE" width="80%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_MergeVectorLayers2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_MergeVectorLayers.jpg" alt="R.HCMC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_MergeVectorLayers1.jpg" alt="R.HCMC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_MergeVectorLayers2.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 4. Agregue al mapa la capa _/file/shp/CGG_CurvaNivelLidar_v0.shp_ y verifique la curva de confinamiento hidráulico, correspondiente a 73.5 metros en la corona del canal diseñado (70.5 m en el fondo de la sección de inicio + 3 m correspondientes a la altura de la sección compuesta del realineamiento). Con la herramienta de medición, mida el ancho del corredor desde la cota de confinamiento izquierda hasta la derecha, obtendrá una longitud aproximada a 375 metros.
 
-<div align="center"><img src="graph/QGIS_Measure.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Measure.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 5. En el libro de diseño [R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraContraccionExpansionSubcritico), registre en la sección A los parámetros geométricos de diseño ingresando los anchos de referencia de la base del valle y ancho en la cota de confinamiento de la contracción, ingrese además la pendiente del valle suavizado, la altura de lámina y el borde libre. 
 
 > Considere que el dique del talud de la expansión podrá tener una mayor inclinación, para el caso de estudio utilizaremos talues 5:1.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.1.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.1.jpg" alt="R.HCMC" width="55%" border="0" /></div>
 
 6. En la sección B, ingrese el caudal máximo que será transportado por el nuevo cauce (para el periodo de retorno 100 años), la rugosidad del valle (o la rugosidad equivalente de la sección compuesta), defina el tipo de transición y su forma.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.2.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.2.jpg" alt="R.HCMC" width="55%" border="0" /></div>
 
 Una vez ingresados los parámetros, automáticamente obtendrá el cálculo de los parámetros hidráulicos de inicio y salida de la contracción. Podrá observar además que la longitud de la estructura es de 159.2 metros con un ángulo de deflexión de las paredes laterales de 27.5°, correspondiente a contracción brusca.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.3.jpg" alt="R.SIGE" width="55%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.4.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.3.jpg" alt="R.HCMC" width="55%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.4.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 7. Para optimizar el funcionamiento hidráulico de la transición y para evitar ondulaciones en la lámina de agua, la hoja de diseño calcula la compensación por desnivel, que para el caso de estudio corresponde a un valor de -0.210 metros.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.5.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.5.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 
 > Para la implantación de la transición, puede decidir usar el fondo contínuo (o compensado) o el fondo recto en la zona de la transición.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.6.jpg" alt="R.SIGE" width="55%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.7.jpg" alt="R.SIGE" width="55%" border="0" /></div>
-<div align="center">Gráfico de comparación de fondos y perfiles<br><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.8.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.6.jpg" alt="R.HCMC" width="55%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.7.jpg" alt="R.HCMC" width="55%" border="0" /></div>
+<div align="center">Gráfico de comparación de fondos y perfiles<br><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.8.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 ## 2. Diseño de expansión de entrega canal principal
@@ -98,38 +98,38 @@ Una vez ingresados los parámetros, automáticamente obtendrá el cálculo de lo
 
 > Para facilitar la representación del modelo digital de terreno, cree una copia del TIN y simbolice por preudo-color con transparencia del 50%.
 
-<div align="center"><img src="graph/QGIS_DTMColor.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_DTMColor.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 2. Con la herramienta de medición, mida el ancho del corredor desde la cota de confinamiento izquierda hasta la derecha, obtendrá una longitud aproximada a 700 metros.
 
 > Debido a que en el costado derecho no existe una barrera de confinamiento general, inicialmente realizaremos el diseño para el ancho medido.
 
-<div align="center"><img src="graph/QGIS_Measure1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Measure1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 3. En el libro de diseño [R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraContraccionExpansionSubcritico), registre en la sección A los parámetros geométricos de diseño ingresando los anchos de referencia de la base del valle y ancho en la cota de confinamiento de la expansión, ingrese además la pendiente del valle suavizado, la altura de lámina y el borde libre. 
 
 > Considere que el dique del talud de la expansión podrá tener una mayor inclinación, para el caso de estudio utilizaremos talues 5:1.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.1a.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.1a.jpg" alt="R.HCMC" width="55%" border="0" /></div>
 
 4. En la sección B, ingrese el caudal máximo que será transportado por el nuevo cauce (para el periodo de retorno 100 años), la rugosidad del valle (o la rugosidad equivalente de la sección compuesta), defina el tipo de transición y su forma.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.2a.jpg" alt="R.SIGE" width="55%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.2a.jpg" alt="R.HCMC" width="55%" border="0" /></div>
 
 Una vez ingresados los parámetros, automáticamente obtendrá el cálculo de los parámetros hidráulicos de inicio y salida de la expansión. Podrá observar además que la longitud de la estructura es de 592.4 metros con un ángulo de deflexión de las paredes laterales de 22.5°, correspondiente a contracción brusca.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.3a.jpg" alt="R.SIGE" width="55%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.4a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.3a.jpg" alt="R.HCMC" width="55%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.4a.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 5. Para optimizar el funcionamiento hidráulico de la transición y para evitar ondulaciones en la lámina de agua, la hoja de diseño calcula la compensación por desnivel, que para el caso de estudio corresponde a un valor de -0.668 metros.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.5a.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.5a.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 
 > Para la implantación de la transición, puede decidir usar el fondo contínuo (o compensado) o el fondo recto en la zona de la transición.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.6a.jpg" alt="R.SIGE" width="55%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.7a.jpg" alt="R.SIGE" width="55%" border="0" /></div>
-<div align="center">Gráfico de comparación de fondos y perfiles<br><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.8a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.6a.jpg" alt="R.HCMC" width="55%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.7a.jpg" alt="R.HCMC" width="55%" border="0" /></div>
+<div align="center">Gráfico de comparación de fondos y perfiles<br><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.8a.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 ## 3. Creación de modelo digital de terreno
@@ -138,7 +138,7 @@ Para la construcción del prototipo digital, es necesaria la creación de un mod
 
 1. En el libro de diseño, ingrese las coordenadas de referencia de orígen de la estructura registradas en la entrega [M01A06](../M01A06) y la cota de fondo de entrega, correspondiente a 65 m.s.n.m.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.9.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.9.jpg" alt="R.HCMC" width="90%" border="0" /></div>
 
 2. Copie la tabla que contiene las especificaciones de los nodos de la estructura (incluídas las cabeceras), y pegue en Notepad++ dentro de un nuevo archivo.
 
@@ -148,54 +148,54 @@ Ajuste en la cabecera los rótulos de las columnas `CZ no compensado` a `CZNoCom
 > 
 > Opcionalmente, puede crear un libro en blanco en Excel, pegar los valores de la tabla y exportar a formato de texto separado por comas .csv.
 
-<div align="center"><img src="graph/NotepadPlus_TablaNodos.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/NotepadPlus_TablaNodos.jpg" alt="R.HCMC" width="90%" border="0" /></div>
 
 3. Guarde como archivo de texto con el nombre _/file/table/R.HCMC.DisenoEstructuraExpansionSubcriticoGIS.CanalPpal.txt_
 
-<div align="center"><img src="graph/NotepadPlus_TablaNodos1.jpg" alt="R.SIGE" width="90%" border="0" /></div>
+<div align="center"><img src="graph/NotepadPlus_TablaNodos1.jpg" alt="R.HCMC" width="90%" border="0" /></div>
 
 4. En QGIS, desde el menú _Layer / Add Layer / Add Delimited Text Layer..._ agregue la tabla de nodos y visualice como una capa temporal, utilice el archivo de texto, la coordenada Z para fondo no compensado y asigne el CRS 3116.
 
-<div align="center"><img src="graph/QGIS_AddDelimitedTextLayer.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_AddDelimitedTextLayer.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 5. Ajuste la simbología de representación y rotule los nodos a partir de su cota. Podrá observar que con respecto a los ejes se encuentra en sentido de izquierda a derecha.
 
-<div align="center"><img src="graph/QGIS_Label.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Label.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 6. Guarde la capa temporal como un archivo shapefile en _/file/shp/DisenoEstructuraExpansionSubcriticoGISCanalPpal.shp_
 
-<div align="center"><img src="graph/QGIS_SaveVectorLayerAs.jpg" alt="R.SIGE" width="65%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_SaveVectorLayerAs.jpg" alt="R.HCMC" width="65%" border="0" /></div>
 
 7. Desde el modo de edición, rote y desplace los nodos a localización correcta al final del realineamiento del valle. Guarde los cambios realizados y detenga el Editor.
 
-<div align="center"><img src="graph/QGIS_Edit.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Edit.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 8. Utilizando la herramienta _Processing Toolbox / Vector creation / Points to path_, genere las líneas constructivas 3D de la estructura y guarde como _/file/shp/DisenoEstructuraExpansionSubcriticoGISCanalPpalLine.shp_
 
-<div align="center"><img src="graph/QGIS_PointToPath.jpg" alt="R.SIGE" width="80%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_PointToPath1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_PointToPath.jpg" alt="R.HCMC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_PointToPath1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 9. Utilizando la herramienta _Processing Toolbox / Mesh / TIN Mesh Creation_, cree la malla de la superficie 3D y guarde como _/file/dem/DisenoEstructuraExpansionSubcriticoGISCanalPpal.d2m_
 
-<div align="center"><img src="graph/QGIS_TINMeshCreation.jpg" alt="R.SIGE" width="80%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_TINMeshCreation1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_TINMeshCreation.jpg" alt="R.HCMC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_TINMeshCreation1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 10. Utilizando la herramienta _Processing Toolbox / Mesh / Rasterize mesh dataset_, convierta la malla 3D a la grilla del modelo digital de terreno de la estructura. Defina el tamaño de pixel en 0.1 metros y guarde como _/file/dem/DisenoEstructuraExpansionSubcriticoGISCanalPpal.tif_
 
-<div align="center"><img src="graph/QGIS_RasterizeMeshDataset.jpg" alt="R.SIGE" width="65%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_RasterizeMeshDataset1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_RasterizeMeshDataset.jpg" alt="R.HCMC" width="65%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_RasterizeMeshDataset1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 12. Para verificar la correcta representación de la estructura, visualice el perfil longitudinal y algunas secciones transversales. En el menú _View_, seleccione la opción _Elevation Profile_, agregue las superficies y manualmente trace ejes de muestreo.
 
-<div align="center"><img src="graph/QGIS_ElevationProfile.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_ElevationProfile1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_ElevationProfile2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_ElevationProfile3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ElevationProfile.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ElevationProfile1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ElevationProfile2.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ElevationProfile3.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 13. Utilizando la herramienta _View / 3D Map Views_, cree una representación 3D de la estructura.
 
-<div align="center"><img src="graph/QGIS_3DMapViews.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_3DMapViews.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 > Visualice y verifique la superficie creada y en caso de ser necesario, ajuste la tabla de valores o el diseño de la estructura.
 
@@ -251,7 +251,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A17/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A19/Readme.md) |
+| [:arrow_backward: Anterior](../M01A17/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/99999) | [Siguiente :arrow_forward:](../M01A19/Readme.md) |
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: 

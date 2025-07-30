@@ -3,7 +3,7 @@ Keywords: `realigment` `cross-section` `hydraulic-depth` `superficial-widtth` `r
 
 A partir de las secciones existentes en los ríos naturales a intervenir, definir las cotas de inicio y entrega del canal artificial a diseñar, la cota máxima de almacenamiento o cota de desbordamiento, la altura máxima de la sección y el ancho promedio existente del cauce dominante y/o de la llanura.
 
-<div align="center"><img src="graph/M01A06.png" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A06.png" alt="R.HCMC" width="60%" border="0" /></div>
 
 
 ## Objetivos
@@ -47,12 +47,12 @@ Tenga en cuenta las siguientes consideraciones:
 
 1. Abra el [modelo hidráulico de muestreo HEC-RAS](../../file/hec) creado en la actividad anterior, y en _Geometry Data_ cargue la geometría _GeomertyNatural_ e identifique la sección natural de inicio y entrega del eje del valle correspondientes a las abscisas 9944 m al inicio y 3253 m en la entrega.
 
-<div align="center">Sección inicio - Abscisa 9944 m<br><img src="graph/HECRAS_GeometricDataXSStart.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center">Sección entrega - Abscisa 3253 m<br><img src="graph/HECRAS_GeometricDataXSEnd.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Sección inicio - Abscisa 9944 m<br><img src="graph/HECRAS_GeometricDataXSStart.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center">Sección entrega - Abscisa 3253 m<br><img src="graph/HECRAS_GeometricDataXSEnd.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 2. En el libro de Microsoft Excel [R.HydroTools.SeccionTransvInicioEntrega.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/SeccionTransvInicioEntrega), registre los valores de estación y elevación, copiando y pegando los valores desde el visor de secciones de HEC-RAS.
 
-<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.Values.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.Values.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 3. En QGIS, agregue las capas de ríos, secciones transversales naturales y eje del valle suavizado, obtenga las coordenadas de localización del centroide de las secciones de inicio y entrega, registre en el libro de Excel.
 
@@ -65,32 +65,32 @@ Para la localización de centroides, cree y calcule en la capa de secciones tran
 | Latdd  | Real (10)  | Latitud de centroide en grados geodésicos    | x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))   |
 | Londd  | Real (10)  | Longitud de centroide en grados geodésicos   | y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))   |
 
-<div align="center"><img src="graph/QGIS_FieldCalculator.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_FieldCalculator.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 > Para el cálculo correcto del centroide geográfico se debe exportar y reproyectar la capa _RASMapper_XSCutlinesNatural.shp_ al CRS 3116, guardar como _RASMapper_XSCutlinesNatural3116.shp_
 
-<div align="center"><img src="graph/QGIS_FieldCalculator1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_XSCutlineStartEndCoordinate.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.Coordinates.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_FieldCalculator1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_XSCutlineStartEndCoordinate.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.Coordinates.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 4. Dando clic en el enlace _Ver Localización de Google Maps_ del libro de Excel, visualice la localización de las secciones.
 
-<div align="center"><img src="graph/GoogleChrome_GoogleMapsXSStart.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/GoogleChrome_GoogleMapsXSSEnd.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/GoogleChrome_GoogleMapsXSStart.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/GoogleChrome_GoogleMapsXSSEnd.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 ## 2. Estimación de anchos superficiales
 
 1. En HEC-RAS, abra el visor de secciones y manteniendo presionada la tecla <kbd>Ctrl</kbd>, mida el ancho superficial desde el punto de desbordamiento hacia el extremo opuesto de la zona del valle. Mantener presionada la tecla <kbd>Ctrl</kbd> y haga clic en los dos puntos requeridos sobre el dibujo de la sección.
 
-<div align="center"><img src="graph/HECRAS_CrossSectionMeasureLine.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/HECRAS_CrossSectionMeasureLine1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_CrossSectionMeasureLine.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_CrossSectionMeasureLine1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 2. En el libro de Excel, seleccione para cada sección, la estación de localización correspondiente al ancho superficial a izquierda y derecha, automáticamente se calculará el ancho cuyos valores están al rededor de 270 metros.
 
-<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.T.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.TStart.jpg" alt="R.SIGE" width="60%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.TEnd.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.T.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.TStart.jpg" alt="R.HCMC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.TEnd.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 
 
 ## 3. Profundidad hidráulica de la sección, perímetro mojado, área hidráulica y pendiente
@@ -99,9 +99,9 @@ En el libro de Excel, ingrese el valor de las cotas de fondo (topográfica y de 
 
 > Tenga en cuenta que la cota topográfica corresponde a la cota leida a partir del DTM y que la cota de fondo de modelación corresponde al valor que utilizará como referencia para el cálculo de la pendiente y para el diseño hidráulico de la sección de realineamiento.
 
-<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.Properties.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.Properties1a.jpg" alt="R.SIGE" width="80%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.Graph.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.Properties.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.Properties1a.jpg" alt="R.HCMC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.SeccionTransvInicioEntrega.Graph.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 ## 4. Parámetros de diseño
@@ -161,7 +161,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A05/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A07/Readme.md) |
+| [:arrow_backward: Anterior](../M01A05/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/99999) | [Siguiente :arrow_forward:](../M01A07/Readme.md) |
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: 

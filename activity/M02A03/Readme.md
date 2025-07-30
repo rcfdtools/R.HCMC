@@ -1,16 +1,15 @@
-# 2.2. Trazado de los alineamientos para el valle (eje de valle, taludes y cauces laterales)
-Keywords: `export` `aligment` `curve-spiral` `clothoid` `offset-aligment` `autodesk-civil-3d` `autodesk-autocad` `surface` `M02A02`
+# 2.3. Trazado de clotoides para el cauce sinuoso
+Keywords: `export` `aligment` `curve-spiral` `clothoid` `offset-aligment` `autodesk-civil-3d` `autodesk-autocad` `surface` `M02A03`
 
-Trazar los alineamientos correspondientes para el eje del valle y taludes para el cauce de realineamiento y cauces menores.
+Trazar el alineamiento del cauce dominante sinuoso teniendo en cuenta los parámetros geométricos de la sinuosidad definida en el diseño. Dibujar los ejes correspondientes a los taludes del cauce principal, teniendo en cuenta las consideraciones planteadas en el diseño en cuanto a no linealidad de taludes y pasos para la mecanización. Ajustar el diseño sinuoso al ancho disponible del valle. 
 
-<div align="center"><img src="graph/M02A02.png" alt="R.HCMC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M02A03.png" alt="R.HCMC" width="60%" border="0" /></div>
 
 
 ## Objetivos
 
-* Exportar los drenajes naturales de ArcMap a Autodesk AutoCAD.
-* Trazar el eje del valle usando Autodesk Civil 3D.
-* Trazar offsets o líneas paralelas que definen los ejes de bancas y taludes.
+* Trazar los ejes requeridos para el corte del cauce principal sobre terreno natural.
+* Trazar los ejes requeridos para el corte de cauces laterales sobre terreno natural.
 
 
 ## Requerimientos
@@ -19,13 +18,11 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                         | Descripción                                          |
-|:--------------------------------------------------------------------------------------|:-----------------------------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                             | QGIS 3.42 o superior.                                |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                     | Autodesk AutoCAD 2026 (english version) o superior.  |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                    | Autodesk Civil 3D 2026 (english version) o superior. |
-| [:round_pushpin:CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip)  | Capa de drenajes naturales.                          |
-| [:round_pushpin:RD_EjeValleNodo_v1.dwg](../../file/cad/acad/RD_EjeValleNodo_v1.zip)   | Eje recto del valle de realineamiento.               |
+| Requerimiento                                                                            | Descripción                                                        |
+|:-----------------------------------------------------------------------------------------|:-------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://qgis.org/)                                                | QGIS 3.42 o superior.                                              |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                       | Autodesk Civil 3D 2026 (english version) o superior.               |
+| [:round_pushpin:Civil3D_EjeValle_v0.dwg](../../file/cad/civil/Civil3D_EjeValle_v0.zip)   | Eje recto, clotoide eje suavizado del valle y offsets de taludes.  |
 
 </div>
 
@@ -34,7 +31,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## Procedimiento general
 
-R.HCMC se encuentra en proceso de actualización, consulte la versión anterior en el enlace [M02A02.pdf](M02A02.pdf).
+R.HCMC se encuentra en proceso de actualización, consulte la versión anterior en el enlace [M02A03.pdf](M02A03.pdf).
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -45,8 +42,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M02A02    | Desde QGIS, exporte la capa de drenajes naturales [/file/shp/CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip) a formato CAD, guardar el archivo como _[/file/cad/acad/CGG_DrenajeNatural_v0.dxf](../../file/cad/acad/CGG_DrenajeNatural_v0.zip)_. En el documento soporte, incluya capturas de pantalla de las herramientas de exportación utilizadas.                                                                                                                                                                           | 
-| M02A02    | En Autodesk Civil 3D, crear el alineamiento del valle y los offset de banca, nombrar como _[/file/cad/civil/Civil3D_EjeValle_v0.dwg](../../file/cad/civil/Civil3D_EjeValle_v0.zip)_. En el documento soporte, incluya capturas de pantalla de las diferentes herramientas Autodesk Civil 3D utilizadas y los alineamientos obtenidos.                                                                                                                                                                                                                | 
+| M02A02    | En Autodesk Civil 3D, crear los Sample Lines, dibuje el cauce sinuoso, trace líneas paralelas y verifique que los ejes de corona no se crucen con la línea de aferencia de la base del valle, nombrar como _[/file/cad/civil/Civil3D_Ejes_v0.dwg](../../file/cad/civil/Civil3D_Ejes_v0.zip)_. En el documento soporte, incluya capturas de pantalla de las diferentes herramientas Autodesk Civil 3D utilizadas y los alineamientos obtenidos.                                                                                                       | 
 | M02A02    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
@@ -65,8 +61,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Versión    | Descripción        | Autor                                      | Horas |
 |------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.07.29 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |   2   |
-| 2014.01.13 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |   8   |
+| 2025.07.30 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |   2   |
+| 2014.01.14 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  16   |
 
 
 ##
@@ -76,7 +72,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M02A01/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/99999) | [Siguiente :arrow_forward:](../M02A03/Readme.md) |
-|--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
+| [:arrow_backward: Anterior](../M02A02/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/99999) | [Siguiente :arrow_forward:](../M02A04/Readme.md) |
+|---------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|---------------------------------------------------|
 
 [^1]: 

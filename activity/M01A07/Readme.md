@@ -3,7 +3,7 @@ Keywords: `realigment` `river-slope` `valley-slope` `m01a07`
 
 Utilizando el modelo de muestreo en HEC-RAS y a partir de la longitud del tramo natural a reemplazar y de las secciones existentes, determinar la pendiente de referencia para el diseño geométrico e hidráulico. Dentro de las consideraciones para el diseño de la sección del canal artificial, es importante evaluar la condición de equilibrio del cauce natural existente, expresada por la pendiente del cauce dominante y el equilibrio entre la erosión y agradación del lecho determinado por la edad del cauce.
 
-<div align="center"><img src="graph/M01A07.png" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A07.png" alt="R.HCMC" width="60%" border="0" /></div>
 
 En caso de que existan restricciones de trazado y sea necesario utilizar una pendiente mayor a la pendiente del cauce natural existente a reemplazar, será necesario considerar el diseño del fondo del canal de realineamiento en la sección dominante utilizando estructuras de caída con o sin contra escalón, permitiendo así replicar la pendiente natural.
 
@@ -41,22 +41,22 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 Utilizando como referencia las abscisas de inicio y entrega del [modelo hidráulico de muestreo HEC-RAS v0](../../file/hec) evaluadas en la actividad anterior, correspondientes a 9944 m y 3253 m, la longitud del cauce natural a reemplazar o Delta X es de 6691 metros y la longitud vectorial del [tramo natural a reemplazar](../../file/shp/TramoNaturalReemplazarProyecto.zip) corresponde a 6689.9 metros. A partir de las cotas de fondo de la sección de inicio y entrega correspondientes a 64.5 m y 70.5 m, el Delta Y del cauce natural es 6 metros. 
 
-<div align="center"><img src="graph/HECRAS_RASMapperCrossSectionStartEnd.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperCrossSectionStartEnd.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 <div align="center"> S = ΔY / ΔX </div>
 
 En el libro de Microsoft Excel [R.HydroTools.PendienteCauceValle.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/PendienteCauceValle), registre la longitud y diferencia de nivel obtenida, obteniendo una pendiente de 0.0008969 m/m.
 
-<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.S1.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.S1.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 
 ## 2. Pendiente valle suavizado de realineamiento a partir de sección inicio / entrega
 
 En la actividad [M01A03](../M01A03), realizamos el trazado y suavizado del valle de realineamiento, obteniendo una longitud de valle suavizado correspondiente a 5158.536 metros. Para la diferencia de nivel Y entre las secciones de inicio y entrega, el valor de pendiente de diseño del valle equivale a 0.0011631 m/m. Registre los valores en el libro de Excel.
 
-<div align="center"><img src="graph/HECRAS_RASMapperCrossSectionStartEnd1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperCrossSectionStartEnd1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
-<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.S2.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.S2.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 
 ## 3. Pendiente promedio a partir de múltiples secciones transversales
@@ -65,21 +65,21 @@ Utilizando como referencia las cotas de fondo del Thalweg obtenidas a partir de 
 
 1. En HEC-RAS, abra el visor 2D de _Geometry Data_ y la geometría _GeometryNatural_.
 
-<div align="center"><img src="graph/HECRAS_RASMapperGeometryDataNatural.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperGeometryDataNatural.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 2. Seleccione el cauce natural y cree visualice el perfil de los dos tramos del cauce principal.
 
-<div align="center"><img src="graph/HECRAS_RASMapperProfile.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_RASMapperProfile.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 3. En el menú _File_, seleccione la herramienta _Copy Values To Clipboard_. En un nuevo libro de Microsoft Excel, pegue estos valores. Podrá observar que las columnas Ground, LOB y ROB contienen las abscisas y las cotas del Thalweg y cota en las bancas izquierda y derecha. Elimine las filas duplicadas y vacías.
 
-<div align="center"><img src="graph/Excel_GroudValues.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/Excel_GroudValues.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 4. En el libro de Excel de análisis de pendiente, pegue los valores de terreno o ground correspondiente a las filas entre las abscicas 3253 y 9944 m. Automáticamente serán calculadas las diferencias entre abscisas, diferencias entre cotas, pendientes por pares de secciones y la pendiente promedio correpondiente a 0.0010469 m/m para una longitud de tramo de 6617.5 metros. 
 
-<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.S3.jpg" alt="R.SIGE" width="80%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.S3a.jpg" alt="R.SIGE" width="80%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.S3b.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.S3.jpg" alt="R.HCMC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.S3a.jpg" alt="R.HCMC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.S3b.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 
 ## 4. Análisis de pendiente de diseño
@@ -88,9 +88,9 @@ Utilizando como referencia las cotas de fondo del Thalweg obtenidas a partir de 
 
 A partir de los análisis, las pendientes a considerar en el diseño son:
 
-<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.Analysis.jpg" alt="R.SIGE" width="80%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.Analysis1.jpg" alt="R.SIGE" width="65%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.Analysis2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.Analysis.jpg" alt="R.HCMC" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.Analysis1.jpg" alt="R.HCMC" width="65%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.PendienteCauceValle.Analysis2.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 Para el diseño del cauce sinuoso, utilizaremos como referencia una pendiente de 0.0008969 m/m para replicar la pendiente del cauce natural actual a reemplazar.
 
@@ -137,7 +137,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A06/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A08/Readme.md) |
+| [:arrow_backward: Anterior](../M01A06/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/99999) | [Siguiente :arrow_forward:](../M01A08/Readme.md) |
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: 

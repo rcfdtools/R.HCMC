@@ -3,7 +3,7 @@ Keywords: `realigment`  `hydraulics` `hydraulic-design` `sinusoidal-river-design
 
 A partir de la estimación de los radios de curvatura característicos de los meandros o las ondas existentes en el cauce natural a reemplazar, el índice de sinuosidad y los anchos de sección diseñados hidráulicamente para el transporte del caudal dominante y creciente, determinar los atributos geométricos requeridos para el trazado del cauce sinuoso.
 
-<div align="center"><img src="graph/M01A15.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A15.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 
 
 ## Objetivos
@@ -43,7 +43,7 @@ Para el diseño sinuoso son requeridos los parámetros geométricos obtenidos en
 
 > Estos valores serán utilizados para el trazado de ejes en Autodesk Civil 3D.
 
-<div align="center"><img src="graph/SeccionCompuestaDiseño.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/SeccionCompuestaDiseño.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 
 
 ### Geometría y solución trigonométrica de una onda sinuosa
@@ -57,8 +57,8 @@ Para el diseño sinuoso son requeridos los parámetros geométricos obtenidos en
 * ϴ: Radio de apertura.
 * Lc: Longitud del valle suavizado.
 
-<div align="center"><img src="graph/TrigonometriaOndaSinuosa.jpg" alt="R.SIGE" width="70%" border="0" /></div>
-<div align="center"><img src="graph/TrigonometriaOndaSinuosa1.jpg" alt="R.SIGE" width="60%" border="0" /></div>
+<div align="center"><img src="graph/TrigonometriaOndaSinuosa.jpg" alt="R.HCMC" width="70%" border="0" /></div>
+<div align="center"><img src="graph/TrigonometriaOndaSinuosa1.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 
 > El parámetro _n_ corresponde al número de ondas sinuosas requeridas.
 
@@ -92,7 +92,7 @@ Al ancho de la base del valle disponible se le debe descontar un ancho de separa
 > 
 > Ejemplo: si el ancho disponible en la base del valle es de 160 m, se debe realizar el diseño sinuoso para un ancho máximo de 150 m. En el trazado de ejes usando Autodesk Civil 3D se dibuja el corredor de 160 m, un offset de 5 m a cada lado y las curvas externas se trazan dentro del corredor efectivo libre para garantizar la separación y no co-alineación de taludes.
 
-<div align="center"><img src="graph/PrevencionCoalineacion.jpg" alt="R.SIGE" width="70%" border="0" /></div>
+<div align="center"><img src="graph/PrevencionCoalineacion.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 
 ## 1. Diseño sinuoso 1 - Conservando la longitud del río natural a reemplazar
@@ -106,26 +106,26 @@ Parámetros:
 
 1. En el libro de diseño [R.HydroTools.DisenoSinuosoCanal.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoSinuosoCanal), ingrese la longitud de la llanura o valle suavizado `Lc` y con la herramienta _Data / What-if Analysis / Goal seek_ (Buscar objetivo), busque la longitud del cauce cambiando el factor o índice de sinuosidad. Obtendrá un factor de 1.297, mismo valor obtenido en la actividad [M01A10](../M01A10).
 
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.GoalSeekFs.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.GoalSeekFs.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 > En versiones antiguas de Microsoft Excel, ir al menú _Datos / Pruebas de Hipótesis / Función Objetivo_. 
 
 2. En QGIS, mida el radio aproximado de curvatura de las ondas de los cauces usando la capa de la red de drenaje natural. Obtendrá un valor de referencia de aproximadamente 90 metros. Registre este valor en el campo `Rc` del libro de diseño.
 
-<div align="center"><img src="graph/QGIS_Rc.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/QGIS_Rc1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Rc.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Rc1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 > El tercer valor `Rc` registrado, corresponde al radio a utilizar en el diseño geométrico. Un valor aproximado será resuelto para la geometría de entrada usando _Solver_ de Excel.
 
 3. En _Excel / File / Options / Add-ins_, active el complemento Solver.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.AddInSolver.jpg" alt="R.SIGE" width="30%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.AddInSolver.jpg" alt="R.HCMC" width="30%" border="0" /></div>
 
 4. En el tercer valor del campo _Rc_, ingrese un 1 como valor de entrada del radio de curvatura a resolver y en _αSem_ también ingrese 1. 
 
 > Tenga en cuenta que los métodos numéricos de Solver, podrá encontrar múltiples soluciones o raíces de las ecuaciones para los parámetros de entrada, utilice la primer solución para los valores de referencia ingresados.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Rc.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Rc.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 5. De clic en el botón `(2A). Estimar α y Rc máximo. Solver`, automáticamente será calculado el valor de `Rc` y el ángulo _α_ de deflexión de la onda en radianes. Obtendrá un Rc de 81.9 m y alpha en 1.139 radianes o 65.25 grados.
 
@@ -136,17 +136,17 @@ Para la solución con Solver, utilizaremos las siguientes restricciones y config
 * tetta <= 179, máxima deflexión o curvatura que que permita generar un cauce sinuoso.
 * Solving method: GRG Nonlinear (constraint precisión = 0.0001, convergence = 0.0001)
 
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.SolverRc.jpg" alt="R.SIGE" width="70%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.SolverRc1.jpg" alt="R.SIGE" width="40%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.SolverRc2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.SolverRc.jpg" alt="R.HCMC" width="70%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.SolverRc1.jpg" alt="R.HCMC" width="40%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.SolverRc2.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 6. Ajuste manualmente el Rc de diseño a 82 m y de clic en el botón `(2D). Calcular α para Rc de diseño. Goal seek` para recalcular el ángulo de deflexión, obtendrá un  alpha en 1.139 radianes o 65.24 grados.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.SolverRc3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.SolverRc3.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 7. En la parte inferior del libro de diseño, ingrese el ancho superior de la corona `b` del cauce dominante, correspondiente a 82 metros, el ancho en la base de la llanura descontando los anchos de prevención de coalineación, correspondiente a 199.2 m, el valor de coalineación lateral correspondiente a 5 metros y la diferencia de nivel Δy entre los fondos de la sección de inicio y entrega correspondiente a 6 m.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.DrawAttributes.jpg" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.DrawAttributes.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 8. Verifique los parámetros de dibujo geométrico obtenidos para las ondas sinuosas y verifique que las pendientes del cauce sinuoso y valle suavizado corresponde a las pendientes de diseño.
 
@@ -166,18 +166,18 @@ Resultados obtenidos y atributos para el dibujo en Autodesk® Civil 3D o en Auto
 
 Para el cálculo de la pendiente, la diferencia de nivel respecto a las cotas de inicio y fondo entre las secciones de inicio y entrega es de 6 metros.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.DrawResults.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.DrawResults1.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.DrawResults.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.DrawResults1.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 
 ## 2. Diseño sinuoso 2 - Determinando la longitud del río natural aplicando el factor de sinuosidad característico estimado para la cuenca a intervenir
 
 Utilizando el factor de sinuosidad característico obtenido en la actividad [M01A10](../M01A10), correspondiente al análisis a partir de la simplificación del valle utilizando un radio de 180 metros, a través del cual se pudo determinar un valor de 1.1733 a partir de la ecuación de regresión **y = 0.8629 * x<sup>0.0349</sup>**, donde x corresponde a un cauce con longitud de 6689.9 m, estime los parámetros de diseño del cauce sinuoso.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design2.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design2a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design2b.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design2c.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design2.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design2a.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design2b.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design2c.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 Resultados obtenidos y atributos para el dibujo en Autodesk® Civil 3D o en Autocad.
 
@@ -198,10 +198,10 @@ Resultados obtenidos y atributos para el dibujo en Autodesk® Civil 3D o en Auto
 
 Utilizando el valor límite entre cauce sinuoso y meandriforme, correspondiente a 1.5, estime los parámetros de diseño del cauce sinuoso.
 
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design3.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design3a.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design3b.jpg" alt="R.SIGE" width="100%" border="0" /></div>
-<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design3c.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design3.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design3a.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design3b.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoSinuosoCanal.Design3c.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
 Resultados obtenidos y atributos para el dibujo en Autodesk® Civil 3D o en Autocad.
 
@@ -271,7 +271,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M01A14/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.SIGE/discussions/99999) | [Siguiente :arrow_forward:](../M01A16/Readme.md) |
+| [:arrow_backward: Anterior](../M01A14/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/99999) | [Siguiente :arrow_forward:](../M01A16/Readme.md) |
 |--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: 

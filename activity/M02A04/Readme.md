@@ -1,15 +1,16 @@
-# 2.3. Trazado de clotoides para el cauce sinuoso
+# 2.4. Trazado del corredor para el valle
 Keywords: `aligment` `curve-spiral` `clothoid` `offset-aligment` `autodesk-civil-3d` `autodesk-autocad` `surface` `M02A03`
 
-Trazar el alineamiento del cauce dominante sinuoso teniendo en cuenta los parámetros geométricos de la sinuosidad definida en el diseño. Dibujar los ejes correspondientes a los taludes del cauce principal, teniendo en cuenta las consideraciones planteadas en el diseño en cuanto a no linealidad de taludes y pasos para la mecanización. Ajustar el diseño sinuoso al ancho disponible del valle. 
+Utilizando Autodesk Civil 3D se dibujan las secciones transversales para el corte y/o relleno del valle sobre el modelo de terreno natural.
 
-<div align="center"><img src="graph/M02A03.png" alt="R.HCMC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M02A04.png" alt="R.HCMC" width="60%" border="0" /></div>
 
 
 ## Objetivos
 
-* Trazar los ejes requeridos para el corte del cauce principal sobre terreno natural.
-* Trazar los ejes requeridos para el corte de cauces laterales sobre terreno natural.
+* Crear las secciones de corte para la sección definida del valle de creciente.
+* Crear las leyes de corte y relleno para la sección del Valle.
+* Crear el corredor para el valle, cortando el MDT definido para la planicie.
 
 
 ## Requerimientos
@@ -18,11 +19,11 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                            | Descripción                                                                                                         |
-|:-----------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                                | QGIS 3.42 o superior.                                                                                               |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                       | Autodesk Civil 3D 2026 (english version) o superior.                                                                |
-| [:round_pushpin:Civil3D_EjeValle_v0.dwg](../../file/cad/civil/Civil3D_EjeValle_v0.zip)   | Archivo Autodesk Civil 3D con: eje recto del valle, clotoide eje suavizado del valle y offsets de taludes de valle. |
+| Requerimiento                                                                  | Descripción                                                                                                                                                           |
+|:-------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://qgis.org/)                                      | QGIS 3.42 o superior.                                                                                                                                                 |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)             | Autodesk Civil 3D 2026 (english version) o superior.                                                                                                                  |
+| [:round_pushpin:Civil3D_Ejes_v0.dwg](../../file/cad/civil/Civil3D_Ejes_v0.zip) | Archivo Autodesk Civil 3D con: eje recto del valle, clotoide eje suavizado del valle, offsets de taludes de valle, sample lines, cauce sinuoso, offset cauce sinuoso. |
 
 </div>
 
@@ -31,7 +32,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## Procedimiento general
 
-R.HCMC se encuentra en proceso de actualización, consulte la versión anterior en el enlace [M02A03.pdf](M02A03.pdf).
+R.HCMC se encuentra en proceso de actualización, consulte la versión anterior en el enlace [M02A04.pdf](M02A04.pdf).
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -73,7 +74,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M02A02/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/99999) | [Siguiente :arrow_forward:](../M02A04/Readme.md) |
+| [:arrow_backward: Anterior](../M02A03/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/99999) | [Siguiente :arrow_forward:](../M02A05/Readme.md) |
 |---------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|---------------------------------------------------|
 
 [^1]: 

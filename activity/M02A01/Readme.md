@@ -24,8 +24,8 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | [:toolbox:Herramienta](https://qgis.org/)                                                | QGIS 3.42 o superior.                                |
 | [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                        | Autodesk Autocad 2026 (english version) o superior.  |
 | [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                       | Autodesk Civil 3D 2026 (english version) o superior. |
-| [:round_pushpin:CGG_CurvaNivelLidar_v0.shp](../../file/shp/CGG_CurvaNivelLidar_v0.zip)   | Capa de curvas de nivel.                             |
-| [:round_pushpin:CGG_CurvaNivelLidar_v1.shp](../../file/shp/CGG_CurvaNivelLidar_v1.zip)   | Capa de curvas de nivel recortadas.                  |
+| [:round_pushpin:CGG_CurvaNivelLidar_v0.shp](../../file/shp/CGG_CurvaNivelLidar_v0.zip)   | Capa geográfica de curvas de nivel.                  |
+| [:round_pushpin:CGG_CurvaNivelLidar_v1.shp](../../file/shp/CGG_CurvaNivelLidar_v1.zip)   | Capa geográfica de curvas de nivel recortadas.       |
 
 </div>
 

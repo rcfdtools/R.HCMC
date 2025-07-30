@@ -9,12 +9,12 @@ Dibujo de estructuras hidráulicas e incorporación al modelo de terreno.
 ## Objetivos
 
 * Dibujar en Autodesk Civil 3D, el corredor y los taludes del paso de vía.
-* Dibujar en Autodesk Civil 3D, los diques de encausamiento en la zona de inicio y entrega que hacen parte de las expansiones y contracciones diseñada para el empalme del cauce natural al cauce de realineamiento y en las zonas de paso de vía si se realizó su diseño considerando sobreancho.
+* Dibujar en Autodesk Civil 3D, los diques de encausamiento en la zona de inicio y entrega, que hacen parte de las expansiones y contracciones diseñadas para el empalme del cauce natural al cauce de realineamiento y en las zonas de paso de vía, si se realizó su diseño considerando el sobreancho requerido por las alcantarillas.
 * Dibujar en Autodesk Civil 3D, las estructuras de caída o de control de fondo (con y sin dentellón), en el caso de que el fondo del valle haya sido definido con este tipo de estructuras.
 * Dibujar en Autodesk Civil 3D, la estructura escalonada de entrega de uno de los cauces naturales laterales que entregan al canal de realineamiento. 
 * Dibujar en Autodesk Civil 3D, la estructura rápida de entrega de uno de los cauces naturales laterales que entregan al canal de realineamiento. 
 * Exportar a Autodesk AutoCAD, las superficies 3D de las diferentes estructuras diseñadas y dibujadas.
-* Exportar e integrar las superficies 3D de las estructuras al MDT integrado del valle y el río en formato .dwg.
+* Incorporar las superficies 3D de las estructuras, al MDT integrado del valle y río en formato de AutoCAD.
 
 
 ## Requerimientos
@@ -28,7 +28,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | [:toolbox:Herramienta](https://qgis.org/)                                                       | QGIS 3.42 o superior.                                                                                                                |
 | [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                              | Autodesk Civil 3D 2026 (english version) o superior.                                                                                 |
 | [:round_pushpin:Civil3D_SolidoSinuoso_v1.dwg](../../file/cad/acad/Civil3D_SolidoSinuoso_v1.zip) | Archivo Autodesk AutoCAD con: sólido que integra las superficies del valle y cauce sinuoso diseñado y trazado con Autodesk Civil 3D. |
-| [Diseño de paso de vía](../m01a16/Readme.md)                                                    | Diseño geométrico de pasos de vía en canales usando alcantarillas por área equivalente a descarga libre.                             |
+| [Actividad / Diseño de paso de vía](../m01a16/Readme.md)                                        | Diseño geométrico de pasos de vía en canales usando alcantarillas por área equivalente a descarga libre.                             |
 
 </div>
 
@@ -37,7 +37,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## Procedimiento general
 
-Siga en clase, las indicaciones del instructor para el dibujo y creación de las superficies de las diferentes estructuras hidráulicas requeridas, así como su integración con el MDT integrado del valle suavizado y el río sinuoso. 
+Siga en clase, las indicaciones del instructor para el dibujo y creación de las superficies de las diferentes estructuras hidráulicas requeridas, así como su incorporación al MDT integrado del valle suavizado y el río sinuoso. 
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -48,7 +48,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M02A07    | Siga en clase, las indicaciones del instructor para el dibujo y creación de las superficies de las diferentes estructuras hidráulicas requeridas, así como su integración con el MDT integrado del valle suavizado y el río sinuoso.                                                                                                                                                                                                                                                                                                                 |  
+| M02A07    | Siga en clase, las indicaciones del instructor para el dibujo y creación de las superficies de las diferentes estructuras hidráulicas requeridas, así como su incorporación al MDT integrado del valle suavizado y el río sinuoso.                                                                                                                                                                                                                                                                                                                   |  
 | M02A07    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.

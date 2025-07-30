@@ -8,9 +8,9 @@ Trazar los alineamientos correspondientes para el eje del valle y taludes para e
 
 ## Objetivos
 
-* Exportar los drenajes naturales de ArcMap a AutoCAD.
-* Trazar el eje del valle usando Civil 3D.
-* Trazar los Offsets.
+* Exportar los drenajes naturales de ArcMap a Autodesk AutoCAD.
+* Trazar el eje del valle usando Autodesk Civil 3D.
+* Trazar offsets o líneas paralelas que definen los ejes de bancas y taludes.
 
 
 ## Requerimientos
@@ -19,13 +19,13 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                         | Descripción                            |
-|:--------------------------------------------------------------------------------------|:---------------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                             | QGIS 3.42 o superior.                  |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                     | Autodesk AutoCAD 2026 o superior.      |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                    | Autodesk Civil 3D 2026 o superior.     |
-| [:round_pushpin:CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip)  | Capa de drenajes naturales.            |
-| [:round_pushpin:RD_EjeValleNodo_v1.dwg](../../file/cad/acad/RD_EjeValleNodo_v1.zip)   | Eje recto del valle de realineamiento. |
+| Requerimiento                                                                         | Descripción                                          |
+|:--------------------------------------------------------------------------------------|:-----------------------------------------------------|
+| [:toolbox:Herramienta](https://qgis.org/)                                             | QGIS 3.42 o superior.                                |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                     | Autodesk AutoCAD 2026 (english version) o superior.  |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                    | Autodesk Civil 3D 2026 (english version) o superior. |
+| [:round_pushpin:CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip)  | Capa de drenajes naturales.                          |
+| [:round_pushpin:RD_EjeValleNodo_v1.dwg](../../file/cad/acad/RD_EjeValleNodo_v1.zip)   | Eje recto del valle de realineamiento.               |
 
 </div>
 

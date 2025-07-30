@@ -49,8 +49,6 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 > Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 >
 > Nota 2: una vez el instructor realice la revisión y el estudiante presente las correcciones o ajustes solicitados, será necesario cargar una nueva versión de los archivos en el repositorio del proyecto, incluyendo o actualizando al final del nombre del archivo, la fecha de presentación en formato aaaammdd y manteniendo las versiones anteriores presentadas.
->
-> Nota 3: en caso de que el proyecto lo requiera, deberá considerar modificar la superficie creada incluyendo los diques de encausamiento localizados al inicio del canal diseñado y los diques de protección en la zona de descarga. También se hace necesario considerar el trazado de diques de encausamiento en las zonas de entrega de cauces laterales hasta la cota de confinamiento hidráulico definida por la corona del valle en el cauce principal.
 
 
 ## Referencias

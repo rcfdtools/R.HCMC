@@ -23,7 +23,6 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 |:-----------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://qgis.org/)                                                | QGIS 3.42 o superior.                                                                                                                                                 |
 | [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                       | Autodesk Civil 3D 2026 (english version) o superior.                                                                                                                  |
-| [:round_pushpin:Civil3D_Ejes_v0.dwg](../../file/cad/civil/Civil3D_Ejes_v0.zip)           | Archivo Autodesk Civil 3D con: eje recto del valle, clotoide eje suavizado del valle, offsets de taludes de valle, sample lines, cauce sinuoso, offset cauce sinuoso. |
 | [:round_pushpin:Civil3D_EjeValle_v0.dwg](../../file/cad/civil/Civil3D_EjeValle_v0.zip)   | Archivo Autodesk Civil 3D con: eje recto del valle, clotoide eje suavizado del valle y offsets de taludes de valle. |
 
 </div>

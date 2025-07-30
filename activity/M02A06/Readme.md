@@ -1,5 +1,5 @@
 # 2.6. Modelo de terreno combinado (valle, cauce sinuoso diseñado y cauces laterales)
-Keywords: `aligment` `curve-spiral` `clothoid` `offset-aligment` `autodesk-civil-3d` `autodesk-autocad` `surface` `M02A06`
+Keywords: `aligment` `curve-spiral` `clothoid` `offset-aligment` `autodesk-civil-3d` `autodesk-autocad` `surface` `m02a06`
 
 Crear el modelo de terreno combinado para el canal, incluyendo el valle y el cauce sinuoso.
 

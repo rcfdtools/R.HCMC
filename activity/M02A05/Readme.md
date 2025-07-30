@@ -1,9 +1,9 @@
-# 2.4. Trazado del corredor para el valle
-Keywords: `aligment` `curve-spiral` `clothoid` `offset-aligment` `autodesk-civil-3d` `autodesk-autocad` `surface` `M02A03`
+# 2.5. Modelo de terreno con la geometría del canal sinuoso diseñado y cauces laterales
+Keywords: `aligment` `curve-spiral` `clothoid` `offset-aligment` `autodesk-civil-3d` `autodesk-autocad` `surface` `M02A05`
 
 Utilizando Autodesk Civil 3D se dibujan las secciones transversales para el corte y/o relleno del valle sobre el modelo de terreno natural.
 
-<div align="center"><img src="graph/M02A04.png" alt="R.HCMC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M02A05.png" alt="R.HCMC" width="60%" border="0" /></div>
 
 
 ## Objetivos
@@ -32,7 +32,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## Procedimiento general
 
-R.HCMC se encuentra en proceso de actualización, consulte la versión anterior en el enlace [M02A04.pdf](M02A04.pdf).
+R.HCMC se encuentra en proceso de actualización, consulte la versión anterior en el enlace [M02A05.pdf](M02A05.pdf).
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -61,10 +61,10 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 ## Control de versiones
 
-| Versión    | Descripción        | Autor                                     | Horas |
-|------------|:-------------------|-------------------------------------------|:-----:|
-| 2025.07.30 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools) |   2   |
-| 2014.01.14 | Versión inicial.   | [frankv13](https://github.com/frankv13)   |  16   |
+| Versión      | Descripción        | Autor                                     | Horas |
+|--------------|:-------------------|-------------------------------------------|:-----:|
+| 2025.07.30   | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools) |   2   |
+| 2014.01.15   | Versión inicial.   | [frankv13](https://github.com/frankv13)   |  10  |
 
 
 ##
@@ -74,7 +74,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M02A03/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/99999) | [Siguiente :arrow_forward:](../M02A05/Readme.md) |
+| [:arrow_backward: Anterior](../M02A04/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/99999) | [Siguiente :arrow_forward:](../M02A06/Readme.md) |
 |---------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|---------------------------------------------------|
 
 [^1]: 

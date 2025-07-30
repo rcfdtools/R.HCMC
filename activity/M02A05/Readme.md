@@ -1,16 +1,17 @@
 # 2.5. Modelo de terreno con la geometría del canal sinuoso diseñado y cauces laterales
 Keywords: `aligment` `curve-spiral` `clothoid` `offset-aligment` `autodesk-civil-3d` `autodesk-autocad` `surface` `M02A05`
 
-Utilizando Autodesk Civil 3D se dibujan las secciones transversales para el corte y/o relleno del valle sobre el modelo de terreno natural.
+Utilizando Autodesk Civil 3D se dibujan las secciones transversales para el corte y/o relleno del cauce dominante sobre el modelo de terreno creado para el corredor del valle.
 
 <div align="center"><img src="graph/M02A05.png" alt="R.HCMC" width="60%" border="0" /></div>
 
 
 ## Objetivos
 
-* Crear las secciones de corte para la sección definida del valle de creciente.
-* Crear las leyes de corte y relleno para la sección del Valle.
-* Crear el corredor para el valle, cortando el MDT definido para la planicie.
+* Crear las secciones de corte para la sección definida del cauce sinuoso.
+* Crear las leyes de corte y relleno para la sección del cauce sinuoso.
+* Crear el corredor para el cauce sinuoso.
+* Crear el modelo de terreno combinado valle y cauce sinuoso.
 
 
 ## Requerimientos
@@ -19,11 +20,12 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                            | Descripción                                                                                                                                                           |
-|:-----------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                                | QGIS 3.42 o superior.                                                                                                                                                 |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                       | Autodesk Civil 3D 2026 (english version) o superior.                                                                                                                  |
-| [:round_pushpin:Civil3D_EjeValle_v0.dwg](../../file/cad/civil/Civil3D_EjeValle_v0.zip)   | Archivo Autodesk Civil 3D con: eje recto del valle, clotoide eje suavizado del valle y offsets de taludes de valle. |
+| Requerimiento                                                                                            | Descripción                                                                                                                                                           |
+|:---------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://qgis.org/)                                                                | QGIS 3.42 o superior.                                                                                                                                                 |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                                       | Autodesk Civil 3D 2026 (english version) o superior.                                                                                                                  |
+| [:round_pushpin:Civil3D_Ejes_v0.dwg](../../file/cad/civil/Civil3D_Ejes_v0.zip)                           | Archivo Autodesk Civil 3D con: eje recto del valle, clotoide eje suavizado del valle, offsets de taludes de valle, sample lines, cauce sinuoso, offset cauce sinuoso. |
+| [:round_pushpin:Civil3D_MDT_CorredorValle_v1.dwg](../../file/cad/civil/Civil3D_MDT_CorredorValle_v1.zip) | Archivo Autodesk Civil 3D con: DTM planicie y corredor del valle suavizado con relleno lateral de corte a -6:1, [v2](2) con corredor a -3:1.                          |
 
 </div>
 

@@ -1,3 +1,11 @@
+✓Δ°Σβθαπ∑√±πØμ
+<kbd>esc</kbd>
+<kbd>enter</kbd>
+<kbd>ctrl</kbd>
+<kbd>ctrl</kbd>+<kbd>i</kbd>
+Windows + shift + S for print screen
+
+
 Actividades pendientes:
 	Check cad files path.
 	Estructuras - Bifurcación.

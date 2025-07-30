@@ -52,6 +52,9 @@ Lib/
 *.results
 *.dwg
 *.dxf
+*.dwl
+*.dwl1
+*.dwl2
 *.qmd
 *.2dm
 *.bak

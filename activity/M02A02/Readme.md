@@ -19,13 +19,14 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                         | Descripción                                                          |
-|:--------------------------------------------------------------------------------------|:---------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                             | QGIS 3.42 o superior.                                                |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                     | Autodesk AutoCAD 2026 (english version) o superior.                  |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                    | Autodesk Civil 3D 2026 (english version) o superior.                 |
-| [:round_pushpin:CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip)  | Capa geográfica de drenajes naturales.                               |
-| [:round_pushpin:RD_EjeValleNodo_v1.dwg](../../file/cad/acad/RD_EjeValleNodo_v1.zip)   | Archivo Autodesk AutoCAD con: eje recto del valle de realineamiento. |
+| Requerimiento                                                                                                                     | Descripción                                                                                                                                                                                      |
+|:----------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://qgis.org/)                                                                                         | QGIS 3.42 o superior.                                                                                                                                                                            |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                                                                 | Autodesk AutoCAD 2026 (english version) o superior.                                                                                                                                              |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                                                                | Autodesk Civil 3D 2026 (english version) o superior.                                                                                                                                             |
+| [:round_pushpin:CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip)                                              | Capa geográfica de drenajes naturales.                                                                                                                                                           |
+| [:round_pushpin:RD_EjeValleNodo_v1.dwg](../../file/cad/acad/RD_EjeValleNodo_v1.zip)                                               | Archivo Autodesk AutoCAD con: eje recto del valle de realineamiento.                                                                                                                             |
+| [:mortar_board:Actividad 1.3. Trazado del eje de valle y estimación de radios de curvatura para suavizado](../M01A20/Readme.md)   | Establecer los puntos para el trazado del eje de valle y estimar los radios de curvatura que permitan trazar el corredor del alineamiento del valle suavizado requerido para el diseño sinuoso.  |
 
 </div>
 

@@ -136,7 +136,7 @@ Zona de entrega
 
 ## 6. Exportación de vectores a CAD
 
-1. Desde el menu _Project_, seleccionar la opción _Importar / Exportar / Export Project to DXF_, seleccionar las capas de drenajes, eje suavizado del valle, curvas de nivel y opcionalmente las aristas del modelo triangulado. Guardar como _/file/cad/DTM_QGISVectoresTerrenoNatural_v0.dxf_
+1. Desde el menu _Project_, seleccionar la opción _Importar / Exportar / Export Project to DXF_, seleccionar las capas de drenajes, eje suavizado del valle, curvas de nivel y opcionalmente las aristas del modelo triangulado. Guardar como _/file/cad/acad/DTM_QGISVectoresTerrenoNatural_v0.dxf_
 
 <div align="center"><img src="graph/QGIS_ExportProjectToDXF.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 

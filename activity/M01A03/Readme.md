@@ -200,13 +200,13 @@ PLine
 
 <div align="center"><img src="graph/AutodeskCivil3D_Fillet.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-> Para el eje de su proyecto, es posible que en algunos cambios de dirección no pueda ser resuelta la entre tangencia debido al ángulo de giro, por lo que es necesario encontrar un radio que permita resolver la clotoide. Como estrtategia, puede buscar el mayor radio de curvatura cercano al radio de diseño en los puntos con menor deflexión (o menor ángulo de giro) y resolver con entre tangencia cercana a cero. 
+> Para el eje de su proyecto, es posible que en algunos cambios de dirección no pueda ser resuelta la entre tangencia debido al ángulo de giro, por lo que es necesario encontrar un radio que permita resolver la clotoide. Como entre tangencia, puede buscar el mayor radio de curvatura cercano al radio de diseño en los puntos con menor deflexión (o menor ángulo de giro) y resolver con entre tangencia cercana a cero. 
 
 4. Utilizando el comando _List_, consulte las propiedades de la poli-línea, podrá observar que su longitud es de 5158.536 metrtos.
 
 <div align="center"><img src="graph/AutodeskCivil3D_List.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-5. Guarde el archivo en formato .dxf como _/file/cad/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.dxf_ y luego visualice en QGIS.
+5. Guarde el archivo en formato .dxf como _/file/cad/acad/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.dxf_ y luego visualice en QGIS.
 
 <div align="center"><img src="graph/AutodeskCivil3D_SaveDrawingAsDxf.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
@@ -258,9 +258,9 @@ Cuando sea necesario modificar el alineamiento trazado, seleccionar y dar clic d
 
 <div align="center"><img src="graph/AutodeskCivil3D_CreateAlignment6.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
-5. Guarde el archivo de Autodesk Civil 3D como _/file/cad/RD_EjeValleSuavizado_AutodeskCivil3DAligment.dwg_.
+5. Guarde el archivo de Autodesk Civil 3D como _/file/cad/civil/RD_EjeValleSuavizado_AutodeskCivil3DAligment.dwg_.
 
-6. Exportar el modelo Civil 3D a Autocad. En el menú _Output_ seleccionar la opción _Export Civil 3D Drawing_, nombre como _/file/cad/RD_EjeValleSuavizado_AutodeskCivil3DAligmentAcad.dwg_ utilizando para ello el sufijo _Acad_, no incluya los Layouts o sheets.
+6. Exportar el modelo Civil 3D a Autocad. En el menú _Output_ seleccionar la opción _Export Civil 3D Drawing_, nombre como _/file/cad/acad/RD_EjeValleSuavizado_AutodeskCivil3DAligmentAcad.dwg_ utilizando para ello el sufijo _Acad_, no incluya los Layouts o sheets.
 
 <div align="center"><img src="graph/AutodeskCivil3D_ExportCivil3DDrawing.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 <div align="center"><img src="graph/AutodeskCivil3D_ExportCivil3DDrawing1.jpg" alt="R.SIGE" width="40%" border="0" /></div>

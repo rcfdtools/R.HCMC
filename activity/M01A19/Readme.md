@@ -131,7 +131,7 @@ Para la ilustración del DTM, realizaremos un ajuste en el ancho de la sección 
 
 <div align="center"><img src="graph/QGIS_TINMeshCreation1.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
-7. Vuelva a abrir QGIS y exporte a formato DXF los 144 nodos que componen la estructura, guarde como _/file/cad/DisenoEstructuraEscalonadaFlujoRasanteGIS.dxf_.
+7. Vuelva a abrir QGIS y exporte a formato DXF los 144 nodos que componen la estructura, guarde como _/file/cad/acad/DisenoEstructuraEscalonadaFlujoRasanteGIS.dxf_.
 
 <div align="center"><img src="graph/QGIS_SaveVectorLayerAsDxf.jpg" alt="R.SIGE" width="60%" border="0" /></div>
 
@@ -146,7 +146,7 @@ Agregue las entidades DXF al mapa y verifique su localización.
 
 <div align="center"><img src="graph/Civil3D_OpenDxf.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-9. Guarde el archivo DXF como un archivo de AutoCAD como /file/cad/DisenoEstructuraEscalonadaFlujoRasanteGIS.dwg.
+9. Guarde el archivo DXF como un archivo de AutoCAD como /file/cad/acad/DisenoEstructuraEscalonadaFlujoRasanteGIS.dwg.
 
 <div align="center"><img src="graph/Civil3D_SaveAsDwg.jpg" alt="R.SIGE" width="70%" border="0" /></div>
 
@@ -182,7 +182,7 @@ Acérquese y visualice los escalones de la estructura.
 
 <div align="center"><img src="graph/Civil3D_ExtractObjects.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-16. Desde el botón de menú Civil 3D, guarde el archivo en formato DXF versión 2007 como _/file/cad/DisenoEstructuraEscalonadaFlujoRasanteGISTriangle.dxf_
+16. Desde el botón de menú Civil 3D, guarde el archivo en formato DXF versión 2007 como _/file/cad/acad/DisenoEstructuraEscalonadaFlujoRasanteGISTriangle.dxf_
 
 <div align="center"><img src="graph/Civil3D_SaveDrawingAsDxf.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 

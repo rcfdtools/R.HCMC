@@ -28,7 +28,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | [:toolbox:Herramienta](https://qgis.org/)                                                       | QGIS 3.42 o superior.                                                                                                                |
 | [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                              | Autodesk Civil 3D 2026 (english version) o superior.                                                                                 |
 | [:round_pushpin:Civil3D_SolidoSinuoso_v1.dwg](../../file/cad/acad/Civil3D_SolidoSinuoso_v1.zip) | Archivo Autodesk AutoCAD con: sólido que integra las superficies del valle y cauce sinuoso diseñado y trazado con Autodesk Civil 3D. |
-| [Actividad / Diseño de paso de vía](../m01a16/Readme.md)                                        | Diseño geométrico de pasos de vía en canales usando alcantarillas por área equivalente a descarga libre.                             |
+| [Actividad: Diseño de paso de vía](../M01A16/Readme.md)                                         | Diseño geométrico de pasos de vía en canales usando alcantarillas por área equivalente a descarga libre.                             |
 
 </div>
 

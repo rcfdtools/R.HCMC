@@ -19,12 +19,13 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                           | Descripción                        |
-|:----------------------------------------------------------------------------------------|:-----------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                               | QGIS 3.42 o superior.              |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                       | Autodesk AutoCAD 2026 o superior.  |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                      | Autodesk Civil 3D 2026 o superior. |
-| [:round_pushpin:CGG_CurvaNivelLidar_v0.shp](../../file/shp/CGG_CurvaNivelLidar_v0.zip)  | Capa de curvas de nivel.           |
+| Requerimiento                                                                         | Descripción                            |
+|:--------------------------------------------------------------------------------------|:---------------------------------------|
+| [:toolbox:Herramienta](https://qgis.org/)                                             | QGIS 3.42 o superior.                  |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                     | Autodesk AutoCAD 2026 o superior.      |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                    | Autodesk Civil 3D 2026 o superior.     |
+| [:round_pushpin:CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip)  | Capa de drenajes naturales.            |
+| [:round_pushpin:RD_EjeValleNodo_v1.dwg](../../file/cad/acad/RD_EjeValleNodo_v1.zip)   | Eje recto del valle de realineamiento. |
 
 </div>
 

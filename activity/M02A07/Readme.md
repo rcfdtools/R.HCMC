@@ -1,4 +1,4 @@
-# 2.7. Estructuras hidráulicas
+# 2.7. Dibujo de estructuras hidráulicas
 Keywords: `hydraulic-structures` `hydraulic-sewer` `bridge` `hydraulic-stepped-structure` `expansion` `contraction` `autodesk-civil-3d` `autodesk-autocad` `surface` `m02a07`
 
 Dibujo de estructuras hidráulicas e incorporación al modelo de terreno.

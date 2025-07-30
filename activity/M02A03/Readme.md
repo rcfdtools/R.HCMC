@@ -60,10 +60,10 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 ## Control de versiones
 
-| Versión    | Descripción        | Autor                                      | Horas |
-|------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.07.30 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |   2   |
-| 2014.01.14 | Versión inicial.   | [frankv13](https://github.com/frankv13)  |  16   |
+| Versión     | Descripción        | Autor                                     | Horas |
+|-------------|:-------------------|-------------------------------------------|:-----:|
+| 2025.07.30  | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools) |   2   |
+| 2014.01.15  | Versión inicial.   | [frankv13](https://github.com/frankv13)   |  16   |
 
 
 ##

@@ -73,7 +73,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 **_Nota 3_**: elementos requeridos en informe y en el modelo.
 
-* Incorporación de valores de estación-elevación para localización de nodos de diques.
+* Incorporación de valores de estación-elevación para localización de nodos de diques. Requerido para el correcto confinamiento hidráulico en la sección compuesta diseñada. 
 * Visualizar independientemente los perfiles del cauce principal, cauce lateral 1 y cauce lateral 2. Identificar zonas que requieran ajustes como diques en posiciones incorrectas, diques faltantes, bancas erradas.
 * Visualizar las secciones de inicio y entrega del cauce sinuoso diseñado. Verificar distancias positivas entre secciones y posición de bancas.
 * Para todas las secciones, limpiar los puntos co-alineados de estación - elevación y simplificar dejando un máximo de 496 puntos por sección.

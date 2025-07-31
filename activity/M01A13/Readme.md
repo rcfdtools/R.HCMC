@@ -22,13 +22,13 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                                                                                          | Descripción                                                                                     |
-|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                                                     | Microsoft Excel 365.                                                                            |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                                                                               | HEC-RAS 6.6 o superior.                                                                         |
-| [:open_file_folder:R.HydroTools.Diseno GeometricoHidraulicoVertical.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoGeometricoHidraulicoVertical) | Libro de cálculo para el diseño geométrico e hidráulico vertical de canales a superficie libre. |
-| [:open_file_folder:Modelo hidráulico HECRAS_v0](../../file/hec)                                                                                                        | Modelo hidráulico de muestreo HEC-RAS v0 creado en actividad [M01A05](../M01A05/Readme.md).     |
-| [:chart_with_upwards_trend:M01A13.pptx](M01A13.pptx)                                                                                                                   | Plantilla para presentación de esquemas sección compuesta.                                      |
+| Requerimiento                                                                                                                                                          | Descripción                                                                                                  |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                                                     | Microsoft Excel 365.                                                                                         |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                                                                               | HEC-RAS 6.6 o superior.                                                                                      |
+| [:open_file_folder:R.HydroTools.Diseno GeometricoHidraulicoVertical.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoGeometricoHidraulicoVertical) | Libro de cálculo para el diseño geométrico e hidráulico vertical de canales a superficie libre.              |
+| [:open_file_folder:Modelo hidráulico HECRAS_v0](../../file/hec)                                                                                                        | Modelo hidráulico unidimensional de muestreo HEC-RAS v0 creado en actividad [M01A05](../M01A05/Readme.md).   |
+| [:chart_with_upwards_trend:M01A13.pptx](M01A13.pptx)                                                                                                                   | Plantilla para presentación de esquemas sección compuesta.                                                   |
 
 </div>
 
@@ -558,13 +558,13 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 | M01A13    | Opcional: verificar la formulación correcta de los libros de cálculo suministrados. En las notas de la ficha de control documental indicar el método de verificación y si se requieren o no ajustes.                                                                                                                                                                                                                                                                                                                                                 |
 | M01A13    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
-> Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
->
-> Nota 2: una vez el instructor realice la revisión y el estudiante presente las correcciones o ajustes solicitados, será necesario cargar una nueva versión de los archivos en el repositorio del proyecto, incluyendo o actualizando al final del nombre del archivo, la fecha de presentación en formato aaaammdd y manteniendo las versiones anteriores presentadas.
-> 
-> Nota 3: en el método en el método de Copeland, las gráficas pueden ser mostradas sin seguir una tendencia específica cuando la granulometría tiene materiales muy finos y muy gruesos al mismo tiempo. Cuando los materiales son predominantemente finos o tienen una distribución similar, la curva de estabilidad se dibuja continua como la utilizada en el caso de estudio. Algunas de las gradaciones asignadas a los proyectos de clase han incluido materiales gruesos, en algunos casos de 1 1/2" y 2 1/2".
->
-> Nota 4: para el dimensionamiento del ancho de corona en valle correspondiente a la huella de mecanización, considerar el paso de vehículos de carga para explotaciones mineras en dos sentidos y sus dimensiones.
+**_Nota 1_**: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
+
+**_Nota 2_**: una vez el instructor realice la revisión y el estudiante presente las correcciones o ajustes solicitados, será necesario cargar una nueva versión de los archivos en el repositorio del proyecto, incluyendo o actualizando al final del nombre del archivo, la fecha de presentación en formato aaaammdd y manteniendo las versiones anteriores presentadas.
+
+**_Nota 3_**: en el método en el método de Copeland, las gráficas pueden ser mostradas sin seguir una tendencia específica cuando la granulometría tiene materiales muy finos y muy gruesos al mismo tiempo. Cuando los materiales son predominantemente finos o tienen una distribución similar, la curva de estabilidad se dibuja continua como la utilizada en el caso de estudio. Algunas de las gradaciones asignadas a los proyectos de clase han incluido materiales gruesos, en algunos casos de 1 1/2" y 2 1/2".
+
+**_Nota 4_**: para el dimensionamiento del ancho de corona en valle correspondiente a la huella de mecanización, considerar el paso de vehículos de carga para explotaciones mineras en dos sentidos y sus dimensiones.
 
 Como referencia para las coronas del canal, utilizar las siguientes especificaciones de maquinaria:
 

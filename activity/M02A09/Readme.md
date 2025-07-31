@@ -46,9 +46,9 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 | M02A09    | A partir del archivo _[Civil3D_MDT_PlanicieCanal_v1.dwg](../../file/cad/civil/Civil3D_MDT_PlanicieCanal_v1.zip)_, presentar todas las secciones transversales y perfil del eje del río con zonas de corte y relleno, nombrar como _[Civil3D_MDT_PlanicieCanalSeccionPerfil_v1.dwg](../../file/cad/civil/Civil3D_MDT_PlanicieCanalSeccionPerfil_v1.dwg)_.<br><br>En el documento soporte, incluya capturas de pantalla de detalle con las diferentes herramientas Autodesk Civil 3D utilizadas.                                                       |  
 | M02A09    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
-> Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
->
-> Nota 2: una vez el instructor realice la revisión y el estudiante presente las correcciones o ajustes solicitados, será necesario cargar una nueva versión de los archivos en el repositorio del proyecto, incluyendo o actualizando al final del nombre del archivo, la fecha de presentación en formato aaaammdd y manteniendo las versiones anteriores presentadas.
+**_Nota 1_**: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
+
+**_Nota 2_**: una vez el instructor realice la revisión y el estudiante presente las correcciones o ajustes solicitados, será necesario cargar una nueva versión de los archivos en el repositorio del proyecto, incluyendo o actualizando al final del nombre del archivo, la fecha de presentación en formato aaaammdd y manteniendo las versiones anteriores presentadas.
 
 
 ## Referencias

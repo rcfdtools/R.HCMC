@@ -18,7 +18,7 @@ A partir de los ejes y modelos de terreno natural, valle y cauce sinuoso diseña
 
 ## Objetivos
 
-* Integrar el modelo de terreno Civil 3D con el MDT natural.
+* Integrar el modelo de terreno del realineamiento diseñado y dibujado en Autodesk Civil 3D, con el MDT natural.
 * Crear el modelo de terreno triangulado TIN.
 * Crear y validar la geometría del modelo topológico en HEC-RAS usando RAS Mapper.
 

@@ -1,5 +1,5 @@
 # 1.8. Perfil de terreno del valle, evaluación de estructuras de caída y análisis de corte vs. relleno
-Keywords: `realigment`  `m01a00`
+Keywords: `realigment`  `m01a08`
 
 A partir de la información topográfica disponible bajo la zona del eje del valle suavizado trazado y utilizando las secciones transversales del modelo de muestreo en HEC-RAS, establecer si el canal artificial a diseñar estará en corte y/o relleno. El procedimiento presentado analiza solo el corte del valle y el posible uso de estructuras de caída para ajuste de pendiente.
 

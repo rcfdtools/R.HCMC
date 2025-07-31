@@ -1,7 +1,7 @@
 # 2.9. Planos - Generación de secciones transversales, planta y perfil
-Keywords: `profile` `volume-cut-fill` `engineering-sketch` `cross-section` `autodesk-civil-3d` `autodesk-autocad` `surface` `m02a07`
+Keywords: `profile` `volume-cut-fill` `engineering-sketch` `cross-section` `autodesk-civil-3d` `autodesk-autocad` `surface` `m02a09`
 
-A partir de los modelos de terreno para la planicie y para el canal combinado, y de lo ejes para el valle y el cauce principal, generar las secciones transversales, la planta y el perfil. Generar tablas de curvas.
+A partir de los modelos de terreno para la planicie y para el canal combinado, y de los ejes para el valle y el cauce principal, generar las secciones transversales, la planta y el perfil. Generar tablas de curvas.
 
 <div align="center"><img src="graph/M02A09.png" alt="R.HCMC" width="60%" border="0" /></div>
 

@@ -1,5 +1,5 @@
 # 1.20. Obras y estructuras hidráulicas - Rápida
-Keywords: `hydraulics` `hydraulic-structure` `hydraulic-jump` `hydraulic-fall`
+Keywords: `hydraulics` `hydraulic-structure` `hydraulic-jump` `hydraulic-fall` `m01a20` 
 
 Las rápidas pueden ser utilizadas para realizar conexión de cauces laterales a canales principales de desviación, ya que es posible ajustar la pendiente natural del terreno y por tal razón, el movimiento de tierras es menor al de una entrega usando estructuras escalonadas a flujo rasante. Una desventaja en su implementación es la erosión generada por las altas velocidades del canal de la rápida.
 

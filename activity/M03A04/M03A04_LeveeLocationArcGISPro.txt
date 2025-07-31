@@ -1,0 +1,16 @@
+Obtaining Levees position (station, elevation) for each XSCutLines
+
+1. Import Rivers, Banks and XSCutLines into RAS-Mapper.
+2. Update properties in XSCutLines.
+3. From RAS-Mapper, export XSCutLines with properties 
+4. Load RAS-Mapper XSCutLines into ArcGIS Pro, delete all attibutes keeping River, Reach and RiverStati. (Optional get the start point for each XSCutLines, it will help to select left sides of splitted lines)
+5. Analysis Tools / Intersect for XSCutLines with Levees lines (must have side attibute Location with Left or Right) and save as a point layer
+6. Filter the left side from Leeves point from left side
+7. Data Management Tools / Split Line at Point with left side Leeves point. Delete residuary lines for right side and lines with not Leeves points.
+8. Create a numeric double field as LPm and get the geometry planar length
+9. In the Leeve point layer, create a numeric double field as LeftSta
+10. Create a table join between Leeves point and the segmented XSCutLines from left side and copy LPm into LeftSta. Use the field RiverStati as primary key
+11. Remove the table join and repeat the current steps (from 7) for the Leeves points right side
+12. Data Management Tools / Multipart To Singlepart to convert Leeves multipoints to points
+13. Spatial Analyst Tools / Extract Multi Values to Points to assign Leeve points elevetion
+14. Set values in HEC-RAS 1D Geometry / Tables / Levees...

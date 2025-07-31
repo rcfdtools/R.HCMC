@@ -35,7 +35,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## Procedimiento general
 
-R.HCMC se encuentra en proceso de actualización, consulte la versión anterior en el enlace [M02A05.pdf](M02A05.pdf).
+R.HCMC se encuentra en proceso de actualización, consulte la versión anterior en el enlace [M02A08.pdf](M02A08.pdf).
 
 
 ## Actividades de proyecto :triangular_ruler:

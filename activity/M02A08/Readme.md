@@ -3,7 +3,7 @@ Keywords: `volume-cut-fill` `engineering-sketch` `cross-section` `autodesk-civil
 
 A partir de los modelos de terreno para la planicie y para el canal combinado, determinar los volúmenes de corte y relleno para el canal. Generar las tablas de volúmenes.
 
-<div align="center"><img src="graph/M02A08.jpg" alt="R.HCMC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M02A08.png" alt="R.HCMC" width="60%" border="0" /></div>
 
 
 ## Objetivos

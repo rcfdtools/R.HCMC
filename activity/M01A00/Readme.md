@@ -1,3 +1,8 @@
+## :globe_with_meridians:Módulo I – Parámetros y diseño geométrico e hidráulico
+
+En este módulo se definen los parámetros generales a utilizar en el diseño del canal artificial y se obtienen los caudales e hidrogramas requeridos para el diseño geométrico y el tránsito hidráulico de las crecientes y se realiza el diseño de las estructuras hidráulicas requeridas.
+
+
 # 1.0. Investigación de casos de estudio
 Keywords: `study-case` `realigment` `hydraulics` `sinuosity` `river-bend` `channel-length` `valley-length` `m01a00`
 

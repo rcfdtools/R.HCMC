@@ -5,7 +5,6 @@
 <kbd>ctrl</kbd>+<kbd>i</kbd>
 Windows + shift + S for print screen
 
-
 Actividades pendientes:
 	Check cad files path.
 	Estructuras - Bifurcación.

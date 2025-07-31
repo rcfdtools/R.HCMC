@@ -1,3 +1,8 @@
+# :globe_with_meridians:Módulo II – Diseño geométrico Civil 3D para trazado de ejes, construcción de corredores 3D y generación de planos de ingeniería de detalle
+
+En este módulo se trazan en planta los ejes directrices del valle y río a partir del diseño geométrico realizado, para la posterior construcción e integración del modelo tridimensional triangulado requerido. Luego de realizar el diseño, se presentarán algunas indicaciones para la elaboración de planos de ingeniería de detalle, usando para ello las herramientas Autodesk AutoCAD y/o Autodesk Civil 3D.
+
+
 # 2.1. Modelo de terreno Civil 3D en estado natural (planicie)
 Keywords: `contour` `dtm` `autodesk-civil-3d` `autodesk-autocad` `surface` `m02a01`
 

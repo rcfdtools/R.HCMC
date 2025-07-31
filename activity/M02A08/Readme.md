@@ -9,9 +9,9 @@ A partir de los modelos de terreno para la planicie y para el canal combinado, d
 ## Objetivos
 
 * Generar el modelo de terreno del canal combinado (valle y cauce sinuoso).
-* Importar las líneas de secciones transversales de muestreo.
+* Importar o generar las líneas de secciones transversales de muestreo.
 * Crear materiales de corte y relleno.
-* Crear tablas de reporte.
+* Crear tablas de reporte de volúmenes de corte y relleno por sección.
 
 
 ## Requerimientos

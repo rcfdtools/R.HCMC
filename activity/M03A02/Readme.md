@@ -43,7 +43,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M03A02    | En el editor de geometría 1D de HEC-RAS, visualizar y depurar el modelo hidráulico. Para la revisión y calificación, se verificará la depuración completa del modelo hidráulico, posiciones de bancas y diques, simplificación de secciones transversales y demás elementos indicados para este avance y las indicaciones descritas en la _Nota 3_.                                                                                                                                                                                                  |  
+| M03A02    | En el editor de geometría 1D de HEC-RAS, visualizar y depurar el modelo hidráulico. Para la revisión y calificación, se verificará la depuración completa del modelo hidráulico, posiciones de bancas, posiciones de diques, simplificación de secciones transversales y demás elementos indicados en esta actividad, además de las indicaciones descritas en la _Nota 3_.                                                                                                                                                                           |  
 | M03A02    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 **_Nota 1_**: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
@@ -54,12 +54,12 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 * Visualizar independientemente los perfiles del cauce principal, cauce lateral 1 y cauce lateral 2. Identificar zonas que requieran ajustes como diques en posiciones incorrectas, diques faltantes, bancas erradas.
 * Visualizar las secciones de inicio y entrega del cauce sinuoso diseñado. Verificar distancias positivas entre secciones y posición de bancas.
-* Para todas las secciones, limpiar los puntos coalineados de estación - elevación y simplificar dejando un máximo de 496 puntos por sección.
+* Para todas las secciones, limpiar los puntos co-alineados de estación - elevación y simplificar dejando un máximo de 496 puntos por sección.
 * Verificar la posición correcta de las bancas en todas las secciones transversales y ajustar en secciones naturales.
 * Verificar la posición correcta de diques en todas las secciones transversales y localizar en secciones naturales para definir el cauce principal antes de desbordamiento.
 * Verificar y ajustar la conexión de cauces laterales a nodos de unión en el cauce principal.
 * Utilizando la herramienta Plot Cross Section y Print Múltiple, exportar a un archivo .pdf, todas las secciones transversales depuradas incluyendo los identificadores de cada río y tramo. Utilizar hoja tamaño carta en formato horizontal mostrando 4 secciones transversales por página.
-* Luego de depurado el modelo, comprimir como HECRAS_v1_aaaammdd.zip.
+* Luego de depurado el modelo, comprimir como HECRAS_v1_aaaammdd.zip incluyendo la fecha.
 * En el documento soporte, muestre capturas de pantalla detalladas de la depuración realizada.
 
 

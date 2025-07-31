@@ -1,5 +1,5 @@
 # 3.2. Verificación de topología en HEC-RAS
-Keywords: `hec-ras` `ras-mapper` `hydraulic-model` `m03a02`
+Keywords: `hec-ras` `ras-mapper` `hydraulic-model` `cross-section` `leeve` `bank` `m03a02`
 
 A partir de la topología generada validar y depurar la geometría 1D HEC-RAS del cauce sinuoso diseñado.
 
@@ -59,7 +59,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * Verificar la posición correcta de diques en todas las secciones transversales y localizar en secciones naturales para definir el cauce principal antes de desbordamiento.
 * Verificar y ajustar la conexión de cauces laterales a nodos de unión en el cauce principal.
 * Utilizando la herramienta Plot Cross Section y Print Múltiple, exportar a un archivo .pdf, todas las secciones transversales depuradas incluyendo los identificadores de cada río y tramo. Utilizar hoja tamaño carta en formato horizontal mostrando 4 secciones transversales por página.
-* Luego de depurado el modelo, comprimir como HECRAS_v1_aaaammdd.zip incluyendo la fecha.
+* Luego de depurado el modelo, comprimir como HECRAS_v1_aaaammdd.zip.
 * En el documento soporte, muestre capturas de pantalla detalladas de la depuración realizada.
 
 

@@ -9,7 +9,7 @@ Actualmente, los cálculos hidráulicos 1D realizados para secciones transversal
 
 
 # 3.1. Creación del modelo topológico usando RAS-Mapper
-Keywords: `hec-ras` `ras-mapper` `engineering-sketch` `hydraulic-model` `m03a01`
+Keywords: `hec-ras` `ras-mapper` `hydraulic-model` `cross-section` `leeve` `bank` `m03a01`
 
 A partir de los ejes y modelos de terreno natural, valle y cauce sinuoso diseñado y dibujado en Autodesk Civil 3D, ensamblar el modelo de terreno combinado y generar el modelo topológico geográfico requerido para la modelación hidráulica en HEC-RAS.
 

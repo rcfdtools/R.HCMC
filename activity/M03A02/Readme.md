@@ -23,7 +23,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 |:-------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://qgis.org/)                                | QGIS 3.42 o superior.                                                                           |
 | [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/) | HEC-RAS 6.7 Beta 3 o superior.                                                                  |
-| [:open_file_folder:Modelo hidráulico HECRAS_v1](../../file/hec)          | Modelo hidráulico unidimensional HEC-RAS v1 creado en actividad [M03A02](../M03A02/Readme.md).  |
+| [:open_file_folder:Modelo hidráulico HECRAS_v1](../../file/hec)          | Modelo hidráulico unidimensional HEC-RAS v1 creado en actividad [M03A01](../M03A01/Readme.md). |
 
 </div>
 
@@ -50,7 +50,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 **_Nota 2_**: una vez el instructor realice la revisión y el estudiante presente las correcciones o ajustes solicitados, será necesario cargar una nueva versión de los archivos en el repositorio del proyecto, incluyendo o actualizando al final del nombre del archivo, la fecha de presentación en formato aaaammdd y manteniendo las versiones anteriores presentadas.
 
-**_Nota 3_**: elementos requeridos en informe 
+**_Nota 3_**: elementos requeridos en informe y en el modelo.
 
 * Visualizar independientemente los perfiles del cauce principal, cauce lateral 1 y cauce lateral 2. Identificar zonas que requieran ajustes como diques en posiciones incorrectas, diques faltantes, bancas erradas.
 * Visualizar las secciones de inicio y entrega del cauce sinuoso diseñado. Verificar distancias positivas entre secciones y posición de bancas.
@@ -59,8 +59,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * Verificar la posición correcta de diques en todas las secciones transversales y localizar en secciones naturales para definir el cauce principal antes de desbordamiento.
 * Verificar y ajustar la conexión de cauces laterales a nodos de unión en el cauce principal.
 * Utilizando la herramienta Plot Cross Section y Print Múltiple, exportar a un archivo .pdf, todas las secciones transversales depuradas incluyendo los identificadores de cada río y tramo. Utilizar hoja tamaño carta en formato horizontal mostrando 4 secciones transversales por página.
-* Luego de depurado el modelo, comprimir como HECRAS_v1_aaaammdd.zip.
 * En el documento soporte, muestre capturas de pantalla detalladas de la depuración realizada.
+* Luego de depurado el modelo, comprimir como [/file/hec/HECRAS_v1_aaaammdd.zip](../../file/hec).
 
 
 ## Referencias

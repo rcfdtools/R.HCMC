@@ -6,6 +6,7 @@
 Windows + shift + S for print screen
 
 Actividades pendientes:
+	Verificar nombres de modelos hidráulicos en actividades 2 a 4 del módulo 3.
 	Check cad files path.
 	Estructuras - Bifurcación.
 	Estructuras - Unión.

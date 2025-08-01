@@ -35,27 +35,6 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 R.HCMC se encuentra en proceso de actualización, consulte la versión anterior en el enlace [M03A02.pdf](M03A02.pdf).
 
 
-## Procedimiento para obtención de valores de estación-elevación de diques en cada sección transversal y asignación en RAS Mapper
-
-Los diques o Leeves en modelos hidráulicos unidimensionales, son los elementos que permiten confinar el flujo hidráulico en una sección transversal y su incorporación es indispensable para poder modelar correctamente las condiciones de desbordamiento y el área hidráulica de la sección. En secciones transversales en la que existen zonas laterales fuera del cauce principal, el área hidráulica se calcula a lo ancho de toda la sección; cuando están definidos los diques izquierdo y derecho, únicamente el área hidráulica es calculada dentro de estas dos posiciones. 
-
-RAS Mapper, no dispone en la versión 6.7 de HEC-RAS, de una herramienta para la incorporación de posiciones de dique en secciones transversales de modelos 1D. Es por ello, que es necesario calcular los valores de estación o distancias desde el nodo inicial de la sección, hasta los puntos de localización de diques izquierdo y derecho, además de la elevación en la sección de estos elementos. 
-
-1. Desde el modelo hidráulico de HEC-RAS y desde RAS Mapper, actualice todas las propiedades de las secciones transversales o XSCutLines (abscisas, valores de estación-elevación de los nodos que representan la sección). 
-2. Desde RAS Mapper, exporte las XSCutLines con todas sus propiedades a un archivo shapefile y guarde como XSCutLines.shp. Recuerde que los nombres de los campos de atributos serán truncados a 10 caracteres alfanuméricos cuando estos son exportados a .shp.
-3. En QGIS, agregue a un mapa la capa XSCutLines.shp y elimine todos los atributos, excepto los correspondientes a `River`, `Reach` y `RiverStati`. Opcionalmente, obtenga en campos de atributos numéricos dobles, las coordenadas XY del punto de inicio de cada sección transversal.
-4. Realice la intersección espacial de las secciones transversales o XSCutLines, con las líneas de diques o Levees (las líneas de dique deberán contener la propiedad Side, indicando si corresponde al lado izquierdo o derecho del canal en el sentido del flujo) y guarde como una capa de puntos con el nombre XSCulLinesLevees.shp.  
-5. Filtre los puntos correspondientes al lado izquierdo del dique.
-6. Ejecute la herramienta de división de líneas a partir de puntos, utilizando las líneas de secciones transversales o XSCutLines y los nodos filtrados del dique izquierdo obtenidos  de la intersección. Guarde la capa resultante de líneas fraccionadas como XSCutLinesLeft.shp y elimine las líneas residuales a la derecha de la línea del dique izquierdo y todas aquellas líneas de sección transversales que no se intersecan con la línea de dique.
-7. En la capa XSCutLinesLeft.shp, cree un campo numérico real con el nombre `LPm` y calcule la longitud planar de la línea en metros.
-8. En la capa XSCulLinesLevees.shp que contiene los nodos de intersección de secciones transversales con diques, cree un campo numérico real con el nombre `LeftSta`.
-9. Cree una unión de tablas entre la capa XSCulLinesLevees.shp y XSCutLinesLeft.shp, utilizando como llave primaria el campo `RiverStati`. En el campo `LeftSta`, copie el valor del atributo calculado en el campo `LPm`.
-10. Remueva la unión y repita el procedimiento anterior desde el paso 5, para los nodos de dique del lado derecho de cada sección transversal.
-11. En caso de ser necesario y solo si la capa de nodos de dique XSCulLinesLevees.shp sea multiparte, convierta a parte sencilla. Multipart to Singlepart.
-12. Para cada uno de los nodos de dique, obtenga la elevación o cota a partir del modelo de terreno, de esta forma habrá obtenido las estaciones y elevaciones de cada dique en cada sección.
-13. Establezca los valores obtenidos en el modelo hidráulico de HEC-RAS, en el editor de geometría 1D, en el menú Tables, seleccione la opción Levees...
-
-
 ## Actividades de proyecto :triangular_ruler:
 
 Utilizando la [plantilla suministrada](../../file/report/R.HCMC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M02A01_20250531.pdf).
@@ -73,7 +52,6 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 **_Nota 3_**: elementos requeridos en informe y en el modelo.
 
-* Incorporación de valores de estación-elevación para localización de nodos de diques. Requerido para el correcto confinamiento hidráulico en la sección compuesta diseñada. 
 * Visualizar independientemente los perfiles del cauce principal, cauce lateral 1 y cauce lateral 2. Identificar zonas que requieran ajustes como diques en posiciones incorrectas, diques faltantes, bancas erradas.
 * Visualizar las secciones de inicio y entrega del cauce sinuoso diseñado. Verificar distancias positivas entre secciones y posición de bancas.
 * Para todas las secciones, limpiar los puntos co-alineados de estación - elevación y simplificar dejando un máximo de 496 puntos por sección.

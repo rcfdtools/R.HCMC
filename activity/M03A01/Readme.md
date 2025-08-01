@@ -29,13 +29,15 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                 | Descripción                                                                                                                                                            |
-|:----------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                                     | QGIS 3.42 o superior.                                                                                                                                                  |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                      | HEC-RAS 6.7 Beta 3 o superior.                                                                                                                                         |
-| [:round_pushpin:CGG_CurvaNivelLidar_v0.shp](../../file/shp/CGG_CurvaNivelLidar_v0.zip)        | Capa geográfica de curvas de nivel.                                                                                                                                    |
-| [:round_pushpin:Civil3D_MDT_ValleRio_v0.dwg](../../file/cad/acad/Civil3D_MDT_ValleRio_v0.zip) | Archivo Autodesk AutoCAD con: líneas 3D del modelo digital de terreno que integra el valle curvo y el río sinuoso.                                                     | 
-| [:round_pushpin:Civil3D_Ejes_v0.dwg](../../file/cad/civil/Civil3D_Ejes_v0.zip)                | Archivo Autodesk Civil 3D con: eje recto del valle, clotoide eje suavizado del valle, offsets de taludes de valle, sample lines, cauce sinuoso, offsets cauce sinuoso. |
+| Requerimiento                                                                                                              | Descripción                                                                                                                                                                                                                                                                                                                                   |
+|:---------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://qgis.org/)                                                                                  | QGIS 3.42 o superior.                                                                                                                                                                                                                                                                                                                         |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                                   | HEC-RAS 6.7 Beta 3 o superior.                                                                                                                                                                                                                                                                                                                |
+| [:round_pushpin:CGG_CurvaNivelLidar_v0.shp](../../file/shp/CGG_CurvaNivelLidar_v0.zip)                                     | Capa geográfica de curvas de nivel.                                                                                                                                                                                                                                                                                                           |
+| [:round_pushpin:Civil3D_MDT_ValleRio_v0.dwg](../../file/cad/acad/Civil3D_MDT_ValleRio_v0.zip)                              | Archivo Autodesk AutoCAD con: líneas 3D del modelo digital de terreno que integra el valle curvo y el río sinuoso.                                                                                                                                                                                                                            | 
+| [:round_pushpin:Civil3D_Ejes_v0.dwg](../../file/cad/civil/Civil3D_Ejes_v0.zip)                                             | Archivo Autodesk Civil 3D con: eje recto del valle, clotoide eje suavizado del valle, offsets de taludes de valle, sample lines, cauce sinuoso, offsets cauce sinuoso.                                                                                                                                                                        |
+| [:mortar_board:Actividad 1.4. Modelo digital de terreno GIS 3D en estado natural (TIN) usando QGIS](../M01A04/Readme.md)   | A partir de curvas de nivel, construir un modelo de terreno triangulado - TIN (red irregular de triángulos) en 3 dimensiones, que permita estudiar los cauces existentes así como la implementación del corredor de diseño y cauce sinuoso para la modelación hidráulica.                                                                     |
+| [:round_pushpin:shp_RASMapperModuleIII](../../file/shp/shp_RASMapperModuleIII.zip)                                         | Capas geográficas para ensamble de modelo hidráulicos en RAS Mapper: Banks_RAS.shp, Bridges_RAS.shp, Flowpaths_RAS.shp, Levee_RAS_Position.shp, Levee_RAS_Position_SimplePart.shp, Levees_RAS.shp, River_RAS.shp, XSCutLines_RAS.shp, XSCutLines_RAS_Properties.shp, XSCutLines_RAS_Properties_Left.shp, XSCutLines_RAS_Properties_Right.shp. |
 
 </div>
 
@@ -44,7 +46,28 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## Procedimiento general
 
-R.HCMC se encuentra en proceso de actualización, consulte la versión anterior en el enlace [M03A01.pdf](M03A01.pdf).
+R.HCMC se encuentra en proceso de actualización, consulte la versión anterior usando Hec-GeoRAS en el enlace [M03A01.pdf](M03A01.pdf).
+
+
+## Procedimiento para obtención de valores de estación-elevación de diques en cada sección transversal y asignación en RAS Mapper
+
+Los diques o Leeves en modelos hidráulicos unidimensionales, son los elementos que permiten confinar el flujo hidráulico en una sección transversal y su incorporación es indispensable para poder modelar correctamente las condiciones de desbordamiento y el área hidráulica de la sección. En secciones transversales en la que existen zonas laterales fuera del cauce principal, el área hidráulica se calcula a lo ancho de toda la sección; cuando están definidos los diques izquierdo y derecho, únicamente el área hidráulica es calculada dentro de estas dos posiciones. 
+
+RAS Mapper, no dispone en la versión 6.7 de HEC-RAS, de una herramienta para la incorporación de posiciones de dique en secciones transversales de modelos 1D. Es por ello, que es necesario calcular los valores de estación o distancias desde el nodo inicial de la sección, hasta los puntos de localización de diques izquierdo y derecho, además de la elevación en la sección de estos elementos. 
+
+1. Desde el modelo hidráulico de HEC-RAS y desde RAS Mapper, actualice todas las propiedades de las secciones transversales o XSCutLines (abscisas, valores de estación-elevación de los nodos que representan la sección). 
+2. Desde RAS Mapper, exporte las XSCutLines con todas sus propiedades a un archivo shapefile y guarde como XSCutLines.shp. Recuerde que los nombres de los campos de atributos serán truncados a 10 caracteres alfanuméricos cuando estos son exportados a .shp.
+3. En QGIS, agregue a un mapa la capa XSCutLines.shp y elimine todos los atributos, excepto los correspondientes a `River`, `Reach` y `RiverStati`. Opcionalmente, obtenga en campos de atributos numéricos dobles, las coordenadas XY del punto de inicio de cada sección transversal.
+4. Realice la intersección espacial de las secciones transversales o XSCutLines, con las líneas de diques o Levees (las líneas de dique deberán contener la propiedad Side, indicando si corresponde al lado izquierdo o derecho del canal en el sentido del flujo) y guarde como una capa de puntos con el nombre XSCulLinesLevees.shp.  
+5. Filtre los puntos correspondientes al lado izquierdo del dique.
+6. Ejecute la herramienta de división de líneas a partir de puntos, utilizando las líneas de secciones transversales o XSCutLines y los nodos filtrados del dique izquierdo obtenidos  de la intersección. Guarde la capa resultante de líneas fraccionadas como XSCutLinesLeft.shp y elimine las líneas residuales a la derecha de la línea del dique izquierdo y todas aquellas líneas de sección transversales que no se intersecan con la línea de dique.
+7. En la capa XSCutLinesLeft.shp, cree un campo numérico real con el nombre `LPm` y calcule la longitud planar de la línea en metros.
+8. En la capa XSCulLinesLevees.shp que contiene los nodos de intersección de secciones transversales con diques, cree un campo numérico real con el nombre `LeftSta`.
+9. Cree una unión de tablas entre la capa XSCulLinesLevees.shp y XSCutLinesLeft.shp, utilizando como llave primaria el campo `RiverStati`. En el campo `LeftSta`, copie el valor del atributo calculado en el campo `LPm`.
+10. Remueva la unión y repita el procedimiento anterior desde el paso 5, para los nodos de dique del lado derecho de cada sección transversal.
+11. En caso de ser necesario y solo si la capa de nodos de dique XSCulLinesLevees.shp sea multiparte, convierta a parte sencilla. Multipart to Singlepart.
+12. Para cada uno de los nodos de dique, obtenga la elevación o cota a partir del modelo de terreno, de esta forma habrá obtenido las estaciones y elevaciones de cada dique en cada sección.
+13. Establezca los valores obtenidos en el modelo hidráulico de HEC-RAS, en el editor de geometría 1D, en el menú Tables, seleccione la opción Levees...
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -67,6 +90,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 **_Nota 3_**: para la revisión y calificación del modelo topológico, se verificará
 
+* Incorporación de valores de estación-elevación para localización de nodos de diques. Requerido para el correcto confinamiento hidráulico en la sección compuesta diseñada.
 * Sentido vectorial correcto de las líneas de todo el modelo.
 * Perpendicularidad y localización detallada de secciones transversales con respecto al eje sinuoso y valle diseñado.
 * Localización de secciones transversales en la zona naturales de inicio, entrega y cauces naturales.

@@ -48,7 +48,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 R.HCMC se encuentra en proceso de actualización, consulte la versión anterior usando Hec-GeoRAS en el enlace [M03A01.pdf](M03A01.pdf).
 
 
-## Procedimiento QGIS para obtención de valores de estación-elevación de diques en cada sección transversal y asignación en RAS Mapper
+## Obtención de valores de estación-elevación de diques en QGIS en cada sección transversal y asignación en Geometry 1D de HEC-RAS
 
 Los diques o Leeves en modelos hidráulicos unidimensionales, son los elementos que permiten confinar el flujo hidráulico en una sección transversal y su incorporación es indispensable para poder modelar correctamente las condiciones de desbordamiento y el área hidráulica de la sección. En secciones transversales en la que existen zonas laterales fuera del cauce principal, el área hidráulica se calcula a lo ancho de toda la sección; cuando están definidos los diques izquierdo y derecho, únicamente el área hidráulica es calculada dentro de estas dos posiciones. 
 

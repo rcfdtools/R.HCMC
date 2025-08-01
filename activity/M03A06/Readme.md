@@ -60,6 +60,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * Para cada variable analizada (profundidad, velocidad y cortante), personalizar la rampa de colores con 2 clases utilizando el valor límite que permita evaluar si se cumplió o no con las condiciones de diseño.
 * Luego de realizada la mapificación en RAS Mapper, comprimir el modelo hidráulico como [HECRAS_v1_aaaammdd.zip](../../file/hec).
 
+
 ## Referencias
 
 * https://www.hec.usace.army.mil/confluence/rasdocs 

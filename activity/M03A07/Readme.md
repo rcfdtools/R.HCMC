@@ -1,18 +1,15 @@
-# 3.6. Mapificación de resultados de modelación 1D en RAS Mapper
+# 3.7. Modelación 1D del canal principal rectificando fondo de secciones naturales de inicio y entrega
 Keywords: `hec-ras` `ras-mapper` `hydraulic-model` `hydraulic-simulation` `cross-section` `boundary-condition` `m03a03`
 
-A partir de los resultados obtenidos en la ejecución del modelo hidráulico para condiciones de flujo permanente o no permanente, mapificar las llanuras de inundación, velocidades, cortantes y energía.
+A partir del modelo geométrico y de los parámetros y condiciones de frontera establecidos, realizar la modelación o tránsito hidráulico para flujo permanente y no permanente solo del cauce principal completo, rectificando el fondo de las secciones naturales de inicio y entrega usando la herramienta Pilot Channel para obtener un fondo sin tramos horizontales y/o adversos.
 
-<div align="center"><img src="graph/M03A06.jpg" alt="R.HCMC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M03A07.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 
 
 ## Objetivos
 
-* Crear y analizar mapas de resultados en RAS Mapper.
-* Crear el mapa de llanuras de inundación.
-* Crear el mapa de velocidad.
-* Crear el mapa de cortante.
-* Crear el mapa de energía.
+* Utilizar la herramienta Pilot Channel para la definición de fondo en secciones transversales rectificadas.
+* Modelar el canal principal completo incluyendo los tramos naturales de inicio y entrega.
 
 
 ## Requerimientos
@@ -21,12 +18,12 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                                           | Descripción                                                                                                                                                                              |
-|:------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                                                               | QGIS 3.42 o superior.                                                                                                                                                                    |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                                | HEC-RAS 6.7 Beta 3 o superior.                                                                                                                                                           |
-| [:mortar_board:Actividad 1.1. Parámetros generales requeridos para el diseño y la modelación](../M01A01/Readme.md)      | Definición de parámetros generales y establecimiento de criterios a tener en cuenta para el diseño del canal artificial principal, cauces laterales y estructuras hidráulicas.           |
-| [:open_file_folder:Modelo hidráulico HECRAS_v1](../../file/hec)                                                         | Modelo hidráulico unidimensional HEC-RAS v1 depurado con inclusión de diques, condiciones de frontera y modelación, completado y/o ajustado en actividad [M03A05](../M03A05/Readme.md).  |
+| Requerimiento                                                                                                           | Descripción                                                                                                                                                                                           |
+|:------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://qgis.org/)                                                                               | QGIS 3.42 o superior.                                                                                                                                                                                 |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                                | HEC-RAS 6.7 Beta 3 o superior.                                                                                                                                                                        |
+| [:mortar_board:Actividad 1.1. Parámetros generales requeridos para el diseño y la modelación](../M01A01/Readme.md)      | Definición de parámetros generales y establecimiento de criterios a tener en cuenta para el diseño del canal artificial principal, cauces laterales y estructuras hidráulicas.                        |
+| [:open_file_folder:Modelo hidráulico HECRAS_v1](../../file/hec)                                                         | Modelo hidráulico unidimensional HEC-RAS v1 depurado con inclusión de diques, condiciones de frontera y modelación, completado, ajustado y complementado en actividad [M03A06](../M03A06/Readme.md). |
 
 </div>
 
@@ -35,7 +32,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## Procedimiento general
 
-R.HCMC se encuentra en proceso de actualización, consulte la versión anterior en el enlace [M03A06.pdf](M03A06.pdf).
+R.HCMC se encuentra en proceso de actualización, consulte la versión anterior en el enlace [M03A07.pdf](M03A07.pdf).
 
 
 ## Actividades de proyecto :triangular_ruler:
@@ -44,10 +41,10 @@ Utilizando la [plantilla suministrada](../../file/report/R.HCMC.PlantillaSoporte
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada estudiante o grupo de proyecto.
 
-| Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-|:----------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M03A06    | Para cada periodo de retorno (como mínimo 2.33, 25 y 100 años) y tipo de flujo (permanente y no permanente), realizar la mapificación de cada variable en RAS Mapper (profundidad, velocidad y cortante); analizar los resultados obtenidos indicando en que zonas se cumple o no con las condiciones de diseño establecidas y representar el mapa de trazas de flujo con flechas direccionales.<br><br>En el documento soporte muestre capturas de pantalla detalladas para todos los mapas obtenidos para los diferentes parámetros indicados, incluir análisis cuantitativo y si se cumplió o no con las condiciones de diseño y los valores admisibles definidos para el proyecto. Incluir observaciones detalladas. Ver _Nota 3_.  |  
-| M03A06   | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos.                                                                                                                                                                                  | 
+| Actividad  | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|:-----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| M03A07     | A partir de modelo hidráulico 1D de proyecto, crear una copia de la geometría previamente validada y utilizando la herramienta Pilot Channel, rectificar el fondo de las secciones naturales de inicio y entrega antes y después del canal sinuoso diseñado. Opcionalmente podrá aplicar esta misma técnica para ajustar los fondos en los cauces laterales y realizar la modelación completa en flujo no permanente. Simplificar la geometría de las secciones usando, por ejemplo, 100 puntos característicos. Ver _Nota 3_.                         |  
+| M03A07     | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 **_Nota 1_**: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 
@@ -55,10 +52,11 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 **_Nota 3_**: elementos requeridos en informe y en el modelo.
 
-* Para la revisión se verificará que la mapificación se haya realizado completa para cada tipo de flujo, periodo de retorno y para cada variable solicitada, además de los análisis detallados presentados.
-* Así como en la entrega anterior, se aceptarán como válidos, valores obtenidos que estén en una banda del 15% por encima o por debajo del valor de referencia o admisible definido para el diseño. Por ejemplo, si la velocidad máxima para el canal dominante fue definida en 2 m/s, se aceptarán como válidos, valores de hasta 2.3 m/s.
-* Para cada variable analizada (profundidad, velocidad y cortante), personalizar la rampa de colores con 2 clases utilizando el valor límite que permita evaluar si se cumplió o no con las condiciones de diseño.
-* Luego de realizada la mapificación en RAS Mapper, comprimir el modelo hidráulico como [HECRAS_v1_aaaammdd.zip](../../file/hec).
+* Realizar la modelación en condiciones de flujo permanente y no permanente (como mínimo Tr 2.33 y 100 años) y presentar un análisis general del nuevo perfil obtenido analizando los diferentes cambios en el régimen de flujo, por medio de la localización de las profundidades críticas.
+* En el documento soporte, incluya capturas de pantalla detalladas del proceso de corrección de fondos y los perfiles de flujo obtenidos. Incluir observaciones detalladas. 
+* Para la revisión se verificará el perfil de fondo y la funcionalidad del modelo hidráulico para condiciones de flujo permanente y no permanente.
+* Luego de realizada las modificaciones en el modelo hidráulico y la modelación funcional, comprimir el modelo como HECRAS_v1a_aaaammdd.zip.
+
 
 ## Referencias
 
@@ -83,7 +81,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M03A05/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/99999) | [Siguiente :arrow_forward:](../M03A07/Readme.md) |
+| [:arrow_backward: Anterior](../M03A06/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/99999) | [Siguiente :arrow_forward:](../M03A08/Readme.md) |
 |---------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|---------------------------------------------------|
 
 [^1]: 

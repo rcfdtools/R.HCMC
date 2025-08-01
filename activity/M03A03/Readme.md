@@ -54,7 +54,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 **_Nota 3_**: elementos requeridos en informe y en el modelo.
 
-* En el modelo [HECRAS_v1](../../file/hec) depurado en la entrega anterior, asignar las rugosidades en zona central del cauce dominante y valle. Utilizar los valores con los cuales realizó todo el diseño hidráulico de su proyecto en el Módulo 1.
+* En el modelo [HECRAS_v1](../../file/hec) depurado en la actividad anterior, asignar las rugosidades en zona central del cauce dominante y valle. Utilizar los valores con los cuales realizó todo el diseño hidráulico de su proyecto en el Módulo 1.
 * Flujo permanente: defina y justifique los periodos de retorno a utilizar, ingrese los caudales pico obtenidos, el caudal medio, el caudal ecológico estimado y defina las condiciones de frontera aguas abajo y aguas arriba. Considere los periodos utilizados para las estructuras hidráulicas a modelar y el caudal pico por simultaneidad (factor de atenuación por lluvia simultánea) para los nodos de unión y cauces laterales.
 * Flujo no permanente: defina y justifique los periodos de retorno a utilizar, ingrese los pulsos de los hidrogramas obtenidos de la modelación hidrológica y defina las condiciones de frontera aguas abajo y aguas arriba. Considere los periodos utilizados para las estructuras hidráulicas a modelar y los pulsos máximos por simultaneidad para los nodos de unión y cauces laterales. Para cada periodo de retorno deberá definir un archivo de datos dentro del mismo modelo hidráulico.
 * Tenga en cuenta que para la modelación hidráulica del cauce principal, en los cauces laterales deberá ingresar los caudales pico obtenidos para los factores de atenuación calculados en el punto de descarga. En canales laterales y en otros archivos de condiciones de frontera, incluya únicamente los caudales pico e hidrogramas del factor propio de la cuenca lateral, solo si va a verificar el funcionamiento hidráulico de las estructuras laterales de entrega. Para la revisión se verificará la correspondencia entre los caudales picos e hidrogramas obtenidos de la modelación hidrológica de su proyecto y los ingresados al modelo hidráulico, así como los periodos de retorno a utilizar en la modelación para evaluar el cauce sinuoso diseñado, los cauces laterales y las obras hidráulicas.
@@ -68,6 +68,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://www.hec.usace.army.mil/confluence/rasdocs/r2dum/6.6/developing-a-terrain-model-and-geospatial-layers/opening-ras-mapper
 * https://www.hec.usace.army.mil/confluence/rasdocs/r2dum/6.6/developing-a-terrain-model-and-geospatial-layers/setting-the-spatial-reference-projection
 * https://www.hec.usace.army.mil/confluence/rasdocs/r2dum/6.6/ras-mapper-supported-file-formats
+* https://www.fsl.orst.edu/geowater/FX3/help/8_Hydraulic_Reference/Flow_Profiles.htm 
+
 
 
 ## Control de versiones

@@ -57,7 +57,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 **_Nota 3_**: elementos requeridos en informe y en el modelo.
 
-* Visualice y analíce los resultados obtenidos desde el editor de geometría 1D y desde RAS Mapper.
+* Visualice y analíce los resultados obtenidos desde el editor de geometría 1D.
 * Perfiles de flujo: para cada periodo de retorno evaluado indicar si existen desbordamientos, remansos o cambios bruscos en el desarrollo del perfil y plantear soluciones para obtener un perfil continuo y estable.
 * Profundidad crítica: evaluar la profundidad crítica e indicar el tipo de perfil hidráulico obtenido, indicar posiciones de Yc que se crucen con la profundidad de lámina o que esté por encima. Plantear soluciones para obtener profundidades críticas siempre por debajo de la profundidad normal y/o de lámina de agua en la zona prismática diseñada y modelada. Realizar el análisis en condiciones de flujo subcrítico y mixto. Evaluar solo para flujo permanente.
 * Borde libre: evaluar si el BL cumple con los criterios de diseño planteados para su proyecto, en caso de que sea menor indicar las posibles causas y plantear soluciones.
@@ -67,7 +67,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * Energía máxima: para cada periodo de retorno evaluado, presentar el perfil de cada río con la línea de energía obtenida y presentar un análisis descriptivo.
 * En el documento soporte, incluya capturas de pantalla detalladas para todos los parámetros indicados, tablas detalladas de resultados obtenidos en cada sección transversal, incluir análisis y si se cumplió o no con las condiciones de diseño y los valores admisibles definidos para el proyecto. Incluir cabecera, tabla de contenido, numeración de páginas, separadores de página para cada grupo de análisis y observaciones detalladas. El análisis de flujo permanente y no permanente deberá ser presentado en dos capítulos independientes.
 * Para la revisión se verificará el cumplimiento de los parámetros de diseño que el estudiante definió al inicio del curso en el Tema 1. Debido a que es un ejercicio académico, para su proyecto se considerarán válidos, resultados con tolerancias de hasta máximo o mínimo 15% del valor obtenido respecto al valor admisible definido. Para cada análisis solicitado deberá indicar los valores resultantes y el porcentaje de cumplimiento obtenido, por ejemplo, si la velocidad límite definida para la sección dominante fue de 2m/s y en el tramo prismático diseñado en la zona donde se encuentra completamente desarrollado el flujo se presenta una velocidad máxima promedio de 2.37m/s, no cumplió con el valor admisible en un 18.5% [((2.37/2)-1)*100].
-* Luego de generar los archivos de resultados en RAS Mapper para flujo permanente y no permanente, comprimir como HECRAS_v1_aaaammdd.zip.
+* En caso de haber realizado ajustes en las condiciones de frontera para flujo permanente y no permanente, comprimir como [HECRAS_v1_aaaammdd.zip](../../file/hec).
 
 
 ## Referencias

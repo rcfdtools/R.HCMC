@@ -56,7 +56,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * En el documento soporte, incluya capturas de pantalla detalladas del proceso de modelación con perfiles de cada río, secciones de inicio y entrega del cauce sinuoso diseñado, la planta original del modelo y la planta con las modificaciones realizadas para modelar establemente a flujo no permanente. Incluir observaciones detalladas.
 * Para la revisión, se verificará la correcta ejecución del modelo en condiciones de flujo permanente y no permanente, así como la modificación del modelo hidráulico para obtener una simulación estable. Se evaluará la identificación de los posibles controles hidráulicos y el tipo de régimen utilizado en la modelación.
 * En caso de haber realizado modificaciones a la geometría obtenida del modelo RAS-Mapper, deberán existir dos archivos de geometría, uno con la geometría original y otro con la geometría depurada.
-* Luego de la modificación del modelo y la ejecución completa en condiciones de flujo permanente y no permanente, comprimir como HECRAS_v1_aaaammdd.zip
+* Luego de la modificación del modelo y la ejecución completa en condiciones de flujo permanente y no permanente, comprimir como _[HECRAS_v1_aaaammdd.zip](../../file/hec)_.
 
 
 ## Referencias
@@ -65,6 +65,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://www.hec.usace.army.mil/confluence/rasdocs/r2dum/6.6/developing-a-terrain-model-and-geospatial-layers/opening-ras-mapper
 * https://www.hec.usace.army.mil/confluence/rasdocs/r2dum/6.6/developing-a-terrain-model-and-geospatial-layers/setting-the-spatial-reference-projection
 * https://www.hec.usace.army.mil/confluence/rasdocs/r2dum/6.6/ras-mapper-supported-file-formats
+* https://www.fsl.orst.edu/geowater/FX3/help/8_Hydraulic_Reference/Flow_Profiles.htm 
 
 
 ## Control de versiones

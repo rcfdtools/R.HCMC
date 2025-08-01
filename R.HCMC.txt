@@ -8,7 +8,6 @@ Windows + shift + S for print screen
 Actividades pendientes:
 	Grading tables
 	Cambiar texto documento soporte por informe técnico
-	Verificar nombres de modelos hidráulicos en actividades 2 a 4 del módulo 3.
 	Check cad files path.
 	Estructuras - Bifurcación.
 	Estructuras - Unión.

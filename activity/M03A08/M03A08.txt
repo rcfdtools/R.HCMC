@@ -1,0 +1,32 @@
+3.8. Modelación de pasos de vía en modelos hidráulicos 1D.
+
+Copiar modelo HECRAS_v1a como HECRAS_v1b.
+
+Dentro de HECRAS_v1b crear la carpeta MDT y copiar el MDT del Tema 3 denominado tin_terrenonaturalcaucesinuoso_v0_tif_20161112.rar. 
+
+Dentro de HECRAS_v1b crear la carpeta prj y copiar cualquier archivo de proyección de coordenadas de las capas shapefile, nombrar como ProjectionFile.prj.
+
+Dentro de HECRAS_v1b crear la carpeta SHP y copiar el archivo de formas Bridges_v0.shp contenido en SHP del Taller 5.
+
+En RAS-Mapper incorporar el MDT del Tema 3: tin_terrenonaturalcaucesinuoso_v0_tif_20161112.rar
+
+Abrir RAS Mapper y crear modelo de terreno.
+
+En RAS Mapper, crear un Profile Line a partir de la capa de puente e identificar las abscisas entre las que se encuentra (entre 7774.441 y 7962.949).
+
+Eliminar la sección transversal 7848.612m correspondiente al punto de paso de vía y las secciones próximas no distribuidas en la zona central. Dejar solo secciones próximas en las que se observe el canal dominante en la mitad del canal del valle. Ajustar los nodos en planta de las secciones transversales para que el tablero de 50m de ancho sea contínuo. 
+
+Cerrar RAS Mapper, abrir el editor de geometría y agregar un nuevo puente en la absica 7848.612m localizada entre las dos secciones identificadas.
+
+Crear el tablero del puente desde la cota mas alta de la corona del valle hasta el punto mas bajo de la sección dominante.
+
+En la carpeta SHP copiar las lineas de ejes creadas en HCMC0013_DisenoPasoViaLineBatea.shp. Desde ArcGIS, separar las tuberías centrales y laterales en dos capas. Nombrar como HCMC0013_DisenoPasoViaLineBateaCentrales.shp y HCMC0013_DisenoPasoViaLineBateaLaterales.shp.
+
+En el editor de geometría de RAS, ir a  GIS Tools - Culvertcenter Lines - Import Barrel Centerlines. Importar ejes de tuberías centrales usando la capa HCMC0013_DisenoPasoViaLineBateaCentrales.shp. (solo aplica para modelos 2D)
+
+Verificar pendiente del valle en diseño de alcantarillas.
+
+Reordenar campos
+	In QGIS you can now use the processing toolbox (Ctl+Alt+T) and go to QGIS geoalgorithms > Vector table tools > Refactor fields.
+	ArcGIS, Feature Class to Feature Class now can perform this in 10.5 using the GP Tool Field Mapping section.
+	https://gis.stackexchange.com/questions/5873/permanently-reordering-fields-in-data-shp-gdb-without-using-fme-or-another-et

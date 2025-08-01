@@ -1,5 +1,5 @@
 # 3.6. Mapificación de resultados de modelación 1D en RAS Mapper
-Keywords: `hec-ras` `ras-mapper` `hydraulic-model` `hydraulic-simulation` `cross-section` `boundary-condition` `m03a03`
+Keywords: `hec-ras` `ras-mapper` `hydraulic-model` `hydraulic-simulation` `cross-section` `boundary-condition` `m03a06`
 
 A partir de los resultados obtenidos en la ejecución del modelo hidráulico para condiciones de flujo permanente o no permanente, mapificar las llanuras de inundación, velocidades, cortantes y energía.
 

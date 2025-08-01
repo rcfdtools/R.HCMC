@@ -1,5 +1,5 @@
 # 3.7. Modelación 1D del canal principal rectificando fondo de secciones naturales de inicio y entrega
-Keywords: `hec-ras` `ras-mapper` `hydraulic-model` `hydraulic-simulation` `cross-section` `boundary-condition` `m03a03`
+Keywords: `hec-ras` `ras-mapper` `hydraulic-model` `hydraulic-simulation` `cross-section` `boundary-condition` `m03a07`
 
 A partir del modelo geométrico y de los parámetros y condiciones de frontera establecidos, realizar la modelación o tránsito hidráulico para flujo permanente y no permanente solo del cauce principal completo, rectificando el fondo de las secciones naturales de inicio y entrega usando la herramienta Pilot Channel para obtener un fondo sin tramos horizontales y/o adversos.
 
@@ -22,7 +22,6 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 |:------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://qgis.org/)                                                                               | QGIS 3.42 o superior.                                                                                                                                                                                 |
 | [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                                | HEC-RAS 6.7 Beta 3 o superior.                                                                                                                                                                        |
-| [:mortar_board:Actividad 1.1. Parámetros generales requeridos para el diseño y la modelación](../M01A01/Readme.md)      | Definición de parámetros generales y establecimiento de criterios a tener en cuenta para el diseño del canal artificial principal, cauces laterales y estructuras hidráulicas.                        |
 | [:open_file_folder:Modelo hidráulico HECRAS_v1](../../file/hec)                                                         | Modelo hidráulico unidimensional HEC-RAS v1 depurado con inclusión de diques, condiciones de frontera y modelación, completado, ajustado y complementado en actividad [M03A06](../M03A06/Readme.md). |
 
 </div>

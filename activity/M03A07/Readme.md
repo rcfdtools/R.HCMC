@@ -55,7 +55,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * Realizar la modelación en condiciones de flujo permanente y no permanente (como mínimo Tr 2.33 y 100 años) y presentar un análisis general del nuevo perfil obtenido analizando los diferentes cambios en el régimen de flujo, por medio de la localización de las profundidades críticas.
 * En el documento soporte, incluya capturas de pantalla detalladas del proceso de corrección de fondos y los perfiles de flujo obtenidos. Incluir observaciones detalladas. 
 * Para la revisión se verificará el perfil de fondo y la funcionalidad del modelo hidráulico para condiciones de flujo permanente y no permanente.
-* Luego de realizada las modificaciones en el modelo hidráulico y la modelación funcional, comprimir el modelo como HECRAS_v1a_aaaammdd.zip.
+* Luego de realizada las modificaciones en el modelo hidráulico y la modelación funcional, comprimir el modelo como [HECRAS_v1a_aaaammdd.zip](../../file/hec).
 
 
 ## Referencias

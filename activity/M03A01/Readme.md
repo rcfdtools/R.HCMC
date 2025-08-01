@@ -66,7 +66,9 @@ RAS Mapper, no dispone en la versión 6.7 de HEC-RAS, de una herramienta para la
 10. Remueva la unión y repita el procedimiento anterior desde el paso 5, para los nodos de dique del lado derecho de cada sección transversal. Nombre la capa de dividida de secciones hasta el dique derecho como _XSCutLines_RAS_Properties_Right.shp_.
 11. En caso de ser necesario y solo si la capa de nodos de diques _Levee_RAS_Position.shp_ es multiparte, convierta a parte sencilla. Multipart to Singlepart.
 12. Para cada uno de los nodos de dique, obtenga la elevación o cota a partir del modelo de terreno. De esta forma habrá obtenido las estaciones y elevaciones de cada dique en cada sección.
-13. Establezca los valores obtenidos en el modelo hidráulico de HEC-RAS, en el editor de geometría 1D, en el menú Tables, seleccione la opción Levees...
+13. Establezca los valores obtenidos en el modelo hidráulico de HEC-RAS, en el editor de geometría 1D, en el menú _Tables_, seleccione la opción _Levees_ y asigne masivamente los valores obtenidos.
+
+> Otra alternativa es agregar manualmente desde el editor de geometría 1D de secciones transversales de HEC-RAS, la localización de los diques en cada sección.
 
 
 ## Actividades de proyecto :triangular_ruler:

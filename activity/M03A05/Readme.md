@@ -23,11 +23,12 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                            | Descripción                                                                                                                                                                |
-|:-------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                | QGIS 3.42 o superior.                                                                                                                                                      |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/) | HEC-RAS 6.7 Beta 3 o superior.                                                                                                                                             |
-| [:open_file_folder:Modelo hidráulico HECRAS_v1](../../file/hec)          | Modelo hidráulico unidimensional HEC-RAS v1 depurado con inclusión de diques, condiciones de frontera y modelación, completado en actividad [M03A04](../M03A04/Readme.md). |
+| Requerimiento                                                                                                           | Descripción                                                                                                                                                                     |
+|:------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://qgis.org/)                                                                               | QGIS 3.42 o superior.                                                                                                                                                           |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                                | HEC-RAS 6.7 Beta 3 o superior.                                                                                                                                                  |
+| [:mortar_board:Actividad 1.1. Parámetros generales requeridos para el diseño y la modelación](../M01A01/Readme.md)      | Definición de parámetros generales y establecimiento de criterios a tener en cuenta para el diseño del canal artificial principal, cauces laterales y estructuras hidráulicas.  |
+| [:open_file_folder:Modelo hidráulico HECRAS_v1](../../file/hec)                                                         | Modelo hidráulico unidimensional HEC-RAS v1 depurado con inclusión de diques, condiciones de frontera y modelación, completado en actividad [M03A04](../M03A04/Readme.md).      |
 
 </div>
 
@@ -54,7 +55,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 **_Nota 2_**: una vez el instructor realice la revisión y el estudiante presente las correcciones o ajustes solicitados, será necesario cargar una nueva versión de los archivos en el repositorio del proyecto, incluyendo o actualizando al final del nombre del archivo, la fecha de presentación en formato aaaammdd y manteniendo las versiones anteriores presentadas.
 
-Nota 3: elementos requeridos en informe y en el modelo.
+**_Nota 3_**: elementos requeridos en informe y en el modelo.
 
 * Visualice y analíce los resultados obtenidos desde el editor de geometría 1D y desde RAS Mapper.
 * Perfiles de flujo: para cada periodo de retorno evaluado indicar si existen desbordamientos, remansos o cambios bruscos en el desarrollo del perfil y plantear soluciones para obtener un perfil continuo y estable.

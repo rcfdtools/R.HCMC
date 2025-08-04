@@ -8,8 +8,8 @@ Sobreelevación requerida o borde libre en la sección de un canal, capaz de con
 
 ## Objetivos
 
-* Estimar el borde libre por diferentes métodos de diseño: canal erosionable, canal revestido, canal flujo subcritico, canal flujo supercrítico, canal flujo supercritico sobreelevación en curvatura y transición, Bolinaga en tierra conformada, Boligana en oncreto o roca y en función del ancho superficial T en canales revestidos.
-* Definir el borde libre de referencia para el diseño del canal arttificial.
+* Estimar el borde libre por diferentes métodos de diseño: canal erosionable, canal revestido, canal flujo subcrítico, canal flujo supercrítico, canal flujo supercrítico sobreelevación en curvatura y transición, Bolinaga en tierra conformada, Boligana en oncreto o roca y en función del ancho superficial T en canales revestidos.
+* Definir el borde libre de referencia para el diseño del canal artificial.
 
 
 ## Requerimientos
@@ -63,7 +63,9 @@ Para análisis en función del ancho libre utilizaremos los siguientes valores d
 
 ## Actividades de proyecto :triangular_ruler:
 
-Utilizando la [plantilla suministrada](../../file/report/R.HCMC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A00_20250531.pdf).
+Utilizando la [plantilla suministrada](../../file/report/R.HCMC.PlantillaInformeTecnico.docx), cree un informe técnico mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A00_20250531.pdf).
+
+Libro de revisión y calificación: [M01A11_BordeLibre.xlsx](M01A11_BordeLibre.xlsx)
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada estudiante o grupo de proyecto.
 

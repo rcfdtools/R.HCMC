@@ -432,7 +432,7 @@ Repita el procedimiento anterior para cada una de las cuencas agregadas de su pr
 
 Utilizando la [plantilla suministrada](../../file/report/R.HCMC.PlantillaInformeTecnico.docx), cree un informe técnico mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A00_20250531.pdf).
 
-Libro de revisión y calificación: [M01A02.xlsx](M01A02.xlsx). En el libro de registro de resultados, registrar los valores en el mismo orden definido en la tabla de revisión, correspondiente a: J4685, SINK-1, J4660, R19120 + W19690 (Fa 0.96), R19120 + W19690 (Fa 0.64), J4682, W19610 (Fa 1.00), W19610 (Fa 0.63), W19560, W19520.
+Libro de revisión y calificación: [M01A02_PuntoEstudioCaudales.xlsx](M01A02_PuntoEstudioCaudales.xlsx). En el libro de registro de resultados, registrar los valores en el mismo orden definido en la tabla de revisión, correspondiente a: J4685, SINK-1, J4660, R19120 + W19690 (Fa 0.96), R19120 + W19690 (Fa 0.64), J4682, W19610 (Fa 1.00), W19610 (Fa 0.63), W19560, W19520.
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada estudiante o grupo de proyecto.
 

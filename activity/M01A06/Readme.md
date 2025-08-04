@@ -121,7 +121,7 @@ Para el diseño se ha establecido que se mantengan las cotas de inicio y entrega
 
 Utilizando la [plantilla suministrada](../../file/report/R.HCMC.PlantillaInformeTecnico.docx), cree un informe técnico mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A00_20250531.pdf).
 
-Libro de revisión y calificación: [M01A06.xlsx](M01A06.xlsx)
+Libro de revisión y calificación: [M01A06_SeccionInicioEntrega.xlsx](M01A06_SeccionInicioEntrega.xlsx)
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada estudiante o grupo de proyecto.
 

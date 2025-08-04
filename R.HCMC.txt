@@ -5,6 +5,7 @@
 <kbd>ctrl</kbd>+<kbd>i</kbd>
 Windows + shift + S for print screen
 
+Gráfica calificación: 9x16
 documento soporte
 informe técnico
 PlantillaInformeTecnico

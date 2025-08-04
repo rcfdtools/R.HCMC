@@ -5,6 +5,11 @@
 <kbd>ctrl</kbd>+<kbd>i</kbd>
 Windows + shift + S for print screen
 
+documento soporte
+informe técnico
+PlantillaInformeTecnico
+
+
 Actividades pendientes:
 	Grading tables
 	Cambiar texto documento soporte por informe técnico

@@ -1,4 +1,4 @@
-# 3. Trazado del eje de valle y estimación de radios de curvatura para suavizado
+# 1.3. Trazado del eje de valle y estimación de radios de curvatura para suavizado
 Keywords: `realigment` `curvature-ratio` `clothoid` `m01a03`
 
 Establecer los puntos para el trazado del eje de valle y estimar los radios de curvatura que permitan trazar el corredor del alineamiento del valle suavizado requerido para el diseño sinuoso.
@@ -330,7 +330,6 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 | 2021.10.14 | Actualización general de formato.                                                                                                                                              | [rcfdtools](https://github.com/rcfdtools)  |   2   |
 | 2020.10.11 | Inclusión de Método 5. Por factor multiplicador en función del ancho (Urban Storm Drainage Criteria Manual). Inclusión de Método 6. En función del tipo de canal. Salzitegger. | [rcfdtools](https://github.com/rcfdtools)  |   2   |
 | 2016.05.19 | Versión inicial.                                                                                                                                                               | [rcfdtools](https://github.com/rcfdtools)  |   8   |
-
 
 
 ##

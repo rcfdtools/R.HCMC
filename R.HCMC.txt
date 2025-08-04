@@ -12,6 +12,9 @@ PlantillaInformeTecnico
 
 Libro de revisión y calificación: [M01A00.xlsx](M01A00.xlsx)
 
+Informe técnico mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta /report del repositorio de datos del proyecto.
+
+Registrar los valores obtenidos en el libro de parámetros generales requeridos para el diseño y la modelación.
 
 Actividades pendientes:
 	Grading tables

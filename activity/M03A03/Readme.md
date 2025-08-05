@@ -40,7 +40,9 @@ R.HCMC se encuentra en proceso de actualización, consulte la versión anterior 
 
 ## Actividades de proyecto :triangular_ruler:
 
-Utilizando la [plantilla suministrada](../../file/report/R.HCMC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M02A01_20250531.pdf).
+Utilizando la [plantilla suministrada](../../file/report/R.HCMC.PlantillaInformeTecnico.docx), cree un informe técnico mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M02A01_20250531.pdf).
+
+Libro de revisión y calificación: [M01A00.xlsx](M01A00.xlsx)
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada estudiante o grupo de proyecto.
 
@@ -59,7 +61,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * Flujo permanente: defina y justifique los periodos de retorno a utilizar, ingrese los caudales pico obtenidos, el caudal medio, el caudal ecológico estimado y defina las condiciones de frontera aguas abajo y aguas arriba. Considere los periodos utilizados para las estructuras hidráulicas a modelar y el caudal pico por simultaneidad (factor de atenuación por lluvia simultánea) para los nodos de unión y cauces laterales.
 * Flujo no permanente: defina y justifique los periodos de retorno a utilizar, ingrese los pulsos de los hidrogramas obtenidos de la modelación hidrológica y defina las condiciones de frontera aguas abajo y aguas arriba. Considere los periodos utilizados para las estructuras hidráulicas a modelar y los pulsos máximos por simultaneidad para los nodos de unión y cauces laterales. Para cada periodo de retorno deberá definir un archivo de datos dentro del mismo modelo hidráulico.
 * Tenga en cuenta que para la modelación hidráulica del cauce principal, en los cauces laterales deberá ingresar los caudales pico obtenidos para los factores de atenuación calculados en el punto de descarga. En canales laterales y en otros archivos de condiciones de frontera, incluya únicamente los caudales pico e hidrogramas del factor propio de la cuenca lateral, solo si va a verificar el funcionamiento hidráulico de las estructuras laterales de entrega. Para la revisión se verificará la correspondencia entre los caudales picos e hidrogramas obtenidos de la modelación hidrológica de su proyecto y los ingresados al modelo hidráulico, así como los periodos de retorno a utilizar en la modelación para evaluar el cauce sinuoso diseñado, los cauces laterales y las obras hidráulicas.
-* En el documento soporte presente capturas de pantalla detalladas del proceso de ingreso de datos, parámetros hidráulicos, condiciones de frontera y gráficas de cada hidrograma ingresado. Incluir observaciones detalladas.
+* En el informe técnico presente capturas de pantalla detalladas del proceso de ingreso de datos, parámetros hidráulicos, condiciones de frontera y gráficas de cada hidrograma ingresado. Incluir observaciones detalladas.
 * Luego de ingresados todos los parámetros hidráulicos y condiciones de frontera al modelo, comprimir como [/file/hec/HECRAS_v1_aaaammdd.zip](../../file/hec).
 
 

@@ -23,7 +23,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                      | Microsoft Excel 365.                                                                                                                                                |
 | [:toolbox:Herramienta](https://notepad-plus-plus.org/)                                                                                  | Notepad++.                                                                                                                                                          |
 | [:toolbox:Herramienta](https://qgis.org/)                                                                                               | QGIS 3.42 o superior.                                                                                                                                               |
-| [:open_file_folder:DisenoPasoViaCanal.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoPasoViaCanal)   | Libro de cálculo para Diseño geométrico de pasos de vía en canales usando alcantarillas por área equivalente a descarga libre para modelos hidráulicos en HEC-RAS.  |
+| [:open_file_folder:R.HydroTools.DisenoPasoViaCanal.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoPasoViaCanal)   | Libro de cálculo para Diseño geométrico de pasos de vía en canales usando alcantarillas por área equivalente a descarga libre para modelos hidráulicos en HEC-RAS.  |
 
 </div>
 
@@ -32,11 +32,11 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## 1. Diseño de paso de vía
 
-1. En el libro de diseño [DisenoPasoViaCanal.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoPasoViaCanal) y en la hoja _SeccionCompuesta_, registre los parámetros de diseño de la sección dominante (river) y creciente (valley) obtenidas previamente en la actividad [M01A13](../M01A13). Automáticamente, será calculada el área hidráulica, el perímetro mojado y el ancho superficial de la sección. 
+1. En el libro de diseño [R.HydroTools.DisenoPasoViaCanal.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoPasoViaCanal) y en la hoja _SeccionCompuesta_, registre los parámetros de diseño de la sección dominante (river) y creciente (valley) obtenidas previamente en la actividad [M01A13](../M01A13). Automáticamente, será calculada el área hidráulica, el perímetro mojado y el ancho superficial de la sección. 
 
 > Asegúrese de que la geometría ingresada corresponde a la utilizada en el diseño sinuoso.
 
-<div align="center"><img src="graph/DisenoPasoViaCanal.1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 2. Defina los siguientes parámetros hidráulicos del paso de vía:
 
@@ -45,13 +45,13 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | y, elevación lámina (m)                      | Corresponde a la altura máxima de la lámina de agua en las alcantarillas. Para mantener el mismo ancho la sección del canal diseñado, con función objetivo defina para la celda `H6` un valor igual al ancho en la base del valle (209.2 m para el caso de estudio) cambiando la altura `y`, obtendrá una altura de lámina de 1.08 metros.                                  |
 | Tr, periodo retorno sección compuesta (años) | Periodo de retorno utilizado para el diseño de la sección compuesta. Al inicio del curso se definió el periodo de retorno para el diseño de la sección, correspondiente a 100 años. A partir de este valor se calcula el periodo de retorno que podrá ser transportado por las alcantarillas a partir del área hidráulica equivalente para la elevación de lámina definida. |
 
-<div align="center"><img src="graph/DisenoPasoViaCanal.2.jpg" alt="R.HCMC" width="25%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.2.jpg" alt="R.HCMC" width="25%" border="0" /></div>
 
 > :bulb: No es recomendable diseñar el paso de vía para transportar todo el flujo máximo del periodo de diseño de la sección compuesta correspondiente a 100 años. Considere que las tuberías podrán trabajar a presión y evite sobreanchos que requerirán el diseño de expansiones y contracciones.
 
 Para el diseño utilizaremos una altura de lámina de 1 metro y como referencia de diseño de la sección compuesta un periodo de 100 años, una vez ingresados los valores serán realizados diferentes cálculos hidráulicos.
 
-<div align="center"><img src="graph/DisenoPasoViaCanal.3.jpg" alt="R.HCMC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.3.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 
 > Al inicio del curso se definió el periodo de retorno para el diseño de las estructuras hidráulicas y pasos de vía, correspondiente a 25 años, sin embargo, este valor puede ser ajustado para mantener el ancho de la sección compuesta de diseño.
 
@@ -59,20 +59,20 @@ Para el diseño utilizaremos una altura de lámina de 1 metro y como referencia 
 
 > Para la óptima distribución de las tuberías en la sección, es necesario definir la separación entre las alcantarillas principales y las secundarías e ingresar la pendiente que tendrán las tuberías (similar a la pendiente del río o del valle). La separación dependerá del tipo de material y la estructura portante de los conductos a emplear, para el caso de estudio utilizaremos tubos principales en lámina corrugada de acero que requieren de material de confinamiento lateral para garantizar su estabilidad, y tuberías secundarias en concreto que requieren una separación menor.
 
-<div align="center"><img src="graph/DisenoPasoViaCanal.4.jpg" alt="R.HCMC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.4.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 
 > El periodo de retorno equivalente obtenido, correspondiente a 16.2 años para la altura de lámina definida, podrá ser diferente si consideramos el flujo a superficie libre o el flujo en carga o a presión por las alcantarillas.
 
 4. Verifique el gráfico de sección, si en el diseño decidió que el ancho del paso de vía debe ser igual al ancho de la sección, las secciones compuestas deben ser similares.
 
-<div align="center"><img src="graph/DisenoPasoViaCanal.5.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.5.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 > El gráfico de sección permite conocer la localización de las tuberías, sus coronas y bateas, además de la línea que representa la altura de lámina de agua a superficie libre. Asegúrese de que las cotas clave de las tuberías se encuentran bajo la altura máxima de la corona de la sección en valle.
 
 En caso de que haya decidido diseñar la sección del paso de vía con sobre ancho para un periodo de retorno igual a 25 años, requerirá de una altura de lámina de 1.4036 metros y 96 tuberías secundarias, obtendrá una sección como la mostrada en las dos siguientes ilustraciones que requerirá el diseño de una expansión y una contracción.
 
-<div align="center"><img src="graph/DisenoPasoViaCanal.6.jpg" alt="R.HCMC" width="100%" border="0" /></div>
-<div align="center"><img src="graph/DisenoPasoViaCanal.7.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.6.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.7.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 ## 2. Localización geográfica de alcantarillas
@@ -89,32 +89,32 @@ Para conocer la localización de las coordenadas del eje del paso de vía, en QG
 
 2. Revise los parámetros adicionales para localización de alcantarillas principales y secundarias a partir de las propiedades geométricas de la sección compuesta del canal principal.
 
-<div align="center"><img src="graph/DisenoPasoViaCanal.8.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.8.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 3. Defina los atributos de las secciones de referencia a utilizar en el modelo HEC-RAS 1D, tales como, nombre del río, nombre del tramo, abscisa central del alineamiento del paso de vía, distancia del eje del paso de vía a la sección más cercana aguas arriba, estación del nodo central de la sección aguas arriba y aguas abajo del paso de vía y cota base de la sección aguas abajo del paso de vía.
 
 > Para su proyecto, defina valores similares a los utilizados en el caso de estudio. Posteriormente, estos valores serán ajustados utilizando las localizaciones de su modelo hidráulico.
 
-<div align="center"><img src="graph/DisenoPasoViaCanal.9.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.9.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 4. De clic en el botón `Crear tabla GIS HEC-RAS 2D` que generará el contenido de la hoja _GISCulvertPoint_. Revise el contenido de la tabla y la gráfica en planta.
 
-<div align="center"><img src="graph/DisenoPasoViaCanal.10.jpg" alt="R.HCMC" width="100%" border="0" /></div>
-<div align="center"><img src="graph/DisenoPasoViaCanal.11.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.10.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.11.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 5. En la hoja _SeccionCompuesta_, visualice las tablas de localización de los ejes centrales de las estaciones de localización de alcantarillas en cada sección.
 
 > Los valores de las tablas son utilizados en el modelo HEC-RAS 1D.
 
-<div align="center"><img src="graph/DisenoPasoViaCanal.12.jpg" alt="R.HCMC" width="100%" border="0" /></div>
-<div align="center"><img src="graph/DisenoPasoViaCanal.13.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.12.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.13.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 ## 3. Dibujo de ejes geográficos en QGIS
 
 1. Desde el libro de diseño, exporte la hoja _GISCulvertPoint_ un archivo de texto separado por comas como _/file/table/R.HCMC.GISCulvertPoint.csv_ y cierre Excel.
 
-<div align="center"><img src="graph/DisenoPasoViaCanal.14.jpg" alt="R.HCMC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/R.HydroTools.DisenoPasoViaCanal.14.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 
 2. En QGIS cree una capa temporal de nodos a partir de las localizaciones exportadas, _Layer / Add Delimited Text Layer_.
 
@@ -189,8 +189,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M01A16    | Utilizando el libro de diseño, realizar el diseño geométrico de pasos de vía usando alcantarillas por área equivalente a descarga libre para una sección igual a la sección de la sección compuesta del cauce principal, indique cual fue el periodo de retorno equivalente obtenido. Guardar el libro como /file/table/DisenoPasoViaCanal.Diseno1.xlsx.                                                                                                                                                                                | 
-| M01A16    | Utilizando el libro de diseño, realizar el diseño geométrico de pasos de vía usando alcantarillas por área equivalente a descarga libre para un periodo de retorno de 25 años o el definido en su proyecto para el diseño de obras hidráulicas. Guardar el libro como /file/table/DisenoPasoViaCanal.Diseno2.xlsx.                                                                                                                                                                                                                      | 
+| M01A16    | Utilizando el libro de diseño, realizar el diseño geométrico de pasos de vía usando alcantarillas por área equivalente a descarga libre para una sección igual a la sección de la sección compuesta del cauce principal, indique cual fue el periodo de retorno equivalente obtenido. Guardar el libro como /file/table/R.HCMC.DisenoPasoViaCanal.Diseno1.xlsx.                                                                                                                                                                                      | 
+| M01A16    | Utilizando el libro de diseño, realizar el diseño geométrico de pasos de vía usando alcantarillas por área equivalente a descarga libre para un periodo de retorno de 25 años o el definido en su proyecto para el diseño de obras hidráulicas. Guardar el libro como /file/table/R.HCMC.DisenoPasoViaCanal.Diseno2.xlsx.                                                                                                                                                                                                                                   | 
 | M01A16    | Crear sólidos de tuberías en 3D usando Autodesk y representar en 3D, incluir capturas de pantalla en la hoja GISSetup y de vistas 3D donde se compruebe que no hay traslapos. Guardar el archivo .dxf y .dwg en el  repositorio de datos en la carpeta _/file/cad/acad/_ y los archivos shapefile en _/file/shp/_ con los nombres indicados.                                                                                                                                                                                                         | 
 | M01A16    | Registrar los valores obtenidos en el [libro de parámetros generales](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoCaucesParametros) requeridos para el diseño y la modelación. Guardar en la carpeta _/file/table_.                                                                                                                                                                                                                                                                                                               |
 | M01A16    | Opcional: verificar la formulación correcta de los libros de cálculo suministrados. En las notas de la ficha de control documental indicar el método de verificación y si se requieren o no ajustes.                                                                                                                                                                                                                                                                                                                                                 |

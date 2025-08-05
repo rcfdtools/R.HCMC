@@ -37,7 +37,9 @@ R.HCMC se encuentra en proceso de actualización, consulte la versión anterior 
 
 ## Actividades de proyecto :triangular_ruler:
 
-Utilizando la [plantilla suministrada](../../file/report/R.HCMC.PlantillaSoporteDesarrollo.docx), cree un documento soporte mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M02A01_20250531.pdf).
+Utilizando la [plantilla suministrada](../../file/report/R.HCMC.PlantillaInformeTecnico.docx), cree un informe técnico mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M02A01_20250531.pdf).
+
+Libro de revisión y calificación: [M03A02_VerificacionTopologia.xlsx](M03A02_VerificacionTopologia.xlsx)
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada estudiante o grupo de proyecto.
 
@@ -59,7 +61,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * Verificar la posición correcta de diques en todas las secciones transversales y localizar en secciones naturales para definir el cauce principal antes de desbordamiento.
 * Verificar y ajustar la conexión de cauces laterales a nodos de unión en el cauce principal.
 * Utilizando la herramienta Plot Cross Section y Print Múltiple, exportar a un archivo .pdf, todas las secciones transversales depuradas incluyendo los identificadores de cada río y tramo. Utilizar hoja tamaño carta en formato horizontal mostrando 4 secciones transversales por página.
-* En el documento soporte, muestre capturas de pantalla detalladas de la depuración realizada.
+* En el informe técnico, muestre capturas de pantalla detalladas de la depuración realizada.
 * Luego de depurado el modelo, comprimir como [/file/hec/HECRAS_v1_aaaammdd.zip](../../file/hec).
 
 

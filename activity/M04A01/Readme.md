@@ -1,20 +1,22 @@
-# :globe_with_meridians:Módulo IV – Modelación hidráulica 2D
-
-En este módulo se ejecuta la modelación bidimensional del cauce diseñado mediante la construcción de mallas semiestructuradas, así como la mapificación y análisis de resultados en RAS Mapper.
-
-
-# 4.0. Introducción y requerimientos
+# 4.1. Creación de proyecto 2D en HEC-RAS y procesamiento del modelo de terreno
 Keywords: `2d-modeling` `hec-ras` `ras-mapper` `hydraulic-model` `hydraulic-simulation` `cross-section` `boundary-condition` `m04a01`
 
-Conceptos y elementos requeridos para modelación bidimensional. 
+En esta clase se presentan las diferencias principales entre las geometrías de modelos 1D y 2D, las características de los archivos de proyección de coordenadas .prj y el archivo del proyecto RAS. Para la modelación en 2D, es necesario crear y visualizar la grilla del modelo de terreno que íntegra el terreno natural y el cauce diseñado.
 
 <div align="center"><img src="graph/M04A01.png" alt="R.HCMC" width="60%" border="0" /></div>
 
 
 ## Objetivos
 
-* Entender las principales diferencias entre el editor de geometría 1D y RAS Mapper.
-* Identificar la lista de capas que deberán ser producidas en las diferentes actividades del Módulo 4, necesarias para la modelación 2D.
+* Entender las diferencias entre modelos 1D y 2D en HEC-RAS.
+* Entender las diferencias entre el archivo .prj de HEC-RAS y el archivo .prj del GIS.
+* Crear el proyecto HEC-RAS y la estructura de directorios general.
+* Definir el sistema de unidades y sistema de proyección de coordenadas.
+* Establecer la configuración general de RAS Mapper.
+* Crear la grilla GeoTiff del modelo de terreno a partir de información LIDAR y trazado en Autodesk Civil 3D.
+* Crear el terreno (.hdf) RAS Mapper a partir de la grilla GeoTiff.
+* Visualizar y representar el modelo de terreno en RAS Mapper.
+* Asociar mapas e imágenes de dominio público como fondo.
 
 
 ## Requerimientos
@@ -23,9 +25,10 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                        | Descripción                                                                                                                                                                                                                                                    |
-|:-----------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [:mortar_board:Actividades Módulo 1. Obras y estructuras hidráulicas - Paso de vía](../../Readme.md) | Parámetros generales a utilizar en el diseño del canal artificial y se obtienen los caudales e hidrogramas requeridos para el diseño geométrico y el tránsito hidráulico de las crecientes y se realiza el diseño de las estructuras hidráulicas requeridas.  |
+| Requerimiento                                                                                      | Descripción                                                                                                                                                                                               |
+|:---------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://qgis.org/)                                                          | QGIS 3.42 o superior.                                                                                                                                                                                     |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                           | HEC-RAS 6.7 Beta 3 o superior.                                                                                                                                                                            |
 
 </div>
 
@@ -76,7 +79,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M03A08/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/99999) | [Siguiente :arrow_forward:](../M04A02/Readme.md) |
-|--------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|---------------------------------------------------|
+| [:arrow_backward: Anterior](../M04A00/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/99999) | [Siguiente :arrow_forward:](../M04A02/Readme.md) |
+|---------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------|---------------------------------------------------|
 
 [^1]: 

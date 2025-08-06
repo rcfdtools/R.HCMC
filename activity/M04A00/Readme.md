@@ -25,7 +25,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 | Requerimiento                                                                                        | Descripción                                                                                                                                                                                                                                                    |
 |:-----------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [:mortar_board:Actividades Módulo 1. Obras y estructuras hidráulicas - Paso de vía](../../Readme.md) | Parámetros generales a utilizar en el diseño del canal artificial y se obtienen los caudales e hidrogramas requeridos para el diseño geométrico y el tránsito hidráulico de las crecientes y se realiza el diseño de las estructuras hidráulicas requeridas.  |
+| [:mortar_board:Actividades Módulo I – Parámetros y diseño geométrico e hidráulico](../../Readme.md) | Parámetros generales a utilizar en el diseño del canal artificial y se obtienen los caudales e hidrogramas requeridos para el diseño geométrico y el tránsito hidráulico de las crecientes y se realiza el diseño de las estructuras hidráulicas requeridas.  |
 
 </div>
 

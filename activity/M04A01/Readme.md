@@ -1,6 +1,6 @@
 # :globe_with_meridians:Módulo IV – Modelación hidráulica 2D
 
-En este módulo se ejecuta la modelación bidimensional del cauce diseñado mediante la construcción de mallas semiestructuradas, así como la mapificación y análisis de resultados.
+En este módulo se ejecuta la modelación bidimensional del cauce diseñado mediante la construcción de mallas semiestructuradas, así como la mapificación y análisis de resultados en RAS Mapper.
 
 
 # 4.0. Introducción y requerimientos

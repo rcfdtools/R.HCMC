@@ -1,5 +1,5 @@
 # 4.4. Zonas de uso y coeficiente de rugosidad de Manning asociado, n
-Keywords: `manning` `2d-modeling` `hec-ras` `ras-mapper` `hydraulic-model` `hydraulic-simulation` `cross-section` `boundary-condition` `m04a03`
+Keywords: `manning` `2d-modeling` `hec-ras` `ras-mapper` `hydraulic-model` `hydraulic-simulation` `cross-section` `boundary-condition` `m04a04`
 
 Durante la etapa de definición de la malla compuesta, se estableció un valor global del coeficiente de rugosidad de Manning (n) aplicable a todas las celdas del modelo. La clasificación del modelo de terreno en diferentes zonas de uso y su asociación respectiva a coeficientes de rugosidad, permitirá asignar uno o varios valores a cada celda, permitiendo así aplicar masivamente los valores requeridos y utilizados en la etapa de diseño del canal compuesto (cauce dominante y creciente).
 

@@ -1,5 +1,5 @@
 # 4.5. Localización espacial de las condiciones de frontera y datos de entrada para flujo no permanente
-Keywords: `manning` `2d-modeling` `hec-ras` `ras-mapper` `hydraulic-model` `hydraulic-simulation` `cross-section` `boundary-condition` `m04a03`
+Keywords: `manning` `2d-modeling` `hec-ras` `ras-mapper` `hydraulic-model` `hydraulic-simulation` `cross-section` `boundary-condition` `m04a05`
 
 La localización espacial de dos diferentes condiciones de frontera (BC – Boundary Condition Line), No debe ser definida sobre una misma celda de la grilla. Múltiples condiciones de frontera pueden ser agregadas a la malla compuesta y se pueden asociar múltiples hidrogramas de entrada, por ejemplo, en el cauce principal y los cauces laterales, al menos se debe ingresar una línea de condición de frontera aguas arriba y una aguas abajo. Existen 5 diferentes tipos de condiciones de frontera que pueden ser utilizados para modelación 2D y en modelos mixtos 1D a 2D.
 

@@ -1,5 +1,5 @@
 # 4.7. Mapificación general en RAS Mapper
-Keywords: `manning` `2d-modeling` `hec-ras` `ras-mapper` `hydraulic-model` `hydraulic-simulation` `cross-section` `boundary-condition` `m04a06`
+Keywords: `manning` `2d-modeling` `hec-ras` `ras-mapper` `hydraulic-model` `hydraulic-simulation` `cross-section` `boundary-condition` `m04a07`
 
 RAS Mapper dispone de diferentes tipos de mapas para la visualización de los resultados obtenidos de la modelación.
 

@@ -3,7 +3,7 @@
 # Herramientas computacionales para el diseño y modelación 1D/2D de cauces sinuosos - HCMC
 Keywords: `hec-ras` `hec-hms` `qgis` `autodesk-civil3d` `river-design` `river-modeling` `river-profile` `river-slope` `curvature-ratio` `sinusoidal-river` `manning-roughness` `hydraulic-structures` `civil-design` 
 
-Bienvenid@, en este curso los participantes recibirán conceptos y metodologías generales aplicables al diseño y modelación de cauces artificiales sinuosos y obtendrán habilidades en el uso de diferentes herramientas computacionales, tales como: HEC-HMS, HEC-RAS / RAS-Mapper, QGIS y Autodesk Civil 3D. 
+Bienvenid@, en este curso los participantes recibirán conceptos y metodologías generales aplicables al diseño y modelación de cauces artificiales sinuosos y obtendrán habilidades en el uso de diferentes herramientas computacionales, tales como: HEC-HMS, HEC-RAS / RAS Mapper, QGIS y Autodesk Civil 3D. 
 
 Globalmente, diversos proyectos de ingeniería alteran el curso natural de los cauces transformando su morfología y comportamiento hidráulico. El diseño fluvial tiene como objetivo replicar el comportamiento natural de los cauces intervenidos a través del trazado de nuevos canales artificiales que cumplan con los parámetros de diseño establecidos.
 
@@ -106,9 +106,7 @@ Para el caso de estudio utilizaremos el sistema de proyección de coordenadas - 
 <div align="center"><img src="file/graph/ZE_Departamento.png" alt="R.HCMC" width="50%" border="0" /><img src="file/graph/ZE_Municipio.png" alt="R.HCMC" width="50%" border="0" /></div>
 <div align="center"><img src="file/graph/ZE_Eje.png" alt="R.HCMC" width="70%" border="0" /></div>
 
-> A partir de los conocimientos y habilidades obtenidas, cada estudiante o grupo de estudiantes, desarrollan las mismas actividades a través de un proyecto final de clase el cual es definido a partir de diferentes nodos y ejes de realineamiento.
->
-> Dependiendo del número de participantes se permitirá la creación de grupos de trabajo de hasta máximo 3 integrantes.
+A partir de los conocimientos y habilidades obtenidas, cada estudiante o grupo de estudiantes, desarrollan las mismas actividades a través de un proyecto final de clase el cual es definido a partir de diferentes nodos y ejes de realineamiento. Dependiendo del número de participantes se permitirá la creación de grupos de trabajo desde 3 integrantes. Reporte los integrantes de su grupo en el enlace de [Repositorio de Proyecto](https://forms.office.com/r/gVg8DjvVFh).
 
 
 ## :globe_with_meridians:Módulo I – Parámetros y diseño geométrico e hidráulico

@@ -3,32 +3,19 @@
 <kbd>enter</kbd>
 <kbd>ctrl</kbd>
 <kbd>ctrl</kbd>+<kbd>i</kbd>
-Windows + shift + S for print screen
+Mac Keyboard Windows + shift + S for print screen
 
-Gráfica calificación: 9x16
-documento soporte
-informe técnico
-PlantillaInformeTecnico
-
-Libro de revisión y calificación: [M01A00.xlsx](M01A00.xlsx)
-
-Informe técnico mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta /report del repositorio de datos del proyecto.
-
-Registrar los valores obtenidos en el libro de parámetros generales requeridos para el diseño y la modelación.
-
-Actividades pendientes:
-	Grading tables
-	Cambiar texto documento soporte por informe técnico
+Actividades pendientes
+	Create Discussion for each activity.
 	Check cad files path.
 	Estructuras - Bifurcación.
 	Estructuras - Unión.
 	Estructuras - Derivación.
 	Estructuras - Unión.
 	Incluir fotos y videos en actividades.
-	Create Discussion for each activity.
-	Project activities: load reports into discussions.
+	Gráfica calificación Excel: 9x16
 
-Gemini prompts: 
+Gemini prompts
 	Create a wide image of a realistic sinusoidal river side to a coal mining town.
 	https://gemini.google.com/app/da5e04ff83f70704
 	Create a wide image of a realistic sinusoidal river side to a coal mining powerplant.

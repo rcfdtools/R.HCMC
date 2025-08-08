@@ -1,0 +1,32 @@
+Asunto: Escuela / Bienvenid@ al Curso de Herramientas computacionales para el diseño y modelación 1D/2D de cauces sinuosos - HCMC
+
+UNIVERSIDAD ESCUELA COLOMBIANA DE INGENIERÍA JULIO GARAVITO
+CENTRO DE ESTUDIOS HIDRÁULICOS 
+Instructor principal: William Ricardo Aguilar Piña 
+william.aguilar@escuelaing.edu.co
+
+Inicio y horario de clase: lunes 11 de agosto de 6:30am – 8:45am 
+Modalidad: remota
+Grupo Teams: HCMC 2025-2
+Micrositio: https://github.com/rcfdtools/R.HCMC/blob/main/README.md
+Aula: E-314 (disponible para estudiantes que no dispongan de equipo de computo personal)
+
+En este curso los participantes recibirán conceptos y metodologías generales aplicables al diseño y modelación de cauces artificiales sinuosos y obtendrán habilidades en el uso de diferentes herramientas computacionales, tales como: HEC-HMS, HEC-RAS / RAS-Mapper, QGIS y Autodesk Civil 3D. 
+
+Para el óptimo desempeño del curso, el repaso de ejercicios prácticos y el avance de los talleres y proyecto de clase, se recomienda el uso de un equipo portátil personal con el software descrito en cada uno de los talleres prácticos. 
+
+En cuanto a la metodología, se realizará y presentará el diseño y modelación completa de un río o canal sinuoso artificial, mediante el desarrollo de un caso de estudio. En cada actividad, los instructores realizarán una presentación y demostración general de los conceptos y herramientas computacionales a utilizar, y luego los estudiantes aplicarán los mismos conceptos para el desarrollo del proyecto de clase, el cual será evaluado mediante entregas semanales. Antes de cada clase, los participantes investigan los conceptos específicos a tratar y definen de acuerdo a su criterio y con el correspondiente soporte técnico, los valores de los parámetros requeridos. Es indispensable desarrollar secuencialmente las diferentes actividades del curso, debido a que los resultados de cada taller serán utilizados como insumo para el siguiente. Es necesario revisar semanalmente los talleres asignados, descargar los datos requeridos y realizar la lectura completa de las guías de clase. 
+
+Antes de la primera clase, diligenciar la autopresentación y realizar la lectura de las siguientes actividades:
+	
+Autopresentación: https://forms.office.com/r/wTVfqWc6As
+Actividad 1.0. Investigación de casos de estudio. https://github.com/rcfdtools/R.HCMC/blob/main/activity/M01A00/Readme.md
+Actividad 1.1. Parámetros generales requeridos para el diseño y la modelación. https://github.com/rcfdtools/R.HCMC/blob/main/activity/M01A01/Readme.md
+Actividad 1.2. Modelación hidrológica para obtención de caudales de diseño e hidrogramas para tránsito de crecientes. https://github.com/rcfdtools/R.HCMC/blob/main/activity/M01A02/Readme.md
+
+Los requerimientos relacionados con las herramientas computacionales a utilizar se encuentran en https://github.com/rcfdtools/R.HCMC/blob/main/README.md#software-requerido-repositorio-de-proyecto-y-estructura-de-directorios
+
+Nota: en cuanto al tipo de modalidad y debido a los compromisos laborales de varios de los participantes, este curso será dictado en modalidad remota en el horario regular de clase y a través de Microsoft Teams.
+
+Agradezco su interés y participación, de parte del Centro de Estudios Hidráulicos, esperamos que este curso le aporte algunos conocimientos que complementen, fortalezcan y faciliten sus labores profesionales.
+

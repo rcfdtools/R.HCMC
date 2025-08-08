@@ -139,6 +139,8 @@ En este módulo se definen los parámetros generales a utilizar en el diseño de
 | [1.19. Obras y estructuras hidráulicas - Escalonada](activity/M01A19/Readme.md)                                                           | El diseño y construcción de canales hidráulicos, requiere frecuentemente del diseño de estructuras escalonadas cuando existen diferencias importantes de nivel entre el fondo del cauce lateral intervenido y el cauce o canal receptor.                                                                                                                                                                                                                                                                                   |  6   |
 | [1.20. Obras y estructuras hidráulicas - Rápida](activity/M01A20/Readme.md)                                                               | Las rápidas pueden ser utilizadas para realizar conexión de cauces laterales a canales principales de desviación, ya que es posible ajustar la pendiente natural del terreno y por tal razón, el movimiento de tierras es menor al de una entrega usando estructuras escalonadas a flujo rasante. Una desventaja en su implementación es la erosión generada por las altas velocidades del canal de la rápida.                                                                                                             |  6   |
 
+> En la tabla, la columna _Sem._, corresponde al número de semana de clase sin incluir la de receso o con festivo. 
+
 
 ## :globe_with_meridians:Módulo II – Diseño geométrico Civil 3D para trazado de ejes, construcción de corredores 3D y generación de planos de ingeniería de detalle
 

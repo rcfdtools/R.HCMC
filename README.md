@@ -106,7 +106,7 @@ Para el caso de estudio utilizaremos el sistema de proyección de coordenadas - 
 <div align="center"><img src="file/graph/ZE_Departamento.png" alt="R.HCMC" width="50%" border="0" /><img src="file/graph/ZE_Municipio.png" alt="R.HCMC" width="50%" border="0" /></div>
 <div align="center"><img src="file/graph/ZE_Eje.png" alt="R.HCMC" width="70%" border="0" /></div>
 
-A partir de los conocimientos y habilidades obtenidas, cada estudiante o grupo de estudiantes, desarrollan las mismas actividades a través de un proyecto final de clase el cual es definido a partir de diferentes nodos y ejes de realineamiento. Dependiendo del número de participantes se permitirá la creación de grupos de trabajo desde 3 integrantes. Reporte los integrantes de su grupo en el enlace de [Repositorio de Proyecto](https://forms.office.com/r/gVg8DjvVFh).
+**Grupos de proyecto**: a partir de los conocimientos y habilidades obtenidas, cada estudiante o grupo de estudiantes, desarrollan las mismas actividades a través de un proyecto final de clase el cual es definido a partir de diferentes nodos y ejes de realineamiento. Dependiendo del número de participantes se permitirá la creación de grupos de trabajo desde 3 integrantes. Reporte los integrantes de su grupo en el enlace de [Repositorio de Proyecto](https://forms.office.com/r/gVg8DjvVFh).
 
 
 ## :globe_with_meridians:Módulo I – Parámetros y diseño geométrico e hidráulico

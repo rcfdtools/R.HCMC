@@ -11,7 +11,7 @@ Grupo Teams: HCMC 2025-2
 Micrositio: https://github.com/rcfdtools/R.HCMC/blob/main/README.md
 Aula: E-314 (disponible para estudiantes que no dispongan de equipo de computo personal)
 
-En este curso los participantes recibirán conceptos y metodologías generales aplicables al diseño y modelación de cauces artificiales sinuosos y obtendrán habilidades en el uso de diferentes herramientas computacionales, tales como: HEC-HMS, HEC-RAS / RAS-Mapper, QGIS y Autodesk Civil 3D. 
+En este curso los participantes recibirán conceptos y metodologías generales aplicables al diseño y modelación de cauces artificiales sinuosos y obtendrán habilidades en el uso de diferentes herramientas computacionales, tales como: HEC-HMS, HEC-RAS / RAS Mapper, QGIS y Autodesk Civil 3D. 
 
 Para el óptimo desempeño del curso, el repaso de ejercicios prácticos y el avance de los talleres y proyecto de clase, se recomienda el uso de un equipo portátil personal con el software descrito en cada uno de los talleres prácticos. 
 

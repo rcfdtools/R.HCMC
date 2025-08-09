@@ -14,7 +14,7 @@ Investigue y documente el realineamiento de un río en cualquier localización m
 ## Objetivos
 
 * Investigar y entender criterios generales para relocalizar o realinear ríos o cauces.
-* Evaluar las directrices generales hidráulicas y geométricas a tener en cuenta en el realineamiento de drenajes.
+* Evaluar las directrices generales hidráulicas, ambientales y geométricas a tener en cuenta en el realineamiento de drenajes.
 
 
 ## Requerimientos
@@ -23,10 +23,10 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                                         | Descripción                                                                 |
-|:----------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/word?market=bz)                                     | Microsoft Word 365.                                                         |
-| [:open_file_folder:R.HCMC.Plantilla SoporteDesarrollo.docx](../../file/report/R.HCMC.PlantillaSoporteDesarrollo.docx) | Plantilla para presentación de documentos soporte de desarrollo e informes. |
+| Requerimiento                                                                                                          | Descripción                                                             |
+|:-----------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/word?market=bz)                                      | Microsoft Word 365.                                                     |
+| [:open_file_folder:R.HCMC.R.HCMC. PlantillaInformeTecnico.docx](../../file/report/R.HCMC.PlantillaInformeTecnico.docx) | Plantilla para presentación de informes técnicos de avance de proyecto. |
 
 </div>
 

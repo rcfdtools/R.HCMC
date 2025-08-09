@@ -75,7 +75,7 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 | [:toolbox:Herramienta](https://www.office.com/)                                    | Microsoft 365 (Word, Excel, OneDrive, Teams).                            |
 | [:toolbox:Herramienta](https://qgis.org/)                                          | QGIS 3.44 o superior.                                                    |
 | [:toolbox:Herramienta](https://notepad-plus-plus.org/)                             | Notepad++ (editor de texto).                                             |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-hms/)           | HEC-HMS 4.13 Beta 6 o superior.                                          |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-hms/)           | HEC-HMS 4.13 o superior.                                                 |
 | [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-dssvue/)        | HEC-DSSVue 3.2.3 (versión funcional para cargue masivo de hietogramas).  |
 | [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)           | HEC-RAS 6.6 o superior.                                                  |
 | [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                  | Autodesk Autocad 2026 (english version) o superior.                      |
@@ -101,7 +101,7 @@ Para el caso de estudio utilizaremos el sistema de proyección de coordenadas - 
 
 'PROJCS["GAUSS_BTA_MAGNA",GEOGCS["CGS_SIRGAS",DATUM["CGS_SIRGAS",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",1000000.0],PARAMETER["False_Northing",1000000.0],PARAMETER["Central_Meridian",-74.077507917],PARAMETER["Scale_Factor",1.0],PARAMETER["Latitude_Of_Origin",4.596200417],UNIT["Meter",1.0]]'
 
-> Para el desarrollo del proyecto de clase utilizar el CRS del caso de estudio, el CRS 3116 o el sistema 9377 - MAGNA Colombia Orígen Único Nacional que requerirá la reproyección de las capas suministradas.
+> Para el desarrollo del proyecto de clase, utilizar el CRS del caso de estudio, el CRS 3116 o el sistema 9377 - MAGNA Colombia Orígen Único Nacional que requerirá la reproyección de las capas suministradas.
 
 <div align="center"><img src="file/graph/ZE_Departamento.png" alt="R.HCMC" width="50%" border="0" /><img src="file/graph/ZE_Municipio.png" alt="R.HCMC" width="50%" border="0" /></div>
 <div align="center"><img src="file/graph/ZE_Eje.png" alt="R.HCMC" width="70%" border="0" /></div>

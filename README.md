@@ -61,7 +61,7 @@ Globalmente, diversos proyectos de ingeniería alteran el curso natural de los c
 | Extemporánea  |      4.0       | Martes hasta las 12:00 de la noche. Las correcciones no son calificables y el estudiante deberá ajustar la entrega de acuerdo a las observaciones y correcciones indicadas.                                                                                                                                                                                |
 | Corrección    |   4.0 o 5.0    | Viernes hasta las 12:00 de la media noche. Aplica solo para entregas recibidas en el horario regular. Las correcciones no son obligatorias, sin embargo, el estudiante deberá ajustar la entrega de acuerdo a las observaciones y correcciones indicadas. La calificación de la corrección es asignada directamente por el estudiante o grupo de proyecto. |
 
-> Para entregas regulares, la calificación final para el estudiante que presenta la entrega regular y las correcciones, es el promedio de las la calificación asignada por el instructor y la auto-calificación realizada por cada grupo de acuerdo a las correcciones realizadas en cada entrega.
+> Para entregas regulares, la calificación final es el promedio de la calificación asignada por el instructor y la auto-calificación realizada por cada grupo de proyecto, de acuerdo a las correcciones realizadas en cada entrega.
 
 
 ## Software requerido, repositorio de proyecto y estructura de directorios

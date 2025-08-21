@@ -128,11 +128,11 @@ Para el caso de estudio, se selecciona el Método 2. Universidad Utah State / Di
 
 QGIS dispone de herramientas de digitalización básica y avanzada CAD, sin embargo, la creación de curvas es generada a partir de segmentos rectos sin inclusión de nodos complementarios en intersecciones. Para el desarrollo de este ejemplo utilizaremos el procedimiento genérico de construcción de clotoides, correspondiente a la creación de arcos circulares y segmentos rectos de entre tangencia.
 
-1. Desde el panel lateral _Browser_, cree en la carpeta _/file/shp/_ una capa geográfica de líneas en formato shapefile y guarde como _RD_EjeValleSuavizado_QGIS.shp_, utilize el CRS 3116 y cree un campo de atributos numérico doble con el nombre `CurvRatio` y agregue al mapa.
+1. Desde el panel lateral _Browser_, cree en la carpeta _/file/shp/_ una capa geográfica de líneas en formato shapefile y guarde como _RD_EjeValleSuavizado_QGIS.shp_, utilize el CRS 3116, cree un campo de atributos numérico doble con el nombre `CurvRatio` y agregue al mapa.
 
 <div align="center"><img src="graph/QGIS_NewShapefileLayer.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
-> Para facilitar la edición y visualización de la clotoide, agregue el mapa base de Google Satellite desde el conector https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}.
+> Para facilitar la edición y visualización de la clotoide, agregue el mapa base de Google Satellite desde el conector https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}. Mapas base adicionales pueden ser agregados usando los enlaces contenidos en el repositorio https://github.com/opengeos/qgis-basemaps
 
 2. En el panel Layers, seleccione la capa _RD_EjeValleSuavizado_QGIS_ y de clic en el botón de edición de capa, luego seleccione la opción _Add Line Feature_ y _Digitize Shape_; podrá observar que se han activado diferentes herramientas asociadas a formas geométricas.
 

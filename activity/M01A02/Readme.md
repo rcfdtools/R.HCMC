@@ -181,6 +181,8 @@ Simbolice los nodos por categorías a partir del código del eje y rotule con la
 Desde el panel _Layers_ y dando clic derecho en el nombre de la capa geográfica temporal _R.HCMC.NodoValle_, seleccione la opción _Export / Save Vector Layer as..._, en formato establezca _ESRI Shapefile_ y guarde como _/file/shp/R.HCMC.NodoValle.shp_. Utilice el encoding _windows-1252_, simbolice y rotule.
 
 > :bulb: Para facilitar la identificación de los nodos en HEC-HMS, antes de exportar puede filtrar los nodos específicos de su proyecto.
+> 
+> Para incluir mapas base de referencia, siga las instrucciones en https://github.com/opengeos/qgis-basemaps
 
 <div align="center"><img src="graph/QGIS_R.HCMC.NodoValle.shpExport.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 

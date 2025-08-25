@@ -331,11 +331,11 @@ En el libro de Microsoft Excel [:open_file_folder:R.HydroTools.Hidrograma RegVal
 
 Repita el procedimiento anterior, modificando en el archivo ARROYOELZORRO.gage, la etiqueta Parte F de los hietogramas (que contienen el periodo de retorno y el factor de atenuación) y obtenga uno a uno los hidrogramas y resultados para los demás periodos de retorno 5, 10, 25, 50 y 100 años.
 
-> Recuerde que los caudales pico y los hidrogramas serán utilizados para el diseño y modelación en flujo no permanente.
+> Recuerde que los caudales pico y los hidrogramas serán utilizados para el diseño y simulación en flujo no permanente.
 
 Finalmente, ejecute el procedimiento anteriormente descrito para los demás puntos de estudio y cuencas laterales y almacene los resultados en el libro de hidrogramas. Grafique Tr vs Qmáx, Tr vs Volumen drenado y los hidrogramas, verifique que los datos obtenidos sonea consistentes y correctos.
 
-> Tenga en cuenta que es necesario estimar el caudal pico y el hidrograma de las cuencas laterales aplicando el factor de atenuación compuesto hasta el punto de descarga en el cauce principal y el factor propio de cada cuenca. El factor compuesto será utilizado en la modelación hidráulica del cauce principal y el factor propio de la subcuenca lateral para el diseño de las estructuras hidráulicas de entrega al cauce principal de realineamiento.
+> Tenga en cuenta que es necesario estimar el caudal pico y el hidrograma de las cuencas laterales aplicando el factor de atenuación compuesto hasta el punto de descarga en el cauce principal y el factor propio de cada cuenca. El factor compuesto será utilizado en la simulación hidráulica del cauce principal y el factor propio de la subcuenca lateral para el diseño de las estructuras hidráulicas de entrega al cauce principal de realineamiento.
 
 
 #### Resumen de resultados obtenidos
@@ -472,6 +472,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://www.hec.usace.army.mil/software/hec-dssvue/documentation.aspx
 * [r.cfdtools / Curso balance hidrológico de largo plazo para estimación de caudales medios usando SIG](https://github.com/rcfdtools/R.LTWB)
 * [r.cfdtools / Delimitación de cuencas hidrográficas locales](https://github.com/rcfdtools/R.HCMC/blob/main/activity/BasinLimit/Readme.md)
+* https://en.wikipedia.org/wiki/Modeling_and_simulation
 
 
 ## Control de versiones

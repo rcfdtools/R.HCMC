@@ -466,6 +466,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 **_Nota 7_**: los estudiantes que han definido periodos de retorno diferentes a los indicados en el libro de reporte de hidrogramas, deben calcular y agregar columnas complementarias para registrar los valores obtenidos. Por ejemplo: si para el diseño de valle ha definido un periodo de 150 años, deberá estimar y registrar los valores de 2.33 a 100 años para luego realizar el análisis para el periodo definido.
 
+**_Nota 8_**: Con respecto a las pérdidas definidas para cuencas en el grupo de parámetros Loss, los valores de abstracciones iniciales aplicables al método del soil SCS, deben ser expresadas positivas en milímetros, para lo cual, el caudal debe ser convertido a altura de lámina de lluvia equivalente a partir del área superficial de cada cuenca. Para los vertimientos, los valores de caudal deben ser convertidos al equivalente de altura de lámina de lluvia equivalente y pueden ser sumados a los pulsos de los hietogramas. De esta forma estaría considerando la lluvia + los vertimientos. Para el desarrollo del proyecto de clase, no es necesario hacer las incorporaciones de los caudales captados, vertidos, flujo base proveniente de acuíferos superficiales, flujo descargado por bombeo desde el fondo del PIT desde acuíferos profundos, ni considerar los análisis de impermeabilidad de cada asentamiento humano. Generalmente estas consideraciones se evalúan en un modelo de balance de caudales medios. En el análisis de caudales medios que realizamos a partir de la precipitación y la evaporación, puede para cada cuenca evaluada, restar los caudales captados y sumar los caudales vertidos.
+
 
 ## Referencias
 

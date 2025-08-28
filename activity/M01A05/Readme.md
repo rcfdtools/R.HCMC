@@ -225,7 +225,7 @@ Imprima las secciones transversales en un archivo de Adobe Acrobat (.pdf) mostra
 
 <div align="center"><img src="graph/HECRAS_RASMapperCreateNewGeometry2.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
-2. Con el modo de edición activo, seleccione, de clic derecho y ejecute la herramienta _Auto Generate Cross Section_; en espaciamiento defina 200 metros y en ancho 500 metros.
+2. Con el modo de edición activo, seleccione en el espacio de trazado uno de los ríos, de clic derecho y ejecute la herramienta _Auto Generate Cross Section_; en espaciamiento defina 200 metros y en ancho 500 metros.
 
 <div align="center"><img src="graph/HECRAS_RASMapperAutoGenerateCrossSection.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 

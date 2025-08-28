@@ -16,7 +16,7 @@ En caso de que existan restricciones de trazado y sea necesario utilizar una pen
 * Estimar la pendiente general de referencia para el canal dominante.
 * Estimar la pendiente ponderada a partir de la posición de las secciones transversales de muestreo.
 * Definir la pendiente de diseño a utilizar para el cauce dominante.
-* Evaluar la pendiente que regirá el tránsito de las crecientes por el valle.
+* Evaluar la pendiente que regirá el tránsito de crecientes por el valle.
 
 
 ## Requerimientos
@@ -63,7 +63,7 @@ En la actividad [M01A03](../M01A03), realizamos el trazado y suavizado del valle
 
 Utilizando como referencia las cotas de fondo del Thalweg obtenidas a partir de la cota más baja entre bancas en cada sección y la separación entre secciones del [modelo hidráulico de muestreo HEC-RAS v0](../../file/hec), estimar la pendiente ponderada.
 
-1. En HEC-RAS, abra el visor 2D de _Geometry Data_ y la geometría _GeometryNatural_.
+1. En HEC-RAS, abra el visor 1D de _Geometry Data_ y la geometría _GeometryNatural_.
 
 <div align="center"><img src="graph/HECRAS_RASMapperGeometryDataNatural.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 

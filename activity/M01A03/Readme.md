@@ -53,7 +53,7 @@ Generalmente, el alineamiento, ancho y suavizado del valle está condicionado po
 | Territorial               | Incompatibilidad con los usos del suelo definidos en los POT, rondas de protección, zonas declararas de interés histórico. Resguardos indígenas y asentamientos de comunidades protegidas. Zonas agropecuarias productivas con puntos de agua superficial concesionada. |
 
 
-### Métodos incluidos
+### Métodos para el suavizado de ejes o alineamientos de valle
 
 | Método                                                                                          | Descripción                                                                                                                                                                                                                                                                                                                                                   |
 |:------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

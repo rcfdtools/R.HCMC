@@ -182,7 +182,7 @@ Desde el panel _Layers_ y dando clic derecho en el nombre de la capa geográfica
 
 > :bulb: Para facilitar la identificación de los nodos en HEC-HMS, antes de exportar puede filtrar los nodos específicos de su proyecto.
 > 
-> Para incluir mapas base de referencia, siga las instrucciones en https://github.com/opengeos/qgis-basemaps
+> Para facilitar la edición y visualización de los nodos, agregue el mapa base de Google Satellite desde el conector https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}. Mapas base adicionales pueden ser agregados usando los enlaces contenidos en el repositorio https://github.com/opengeos/qgis-basemaps
 
 <div align="center"><img src="graph/QGIS_R.HCMC.NodoValle.shpExport.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 

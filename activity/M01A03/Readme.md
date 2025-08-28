@@ -53,7 +53,7 @@ Generalmente, el alineamiento, ancho y suavizado del valle está condicionado po
 | Territorial               | Incompatibilidad con los usos del suelo definidos en los POT, rondas de protección, zonas declararas de interés histórico. Resguardos indígenas y asentamientos de comunidades protegidas. Zonas agropecuarias productivas con puntos de agua superficial concesionada. |
 
 
-### Métodos para el suavizado de ejes o alineamientos de valle
+### Métodos para suavizado de ejes o alineamientos de valle
 
 | Método                                                                                          | Descripción                                                                                                                                                                                                                                                                                                                                                   |
 |:------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -202,7 +202,7 @@ PLINE
 
 > Para el eje de su proyecto, es posible que en algunos cambios de dirección no pueda ser resuelta la entre tangencia debido al ángulo de giro, por lo que es necesario encontrar un radio que permita resolver la clotoide. Como entre tangencia, puede buscar el mayor radio de curvatura cercano al radio de diseño en los puntos con menor deflexión (o menor ángulo de giro) y resolver con entre tangencia cercana a cero. 
 
-4. Utilizando el comando _List_, consulte las propiedades de la poli-línea, podrá observar que su longitud es de 5158.536 metrtos.
+4. Utilizando el comando _LIST_, consulte las propiedades de la poli-línea, podrá observar que su longitud es de 5158.536 metrtos.
 
 <div align="center"><img src="graph/AutodeskCivil3D_List.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
@@ -232,7 +232,7 @@ Elementos que componen una clotoide [^1]
 
 <div align="center"><img src="graph/AutodeskCivil3D_ClotoideElements.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
-1. Siguiendo las instrucciones del numeral anterior y a partir de la plantilla métrica, cree un nuevo archivo en blanco, verifique unidades y con el comando PLine trace el eje recto del valle. Con el comando _List_, verifique las coordenadas del eje recto del valle.
+1. Siguiendo las instrucciones del numeral anterior y a partir de la plantilla métrica, cree un nuevo archivo en blanco, verifique unidades y con el comando PLINE trace el eje recto del valle. Con el comando _LIST_, verifique las coordenadas del eje recto del valle.
 
 <div align="center"><img src="graph/AutodeskCivil3D_List1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 

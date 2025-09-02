@@ -57,7 +57,7 @@ Para la construcción de las líneas de muestreo de cauces naturales de su proye
 
 <div align="center"><sub>Ejemplo de creación de líneas paralelas de bancas usando QGIS.</sub><br><img src="graph/QGIS_OffsetLines.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
-> Las bancas definen la localización de la zona central del canal o zona de cauce dominante en la que se asume constante el valor de la rugosidad, de las bancas hacia afuera se considera la zona de llanura. En HE-RAS, el Thalweg es obtenido a partir del punto más bajo entre bancas en la sección.
+> Las bancas definen la localización de la zona central del canal o zona de cauce dominante en la que se asume constante el valor de la rugosidad, de las bancas hacia afuera se considera la zona de llanura. En HEC-RAS, el Thalweg es obtenido a partir del punto más bajo entre bancas en cada sección.
 > 
 > Tenga en cuenta que los valores de rugosidad pueden variar discretamente en toda la sección transversal de acuerdo a las coberturas de usos actuales del suelo disponibles en la zona.
 

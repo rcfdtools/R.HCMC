@@ -308,6 +308,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 **_Nota 3_**: para el análisis geológico utilizar los vectores más recientes de Unidades cronoestratigráficas de Colombia y Fallas geológicas de Colombia disponibles en https://www.colombiaenmapas.gov.co/ y https://www2.sgc.gov.co/MGC/Paginas/agc_500K2020.aspx
 
 
+
 ## Referencias
 
 * http://www.fao.org/3/a-at787s.pdf

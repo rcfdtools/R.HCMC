@@ -295,6 +295,7 @@ Geometría ajustada de la Sección a utilizar en el caso de estudio: al corredor
 
 Luego del diseño hidráulico, es necesario comprobar que la sección compuesta es capaz de drenar el caudal de la creciente de diseño de acuerdo a los parámetros y restricciones establecidas:
 
+* Método: fuerza tractiva usando Shields d50.
 * Ancho base canal dominante desde el eje (m) = 20. (40 m / 2)
 * Ancho base canal creciente desde el eje (m) = 104.6. (209.2 m / 2)
 * Taludes = 14H:1V.
@@ -346,8 +347,8 @@ Para el diseño del cauce lateral utilizar los parámetros estimados y registrad
 * Gradación de los materiales del lecho D50 = 0.146 mm.
 * Ángulo de reposo de los materiales (º): 35
 * Talud lateral = 10H:1V (estimado a partir de las secciones naturales existentes del cauce lateral).
-* n rugosidad de Manning : lecho 0.018, valle 0.035.
-* Pendiente de diseño del cauce sinuoso (m/m):  0.00129 (estimado a partir del perfil del cauce lateral).*
+* n rugosidad de Manning: lecho 0.018, valle 0.035.
+* Pendiente de diseño del cauce sinuoso (m/m):  0.00129 (estimado a partir del perfil del cauce lateral).
 * Altura total estimada = 3 m.
 
 1. En el menú _File / New Hydraulic Design Data_, guarde como _LateralRiverTractiveForceShields_ e ingrese los parámetros requeridos.
@@ -361,7 +362,7 @@ Resultados:
 * Tamaño de partículas requeridas para lecho estable = 19.1 mm.
 
 
-## 7. Diseño cauce principal por Método de la Fuerza Tractiva (Shields) en R.HydroTools
+## 7. Diseño cauce principal por Método de la Fuerza Tractiva (Shields d50) en R.HydroTools
 
 Utilizando el libro de diseño y análisis [R.HydroTools.DisenoGeometricoHidraulicoVertical.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoGeometricoHidraulicoVertical), realice el diseño de la sección estable por el Método de Shields, considerando la curvatura del valle suavizado.
 
@@ -434,7 +435,7 @@ Para la sección del cauce dominante, el tamaño de partículas de recubrimiento
 
 En el libro de diseño y análisis [R.HydroTools.DisenoGeometricoHidraulicoVertical.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoGeometricoHidraulicoVertical), registre los valores de las geometrías de diseño a aplicar en el cauce principal (sección compuesta) y en cauces laterales, verifique la secuencia de comandos CAD y calcule la profundidad normal - Yn y la profundidad crítica del flujo Yc.
 
-> La hoja de memoria de diseño hoja no realiza ningún cálculo de diseño, solo es utilizada para registrar los parámetros de entrada y geometría obtenida de diseño en HEC-RAS. A través de los datos geométricos de entrada se ensambla la tabla de valores de estación y elevación requeridos para modelación hidráulica de canales prototipo en HEC-RAS.
+> La hoja de memoria de diseño no realiza ningún cálculo de diseño, solo es utilizada para registrar los parámetros de entrada y geometría obtenida de diseño en HEC-RAS. A través de los datos geométricos de entrada se ensambla la tabla de valores de estación y elevación requeridos para modelación hidráulica de canales prototipo en HEC-RAS.
 
 
 ### 8.1 Cauce principal
@@ -570,7 +571,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 Como referencia para las coronas del canal, utilizar las siguientes especificaciones de maquinaria:
 
 * Largo: 42-4 ft, 12.8-14.94 m (mas largo: 67.59 feet, 20.6 m).
-* Alto: 18-24 ft, 5.5-7.31 (vacío).
+* Alto: 18-24 ft, 5.5-7.31 m (vacío).
 * Ancho: 27-32 ft, 8,2-9.8 m.
 * Capacidad de carga: 100 tons.
 * Radio de giro: 65 ft, 19.8 m.

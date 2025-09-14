@@ -92,7 +92,7 @@ Al ancho de la base del valle disponible se le debe descontar un ancho de separa
 > 
 > Ejemplo: si el ancho disponible en la base del valle es de 160 m, se debe realizar el diseño sinuoso para un ancho máximo de 150 m. En el trazado de ejes usando Autodesk Civil 3D se dibuja el corredor de 160 m, un offset de 5 m a cada lado y las curvas externas se trazan dentro del corredor efectivo libre para garantizar la separación y no co-alineación de taludes.
 
-<div align="center"><img src="graph/PrevencionCoalineacion.jpg" alt="R.HCMC" width="70%" border="0" /></div>
+<div align="center"><img src="graph/PrevencionCoalineacion.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 
 
 ## 1. Diseño sinuoso 1 - Conservando la longitud del río natural a reemplazar

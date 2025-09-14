@@ -29,7 +29,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## 1. Creación de proyecto HEC-RAS
 
-Para la creación del prototipo, utilizaremos las especificaciones de la sección hidráulica obtenida a partir del Método de la Fuerza Tractiva usando Shields.
+Para la creación del prototipo, utilizaremos las especificaciones de la sección hidráulica obtenida a partir del Método de la Fuerza Tractiva usando Shields d50.
 
 <div align="center"><img src="graph/SeccionDisenoFuerzaTractivaShields.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 
@@ -43,7 +43,7 @@ Para la creación del prototipo, utilizaremos las especificaciones de la secció
 
 ## 2. Creación de geometría
 
-1. En la ventana principal de HEC-RAS, ir al menú _Edit_ y seleccionar _Geometric Data_, o clic en el ícono de _View / Edit geometric data_. En el editor de geometría, clic en _Add New River Reach_. Dibujar manualmente una línea horizontal de derecha a izquierda y n ombrar como _CanalPrincipal_.
+1. En la ventana principal de HEC-RAS, ir al menú _Edit_ y seleccionar _Geometric Data_, o clic en el ícono de _View / Edit geometric data_. En el editor de geometría, clic en _Add New River Reach_. Dibujar manualmente una línea horizontal de derecha a izquierda y nombrar como _CanalPrincipal_.
 
 <div align="center"><img src="graph/HECRAS_GeometryData.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
@@ -60,7 +60,7 @@ Para la creación del prototipo, utilizaremos las especificaciones de la secció
 <div align="center"><img src="graph/HECRAS_GeometryData3a.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 <div align="center"><img src="graph/HECRAS_GeometryData3.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
-5. Repita el procedimiento anterior para la sección de descarga localizada en la abscisa cero.
+5. Repita el procedimiento anterior para la sección de descarga localizada en la abscisa cero e ingrese para las dos secciones la estación de localización de las bancas.
 
 <div align="center"><img src="graph/HECRAS_GeometryData4a.jpg" alt="R.HCMC" width="20%" border="0" /></div>
 <div align="center"><img src="graph/HECRAS_GeometryData4.jpg" alt="R.HCMC" width="80%" border="0" /></div>
@@ -150,7 +150,7 @@ Visualice el hidrograma.
 
 <div align="center"><img src="graph/HECRAS_GeometryData23.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 
-4. Ejecutar en condiciones de flujo subcrítico y revisar el Log oo registro de resultados.
+4. Ejecutar en condiciones de flujo subcrítico y revisar el Log o registro de resultados.
 
 <div align="center"><img src="graph/HECRAS_GeometryData24.jpg" alt="R.HCMC" width="80%" border="0" /></div>
 

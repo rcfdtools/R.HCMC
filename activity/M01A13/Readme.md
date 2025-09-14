@@ -159,7 +159,7 @@ La sección obtenida es de 892.49 metros de ancho, altura de lámina de agua en 
 > Como observa, en este método no se ingresan las inclinaciones de los taludes laterales y pendiente, la sección es resuelta en función de la estabilidad.
 
 
-## 3. Diseño por Método de la Fuerza Tractiva (Lane) en HEC-RAS
+## 3. Diseño por Método de la Fuerza Tractiva (Lane d75) en HEC-RAS
 
 
 ### 3.1. Sección dominante (river)
@@ -225,7 +225,7 @@ Geometría ajustada de la Sección a utilizar en el caso de estudio: al corredor
 > Para regularizar el diseño y facilitar el replanteo en terreno se recomienda ajustar los anchos calculados a valores enteros por encima del valor obtenido.
 
 
-## 4. Diseño por Método de la Fuerza Tractiva (Shields) en HEC-RAS
+## 4. Diseño por Método de la Fuerza Tractiva (Shields d50) en HEC-RAS
 
 
 ### 4.1. Sección dominante (river)

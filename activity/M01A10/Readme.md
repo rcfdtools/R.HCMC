@@ -97,10 +97,15 @@ A diferencia del método anterior en el que utilizamos la longitud euclidiana de
 
 1. En QGIS, ejecute la herramienta _Processing Toolbox / Vector geometry / Simplify_ para simplificar la trayectoria de cada tramo de drenaje utilizando como tolerancia 1/10 del radio de curvatura para el suavizado del valle obtenido en la actividad [M01A03](../M01A03/Readme.md). Nombre la capa resultante como [/file/shp/CGG_DrenajeNaturalSimplify180m_v0.shp](../../file/shp/CGG_DrenajeNaturalSimplify180m_v0.zip).
 
-> Recuerde que previamente realizamos un filtro excluyendo los drenajes de montaña cuyas sinuosidades pueden ser inferiores a las de los cauces de llanura,
+> Recuerde que previamente realizamos un filtro excluyendo los drenajes de montaña cuyas sinuosidades pueden ser inferiores a las de los cauces de llanura.
 
 <div align="center"><img src="graph/QGIS_Simplify.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 <div align="center"><img src="graph/QGIS_Simplify1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+
+Complementariamente, puede ejecutar la herramienta _Processing Toolbox / Vector geometry / Smooth_ para suavizar las líneas que describen el valle, p. ej., con 10 iteraciones para offsets de 0.25 y ángulos máximos de 180°. Nombre la capa resultante como [/file/shp/CGG_DrenajeNaturalSimplify180mSmooth_v0.shp](../../file/shp/CGG_DrenajeNaturalSimplify180mSmooth_v0.zip).
+
+<div align="center"><img src="graph/QGIS_Smooth.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+
 
 2. En la tabla de atributos de la capa de líneas simplificadas, calcule en un campo numérico real (precisión 10) con el nombre `LValleySim`, la longitud geométrica planar de cada línea. 
 

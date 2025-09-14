@@ -39,7 +39,6 @@ Para el análisis, tenga en cuenta las siguientes consideraciones:
 * Para el diseño geométrico del canal de realineamiento, se consideran válidos, taludes de diseño con relación H:V mayor a la encontrada en las secciones naturales, obteniendo taludes más tendidos en los que existirá menor riesgo de arrastre de material, erosión, socavación, volcamiento o falla.
 * Para el estudio de los taludes de referencia, en el libro de análisis se pueden utilizar las columnas del talud izquierdo para el análisis de las secciones del cauce dominante y las columnas derechas para el talud del valle o de creciente.
 * En el análisis puede incluir secciones transversales representativas en cauces laterales o en la zona del canal natural a reemplazar.
-* Se recomienda analizar en la columna de talud izquierdo, los taludes correspondientes al cauce dominante y en la columna derecha los correspondientes al talud del valle o de creciente.
 
 <div align="center">Esquema de sección trapezoidal<br><img src="graph/R.HydroTools.TaludReferenciaCanal.Sample.jpg" alt="R.HCMC" width="30%" border="0" /></div>
 <div align="center">Taludes y tipos de recubrimiento (prototipo)<br><img src="graph/R.HydroTools.TaludReferenciaCanal.Sample1.jpg" alt="R.HCMC" width="60%" border="0" /></div>

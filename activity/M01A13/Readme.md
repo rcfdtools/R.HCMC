@@ -11,7 +11,6 @@ Dimensionar la sección hidráulica dominante (1) y de creciente (2) del cauce p
 * Diseñar la sección dominante por los métodos Copeland, Régimen de Flujo y Fuerza tractiva.
 * Diseñar la sección de creciente por los métodos Copeland, Régimen de Flujo y Fuerza tractiva.
 * Verificar la sección compuesta por flujo uniforme.
-* Crear un prototipo digital del diseño realizado y modelar a flujo permanente y no permanente.
 
 <div align="center"><img src="graph/SeccionCompuesta.jpg" alt="R.HCMC" width="60%" border="0" /></div>
 
@@ -221,7 +220,7 @@ La diferencia en los resultados con respecto al Método de Shields corresponde a
 
 Geometría ajustada de la Sección a utilizar en el caso de estudio: al corredor disponible de 300 metros se le descontó una huella de mecanización de 24.4 metros. A la base del valle se le sumó aproximadamente 4.5 metros a cada lado para prevenir co-alineación de taludes.
 
-div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceLane.jpg" alt="R.HCMC" width="70%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceLane.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 > Para regularizar el diseño y facilitar el replanteo en terreno se recomienda ajustar los anchos calculados a valores enteros por encima del valor obtenido.
 

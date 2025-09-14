@@ -8,7 +8,7 @@ A partir del diseño geométrico e hidráulico de la sección y la pendiente del
 
 ## Objetivos
 
-* Crear un prototipo que permita estudiar hidráulicamente en condiciones de flujo permanente y no permanente el canal compuesto diseñado.
+* Crear un prototipo digital que permita estudiar hidráulicamente en condiciones de flujo permanente y no permanente el canal compuesto diseñado.
 
 
 ## Requerimientos

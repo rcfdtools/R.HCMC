@@ -58,12 +58,12 @@ Tenga en cuenta las siguientes consideraciones:
 
 Para la localización de centroides, cree y calcule en la capa de secciones transversales naturales, las siguientes propiedades geométricas:
 
-| Campo  | Tipo       | Descripción                                  | Propiedad geométrica                                                 |
-|:-------|:-----------|:---------------------------------------------|:---------------------------------------------------------------------|
-| CXm    | Real (10)  | Coordenada X de centroide en metros          | x(@geometry)                                                         |
-| CYm    | Real (10)  | Coordenada Y de centroide en metros          | y(@geometry)                                                         |
-| Latdd  | Real (10)  | Latitud de centroide en grados geodésicos    | x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))   |
-| Londd  | Real (10)  | Longitud de centroide en grados geodésicos   | y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))   |
+| Campo  | Tipo       | Descripción                                  | Propiedad geométrica                                               |
+|:-------|:-----------|:---------------------------------------------|:-------------------------------------------------------------------|
+| CXm    | Real (10)  | Coordenada X de centroide en metros          | x(@geometry)                                                       |
+| CYm    | Real (10)  | Coordenada Y de centroide en metros          | y(@geometry)                                                       |
+| Latdd  | Real (10)  | Latitud de centroide en grados geodésicos    | y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326')) |
+| Londd  | Real (10)  | Longitud de centroide en grados geodésicos   | x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326')) |
 
 <div align="center"><img src="graph/QGIS_FieldCalculator.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 

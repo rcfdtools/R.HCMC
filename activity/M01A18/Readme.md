@@ -136,7 +136,7 @@ Una vez ingresados los parámetros, automáticamente obtendrá el cálculo de lo
 
 Para la construcción del prototipo digital, es necesaria la creación de un modelo digital de elevación o el ingreso de los valores de estación-elevación de las coordenadas de cada sección de muestreo. Para el caso de estudio, construiremos el DTM correspondiente a la estructura de expansión en la entrega del canal principal.
 
-1. En el libro de diseño, ingrese las coordenadas de referencia de orígen de la estructura registradas en la entrega [M01A06](../M01A06) y la cota de fondo de entrega, correspondiente a 65 m.s.n.m.
+1. En el libro de diseño, ingrese las coordenadas de referencia de orígen de la estructura registradas en la entrega [M01A06](../M01A06) y la cota de fondo de entrega, correspondiente a 65.4 m.s.n.m.
 
 <div align="center"><img src="graph/R.HydroTools.DisenoEstructuraContraccionExpansionSubcritico.9.jpg" alt="R.HCMC" width="90%" border="0" /></div>
 

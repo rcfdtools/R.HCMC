@@ -160,7 +160,7 @@ Para conocer la localización de las coordenadas del eje del paso de vía, en QG
 
 <div align="center"><img src="graph/Civil3D_Circle.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
-5. Con el comando _Sweep_, seleccione la circunferencia, de enter y luego el eje del tubo. Podrá observar que se ha creado el sólido de la tubería.
+5. Con el comando _**SWEEP**_, seleccione la circunferencia, de _Enter_ y luego el eje del tubo. Podrá observar que se ha creado el sólido de la tubería.
 
 <div align="center"><img src="graph/Civil3D_Sweep.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
@@ -168,7 +168,7 @@ Para conocer la localización de las coordenadas del eje del paso de vía, en QG
 
 <div align="center"><img src="graph/Civil3D_ConceptualView.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
-7. Ejecute el comando _SolidEdit_, seleccione _Body_, _Shell_, seleccione el sólido desde la parte exterior del tubo, luego la cara frontal, luego la cara posterior y de Enter, ingrese el espesor de la tubería, p.ej., 0.1 m y de Enter.
+7. Ejecute el comando _**SolidEdit**_, seleccione _**Body**_, _**Shell**_, seleccione el sólido desde la parte exterior del tubo, luego la cara frontal, luego la cara posterior y de Enter, ingrese el espesor de la tubería, p.ej., -0.1 m (negativo para crear la pared hacia afuera) y de Enter.
 
 <div align="center"><img src="graph/Civil3D_SolidEdit.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 

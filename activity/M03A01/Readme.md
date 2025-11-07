@@ -43,12 +43,27 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
 
-## Procedimiento general
+## 1. Procedimiento general
 
 R.HCMC se encuentra en proceso de actualización, consulte la versión anterior usando Hec-GeoRAS en el enlace [M03A01.pdf](M03A01.pdf).
 
+1. En QGIS, cree un proyecto nuevo asignando el CRS 3116, agregue la capa [/shp/CGG_CurvaNivelLidar_v0.shp](../../file/shp/CGG_CurvaNivelLidar_v0.zip).
 
-## Obtención de valores de estación-elevación de diques en QGIS en cada sección transversal y asignación en Geometry 1D de HEC-RAS
+> Para comprender mejor la localización geográfica del proyecto, agregue el mapa base XYZ de Google Maps desde https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}. Mapas base complementarios en: https://github.com/opengeos/qgis-basemaps/blob/main/qgis_basemaps.py
+
+<div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+
+2. Desde Autodesk AutoCAD o Civil 3D, convierta el archivo [/cad/acad/Civil3D_MDT_ValleRio_v0.dwg](../../file/cad/acad/Civil3D_MDT_ValleRio_v0.zip) a un archivo .dxf versión 2007 con el nombre [/cad/acad/Civil3D_MDT_ValleRio_v0.dxf](../../file/cad/acad/Civil3D_MDT_ValleRio_v0dxf.zip)
+
+<div align="center"><img src="graph/ACAD_DXFConvert.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+
+y los vectores CAD del DTM creado en Autodesk Civil 3D
+
+
+
+
+
+## 2. Obtención de valores de estación-elevación de diques en QGIS en cada sección transversal y asignación en Geometry 1D de HEC-RAS
 
 Los diques o Leeves en modelos hidráulicos unidimensionales, son los elementos que permiten confinar el flujo hidráulico en una sección transversal y su incorporación es indispensable para poder modelar correctamente las condiciones de desbordamiento y el área hidráulica de la sección. En secciones transversales en la que existen zonas laterales fuera del cauce principal, el área hidráulica se calcula a lo ancho de toda la sección; cuando están definidos los diques izquierdo y derecho, únicamente el área hidráulica es calculada dentro de estas dos posiciones. 
 

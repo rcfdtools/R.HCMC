@@ -65,9 +65,24 @@ R.HCMC se encuentra en proceso de actualización, consulte la versión anterior 
 
 <div align="center"><img src="graph/QGIS_MinimumBoundingGeometry.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
-5. Con la herramienta Processing Toolbox / Vector overlay / Union, combine el polígono del límite externo de las curvas de nivel con el polígono externo CAD que delimita el DTM generado en Autodesk Civil 3D. Guarde la capa resultante como [/shp/TIN_TerrenoNaturalZonaEstudio_v3.shp](../../file/shp/TIN_TerrenoNaturalZonaEstudio_v3.zip)
+5. Con la herramienta _Processing Toolbox / Vector overlay / Union_, combine el polígono del límite externo de las curvas de nivel con el polígono externo CAD que delimita el DTM generado en Autodesk Civil 3D (en la tabla de atributos podrá observar que existen dos entidades). Guarde la capa resultante como [/shp/TIN_TerrenoNaturalZonaEstudio_v3.shp](../../file/shp/TIN_TerrenoNaturalZonaEstudio_v3.zip).
 
 <div align="center"><img src="graph/QGIS_Union.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+
+6. Abra la tabla de atributos de la capa combinada y con el _Field Calculator_, asigne al campo de atributos `id` el identificado `@id`.
+
+<div align="center"><img src="graph/QGIS_FieldCalculator.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+
+7. Filtre el polígono o máscara de delimitación externa a partir de la expresión `"id" = 1`.
+
+<div align="center"><img src="graph/QGIS_Filter.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+
+8. Con la herramienta _Processing Toolbox / Vector overlay / Clip_, recorte las curvas de nivel contenidas en el polígono o máscara externa al corredor del nuevo realineamiento. Guarde la capa resultante como [/shp/CGG_CurvaNivelLidar_v3.shp](../../file/shp/CGG_CurvaNivelLidar_v3.zip).
+
+<div align="center"><img src="graph/QGIS_Clip.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+
+
+
 
 
 

@@ -57,7 +57,16 @@ R.HCMC se encuentra en proceso de actualización, consulte la versión anterior 
 
 <div align="center"><img src="graph/ACAD_DXFConvert.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
-y los vectores CAD del DTM creado en Autodesk Civil 3D
+3. En QGIS. agregue los vectores CAD convertidos a .dxf del DTM creado en Autodesk Civil 3D. Podrá observar que se visualizan de forma independiente las líneas 3D y el polígono envolvente el DTM.
+
+<div align="center"><img src="graph/QGIS_AddLayer1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+
+4. Ejecute la herramienta _Processing Toolbox / Vector geometry / Minimum bounding geometry_ para obtener el límite externo de todas las curvas de nivel, guarde el archivo como [/shp/TIN_TerrenoNaturalZonaEstudio_v2a.shp]()
+
+<div align="center"><img src="graph/QGIS_MinimumBoundingGeometry.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+
+5. 
+
 
 
 

@@ -111,7 +111,7 @@ R.HCMC se encuentra en proceso de actualización, consulte la versión anterior 
 
 ## 4. Creación modelo topológico
 
-En RAS Mapper de HEC-RAS y utilizando los vectores contenidos en [shp_RASMapperModuleIII](../../file/shp/shp_RASMapperModuleIII.zip), cree el modelo topológico del nuevo realineamiento. El procedimiento a seguir es similar al realizado en la actividad [1.5. Modelo topológico de muestreo en HEC-RAS para el estudio de secciones y perfiles](../M01A05/Readme.md).
+En RAS Mapper de HEC-RAS y utilizando los vectores contenidos en [shp_RASMapperModuleIII](../../file/shp/shp_RASMapperModuleIII.zip), cree el modelo topológico del nuevo realineamiento. El procedimiento a seguir es similar al realizado en la actividad [1.5. Modelo topológico de muestreo en HEC-RAS para el estudio de secciones y perfiles](../M01A05/Readme.md). Nombre el modelo hidráulico como [/hec/HECRAS_v1](../../file/hec/).
 
 
 ## 5. Obtención de valores de estación-elevación de diques en QGIS en cada sección transversal y asignación en Geometry 1D de HEC-RAS

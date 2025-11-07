@@ -92,6 +92,16 @@ R.HCMC se encuentra en proceso de actualización, consulte la versión anterior 
 
 <div align="center"><img src="graph/QGIS_MergeVectorLayers.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
+11. En la tabla de atributos de la capa combinada, actualice la elevación contenida en el campo `cota_m` usando la expresión `z_min(@geometry)`, luego simbolice por colores graduados en 32 clases por quantiles. De esta forma podrá validar si las cotas definidas en el corredor se empalman correctamente con el terreno natural.
+
+<div align="center"><img src="graph/QGIS_Symbology.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+
+
+## 3. 
+
+
+
+
 
 
 

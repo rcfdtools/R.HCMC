@@ -99,9 +99,9 @@ R.HCMC se encuentra en proceso de actualización, consulte la versión anterior 
 
 ## 3. Creación del modelo de terreno
 
-1. 
+1. Con la herramienta _Processing Toolbox / Interpolation / TIN interpolation_, cree la superficie del modelo de terreno DTM. Utilice los valores _Z-coordinate_ con el tipo _Break lines_ y el método de interpolación líneal para obtener una superficie a partir de elementos triangulados y sin suavizado con resolución de 1 metro. Guarde el modelo digital de elevación como [/dem/TIN_TerrenoNaturalCauceSinuosoQGIS_v0.tif](../../file/dem/TIN_TerrenoNaturalCauceSinuosoQGIS_v0.rar) y simbolice por _Hillshade_.
 
-
+<div align="center"><img src="graph/QGIS_TINInterpolation.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 

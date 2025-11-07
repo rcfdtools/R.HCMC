@@ -43,9 +43,12 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 > Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel y reportes o informes, agregando al final la fecha de control documental en formato aaaammdd, p. ej. _R.HydroTools.DisenoCaucesParametros.20250528.xlsx_.
 
 
-## 1. Procedimiento general
+## 0. Procedimiento general usando HEC-GeoRAS
 
 R.HCMC se encuentra en proceso de actualización, consulte la versión anterior usando Hec-GeoRAS en el enlace [M03A01.pdf](M03A01.pdf).
+
+
+## 1. Integración del modelo de terreno en QGIS
 
 1. En QGIS, cree un proyecto nuevo asignando el CRS 3116, agregue la capa [/shp/CGG_CurvaNivelLidar_v0.shp](../../file/shp/CGG_CurvaNivelLidar_v0.zip).
 
@@ -81,7 +84,13 @@ R.HCMC se encuentra en proceso de actualización, consulte la versión anterior 
 
 <div align="center"><img src="graph/QGIS_Clip.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
+9. Active la capa de entidades CAD correspondientes a las líneas del corredor del nuevo realineamiento y verifique visualmente que los empalmes con las curvas de nivel natural recortadas sean correctos.
 
+<div align="center"><img src="graph/QGIS_Clip1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+
+10. Con la herramienta _Processing Toolbox / Vector general / Merge vector layers_, combine las curvas de nivel natural recortadas con las líneas de entidad CAD correspondientes al corredor del nuevo realineamiento, asigne el CRS 3116. Guarde la capa resultante como [/shp/TIN_TerrenoNaturalAristas_v3.shp](../../file/shp/TIN_TerrenoNaturalAristas_v3.zip).
+
+<div align="center"><img src="graph/QGIS_MergeVectorLayers.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 

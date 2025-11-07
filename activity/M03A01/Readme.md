@@ -99,17 +99,22 @@ R.HCMC se encuentra en proceso de actualización, consulte la versión anterior 
 
 ## 3. Creación del modelo de terreno
 
-1. Con la herramienta _Processing Toolbox / Interpolation / TIN interpolation_, cree la superficie del modelo de terreno DTM. Utilice los valores _Z-coordinate_ con el tipo _Break lines_ y el método de interpolación líneal para obtener una superficie a partir de elementos triangulados y sin suavizado con resolución de 1 metro. Guarde el modelo digital de elevación como [/dem/TIN_TerrenoNaturalCauceSinuosoQGIS_v0.tif](../../file/dem/TIN_TerrenoNaturalCauceSinuosoQGIS_v0.rar) y simbolice por _Hillshade_.
+1. Con la herramienta _Processing Toolbox / Interpolation / TIN interpolation_, cree la superficie del modelo de terreno DTM. Utilice los valores _Z-coordinate_ con el tipo _Break lines_ y el método de interpolación _Lineal_ para obtener una superficie a partir de elementos triangulados y sin suavizado con resolución de 1 metro. Guarde el modelo digital de elevación como [/dem/TIN_TerrenoNaturalCauceSinuosoQGIS_v0.tif](../../file/dem/TIN_TerrenoNaturalCauceSinuosoQGIS_v0.rar) y simbolice por _Hillshade_.
 
 <div align="center"><img src="graph/QGIS_TINInterpolation.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
+2. Utilizando la herramienta _View / Elevation Profile_, visualice la sección transversal del inicio y entrega del nuevo realineamiento. Verifique que el empalme entre la corona del cauce dominante sinuoso y el valle de inundación no presente sobre elevaciones.
+
+<div align="center"><img src="graph/QGIS_ElevationProfile.jpg" alt="R.HCMC" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_ElevationProfile1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
+## 4. Creación modelo topológico
+
+En RAS Mapper de HEC-RAS y utilizando los vectores contenidos en [shp_RASMapperModuleIII](../../file/shp/shp_RASMapperModuleIII.zip), cree el modelo topológico del nuevo realineamiento. El procedimiento a seguir es similar al realizado en la actividad [1.5. Modelo topológico de muestreo en HEC-RAS para el estudio de secciones y perfiles](../M01A05/Readme.md).
 
 
-
-
-## 2. Obtención de valores de estación-elevación de diques en QGIS en cada sección transversal y asignación en Geometry 1D de HEC-RAS
+## 5. Obtención de valores de estación-elevación de diques en QGIS en cada sección transversal y asignación en Geometry 1D de HEC-RAS
 
 Los diques o Leeves en modelos hidráulicos unidimensionales, son los elementos que permiten confinar el flujo hidráulico en una sección transversal y su incorporación es indispensable para poder modelar correctamente las condiciones de desbordamiento y el área hidráulica de la sección. En secciones transversales en la que existen zonas laterales fuera del cauce principal, el área hidráulica se calcula a lo ancho de toda la sección; cuando están definidos los diques izquierdo y derecho, únicamente el área hidráulica es calculada dentro de estas dos posiciones. 
 

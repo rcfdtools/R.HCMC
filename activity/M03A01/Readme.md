@@ -109,16 +109,20 @@ R.HCMC se encuentra en proceso de actualización, consulte la versión anterior 
 <div align="center"><img src="graph/QGIS_ElevationProfile1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
-## 4. Creación modelo topológico
+## 4. Creación del modelo topológico hidráulico 1D
 
 En RAS Mapper de HEC-RAS y utilizando los vectores contenidos en [shp_RASMapperModuleIII](../../file/shp/shp_RASMapperModuleIII.zip), cree el modelo topológico del nuevo realineamiento. El procedimiento a seguir es similar al realizado en la actividad [1.5. Modelo topológico de muestreo en HEC-RAS para el estudio de secciones y perfiles](../M01A05/Readme.md). Nombre el modelo hidráulico como [/hec/HECRAS_v1](../../file/hec/).
 
 
 ## 5. Obtención de valores de estación-elevación de diques en QGIS en cada sección transversal y asignación en Geometry 1D de HEC-RAS
 
-Los diques o Leeves en modelos hidráulicos unidimensionales, son los elementos que permiten confinar el flujo hidráulico en una sección transversal y su incorporación es indispensable para poder modelar correctamente las condiciones de desbordamiento y el área hidráulica de la sección. En secciones transversales en la que existen zonas laterales fuera del cauce principal, el área hidráulica se calcula a lo ancho de toda la sección; cuando están definidos los diques izquierdo y derecho, únicamente el área hidráulica es calculada dentro de estas dos posiciones. 
+Los diques o Leeves en modelos hidráulicos unidimensionales, son los elementos que permiten confinar el flujo hidráulico en una sección transversal y su incorporación es indispensable para poder modelar correctamente las condiciones de desbordamiento y el área hidráulica en cada sección. En secciones transversales en la que existen zonas laterales fuera del cauce principal, el área hidráulica se calcula a lo ancho de toda la sección; cuando están definidos los diques izquierdo y derecho, únicamente el área hidráulica es calculada dentro de estas dos posiciones. 
 
-RAS Mapper, no dispone en la versión 6.7 de HEC-RAS, de una herramienta para la incorporación de posiciones de dique en secciones transversales de modelos 1D. Es por ello, que es necesario calcular los valores de estación o distancias desde el nodo inicial de la sección, hasta los puntos de localización de diques izquierdo y derecho, además de la elevación en la sección de estos elementos. Guarde las capas generadas en la carpeta [/hec/HECRAS_v1/shp_RASMapperModuleIII/](../../file/hec/)
+RAS Mapper, no dispone en la versión 6.7 de HEC-RAS, de una herramienta para la incorporación de posiciones de dique a partir de líneas en secciones transversales de modelos 1D. Es por ello, que es necesario calcular los valores de estación o distancias desde el nodo inicial de la sección, hasta los puntos de localización de diques izquierdo y derecho, además de la elevación en la sección de estos elementos.
+
+**Procedimiento:**
+
+Guarde las capas generadas en la carpeta [/hec/HECRAS_v1/shp_RASMapperModuleIII/](../../file/hec/)
 
 1. Desde el modelo hidráulico de HEC-RAS y desde RAS Mapper, actualice todas las propiedades de las secciones transversales o XSCutLines (abscisas, valores de estación-elevación de los nodos que representan la sección). 
 2. Desde RAS Mapper, exporte las XSCutLines con todas sus propiedades a un archivo shapefile y guarde como _XSCutLines_RAS_Properties.shp_. Recuerde que los nombres de los campos de atributos serán truncados a 10 caracteres alfanuméricos cuando estos son exportados a .shp.

@@ -61,12 +61,13 @@ R.HCMC se encuentra en proceso de actualización, consulte la versión anterior 
 
 <div align="center"><img src="graph/QGIS_AddLayer1.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
-4. Ejecute la herramienta _Processing Toolbox / Vector geometry / Minimum bounding geometry_ para obtener el límite externo de todas las curvas de nivel, guarde el archivo como [/shp/TIN_TerrenoNaturalZonaEstudio_v2a.shp]()
+4. Ejecute la herramienta _Processing Toolbox / Vector geometry / Minimum bounding geometry_ para obtener el límite externo de todas las curvas de nivel, guarde la capa resultante como [/shp/TIN_TerrenoNaturalZonaEstudio_v2a.shp](../../file/shp/TIN_TerrenoNaturalZonaEstudio_v2a.zip)
 
 <div align="center"><img src="graph/QGIS_MinimumBoundingGeometry.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
-5. 
+5. Con la herramienta Processing Toolbox / Vector overlay / Union, combine el polígono del límite externo de las curvas de nivel con el polígono externo CAD que delimita el DTM generado en Autodesk Civil 3D. Guarde la capa resultante como [/shp/TIN_TerrenoNaturalZonaEstudio_v3.shp](../../file/shp/TIN_TerrenoNaturalZonaEstudio_v3.zip)
 
+<div align="center"><img src="graph/QGIS_Union.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
 

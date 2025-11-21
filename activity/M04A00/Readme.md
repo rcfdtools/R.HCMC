@@ -38,6 +38,23 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 R.HCMC se encuentra en proceso de actualización, consulte la versión anterior en el enlace [M04A00.pdf](M04A00.pdf).
 
+**Digital elevation model - DEM**
+TIN_TerrenoNaturalCauceSinuosoQGIS_v0.tif
+
+**Geometry2D**
+* Perimeter_v4.shp
+* Breaklines.shp
+* LandCover_v0.shp
+* Main cells: 50m
+* Breaklines Near spacing: 15m
+* Breaklines Far spacing: 30m
+
+**GeometryDrag**
+* RiverRAS_v1.shp
+* LeveeStructure.shp
+* XSCutLines_v2.shp
+* Banks_v0a.shp
+
 
 ## Actividades de proyecto :triangular_ruler:
 

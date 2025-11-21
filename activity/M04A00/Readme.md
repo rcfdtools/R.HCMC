@@ -39,7 +39,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 R.HCMC se encuentra en proceso de actualización, consulte la versión anterior en el enlace [M04A00.pdf](M04A00.pdf).
 
 **Digital elevation model - DEM**
-TIN_TerrenoNaturalCauceSinuosoQGIS_v0.tif
+* TIN_TerrenoNaturalCauceSinuosoQGIS_v0.tif
 
 **Geometry2D**
 * Perimeter_v4.shp

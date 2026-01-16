@@ -1,4 +1,4 @@
-# :globe_with_meridians:Módulo III – Modelación hidráulica 1D
+# :large_blue_circle:Módulo III – Modelación hidráulica 1D
 
 En este módulo se realiza el ensamble en RAS-Mapper de la topología requerida del canal y paso de vía y se realiza la modelación hidráulica 1D en HEC-RAS para verificar mediante los resultados obtenidos, que el canal diseñado cumpla con las especificaciones geométricas e hidráulicas de diseño.
 

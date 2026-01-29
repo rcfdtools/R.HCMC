@@ -1,4 +1,4 @@
-<div align="center"><img alt="R.HCMC" src="file/graph/R.HCMC.svg" width="220px"><br><i>COURSE - Computational tools for the 1D/2D design and modeling of winding channels - HCMC</i></div>
+<div align="center"><img alt="R.HCMC" src="file/graph/R.HCMC.svg" width="220px"><br><i>COURSE - Computational tools for the 1D/2D design and modeling of winding channels</i></div>
 
 # CURSO: Herramientas computacionales para el diseño y modelación 1D/2D de cauces sinuosos - HCMC
 Keywords: `hec-ras` `hec-hms` `qgis` `autodesk-civil3d` `river-design` `river-modeling` `river-profile` `river-slope` `curvature-ratio` `sinusoidal-river` `manning-roughness` `hydraulic-structures` `civil-design` 

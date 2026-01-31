@@ -6,7 +6,7 @@ Keywords: `hec-ras` `hec-hms` `qgis` `autodesk-civil3d` `river-design` `river-mo
 
 Bienvenid@, en este curso los participantes recibirán conceptos y metodologías generales aplicables al diseño y modelación de cauces artificiales sinuosos y obtendrán habilidades en el uso de diferentes herramientas computacionales, tales como: HEC-HMS, HEC-RAS / RAS Mapper, QGIS y Autodesk Civil 3D. 
 
-<div align="center"><img src="file/graph/Gemini_Generated_Image_wujtfuwujtfuwujt.png" alt="R.HCMC" width="80%" border="0" /><sub><br> Generado con: <a href="https://gemini.google.com/app/da5e04ff83f70704">https://gemini.google.com</a></sub><br><br></div>
+<div align="center"><img src="file/graph/Gemini_Generated_Image_wujtfuwujtfuwujt_rounded.png" alt="R.HCMC" width="80%" border="0" /><sub><br> Generado con: <a href="https://gemini.google.com/app/da5e04ff83f70704">https://gemini.google.com</a></sub><br><br></div>
 
 Globalmente, diversos proyectos de ingeniería alteran el curso natural de los cauces transformando su morfología y comportamiento hidráulico. El diseño fluvial tiene como objetivo replicar el comportamiento natural de los cauces intervenidos a través del trazado de nuevos canales artificiales que cumplan con los parámetros de diseño establecidos.
 

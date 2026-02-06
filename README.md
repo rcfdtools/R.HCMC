@@ -222,3 +222,5 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 
 | [:sun_with_face: Iniciar curso](activity/M01A00/Readme.md) | [:infinity: Otros cursos y herramientas](https://github.com/rcfdtools) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/1) | [:notebook: Referencias](file/ref/Readme.md) | [:label: Abreviaturas y definiciones](file/ref/Definitions.md) |
 |------------------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------|----------------------------------------------------------------|
+
+<div align="right"><img alt="rcfdtools" src=".graph/R.HCMC.svg" width="100px"></div>

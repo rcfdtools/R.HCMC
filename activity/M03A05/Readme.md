@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="file/graph/R.HCMC.svg" height="46px"></div>
+
 # 3.5. Análisis de resultados (perfil de flujo, línea de energía, esfuerzo cortante, velocidad, borde libre)
 Keywords: `hec-ras` `ras-mapper` `hydraulic-model` `hydraulic-simulation` `cross-section` `boundary-condition` `m03a05`
 

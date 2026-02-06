@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="file/graph/R.HCMC.svg" height="46px"></div>
+
 # 1.3. Trazado del eje de valle y estimación de radios de curvatura para suavizado
 Keywords: `realigment` `curvature-ratio` `clothoid` `m01a03`
 

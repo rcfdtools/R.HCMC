@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="file/graph/R.HCMC.svg" height="46px"></div>
+
 # 1.6. Evaluación de secciones transversales de referencia y cotas de fondo de inicio y entrega
 Keywords: `realigment` `cross-section` `hydraulic-depth` `superficial-widtth` `river-slope` `hydraulic-reference-values` `m01a06`
 

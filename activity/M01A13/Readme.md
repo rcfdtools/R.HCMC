@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="file/graph/R.HCMC.svg" height="46px"></div>
+
 # 1.13. Diseño geométrico e hidráulico vertical del cauce principal de desviación y cauces laterales menores
 Keywords: `hydraulics` `hydraulic-design` `critical-depth` `normal-depth` `yn` `yc` `hec-ras-hydraulic-design` `trapezoidal` `circular` `rectangular` `triangular` `tractive-force` `river` `valley` `confined-valley` `m01a13`
 

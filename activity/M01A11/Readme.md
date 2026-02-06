@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="file/graph/R.HCMC.svg" height="46px"></div>
+
 # 1.11. Estimación de borde libre en canales - Freeboard
 Keywords: `freeboard`  `m01a11`
 

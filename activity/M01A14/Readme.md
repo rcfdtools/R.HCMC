@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="file/graph/R.HCMC.svg" height="46px"></div>
+
 # 1. 14. Prototipo digital del canal prismático diseñado
 Keywords: `hydraulic-prototipe`  `m01a14`
 

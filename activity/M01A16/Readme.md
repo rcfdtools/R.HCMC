@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="file/graph/R.HCMC.svg" height="46px"></div>
+
 # 1.16. Obras y estructuras hidráulicas - Paso de vía
 Keywords: `realigment` `hydraulic-sewer` `bridge` `hydraulics` `hydraulic-design` `culvert-design` `invert-elevation` `m01a16`
 

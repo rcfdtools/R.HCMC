@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="file/graph/R.HCMC.svg" height="46px"></div>
+
 # 1.5. Modelo topológico de muestreo en HEC-RAS para el estudio de secciones y perfiles
 Keywords: `topological-model` `sample-model` `ras-mapper`  `m01a05`
 

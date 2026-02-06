@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="file/graph/R.HCMC.svg" height="46px"></div>
+
 # 4.9. Modelación incluyendo tramos naturales de inicio, entrega, cauces laterales y estructuras de transición
 Keywords: `manning` `2d-modeling` `hec-ras` `ras-mapper` `hydraulic-model` `hydraulic-simulation` `cross-section` `boundary-condition` `m04a09`
 

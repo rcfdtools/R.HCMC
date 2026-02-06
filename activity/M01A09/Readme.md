@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="file/graph/R.HCMC.svg" height="46px"></div>
+
 # 1.9. Evaluación de taludes de referencia para diseño a partir de secciones transversales de cauces naturales
 Keywords: `side-slope`  `m01a09`
 

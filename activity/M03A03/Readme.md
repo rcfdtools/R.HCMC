@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="file/graph/R.HCMC.svg" height="46px"></div>
+
 # 3.3. Definición de parámetros hidráulicos y condiciones de frontera
 Keywords: `hec-ras` `ras-mapper` `hydraulic-model` `cross-section` `boundary-condition` `m03a03`
 

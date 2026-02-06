@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="file/graph/R.HCMC.svg" height="46px"></div>
+
 # 1.12. Evaluación de tamaño de partículas y definición de rugosidades de diseño
 Keywords: `gradation` `roughness-coefficient`  `m01a12`
 

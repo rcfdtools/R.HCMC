@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="file/graph/R.HCMC.svg" height="46px"></div>
+
 # 2.8. Planos - Cálculo de volúmenes corte y relleno
 Keywords: `volume-cut-fill` `engineering-sketch` `cross-section` `autodesk-civil-3d` `autodesk-autocad` `surface` `m02a08`
 

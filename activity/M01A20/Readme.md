@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="file/graph/R.HCMC.svg" height="46px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.HCMC.svg" height="46px"></div>
 
 # 1.20. Obras y estructuras hidráulicas - Rápida
 Keywords: `hydraulics` `hydraulic-structure` `hydraulic-jump` `hydraulic-fall` `m01a20` 

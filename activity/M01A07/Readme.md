@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="file/graph/R.HCMC.svg" height="46px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.HCMC.svg" height="46px"></div>
 
 # 1.7. Análisis de la pendiente de diseño en cauce y valle
 Keywords: `realigment` `river-slope` `valley-slope` `m01a07`

@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="file/graph/R.HCMC.svg" height="46px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.HCMC.svg" height="46px"></div>
 
 # 1.10. Evaluación y análisis de la sinuosidad en cauces naturales existentes de la zona de estudio
 Keywords: `sinuosity`  `m01a10`

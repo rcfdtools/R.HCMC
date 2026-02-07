@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="file/graph/R.HCMC.svg" height="46px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.HCMC.svg" height="46px"></div>
 
 # 1.8. Perfil de terreno del valle, evaluación de estructuras de caída y análisis de corte vs. relleno
 Keywords: `realigment`  `m01a08`

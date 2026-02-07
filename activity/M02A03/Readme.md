@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="file/graph/R.HCMC.svg" height="46px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.HCMC.svg" height="46px"></div>
 
 # 2.3. Trazado de clotoides para el cauce sinuoso
 Keywords: `aligment` `curve-spiral` `clothoid` `offset-aligment` `autodesk-civil-3d` `autodesk-autocad` `surface` `m02a03`

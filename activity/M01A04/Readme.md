@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="file/graph/R.HCMC.svg" height="46px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.HCMC.svg" height="46px"></div>
 
 # 1.4. Modelo digital de terreno GIS 3D en estado natural (TIN) usando QGIS
 Keywords: `tin`  `m01a04`

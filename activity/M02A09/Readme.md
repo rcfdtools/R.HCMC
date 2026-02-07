@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="file/graph/R.HCMC.svg" height="46px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.HCMC.svg" height="46px"></div>
 
 # 2.9. Planos - Generación de secciones transversales, planta y perfil
 Keywords: `profile` `volume-cut-fill` `engineering-sketch` `cross-section` `autodesk-civil-3d` `autodesk-autocad` `surface` `m02a09`

@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="file/graph/R.HCMC.svg" height="46px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.HCMC.svg" height="46px"></div>
 
 # 1.1. Parámetros generales requeridos para el diseño y la modelación
 Keywords: `technical-parameter` `legal-parameter` `environmental-parameter` `land-zone-parameter` `m01a01`

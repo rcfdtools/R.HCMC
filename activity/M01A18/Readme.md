@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="file/graph/R.HCMC.svg" height="46px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.HCMC.svg" height="46px"></div>
 
 # 1.18. Obras y estructuras hidráulicas - Contracción y expansión
 Keywords: `realigment` `hydraulics` `hydraulic-structure` `hydraulic-transition` `hydraulic-expansion` `hydraulic-contraction` `m01a18`

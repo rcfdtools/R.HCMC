@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="file/graph/R.HCMC.svg" height="46px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.HCMC.svg" height="46px"></div>
 
 # :large_blue_circle:Módulo II – Diseño geométrico Civil 3D para trazado de ejes, construcción de corredores 3D y generación de planos de ingeniería de detalle
 

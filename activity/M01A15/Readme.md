@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="file/graph/R.HCMC.svg" height="46px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.HCMC.svg" height="46px"></div>
 
 # 1.15. Diseño geométrico horizontal o diseño sinuoso
 Keywords: `realigment`  `hydraulics` `hydraulic-design` `sinusoidal-river-design ``m01a015`

@@ -120,7 +120,7 @@ Para el caso de estudio utilizaremos el sistema de proyección de coordenadas - 
 **Grupos de proyecto**: a partir de los conocimientos y habilidades obtenidas, cada estudiante o grupo de estudiantes, desarrollan las mismas actividades a través de un proyecto final de clase el cual es definido a partir de diferentes nodos y ejes de realineamiento. Dependiendo del número de participantes se permitirá la creación de grupos de trabajo desde 3 integrantes. Reporte los integrantes de su grupo en el enlace de [Repositorio de Proyecto](https://forms.office.com/r/gVg8DjvVFh).
 
 
-## :large_blue_circle:Módulo I – Parámetros y diseño geométrico e hidráulico
+## :large_blue_circle:Módulo 1 – Parámetros y diseño geométrico e hidráulico
 
 En este módulo se definen los parámetros generales a utilizar en el diseño del canal artificial y se obtienen los caudales e hidrogramas requeridos para el diseño geométrico y el tránsito hidráulico de las crecientes y se realiza el diseño de las estructuras hidráulicas requeridas.
 
@@ -151,7 +151,7 @@ En este módulo se definen los parámetros generales a utilizar en el diseño de
 > En la tabla, la columna _Semana_, corresponde al número de semana de clase sin incluir receso o festivos. 
 
 
-## :large_blue_circle:Módulo II – Diseño geométrico Civil 3D para trazado de ejes, construcción de corredores 3D y generación de planos de ingeniería de detalle
+## :large_blue_circle:Módulo 2 – Diseño geométrico Civil 3D para trazado de ejes, construcción de corredores 3D y generación de planos de ingeniería de detalle
 
 En este módulo se trazan en planta los ejes directrices del valle y río a partir del diseño geométrico realizado, para la posterior construcción e integración del modelo tridimensional triangulado requerido. Luego de realizar el diseño, se presentarán algunas indicaciones para la elaboración de planos de ingeniería de detalle, usando para ello las herramientas Autodesk AutoCAD y/o Autodesk Civil 3D.
 
@@ -170,7 +170,7 @@ En este módulo se trazan en planta los ejes directrices del valle y río a part
 > Es recomendable revisar y ajustar los planos de ingeniería de detalle luego de que sea ejecutada la modelación hidráulica y verificación de cumplimiento de las condiciones de diseño.
 
 
-## :large_blue_circle:Módulo III – Modelación hidráulica 1D
+## :large_blue_circle:Módulo 3 – Modelación hidráulica 1D
 
 En este módulo se realiza el ensamble en RAS-Mapper de la topología requerida del canal y paso de vía y se realiza la modelación hidráulica 1D en HEC-RAS para verificar mediante los resultados obtenidos, que el canal diseñado cumpla con las especificaciones geométricas e hidráulicas de diseño.
 
@@ -191,7 +191,7 @@ Actualmente, los cálculos hidráulicos 1D realizados para secciones transversal
 | [3.8. Modelación de pasos de vía en modelos hidráulicos 1D](activity/M03A08/Readme.md)                                                  | A partir del modelo hidráulico funcional que incluye la rectificación de fondo de las secciones naturales antes y después del canal sinuoso diseñado, modelar el paso de vía utilizando alcantarillas en la zona del canal dominante y valle.                                                                                                                                         |   11    |
 
 
-## :large_blue_circle:Módulo IV – Modelación hidráulica 2D
+## :large_blue_circle:Módulo 4 – Modelación hidráulica 2D
 
 En este módulo se ejecuta la modelación bidimensional del cauce diseñado mediante la construcción de mallas semiestructuradas, así como la mapificación y análisis de resultados en RAS Mapper.
 

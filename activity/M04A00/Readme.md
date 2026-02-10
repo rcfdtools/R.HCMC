@@ -1,6 +1,6 @@
 <div align="center"><img alt="rcfdtools" src="../../file/graph/R.HCMC.svg" height="46px"></div>
 
-# :large_blue_circle:Módulo IV – Modelación hidráulica 2D
+# :large_blue_circle:Módulo 4 – Modelación hidráulica 2D
 
 En este módulo se ejecuta la modelación bidimensional del cauce diseñado mediante la construcción de mallas semiestructuradas, así como la mapificación y análisis de resultados en RAS Mapper.
 

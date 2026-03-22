@@ -65,6 +65,12 @@ Globalmente, diversos proyectos de ingeniería alteran el curso natural de los c
 | Corrección    |   4.0 o 5.0    | Viernes hasta las 12:00 de la media noche. Aplica solo para entregas recibidas en el horario regular. Las correcciones no son obligatorias, sin embargo, el estudiante deberá ajustar la entrega de acuerdo a las observaciones y correcciones indicadas. La calificación de la corrección es asignada directamente por el estudiante o grupo de proyecto. |
 
 > Para entregas regulares, la calificación final es el promedio de la calificación asignada por el instructor y la auto-calificación realizada por cada grupo de proyecto, de acuerdo a las correcciones realizadas en cada entrega.
+>
+> **Pregrado**: acorde con el parágrafo del Artículo 38 del reglamento estudiantil, _“La asistencia a talleres y laboratorios es de carácter obligatorio. La inasistencia a estas actividades se califica con cero coma cero (0,0)”_.
+> 
+> **Posgrado**: acorde con el Literal b del Artículo 46 del reglamento estudiantil, los estudiantes de posgrado deben _“Asistir y participar cumplida y activamente en todas las actividades académicas contempladas en el plan de estudios”_.
+> 
+> **Informe técnico**: solo será válido si en cada una de las capturas de pantalla se observa su código de alumno en el título o nombre de archivo. Para las capturas de pantalla puede utilizar la Herramienta de Recortes o Snipping Tool, las teclas <kbd>Win</kbd>+<kbd>PrtScn</kbd> para guardar capturas de toda la ventana en la carpeta de imágenes, las teclas <kbd>Win</kbd>+<kbd>G</kbd> para obtener capturas desde la Game Bar, o las teclas <kbd>Win</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd> para capturas instantáneas. Una vez finalizada la elaboración del informe técnico, este debe ser convertido a formato Adobe Acrobat .pdf y adjuntado al Quiz.
 
 
 ## Software requerido, repositorio de proyecto y estructura de directorios

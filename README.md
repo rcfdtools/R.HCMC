@@ -90,17 +90,16 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 
 </div>
 
-**Configuración regional**
-
-En _Microsoft Windows / Panel de control / Region / Formats / Additional settings..._, establezca:
-
-* Símbolo decimal (Decimal symbol): punto (.)
-* Símbolo de agrupación de miles (Digit grouping symbol): coma (,)
-* Separador de listas (List separator): coma (,)
-
 > :blue_heart: El repositorio de proyecto deberá mantenerse durante la duración del curso, estableciendo permisos de escritura para los integrantes de su grupo y lectura para el instructor.
 >
 > Nota: los datos hidro-climatológicos suministrados corresponden a información tomada y procesada a partir de datos del IDEAM y los archivos de formas vectoriales han sido descargados del IGAC y de otras fuentes alternas.
+
+
+### Configuración regional en ingeniería
+
+* **Sistema operativo**: en _Microsoft Windows / Panel de control / Region / Formats / Additional settings..._, establezca símbolo decimal (decimal symbol) como punto ` . `, símbolo de agrupación de miles (digit grouping symbol) como coma ` , ` y separador de listas (list separator) como coma ` , `.
+* **Microsoft Excel**: en el menú _Archivo / Opciones / Avanzado / Opciones de Edición_, desmarque la casilla de _Uso de Separadores del Sistema_ y establezca punto ` . ` como separador decimal y coma ` , ` como separador de miles. 
+* **QGIS**, desde el menú _Settings / General / Override System Locale_, establezca _User interface translation_ como _American English_ y _Locale (number, date and currency formats)_ como _English United States (en_US)_.
 
 
 ## Caso de estudio general, CRS y grupos de proyecto

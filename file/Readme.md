@@ -2,7 +2,7 @@
 
 Para el desarrollo del caso de estudio y del proyecto de clase, es necesario crear la siguiente estructura en su repositorio de proyecto.
 
-[Descargar aquí.](R.HCMC.File.Structure.zip)
+[Descargar aquí.](HCMC_FileStructure.zip)
 
 > Atención: no incluya archivos en la raíz del repositorio, utilice la carpeta correspondiente. En caso de que requiera de la creación de archivos temporales, utilice la carpeta `\temp`.
 

@@ -79,20 +79,20 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 
 <div align="center">
 
-| Requerimiento                                                                      | Descripción                                                                      |
-|:-----------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.office.com/)                                    | Microsoft 365 (Word, Excel, OneDrive, Teams).                                    |
-| [:toolbox:Herramienta](https://qgis.org/)                                          | QGIS 3.44 o superior.                                                            |
-| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                             | Notepad++ (editor de texto).                                                     |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-hms/)           | HEC-HMS 4.13 o superior.                                                         |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-dssvue/)        | HEC-DSSVue 3.2.3 (versión funcional para cargue masivo de hietogramas).          |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)           | HEC-RAS 6.6 o superior.                                                          |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)                  | Autodesk Autocad 2026 (english version) o superior.                              |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                 | Autodesk Civil 3D 2026 (english version) o superior.                             |
-| [:toolbox:Herramienta](https://www.hdfgroup.org/download-hdfview/)                 | HDFView.                                                                         |
-| [:package:Estructura de directorios](file/Readme.md)                               | Estructura requerida para el desarrollo del curso.                               |
-| [:open_file_folder:Repositorio de proyecto](https://forms.office.com/r/gVg8DjvVFh) | Repositorio creado y compartido para publicación de avances de proyecto.         |
-| [:open_file_folder:Plantilla informe técnico](file/report/)                        | Plantilla para presentación de informes técnicos de proyecto, quices y exámenes. |
+| Requerimiento                                                               | Descripción                                                                      |
+|:----------------------------------------------------------------------------|:---------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.office.com/)                             | Microsoft 365 (Word, Excel, OneDrive, Teams).                                    |
+| [:toolbox:Herramienta](https://qgis.org/)                                   | QGIS 3.44 o superior.                                                            |
+| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                      | Notepad++ (editor de texto).                                                     |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-hms/)    | HEC-HMS 4.13 o superior.                                                         |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-dssvue/) | HEC-DSSVue 3.2.3 (versión funcional para cargue masivo de hietogramas).          |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)    | HEC-RAS 6.6 o superior.                                                          |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)           | Autodesk Autocad 2026 (english version) o superior.                              |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)          | Autodesk Civil 3D 2026 (english version) o superior.                             |
+| [:toolbox:Herramienta](https://www.hdfgroup.org/download-hdfview/)          | HDFView.                                                                         |
+| [:package:Estructura de directorios](file/Readme.md)                        | Estructura requerida para el desarrollo del curso.                               |
+| [:cloud:Repositorio de proyecto](https://forms.office.com/r/gVg8DjvVFh)     | Repositorio creado y compartido para publicación de avances de proyecto.         |
+| [:memo:Plantilla informe técnico](file/report/)                             | Plantilla para presentación de informes técnicos de proyecto, quices y exámenes. |
 
 </div>
 

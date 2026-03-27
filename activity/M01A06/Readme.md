@@ -150,14 +150,6 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://ecology.wa.gov/spills-cleanup/contamination-cleanup/sediment-cleanups
 
 
-## Control de versiones
-
-| Versión    | Descripción        | Autor                                      | Horas |
-|------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.06.04 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |   5   |
-
-
-
 ##
 
 _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._

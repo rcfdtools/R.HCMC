@@ -95,15 +95,6 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://www.therrc.co.uk/manual-river-restoration-techniques
 
 
-## Control de versiones
-
-| Versión    | Descripción                                                                          | Autor                                      | Horas |
-|------------|:-------------------------------------------------------------------------------------|--------------------------------------------|:-----:|
-| 2022.08.20 | Inclusión de nuevo realineamiento de referencia, Realineamiento de los ríos gemelos. | [rcfdtools](https://github.com/rcfdtools)  | 0.25  |
-| 2022.08.14 | Inclusión de nuevos realineamientos de referencia, Canal del Dique a Arroyo Bruno.   | [rcfdtools](https://github.com/rcfdtools)  |   2   |
-| 2016.05.21 | Versión inicial.                                                                     | [rcfdtools](https://github.com/rcfdtools)  |   8   |
-
-
 ##
 
 _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._

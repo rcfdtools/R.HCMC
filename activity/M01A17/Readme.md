@@ -218,13 +218,6 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * Libro de diseño desarrollado por [rcfdtools](https://github.com/rcfdtools) y [frankv13](https://github.com/frankv13).
 
 
-## Control de versiones
-
-| Versión    | Descripción        | Autor                                      | Horas |
-|------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.06.13 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |   3   |
-
-
 ##
 
 _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._

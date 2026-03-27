@@ -67,14 +67,6 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://www.autodesk.com/education/free-software/civil-3d
 
 
-## Control de versiones
-
-| Versión    | Descripción        | Autor                                     | Horas |
-|------------|:-------------------|-------------------------------------------|:-----:|
-| 2025.07.29 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools) |   1   |
-| 2014.01.12 | Versión inicial.   | [frankv13](https://github.com/frankv13)   |   6   |
-
-
 ##
 
 _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._

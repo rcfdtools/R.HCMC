@@ -324,17 +324,6 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * https://github.com/rcfdtools/R.HCMC/blob/main/activity/Geology/Readme.md
 
 
-## Control de versiones
-
-| Versión    | Descripción                                                                                                                                                                    | Autor                                      | Horas |
-|------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|:-----:|
-| 2024.02.01 | Migración a GitHub                                                                                                                                                             | [rcfdtools](https://github.com/rcfdtools)  |  12   |
-| 2022.07.25 | Actualización general de documentación.                                                                                                                                        | [rcfdtools](https://github.com/rcfdtools)  |  0.5  |
-| 2021.10.14 | Actualización general de formato.                                                                                                                                              | [rcfdtools](https://github.com/rcfdtools)  |   2   |
-| 2020.10.11 | Inclusión de Método 5. Por factor multiplicador en función del ancho (Urban Storm Drainage Criteria Manual). Inclusión de Método 6. En función del tipo de canal. Salzitegger. | [rcfdtools](https://github.com/rcfdtools)  |   2   |
-| 2016.05.19 | Versión inicial.                                                                                                                                                               | [rcfdtools](https://github.com/rcfdtools)  |   8   |
-
-
 ##
 
 _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._

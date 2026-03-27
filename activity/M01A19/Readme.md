@@ -248,13 +248,6 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * Formulación: [frankv13](https://github.com/frankv13), jagm, [rcfdtools](https://github.com/rcfdtools). Esquema y GIS: [rcfdtools](https://github.com/rcfdtools). Revisión y formato: [rcfdtools](https://github.com/rcfdtools)
 
 
-## Control de versiones
-
-| Versión    | Descripción        | Autor                                      | Horas |
-|------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.06.16 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |  18   |
-
-
 ##
 
 _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._

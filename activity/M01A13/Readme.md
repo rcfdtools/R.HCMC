@@ -591,15 +591,6 @@ Como referencia para las coronas del canal, utilizar las siguientes especificaci
 * https://www.cat.com/en_US/products/new/equipment/off-highway-trucks/mining-trucks.html
 
 
-
-## Control de versiones
-
-| Versión    | Descripción        | Autor                                      | Horas |
-|------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.06.10 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |  12   |
-
-
-
 ##
 
 _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._

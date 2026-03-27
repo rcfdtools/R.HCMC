@@ -235,13 +235,6 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 * US Army Corps of Engineers. HEC-RAS River Analysis System, Hydraulic Reference Manual, Version 5.0. CPD-69. 2016.2
 
 
-## Control de versiones
-
-| Versión    | Descripción        | Autor                                      | Horas |
-|------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.06.11 | Migración a GitHub | [rcfdtools](https://github.com/rcfdtools)  |   3   |
-
-
 ##
 
 _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._

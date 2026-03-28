@@ -90,6 +90,7 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 | [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)           | Autodesk Autocad 2026 (english version) o superior.                              |
 | [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)          | Autodesk Civil 3D 2026 (english version) o superior.                             |
 | [:toolbox:Herramienta](https://www.hdfgroup.org/download-hdfview/)          | HDFView.                                                                         |
+| [:construction_worker:Cuenta de usuario GitHub](https://github.com/)        | Acceso a recursos y actualizaciones del repositorio público del curso.           |
 | [:package:Estructura de directorios](file/Readme.md)                        | Estructura requerida para el desarrollo del curso.                               |
 | [:cloud:Repositorio de proyecto](https://forms.office.com/r/gVg8DjvVFh)     | Repositorio creado y compartido para publicación de avances de proyecto.         |
 | [:memo:Plantilla informe técnico](file/report/)                             | Plantilla para presentación de informes técnicos de proyecto, quices y exámenes. |

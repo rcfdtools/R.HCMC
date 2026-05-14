@@ -1,7 +1,7 @@
 <div align="center"><a href="https://github.com/rcfdtools" target="_blank"><img src="https://github.com/rcfdtools/rcfdtools/blob/main/graph/rcfdtools_banner.png" alt="R.LTWB" width="100%" border="0" /></a></div>
 <div align="center"><sub><i>COURSE - Computational tools for the 1D/2D design and modeling of winding channels - HCMC</i></sub></div>
 
-# CURSO: Herramientas computacionales para el diseño y modelación 1D/2D de cauces sinuosos - HCMC
+# CURSO: _“Herramientas computacionales para el diseño y modelación 1D/2D de cauces sinuosos - HCMC”_
 Keywords: `hec-ras` `hec-hms` `qgis` `autodesk-civil3d` `river-design` `river-modeling` `river-profile` `river-slope` `curvature-ratio` `sinusoidal-river` `manning-roughness` `hydraulic-structures` `civil-design` 
 
 Bienvenid@, en este curso los participantes recibirán conceptos y metodologías generales aplicables al diseño y modelación de cauces artificiales sinuosos y obtendrán habilidades en el uso de diferentes herramientas computacionales, tales como: HEC-HMS, HEC-RAS / RAS Mapper, QGIS y Autodesk Civil 3D. 

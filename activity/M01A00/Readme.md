@@ -25,10 +25,10 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                                          | Descripción                                                             |
-|:-----------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/word?market=bz)                                      | Microsoft Word 365.                                                     |
-| [:open_file_folder:R.HCMC.R.HCMC. PlantillaInformeTecnico.docx](../../file/report/R.HCMC.PlantillaInformeTecnico.docx) | Plantilla para presentación de informes técnicos de avance de proyecto. |
+| Requerimiento                                                                     | Descripción                                                                      |
+|:----------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/word?market=bz) | Microsoft Word 365.                                                              |
+| [:memo:Plantilla informe técnico](../../file/report/)                             | Plantilla para presentación de informes técnicos de proyecto, quices y exámenes. |
 
 </div>
 

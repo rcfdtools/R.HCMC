@@ -53,7 +53,7 @@ El curso está dirigido a los siguientes estudiantes y/o profesionales y su desa
 
 > :blue_heart: Para el nombramiento de los archivos requerido para el seguimiento de control documental, asignar al final de los archivos su código y la fecha en formato numérico aaaammdd.
 >
-> Grupos de proyecto (opcional no calificable): a partir de los conocimientos y habilidades obtenidas, cada estudiante o grupo de estudiantes, desarrollan las mismas actividades a través de un proyecto final de clase el cual es definido a partir de diferentes nodos y ejes de realineamiento. Dependiendo del número de participantes se permitirá la creación de grupos de trabajo desde 3 integrantes. Reporte los integrantes de su grupo en el enlace de [Repositorio de Proyecto](https://forms.office.com/r/gVg8DjvVFh).
+> **Grupos de proyecto (opcional no calificable)**: a partir de los conocimientos y habilidades obtenidas, cada estudiante o grupo de estudiantes, desarrollan las mismas actividades a través de un proyecto final de clase el cual es definido a partir de diferentes nodos y ejes de realineamiento. Dependiendo del número de participantes se permitirá la creación de grupos de trabajo desde 3 integrantes. Reporte los integrantes de su grupo en el enlace de [Repositorio de Proyecto](https://forms.office.com/r/gVg8DjvVFh).
 
 **Control de entregas**
 

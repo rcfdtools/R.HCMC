@@ -6,7 +6,7 @@ Keywords: `hec-ras` `hec-hms` `qgis` `autodesk-civil3d` `river-design` `river-mo
 
 <div align="center">
 
-<img alt="rcfdtools" src="https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/CaseUse/.icons/IconCEHYouTube.svg" heigh="30px">[Canal de videos (hasta año 2024)](https://www.youtube.com/playlist?list=PLZGvAjHkhphC6-YIjf-L9g8FSmn1y8n8a)
+<img alt="rcfdtools" src="https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/CaseUse/.icons/IconCEHYouTube.svg" height="30px">[Canal de videos (hasta año 2024)](https://www.youtube.com/playlist?list=PLZGvAjHkhphC6-YIjf-L9g8FSmn1y8n8a)
 
 </div>
 

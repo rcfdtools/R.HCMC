@@ -4,11 +4,7 @@
 # CURSO: _“Herramientas computacionales para el diseño y modelación 1D/2D de cauces sinuosos - HCMC”_
 Keywords: `hec-ras` `hec-hms` `qgis` `autodesk-civil3d` `river-design` `river-modeling` `river-profile` `river-slope` `curvature-ratio` `sinusoidal-river` `manning-roughness` `hydraulic-structures` `civil-design` 
 
-<div align="center">
-
-<img alt="rcfdtools" src="https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/CaseUse/.icons/IconCEHYouTube.svg" height="30px">[Canal de videos (hasta año 2024)](https://www.youtube.com/playlist?list=PLZGvAjHkhphC6-YIjf-L9g8FSmn1y8n8a)
-
-</div>
+<div align="center">🔴 [Canal de videos](https://www.youtube.com/playlist?list=PLZGvAjHkhphC6-YIjf-L9g8FSmn1y8n8a)(hasta año 2024)</div>
 
 Bienvenid@, en este curso los participantes recibirán conceptos y metodologías generales aplicables al diseño y modelación de cauces artificiales sinuosos y obtendrán habilidades en el uso de diferentes herramientas computacionales, tales como: HEC-HMS, HEC-RAS / RAS Mapper, QGIS y Autodesk Civil 3D. 
 
@@ -16,7 +12,6 @@ Bienvenid@, en este curso los participantes recibirán conceptos y metodologías
 
 Globalmente, diversos proyectos de ingeniería alteran el curso natural de los cauces transformando su morfología y comportamiento hidráulico. El diseño fluvial tiene como objetivo replicar el comportamiento natural de los cauces intervenidos a través del trazado de nuevos canales artificiales que cumplan con los parámetros de diseño establecidos.
 
-<a href="https://www.youtube.com/playlist?list=PLZGvAjHkhphC6-YIjf-L9g8FSmn1y8n8a" target="_blank"><img src="https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/CaseUse/.icons/IconCEHYouTube.svg" alt="R.LTWB" width="100px" border="0" /></a><sub><br>Playlist (hasta año 2024)</sub>
 
 ## Objetivos del curso
 

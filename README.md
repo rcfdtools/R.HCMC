@@ -113,13 +113,13 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 
 Corresponde a un caso hipotético para la implantación de un canal artificial necesario para desviar un río natural debido a que su trazado se encuentra sobre un yacimiento de minerales que serán explotados de forma intensiva y extensiva a cielo abierto. La información topográfica suministrada, así como la hidrología de la zona de estudio, drenajes naturales y otros elementos territoriales, corresponde a información real de la zona.
 
-El curso y sus diferentes actividades prácticos, se ejemplifican a través de un caso de estudio general correspondiente al **"Realineamiento del Arroyo El Zorro por implantación de actividades mineras de carbón a cielo abierto en el Departamento del Cesar - Colombia"**
+El curso y sus diferentes actividades prácticos, se ejemplifican a través de un caso de estudio general correspondiente al _**"Realineamiento del Arroyo El Zorro por implantación de actividades mineras de carbón a cielo abierto en el Departamento del Cesar - Colombia"**_
 
 Para el caso de estudio utilizaremos el sistema de proyección de coordenadas - [CRS Gauss Bogotá Magna](file/projectionfile), con los siguientes parámetros:
 
 `PROJCS["GAUSS_BTA_MAGNA",GEOGCS["CGS_SIRGAS",DATUM["CGS_SIRGAS",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",1000000.0],PARAMETER["False_Northing",1000000.0],PARAMETER["Central_Meridian",-74.077507917],PARAMETER["Scale_Factor",1.0],PARAMETER["Latitude_Of_Origin",4.596200417],UNIT["Meter",1.0]]`
 
-> Para el desarrollo del proyecto de clase, utilizar el CRS del caso de estudio, el CRS 3116, o el sistema 9377 - MAGNA Colombia Origen Único Nacional, que requerirá la reproyección de las capas suministradas.
+> Para el desarrollo del proyecto de clase o las evaluaciones (quices y exámenes) utilizar el CRS 3116 del caso de estudio o el sistema 9377 - MAGNA Colombia Origen Único Nacional, que requerirá la re-proyección de las capas suministradas.
 
 <div align="center"><img src="file/graph/ZE_Departamento.png" alt="R.HCMC" width="50%" border="0" /><img src="file/graph/ZE_Municipio.png" alt="R.HCMC" width="50%" border="0" /></div>
 <div align="center"><img src="file/graph/ZE_Eje.png" alt="R.HCMC" width="70%" border="0" /></div>

@@ -92,7 +92,7 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 | [:toolbox:Herramienta](https://www.hdfgroup.org/download-hdfview/)          | HDFView.                                                                                           |
 | [:construction_worker:Cuenta de usuario GitHub](https://github.com/)        | Acceso a recursos y actualizaciones del repositorio público del curso.                             |
 | [:package:Estructura de directorios](file/Readme.md)                        | Estructura requerida para el desarrollo del curso.                                                 |
-| [:cloud:Repositorio de proyecto](https://forms.office.com/r/gVg8DjvVFh)     | Repositorio creado y compartido para publicación de avances de proyecto (opcional no calificable). |
+[README.md](../R.TSIG/README.md)| [:cloud:Repositorio de proyecto](https://forms.office.com/r/gVg8DjvVFh)     | Repositorio creado y compartido para publicación de avances de proyecto (opcional no calificable). |
 | [:memo:Plantilla informe técnico](file/report/)                             | Plantilla para presentación de informes técnicos de proyecto, quices y exámenes.                   |
 
 </div>
@@ -106,7 +106,7 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 
 * **Sistema operativo**: en _Microsoft Windows / Panel de control / Region / Formats / Additional settings..._, establezca símbolo decimal (decimal symbol) como punto ` . `, símbolo de agrupación de miles (digit grouping symbol) como coma ` , ` y separador de listas (list separator) como coma ` , `.
 * **Microsoft Excel**: en el menú _Archivo / Opciones / Avanzado / Opciones de Edición_, desmarque la casilla de _Uso de Separadores del Sistema_ y establezca punto ` . ` como separador decimal y coma ` , ` como separador de miles. 
-* **QGIS**, desde el menú _Settings / General / Override System Locale_, establezca _User interface translation_ como _American English_ y _Locale (number, date and currency formats)_ como _English United States (en_US)_.
+* **QGIS**: desde el menú _Settings / General / Override System Locale_, establezca _User interface translation_ como _American English_ y _Locale (number, date and currency formats)_ como _English United States (en_US)_.
 
 
 ## Caso de estudio general, CRS y grupos de proyecto

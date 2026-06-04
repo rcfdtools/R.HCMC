@@ -92,7 +92,7 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 | [:toolbox:Herramienta](https://www.hdfgroup.org/download-hdfview/)          | HDFView.                                                                                           |
 | [:construction_worker:Cuenta de usuario GitHub](https://github.com/)        | Acceso a recursos y actualizaciones del repositorio público del curso.                             |
 | [:package:Estructura de directorios](file/Readme.md)                        | Estructura requerida para el desarrollo del curso.                                                 |
-[README.md](../R.TSIG/README.md)| [:cloud:Repositorio de proyecto](https://forms.office.com/r/gVg8DjvVFh)     | Repositorio creado y compartido para publicación de avances de proyecto (opcional no calificable). |
+| [:cloud:Repositorio de proyecto](https://forms.office.com/r/gVg8DjvVFh)     | Repositorio creado y compartido para publicación de avances de proyecto (opcional no calificable). |
 | [:memo:Plantilla informe técnico](file/report/)                             | Plantilla para presentación de informes técnicos de proyecto, quices y exámenes.                   |
 
 </div>

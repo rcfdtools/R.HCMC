@@ -6,7 +6,7 @@ Keywords: `hec-ras` `hec-hms` `qgis` `autodesk-civil3d` `river-design` `river-mo
 
 <div align="center">
 
-🔴 [Canal de videos](https://www.youtube.com/playlist?list=PLZGvAjHkhphC6-YIjf-L9g8FSmn1y8n8a)<br><sub>(hasta año 2024)</sub>
+:large_red_circle: [Canal de videos](https://www.youtube.com/playlist?list=PLZGvAjHkhphC6-YIjf-L9g8FSmn1y8n8a)</sub>
 
 </div>
 

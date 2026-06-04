@@ -100,6 +100,8 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 > :blue_heart: El repositorio de proyecto deberá mantenerse durante la duración del curso, estableciendo permisos de escritura para los integrantes de su grupo y lectura para el instructor.
 >
 > Nota: los datos hidro-climatológicos suministrados corresponden a información tomada y procesada a partir de datos del IDEAM y los archivos de formas vectoriales han sido descargados del IGAC y de otras fuentes alternas.
+>
+> **Grupos de proyecto (opcional no calificable)**: a partir de los conocimientos y habilidades obtenidas, cada estudiante o grupo de estudiantes, desarrollan las mismas actividades a través de un proyecto final de clase el cual es definido a partir de diferentes nodos y ejes de realineamiento. Dependiendo del número de participantes se permitirá la creación de grupos de trabajo desde 3 integrantes. Reporte los integrantes de su grupo en el enlace de [Repositorio de Proyecto](https://forms.office.com/r/gVg8DjvVFh).
 
 
 ### Configuración regional en ingeniería
@@ -109,7 +111,7 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 * **QGIS**: desde el menú _Settings / General / Override System Locale_, establezca _User interface translation_ como _American English_ y _Locale (number, date and currency formats)_ como _English United States (en_US)_.
 
 
-## Caso de estudio general, CRS y grupos de proyecto
+## Caso de estudio general y CRS
 
 Corresponde a un caso hipotético para la implantación de un canal artificial necesario para desviar un río natural debido a que su trazado se encuentra sobre un yacimiento de minerales que serán explotados de forma intensiva y extensiva a cielo abierto. La información topográfica suministrada, así como la hidrología de la zona de estudio, drenajes naturales y otros elementos territoriales, corresponde a información real de la zona.
 
@@ -123,8 +125,6 @@ Para el caso de estudio utilizaremos el sistema de proyección de coordenadas - 
 
 <div align="center"><img src="file/graph/ZE_Departamento.png" alt="R.HCMC" width="50%" border="0" /><img src="file/graph/ZE_Municipio.png" alt="R.HCMC" width="50%" border="0" /></div>
 <div align="center"><img src="file/graph/ZE_Eje.png" alt="R.HCMC" width="70%" border="0" /></div>
-
-**Grupos de proyecto (opcional no calificable)**: a partir de los conocimientos y habilidades obtenidas, cada estudiante o grupo de estudiantes, desarrollan las mismas actividades a través de un proyecto final de clase el cual es definido a partir de diferentes nodos y ejes de realineamiento. Dependiendo del número de participantes se permitirá la creación de grupos de trabajo desde 3 integrantes. Reporte los integrantes de su grupo en el enlace de [Repositorio de Proyecto](https://forms.office.com/r/gVg8DjvVFh).
 
 
 ## :large_blue_circle:Módulo 1 – Parámetros y diseño geométrico e hidráulico

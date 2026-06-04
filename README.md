@@ -4,7 +4,11 @@
 # CURSO: _“Herramientas computacionales para el diseño y modelación 1D/2D de cauces sinuosos - HCMC”_
 Keywords: `hec-ras` `hec-hms` `qgis` `autodesk-civil3d` `river-design` `river-modeling` `river-profile` `river-slope` `curvature-ratio` `sinusoidal-river` `manning-roughness` `hydraulic-structures` `civil-design` 
 
-<div align="center">🔴 [Canal de videos](https://www.youtube.com/playlist?list=PLZGvAjHkhphC6-YIjf-L9g8FSmn1y8n8a)(hasta año 2024)</div>
+<div align="center">
+
+🔴 [Canal de videos](https://www.youtube.com/playlist?list=PLZGvAjHkhphC6-YIjf-L9g8FSmn1y8n8a)(hasta año 2024)
+
+</div>
 
 Bienvenid@, en este curso los participantes recibirán conceptos y metodologías generales aplicables al diseño y modelación de cauces artificiales sinuosos y obtendrán habilidades en el uso de diferentes herramientas computacionales, tales como: HEC-HMS, HEC-RAS / RAS Mapper, QGIS y Autodesk Civil 3D. 
 

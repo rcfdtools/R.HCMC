@@ -350,7 +350,7 @@ Finalmente, ejecute el procedimiento anteriormente descrito para los demás punt
 <div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.Results4.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 
-#### Nodo J4660
+#### Nodo J4660 (Fa=0.64)
 
 Inicio realineamiento
 
@@ -359,7 +359,7 @@ Inicio realineamiento
 <div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.J4660c.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 
-#### Nodo J4682
+#### Nodo J4682 (Fa=0.63)
 
 Entrega cauce lateral 1.
 
@@ -368,7 +368,7 @@ Entrega cauce lateral 1.
 <div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.J4682c.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 
-#### Subbasin W19610, Fa = 1.00
+#### Subbasin W19610 (Fa=1.00)
 
 Subcuenca lateral, caudales pico e hidrogramas requeridos para el diseño de estructuras de entrega en cauce lateral.
 
@@ -377,7 +377,7 @@ Subcuenca lateral, caudales pico e hidrogramas requeridos para el diseño de est
 <div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.W19610Fa1c.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 
-#### Subbasin W19610, Fa = 0.63
+#### Subbasin W19610 (Fa=0.63)
 
 Subcuenca lateral, caudales pico e hidrogramas requeridos para modelación del cauce principal y descarga simultánea del cauce lateral.
 
@@ -386,7 +386,7 @@ Subcuenca lateral, caudales pico e hidrogramas requeridos para modelación del c
 <div align="center"><img src="graph/R.HydroTools.HidrogramaRegVal.W19610Fa063c.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 
-#### Nodo Sink-1
+#### Nodo Sink-1 (Fa=0.63)
 
 Entrega realineamiento.
 

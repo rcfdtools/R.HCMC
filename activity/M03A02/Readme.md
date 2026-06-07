@@ -37,18 +37,18 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 R.HCMC se encuentra en proceso de actualización, consulte la versión anterior en el enlace [M03A02.pdf](M03A02.pdf).
 
 
-## Actividades de proyecto :triangular_ruler:
+## Actividades de proyecto (👥 grupal opcional no calificable, 👤individual requerido) :triangular_ruler:
 
-Utilizando la [plantilla suministrada](../../file/report/R.HCMC.PlantillaInformeTecnico.docx), cree un informe técnico mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M02A01_20250531.pdf).
+Utilizando la [plantilla suministrada](../../file/report/HCMC_PlantillaInformeTecnico.docx), cree un informe técnico mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M02A01_20250531.pdf).
 
-Libro de revisión y calificación: [M03A02_VerificacionTopologia.xlsx](M03A02_VerificacionTopologia.xlsx)
+Libro de revisión y calificación de proyecto: [M03A02_VerificacionTopologia.xlsx](M03A02_VerificacionTopologia.xlsx)
 
 En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada estudiante o grupo de proyecto.
 
 | Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M03A02    | En el editor de geometría 1D de HEC-RAS, visualizar y depurar el modelo hidráulico [HECRAS_v1.zip](../../file/hec). Para la revisión y calificación, se verificará la depuración completa del modelo hidráulico, posiciones de bancas, posiciones de diques, simplificación de secciones transversales y demás elementos indicados en esta actividad, además de las indicaciones descritas en la _Nota 3_.                                                                                                                                                                          |  
-| M03A02    | En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
+| M03A02    | 👤👥 En el editor de geometría 1D de HEC-RAS, visualizar y depurar el modelo hidráulico [HECRAS_v1.zip](../../file/hec). Para la revisión y calificación, se verificará la depuración completa del modelo hidráulico, posiciones de bancas, posiciones de diques, simplificación de secciones transversales y demás elementos indicados en esta actividad, además de las indicaciones descritas en la _Nota 3_.                                                                                                                                                                          |  
+| M03A02    | 👥 En una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>👤 Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos. | 
 
 **_Nota 1_**: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 
@@ -82,7 +82,7 @@ _R.HCMC es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [:arrow_backward: Anterior](../M03A01/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/1) | [Siguiente :arrow_forward:](../M03A03/Readme.md) |
+| [◄ Anterior](../M03A01/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/1) | [Siguiente ►](../M03A03/Readme.md) |
 |--------------------------------------------------|-----------------------------------|----------------------------------------------------------------------------------|--------------------------------------------------|
 
 [^1]: 

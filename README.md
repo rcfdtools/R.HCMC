@@ -6,7 +6,7 @@ Keywords: `hec-ras` `hec-hms` `qgis` `autodesk-civil3d` `river-design` `river-mo
 
 <div align="center">
 
-🔴 Videos: [Canal de Youtube](https://www.youtube.com/playlist?list=PLZGvAjHkhphC6-YIjf-L9g8FSmn1y8n8a) (hasta año 2024)
+🌸Videos: [Canal de Youtube](https://www.youtube.com/playlist?list=PLZGvAjHkhphC6-YIjf-L9g8FSmn1y8n8a) (hasta año 2024)
 
 </div>
 
@@ -53,7 +53,7 @@ El curso está dirigido a los siguientes estudiantes y/o profesionales y su desa
 
 > :blue_heart: Para el nombramiento de los archivos requerido para el seguimiento de control documental, asignar al final de los archivos su código y la fecha en formato numérico aaaammdd.
 >
-> **Grupos de proyecto (opcional no calificable)**: a partir de los conocimientos y habilidades obtenidas, cada estudiante o grupo de estudiantes, desarrollan las mismas actividades a través de un proyecto final de clase el cual es definido a partir de diferentes nodos y ejes de realineamiento. Dependiendo del número de participantes se permitirá la creación de grupos de trabajo desde 3 integrantes. Reporte los integrantes de su grupo en el enlace de [Repositorio de Proyecto](https://forms.office.com/r/gVg8DjvVFh).
+> **Grupos de proyecto (opcional no calificable)**: a partir de los conocimientos y habilidades obtenidas, cada estudiante o grupo de estudiantes, desarrollan las mismas actividades a través de un proyecto final de clase el cual es definido a partir de diferentes nodos y ejes de realineamiento. Dependiendo del número de participantes se permitirá la creación de grupos de trabajo desde 3 integrantes. Reporte los integrantes de su grupo en el enlace de [Repositorio de Proyecto](https://forms.gle/ee5uyfWwQEVifEpu9).
 
 **Control de entregas**
 
@@ -78,26 +78,24 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 
 <div align="center">
 
-| Requerimiento                                                               | Descripción                                                                                        |
-|:----------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.office.com/)                             | Microsoft 365 (Word, Excel, OneDrive, Teams).                                                      |
-| [:toolbox:Herramienta](https://qgis.org/)                                   | QGIS 4.0.3 o superior.                                                                             |
-| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                      | Notepad++ (editor de texto).                                                                       |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-hms/)    | HEC-HMS 4.13 o superior.                                                                           |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-dssvue/) | HEC-DSSVue 3.2.3 (versión funcional para cargue masivo de hietogramas).                            |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)    | HEC-RAS 7.0.1 o superior.                                                                          |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)           | Autodesk Autocad 2027 (english version) o superior.                                                |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)          | Autodesk Civil 3D 2027 (english version) o superior.                                               |
-| [:toolbox:Herramienta](https://www.hdfgroup.org/download-hdfview/)          | HDFView.                                                                                           |
-| [:construction_worker:Cuenta de usuario GitHub](https://github.com/)        | Acceso a recursos y actualizaciones del repositorio público del curso.                             |
-| [:package:Estructura de directorios](file/Readme.md)                        | Estructura requerida para el desarrollo del curso.                                                 |
-| [:cloud:Repositorio de proyecto](https://forms.office.com/r/gVg8DjvVFh)     | Repositorio creado y compartido para publicación de avances de proyecto (opcional no calificable). |
-| [:memo:Plantilla informe técnico](file/report/)                             | Plantilla para presentación de informes técnicos de proyecto, quices y exámenes.                   |
+| Requerimiento                                                               | Descripción                                                                                                                                                                                                                                                 |
+|:----------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.office.com/)                             | Microsoft 365 (Word, Excel, OneDrive, Teams).                                                                                                                                                                                                               |
+| [:toolbox:Herramienta](https://qgis.org/)                                   | QGIS 4.0.3 o superior.                                                                                                                                                                                                                                      |
+| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                      | Notepad++ (editor de texto).                                                                                                                                                                                                                                |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-hms/)    | HEC-HMS 4.13 o superior.                                                                                                                                                                                                                                    |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-dssvue/) | HEC-DSSVue 3.2.3 (versión funcional para cargue masivo de hietogramas).                                                                                                                                                                                     |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)    | HEC-RAS 7.0.1 o superior.                                                                                                                                                                                                                                   |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/autocad)           | Autodesk Autocad 2027 (english version) o superior.                                                                                                                                                                                                         |
+| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)          | Autodesk Civil 3D 2027 (english version) o superior.                                                                                                                                                                                                        |
+| [:toolbox:Herramienta](https://www.hdfgroup.org/download-hdfview/)          | HDFView.                                                                                                                                                                                                                                                    |
+| [:construction_worker:Cuenta de usuario GitHub](https://github.com/)        | Acceso a recursos y actualizaciones del repositorio público del curso.                                                                                                                                                                                      |
+| [:package:Estructura de directorios](file/Readme.md)                        | Estructura requerida para el desarrollo del curso.                                                                                                                                                                                                          |
+| [:cloud:Repositorio personal HCMC](https://forms.gle/ee5uyfWwQEVifEpu9)   | Repositorio creado y compartido para publicación de informes técnicos y avances, nombrar carpeta como `/HCMC`. :blue_heart: El repositorio de proyecto deberá mantenerse durante la duración del curso, estableciendo permisos de lectura para el instructor. |
+| [:memo:Plantilla informe técnico](file/report/)                             | Plantilla para presentación de informes técnicos de proyecto, quices y exámenes.                                                                                                                                                                            |
 
 </div>
 
-> :blue_heart: El repositorio de proyecto (opcional no calificable) deberá mantenerse durante la duración del curso, estableciendo permisos de escritura para los integrantes de su grupo y lectura para el instructor.
->
 > Nota: los datos hidro-climatológicos suministrados corresponden a información tomada y procesada a partir de datos del IDEAM y los archivos de formas vectoriales han sido descargados del IGAC y de otras fuentes alternas.
 
 

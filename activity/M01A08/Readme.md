@@ -127,7 +127,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 **_Nota 2_**: una vez el instructor realice la revisión y el estudiante presente las correcciones o ajustes solicitados, será necesario cargar una nueva versión de los archivos en el repositorio del proyecto, incluyendo o actualizando al final del nombre del archivo, la fecha de presentación en formato aaaammdd y manteniendo las versiones anteriores presentadas.
 
-**_Nota 3_**: sí la cota de entrega a fondo de alguno de los cauces laterales se encuentra por debajo de la cota del canal principal de realineamiento, será necesario realizar el diseño de fondo con caídas.
+**_Nota 3_**: sí la cota de entrega a fondo de alguno de los cauces laterales se encuentra por debajo de la cota de fondo del canal principal de realineamiento, será necesario realizar el diseño de fondo con caídas.
 
 
 ## Referencias

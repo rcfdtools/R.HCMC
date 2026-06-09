@@ -84,6 +84,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 **_Nota 2_**: una vez el instructor realice la revisión y el estudiante presente las correcciones o ajustes solicitados, será necesario cargar una nueva versión de los archivos en el repositorio del proyecto, incluyendo o actualizando al final del nombre del archivo, la fecha de presentación en formato aaaammdd y manteniendo las versiones anteriores presentadas.
 
+**_Nota 3_**: no es requerida la estimación de borde libre en la sección de cauce dominante debido a que el flujo total será transportado y confinado en el valle.
+
 
 ## Referencias
 

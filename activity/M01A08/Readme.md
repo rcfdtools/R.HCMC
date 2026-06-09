@@ -106,9 +106,6 @@ El libro de análisis calculará automáticamente los valores de cortes y rellen
 <div align="center"><img src="graph/R.HydroTools.PerfilValleEstCaidaCorteRelleno.CorteRelleno2.jpg" alt="R.HCMC" width="100%" border="0" /></div>
 
 
-
-
-
 ## Actividades de proyecto (👥 grupal opcional no calificable, 👤individual requerido) :triangular_ruler:
 
 Utilizando la [plantilla suministrada](../../file/report/HCMC_PlantillaInformeTecnico.docx), cree un informe técnico mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con los análisis y recomendaciones realizadas, convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos del proyecto; nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A00_20250531.pdf).
@@ -129,6 +126,8 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 **_Nota 1_**: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
 
 **_Nota 2_**: una vez el instructor realice la revisión y el estudiante presente las correcciones o ajustes solicitados, será necesario cargar una nueva versión de los archivos en el repositorio del proyecto, incluyendo o actualizando al final del nombre del archivo, la fecha de presentación en formato aaaammdd y manteniendo las versiones anteriores presentadas.
+
+**_Nota 3_**: sí la cota de entrega a fondo de alguno de los cauces laterales se encuentra por debajo de la cota del canal principal de realineamiento, será necesario realizar el diseño de fondo con caídas.
 
 
 ## Referencias

@@ -12,6 +12,10 @@ Longitud de cauce principal (m): 7546
 Longitud euclidiana de valle (m): 4326
 Longitud de valle suavizado (m): 4640
 Rc, radio de curvatura eje valle (m): 1480
+z1 left side slope: 2
+z2 right side slope: 3
+So channel slope: 0.0001734
+n energy loss coefficient: 0.028
 
 
 <kbd>esc</kbd>

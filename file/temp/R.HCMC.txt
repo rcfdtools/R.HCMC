@@ -1,13 +1,24 @@
-
 ✓Δ°Σβρσθαπ∑√±πØμx●•∫≠≈≤≥´◄ ►'“”👤👥²³
+
+Quiz parameters
+---------------
+Q, caudal de diseño (m³/s): 236
+Y, Yn  profundidad de flujo (m): 2.2
+V, velocidad media del flujo (m/s): 2.8
+T, ancho superficial corona valle (m): 184
+b, base del canal (m): 94
+Tipo de canal: Drejane, Colector
+Longitud de cauce principal (m): 7546
+Longitud euclidiana de valle (m): 4326
+Longitud de valle suavizado (m): 4640
+Rc, radio de curvatura eje valle (m): 1480
+
 
 <kbd>esc</kbd>
 <kbd>enter</kbd>
 <kbd>ctrl</kbd>
 <kbd>ctrl</kbd>+<kbd>i</kbd>
 Mac Keyboard Windows + shift + S for print screen
-
-
 
 ## Actividades de proyecto (👥 grupal opcional no calificable, 👤individual requerido) :triangular_ruler:
 

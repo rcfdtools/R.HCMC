@@ -1,7 +1,8 @@
-✓Δ°Σβρσθαπ∑√±πØμx●•∫≠≈≤≥´◄ ►'“”👤👥²³
+R.HCMC
 
 Quiz parameters
 ---------------
+✏️ Ejercicio: para los siguientes parámetros estime
 Q, caudal de diseño (m³/s): 236
 Y, Yn  profundidad de flujo (m): 2.2
 V, velocidad media del flujo (m/s): 2.8
@@ -18,26 +19,8 @@ So channel slope: 0.0001734
 n energy loss coefficient: 0.028
 
 
-<kbd>esc</kbd>
-<kbd>enter</kbd>
-<kbd>ctrl</kbd>
-<kbd>ctrl</kbd>+<kbd>i</kbd>
-Mac Keyboard Windows + shift + S for print screen
-
-## Actividades de proyecto (👥 grupal opcional no calificable, 👤individual requerido) :triangular_ruler:
-
-HCMC_PlantillaInformeTecnico.docx
-
- de proyecto:
-
-👤👥 
-👥 
-👤 
-◄
-►
-
-
 Actividades pendientes
+
 	https://www.therrc.co.uk/manual-river-restoration-techniques
 	Create Discussion for each activity.
 	Check cad files path.

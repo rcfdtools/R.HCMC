@@ -42,7 +42,7 @@ El diseño y construcción de canales hidráulicos requiere frecuentemente del d
 * Cuando no se realiza diseño de cauce sinuoso confinado en valle suavizado.
 * Cuando debido a procesos erosivos, el fondo del canal se degrada y es necesario que este se agrade para recuperar su condición inicial y restablecer su pendiente.
 
-En la actividad [M01A08](../M01A08), realizamos el análisis del perfil de terreno del valle y evaluamos o no el requerimiento de estructuras de caída para el empalme o entrega de cauces laterales por encima o a fondo del nuevo valle de realineamiento, encontrando que por las condiciones geo-morfométricas, no es necesario ajustar el fondo Sin embargo, realizaremos el diseño suponiendo que en algún tramo del cauce dominante, podrán ser requeridas estas estructuras.
+En la actividad [M01A08](../M01A08), realizamos el análisis del perfil de terreno del valle para el ejemplo de clase y evaluamos o no el requerimiento de estructuras de caída para el empalme o entrega de cauces laterales por encima o a fondo del nuevo valle de realineamiento, encontrando que por las condiciones geo-morfométricas, no es necesario ajustar el fondo; sin embargo, realizaremos el diseño suponiendo que en algún tramo del cauce dominante, podrán ser requeridas estas estructuras.
 
 > Tenga en cuenta que la sección dominante diseñada para el canal es trapezoidal y que los libros de diseño de estructuras de caída son aplicable a geometría en canales rectangulares.
 

@@ -5,7 +5,7 @@ Keywords: `hydraulics` `hydraulic-structure` `hydraulic-jump` `hydraulic-fall` `
 
 Las rápidas pueden ser utilizadas para realizar conexión de cauces laterales a canales principales de desviación, ya que es posible ajustar la pendiente natural del terreno y por tal razón, el movimiento de tierras es menor al de una entrega usando estructuras escalonadas a flujo rasante. Una desventaja en su implementación es la erosión generada por las altas velocidades del canal de la rápida.
 
-<div align="center"><img src="graph/M01A20.jpg" alt="R.HCMC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M01A20.jpg" alt="R.HCMC" width="70%" border="0" /></div>
 
 
 ## Objetivos

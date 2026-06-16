@@ -20,8 +20,8 @@ n energy loss coefficient: 0.028
 
 
 Actividades pendientes
+	Quizzes: grades by self evaluation?
 	Check quizzes with Excel evaluation tables
-	https://www.therrc.co.uk/manual-river-restoration-techniques
 	Create Discussion for each activity.
 	Check cad files path.
 	Estructuras - Bifurcación.

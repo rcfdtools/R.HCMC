@@ -51,8 +51,6 @@ El curso está dirigido a los siguientes estudiantes y/o profesionales y su desa
 | Examen final                                              | 50 | La presentación individual del examen final es obligatoria.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Proyecto (opcional no calificable)                        | 0  | El proyecto grupal final de clase es opcional y no calificable. Puede ser realizado progresivamente a medida que avanzamos con las actividades del curso.                                                                                                                                                                                                                                                            |
 
-> :blue_heart: Para el nombramiento de los archivos requerido para el seguimiento de control documental, asignar al final de los archivos su código y la fecha en formato numérico aaaammdd.
->
 > **Grupos de proyecto (opcional no calificable)**: a partir de los conocimientos y habilidades obtenidas, cada estudiante o grupo de estudiantes, desarrollan las mismas actividades a través de un proyecto final de clase el cual es definido a partir de diferentes nodos y ejes de realineamiento. Dependiendo del número de participantes se permitirá la creación de grupos de trabajo desde 3 integrantes. Reporte los integrantes de su grupo en el enlace de [Repositorio de Proyecto](https://forms.gle/ee5uyfWwQEVifEpu9).
 
 **Control de entregas**
@@ -98,7 +96,7 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 
 > Nota: los datos hidro-climatológicos suministrados corresponden a información tomada y procesada a partir de datos del IDEAM y los archivos de formas vectoriales han sido descargados del IGAC y de otras fuentes alternas.
 >
-> En el repositorio del proyecto, los archivos de cada entrega debe estar localizados dentro de la carpetas indicadas en cada actividad y los informes técnicos en la carpeta de reportes, utilizando como nombre de archivo el código de cada actividad e incluyendo la fecha de elaboración, p.ej. `/report/M01A01_20250619_sucodigodealumno.pdf`.
+> :blue_heart:En el repositorio del proyecto, los archivos de cada entrega debe estar localizados dentro de las carpetas indicadas en cada actividad y los informes técnicos en la carpeta de reportes, utilizando como nombre de archivo el código de cada actividad e incluyendo la fecha de elaboración, p.ej., `/report/M01A01_20250619_sucodigodealumno.pdf`.
 
 
 ### Configuración regional en ingeniería

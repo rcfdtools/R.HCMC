@@ -45,7 +45,7 @@ R.HCMC se encuentra en proceso de actualización, consulte la versión anterior 
 
 1. En QGIS, cargue, visualice y rotule las curvas de nivel contenidas en la capa [/shp/CGG_CurvaNivelLidar_v0.shp](). Guarde el mapa de proyecto como _/map/m02a01.qgz_.
 
-<div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="rcfdtools" width="60%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="rcfdtools" width="80%" border="0" /></div>
 
 > Con la herramienta _QGIS / Processing Toolbox / Check Gometry / Self-Intersections_, verifique curvas de nivel con errores de intersección. Dependiendo del nivel de detalle de las curvas, este proceso puede tardar múltiples minutos (15 minutos en Intel Core i9, 32GB). Una vez terminado el proceso de identificación de errores, con la herramienta _Processing Toolbox / Fix Gometry / Split self-intersecting geometries_, divida las curvas en los puntos de intersección y elimine los extremos sobrantes en curvas o ajuste sus terminaciones.
 >
@@ -53,7 +53,7 @@ R.HCMC se encuentra en proceso de actualización, consulte la versión anterior 
 
 2. En Autodesk Civil 3D, cree un proyecto nuevo en blanco utilizando la plantilla métrica __Autodesk Civil 3D (Metric) NCS.dwt_. Guarde como _/cad/civil/Civil3D_MDT_Planicie_v1.dwg_
 
-<div align="center"><img src="graph/AutodeskCivil3D_New.jpg" alt="rcfdtools" width="60%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_New.jpg" alt="rcfdtools" width="80%" border="0" /></div>
 
 3. En Autodesk Civil 3D y con el Command **MAPCONNECT**, 
 

@@ -96,7 +96,11 @@ En la pestaña _Data Mapping_ establezca el atributo _Elevation_ a partir del ca
 
 7. En el panel _TOOLSPACE_ y la pestaña _Prospector_, ajuste las propiedades de visualización para contornos secundarios 0.5 metros y principales cada 2.5 metros.
 
-8. 
+<div align="center"><img src="graph/AutodeskCivil3D_PropertiesContours.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+
+8. Desde el espacio de trabajo y desde el _Visual Style Controls_, cambie el estilo de visualización a Shaded (fast).
+
+<div align="center"><img src="graph/AutodeskCivil3D_VisualStyleShaded.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 
 ## Actividades de proyecto (👥 grupal opcional no calificable, 👤individual requerido) :triangular_ruler:

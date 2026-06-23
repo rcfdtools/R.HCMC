@@ -51,11 +51,13 @@ R.HCMC se encuentra en proceso de actualización, consulte la versión anterior 
 >
 > Con la herramienta _QGIS / Processing Toolbox / Vector general / Delete duplicate geometries_, verifique en una capa temporal si se han eliminado curvas duplicadas y en el evento que el número de curvas o registros de la capa original sea superior, guarde la capa como /shp/CGG_CurvaNivelLidar_v0a.shp.
 
-En QGIS y con la herramienta _Vector Geometry / Multiline to Singleparts_, fraccione las curvas de nivel en líneas separadas por segmentos entre nodos, guardar como [/shp/CGG_CurvaNivelLidar_v0_Explode.shp](../../file/shp/CGG_CurvaNivelLidar_v0_Explode.zip)	
+En QGIS y con la herramienta _Vector Geometry / Explode Lines_, fraccione las curvas de nivel en líneas separadas por segmentos entre nodos, guardar como [/shp/CGG_CurvaNivelLidar_v0_Explode.shp](../../file/shp/CGG_CurvaNivelLidar_v0_Explode.zip)	
+
+<div align="center"><img src="graph/QGIS_ExplodeLines.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 2. En Autodesk Civil 3D, cree un proyecto nuevo en blanco utilizando la plantilla métrica __Autodesk Civil 3D (Metric) NCS.dwt_. Guarde como _/cad/civil/Civil3D_MDT_Planicie_v1.dwg_
 
-> Desde la barra de estado y con el botón _Workspace Switching_ o el comando **WSCURRENT**, establezca el entorno de trabajo como _Civil 3D_.
+> Desde la barra de estado y con el botón _Workspace Switching_ (⚙️) o el comando **WSCURRENT**, establezca el entorno de trabajo como _Civil 3D_.
 
 <div align="center"><img src="graph/AutodeskCivil3D_New.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 

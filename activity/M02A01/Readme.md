@@ -45,7 +45,7 @@ R.HCMC se encuentra en proceso de actualización, consulte la versión anterior 
 
 1. En QGIS, cargue, visualice y rotule las curvas de nivel contenidas en la capa [/shp/CGG_CurvaNivelLidar_v0.shp](). Guarde el mapa de proyecto como _/map/m02a01.qgz_.
 
-<div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="rcfdtools" width="90%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 > Con la herramienta _QGIS / Processing Toolbox / Check Gometry / Self-Intersections_, verifique curvas de nivel con errores de intersección. Dependiendo del nivel de detalle de las curvas, este proceso puede tardar múltiples minutos (15 minutos en Intel Core i9, 32GB). Una vez terminado el proceso de identificación de errores, con la herramienta _Processing Toolbox / Fix Gometry / Split self-intersecting geometries_, divida las curvas en los puntos de intersección y elimine los extremos sobrantes en curvas o ajuste sus terminaciones.
 >
@@ -53,11 +53,20 @@ R.HCMC se encuentra en proceso de actualización, consulte la versión anterior 
 
 2. En Autodesk Civil 3D, cree un proyecto nuevo en blanco utilizando la plantilla métrica __Autodesk Civil 3D (Metric) NCS.dwt_. Guarde como _/cad/civil/Civil3D_MDT_Planicie_v1.dwg_
 
-<div align="center"><img src="graph/AutodeskCivil3D_New.jpg" alt="rcfdtools" width="90%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_New.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
-3. En Autodesk Civil 3D y con el Command **MAPCONNECT**, 
+3. En Autodesk Civil 3D y con el Command **MAPCONNECT**, cree una conexión a la carpeta /HCMC/shp, nombre la conexión como HCMC/shp y de clic en el botón _Connect_.
 
-Civil 3D / Home / Palettes / Map Task Pane
+<div align="center"><img src="graph/AutodeskCivil3D_MapConnectSHP.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+
+4. En la conexión, seleccione la capa _CGG_CurvaNivelLidar_v0.shp_ y agregue al proyecto. Con el comando **Z**OOM **E**xtents, acérquese al contenido de la capa cargada.
+
+<div align="center"><img src="graph/AutodeskCivil3D_MapConnectSHP1.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+
+5. En _Civil 3D / Home / Palettes / Map Task Pane_ o con el comando **MAPWSPACE**, active el _TASK PANE_ que le permitirá activar o desactivar la visualización de las curvas de nivel y ajustar su simbología de representación.
+
+<div align="center"><img src="graph/AutodeskCivil3D_MAPWSPACE.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+
 
 
 ## Actividades de proyecto (👥 grupal opcional no calificable, 👤individual requerido) :triangular_ruler:

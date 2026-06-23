@@ -43,7 +43,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 R.HCMC se encuentra en proceso de actualización, consulte la versión anterior en el enlace [M02A01.pdf](M02A01.pdf).
 
-1. En QGIS, cargue, visualice y rotule las curvas de nivel contenidas en la capa [/shp/CGG_CurvaNivelLidar_v0.shp](). Guarde el mapa de proyecto como _/map/m02a01.qgz_.
+1. En QGIS, cargue, visualice y rotule las curvas de nivel contenidas en la capa [/shp/CGG_CurvaNivelLidar_v0.shp](../../file/shp/CGG_CurvaNivelLidar_v0.zip). Guarde el mapa de proyecto como _/map/m02a01.qgz_.
 
 <div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
@@ -51,7 +51,11 @@ R.HCMC se encuentra en proceso de actualización, consulte la versión anterior 
 >
 > Con la herramienta _QGIS / Processing Toolbox / Vector general / Delete duplicate geometries_, verifique en una capa temporal si se han eliminado curvas duplicadas y en el evento que el número de curvas o registros de la capa original sea superior, guarde la capa como /shp/CGG_CurvaNivelLidar_v0a.shp.
 
+En QGIS y con la herramienta _Vector Geometry / Multiline to Singleparts_, fraccione las curvas de nivel en líneas separadas por segmentos entre nodos, guardar como [/shp/CGG_CurvaNivelLidar_v0_Explode.shp](../../file/shp/CGG_CurvaNivelLidar_v0_Explode.zip)	
+
 2. En Autodesk Civil 3D, cree un proyecto nuevo en blanco utilizando la plantilla métrica __Autodesk Civil 3D (Metric) NCS.dwt_. Guarde como _/cad/civil/Civil3D_MDT_Planicie_v1.dwg_
+
+> Desde la barra de estado y con el botón _Workspace Switching_ o el comando **WSCURRENT**, establezca el entorno de trabajo como _Civil 3D_.
 
 <div align="center"><img src="graph/AutodeskCivil3D_New.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
@@ -67,6 +71,32 @@ R.HCMC se encuentra en proceso de actualización, consulte la versión anterior 
 
 <div align="center"><img src="graph/AutodeskCivil3D_MAPWSPACE.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
+Desde el menú _Geolocation_, active la capa _Esri Imagery_ y verifique la localización correcta de las curvas de nivel a partir del mapa de fondo.
+
+<div align="center"><img src="graph/AutodeskCivil3D_Geolocation.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+
+6. Desde el menú _Home / Create Ground Data / Surfaces / Create Surface from GIS Data_, cree la superficie de terreno a partir de las curvas _CGG_CurvaNivelLidar_v0_Explode.shp_ en formato shapefile.
+
+<div align="center"><img src="graph/AutodeskCivil3D_CreateSurfaceFromGISData.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_CreateSurfaceFromGISData1.jpg" alt="rcfdtools" width="80%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_CreateSurfaceFromGISData2.jpg" alt="rcfdtools" width="80%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_CreateSurfaceFromGISData3.jpg" alt="rcfdtools" width="80%" border="0" /></div>
+
+Defina el límite del modelo de terreno a partir del trazado manual de una ventana o recuadro que rodee todas las curvas de nivel.
+
+<div align="center"><img src="graph/AutodeskCivil3D_CreateSurfaceFromGISData4.jpg" alt="rcfdtools" width="80%" border="0" /></div>
+
+En la pestaña _Data Mapping_ establezca el atributo _Elevation_ a partir del campo _Elevation_ de la capa geográfica y de clic en el botón _Finish_. Espere hasta que el proceso sea completado y la superficie sea creada y se visualice en el espacio de trabajo. Desde el _TASK PANE_, desactive la capa shapefile de las curvas para observar las curvas de representación de la superficie para los intervalos de curvas predefinidos.
+
+> Una vez creada la superficie, Autodesk Civil 3D podrá desplegar una ventana con errores identificados en las curvas de nivel origen tales como intersecciones, ángulos muy cerrados, nodos superpuestos, entre otros. El comando **SHOWEVENTVIEWER** permite reabrir esta ventana. 
+
+<div align="center"><img src="graph/AutodeskCivil3D_CreateSurfaceFromGISData4a.jpg" alt="rcfdtools" width="80%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_CreateSurfaceFromGISData5.jpg" alt="rcfdtools" width="80%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_CreateSurfaceFromGISData6.jpg" alt="rcfdtools" width="80%" border="0" /></div>
+
+7. En el panel _TOOLSPACE_ y la pestaña _Prospector_, ajuste las propiedades de visualización para contornos secundarios 0.5 metros y principales cada 2.5 metros.
+
+8. 
 
 
 ## Actividades de proyecto (👥 grupal opcional no calificable, 👤individual requerido) :triangular_ruler:

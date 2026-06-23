@@ -92,7 +92,7 @@ En la pestaña _Data Mapping_ establezca el atributo _Elevation_ a partir del ca
 
 <div align="center"><img src="graph/AutodeskCivil3D_CreateSurfaceFromGISData4a.jpg" alt="rcfdtools" width="80%" border="0" /></div>
 <div align="center"><img src="graph/AutodeskCivil3D_CreateSurfaceFromGISData5.jpg" alt="rcfdtools" width="80%" border="0" /></div>
-<div align="center"><img src="graph/AutodeskCivil3D_CreateSurfaceFromGISData6.jpg" alt="rcfdtools" width="80%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_CreateSurfaceFromGISData6.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 7. En el panel _TOOLSPACE_ y la pestaña _Prospector_, ajuste las propiedades de visualización para contornos secundarios 0.5 metros y principales cada 2.5 metros.
 

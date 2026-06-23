@@ -10,7 +10,7 @@ Keywords: `contour` `dtm` `autodesk-civil-3d` `autodesk-autocad` `surface` `m02a
 
 Generar a partir del modelo TIN o de curvas de nivel, un modelo de terreno en Civil 3D de la planicie natural como base para el trazado de perfiles, ejes, secciones, cálculo de volúmenes y trazado del modelo de terreno del canal sinuoso compuesto.
 
-<div align="center"><img src="graph/M02A01.png" alt="R.HCMC" width="60%" border="0" /></div>
+<div align="center"><img src="graph/M02A01.png" alt="rcfdtools" width="60%" border="0" /></div>
 
 
 ## Objetivos
@@ -43,6 +43,22 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 R.HCMC se encuentra en proceso de actualización, consulte la versión anterior en el enlace [M02A01.pdf](M02A01.pdf).
 
+1. En QGIS, cargue, visualice y rotule las curvas de nivel contenidas en la capa [/shp/CGG_CurvaNivelLidar_v0.shp](). Guarde el mapa de proyecto como _/map/m02a01.qgz_.
+
+<div align="center"><img src="graph/QGIS_AddLayer.jpg" alt="rcfdtools" width="60%" border="0" /></div>
+
+> Con la herramienta _QGIS / Processing Toolbox / Check Gometry / Self-Intersections_, verifique curvas de nivel con errores de intersección. Dependiendo del nivel de detalle de las curvas, este proceso puede tardar múltiples minutos (15 minutos en Intel Core i9, 32GB). Una vez terminado el proceso de identificación de errores, con la herramienta _Processing Toolbox / Fix Gometry / Split self-intersecting geometries_, divida las curvas en los puntos de intersección y elimine los extremos sobrantes en curvas o ajuste sus terminaciones.
+>
+> Con la herramienta _QGIS / Processing Toolbox / Vector general / Delete duplicate geometries_, verifique en una capa temporal si se han eliminado curvas duplicadas y en el evento que el número de curvas o registros de la capa original sea inferior, guarde la capa como /shp/CGG_CurvaNivelLidar_v0a.shp.
+
+2. En Autodesk Civil 3D, cree un proyecto nuevo en blanco utilizando la plantilla métrica __Autodesk Civil 3D (Metric) NCS.dwt_. Guarde como _/cad/civil/Civil3D_MDT_Planicie_v1.dwg_
+
+<div align="center"><img src="graph/AutodeskCivil3D_New.jpg" alt="rcfdtools" width="60%" border="0" /></div>
+
+3. En Autodesk Civil 3D y con el Command **MAPCONNECT**, 
+
+Civil 3D / Home / Palettes / Map Task Pane
+
 
 ## Actividades de proyecto (👥 grupal opcional no calificable, 👤individual requerido) :triangular_ruler:
 
@@ -65,6 +81,7 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 * https://www.autodesk.com/education/free-software/autocad
 * https://www.autodesk.com/education/free-software/civil-3d
+* [YouTube/ How to create a Civil 3D Surface from GIS contour shape files](https://www.youtube.com/watch?v=gwBrcZTPKkc&t=6s)
 
 
 ##

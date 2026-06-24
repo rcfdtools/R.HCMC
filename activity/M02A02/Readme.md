@@ -45,13 +45,32 @@ R.HCMC se encuentra en proceso de actualización, consulte la versión anterior 
 
 <div align="center"><img src="graph/AutodeskCivil3D_SaveAs.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
-2. Con el Command **MAPCONNECT**, agregue al proyecto la capa de drenajes [/shp/CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip). Desde el menú _Home / Palettes / Map Task Pane_ o con el comando **MAPWSPACE**, ajuste la simbología de los drenajes a color cyan y pluma de grosor 0.25.
+2. Con el Command **MAPCONNECT**, agregue al proyecto la capa de drenajes [/shp/CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip).
 
 <div align="center"><img src="graph/AutodeskCivil3D_MapConnectSHP.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+
+Desde el menú _Home / Palettes / Map Task Pane_ o con el comando **MAPWSPACE**, ajuste la simbología de los drenajes a color cyan y pluma de grosor 0.25.
+
 <div align="center"><img src="graph/AutodeskCivil3D_MAPWSPACE.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
-3.
+3. Desde el _Command_ y con el comando PLINE, cree la poli-línea del eje recto del valle.
 
+```
+PLINE
+1080095.9812,1573338.0615
+1078176.4987,1572444.7917
+1076394.5087,1573470.9228
+1075229.3831,1573286.485
+
+```
+
+<div align="center"><img src="graph/AutodeskCivil3D_PLine.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+
+Seleccione la poli-línea y desde sus propiedades ajuste el color a amarillo con grosor 0.25. En la barra de estado, active las opciones de Line Weight o activelas con el comando **LWDISPLAY**.
+
+<div align="center"><img src="graph/AutodeskCivil3D_PLine1.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+
+4.
 
 
 

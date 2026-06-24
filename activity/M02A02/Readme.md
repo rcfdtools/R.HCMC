@@ -111,6 +111,13 @@ Elementos que componen una clotoide [^1]
 
 <div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShields1.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
+Seleccionar la herramienta _Home/ Create Desing/ Alignment/ Alignment Creation Tools_
+
+<div align="center"><img src="graph/AutodeskCivil3D_CreateOffsetAlignment.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_CreateOffsetAlignment1.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+
+
+
 
 
 ## Actividades de proyecto (👥 grupal opcional no calificable, 👤individual requerido) :triangular_ruler:

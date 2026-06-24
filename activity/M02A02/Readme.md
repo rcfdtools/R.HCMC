@@ -109,7 +109,7 @@ Elementos que componen una clotoide [^1]
 * Líneas corona interna en valle a 251.2 / 2 = 125.6 metros
 * Líneas corona externa en valle a 300 / 2 = 150 metros
 
-<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShields1.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShields1.jpg" alt="rcfdtools" width="70%" border="0" /></div>
 
 Seleccionar la herramienta _Home/ Create Desing/ Alignment/ Alignment Creation Tools_
 

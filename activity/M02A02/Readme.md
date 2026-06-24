@@ -77,6 +77,14 @@ Seleccione la poli-línea y desde sus propiedades (Comando **PROPERTIES**) ajust
 
 5. En _Alignment Layout Tools_, defina el radio de curvatura y demás propiedades según el diseño, seleccionar el tipo de curva (Clotoide) e introducir el radio de curvatura.
 
+Elementos que componen una clotoide [^1]
+
+* BP – Punto de Inicio de alineamiento
+* PC – Punto de curvatura
+* PT – Punto de tangencia
+* EP – Punto Final del alineamiento
+* Entre-tangencia
+
 <div align="center"><img src="graph/AutodeskCivil3D_Alignment2.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 <div align="center"><img src="graph/AutodeskCivil3D_Alignment3.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
@@ -121,4 +129,4 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 | [◄ Anterior](../M02A01/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.HCMC/discussions/1) | [Siguiente ►](../M02A03/Readme.md) |
 |--------------------------------------------------|-----------------------------------|----------------------------------------------------------------------------------|--------------------------------------------------|
 
-[^1]: 
+[^1]: https://knowledge.autodesk.com/support/autocad-civil-3d/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/Civil3D-UserGuide/files/GUID-296B42FD-1E33-46D2-88C0-F3B78FF81BE6-htm.html

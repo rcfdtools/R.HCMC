@@ -115,6 +115,7 @@ Seleccionar la herramienta _Home/ Create Desing/ Alignment/ Alignment Creation T
 
 <div align="center"><img src="graph/AutodeskCivil3D_CreateOffsetAlignment.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 <div align="center"><img src="graph/AutodeskCivil3D_CreateOffsetAlignment1.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_CreateOffsetAlignment2.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 
 

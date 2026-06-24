@@ -75,9 +75,16 @@ Seleccione la poli-línea y desde sus propiedades (Comando **PROPERTIES**) ajust
 <div align="center"><img src="graph/AutodeskCivil3D_Alignment.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 <div align="center"><img src="graph/AutodeskCivil3D_Alignment1.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
-5. 
+5. En _Alignment Layout Tools_, defina el radio de curvatura y demás propiedades según el diseño, seleccionar el tipo de curva (Clotoide) e introducir el radio de curvatura.
 
+<div align="center"><img src="graph/AutodeskCivil3D_Alignment2.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_Alignment3.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
+6. Seleccionar la herramienta _Alignment Layout Tools / Tangent - Tangent (With curves)_ e iniciar el proceso de dibujo teniendo en cuenta la dirección del flujo y que los vértices del alineamiento recto correspondan con los vértices de las curvas, es decir, se debe dibujar el alineamiento sobre los vértices que definen la poli-línea del alineamiento recto.
+
+<div align="center"><img src="graph/AutodeskCivil3D_Alignment4.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+
+7. 
 
 
 ## Actividades de proyecto (👥 grupal opcional no calificable, 👤individual requerido) :triangular_ruler:

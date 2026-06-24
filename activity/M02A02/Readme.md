@@ -103,7 +103,7 @@ Elementos que componen una clotoide [^1]
 
 <div align="center"><img src="graph/AutodeskCivil3D_Alignment7.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
-8. Cree las líneas paralelas u offsets al eje del valle correspondientes a las bases del valle, coronas internas y líneas externas de huellas de mecanización. Tener en cuenta el ancho máximo del corredor que ha sido definido en 300 metros y el diseño de la sección compuesta realizado en la actividad [M01A03](../M01A03/Readme.md) correspondiente al _Diseño por Método de la Fuerza Tractiva (Shields d50) en HEC-RAS_.
+8. Cree las líneas paralelas u offsets al eje del valle correspondientes a las bases del valle, coronas internas y líneas externas de huellas de mecanización. Tener en cuenta el ancho máximo del corredor que ha sido definido en 300 metros y el diseño de la sección compuesta realizado en la actividad [M01A03](../M01A03/Readme.md), correspondiente al _Diseño por Método de la Fuerza Tractiva (Shields d50) en HEC-RAS_.
 
 * Líneas base en valle a 209.2 / 2 = 104.6 metros
 * Líneas corona interna en valle a 251.2 / 2 = 125.6 metros
@@ -116,9 +116,6 @@ Seleccionar la herramienta _Home/ Create Desing/ Alignment/ Alignment Creation T
 <div align="center"><img src="graph/AutodeskCivil3D_CreateOffsetAlignment.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 <div align="center"><img src="graph/AutodeskCivil3D_CreateOffsetAlignment1.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 <div align="center"><img src="graph/AutodeskCivil3D_CreateOffsetAlignment2.jpg" alt="rcfdtools" width="100%" border="0" /></div>
-
-
-
 
 
 ## Actividades de proyecto (👥 grupal opcional no calificable, 👤individual requerido) :triangular_ruler:

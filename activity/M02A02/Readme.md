@@ -45,9 +45,10 @@ R.HCMC se encuentra en proceso de actualización, consulte la versión anterior 
 
 <div align="center"><img src="graph/AutodeskCivil3D_SaveAs.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
-2. Con el Command **MAPCONNECT**, agregue al proyecto la capa de drenajes [/shp/CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip).
+2. Con el Command **MAPCONNECT**, agregue al proyecto la capa de drenajes [/shp/CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip). Desde el menú _Home / Palettes / Map Task Pane_ o con el comando **MAPWSPACE**, ajuste la simbología de los drenajes a color cyan y pluma de grosor 0.25.
 
 <div align="center"><img src="graph/AutodeskCivil3D_MapConnectSHP.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_MAPWSPACE.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 3.
 

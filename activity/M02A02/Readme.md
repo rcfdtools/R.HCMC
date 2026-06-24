@@ -66,11 +66,17 @@ PLINE
 
 <div align="center"><img src="graph/AutodeskCivil3D_PLine.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
-Seleccione la poli-línea y desde sus propiedades ajuste el color a amarillo con grosor 0.25. En la barra de estado, active las opciones de Line Weight o activelas con el comando **LWDISPLAY**.
+Seleccione la poli-línea y desde sus propiedades (Comando **PROPERTIES**) ajuste el color a amarillo con grosor 0.25. En la barra de estado o con el comando **LWDISPLAY**, active las opciones de Line Weight para visualizar los grosores de las líneas CAD.
 
 <div align="center"><img src="graph/AutodeskCivil3D_PLine1.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
-4.
+4. Cree un alineamiento con la opción dibujar alineamiento: _Home/ Create Desing/ Alignment/ Alignment Creation Tools_, definir el nombre de eje como _EjeValle_v0_.
+
+<div align="center"><img src="graph/AutodeskCivil3D_Alignment.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_Alignment1.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+
+5. 
+
 
 
 

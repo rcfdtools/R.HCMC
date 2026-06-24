@@ -103,6 +103,13 @@ Elementos que componen una clotoide [^1]
 
 <div align="center"><img src="graph/AutodeskCivil3D_Alignment7.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
+8. Cree las líneas paralelas u offsets del eje del valle correspondientes a las bases del valle, coronas internas y líneas externas de huellas de mecanización. El ancho máximo del corredor ha sido definido en 300 metros.
+
+* Líneas base en valle a 209.2 / 2 = 104.6 metros
+* Líneas corona interna en valle a 251.2 / 2 = 125.6 metros
+* Líneas corona externa en valle a 300 / 2 = 150 metros
+
+<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShields1.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 
 

@@ -83,6 +83,7 @@ Seleccione la poli-línea y desde sus propiedades (Comando **PROPERTIES**) ajust
 6. Seleccionar la herramienta _Alignment Layout Tools / Tangent - Tangent (With curves)_ e iniciar el proceso de dibujo teniendo en cuenta la dirección del flujo y que los vértices del alineamiento recto correspondan con los vértices de las curvas, es decir, se debe dibujar el alineamiento sobre los vértices que definen la poli-línea del alineamiento recto.
 
 <div align="center"><img src="graph/AutodeskCivil3D_Alignment4.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_Alignment5.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 7. 
 

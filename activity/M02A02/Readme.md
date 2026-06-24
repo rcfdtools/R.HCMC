@@ -39,6 +39,20 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 R.HCMC se encuentra en proceso de actualización, consulte la versión anterior en el enlace [M02A02.pdf](M02A02.pdf).
 
+1. En Autodesk Civil 3D, abra el proyecto _/cad/civil/Civil3D_MDT_Planicie_v1.dwg_ creado en la actividad anterior y guarde como _/cad/civil/Civil3D_EjeValle_v0.dwg_
+
+> Desde la barra de estado y con el botón _Workspace Switching_ (⚙️) o el comando **WSCURRENT**, establezca el entorno de trabajo como _Civil 3D_.
+
+<div align="center"><img src="graph/AutodeskCivil3D_SaveAs.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+
+2. Con el Command **MAPCONNECT**, agregue al proyecto la capa de drenajes [/shp/CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip).
+
+<div align="center"><img src="graph/AutodeskCivil3D_MapConnectSHP.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+
+3.
+
+
+
 
 ## Actividades de proyecto (👥 grupal opcional no calificable, 👤individual requerido) :triangular_ruler:
 

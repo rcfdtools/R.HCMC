@@ -85,6 +85,8 @@ Elementos que componen una clotoide [^1]
 * EP – Punto Final del alineamiento
 * Entre-tangencia
 
+<div align="center"><img src="graph/AutodeskCivil3D_ClotoideElements.jpg" alt="R.HCMC" width="80%" border="0" /></div>
+
 <div align="center"><img src="graph/AutodeskCivil3D_Alignment2.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 <div align="center"><img src="graph/AutodeskCivil3D_Alignment3.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 

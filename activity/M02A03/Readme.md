@@ -112,7 +112,12 @@ Seleccionar la herramienta _Home/ Create Desing/ Alignment/ Create Offset Aligme
 
 <div align="center"><img src="graph/AutodeskCivil3D_CreateOffsetAlignment2.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
-11. 
+11. Verifique cada curva y ajuste los puntos de control de cambio de curvatura del eje sinuoso del cauce dominante, para que el offset de la corona no se cruce con las líneas offset correspondientes a la huella de mecanización.
+
+<div align="center"><img src="graph/AutodeskCivil3D_CreateOffsetAlignment3.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_CreateOffsetAlignment4.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+
+
 
 
 ## Actividades de proyecto (👥 grupal opcional no calificable, 👤individual requerido) :triangular_ruler:

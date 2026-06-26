@@ -36,6 +36,44 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 R.HCMC se encuentra en proceso de actualización, consulte la versión anterior en el enlace [M02A03.pdf](M02A03.pdf).
 
+1. En Autodesk Civil 3D, abra el archivo /cad/civil/Civil3D_EjeValle_v0.dwg creado en la actividad anterior y guarde como /cad/civil/Civil3D_Ejes_v0.dwg
+
+> Desde la barra de estado y con el botón _Workspace Switching_ (⚙️) o el comando **WSCURRENT**, establezca el entorno de trabajo como _Civil 3D_.
+
+<div align="center"><img src="graph/AutodeskCivil3D_SaveAs.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+
+2. Ajuste la visualización de la superficie de terreno a solo contorno y en el **MAPWSPACE** desactive la visualización de las curvas de nivel GIS.
+
+<div align="center"><img src="graph/AutodeskCivil3D_SurfaceBorderOnly.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+
+3. Para el trazado el eje sinuoso son requeridos los parámetros _Radio de curva característico de onda (Rc = 81.9m_), _Amplitud de onda para el diseño (B’/2 = 128.689m)_ y _Longitud de onda (Lm/4 = 82.369m)_ obtenidos en la [Actividad 1.15. Diseño geométrico horizontal o diseño sinuoso](../M01A15/Readme.md), correspondientes al _Diseño sinuoso 1 - Conservando la longitud del río natural a reemplazar_.
+
+4. Desde _Home / Profile & Section Views / Sample Lines_, cree el grupo de líneas de muestreo estableciendo la superficie de terreno.
+
+<div align="center"><img src="graph/AutodeskCivil3D_SampleLines.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+
+5. En la barra _Sample Line Tools_, seleccione la herramienta _By Range of Stations_
+
+<div align="center"><img src="graph/AutodeskCivil3D_SampleLines1.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+
+Establezca los siguientes parámetros:
+
+* Left Swath Width / With = 128.689m (correspondiente a B’/2)
+* Right Swath Width / With = 128.689m (correspondiente a B’/2)
+* Sampling incrementos / Increment Along Tangents = 82.369 (correspondiente a Lm/4)
+* Sampling incrementos / Increment Along Curves = 82.369 (correspondiente a Lm/4)
+* Sampling incrementos / Increment Along Spirals = 82.369 (correspondiente a Lm/4)
+* Additional Sample Controls / At Range Start: True (para crear una línea de muestreo al inicio del eje)
+* Additional Sample Controls / At Range End: True (para crear una línea de muestreo al final del eje)
+
+<div align="center"><img src="graph/AutodeskCivil3D_SampleLines2.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+
+
+
+
+
+
+
 
 ## Actividades de proyecto (👥 grupal opcional no calificable, 👤individual requerido) :triangular_ruler:
 

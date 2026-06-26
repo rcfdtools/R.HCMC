@@ -94,9 +94,25 @@ Para facilitar el empalme, ajuste las opciones de encajado u OSNAP (Tecla F3) a 
 <div align="center"><img src="graph/AutodeskCivil3D_Alignment5.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 <div align="center"><img src="graph/AutodeskCivil3D_Alignment6.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
+9. Cree las líneas paralelas u offsets al eje del cauce dominante correspondientes a las bases y coronas de talud. Tener en cuenta que el diseño de la sección compuesta realizado en la actividad [M01A03](../M01A03/Readme.md), correspondiente al _Diseño por Método de la Fuerza Tractiva (Shields d50) en HEC-RAS_. Para facilitar la visualización, oculte o aisle los rótulos del eje sinuoso y las líneas de muestreo (para seleccionar las líneas utilice el menú contextual y la opción _Select Similar_).
 
+> La metodología de diseño se basa en un eje sinuoso al rededor de un eje recto de valle, sin embargo, el eje del valle tiene su propia sinuosidad (es un eje curvo), es decir, su alineamiento curvo no permite que las ondas sinuosas se distribuyan uniformemente sin traslapos, entonces, se deben corregir las curvas para que todos los meandros se localicen dentro del valle. Se deben agregar los ejes Offset de la sección del cauce principal para verificar que el cauce principal quede localizado dentro del valle y mover los distintos _PI_ necesarios para cumplir este criterio.
 
+* Líneas base de talud en cauce dominante a 40 / 2 = 20 metros
+* Líneas corona interna en cauce dominante a 82 / 2 = 41 metros
 
+<div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShields1.jpg" alt="rcfdtools" width="70%" border="0" /></div>
+
+Seleccionar la herramienta _Home/ Create Desing/ Alignment/ Create Offset Aligment_
+
+<div align="center"><img src="graph/AutodeskCivil3D_CreateOffsetAlignment.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_CreateOffsetAlignment1.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+
+10. Utilizando el botón _Unisole Objects / End Object Isolation de cada curva, es necesario trazar un offset a la línea de base del valle a la distancia de prevención de coalineación establecida en el diseño, correspondiente a 4.5 metros. Una vez trazadas, desde las propiedades de las líneas, cambie el tipo de línea por trazos discontínuos. Con el comando **LTSCALE**, ajuste la escala de visualización de líneas a 10.
+
+<div align="center"><img src="graph/AutodeskCivil3D_CreateOffsetAlignment2.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+
+11. 
 
 
 ## Actividades de proyecto (👥 grupal opcional no calificable, 👤individual requerido) :triangular_ruler:

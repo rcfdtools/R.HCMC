@@ -105,13 +105,13 @@ Elementos que componen una clotoide [^1]
 
 8. Cree las líneas paralelas u offsets al eje del valle correspondientes a las bases del valle, coronas internas y líneas externas de huellas de mecanización. Tener en cuenta el ancho máximo del corredor que ha sido definido en 300 metros y el diseño de la sección compuesta realizado en la actividad [M01A03](../M01A03/Readme.md), correspondiente al _Diseño por Método de la Fuerza Tractiva (Shields d50) en HEC-RAS_.
 
-* Líneas base en valle a 209.2 / 2 = 104.6 metros
+* Líneas base de talud en valle a 209.2 / 2 = 104.6 metros
 * Líneas corona interna en valle a 251.2 / 2 = 125.6 metros
 * Líneas corona externa en valle a 300 / 2 = 150 metros
 
 <div align="center"><img src="graph/HECRAS_HDCompositeTractiveForceShields1.jpg" alt="rcfdtools" width="70%" border="0" /></div>
 
-Seleccionar la herramienta _Home/ Create Desing/ Alignment/ Alignment Creation Tools_
+Seleccionar la herramienta _Home/ Create Desing/ Alignment/ Create Offset Aligment_
 
 <div align="center"><img src="graph/AutodeskCivil3D_CreateOffsetAlignment.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 <div align="center"><img src="graph/AutodeskCivil3D_CreateOffsetAlignment1.jpg" alt="rcfdtools" width="100%" border="0" /></div>

@@ -86,6 +86,8 @@ Para facilitar el empalme, ajuste las opciones de encajado u OSNAP (Tecla F3) a 
 8. Inicie el trazado al inicio del valle ajustando la curva de empalme del cauce natural con el eje del valle.
 
 <div align="center"><img src="graph/AutodeskCivil3D_Alignment3.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_Alignment4.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_Alignment5.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 
 

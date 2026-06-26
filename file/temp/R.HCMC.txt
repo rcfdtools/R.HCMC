@@ -1,6 +1,6 @@
 R.HCMC
 
-Autodesk Civil 3D / Background color: 64,64,64
+Autodesk Civil 3D / Background color: 64,64,64 o 240,240,240
 
 
 Quiz parameters

@@ -85,9 +85,14 @@ Para facilitar el empalme, ajuste las opciones de encajado u OSNAP (Tecla F3) a 
 
 8. Inicie el trazado al inicio del valle ajustando la curva de empalme del cauce natural con el eje del valle.
 
+> Con los parámetros de radio y tipo de curva, seleccionar el dibujo de eje con curvas. El dibujo de cada onda se debe realizar pariendo desde el punto inicial y se debe restringir el punto PI de curva en el extremo de la línea definida por _B’_ hasta completar el dibujo sobre todo el eje del valle.
+> 
+> Es importante verificar que no existan puntos _PI_ intermedios entre curvas, Civil agrega automáticamente puntos PI en cada punto en el que hacemos clic, podríamos solamente dibujar las curvas entre los extremos de las líneas (sample lines), sin embargo, es recomendable seguir el eje del valle lo mejor posible, por esta razón se recomienda siempre hacer clic en puntos intermedios que estén sobre el eje curvo del valle y luego eliminar los _PI_ sobrantes.
+
 <div align="center"><img src="graph/AutodeskCivil3D_Alignment3.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 <div align="center"><img src="graph/AutodeskCivil3D_Alignment4.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 <div align="center"><img src="graph/AutodeskCivil3D_Alignment5.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_Alignment6.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 
 

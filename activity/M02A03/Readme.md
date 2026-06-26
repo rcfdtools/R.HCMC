@@ -46,7 +46,7 @@ R.HCMC se encuentra en proceso de actualización, consulte la versión anterior 
 
 <div align="center"><img src="graph/AutodeskCivil3D_SurfaceBorderOnly.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
-3. Para el trazado el eje sinuoso son requeridos los parámetros _Radio de curva característico de onda (Rc = 81.9m_), _Amplitud de onda para el diseño (B’/2 = 128.689m)_ y _Longitud de onda (Lm/4 = 82.369m)_ obtenidos en la [Actividad 1.15. Diseño geométrico horizontal o diseño sinuoso](../M01A15/Readme.md), correspondientes al _Diseño sinuoso 1 - Conservando la longitud del río natural a reemplazar_.
+3. Para el trazado el eje sinuoso son requeridos los parámetros _Radio de curva característico de onda (Rc = 81.9m ≈ 82m_), _Amplitud de onda para el diseño (B’/2 = 128.689m)_ y _Longitud de onda (Lm/4 = 82.369m)_ obtenidos en la [Actividad 1.15. Diseño geométrico horizontal o diseño sinuoso](../M01A15/Readme.md), correspondientes al _Diseño sinuoso 1 - Conservando la longitud del río natural a reemplazar_.
 
 4. Desde _Home / Profile & Section Views / Sample Lines_, cree el grupo de líneas de muestreo estableciendo la superficie de terreno.
 
@@ -63,12 +63,29 @@ Establezca los siguientes parámetros:
 * Sampling incrementos / Increment Along Tangents = 82.369 (correspondiente a Lm/4)
 * Sampling incrementos / Increment Along Curves = 82.369 (correspondiente a Lm/4)
 * Sampling incrementos / Increment Along Spirals = 82.369 (correspondiente a Lm/4)
-* Additional Sample Controls / At Range Start: True (para crear una línea de muestreo al inicio del eje)
-* Additional Sample Controls / At Range End: True (para crear una línea de muestreo al final del eje)
+* Additional Sample Controls / At Range Start: True (para crear una línea de muestreo al inicio del eje del valle)
+* Additional Sample Controls / At Range End: True (para crear una línea de muestreo al final del eje del valle)
 
 <div align="center"><img src="graph/AutodeskCivil3D_SampleLines2.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
+6. Para facilitar el trazado del alineamiento sinuoso del cauce dominante, seleccione y oculte con el menú contextual y la opción _Isolate Objects / Hide Selected Objects_, las etiquetas de abscisado de las líneas de muestreo, las etiquetas de abscisado del eje del valle y los ejes offset del valle.
 
+> Los objetos aislados u ocultos pueden se pueden volver a visualizar dando clic en el botón _Unisolate Objects / End Object Isoletion_ de la barra de estado.
+
+<div align="center"><img src="graph/AutodeskCivil3D_IsolateObjects.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+
+7. Cree el alineamiento del cauce sinuoso con la opción dibujar alineamiento: _Home/ Create Desing/ Alignment/ Alignment Creation Tools_, definir el nombre de eje como _EjeSinuoso_ y establezca un radio de curvatura de 82 metros (obtenido del diseño sinuoso).
+
+<div align="center"><img src="graph/AutodeskCivil3D_Alignment.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+<div align="center"><img src="graph/AutodeskCivil3D_Alignment1.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+
+Para facilitar el empalme, ajuste las opciones de encajado u OSNAP (Tecla F3) a punto final y nodo.
+
+<div align="center"><img src="graph/AutodeskCivil3D_Alignment2.jpg" alt="rcfdtools" width="100%" border="0" /></div>
+
+8. Inicie el trazado al inicio del valle ajustando la curva de empalme del cauce natural con el eje del valle.
+
+<div align="center"><img src="graph/AutodeskCivil3D_Alignment3.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 
 

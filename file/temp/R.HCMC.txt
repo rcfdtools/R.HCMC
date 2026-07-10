@@ -23,8 +23,6 @@ n energy loss coefficient: 0.028
 
 
 Actividades pendientes
-	Quizzes: grades by self evaluation?
-	Check quizzes with Excel evaluation tables
 	Create Discussion for each activity.
 	Check cad files path.
 	Estructuras - Bifurcación.

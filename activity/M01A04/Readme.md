@@ -23,12 +23,12 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 | Requerimiento                                                                                                                       | Descripción                                                                       |
 |:------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                  | Microsoft Excel 365.                                                              |
-| [:toolbox:Herramienta](https://qgis.org/)                                                                                           | QGIS 3.42 o superior.                                                    |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                                                                  | Autodesk Civil 3D 2025 o superior.                                       |
-| [:round_pushpin:RD_EjeValleSuavizado_ AutodeskCivil3DClotoide.shp](../../file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.zip) | Clotoide eje valle suavizado en formato shapefile (creada en actividad anterior). |
-| [:round_pushpin:CGG_CurvaNivelLidar_v0.shp](../../file/shp/CGG_CurvaNivelLidar_v0.zip)                                              | Capa de curvas de nivel.                                                          |
-| [:round_pushpin:CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip)                                                | Capa de drenajes naturales.                                                       |
+| [🧰Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                  | Microsoft Excel 365.                                                              |
+| [🧰Herramienta](https://qgis.org/)                                                                                           | QGIS 3.42 o superior.                                                    |
+| [🧰Herramienta](https://www.autodesk.com/products/civil-3d)                                                                  | Autodesk Civil 3D 2025 o superior.                                       |
+| [📌RD_EjeValleSuavizado_ AutodeskCivil3DClotoide.shp](../../file/shp/RD_EjeValleSuavizado_AutodeskCivil3DClotoide.zip) | Clotoide eje valle suavizado en formato shapefile (creada en actividad anterior). |
+| [📌CGG_CurvaNivelLidar_v0.shp](../../file/shp/CGG_CurvaNivelLidar_v0.zip)                                              | Capa de curvas de nivel.                                                          |
+| [📌CGG_DrenajeNatural_v0.shp](../../file/shp/CGG_DrenajeNatural_v0.zip)                                                | Capa de drenajes naturales.                                                       |
 
 </div>
 

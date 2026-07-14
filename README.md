@@ -102,9 +102,9 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 
 ## Caso de estudio general y CRS
 
-🔍Corresponde a un caso de esutio hipotético para la implantación de un canal artificial necesario para desviar un río natural debido a que su trazado se encuentra sobre un yacimiento de minerales que serán explotados de forma intensiva y extensiva a cielo abierto. La información topográfica suministrada, así como la hidrología de la zona de estudio, drenajes naturales y otros elementos territoriales, corresponde a información real de la zona.
+Corresponde a un caso de esutio hipotético para la implantación de un canal artificial necesario para desviar un río natural debido a que su trazado se encuentra sobre un yacimiento de minerales que serán explotados de forma intensiva y extensiva a cielo abierto. La información topográfica suministrada, así como la hidrología de la zona de estudio, drenajes naturales y otros elementos territoriales, corresponde a información real de la zona.
 
-El curso y sus diferentes actividades prácticos, se ejemplifican a través de un caso de estudio general correspondiente al _**"Realineamiento del Arroyo El Zorro por implantación de actividades mineras de carbón a cielo abierto en el Departamento del Cesar - Colombia"**_
+El curso y sus diferentes actividades prácticos, se ejemplifican a través de un caso de estudio general correspondiente al _**"🔍Realineamiento del Arroyo El Zorro por implantación de actividades mineras de carbón a cielo abierto en el Departamento del Cesar - Colombia"**_
 
 Para el caso de estudio utilizaremos el sistema de proyección de coordenadas - [CRS Gauss Bogotá Magna](file/projectionfile), con los siguientes parámetros:
 

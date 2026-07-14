@@ -24,9 +24,9 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 | Requerimiento                                                                                                                                    | Descripción                                                                                 |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                               | Microsoft Excel 365.                                                                        |
-| [:toolbox:Herramienta](https://qgis.org/)                                                                                                        | QGIS 3.42 o superior.                                                                       |
-| [:open_file_folder:R.HydroTools.SinuosidadCauceAnalisis.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/SinuosidadCauceAnalisis)  | Libro de cálculo para análisis de sinuosidad.                                               |
+| [🧰Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                               | Microsoft Excel 365.                                                                        |
+| [🧰Herramienta](https://qgis.org/)                                                                                                        | QGIS 3.42 o superior.                                                                       |
+| [📅R.HydroTools.SinuosidadCauceAnalisis.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/SinuosidadCauceAnalisis)  | Libro de cálculo para análisis de sinuosidad.                                               |
 
 </div>
 

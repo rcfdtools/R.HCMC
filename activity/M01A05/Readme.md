@@ -24,9 +24,9 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 | Requerimiento                                                                                           | Descripción                                                    |
 |:--------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                | HEC-RAS 6.7 Beta 3 o superior.                                 |
-| [:toolbox:Herramienta](https://qgis.org/)                                          | QGIS 3.42 o superior.                                                    |
-| [:round_pushpin:RASMapper_SampleModelShapefile](../../file/shp/RASMapper_SampleModelShapefile.zip)      | Capas geográficas vectoriales para modelo de muestreo HEC-RAS. |
+| [🧰Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                | HEC-RAS 6.7 Beta 3 o superior.                                 |
+| [🧰Herramienta](https://qgis.org/)                                          | QGIS 3.42 o superior.                                                    |
+| [📌RASMapper_SampleModelShapefile](../../file/shp/RASMapper_SampleModelShapefile.zip)      | Capas geográficas vectoriales para modelo de muestreo HEC-RAS. |
 
 </div>
 

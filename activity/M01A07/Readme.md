@@ -29,10 +29,10 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 | Requerimiento                                                                                                                           | Descripción                                                                                                  |
 |:----------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                      | Microsoft Excel 365.                                                                                         |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                                                | HEC-RAS 6.6 o superior.                                                                                      |
-| [:open_file_folder:R.HydroTools.PendienteCauceValle.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/PendienteCauceValle) | Libro de cálculo para análisis de pendientes.                                                                |
-| [:open_file_folder:Modelo hidráulico HECRAS_v0](../../file/hec)                                                                         | Modelo hidráulico unidimensional de muestreo HEC-RAS v0 creado en actividad [M01A05](../M01A05/Readme.md).   |
+| [🧰Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                      | Microsoft Excel 365.                                                                                         |
+| [🧰Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                                                                | HEC-RAS 6.6 o superior.                                                                                      |
+| [📂Modelo hidráulico HECRAS_v0](../../file/hec)                                                                         | Modelo hidráulico unidimensional de muestreo HEC-RAS v0 creado en actividad [M01A05](../M01A05/Readme.md).   |
+| [📅R.HydroTools.PendienteCauceValle.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/PendienteCauceValle) | Libro de cálculo para análisis de pendientes.                                                                |
 
 </div>
 

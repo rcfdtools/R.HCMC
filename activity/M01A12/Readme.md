@@ -23,8 +23,8 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 | Requerimiento                                                                                                                          | Descripción                                                                            |
 |:---------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                     | Microsoft Excel 365.                                                                   |
-| [:open_file_folder:R.HydroTools. GradacionRugosidad.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/GradacionRugosidad) | Libro de cálculo para el análisis de los materiales del lecho y rugosidades de diseño. |
+| [🧰Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                     | Microsoft Excel 365.                                                                   |
+| [📅R.HydroTools. GradacionRugosidad.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/GradacionRugosidad) | Libro de cálculo para el análisis de los materiales del lecho y rugosidades de diseño. |
 
 </div>
 

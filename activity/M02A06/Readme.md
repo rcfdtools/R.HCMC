@@ -20,12 +20,12 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                                  | Descripción                                                                                                                                                     |
-|:---------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [🧰Herramienta](https://qgis.org/)                                                                      | QGIS 3.42 o superior.                                                                                                                                           |
-| [🧰Herramienta](https://www.autodesk.com/products/civil-3d)                                             | Autodesk Civil 3D 2026 (english version) o superior.                                                                                                            |
-| [📌Civil3D_MDT_CorredorValle_v1.dwg](../../file/cad/civil/Civil3D_MDT_CorredorValle_v1.zip)       | Archivo Autodesk Civil 3D con: DTM planicie y corredor del valle suavizado con relleno lateral de corte a -6:1, [v2](2) con relleno lateral a -3:1.             |
-| [📌Civil3D_MDT_CorredorValleRio_v1.dwg](../../file/cad/civil/Civil3D_MDT_CorredorValleRio_v1.zip) | Archivo Autodesk Civil 3D con: DTM planicie y corredor de valle suavizado con relleno lateral a -3:1, corredor cauce sinuoso sobre corredor de valle suavizado. |
+| Requerimiento                                                                                      | Descripción                                                                                                                                                     |
+|:---------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [🧰Herramienta](https://qgis.org/)                                                                 | QGIS 3.42 o superior.                                                                                                                                           |
+| [🧰Herramienta](https://www.autodesk.com/products/civil-3d)                                        | Autodesk Civil 3D 2026 (english version) o superior.                                                                                                            |
+| [📌Civil3D_MDT_ CorredorValle_v1.dwg](../../file/cad/civil/Civil3D_MDT_CorredorValle_v1.zip)       | Archivo Autodesk Civil 3D con: DTM planicie y corredor del valle suavizado con relleno lateral de corte a -6:1, [v2](2) con relleno lateral a -3:1.             |
+| [📌Civil3D_MDT_ CorredorValleRio_v1.dwg](../../file/cad/civil/Civil3D_MDT_CorredorValleRio_v1.zip) | Archivo Autodesk Civil 3D con: DTM planicie y corredor de valle suavizado con relleno lateral a -3:1, corredor cauce sinuoso sobre corredor de valle suavizado. |
 
 </div>
 

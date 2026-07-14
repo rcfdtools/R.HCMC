@@ -19,10 +19,10 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                           | Descripción                                                                                                                     |
-|:--------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                      | Microsoft Excel 365.                                                                                                            |
-|  [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                               | HEC-RAS 6.6 o superior.                                                  |
+| Requerimiento                                                               | Descripción                                                                                                                     |
+|:----------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------|
+| [🧰Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz) | Microsoft Excel 365.                                                                                                            |
+| [🧰Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)           | HEC-RAS 6.6 o superior.                                                  |
 
 </div>
 

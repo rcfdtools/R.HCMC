@@ -20,11 +20,11 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                                                          | Descripción                                                                |
-|:---------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                     | Microsoft Excel 365.                                                       |
-| [:toolbox:Herramienta](https://qgis.org/)                                                               | QGIS 3.42 o superior.                                                    |
-| [:open_file_folder:R.HydroTools.DisenoSinuosoCanal.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoSinuosoCanal)  | Libro de cálculo para el diseño geométrico horizontal sinuoso de canales.  |
+| Requerimiento                                                                                                         | Descripción                                                                 |
+|:----------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------|
+| [🧰Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                           | Microsoft Excel 365.                                                        |
+| [🧰Herramienta](https://qgis.org/)                                                                                    | QGIS 3.42 o superior.                                                       |
+| [📅R.HydroTools.DisenoSinuosoCanal.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoSinuosoCanal) | Libro de cálculo para el diseño geométrico horizontal sinuoso de canales.   |
 
 
 </div>

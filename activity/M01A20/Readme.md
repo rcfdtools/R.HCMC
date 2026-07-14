@@ -21,11 +21,11 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                                                                   | Descripción                                                         |
-|:------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------|
-| [🧰Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                              | Microsoft Excel 365.                                                |
-| [🧰Herramienta](https://qgis.org/)                                                                                                       | QGIS 3.42 o superior.                                               |
-| [📅R.HydroTools.DisenoEstructuraRapida.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraRapida)   | Libro de cálculo para el diseño hidráulico y geométrico de rápidas. |
+| Requerimiento                                                                                                                  | Descripción                                                         |
+|:-------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------|
+| [🧰Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                    | Microsoft Excel 365.                                                |
+| [🧰Herramienta](https://qgis.org/)                                                                                             | QGIS 3.42 o superior.                                               |
+| [📅R.HydroTools. DisenoEstructuraRapida.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoEstructuraRapida) | Libro de cálculo para el diseño hidráulico y geométrico de rápidas. |
 
 </div>
 

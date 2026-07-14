@@ -20,12 +20,12 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                                                           | Descripción                                                                                                                                                         |
-|:----------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [🧰Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                      | Microsoft Excel 365.                                                                                                                                                |
-| [🧰Herramienta](https://notepad-plus-plus.org/)                                                                                  | Notepad++.                                                                                                                                                          |
-| [🧰Herramienta](https://qgis.org/)                                                                                               | QGIS 3.42 o superior.                                                                                                                                               |
-| [📅R.HydroTools.DisenoPasoViaCanal.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoPasoViaCanal)   | Libro de cálculo para Diseño geométrico de pasos de vía en canales usando alcantarillas por área equivalente a descarga libre para modelos hidráulicos en HEC-RAS.  |
+| Requerimiento                                                                                                          | Descripción                                                                                                                                                         |
+|:-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [🧰Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                            | Microsoft Excel 365.                                                                                                                                                |
+| [🧰Herramienta](https://notepad-plus-plus.org/)                                                                        | Notepad++.                                                                                                                                                          |
+| [🧰Herramienta](https://qgis.org/)                                                                                     | QGIS 3.42 o superior.                                                                                                                                               |
+| [📅R.HydroTools. DisenoPasoViaCanal.xlsm](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/DisenoPasoViaCanal) | Libro de cálculo para Diseño geométrico de pasos de vía en canales usando alcantarillas por área equivalente a descarga libre para modelos hidráulicos en HEC-RAS.  |
 
 </div>
 

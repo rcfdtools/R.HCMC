@@ -22,9 +22,9 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 | Requerimiento                                                                                    | Descripción                                                                                                                                                    |
 |:-------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                                        | QGIS 3.42 o superior.                                                                                                                                          |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                         | HEC-RAS 6.7 Beta 3 o superior.                                                                                                                                 |
-| [:open_file_folder:Modelo hidráulico HECRAS_v1](../../file/hec)                                  | Modelo hidráulico unidimensional HEC-RAS v1 depurado con inclusión de diques y condiciones de frontera, completado en actividad [M03A03](../M03A03/Readme.md). |
+| [🧰Herramienta](https://qgis.org/)                                                        | QGIS 3.42 o superior.                                                                                                                                          |
+| [🧰Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                         | HEC-RAS 6.7 Beta 3 o superior.                                                                                                                                 |
+| [📂Modelo hidráulico HECRAS_v1](../../file/hec)                                  | Modelo hidráulico unidimensional HEC-RAS v1 depurado con inclusión de diques y condiciones de frontera, completado en actividad [M03A03](../M03A03/Readme.md). |
 
 </div>
 

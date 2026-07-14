@@ -26,14 +26,14 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                                                            | Descripción                                                                                            |
-|:-----------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                                       | Microsoft Excel 365.                                                                                   |
-| [:toolbox:Herramienta](https://qgis.org/)                                                                                                | QGIS 3.42 o superior.                                                    |
-| [:toolbox:Herramienta](https://www.autodesk.com/products/civil-3d)                                                                       | Autodesk Civil 3D 2025 o superior.                                       |
-| [:open_file_folder:R.HCMC.NodoValle.xlsx](../../file/table/R.HCMC.NodoValle.xlsx)                                                        | Puntos de localización para el trazado del valle compuesto por tramos rectos.                                                                                                                                                                                                                  |
-| [:round_pushpin:R.HCMC.NodoValle.shp](../../file/shp/R.HCMC.NodoValle.zip)                                                               | Capa de nodos eje valle recto (creada en actividad anterior).                                          |
-| [:open_file_folder:R.HydroTools. RadioCurvaturaValle.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/RadioCurvaturaValle) | Libro de cálculo para la Estimación del radio de curvatura para el suavizado del valle en canales, Rc. |
+| Requerimiento                                                                                                            | Descripción                                                                                            |
+|:-------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------|
+| [🧰Herramienta](https://www.microsoft.com/es/microsoft-365/excel?market=bz)                                              | Microsoft Excel 365.                                                                                   |
+| [🧰Herramienta](https://qgis.org/)                                                                                       | QGIS 3.44 o superior.                                                                                  |
+| [🧰Herramienta](https://www.autodesk.com/products/civil-3d)                                                              | Autodesk Civil 3D 2025 o superior.                                                                     |
+| [📅R.HCMC.NodoValle.xlsx](../../file/table/R.HCMC.NodoValle.xlsx)                                                        | Puntos de localización para el trazado del valle compuesto por tramos rectos.                          |
+| [📅R.HCMC.NodoValle.shp](../../file/shp/R.HCMC.NodoValle.zip)                                                            | Capa de nodos eje valle recto (creada en actividad anterior).                                          |
+| [📅R.HydroTools. RadioCurvaturaValle.xlsx](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/RadioCurvaturaValle) | Libro de cálculo para la Estimación del radio de curvatura para el suavizado del valle en canales, Rc. |
 
 </div>
 

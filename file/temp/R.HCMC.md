@@ -5,34 +5,13 @@
 * <a href="https://www.youtube.com/playlist?list=PLZGvAjHkhphC6-YIjf-L9g8FSmn1y8n8a" target="_blank"><img src="https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/CaseUse/.icons/IconCEHYouTube.svg" alt="R.LTWB" width="100px" border="0" /></a><sub><br>Playlist (hasta año 2024)</sub>
 
 
-## Examen parameters
-
-* ✏️ Ejercicio: para los siguientes parámetros estime
-* Q, caudal de diseño (m³/s): 236
-* Y, Yn  profundidad de flujo (m): 2.2
-* V, velocidad media del flujo (m/s): 2.8
-* T, ancho superficial corona valle (m): 184
-* b, base del canal (m): 94
-* Tipo de canal: Drejane, Colector
-* Longitud de cauce principal (m): 7546
-* Longitud euclidiana de valle (m): 4326
-* Longitud de valle suavizado (m): 4640
-* Rc, radio de curvatura eje valle (m): 1480
-* z1 left side slope: 2
-* z2 right side slope: 3
-* So channel slope: 0.0001734
-* n energy loss coefficient: 0.028
-
-
 ## Actividades pendientes
 
-* Create Discussion for each activity.
-* Check cad files path.
 * Estructuras - Bifurcación.
 * Estructuras - Unión.
 * Estructuras - Derivación.
 * Estructuras - Unión.
-* Incluir fotos y videos en actividades.
+* Incluir fotos y videos de visita de campo en actividades.
 * Gráfica calificación Excel: 9x16
 
 

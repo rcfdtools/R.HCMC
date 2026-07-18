@@ -57,10 +57,14 @@ El curso está dirigido a los siguientes estudiantes y/o profesionales y su desa
 
 > Las entregas solo son válidas Sí en la carpeta `/report` del repositorio se encuentra cada informe técnico en las fechas y horas límite establecidas.
 
+<div align="center">
+
 | Entrega       |  Calificación  | Descripción                                                                                                                                                                                                                                                                                                                                              |
 |:--------------|:--------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Regular       |      5.0       | Domingo hasta las 12:00 de la media noche                                                                                                                                                                                                                                                                                                                |
 | Extemporánea  |      4.0       | Martes hasta las 12:00 de la noche                                                                                                                                                                                                                                                                                                                       |
+
+</div>
 
 > 📝**Informe técnico**: solo será válido si en cada una de las capturas de pantalla se observa su código de alumno en el título o nombre de archivo. Para las capturas de pantalla puede utilizar la Herramienta de Recortes o Snipping Tool, las teclas <kbd>Win</kbd>+<kbd>PrtScn</kbd> para guardar capturas de toda la ventana en la carpeta de imágenes, las teclas <kbd>Win</kbd>+<kbd>G</kbd> para obtener capturas desde la Game Bar, o las teclas <kbd>Win</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd> para capturas instantáneas. Una vez finalizada la elaboración del informe técnico, este debe ser convertido a formato Adobe Acrobat .pdf y adjuntado a la actividad.
 

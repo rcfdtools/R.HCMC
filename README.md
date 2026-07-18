@@ -55,7 +55,7 @@ El curso está dirigido a los siguientes estudiantes y/o profesionales y su desa
 
 **Control de entregas**
 
-Las entregas solo son válidas Sí en la carpeta `/report` del repositorio se encuentra el informe técnico en la fecha y hora límite establecida.
+> Las entregas solo son válidas Sí en la carpeta `/report` del repositorio se encuentra cada informe técnico en las fechas y horas límite establecidas.
 
 | Entrega       |  Calificación  | Descripción                                                                                                                                                                                                                                                                                                                                              |
 |:--------------|:--------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

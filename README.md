@@ -14,7 +14,7 @@ Bienvenid@, en este curso los participantes recibirán conceptos y metodologías
 
 <div align="center"><img src="file/graph/Gemini_Generated_Image_wujtfuwujtfuwujt_rounded.png" alt="R.HCMC" width="60%" border="0" /><sub><br> Generado con: <a href="https://gemini.google.com/app/da5e04ff83f70704">https://gemini.google.com</a></sub><br><br></div>
 
-_Globalmente, diversos proyectos de ingeniería alteran el curso natural de los cauces transformando su morfología y comportamiento hidráulico. El diseño fluvial tiene como objetivo replicar el comportamiento natural de los cauces intervenidos a través del trazado de nuevos canales artificiales que cumplan con los parámetros de diseño establecidos._
+_Globalmente, diversos proyectos de ingeniería alteran el curso natural de los cauces transformando su morfología y comportamiento hidráulico. El diseño y la modelación de ríos, tiene como objetivo replicar el comportamiento natural de los cauces intervenidos a través del trazado de nuevos canales artificiales que cumplan con los parámetros establecidos._
 
 
 ## Objetivos del curso

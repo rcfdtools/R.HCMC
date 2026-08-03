@@ -32,7 +32,7 @@ _Globalmente, diversos proyectos de ingeniería alteran el curso natural de los 
 * Generar planos de ingeniería de detalle del diseño realizado, utilizando Autodesk Civil 3D.
 
 
-## Participantes, metodología y sistema de evaluación
+## Participantes, metodología y evaluación
 
 El curso está dirigido a los siguientes estudiantes y/o profesionales y su desarrollo será realizado utilizando la metodología descrita:
 
